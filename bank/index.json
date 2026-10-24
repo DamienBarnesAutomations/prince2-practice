@@ -1,7 +1,7 @@
 {
   "version": 1,
   "edition": "PRINCE2 7",
-  "total": 109,
+  "total": 261,
   "sets": [
     {
       "id": "ch02",
@@ -18,6 +18,22 @@
       "title": "Organizing",
       "file": "bank/ch06.json",
       "count": 52
+    },
+    {
+      "id": "ch07",
+      "order": 7,
+      "kind": "chapter",
+      "title": "Plans",
+      "file": "bank/ch07.json",
+      "count": 86
+    },
+    {
+      "id": "ch09",
+      "order": 9,
+      "kind": "chapter",
+      "title": "Risk",
+      "file": "bank/ch09.json",
+      "count": 66
     }
   ]
 }

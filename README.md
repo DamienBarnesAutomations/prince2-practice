@@ -125,7 +125,9 @@ question bank.
 |---|---|
 | Ch 2 — Principles | 57 |
 | Ch 6 — Organizing | 52 |
-| Ch 1, 3–5, 7–19, Appendix A, Appendix B | not written yet |
+| Ch 7 — Plans | 86 |
+| Ch 9 — Risk | 66 |
+| Ch 1, 3–5, 8, 10–19, Appendix A, Appendix B | not written yet |
 
 ## Progress storage
 

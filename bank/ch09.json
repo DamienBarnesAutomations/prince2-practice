@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "ch09-001",
+    "set": "ch09",
+    "section": "9.1",
+    "topic": "Purpose of risk",
+    "difficulty": 1,
+    "stem": "What is the purpose of the risk practice?",
+    "answer": "To identify, assess and control uncertainties that would affect the project's objectives",
+    "distractors": [
+      "To define the project's structure of accountability and responsibilities",
+      "To define the products to be delivered and the means to deliver them",
+      "To describe the quality criteria and acceptance methods for each product",
+      "To capture, assess and control changes and other issues",
+      "To decide how the project's products will be transitioned into operational use",
+      "To keep the project's justification under review and record the benefits"
+    ],
+    "explanation": "The key message is that the risk practice identifies, assesses and controls uncertainties affecting the project's objectives, improving the project's ability to succeed. Changes and issues sit with the issues practice; justification with the business case.",
+    "source": "p.148"
+  },
+  {
+    "id": "ch09-002",
+    "set": "ch09",
+    "section": "9.1",
+    "topic": "Definition of risk",
+    "difficulty": 1,
+    "stem": "How does the manual define a risk?",
+    "answer": "An uncertain event or set of events that, should it occur, will affect the achievement of objectives",
+    "distractors": [
+      "Any event that has already occurred and now threatens the project's objectives",
+      "A known problem that the project manager must resolve within the current stage",
+      "A deviation from the plan that breaches an agreed tolerance",
+      "A decision that the project board has deferred to a later stage boundary",
+      "An assumption recorded in the plan that has not yet been validated",
+      "A dependency on an external product outside the project's control"
+    ],
+    "explanation": "A risk is an uncertain event or set of events that, should it occur, will affect the achievement of objectives, measured by the probability of the threat or opportunity and the magnitude of its impact. Once it has happened, it is an issue, not a risk.",
+    "source": "p.148"
+  },
+  {
+    "id": "ch09-003",
+    "set": "ch09",
+    "section": "9.1",
+    "topic": "Threats and opportunities",
+    "difficulty": 2,
+    "stem": "Which statement about threats and opportunities is correct?",
+    "answer": "A threat is an uncertain event with a negative impact on objectives and an opportunity one with a positive impact",
+    "distractors": [
+      "A threat is certain to occur and an opportunity is uncertain",
+      "A threat affects cost and an opportunity affects benefits only",
+      "A threat is owned by the project board and an opportunity by the business layer",
+      "A threat is recorded in the risk register and an opportunity in the lessons log",
+      "A threat is assessed quantitatively and an opportunity qualitatively",
+      "A threat arises internally and an opportunity arises externally"
+    ],
+    "explanation": "PRINCE2 uses threat for uncertain events that would have a negative impact on objectives and opportunity for those that would have a positive impact. Both are risks and both live in the risk register.",
+    "source": "p.148"
+  },
+  {
+    "id": "ch09-004",
+    "set": "ch09",
+    "section": "9.1",
+    "topic": "Risk standard",
+    "difficulty": 2,
+    "stem": "Which international standard is the PRINCE2 approach to managing risk aligned with?",
+    "answer": "ISO 31000",
+    "distractors": [
+      "ISO 9001",
+      "ISO 27001",
+      "ISO 14001",
+      "ISO 45001",
+      "ISO 21500",
+      "ISO 20000"
+    ],
+    "explanation": "The manual states that the PRINCE2 approach to risk management is aligned with ISO 31000, the international standard for risk management. It is also aligned with regional variants of that standard and can be tailored to local requirements.",
+    "source": "p.148"
+  },
+  {
+    "id": "ch09-005",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Effective risk management",
+    "difficulty": 2,
+    "stem": "Which of these is required for risk management to be effective?",
+    "answer": "Each risk is assigned and owned by a risk owner, with responses planned and assigned to people who can take ownership and act",
+    "distractors": [
+      "Every risk is escalated to the project board as soon as it is identified",
+      "Risks are reviewed only at stage boundaries to avoid unnecessary meetings",
+      "All risks are recorded in the business case rather than the risk register",
+      "Risks are owned collectively by the project team so no one is blamed",
+      "Only threats are managed, because opportunities belong to the business",
+      "Risk management is performed by project assurance on the board's behalf"
+    ],
+    "explanation": "Effective risk management requires risks to be identified and described, assessed and prioritized, the overall exposure reviewed against business justification, responses planned and assigned, implemented and monitored, communicated to stakeholders, and each risk assigned and owned by a risk owner.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-006",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Risk definitions",
+    "difficulty": 2,
+    "stem": "Who is the risk owner?",
+    "answer": "The person assigned to take responsibility for responding to a risk",
+    "distractors": [
+      "The person nominated to own an agreed action to respond to a risk",
+      "The project board member who is accountable for the risk appetite",
+      "The person who first identified the risk",
+      "The project manager, because they own the risk register",
+      "The person who funds the risk budget",
+      "The assurance role that reviews the risk response"
+    ],
+    "explanation": "The risk owner is assigned responsibility for responding to a risk, including management, monitoring and control of all aspects of it. The person who owns an agreed action is the risk action owner, also called the risk actionee.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-007",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Risk definitions",
+    "difficulty": 2,
+    "stem": "What does risk proximity measure?",
+    "answer": "How near in time a risk might occur",
+    "distractors": [
+      "How quickly a risk would affect objectives if it occurred",
+      "The chance that a risk will occur",
+      "The size of the effect on objectives if the risk occurred",
+      "The degree to which an objective is at risk",
+      "The amount of risk the business is willing to take",
+      "The cost of the planned response to the risk"
+    ],
+    "explanation": "Proximity is how near in time a risk might occur. Velocity is how quickly it would have an impact, probability is the chance of occurrence, and impact is the size of the effect.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-008",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Risk definitions",
+    "difficulty": 3,
+    "stem": "Which statement about risk exposure is correct?",
+    "answer": "It is the degree to which a particular objective is at risk, and it is neutral because exposure can be positive or negative",
+    "distractors": [
+      "It is the financial loss expected if all identified threats occur",
+      "It is the amount of money ring-fenced to fund risk responses",
+      "It is the threshold above which a risk must be escalated to the board",
+      "It is the total number of risks currently open in the risk register",
+      "It is the probability multiplied by impact for threats only",
+      "It is the business's willingness to take risk in pursuit of objectives"
+    ],
+    "explanation": "Risk exposure is the degree to which an objective is at risk, and the manual notes it is a neutral concept because exposure can be positive or negative. The financial reserve is the risk budget, and willingness to take risk is the risk appetite.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-009",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Risk definitions",
+    "difficulty": 2,
+    "stem": "How does the manual define risk tolerance?",
+    "answer": "A measurable threshold representing the tolerable range of outcomes for an objective at risk, in the same units used to measure that objective",
+    "distractors": [
+      "The amount and type of risk the business is willing to take in pursuit of its objectives",
+      "The sum of money set aside to fund responses to threats and opportunities",
+      "The probability above which a risk is reported to the project board",
+      "The difference between the planned and actual cost of a stage",
+      "The maximum number of risks that may be open at any one time",
+      "The level of risk the project manager may accept without escalation"
+    ],
+    "explanation": "Risk tolerance is a measurable threshold for the tolerable range of outcomes for each objective at risk, using the same units as performance measurement. Risk appetite is the amount and type of risk the business is willing to take.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-010",
+    "set": "ch09",
+    "section": "9.2",
+    "topic": "Risk definitions",
+    "difficulty": 2,
+    "stem": "What is the risk budget?",
+    "answer": "A sum of money to fund specific management responses to the project's threats and opportunities",
+    "distractors": [
+      "The total contingency added to every work package in the project",
+      "The amount the business is willing to lose before cancelling the project",
+      "The cost of the risk management approach and the risk register",
+      "The difference between the project budget and the stage budgets",
+      "The funding reserved for unidentified changes to requirements",
+      "The threshold above which risks must be escalated to the business layer"
+    ],
+    "explanation": "The risk budget is a sum of money to fund specific management responses to threats and opportunities, for example covering contingent plans if a risk materializes. It sits within the project budget but is not simply another pot for the project manager to spend.",
+    "source": "p.149"
+  },
+  {
+    "id": "ch09-011",
+    "set": "ch09",
+    "section": "9.2.1",
+    "topic": "Risk planning",
+    "difficulty": 2,
+    "stem": "Who sets the risk tolerance, and on what basis?",
+    "answer": "The project board, based on the business's overall risk appetite",
+    "distractors": [
+      "The project manager, based on the stage plan estimates",
+      "The business layer, based on the project mandate",
+      "The executive alone, based on the business case",
+      "Project assurance, based on the risk register",
+      "The programme manager, based on the programme risk budget",
+      "The senior supplier, based on the supplier's contractual risk"
+    ],
+    "explanation": "A key item recorded in the risk management approach is the board's attitude towards risk-taking, documented as the risk tolerance. The board sets it based on the business's overall risk appetite.",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-012",
+    "set": "ch09",
+    "section": "9.2.1",
+    "topic": "Risk planning",
+    "difficulty": 3,
+    "stem": "Which set correctly describes the cause, event and effect of a risk?",
+    "answer": "The cause is the source or driver, the event is the area of uncertainty as a threat or opportunity, and the effect is the impact on objectives if it materializes",
+    "distractors": [
+      "The cause is the impact on objectives, the event is the source, and the effect is the response",
+      "The cause is the probability, the event is the impact, and the effect is the proximity",
+      "The cause is the response, the event is the risk owner, and the effect is the residual risk",
+      "The cause is the risk appetite, the event is the tolerance, and the effect is the exposure",
+      "The cause is the risk event, the event is the risk driver, and the effect is the risk budget",
+      "The cause is the threat, the event is the opportunity, and the effect is the secondary risk"
+    ],
+    "explanation": "PRINCE2 expresses a risk through cause (the source or driver, sometimes called the trigger point), event (the area of uncertainty, framed as a threat or opportunity) and effect (the impact on objectives if it materializes).",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-013",
+    "set": "ch09",
+    "section": "9.2.1",
+    "topic": "Risk planning",
+    "difficulty": 3,
+    "stem": "\"Insufficient staffing capacity could lead to the business being unable to provide enough staff to complete user training in the planned timescales, resulting in the project taking longer than planned.\" Which part is the risk event?",
+    "answer": "The business being unable to provide enough staff to complete user training in the planned timescales",
+    "distractors": [
+      "Insufficient staffing capacity",
+      "The project taking longer than planned",
+      "The user training that the project must deliver",
+      "The planned timescales for the training",
+      "The project board's risk tolerance for time",
+      "The risk response of recruiting temporary trainers"
+    ],
+    "explanation": "The manual's own threat example maps insufficient staffing capacity to the cause, the inability to provide enough staff to complete user training in the planned timescales to the event, and the project taking longer than planned to the effect.",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-014",
+    "set": "ch09",
+    "section": "9.2.1",
+    "topic": "Risk planning",
+    "difficulty": 2,
+    "stem": "What is the role of risk categories in the risk practice?",
+    "answer": "They help the project to identify and prioritize risks, and to identify appropriate owners",
+    "distractors": [
+      "They fix the risk tolerance for each objective at risk",
+      "They determine which risks must be transferred to a supplier",
+      "They replace the risk register for small projects",
+      "They set the risk budget for each stage",
+      "They define the escalation route for each risk",
+      "They record the lessons learned from previous projects"
+    ],
+    "explanation": "Risk categories help identify and prioritize risks. Techniques such as PESTLE and SWOT help analyse the internal and external context and identify types of risk such as sustainability, cybersecurity or systems integration, and understanding the type also helps identify appropriate owners.",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-015",
+    "set": "ch09",
+    "section": "9.2.2",
+    "topic": "Risk analysis",
+    "difficulty": 2,
+    "stem": "What is the minimum qualitative assessment of a risk?",
+    "answer": "Its probability and its impact",
+    "distractors": [
+      "Its proximity and its velocity",
+      "Its cause and its effect",
+      "Its owner and its action owner",
+      "Its risk budget and its tolerance",
+      "Its category and its identifier",
+      "Its expected monetary value and its residual risk"
+    ],
+    "explanation": "Qualitative analysis includes, as a minimum, assessing probability (chance of occurrence) and impact (size of the effect on one or more objectives). Proximity and velocity are further qualitative assessments; EMV is a quantitative comparison.",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-016",
+    "set": "ch09",
+    "section": "9.2.2",
+    "topic": "Risk matrix",
+    "difficulty": 3,
+    "stem": "On a risk matrix, what do the risks above and to the right of the dashed risk tolerance line represent?",
+    "answer": "Those the business will not tolerate except under special circumstances",
+    "distractors": [
+      "Those that have already occurred and become issues",
+      "Those that have been accepted by the risk owner",
+      "Those with the lowest probability but the highest impact",
+      "Those that no longer need a risk owner",
+      "Those that must be transferred to a third party",
+      "Those that fall within the project manager's delegated authority"
+    ],
+    "explanation": "The matrix is a snapshot at a point in time, showing the set of risks and their estimates. Risks above and to the right of the dashed tolerance line are those the business will not tolerate except under special circumstances, which in the illustrated case the project manager refers to the project board.",
+    "source": "p.150"
+  },
+  {
+    "id": "ch09-017",
+    "set": "ch09",
+    "section": "9.2.2",
+    "topic": "Risk matrix",
+    "difficulty": 3,
+    "stem": "A risk previously recorded as low probability and high impact is now shown with increased probability on the matrix. What does this illustrate?",
+    "answer": "That the risk matrix can be used to show trends over time",
+    "distractors": [
+      "That the risk has been transferred to another party",
+      "That the risk tolerance line has been tightened",
+      "That the risk should be removed from the risk register",
+      "That the risk has become an opportunity",
+      "That the risk's velocity has fallen to zero",
+      "That the risk response has been implemented successfully"
+    ],
+    "explanation": "The manual uses exactly this example to show that the risk matrix can be used to show trends, not just a single snapshot. The matrix represents a situation at a specific point in time, so successive versions reveal movement.",
+    "source": "p.151"
+  },
+  {
+    "id": "ch09-018",
+    "set": "ch09",
+    "section": "9.2.2",
+    "topic": "Quantitative risk analysis",
+    "difficulty": 2,
+    "stem": "Which technique does the manual give as an example of quantitative risk assessment?",
+    "answer": "Monte Carlo analysis",
+    "distractors": [
+      "PESTLE analysis",
+      "SWOT analysis",
+      "A pre-mortem",
+      "The Swiss cheese model",
+      "A prompt list",
+      "A cause and effect diagram"
+    ],
+    "explanation": "Quantitative risk assessment uses modelling techniques such as Monte Carlo analysis to calculate overall risk exposure and analyse the effects of risk, including quantitative risk cost analysis and quantitative risk schedule analysis.",
+    "source": "p.151"
+  },
+  {
+    "id": "ch09-019",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 2,
+    "stem": "Which response makes an uncertain situation certain by removing the risk, often by removing the cause of a threat?",
+    "answer": "Avoid the threat",
+    "distractors": [
+      "Reduce the threat",
+      "Transfer the risk",
+      "Share the risk",
+      "Accept the risk",
+      "Prepare a contingent plan"
+    ],
+    "explanation": "Avoiding a threat, or exploiting an opportunity, makes an uncertain situation certain by removing the risk. It can sometimes be achieved at no extra cost by changing the way the work is planned, but where costs are incurred they must be justified.",
+    "source": "p.151"
+  },
+  {
+    "id": "ch09-020",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 2,
+    "stem": "What does reducing a threat involve?",
+    "answer": "Making the threat less likely to occur or reducing its impact if it did",
+    "distractors": [
+      "Removing the cause of the threat entirely so that it cannot occur",
+      "Passing part of the risk to a third party such as an insurer",
+      "Sharing the risk with suppliers on a pain or gain share basis",
+      "Taking the chance that the risk will occur and managing the full impact",
+      "Preparing a plan but waiting to take action until the risk materializes",
+      "Increasing the probability of an associated opportunity"
+    ],
+    "explanation": "Reducing a threat, or mitigating it, means taking definite action now to change the probability or impact — making it less likely or less damaging. Enhancing an opportunity is the reverse process.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-021",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 3,
+    "stem": "What distinguishes sharing a risk from transferring it?",
+    "answer": "Sharing seeks multiple parties, typically in a supply chain, to share the risk on a pain or gain share basis",
+    "distractors": [
+      "Sharing passes the whole risk to a third party, whereas transfer passes only part",
+      "Sharing is used only for opportunities, whereas transfer is used only for threats",
+      "Sharing means accepting the risk, whereas transfer means avoiding it",
+      "Sharing requires an insurance premium, whereas transfer requires a contract",
+      "Sharing removes residual risk entirely, whereas transfer leaves it with the business",
+      "Sharing is only available to projects within a programme"
+    ],
+    "explanation": "Transfer aims to impart part of the risk to a third party, with insurance the most common form. Sharing is different in nature: it seeks multiple parties, typically within a supply chain, to share the risk on a pain or gain share basis. Risks can rarely be entirely shared.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-022",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 2,
+    "stem": "What happens to residual risk when the accept option is used?",
+    "answer": "There is no change to residual risk, and no costs are incurred now to manage the risk",
+    "distractors": [
+      "Residual risk is reduced to zero because the risk is removed",
+      "Residual risk is transferred to the party best able to manage it",
+      "Residual risk increases because no response is planned",
+      "Residual risk is recorded as an issue in the issue register",
+      "Residual risk becomes the responsibility of the project board",
+      "Residual risk is covered by the change budget rather than the risk budget"
+    ],
+    "explanation": "Accepting the risk means the business takes the chance it will occur and manages the full impact if it does. There is no change to residual risk, but neither are any costs incurred now to manage it or prepare to manage it. It would not be appropriate if exposure exceeded the risk tolerance.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-023",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 3,
+    "stem": "What is a fallback plan?",
+    "answer": "A contingent plan for what will be done if the original response does not work",
+    "distractors": [
+      "A plan for removing the cause of a threat before it occurs",
+      "A plan that replaces the stage plan after an exception",
+      "A plan for transferring the residual risk to an insurer",
+      "A plan prepared only when the accept response is chosen",
+      "A plan for escalating the risk to the project board",
+      "A plan for recording the risk in the risk register"
+    ],
+    "explanation": "Preparing contingent plans involves planning but waiting to act. It is usually associated with acceptance, but applies to every response: it is often called a fallback plan, the plan if the original response does not work, including where avoiding a threat or exploiting an opportunity fails.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-024",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 2,
+    "stem": "What is residual risk?",
+    "answer": "The largest realistic probability or size of impact that remains after a threat has been reduced rather than removed",
+    "distractors": [
+      "The risk that remains in the register after the project closes",
+      "The difference between the risk budget and the cost of responses",
+      "The risk created by implementing a risk response",
+      "The risk that the project board has decided to accept",
+      "The risk transferred to a third party under a contract",
+      "The risk that falls below the risk tolerance line"
+    ],
+    "explanation": "Where a threat is reduced rather than removed, the largest realistic probability or size of impact that remains is the residual risk. If it is significant, more than one response may be appropriate. A risk created by implementing a response is a secondary risk.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-025",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 3,
+    "stem": "What is a secondary risk?",
+    "answer": "A risk that occurs as a result of invoking a risk response",
+    "distractors": [
+      "A risk that has been reduced but not removed",
+      "A risk that is shared with another party in the supply chain",
+      "A risk that the project board has escalated to the business",
+      "A risk that was identified after the risk register was baselined",
+      "A risk that affects a secondary objective rather than the primary objective",
+      "A risk that has moved above the tolerance line on the matrix"
+    ],
+    "explanation": "Implementing a response can change some aspect of the project and create secondary risks. These must be identified, assessed and controlled in the same way as the originally identified risk.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-026",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 3,
+    "stem": "How does the manual suggest assessing whether a risk response is worth its cost?",
+    "answer": "Compare the cost of the response with the reduction in the expected monetary value of the risk, before and after the response",
+    "distractors": [
+      "Compare the cost of the response with the total project budget",
+      "Compare the response cost with the risk budget for the stage",
+      "Compare the response cost with the cost of the project's insurance premiums",
+      "Compare the response cost with the cost of the project's change budget",
+      "Compare the response cost with the value of the benefits in the business case",
+      "Compare the response cost with the cost of the cheapest available response"
+    ],
+    "explanation": "Compare the cost of the risk response with the difference in expected monetary value — the estimated most likely financial impact multiplied by probability — before and after the response. If the response costs less than the reduction in EMV, it is usually worth doing, though the overall burden on the team also matters.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-027",
+    "set": "ch09",
+    "section": "9.2.3.1",
+    "topic": "Risk responses",
+    "difficulty": 3,
+    "stem": "Why does the manual say currency fluctuations should be framed as two risks rather than one?",
+    "answer": "Because the impact could be positive or negative, and two risks allow different responses to the loss and the gain",
+    "distractors": [
+      "Because one risk belongs to the supplier and the other to the customer",
+      "Because the probability and impact must be assessed separately",
+      "Because one is a threat to the business case and the other to the stage plan",
+      "Because the risk budget can only fund one of them",
+      "Because the risk register requires one entry per objective",
+      "Because one risk must be transferred and the other accepted"
+    ],
+    "explanation": "A risk is the relationship between the uncertain event and its impact. Where the impact could be positive or negative, that counts as two risks — one leading to loss and one to gain — so that different responses can be taken to each.",
+    "source": "p.152"
+  },
+  {
+    "id": "ch09-028",
+    "set": "ch09",
+    "section": "9.2.3.2",
+    "topic": "Risk owners",
+    "difficulty": 3,
+    "stem": "An action needed to address a risk falls outside the risk owner's remit. What does the manual require?",
+    "answer": "A nominated risk action owner, who keeps the risk owner up to date",
+    "distractors": [
+      "The risk is transferred to the party that controls the action",
+      "The risk owner escalates the risk to the project board and relinquishes ownership",
+      "The action is recorded as a secondary risk in the risk register",
+      "The project manager becomes the risk owner for that risk",
+      "The risk is accepted, because it cannot be controlled",
+      "The action is deferred until the next stage boundary"
+    ],
+    "explanation": "Some actions are not within the risk owner's remit to control. In that situation there should be a nominated owner of the action, the risk action owner, who keeps the risk owner up to date.",
+    "source": "p.153"
+  },
+  {
+    "id": "ch09-029",
+    "set": "ch09",
+    "section": "9.2.3.3",
+    "topic": "Risk budget",
+    "difficulty": 2,
+    "stem": "Why does the manual say it is prudent to include a provision for unknown risks in the risk budget?",
+    "answer": "Because new risks may be identified during the project whose response costs were not included in the budget",
+    "distractors": [
+      "Because known risks always cost more than their initial estimate",
+      "Because the project board may increase the risk tolerance during the project",
+      "Because the risk budget must cover the cost of the risk management approach",
+      "Because the change budget cannot be used for risk responses",
+      "Because suppliers charge a premium for risks transferred to them",
+      "Because unidentified risks cannot be recorded in the risk register"
+    ],
+    "explanation": "As the project progresses, some identified risks occur and others do not, and new risks are identified whose response costs were not in the risk budget. A provision for unknown risks is therefore prudent.",
+    "source": "p.154"
+  },
+  {
+    "id": "ch09-030",
+    "set": "ch09",
+    "section": "9.2.3.3",
+    "topic": "Risk budget",
+    "difficulty": 3,
+    "stem": "What does the manual warn about treating the risk budget as just another sum of money the project manager can spend?",
+    "answer": "That culture should be discouraged, and the risk management approach should define mechanisms for control of and access to the budget",
+    "distractors": [
+      "That approach is encouraged, because the project manager owns all project budgets",
+      "That approach is acceptable provided the spend is reported in highlight reports",
+      "That approach is required, because the board cannot approve individual responses",
+      "That approach should be replaced by putting the money into the change budget",
+      "That approach is acceptable only for projects using an iterative delivery method",
+      "That approach is prohibited, so the risk budget must be held by the business layer"
+    ],
+    "explanation": "Because the risk budget is part of the project budget there is a tendency to treat it as spendable, and the manual says this culture should be discouraged. The risk management approach should define the mechanisms for control of and access to it.",
+    "source": "p.154"
+  },
+  {
+    "id": "ch09-031",
+    "set": "ch09",
+    "section": "9.2.4",
+    "topic": "Risk culture",
+    "difficulty": 2,
+    "stem": "Which bias describes valuing social cohesion in a group more than expressing an alternative point of view or reaching the right decision?",
+    "answer": "Groupthink",
+    "distractors": [
+      "Optimism bias",
+      "Loss aversion",
+      "Proximity bias",
+      "Confirmation bias",
+      "Anchoring bias",
+      "Survivorship bias"
+    ],
+    "explanation": "The manual names optimism bias, loss aversion, groupthink and proximity bias. Groupthink is the mindset where people value social cohesion in the group more than expressing an alternative view or reaching the right decision.",
+    "source": "p.154"
+  },
+  {
+    "id": "ch09-032",
+    "set": "ch09",
+    "section": "9.2.4",
+    "topic": "Risk culture",
+    "difficulty": 3,
+    "stem": "A risk team consistently rates a threat lower than the evidence suggests, assuming things will work out well. Which bias does this illustrate, and what does it cause?",
+    "answer": "Optimism bias, which drives people to discount disadvantageous risk",
+    "distractors": [
+      "Loss aversion, which makes people avoid making a gain",
+      "Groupthink, which makes people value social cohesion over the right decision",
+      "Proximity bias, which makes near-term situations seem riskier",
+      "Anchoring bias, which fixes estimates to an early figure",
+      "Confirmation bias, which seeks evidence that supports the plan"
+    ],
+    "explanation": "Optimism bias is the mindset that drives people to discount disadvantageous risk on the assumption that things are likely to be successful for them. Understanding and overcoming these biases matters when identifying risks and responses.",
+    "source": "p.154"
+  },
+  {
+    "id": "ch09-033",
+    "set": "ch09",
+    "section": "9.2.4",
+    "topic": "Risk culture",
+    "difficulty": 2,
+    "stem": "What is decision bias, as described in the manual?",
+    "answer": "The inherent tendency for people to adopt mental shortcuts or faulty thinking processes when processing situations and making decisions",
+    "distractors": [
+      "A deliberate preference for one risk response over another",
+      "The project board's attitude towards risk-taking, expressed as risk tolerance",
+      "The tendency of the business to avoid all risk regardless of benefit",
+      "A documented rule for escalating risks above the tolerance line",
+      "The difference between the risk appetite and the risk tolerance",
+      "A method for prioritizing risks on the risk matrix"
+    ],
+    "explanation": "Decision bias is the inherent tendency to adopt mental shortcuts or faulty thinking processes. It is natural and largely positive, allowing rapid everyday decisions, but can lead to less effective decision-making, which is why the types of bias matter in risk management.",
+    "source": "p.154"
+  },
+  {
+    "id": "ch09-034",
+    "set": "ch09",
+    "section": "9.3.1",
+    "topic": "Risk management technique",
+    "difficulty": 1,
+    "stem": "Which sequence lists the five steps of the PRINCE2 risk management technique?",
+    "answer": "Identify, assess, plan, implement, communicate",
+    "distractors": [
+      "Identify, plan, assess, communicate, implement",
+      "Assess, identify, plan, implement, communicate",
+      "Identify, assess, implement, plan, communicate",
+      "Plan, identify, assess, implement, communicate",
+      "Identify, communicate, assess, plan, implement",
+      "Assess, plan, identify, implement, communicate"
+    ],
+    "explanation": "The five steps are identify, assess, plan, implement and communicate, based on Management of Risk: Creating and Protecting Value. All the steps are repeatable, and communication operates throughout.",
+    "source": "p.155"
+  },
+  {
+    "id": "ch09-035",
+    "set": "ch09",
+    "section": "9.3.1",
+    "topic": "Risk management technique",
+    "difficulty": 2,
+    "stem": "An alternative risk management procedure may be used, for example where the project sits in a programme with its own technique. What does the method require?",
+    "answer": "The alternative should be documented as a tailoring decision in the project initiation documentation",
+    "distractors": [
+      "The alternative must be approved by the programme board as a project tolerance change",
+      "An alternative is not permitted, because ISO 31000 alignment is mandatory",
+      "The alternative must be recorded as a lesson in the end project report",
+      "The alternative requires a request for change approved by the change authority",
+      "The alternative may be used only for the identify and assess steps",
+      "The alternative must be reviewed by project assurance before every stage"
+    ],
+    "explanation": "PRINCE2 allows an alternative risk management procedure, such as a programme-wide technique, provided its use is documented as part of the tailoring decisions in the project initiation documentation.",
+    "source": "p.155"
+  },
+  {
+    "id": "ch09-036",
+    "set": "ch09",
+    "section": "9.3.1",
+    "topic": "Risk management technique",
+    "difficulty": 3,
+    "stem": "How does the communicate step relate to the other four steps?",
+    "answer": "It operates throughout, because the outputs of any other step may need to be communicated at any point",
+    "distractors": [
+      "It happens only after implement, once risks have been treated",
+      "It happens only at stage boundaries, alongside the end stage report",
+      "It happens only during identify, to gather new risks from stakeholders",
+      "It replaces the plan step when risks are escalated to the board",
+      "It is optional for projects using a simple risk register",
+      "It is performed by project assurance on the board's behalf"
+    ],
+    "explanation": "Communication is how information about opportunities and threats is shared within the project ecosystem and externally where needed. It operates throughout, because the outputs of any of the other steps may need to be communicated to stakeholders at any point.",
+    "source": "p.155"
+  },
+  {
+    "id": "ch09-037",
+    "set": "ch09",
+    "section": "9.3.1.1",
+    "topic": "Identify",
+    "difficulty": 2,
+    "stem": "Why should the project's context and objectives be defined before specific risks are identified?",
+    "answer": "Without a shared understanding of the objectives at risk, the uncertainties identified may not be related to the objectives",
+    "distractors": [
+      "Because the risk register cannot be created until the objectives are baselined",
+      "Because the project board must approve the objectives before any risk is raised",
+      "Because risk categories cannot be selected without the business case",
+      "Because the risk budget cannot be set until the objectives are estimated",
+      "Because the tolerance line on the risk matrix depends on the objectives",
+      "Because ISO 31000 requires objectives to be documented first"
+    ],
+    "explanation": "It is a common error to identify specific risks before defining context and objectives. Without a shared understanding of the objectives at risk, the uncertainties identified may not relate to them, and there is no risk if the uncertainty does not affect a defined objective.",
+    "source": "p.156"
+  },
+  {
+    "id": "ch09-038",
+    "set": "ch09",
+    "section": "9.3.1.1",
+    "topic": "Identify",
+    "difficulty": 2,
+    "stem": "Who may raise a risk, and when is it captured?",
+    "answer": "Any member of the project, business or other stakeholder may raise a risk, and it is captured in the risk register as soon as it is identified",
+    "distractors": [
+      "Only the project manager may raise a risk, and it is captured at the next stage boundary",
+      "Only project board members may raise a risk, and it is captured in the highlight report",
+      "Any stakeholder may raise a risk, but it is only captured once assessed",
+      "Only the risk owner may raise a risk, and it is captured when a response is planned",
+      "Any team member may raise a risk, but the project manager decides whether to record it",
+      "Only the project manager and assurance may raise risks, and they are captured at reviews"
+    ],
+    "explanation": "Risks can be identified at any time during management and delivery, and any member of the project, business or other stakeholder may raise one. They are captured in the risk register as soon as they are identified, with more information gathered through the subsequent steps.",
+    "source": "p.156"
+  },
+  {
+    "id": "ch09-039",
+    "set": "ch09",
+    "section": "9.3.1.2",
+    "topic": "Assess",
+    "difficulty": 3,
+    "stem": "Which statement about assessing impact is correct?",
+    "answer": "If objectives are measured in time and cost, the impacts should also be measured in units of time and cost",
+    "distractors": [
+      "Impacts should always be expressed as a financial value, whatever the objective",
+      "Impacts should be assessed qualitatively only, because quantities are unreliable",
+      "Impacts are assessed on the stage plan but not on the business case",
+      "Impacts are assessed once, at identification, and not revised",
+      "Impacts are expressed on a five-point scale fixed by ISO 31000",
+      "Impacts are assessed by the risk owner alone, without the team"
+    ],
+    "explanation": "Priority assessment includes probability and impact in terms of the project objectives, with impacts measured in the same units as the objectives. It also considers impact on the stage plan, project plan and business case, how impacts may change over the project, and whether the team or a higher level should manage the risk.",
+    "source": "p.156"
+  },
+  {
+    "id": "ch09-040",
+    "set": "ch09",
+    "section": "9.3.1.2",
+    "topic": "Assess",
+    "difficulty": 3,
+    "stem": "What is the purpose of assessing the combined risk profile?",
+    "answer": "To determine whether overall risk exposure remains within the risk appetite, and to plan control actions if it does not",
+    "distractors": [
+      "To calculate the total cost of all planned risk responses",
+      "To decide which individual risk has the highest probability",
+      "To allocate each risk to a risk action owner",
+      "To update the risk tolerance line on the risk matrix",
+      "To confirm that every risk has been transferred or avoided",
+      "To prepare the risk section of the end stage report"
+    ],
+    "explanation": "The combined effect of individual risks must be understood to see whether overall exposure remains within the risk appetite determined by the business and applied by the board. If exposure exceeds appetite, control actions are planned in response.",
+    "source": "p.156"
+  },
+  {
+    "id": "ch09-041",
+    "set": "ch09",
+    "section": "9.3.1.3",
+    "topic": "Plan",
+    "difficulty": 2,
+    "stem": "In the plan step, what may be appropriate for more significant risks?",
+    "answer": "Establishing early warning indicators and plans for managing the risk should it occur",
+    "distractors": [
+      "Removing the risk from the risk register until it becomes an issue",
+      "Transferring the risk to the project board",
+      "Increasing the risk tolerance so the risk falls within it",
+      "Recording the risk in the business case instead of the register",
+      "Deferring the risk to the next stage boundary",
+      "Setting the risk budget to zero to discourage spending"
+    ],
+    "explanation": "For more significant risks it may be appropriate to establish early warning indicators to show whether the risk is likely to materialize, and plans for managing it should it occur.",
+    "source": "p.157"
+  },
+  {
+    "id": "ch09-042",
+    "set": "ch09",
+    "section": "9.3.1.3",
+    "topic": "Plan",
+    "difficulty": 3,
+    "stem": "When might responsibility for managing a risk NOT sit with the project team?",
+    "answer": "When the team cannot influence an appropriate response, the risk materially affects business justification, a programme should manage it, or the response would exceed agreed tolerances",
+    "distractors": [
+      "When the risk has a probability below 50 per cent or an impact below the tolerance line",
+      "When the risk owner and risk action owner are the same person",
+      "When the risk is recorded in the risk register rather than the issue register",
+      "When the risk is an opportunity rather than a threat",
+      "When the project is using an iterative-incremental delivery method",
+      "When the risk response costs less than the reduction in expected monetary value"
+    ],
+    "explanation": "The manual lists four situations: the team lacks the ability to implement an appropriate response, realization would materially affect the business justification, the project is in a programme and programme-level management is more appropriate, or the response would cause the project to exceed agreed tolerances.",
+    "source": "p.157"
+  },
+  {
+    "id": "ch09-043",
+    "set": "ch09",
+    "section": "9.3.1.3",
+    "topic": "Plan",
+    "difficulty": 2,
+    "stem": "If a risk falls within the tolerances set for the project, who may decide the appropriate response?",
+    "answer": "The project manager",
+    "distractors": [
+      "The project board",
+      "The business layer",
+      "The risk action owner",
+      "Project assurance",
+      "The programme manager"
+    ],
+    "explanation": "If the risk falls within the project's tolerances, the project manager may decide the appropriate response. Otherwise the decision is escalated to the project board and, subject to the risk tolerance, possibly to the business.",
+    "source": "p.157"
+  },
+  {
+    "id": "ch09-044",
+    "set": "ch09",
+    "section": "9.3.1.4",
+    "topic": "Implement",
+    "difficulty": 3,
+    "stem": "Which statement about allocating risk ownership is correct?",
+    "answer": "The risk owner should be the person most capable of managing the risk, and allocating too many risks to one individual should be avoided",
+    "distractors": [
+      "The risk owner should always be the project manager, so accountability is clear",
+      "The risk owner and risk action owner must always be different people",
+      "The risk owner should be the most senior person available",
+      "The risk owner should be chosen by the risk action owner",
+      "The risk owner should be the person who identified the risk",
+      "The risk owner should rotate at each stage boundary"
+    ],
+    "explanation": "The risk owner should be the person most capable of managing the risk, and the manual warns against allocating too many risks to any one individual. In some cases the risk owner and risk action owner will be the same person.",
+    "source": "p.157"
+  },
+  {
+    "id": "ch09-045",
+    "set": "ch09",
+    "section": "9.3.1.5",
+    "topic": "Communicate",
+    "difficulty": 2,
+    "stem": "Which management products does the manual list as ways in which risks are communicated?",
+    "answer": "Checkpoint, highlight, end stage, exception, issue and end project reports",
+    "distractors": [
+      "The project brief, the business case and the project product description",
+      "The project plan, the stage plan and the team plan",
+      "The risk management approach and the risk register",
+      "The lessons log, the quality register and the issue register",
+      "The communication management approach and the benefits management approach",
+      "The project mandate, the project initiation documentation and the end stage report"
+    ],
+    "explanation": "Risks are communicated in checkpoint reports, highlight reports, end stage reports, exception reports, issue reports and end project reports, alongside other methods such as bulletins, dashboards and briefings chosen with reference to the communication management approach.",
+    "source": "p.158"
+  },
+  {
+    "id": "ch09-046",
+    "set": "ch09",
+    "section": "9.3.2",
+    "topic": "Supporting techniques",
+    "difficulty": 2,
+    "stem": "Which supporting technique is also known as a fishbone or Ishikawa diagram?",
+    "answer": "Cause and effect diagrams",
+    "distractors": [
+      "Prompt lists",
+      "Pre-mortem analysis",
+      "The Swiss cheese model",
+      "Horizon scanning",
+      "SWOT analysis",
+      "The risk breakdown structure"
+    ],
+    "explanation": "Cause and effect diagrams, also called fishbone or Ishikawa diagrams, help identify multiple factors that may lead to a risk occurring with a particular impact, and can help the team identify and target the root cause.",
+    "source": "p.158"
+  },
+  {
+    "id": "ch09-047",
+    "set": "ch09",
+    "section": "9.3.2",
+    "topic": "Supporting techniques",
+    "difficulty": 3,
+    "stem": "What does the Swiss cheese model help a project team to consider?",
+    "answer": "Whether risk controls are sufficient, because a risk only occurs when multiple levels of control fail",
+    "distractors": [
+      "Whether a risk should be transferred or accepted",
+      "Whether the risk budget is large enough for all responses",
+      "Whether the risk owner has the right level of authority",
+      "Whether a risk is a threat or an opportunity",
+      "Whether the project should use a linear or iterative delivery method",
+      "Whether lessons from previous projects have been applied"
+    ],
+    "explanation": "The Swiss cheese model shows that for a risk to occur, multiple levels of controls must fail - the holes in the cheese must align. It is used to consider whether risk controls are sufficient.",
+    "source": "p.160"
+  },
+  {
+    "id": "ch09-048",
+    "set": "ch09",
+    "section": "9.3.2",
+    "topic": "Supporting techniques",
+    "difficulty": 2,
+    "stem": "What is a pre-mortem?",
+    "answer": "Working backwards from a future point when objectives should have been achieved, painting a scenario of success or failure to identify threats or opportunities",
+    "distractors": [
+      "A review of risks after they have occurred, to capture lessons",
+      "A meeting held before the project board approves the risk management approach",
+      "A technique for calculating expected monetary value before a response",
+      "A prompt list generated from previous projects' lessons reports",
+      "A quantitative model of overall risk exposure",
+      "A review of the risk register before each stage boundary"
+    ],
+    "explanation": "A pre-mortem looks backwards from a future point when objectives should have been achieved, painting a scenario of success or failure, and analyses the steps that led there to identify threats or opportunities to consider. It is not a post-event review.",
+    "source": "p.159"
+  },
+  {
+    "id": "ch09-049",
+    "set": "ch09",
+    "section": "9.3.2",
+    "topic": "Supporting techniques",
+    "difficulty": 3,
+    "stem": "Which technique scans further ahead to gather data on emerging trends and potential future developments that may affect overall risk exposure?",
+    "answer": "Horizon scanning",
+    "distractors": [
+      "PESTLE analysis",
+      "SWOT analysis",
+      "A pre-mortem",
+      "A prompt list",
+      "Cause and effect analysis",
+      "The Swiss cheese model"
+    ],
+    "explanation": "PESTLE reviews the current external landscape, and SWOT looks at current strengths and weaknesses. Horizon scanning looks further ahead, gathering data on emerging trends and future developments that may affect overall risk exposure.",
+    "source": "p.159"
+  },
+  {
+    "id": "ch09-050",
+    "set": "ch09",
+    "section": "9.4.1",
+    "topic": "Organizational context",
+    "difficulty": 2,
+    "stem": "A project sits within a programme. What should the project's risk management approach identify?",
+    "answer": "The types of risk managed at project level, and the tolerance at which risks are escalated to the programme",
+    "distractors": [
+      "The programme's risk appetite, which replaces the project board's tolerance",
+      "The names of the programme board members who will own all project risks",
+      "The programme's risk budget, which replaces the project's risk budget",
+      "The requirement to use the programme's delivery method for all projects",
+      "The date of each programme risk review, which the project must attend",
+      "The risks that the programme has already accepted on the project's behalf"
+    ],
+    "explanation": "Where a project is part of a programme, the risk management approach should identify the types of risk managed at project level, and the risk tolerance should show when risks need to be escalated to the programme for further action.",
+    "source": "p.160"
+  },
+  {
+    "id": "ch09-051",
+    "set": "ch09",
+    "section": "9.4.1",
+    "topic": "Organizational context",
+    "difficulty": 3,
+    "stem": "Why might an organization mandate a consistent risk management process across its projects?",
+    "answer": "So that it can assess the overall risk exposure of the business across projects",
+    "distractors": [
+      "So that every project can use the same risk budget",
+      "So that the project board can avoid setting its own risk tolerance",
+      "So that suppliers can be held to a single risk response",
+      "So that project managers can be compared on the number of risks they raise",
+      "So that risk registers can be published to all stakeholders",
+      "So that the business layer can approve every risk response"
+    ],
+    "explanation": "Organizations often require a consistent, mandated process across different projects, typically to ensure they can assess the overall risk exposure of the business across projects. Alignment may also cover centrally defined policies, techniques, tools and competency frameworks.",
+    "source": "p.160"
+  },
+  {
+    "id": "ch09-052",
+    "set": "ch09",
+    "section": "9.4.2",
+    "topic": "Commercial context",
+    "difficulty": 3,
+    "stem": "On a fixed-price contract with a joint risk register, which party is typically affected by cost overruns and which by timescale overruns?",
+    "answer": "Cost overruns affect the supplier's business case and timescale overruns typically affect the customer's business case",
+    "distractors": [
+      "Cost overruns affect the customer's business case and timescale overruns the supplier's",
+      "Both cost and timescale overruns affect the supplier, because the price is fixed",
+      "Both cost and timescale overruns affect the customer, because the work is outsourced",
+      "Cost overruns affect the programme and timescale overruns affect the project",
+      "Cost overruns affect the risk budget and timescale overruns affect the change budget",
+      "Neither party is affected, because the joint register transfers both risks"
+    ],
+    "explanation": "The manual's example: on a fixed-price contract, cost overruns will impact the supplier's business case, while timescale overruns will typically impact the customer's business case. When a joint register is used, care is needed to establish whose risk it is so the risk owner is appointed accordingly.",
+    "source": "p.161"
+  },
+  {
+    "id": "ch09-053",
+    "set": "ch09",
+    "section": "9.4.2",
+    "topic": "Commercial context",
+    "difficulty": 2,
+    "stem": "Why might a project need more than one risk register in a commercial context?",
+    "answer": "Some risks are unique to one party, which may have good reasons for not making them visible to the other",
+    "distractors": [
+      "Because the risk register must be kept separate from the project log",
+      "Because each supplier must maintain its own copy of the project's risks",
+      "Because the project board and the project manager need different registers",
+      "Because the risk management approach requires one register per stage",
+      "Because the risk budget must be traced to a separate register",
+      "Because assurance needs an independent register to perform its reviews"
+    ],
+    "explanation": "In a commercial context there may be a need for more than one risk register, because some project risks could be unique to one party that may have good reasons for not making its register visible to the other.",
+    "source": "p.161"
+  },
+  {
+    "id": "ch09-054",
+    "set": "ch09",
+    "section": "9.4.3",
+    "topic": "Delivery method",
+    "difficulty": 3,
+    "stem": "A risk management approach includes monthly risk review meetings. Why does the manual say this may be a problem?",
+    "answer": "It will struggle to support an iterative-incremental delivery method with two-week sprints",
+    "distractors": [
+      "It breaches the requirement to review risks at every stage boundary",
+      "It prevents risks from being recorded in a risk register",
+      "It makes the risk tolerance impossible to set",
+      "It requires a dedicated risk manager, which small projects cannot fund",
+      "It conflicts with the ISO 31000 requirement for continuous assessment",
+      "It means risks cannot be escalated to the project board between meetings"
+    ],
+    "explanation": "The approach to managing risk needs to support the project's delivery method. Monthly risk reviews will struggle to support an iterative-incremental delivery method with two-week sprints. PRINCE2 does not mandate formats or timings, only that they suit the format and pace of the project.",
+    "source": "p.161"
+  },
+  {
+    "id": "ch09-055",
+    "set": "ch09",
+    "section": "9.4.3",
+    "topic": "Delivery method",
+    "difficulty": 3,
+    "stem": "Which risk does the manual say an agile way of working inherently mitigates?",
+    "answer": "Users overspecifying requirements at the beginning of the project",
+    "distractors": [
+      "Suppliers failing to meet contractual quality obligations",
+      "The project board failing to set tolerances early enough",
+      "Project support producing inaccurate highlight reports",
+      "Benefits not being realized after the project closes",
+      "Risks not being recorded in the risk register",
+      "The business case becoming invalid during delivery"
+    ],
+    "explanation": "The manual notes that agile ways of working inherently ensure users do not overspecify requirements at the beginning, which can be a risk in a more linear approach. It also warns that agile can lead to uncontrolled changes to the agreed baseline if not managed correctly, and that linear approaches can appear unresponsive and alienate users.",
+    "source": "p.161"
+  },
+  {
+    "id": "ch09-056",
+    "set": "ch09",
+    "section": "9.4.4",
+    "topic": "Sustainability risks",
+    "difficulty": 2,
+    "stem": "Which of these does the manual give as a way risk management considers sustainability?",
+    "answer": "Incorporating the cost of responding to sustainability risks, such as extreme weather events, into the risk budget",
+    "distractors": [
+      "Removing sustainability targets from the business case if they create risk",
+      "Transferring all sustainability risks to suppliers through the contract",
+      "Recording sustainability risks in the business case rather than the risk register",
+      "Setting sustainability tolerances to zero to avoid any exposure",
+      "Excluding sustainability risks from regular risk communications",
+      "Assessing sustainability risks only at project closure"
+    ],
+    "explanation": "Sustainability considerations include managing risks to the sustainability of the project work and of the product, incorporating the cost of responding to sustainability risks such as extreme weather into the risk budget, and documenting those risks and actions in the risk register with regular communication.",
+    "source": "p.161"
+  },
+  {
+    "id": "ch09-057",
+    "set": "ch09",
+    "section": "9.4.5",
+    "topic": "Scale",
+    "difficulty": 2,
+    "stem": "Why does the manual say project scale and impact must be considered separately?",
+    "answer": "A small-scale project can create impacts that far outweigh its apparent size, such as an IT change that could stop the whole business",
+    "distractors": [
+      "Because large projects always have proportionally larger impacts",
+      "Because the risk budget is set by impact rather than by scale",
+      "Because scale determines the number of stages but impact determines the tolerances",
+      "Because small projects cannot afford a dedicated risk manager",
+      "Because the risk management approach must be identical across projects",
+      "Because impact is assessed quantitatively and scale qualitatively"
+    ],
+    "explanation": "The manual gives the example of a small-scale project to replace an element of IT network infrastructure that could stop the whole business if it goes wrong. Projects can create impacts far outweighing their apparent size, scale and complexity, so scale and impact are considered separately.",
+    "source": "p.162"
+  },
+  {
+    "id": "ch09-058",
+    "set": "ch09",
+    "section": "9.4.5",
+    "topic": "Scale",
+    "difficulty": 3,
+    "stem": "What does the manual warn about aggregating factored risk costs on a more complex project?",
+    "answer": "Care is needed so the aggregation is not skewed by a small number of large risks",
+    "distractors": [
+      "The aggregation must exclude all risks above the tolerance line",
+      "The aggregation should use the highest single risk as the budget",
+      "The aggregation must be approved by the business layer rather than the executive",
+      "The aggregation is unnecessary because responses are funded from the change budget",
+      "The aggregation should be recalculated only at project closure",
+      "The aggregation must be based on proximity rather than probability"
+    ],
+    "explanation": "The risk budget is based on the aggregate cost of all planned risk responses. For simpler projects it is usually enough to combine the cost of all responses, but on more complex projects care is needed so that the aggregation of factored costs is not skewed by a small number of large risks.",
+    "source": "p.162"
+  },
+  {
+    "id": "ch09-059",
+    "set": "ch09",
+    "section": "9.5",
+    "topic": "Risk management approach",
+    "difficulty": 2,
+    "stem": "Which item is high-level content of the risk management approach?",
+    "answer": "Risk tolerance guidance that adds to the tolerance levels defined for the project in the business case",
+    "distractors": [
+      "The probability and impact of each individual risk",
+      "The risk owner and risk action owner for each risk",
+      "The planned residual probability and impact of each risk",
+      "The date each risk was logged and last reviewed",
+      "The list of documents associated with each risk",
+      "The expected monetary value of each risk response"
+    ],
+    "explanation": "The risk management approach covers scope, procedures, risk tolerance guidance, timing of activities, responsibilities including risk owners and action owners, resources, supporting tools and techniques, standards including grading systems and the risk register format, and references. The individual risk details belong in the risk register.",
+    "source": "p.162"
+  },
+  {
+    "id": "ch09-060",
+    "set": "ch09",
+    "section": "9.5",
+    "topic": "Risk register",
+    "difficulty": 2,
+    "stem": "What is the purpose of the risk register?",
+    "answer": "To maintain a record of identified risks, including their status and history",
+    "distractors": [
+      "To describe how risk will be managed on the project",
+      "To record the risk budget and its access mechanisms",
+      "To document the risk tolerance set by the project board",
+      "To list the risk management techniques the project will use",
+      "To record the lessons learned about risks from previous projects",
+      "To summarise the project's overall risk exposure for the board"
+    ],
+    "explanation": "The risk register maintains a record of identified risks related to the project, including their status and history, capturing information on all identified threats and opportunities. It is part of the project log. The approach describes how risk will be managed.",
+    "source": "p.163"
+  },
+  {
+    "id": "ch09-061",
+    "set": "ch09",
+    "section": "9.5",
+    "topic": "Risk register",
+    "difficulty": 3,
+    "stem": "Which of these is NOT high-level content of the risk register?",
+    "answer": "The composition and format standards for risk records",
+    "distractors": [
+      "The planned residual probability and impact assuming responses are effective",
+      "The risk owner and the risk action owners for the responses",
+      "The relevant dates, such as date logged, date last reviewed and action due dates"
+    ],
+    "exhaustive": true,
+    "explanation": "Risk register content includes the identifier, description, probability, impact, proximity, velocity, responses, planned residual probability and impact, owners, dates and records. The standards for composition and format of the register belong in the risk management approach.",
+    "source": "p.163"
+  },
+  {
+    "id": "ch09-062",
+    "set": "ch09",
+    "section": "9.6",
+    "topic": "Focus of key roles",
+    "difficulty": 2,
+    "stem": "Which role defines the risk appetite for the project and sets the project-level risk tolerance and risk budget?",
+    "answer": "The business layer",
+    "distractors": [
+      "The project executive",
+      "The project board collectively",
+      "The project manager",
+      "Project assurance",
+      "The programme manager"
+    ],
+    "explanation": "The business layer provides the risk management policy, standards and framework, defines the risk appetite for the project, and sets the project-level risk tolerance and risk budget. The executive sets stage-level risk tolerance and the stage risk budget.",
+    "source": "p.164"
+  },
+  {
+    "id": "ch09-063",
+    "set": "ch09",
+    "section": "9.6",
+    "topic": "Focus of key roles",
+    "difficulty": 3,
+    "stem": "Which role sets the scale for risk impact, proximity and velocity, and approves the risk management approach?",
+    "answer": "The project executive",
+    "distractors": [
+      "The business layer",
+      "The project manager",
+      "The senior user",
+      "Project assurance",
+      "Project support"
+    ],
+    "explanation": "The executive approves the risk management approach and ensures it suits the project's objectives and the business's risk appetite, sets the scale for risk impact, proximity and velocity, sets stage-level risk tolerance and risk budget, and makes decisions on escalated risks.",
+    "source": "p.164"
+  },
+  {
+    "id": "ch09-064",
+    "set": "ch09",
+    "section": "9.6",
+    "topic": "Focus of key roles",
+    "difficulty": 2,
+    "stem": "Which role prepares and maintains the risk register and provides administrative support for risk controls?",
+    "answer": "Project support",
+    "distractors": [
+      "The project manager",
+      "Project assurance",
+      "The team manager",
+      "The risk owner",
+      "The project executive"
+    ],
+    "explanation": "Project support provides administrative support for risk controls, prepares and maintains the risk register, and assists the project management team with applying the project's risk management procedures. The project manager establishes and maintains risks in the register.",
+    "source": "p.164"
+  },
+  {
+    "id": "ch09-065",
+    "set": "ch09",
+    "section": "9.6",
+    "topic": "Focus of key roles",
+    "difficulty": 2,
+    "stem": "What does the manual say about all roles in relation to risk responses?",
+    "answer": "All roles are responsible for implementing risk responses, as risk action owner, for assigned risks",
+    "distractors": [
+      "All roles are responsible for approving the risk management approach",
+      "All roles are responsible for maintaining the risk register",
+      "All roles are responsible for setting the risk tolerance for their area",
+      "Only the project manager is responsible for implementing responses",
+      "Only the risk owner is responsible for implementing responses",
+      "All roles are responsible for auditing the risk management approach"
+    ],
+    "explanation": "At the end of Table 9.3 the manual states that all roles are responsible for implementing risk responses as the risk action owner for assigned risks.",
+    "source": "p.164"
+  },
+  {
+    "id": "ch09-066",
+    "set": "ch09",
+    "section": "9.7",
+    "topic": "Key relationships with principles",
+    "difficulty": 3,
+    "stem": "How does the risk practice support the principle manage by stages?",
+    "answer": "By ensuring decisions at stage boundaries are informed by risks, formalising stop-go decisions at critical points",
+    "distractors": [
+      "By clarifying responsibilities for identifying, managing and reporting risks through the organizational layers",
+      "By empowering those most able to own risks and escalate those forecast to exceed tolerances",
+      "By assessing whether identified risks materially affect the business case",
+      "By using lessons to inform risk identification and management",
+      "By understanding risks associated with defining and delivering products",
+      "By ensuring the risk management approach suits the project's type, size and complexity"
+    ],
+    "explanation": "Table 9.4 pairs manage by stages with ensuring stage-boundary decisions are informed by risks, producing de-risked investment through formal stop-go decisions at critical points and confidence that the investment stays aligned with objectives.",
+    "source": "p.165"
+  }
+]

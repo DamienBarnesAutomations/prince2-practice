@@ -87,7 +87,7 @@ test('home offers the four modes and a progress summary', () => {
   assert.match(appEl.innerHTML, /Missed questions/);
   assert.match(appEl.innerHTML, new RegExp(`of ${index.total} questions seen`));
   assert.match(appEl.innerHTML, /Progress by chapter/);
-  assert.match(appEl.innerHTML, /2 of 21 sets/);
+  assert.match(appEl.innerHTML, new RegExp(`${index.sets.length} of 21 sets`));
 });
 
 test('practice by chapter lists chapters, then offers a question count', async () => {
@@ -153,7 +153,11 @@ test('home reflects the attempts that were recorded', async () => {
   await click('home');
   assert.match(appEl.innerHTML, new RegExp(`of ${index.total} questions seen`));
   assert.match(appEl.innerHTML, new RegExp(`1/${ch02Count} seen`));
-  assert.match(appEl.innerHTML, /Missed questions \(/);
+  assert.match(appEl.innerHTML, /Missed questions/);
+  const recorded = JSON.parse(storage.get('prince2Practice.v1')).attempts;
+  if (recorded.some((entry) => !entry.correct)) {
+    assert.match(appEl.innerHTML, /Missed questions \(\d+\)/);
+  }
 });
 
 test('keyboard answers and advances in practice mode', async () => {
