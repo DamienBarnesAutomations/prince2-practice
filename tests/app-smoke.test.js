@@ -71,8 +71,13 @@ function optionCount() {
 }
 
 await import('../app.js');
-await flush();
-await flush();
+
+// boot() fetches index.json; poll rather than guessing at a fixed number of ticks.
+for (let attempt = 0; attempt < 500; attempt += 1) {
+  if (/Practice by chapter/.test(appEl.innerHTML)) break;
+  await flush();
+}
+assert.match(appEl.innerHTML, /Practice by chapter/, 'app never rendered its home screen');
 
 test('home screen lists the loaded set with its question count', () => {
   assert.match(appEl.innerHTML, /Practice by chapter/);
