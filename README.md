@@ -21,14 +21,38 @@ order is reshuffled too, and no question repeats inside a session.
 
 Other deliberate choices, all of them to keep it hard:
 
-- **No feedback until you submit.** No reassurance after each answer.
+- **Marked as you go, in practice modes.** Chapter, mixed and missed practice lock the answer
+  the moment you pick it, show whether it was right, and show the reason — before you move on.
+  Exam mode stays silent until you submit.
 - **Near-miss distractors.** "Which level authorises the next stage" is answered against
   the project board, the project manager, the programme and the design authority — not
   against "the marketing department".
 - **A difficulty rating.** Level 3 questions chain two facts or apply the method to a
   situation; you can filter to just those.
-- **Wrong answers persist.** The home screen offers a drill of everything your most recent
-  attempt got wrong, re-served with different distractors and a different order.
+- **Wrong answers persist.** They go into a missed list that only clears when you answer the
+  same question correctly twice in a row.
+
+## Modes
+
+| Mode | What it does |
+|---|---|
+| **Practice by chapter** | One chapter, questions drawn at random, marked immediately with the reason. |
+| **Mixed chapters** | Tick any number of chapters and draw across all of them. |
+| **Exam mode** | 60 questions, 60-minute countdown, flag-for-review with a question palette, no feedback until submit, pass mark 60%. |
+| **Missed questions** | Everything you have answered wrong and not yet cleared. A question leaves this list after two consecutive correct answers, and returns if you get it wrong again. |
+
+## Progress
+
+One append-only attempts array is the only stored truth. Everything on the home screen is
+derived from it at load:
+
+- **seen** — distinct questions answered, per chapter and overall.
+- **right / wrong** — the most recent answer for each of those questions. These always sum
+  to seen.
+- **mastered** — questions with two consecutive correct answers.
+
+Per-question mastery, the missed list and the exam history are all recomputed, never stored
+as counters, so a stale counter cannot disagree with the history.
 
 ## Running it
 
@@ -48,6 +72,7 @@ No build step, no dependencies, no framework. Plain HTML, CSS and ES modules.
 index.html            one page
 app.js                screens, wiring, localStorage
 bank-logic.js         pure drawing and scoring logic (no DOM)
+progress.js           pure derivation: mastery, missed list, chapter tallies
 styles.css
 bank/index.json       set metadata: title, file, question count
 bank/ch02.json        one file per set
@@ -103,14 +128,23 @@ question bank.
 
 ## Progress storage
 
-One `localStorage` key, `prince2Practice.v1`:
+One `localStorage` key, `prince2Practice.v1`, now at version 2:
 
 ```json
-{ "attempts": [{ "id": "ch02-028", "set": "ch02", "section": "2.4", "topic": "Manage by exception", "correct": true, "ts": 1761300000000 }] }
+{
+  "version": 2,
+  "attempts": [
+    { "id": "ch02-028", "set": "ch02", "section": "2.4", "topic": "Manage by exception",
+      "correct": true, "mode": "chapter", "ts": 1761300000000 }
+  ],
+  "exams": [
+    { "ts": 1761300000000, "total": 60, "correct": 41, "percent": 68, "passed": true, "durationMs": 2440000 }
+  ]
+}
 ```
 
-Everything else — the missed list, per-chapter tallies — is derived at load. If the browser
-blocks storage the app says so on the results screen rather than pretending it saved.
+Version 1 stored attempts only; those still load and are treated as version 2 with no exam
+history. If the browser blocks storage the app says so rather than pretending it saved.
 
 No accounts, no analytics, no third-party requests. The only network calls are for
 `bank/index.json` and the question files it lists.

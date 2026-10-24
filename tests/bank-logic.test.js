@@ -4,7 +4,6 @@ import test from 'node:test';
 import {
   buildOptions,
   buildSession,
-  deriveMissed,
   drawQuestions,
   reshuffleOptions,
   scoreSession,
@@ -95,17 +94,6 @@ test('scoreSession tallies overall and per-section results', () => {
     result.bySection.map((s) => [s.section, s.correct, s.total]),
     [['1', 1, 2], ['2', 0, 1]],
   );
-});
-
-test('deriveMissed uses the most recent attempt per question', () => {
-  const attempts = [
-    { id: 'a', correct: false, ts: 100 },
-    { id: 'a', correct: true, ts: 200 },
-    { id: 'b', correct: true, ts: 100 },
-    { id: 'b', correct: false, ts: 200 },
-    { id: 'c', correct: false, ts: 50 },
-  ];
-  assert.deepEqual(deriveMissed(attempts), ['b', 'c']);
 });
 
 test('reshuffleOptions keeps the chosen answer on the same option text', () => {

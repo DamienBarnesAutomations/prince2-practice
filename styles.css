@@ -400,8 +400,7 @@ button {
   padding: 18px;
   color: var(--text-dim);
   font-size: 0.9rem;
-}
-.banner {
+}.banner {
   border: 1px solid var(--bad-dim);
   background: #1b1210;
   color: #f0b8b3;
@@ -436,3 +435,203 @@ button {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---------------------------------------------------------------- home progress */
+
+.overall { margin: 0 0 24px; }
+.overallhead {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+.overallhead strong { color: var(--text); font-size: 1.05rem; }
+.tallybar.tall { height: 9px; }
+
+.sectionhead {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin: 30px 0 12px;
+}
+
+.modegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+}
+.modecard {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 17px;
+  transition: border-color .12s ease, background .12s ease;
+}
+.modecard:hover:not(:disabled), .modecard:focus-visible {
+  border-color: var(--accent-dim);
+  background: #19202a;
+}
+.modecard:disabled { opacity: .45; cursor: not-allowed; }
+.modetitle { font-weight: 620; }
+.modedesc { font-size: 0.82rem; color: var(--text-faint); }
+
+/* ---------------------------------------------------------------- chapter list */
+
+.chaplist { display: flex; flex-direction: column; gap: 7px; }
+
+.chaprow {
+  display: grid;
+  grid-template-columns: minmax(120px, 1.2fr) minmax(120px, 1.4fr) auto;
+  gap: 14px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 11px 14px;
+  transition: border-color .12s ease;
+}
+.chaprow:hover, .chaprow:focus-visible { border-color: var(--accent-dim); }
+.chapname { font-weight: 560; }
+.chapprog { display: flex; align-items: center; gap: 9px; }
+.chapprog .tallybar { flex: 1; }
+.chapnum { font-size: 0.76rem; color: var(--text-faint); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.chapnums { display: flex; gap: 10px; font-size: 0.76rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.chapnums .ok { color: var(--accent); }
+.chapnums .bad { color: var(--bad); }
+.chapnums .muted { color: var(--text-faint); }
+
+/* ---------------------------------------------------------------- pick rows */
+
+.pickrow {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 12px 15px;
+  transition: border-color .12s ease;
+}
+.pickrow:hover, .pickrow:focus-visible { border-color: var(--accent-dim); }
+.pickrow.checked { border-color: var(--accent-dim); background: #16241f; }
+.pickbox {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--line-strong);
+  font-size: 0.75rem;
+  color: var(--accent);
+}
+.pickrow.checked .pickbox { border-color: var(--accent); }
+.pickbody { display: flex; flex-direction: column; gap: 2px; }
+.picktitle { font-weight: 560; }
+.pickmeta { font-size: 0.78rem; color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+/* ---------------------------------------------------------------- exam facts */
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 14px;
+}
+.facts div { display: flex; flex-direction: column; gap: 3px; }
+.facts span {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.facts b { font-size: 1.02rem; font-weight: 620; }
+
+/* ---------------------------------------------------------------- feedback */
+
+.option.locked { cursor: default; }
+.option.locked:hover { border-color: var(--line); background: var(--bg-sunken); }
+.option.correct {
+  border-color: var(--accent);
+  background: #14251f;
+}
+.option.correct .key { border-color: var(--accent); color: var(--accent); }
+.option.wrong {
+  border-color: var(--bad);
+  background: #221312;
+}
+.option.wrong .key { border-color: var(--bad); color: var(--bad); }
+.option .optmark { flex: none; font-weight: 700; }
+.option.correct .optmark { color: var(--accent); }
+.option.wrong .optmark { color: var(--bad); }
+.option.selected { border-color: var(--accent); background: #14251f; }
+
+.feedback {
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent-dim);
+  border-radius: 9px;
+  padding: 14px 16px;
+  background: var(--bg-sunken);
+}
+.feedback.good { border-left-color: var(--accent); }
+.feedback.bad { border-left-color: var(--bad); }
+.feedback p { margin: 0 0 8px; }
+.feedback p:last-child { margin-bottom: 0; }
+.fbhead {
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.feedback.good .fbhead { color: var(--accent); }
+.feedback.bad .fbhead { color: var(--bad); }
+
+/* ---------------------------------------------------------------- exam palette */
+
+.clock {
+  font-variant-numeric: tabular-nums;
+  font-weight: 620;
+  color: var(--text);
+}
+.palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(34px, 1fr));
+  gap: 5px;
+  margin-top: 16px;
+}
+.pal {
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: var(--bg-sunken);
+  color: var(--text-faint);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+  padding: 0;
+}
+.pal:hover { border-color: var(--line-strong); color: var(--text); }
+.pal.done { border-color: var(--accent-dim); color: var(--accent); background: #14251f; }
+.pal.flagged { border-color: var(--warn); color: var(--warn); }
+.pal.current { outline: 2px solid var(--accent); outline-offset: 1px; color: var(--text); }
+
+h1.pass { color: var(--accent); }
+h1.fail { color: var(--bad); }
+
+@media (max-width: 720px) {
+  .chaprow { grid-template-columns: 1fr; gap: 6px; }
+  .chapnums { gap: 12px; }
+}
+

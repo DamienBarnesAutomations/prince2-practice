@@ -102,13 +102,3 @@ export function scoreSession(session) {
     missed: session.filter((entry) => entry.selected !== entry.correctIndex).map((entry) => entry.question.id),
   };
 }
-
-/** Questions whose most recent recorded attempt was wrong. */
-export function deriveMissed(attempts) {
-  const latest = new Map();
-  for (const attempt of attempts) {
-    const seen = latest.get(attempt.id);
-    if (!seen || attempt.ts >= seen.ts) latest.set(attempt.id, attempt);
-  }
-  return [...latest.values()].filter((attempt) => !attempt.correct).map((attempt) => attempt.id);
-}
