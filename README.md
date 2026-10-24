@@ -124,7 +124,8 @@ question bank.
 | Set | Questions |
 |---|---|
 | Ch 2 — Principles | 57 |
-| Ch 1, 3–19, Appendix A, Appendix B | not written yet |
+| Ch 6 — Organizing | 52 |
+| Ch 1, 3–5, 7–19, Appendix A, Appendix B | not written yet |
 
 ## Progress storage
 

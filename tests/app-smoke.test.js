@@ -70,6 +70,9 @@ async function press(key) {
 
 const optionCount = () => (appEl.innerHTML.match(/data-action="answer"/g) ?? []).length;
 
+const index = JSON.parse(await readFile(path.join(repo, 'bank/index.json'), 'utf8'));
+const ch02Count = index.sets.find((entry) => entry.id === 'ch02').count;
+
 await import('../app.js');
 
 for (let attempt = 0; attempt < 500; attempt += 1) {
@@ -82,8 +85,9 @@ test('home offers the four modes and a progress summary', () => {
   assert.match(appEl.innerHTML, /Mixed chapters/);
   assert.match(appEl.innerHTML, /Exam mode/);
   assert.match(appEl.innerHTML, /Missed questions/);
-  assert.match(appEl.innerHTML, /of 57 questions seen/);
+  assert.match(appEl.innerHTML, new RegExp(`of ${index.total} questions seen`));
   assert.match(appEl.innerHTML, /Progress by chapter/);
+  assert.match(appEl.innerHTML, /2 of 21 sets/);
 });
 
 test('practice by chapter lists chapters, then offers a question count', async () => {
@@ -147,8 +151,8 @@ test('advancing and submitting reaches the review screen', async () => {
 
 test('home reflects the attempts that were recorded', async () => {
   await click('home');
-  assert.match(appEl.innerHTML, /of 57 questions seen/);
-  assert.match(appEl.innerHTML, /1\/57 seen/);
+  assert.match(appEl.innerHTML, new RegExp(`of ${index.total} questions seen`));
+  assert.match(appEl.innerHTML, new RegExp(`1/${ch02Count} seen`));
   assert.match(appEl.innerHTML, /Missed questions \(/);
 });
 

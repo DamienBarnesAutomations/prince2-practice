@@ -1,0 +1,970 @@
+[
+  {
+    "id": "ch06-001",
+    "set": "ch06",
+    "section": "6.1",
+    "topic": "Purpose of organizing",
+    "difficulty": 1,
+    "stem": "What is the purpose of the organizing practice?",
+    "answer": "To define and establish the project's structure of accountability and responsibilities",
+    "distractors": [
+      "To define the products the project must deliver and their quality criteria",
+      "To establish why the project is worth doing and keep that justification under review",
+      "To define the management stages and the tolerances within which each one runs",
+      "To identify, assess and control the uncertainties that threaten the project's objectives",
+      "To set out how changes and other issues will be captured, assessed and controlled",
+      "To define the sequence of activities needed to deliver each specialist product"
+    ],
+    "explanation": "The organizing practice is concerned with the who: the structure of accountability and responsibilities. Products and quality belong to quality, justification to the business case, stages and tolerances to progress, uncertainty to risk, and changes to issues.",
+    "source": "p.74"
+  },
+  {
+    "id": "ch06-002",
+    "set": "ch06",
+    "section": "6.1",
+    "topic": "Roles and responsibilities",
+    "difficulty": 2,
+    "stem": "The manual defines a role as a function assigned to a group or individual in a particular project. Which statement follows from that definition?",
+    "answer": "A project role is not the same as the person's position or job outside the project",
+    "distractors": [
+      "A project role must map one-to-one onto a job title in the organization",
+      "A project role is the set of tasks allocated to one named individual",
+      "A project role is the accountability that attaches to a board appointment",
+      "A project role describes the skills and experience a person must hold",
+      "A project role is a reporting line in the organization's line hierarchy",
+      "A project role is the employment contract under which the person works"
+    ],
+    "explanation": "The definition is explicit that a role is the function assigned within that project, not the person's position or job outside it. This is why someone whose job title is programme manager can hold the project executive role, and why job titles and project roles must be kept distinct.",
+    "source": "p.74"
+  },
+  {
+    "id": "ch06-003",
+    "set": "ch06",
+    "section": "6.1",
+    "topic": "Roles and responsibilities",
+    "difficulty": 3,
+    "stem": "On a small project the project manager also carries out the team manager role. Which statement is correct?",
+    "answer": "The roles may be combined, provided every responsibility in the method is still allocated",
+    "distractors": [
+      "The roles may be combined only if the project board records the combination as an exception",
+      "The roles may be combined only when the project is using an iterative-incremental delivery method",
+      "Roles must always be allocated one-to-one to people, so the arrangement is not permitted",
+      "Responsibilities that are not allocated to a person may be left with the project board",
+      "The arrangement is permitted only if the project manager is not accountable for the business case",
+      "Combining roles is permitted, but the combined role must be recorded as a new tailored role"
+    ],
+    "explanation": "PRINCE2 defines roles and responsibilities, not tasks allocated one-to-one to people. Roles can be shared or combined within certain constraints according to the project's needs, but responsibilities must always be allocated. The constraint that matters here is the separation of the project manager from the executive and from assurance, not the team manager combination.",
+    "source": "p.74"
+  },
+  {
+    "id": "ch06-004",
+    "set": "ch06",
+    "section": "6.2.1",
+    "topic": "The three project interests",
+    "difficulty": 2,
+    "stem": "Which set correctly pairs the three project interests with the roles PRINCE2 defines to represent them?",
+    "answer": "Business with the project executive, user with the senior user, supplier with the senior supplier",
+    "distractors": [
+      "Business with the senior user, user with the project executive, supplier with the senior supplier",
+      "Business with the project executive, user with the senior supplier, supplier with the senior user",
+      "Business with the project board, user with the senior user, supplier with the team manager",
+      "Business with the senior supplier, user with the senior user, supplier with the project executive",
+      "Business with the project executive, user with project assurance, supplier with the senior supplier",
+      "Business with the commissioning party, user with the senior user, supplier with the project manager"
+    ],
+    "explanation": "Table 6.1 pairs the interests with roles: the project executive represents the business viewpoint, the senior user represents user interests, and the senior supplier represents supplier interests. All three come together on the project board, which is accountable for the success of the project.",
+    "source": "p.75"
+  },
+  {
+    "id": "ch06-005",
+    "set": "ch06",
+    "section": "6.2.1",
+    "topic": "The three project interests",
+    "difficulty": 2,
+    "stem": "A user group sits outside the organization and will operate the product after handover. Which interest do they represent, and which role represents it on the project?",
+    "answer": "The user interest, represented by the senior user role",
+    "distractors": [
+      "The supplier interest, represented by the senior supplier role",
+      "The business interest, represented by the project executive role",
+      "The user interest, represented by the project assurance role",
+      "The business interest, represented by the senior user role",
+      "The supplier interest, represented by the operations manager role",
+      "The user interest, represented by the change authority role"
+    ],
+    "explanation": "Users can sit outside the business as end users or be impacted by the outputs of the project, and the senior user role represents them. Operations and maintenance interests normally sit with the senior user too, unless a different supplier provides those services.",
+    "source": "p.75"
+  },
+  {
+    "id": "ch06-006",
+    "set": "ch06",
+    "section": "6.2.1",
+    "topic": "The three project interests",
+    "difficulty": 3,
+    "stem": "The manual says the three interests are brought together on the project board, and that the principle of manage by exception supports the day-to-day needs of managing the project. What does it say that principle enables?",
+    "answer": "Multi-layered decision-making at the most local level where the knowledge and capacity resides",
+    "distractors": [
+      "A single decision-making point so that accountability cannot be diluted",
+      "Decisions being taken only at stage boundaries, when the board meets",
+      "Decisions being escalated to the commissioning party whenever a tolerance is threatened",
+      "The project board delegating all decisions to the project manager for the life of the project",
+      "Assurance being performed independently of the project manager at every level",
+      "The three interests each holding a veto over decisions that affect their community"
+    ],
+    "explanation": "Manage by exception is described here as enabling multi-layered decision-making at the most local level where the knowledge and capacity resides, which is what makes a board drawn from three communities workable rather than a bottleneck.",
+    "source": "p.75"
+  },
+  {
+    "id": "ch06-007",
+    "set": "ch06",
+    "section": "6.2.2",
+    "topic": "Organizational levels",
+    "difficulty": 2,
+    "stem": "Which organizational layer provides the project mandate and defines the project-level tolerances?",
+    "answer": "Commissioning, the business layer",
+    "distractors": [
+      "Directing, the project board",
+      "Managing, the project manager",
+      "Delivering, the team managers",
+      "The programme board, where the project sits within a programme",
+      "Project assurance, acting on behalf of the board"
+    ],
+    "explanation": "Table 6.2 gives the commissioning party four responsibilities: providing the project mandate, identifying the executive, defining the project-level tolerances the board will work within, and deciding whether to authorise a breach of a project-level tolerance.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-008",
+    "set": "ch06",
+    "section": "6.2.2",
+    "topic": "Organizational levels",
+    "difficulty": 3,
+    "stem": "A forecast breach of a stage tolerance is escalated and the project board authorises the deviation. A separate forecast breach threatens a project-level tolerance. Who decides whether to authorise that one?",
+    "answer": "The commissioning party in the business layer",
+    "distractors": [
+      "The project board, because it directs the project",
+      "The project manager, because they manage the project day to day",
+      "The change authority, because it reports to the project board",
+      "The programme manager, because all tolerances roll up to programme level",
+      "Project assurance, because it acts independently of the project manager",
+      "The senior user, because the breach affects the user community"
+    ],
+    "explanation": "The layers divide tolerance decisions. The board determines deviations that breach or are forecast to breach stage tolerances; authorising a breach of a project-level tolerance belongs to the commissioning party that set it.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-009",
+    "set": "ch06",
+    "section": "6.2.2",
+    "topic": "Organizational levels",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a responsibility of the directing layer?",
+    "answer": "Defining the project-level tolerances within which the project board works",
+    "distractors": [
+      "Setting stage tolerances for each stage of the project",
+      "Authorising the start and completion of each stage",
+      "Being accountable for the success of the project"
+    ],
+    "exhaustive": true,
+    "explanation": "Defining project-level tolerances is a commissioning responsibility. The directing layer works within those tolerances and sets stage tolerances, authorises stage starts and completions, and is accountable for the project's success.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-010",
+    "set": "ch06",
+    "section": "6.2.2",
+    "topic": "Organizational levels",
+    "difficulty": 2,
+    "stem": "What is described as the project manager's primary responsibility at the managing layer?",
+    "answer": "Managing the relationships within the project so that it produces the products in line with strategic objectives and agreed requirements",
+    "distractors": [
+      "Being accountable to the business for the success of the project",
+      "Deciding whether to authorise a deviation from the agreed stage tolerances",
+      "Taking day-to-day decisions for their own element of the project within the project manager's constraints",
+      "Providing the project mandate and identifying the project executive",
+      "Assuring the project board independently of the project manager",
+      "Determining the project-level tolerances and the change budget"
+    ],
+    "explanation": "The managing layer runs the project day to day within the board's constraints, and its primary responsibility is managing relationships so products meet the strategic objectives and agreed requirements such as quality, sustainability, time, cost, scope, benefits and risk goals.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-011",
+    "set": "ch06",
+    "section": "6.2.3",
+    "topic": "Project management team structure",
+    "difficulty": 3,
+    "stem": "A specialist adviser attends workshops and contributes expertise, but is not on the project board, is not a team manager, and holds no assurance or support duties. Which statement is correct?",
+    "answer": "The adviser is part of the project team but not the project management team",
+    "distractors": [
+      "The adviser is part of both the project team and the project management team",
+      "The adviser is part of the project management team but not the project team",
+      "The adviser is part of neither, because they allocate no time to the project",
+      "The adviser is part of the project board as an informed member",
+      "The adviser must be represented by the senior supplier as a supplier interest",
+      "The adviser is part of the project ecosystem but outside the project team"
+    ],
+    "explanation": "PRINCE2 uses project team to cover all people required to allocate their time to the project, which is wider than the project management team. The management team structure is composed of the project board, project manager, team managers, and the project assurance and project support roles.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-012",
+    "set": "ch06",
+    "section": "6.2.3",
+    "topic": "Project management team structure",
+    "difficulty": 1,
+    "stem": "Which list is the project management team structure?",
+    "answer": "The project board, project manager, team managers, project assurance and project support",
+    "distractors": [
+      "The project board and the project manager only",
+      "The project board, project manager and team members",
+      "The project manager, team managers and project support",
+      "The project board, project manager and project assurance",
+      "The project board, project manager, team managers and project support",
+      "The project board, project manager, team managers and project assurance"
+    ],
+    "explanation": "The definition names five components: project board, project manager, team managers, project assurance and project support. Missing either assurance or support from the list leaves the structure incomplete.",
+    "source": "p.77"
+  },
+  {
+    "id": "ch06-013",
+    "set": "ch06",
+    "section": "6.2.4.1",
+    "topic": "Project executive",
+    "difficulty": 2,
+    "stem": "Which role combination is explicitly prohibited for the project executive?",
+    "answer": "Combining the project executive role with the project manager role",
+    "distractors": [
+      "Combining the project executive role with the senior user role",
+      "Combining the project executive role with the senior supplier role",
+      "Combining the senior user role with the senior supplier role",
+      "Combining the project manager role with the team manager role",
+      "Combining the project manager role with the project support role",
+      "Combining a project board role with a project assurance role"
+    ],
+    "explanation": "There cannot be more than one project executive, and the role cannot be combined with the project manager role. On smaller projects the executive may be combined with the senior user or senior supplier; combining user and supplier is not recommended rather than prohibited, and the project manager may also perform team manager or support roles.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-014",
+    "set": "ch06",
+    "section": "6.2.4.1",
+    "topic": "Project executive",
+    "difficulty": 3,
+    "stem": "An organization runs a job-sharing scheme and two people share the business role that corresponds to project executive. What does the manual say must happen?",
+    "answer": "The business role is still allocated one-to-one to the project role, with arrangements to keep a single point of accountability",
+    "distractors": [
+      "Two project executive roles are created so each job holder has one",
+      "The project executive role passes to the senior user while the job share continues",
+      "Accountability is delegated to the project manager for the duration of the job share",
+      "The project must appoint an executive from outside the job-sharing scheme",
+      "The job share is not permitted, because the executive role cannot be shared in any form",
+      "The two job holders alternate accountability at each stage boundary"
+    ],
+    "explanation": "The manual accepts job-sharing schemes but insists on a one-to-one allocation of the business role to the project role, with additional arrangements to make clear how the single point of accountability is maintained. Those arrangements should be reflected in the executive's role description and the project initiation documentation.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-015",
+    "set": "ch06",
+    "section": "6.2.4.2",
+    "topic": "Senior user",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a responsibility of the senior user?",
+    "answer": "Securing funding for the project and owning the business case",
+    "distractors": [
+      "Ensuring the approach gains user buy-in to the project",
+      "Monitoring the products against the requirements in line with the business case",
+      "Controlling change to requirements and benefits"
+    ],
+    "exhaustive": true,
+    "explanation": "Funding and ownership of the business case belong to the project executive. The senior user is accountable for how user requirements are captured and benefits specified, and for buy-in, monitoring against requirements, controlling change to requirements and benefits, and handover and adoption.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-016",
+    "set": "ch06",
+    "section": "6.2.4.2",
+    "topic": "Senior user",
+    "difficulty": 3,
+    "stem": "Benefits from a project will continue to be realised for two years after the project closes. Who is responsible for the continued realisation of those benefits after closure?",
+    "answer": "The senior user",
+    "distractors": [
+      "The project executive",
+      "The project manager",
+      "The business change manager",
+      "Project assurance",
+      "The team manager who delivered the products"
+    ],
+    "explanation": "The senior user is responsible for successful handover and adoption of products into the business and for the continued realisation of benefits after the project has closed, including securing ongoing commitment from the user community where that commitment outlasts the project.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-017",
+    "set": "ch06",
+    "section": "6.2.4.3",
+    "topic": "Senior supplier",
+    "difficulty": 2,
+    "stem": "Which role is accountable for the quality of the products delivered by suppliers and for the technical integrity of the project?",
+    "answer": "The senior supplier",
+    "distractors": [
+      "The project manager",
+      "The project executive",
+      "The senior user",
+      "The team manager",
+      "Project assurance",
+      "The design authority"
+    ],
+    "explanation": "The senior supplier represents the supplier community across all aspects of delivery, ensures sufficient ongoing commitment of supplier people and resources, and is accountable for the quality of supplier-delivered products and the project's technical integrity.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-018",
+    "set": "ch06",
+    "section": "6.2.4.3",
+    "topic": "Senior supplier",
+    "difficulty": 3,
+    "stem": "Maintenance of a project's products will be provided after closure by the business's own internal IT department, not by the delivery supplier. Who is more likely to represent those operations and maintenance interests?",
+    "answer": "The senior user",
+    "distractors": [
+      "The senior supplier",
+      "The project executive",
+      "The project manager",
+      "Project assurance",
+      "The IT department manager acting as senior supplier",
+      "The team manager responsible for support"
+    ],
+    "explanation": "The senior supplier normally represents maintenance interests, but the manual notes the exception where maintenance is provided by the business, such as an internal IT department, or is outsourced elsewhere. In that case operations and maintenance interests are more likely to be represented by a senior user. What matters is that those interests are represented from the outset.",
+    "source": "p.79"
+  },
+  {
+    "id": "ch06-019",
+    "set": "ch06",
+    "section": "6.2.4.4",
+    "topic": "Project board",
+    "difficulty": 2,
+    "stem": "Which combination of project board roles is not recommended, because it creates conflicts of interest in decision-making?",
+    "answer": "Combining the senior user and senior supplier roles",
+    "distractors": [
+      "Combining the project executive and senior user roles",
+      "Combining the project executive and senior supplier roles",
+      "Combining the project manager and team manager roles",
+      "Combining the project manager and project support roles",
+      "Combining a board role with a project assurance role",
+      "Combining two senior user roles on a large project"
+    ],
+    "explanation": "On smaller projects the executive may be combined with the senior user or senior supplier. Combining the senior user and senior supplier is not recommended, to avoid conflicts of interest and to keep both communities adequately represented in decision-making.",
+    "source": "p.80"
+  },
+  {
+    "id": "ch06-020",
+    "set": "ch06",
+    "section": "6.2.4.4",
+    "topic": "Project board",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a project board responsibility?",
+    "answer": "Authorising each work package before it is issued to a team manager",
+    "distractors": [
+      "Setting stage tolerances to enable management by exception",
+      "Establishing the tolerances and the change budget",
+      "Assuring all aspects of the project's performance and products independently of the project manager"
+    ],
+    "exhaustive": true,
+    "explanation": "Work packages are allocated by the project manager to team managers. The board's responsibilities include setting stage tolerances, establishing tolerances and the change budget, assuring performance and products independently of the project manager, and creating the conditions for the project to succeed.",
+    "source": "p.80"
+  },
+  {
+    "id": "ch06-021",
+    "set": "ch06",
+    "section": "6.2.4.5",
+    "topic": "Project manager",
+    "difficulty": 2,
+    "stem": "Which of these is NOT part of the project manager's responsibility?",
+    "answer": "Authorising a deviation that breaches an agreed stage tolerance",
+    "distractors": [
+      "Setting work package tolerances for team managers",
+      "Delegating work to team managers or team members where appropriate",
+      "Ensuring decisions are made in line with project board guidance and tolerances"
+    ],
+    "exhaustive": true,
+    "explanation": "The project manager runs the project within the tolerances set by the board. A breach or forecast breach of a stage tolerance is escalated, because authorising the deviation is the board's decision. Setting work package tolerances, delegating work and keeping decisions within board guidance are all project manager responsibilities.",
+    "source": "p.80"
+  },
+  {
+    "id": "ch06-022",
+    "set": "ch06",
+    "section": "6.2.4.5",
+    "topic": "Project manager",
+    "difficulty": 3,
+    "stem": "A project manager proposes to take on the project assurance role as well, to save cost on a small project. Why does the method not allow this?",
+    "answer": "Assurance must be independent of the project manager, so the role cannot be assigned to them",
+    "distractors": [
+      "Because the project manager lacks the authority to assure the project board",
+      "Because assurance must always be performed by a project board member personally",
+      "Because the project manager may not hold more than one project role of any kind",
+      "Because the assurance role must be filled on a full-time basis",
+      "Because assurance for a small project must come from an external party",
+      "Because the board must appoint assurance before the project manager is appointed"
+    ],
+    "explanation": "Project assurance roles cannot be assigned to the project manager, team manager, project team members or project support. The purpose is independence: assurance gives the board a view of performance and products that does not come from the person managing the work.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-023",
+    "set": "ch06",
+    "section": "6.2.4.6",
+    "topic": "Team manager",
+    "difficulty": 2,
+    "stem": "How is work allocated to a team manager?",
+    "answer": "As a work package, in line with the commercial management approach",
+    "distractors": [
+      "As a stage plan, authorised by the project board",
+      "As a project brief, issued at the start of the project",
+      "Verbally at each progress checkpoint",
+      "Through the project board, at the end of each stage",
+      "As a request for change, raised by the team manager",
+      "As a product description, agreed with project assurance"
+    ],
+    "explanation": "The project manager allocates work to a team manager in the form of a work package, in line with the commercial management approach. The team manager then delivers the products to the agreed specifications within the tolerances and constraints agreed with the project manager.",
+    "source": "p.81"
+  },
+  {
+    "id": "ch06-024",
+    "set": "ch06",
+    "section": "6.2.4.6",
+    "topic": "Team manager",
+    "difficulty": 3,
+    "stem": "A self-organizing agile team agrees that the team manager role will be held collectively by the whole team, with one member acting as the project manager's single point of contact. What does the method require for this to be acceptable?",
+    "answer": "All the team manager responsibilities must be held by the team, and the arrangement accepted as tailoring at team level",
+    "distractors": [
+      "A named individual must still hold the team manager role on the project board's behalf",
+      "The project manager must take on the team manager responsibilities personally",
+      "The team must adopt the PRINCE2 role names before the arrangement can be used",
+      "The arrangement must be approved by the commissioning party as a project-level tolerance change",
+      "The team manager role cannot be tailored, because it is required on every project",
+      "Project assurance must cover the team manager responsibilities in the absence of a named holder"
+    ],
+    "explanation": "The manual's scenario accepts collective ownership: every area of the team manager's responsibility becomes the responsibility of the whole team and each member, a single point of contact is appointed for the project manager, and the project manager accepts it as appropriate tailoring at team level.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-025",
+    "set": "ch06",
+    "section": "6.2.4.7",
+    "topic": "Project assurance",
+    "difficulty": 2,
+    "stem": "A project board delegates its assurance tasks to a specialist from the wider business. Who remains accountable for that assurance?",
+    "answer": "The project board member whose area of concern is being assured",
+    "distractors": [
+      "The specialist who performs the assurance tasks",
+      "The project manager, because they run the project day to day",
+      "The project executive alone, because they are accountable for the project",
+      "Project support, because it administers the assurance schedule",
+      "The commissioning party, because it appointed the board",
+      "The assurance provider's line manager in the wider business"
+    ],
+    "explanation": "Board members are accountable for assurance of their own areas of concern. Assurance tasks may be done by the board member, by someone appointed from the wider business, or by an external party, but where the roles are delegated the respective board member remains accountable.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-026",
+    "set": "ch06",
+    "section": "6.2.4.7",
+    "topic": "Project assurance",
+    "difficulty": 3,
+    "stem": "A project manager proposes that the project support officer also carry out business assurance, since they already attend every board meeting. Why is this not permitted?",
+    "answer": "Project support must be kept separate from project assurance to maintain the independence of assurance",
+    "distractors": [
+      "Because the support officer is unlikely to have the skills needed for assurance",
+      "Because assurance must be performed by a member of the project board",
+      "Because the executive must approve every assurance appointment",
+      "Because assurance of the business interest is a supplier responsibility",
+      "Because the support officer does not allocate enough time to the project",
+      "Because assurance tasks can only be delegated to an external party"
+    ],
+    "explanation": "The method is explicit that project support must be kept separate from project assurance to maintain the independence of assurance, and that assurance roles cannot be assigned to the project manager, team managers, project team members or project support.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-027",
+    "set": "ch06",
+    "section": "6.2.4.8",
+    "topic": "Project support",
+    "difficulty": 2,
+    "stem": "Who is responsible for the project support role, and can it be delegated?",
+    "answer": "The project manager is responsible, and may delegate it to suppliers, individuals, groups in the business or other team members",
+    "distractors": [
+      "The project board is responsible, and may delegate it only to a project office",
+      "The project executive is responsible, and may delegate it only within the business",
+      "The project manager is responsible, and may not delegate it at all",
+      "The senior supplier is responsible, and may delegate it to supplier staff",
+      "Project assurance is responsible, and may delegate it to the project office",
+      "The commissioning party is responsible, and may delegate it to a P3O"
+    ],
+    "explanation": "Project support is the project manager's responsibility but can be delegated to suppliers, individuals, groups within the business or other team members, depending on scale, complexity, and the project manager's skills, knowledge and capacity. A project office can fulfil the role.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-028",
+    "set": "ch06",
+    "section": "6.2.4.8",
+    "topic": "Project support",
+    "difficulty": 3,
+    "stem": "An organization's project office provides planning support, change administration and facilitation of workshops for a project. Which role is it fulfilling?",
+    "answer": "Project support",
+    "distractors": [
+      "Project assurance",
+      "The project manager",
+      "The change authority",
+      "The team manager",
+      "Programme governance",
+      "The senior user"
+    ],
+    "explanation": "Project support provides services such as administrative support, facilitating meetings and workshops, advice and guidance on project tools, planning support, and risk, issue and change management. Some organizations establish a project office that fulfils this role.",
+    "source": "p.82"
+  },
+  {
+    "id": "ch06-029",
+    "set": "ch06",
+    "section": "6.2.5",
+    "topic": "Work breakdown structure",
+    "difficulty": 2,
+    "stem": "What does the work breakdown structure link?",
+    "answer": "The product breakdown structure and the work packages",
+    "distractors": [
+      "The project plan and the stage plans",
+      "The business case and the benefits management approach",
+      "The project management team structure and the role descriptions",
+      "The product breakdown structure and the product descriptions",
+      "Each stage boundary and the end stage report",
+      "The delivery model and the commercial management approach"
+    ],
+    "explanation": "The work breakdown structure is a hierarchy of all the work to be done, and forms the link between the product breakdown structure and the work packages, helping the project manager decide how to structure teams and where their boundaries should fall.",
+    "source": "p.83"
+  },
+  {
+    "id": "ch06-030",
+    "set": "ch06",
+    "section": "6.2.5",
+    "topic": "Work breakdown structure",
+    "difficulty": 3,
+    "stem": "A project consists of a single work package delivered by a small team. What does the manual say about the work breakdown structure?",
+    "answer": "It would not be required for a project as simple as this",
+    "distractors": [
+      "It is required whenever any external supplier is involved",
+      "It is required whenever the project has more than three teams",
+      "It is required to establish the stage tolerances",
+      "It is a mandatory part of the project initiation documentation",
+      "It is required whenever the product breakdown structure has more than one level",
+      "It is required before a work package can be authorised"
+    ],
+    "explanation": "The manual says the work breakdown structure is most useful with multiple work packages, particularly a mix of internally staffed and externally supplied ones. For a very simple project, such as delivery of one work package with a small team, it would not be required.",
+    "source": "p.83"
+  },
+  {
+    "id": "ch06-031",
+    "set": "ch06",
+    "section": "6.2.5",
+    "topic": "Work breakdown structure",
+    "difficulty": 3,
+    "stem": "Why does the manual advise against a single work package containing both internal and external team members?",
+    "answer": "An internal agreement and an external contract have a fundamentally different character and set of relationships",
+    "distractors": [
+      "External team members cannot be given work package tolerances",
+      "A work package may only be issued to a single supplier organization",
+      "The commercial management approach forbids mixed teams on any project",
+      "The work breakdown structure requires one work package per supplier",
+      "Internal staff cannot be managed by a team manager from a supplier",
+      "Mixed work packages cannot be assured by the project board"
+    ],
+    "explanation": "The manual's reason is the difference in kind between an internal agreement and an external contract, and the relationships that go with each. It is better to manage them separately rather than place both inside one work package.",
+    "source": "p.83"
+  },
+  {
+    "id": "ch06-032",
+    "set": "ch06",
+    "section": "6.3.1",
+    "topic": "Organizational design and development",
+    "difficulty": 2,
+    "stem": "Which sequence is the PRINCE2 technique for organizational design and development?",
+    "answer": "Understand the organizational ecosystem, design the project ecosystem, develop the project ecosystem, manage changes to it, then transition the project into the organizational ecosystem",
+    "distractors": [
+      "Design the project ecosystem, understand the organizational ecosystem, transition the project, develop the project ecosystem, then manage changes to it",
+      "Understand the organizational ecosystem, develop the project ecosystem, design the project ecosystem, transition the project, then manage changes to it",
+      "Design the project ecosystem, develop the project ecosystem, understand the organizational ecosystem, manage changes to it, then transition the project",
+      "Understand the organizational ecosystem, design the project ecosystem, transition the project, manage changes to it, then develop the project ecosystem",
+      "Develop the project ecosystem, understand the organizational ecosystem, design the project ecosystem, manage changes to it, then transition the project",
+      "Understand the organizational ecosystem, transition the project, design the project ecosystem, develop the project ecosystem, then manage changes to it"
+    ],
+    "explanation": "The five steps run in a deliberate order: understand the ecosystem the project is joining, design the project ecosystem, develop it, manage ongoing changes to it, and finally transition the project back into the organizational ecosystem.",
+    "source": "p.84"
+  },
+  {
+    "id": "ch06-033",
+    "set": "ch06",
+    "section": "6.3.1",
+    "topic": "Organizational design and development",
+    "difficulty": 2,
+    "stem": "A business already has its own organizational design procedure and wants to use it instead of the PRINCE2 technique. What does the method require?",
+    "answer": "The alternative should be documented as a tailoring decision in the project initiation documentation",
+    "distractors": [
+      "The alternative must be approved by the project board in an end stage report",
+      "An alternative procedure is not permitted, because the technique is mandatory",
+      "The alternative must be raised as a request for change and assessed by the change authority",
+      "The alternative must be recorded in the lessons log at the end of the project",
+      "The alternative must be agreed with the commissioning party as a project-level tolerance",
+      "The alternative may be used only if it covers all five steps of the PRINCE2 technique"
+    ],
+    "explanation": "An alternative procedure can be used, but its use should be documented as part of the tailoring decisions in the project initiation documentation, so the choice is visible and reviewable rather than implicit.",
+    "source": "p.84"
+  },
+  {
+    "id": "ch06-034",
+    "set": "ch06",
+    "section": "6.3.1.1",
+    "topic": "Understand the organizational ecosystem",
+    "difficulty": 2,
+    "stem": "When understanding the organizational ecosystem, the project approach should make clear who retains responsibility for several things. Which of these is NOT one of them?",
+    "answer": "The quality criteria for each specialist product",
+    "distractors": [
+      "People management, such as performance management, rewards and wellbeing",
+      "Which decisions are subject to corporate governance",
+      "How and when project team members transition on and off the project"
+    ],
+    "exhaustive": true,
+    "explanation": "The four areas listed are people management, governance, management approaches such as policies and ways of working, and how and when team members transition on and off the project. Quality criteria belong to the quality practice.",
+    "source": "p.84"
+  },
+  {
+    "id": "ch06-035",
+    "set": "ch06",
+    "section": "6.3.1.2",
+    "topic": "Design the project ecosystem",
+    "difficulty": 2,
+    "stem": "Who is responsible for the project organizational design, and where is it documented?",
+    "answer": "The project executive, supported by the project manager, documented in the project initiation documentation",
+    "distractors": [
+      "The project manager alone, documented in the stage plan",
+      "The project board collectively, documented in the project mandate",
+      "The programme manager, documented in the programme plan",
+      "Project assurance, documented in the assurance plan",
+      "The commissioning party, documented in the business case",
+      "The project support role, documented in the communication management approach"
+    ],
+    "explanation": "The executive, supported by the project manager, is responsible for the project organizational design, and it should be documented in the project initiation documentation. On large or complex projects the executive may delegate it internally or to a specialist supplier.",
+    "source": "p.84"
+  },
+  {
+    "id": "ch06-036",
+    "set": "ch06",
+    "section": "6.3.1.2",
+    "topic": "Design the project ecosystem",
+    "difficulty": 3,
+    "stem": "A project will move from a client-led design team to a supplier-led delivery team at stage 3. What does the manual say should happen during initiation?",
+    "answer": "The transition should be identified and planned, with planned project management team structures for the different stages",
+    "distractors": [
+      "The structure should stay fixed, because changes to the team structure require a new project mandate",
+      "The supplier-led structure should be deferred until the stage boundary, when it can be designed",
+      "The design team should be retained alongside the delivery team to avoid loss of knowledge",
+      "The transition should be raised as an exception once the stage begins",
+      "The project board should appoint the delivery team before the design stage starts",
+      "The change should be recorded in the lessons log rather than planned in advance"
+    ],
+    "explanation": "Where the structure needs to change between stages, this should where possible be identified and planned during initiation, establishing planned team structures at different stages, and considering the people and resources needed to support the transition and its impact on the team.",
+    "source": "p.84"
+  },
+  {
+    "id": "ch06-037",
+    "set": "ch06",
+    "section": "6.3.1.3",
+    "topic": "Develop the project ecosystem",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a project organizational development activity?",
+    "answer": "Setting the stage tolerances for the next stage",
+    "distractors": [
+      "Onboarding people to the project through induction or certification",
+      "Running skills and capability assessments of the project team",
+      "Succession planning, recognising that people may leave before completion"
+    ],
+    "exhaustive": true,
+    "explanation": "Development covers onboarding, skills assessment, training, team building, establishing a project culture, succession planning and offboarding to capture lessons. Stage tolerances are set by the project board as part of directing the project.",
+    "source": "p.85"
+  },
+  {
+    "id": "ch06-038",
+    "set": "ch06",
+    "section": "6.3.1.4",
+    "topic": "Manage changes to the project ecosystem",
+    "difficulty": 3,
+    "stem": "Mid-stage, a team member's capability gap becomes clear and the work they hold is at risk. Which response matches the project manager's responsibility for managing the project ecosystem?",
+    "answer": "Match responsibilities to capability and capacity by sourcing additional skills, upskilling through coaching, or reallocating the work",
+    "distractors": [
+      "Raise an exception immediately, because any capability gap breaches the stage tolerances",
+      "Ask the project board to replace the team member at the next stage boundary",
+      "Amend the business case to reflect the reduced capability of the team",
+      "Re-plan the stage so that the affected work moves to a later stage",
+      "Ask project assurance to cover the work until someone else is available",
+      "Record the gap in the lessons log and continue with the original allocation"
+    ],
+    "explanation": "The project manager is responsible for making the best use of the people and resources available: matching responsibilities to capability and capacity, sourcing additional skills, or upskilling through coaching and learning, with the commercial management approach supporting people moving on and off the project.",
+    "source": "p.86"
+  },
+  {
+    "id": "ch06-039",
+    "set": "ch06",
+    "section": "6.3.1.5",
+    "topic": "Transition into the organization",
+    "difficulty": 2,
+    "stem": "Which three aspects does the project board need to consider when transitioning the project into the organizational ecosystem?",
+    "answer": "Products, people and learning",
+    "distractors": [
+      "Products, budget and contracts",
+      "People, processes and technology",
+      "Learning, benefits and risk",
+      "Products, suppliers and benefits",
+      "People, governance and reporting",
+      "Products, people and performance"
+    ],
+    "explanation": "The three aspects are products (accepted by the business and owned afterwards, including further development, benefits monitoring and maintenance), people (transitioned back into the business or managed under supplier arrangements), and learning (sharing lessons and using knowledge gained).",
+    "source": "p.86"
+  },
+  {
+    "id": "ch06-040",
+    "set": "ch06",
+    "section": "6.3.2.1",
+    "topic": "Delivery models",
+    "difficulty": 3,
+    "stem": "What distinguishes a thin client delivery model from a thick client model?",
+    "answer": "In a thin client model most of the work, including much of the project management, is undertaken by external suppliers",
+    "distractors": [
+      "In a thin client model most of the work is undertaken by the business, with suppliers supplying only specialist skills",
+      "In a thin client model all project management is retained in-house while delivery is outsourced",
+      "In a thin client model the project board is chaired by the senior supplier",
+      "In a thin client model work is contracted on a labour basis only",
+      "In a thin client model the business retains responsibility for supplier performance",
+      "In a thin client model there is no senior supplier role on the project board"
+    ],
+    "explanation": "Delivery models range from thin client, where most project work and much of the management work is done by external suppliers, to thick client, where most is done by the business. The model defines which aspects of project management are in-house or external.",
+    "source": "p.87"
+  },
+  {
+    "id": "ch06-041",
+    "set": "ch06",
+    "section": "6.3.2.1",
+    "topic": "Delivery models",
+    "difficulty": 3,
+    "stem": "A supplier is engaged on a labour basis rather than a product basis. Who is generally responsible for the performance of the work?",
+    "answer": "The client",
+    "distractors": [
+      "The supplier",
+      "The client and supplier jointly",
+      "The project board",
+      "The senior supplier",
+      "The team manager, whichever organization they come from"
+    ],
+    "explanation": "The manual draws the distinction directly: contracting on a labour basis means the client generally remains responsible for the performance of the work, whereas on a product basis the supplier remains responsible for their performance.",
+    "source": "p.87"
+  },
+  {
+    "id": "ch06-042",
+    "set": "ch06",
+    "section": "6.3.2.1",
+    "topic": "Delivery models",
+    "difficulty": 3,
+    "stem": "Who determines the balance between in-house and external suppliers and the commercial arrangements between them?",
+    "answer": "The project board, in consultation with the project manager",
+    "distractors": [
+      "The project manager, in consultation with the team managers",
+      "The commissioning party, in consultation with the project executive",
+      "The senior supplier, in consultation with the supplier organizations",
+      "Project assurance, in consultation with the project board",
+      "The project support role, in consultation with procurement",
+      "The programme manager, in consultation with the business change manager"
+    ],
+    "explanation": "The board, in consultation with the project manager, determines the right balance between in-house and external suppliers and the commercial arrangements required, and this is captured in the commercial management approach.",
+    "source": "p.87"
+  },
+  {
+    "id": "ch06-043",
+    "set": "ch06",
+    "section": "6.3.2.2",
+    "topic": "RACI chart",
+    "difficulty": 2,
+    "stem": "In a RACI chart, what does the accountable designation mean?",
+    "answer": "The single person who owns the task",
+    "distractors": [
+      "One or more people who perform the task",
+      "The people whose input is required for the task",
+      "The people who are informed of progress or completion",
+      "The most senior person with an interest in the task",
+      "The person who authorises the budget for the task",
+      "The person who assures the task on the board's behalf"
+    ],
+    "explanation": "RACI stands for responsible (one or more people who perform the task), accountable (the single person who owns it), consulted (those whose input is required) and informed (those told of progress or completion).",
+    "source": "p.88"
+  },
+  {
+    "id": "ch06-044",
+    "set": "ch06",
+    "section": "6.4.1",
+    "topic": "Organizational context",
+    "difficulty": 2,
+    "stem": "Which of these is given as an example of integrating programme and project roles?",
+    "answer": "A single programme office taking project support responsibilities for all the projects",
+    "distractors": [
+      "Each project having a board with no members in common with any other project",
+      "The programme manager being barred from acting as a project executive",
+      "A business change manager being barred from the senior user role",
+      "Stage boundaries being staggered so that no two projects review at the same time",
+      "Project assurance being provided by the programme office for all projects",
+      "Each project appointing its own support office independent of the programme"
+    ],
+    "explanation": "Integration examples include the programme manager acting as project executive for one or more projects, multiple boards or a single directing body, a business change manager fulfilling senior user, and a single programme office taking project support for all projects. The aim is clear lines of responsibility, no duplication, and efficient reporting and reviews.",
+    "source": "p.89"
+  },
+  {
+    "id": "ch06-045",
+    "set": "ch06",
+    "section": "6.4.3",
+    "topic": "Delivery method",
+    "difficulty": 2,
+    "stem": "An iterative-incremental delivery method includes a product owner role. Which PRINCE2 role could it be aligned to?",
+    "answer": "The senior user",
+    "distractors": [
+      "The project executive",
+      "The senior supplier",
+      "The team manager",
+      "Project assurance",
+      "The business change manager",
+      "The change authority"
+    ],
+    "explanation": "The manual gives the product owner as an example where a simple change of terminology and minor amendments to the role description may suffice, aligning it to the senior user role. Where roles do not map so neatly, distinct roles may be added with agreement on how they relate to the PRINCE2 roles.",
+    "source": "p.90"
+  },
+  {
+    "id": "ch06-046",
+    "set": "ch06",
+    "section": "6.4.4",
+    "topic": "Sustainability",
+    "difficulty": 3,
+    "stem": "Accountability for sustainability targets should be captured in several places. Which of these is NOT one of them?",
+    "answer": "The daily log",
+    "distractors": [
+      "The business case",
+      "The requirement setting",
+      "People's role descriptions"
+    ],
+    "exhaustive": true,
+    "explanation": "The manual calls for clear accountability for sustainability targets across the project ecosystem, captured in the business case, the requirement setting and people's role descriptions. The project management team structure and role descriptions should also define responsibilities, including how targets are managed after the project concludes.",
+    "source": "p.91"
+  },
+  {
+    "id": "ch06-047",
+    "set": "ch06",
+    "section": "6.4.5",
+    "topic": "Scale and change authority",
+    "difficulty": 2,
+    "stem": "A large project establishes a change authority, distinct from the project manager, reporting to the project board. Where is its use and composition documented?",
+    "answer": "The issue management approach",
+    "distractors": [
+      "The commercial management approach",
+      "The change management approach",
+      "The communication management approach",
+      "The project initiation documentation only",
+      "The stage plan for the current stage",
+      "The risk management approach"
+    ],
+    "explanation": "The change authority is a way for the board to delegate authority to approve requests for change or off-specification, aligned to the agreed project tolerances. Its use and composition are documented in the issue management approach.",
+    "source": "p.92"
+  },
+  {
+    "id": "ch06-048",
+    "set": "ch06",
+    "section": "6.5",
+    "topic": "Commercial management approach",
+    "difficulty": 2,
+    "stem": "Which management product describes the delivery model for the project work, such as which elements of the work breakdown structure will be delivered by external suppliers?",
+    "answer": "The commercial management approach",
+    "distractors": [
+      "The project management team structure",
+      "The role descriptions",
+      "The communication management approach",
+      "The project approach",
+      "The issue management approach",
+      "The work breakdown structure itself"
+    ],
+    "explanation": "The commercial management approach covers the procedures, techniques, standards and responsibilities for commercial management, including market engagement, procurement and contract management, and it contains the delivery model. The work breakdown structure is an input to that decision, not the description of it.",
+    "source": "p.92"
+  },
+  {
+    "id": "ch06-049",
+    "set": "ch06",
+    "section": "6.5",
+    "topic": "Project management team structure",
+    "difficulty": 3,
+    "stem": "Which of these is NOT high-level content of the project management team structure management product?",
+    "answer": "The quality criteria for each specialist product in the plan",
+    "distractors": [
+      "A chart showing the structure of the team and their reporting lines",
+      "A summary of authority and responsibilities, possibly in matrix form",
+      "Working practices such as co-location or arrangements for remote teams"
+    ],
+    "exhaustive": true,
+    "explanation": "The product defines who is involved in the project, their relationships and how they will work together: the structure chart, a summary of authority and responsibilities, working practices, and supporting information on other key personnel and relationships. Quality criteria belong to product descriptions.",
+    "source": "p.93"
+  },
+  {
+    "id": "ch06-050",
+    "set": "ch06",
+    "section": "6.6",
+    "topic": "Focus of key roles",
+    "difficulty": 2,
+    "stem": "Which organizing responsibility belongs to the business layer rather than to the project executive?",
+    "answer": "Appointing the project executive, and possibly the project manager",
+    "distractors": [
+      "Approving the commercial management approach",
+      "Confirming appointments to the project management team",
+      "Approving the project management team structure",
+      "Preparing the role descriptions",
+      "Assuring the implementation of the commercial management procedures"
+    ],
+    "explanation": "Table 6.4 splits the responsibilities. The business layer appoints the executive and possibly the project manager, provides the business's communications standards, and provides information as defined in the communication management approach. Approving the commercial management approach and confirming team appointments are executive responsibilities.",
+    "source": "p.94"
+  },
+  {
+    "id": "ch06-051",
+    "set": "ch06",
+    "section": "6.6",
+    "topic": "Focus of key roles",
+    "difficulty": 3,
+    "stem": "Which role prepares the role descriptions and designs, reviews and updates the project management team structure?",
+    "answer": "The project manager",
+    "distractors": [
+      "The project executive",
+      "The project board collectively",
+      "Project assurance",
+      "Project support",
+      "The business layer",
+      "The team manager"
+    ],
+    "explanation": "The project manager prepares and updates the commercial, communication and change management approaches, designs, reviews and updates the team structure and work breakdown structure, prepares role descriptions, and maintains a healthy project ecosystem. The executive approves the structure, and assurance advises and confirms compliance.",
+    "source": "p.94"
+  },
+  {
+    "id": "ch06-052",
+    "set": "ch06",
+    "section": "6.7",
+    "topic": "Key relationships with principles",
+    "difficulty": 3,
+    "stem": "Which outcome does the organizing practice produce in support of the principle define roles, responsibilities and relationships?",
+    "answer": "There is no duplication of or gap in responsibilities, and relationships are positive across the project ecosystem",
+    "distractors": [
+      "The project is able to adapt to changing business needs and decisions align with the business case",
+      "The right people are in the right roles at the right time to deliver the project",
+      "The project can evolve at stage boundaries with appropriate skills deployed at each stage",
+      "Decision-making is timely, with increased accountability and ownership of actions",
+      "Products are more readily accepted by users and brought into operational use",
+      "An effective team structure is created that is appropriately sized for the project"
+    ],
+    "explanation": "Table 6.5 pairs the principle with the mechanism (developing an explicit team structure so everyone is aware of their responsibilities and relationships) and the result: no duplication of or gap in responsibilities, positive relationships across the ecosystem, and between the project and those it affects.",
+    "source": "p.95"
+  }
+]
