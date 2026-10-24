@@ -304,6 +304,7 @@ button {
   flex-wrap: wrap;
 }
 .quizfoot .nav { display: flex; gap: 8px; align-items: center; }
+.quizfoot .footleft { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
 .unanswered-note { font-size: 0.82rem; color: var(--warn); }
 
 /* ---- results ---- */

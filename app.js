@@ -504,7 +504,10 @@ function viewQuiz() {
 
       <div class="quizfoot">
         ${exam
-          ? `<button class="btn ghost tiny" data-action="flag">${entry.flagged ? 'Unflag' : 'Flag for review'}</button>`
+          ? `<div class="footleft">
+               <button class="btn ghost tiny" data-action="flag">${entry.flagged ? 'Unflag' : 'Flag for review'}</button>
+               <button class="btn ghost tiny" data-action="submit">Submit paper</button>
+             </div>`
           : `<span class="footnote">${answered} of ${total} answered</span>`}
         <div class="nav">
           <button class="btn ghost tiny" data-action="prev" ${state.position === 0 ? 'disabled' : ''}>Back</button>
@@ -739,7 +742,7 @@ appEl.addEventListener('click', async (event) => {
       }
 
       case 'mixed-continue':
-        await openPool(`${state.selection.length} chapters`);
+        await openPool('Mixed chapters');
         break;
 
       case 'back-from-setup':
