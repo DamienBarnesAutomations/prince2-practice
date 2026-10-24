@@ -41,6 +41,11 @@ Other deliberate choices, all of them to keep it hard:
 | **Exam mode** | 60 questions, 60-minute countdown, flag-for-review with a question palette, no feedback until submit, pass mark 60%. |
 | **Missed questions** | Everything you have answered wrong and not yet cleared. A question leaves this list after two consecutive correct answers, and returns if you get it wrong again. |
 
+Leaving a session: the `← Practice` control inside a quiz, and the browser's own back
+control, both return to the previous screen. Practice answers already marked are kept;
+unasked questions are dropped. Abandoning an exam needs a second press and does not save a
+paper, because a half-finished paper is not a score.
+
 ## Progress
 
 One append-only attempts array is the only stored truth. Everything on the home screen is

@@ -15,7 +15,7 @@ import path from 'node:path';
 
 const repo = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-const listeners = { app: null, document: null };
+const listeners = { app: null, document: null, popstate: null };
 const appEl = {
   innerHTML: '',
   id: 'app',
@@ -43,7 +43,13 @@ globalThis.localStorage = {
   setItem: (key, value) => storage.set(key, value),
 };
 
-globalThis.history = { replaceState() {} };
+globalThis.window = {
+  addEventListener(type, handler) {
+    if (type === 'popstate') listeners.popstate = handler;
+  },
+};
+
+globalThis.history = { replaceState() {}, pushState() {} };
 
 globalThis.fetch = async (url) => {
   const relative = String(url).replace(/^\.\//, '').split('?')[0];
@@ -65,6 +71,11 @@ async function click(action, data = {}) {
 
 async function press(key) {
   listeners.document({ key, preventDefault() {}, target: {} });
+  await flush();
+}
+
+async function backTo(view) {
+  listeners.popstate({ state: { view } });
   await flush();
 }
 
@@ -169,4 +180,35 @@ test('keyboard answers and advances in practice mode', async () => {
   assert.match(appEl.innerHTML, /class="feedback/);
   await press('ArrowRight');
   assert.match(appEl.innerHTML, /Question 2 of/);
+});
+
+test('leaving a practice session returns home without losing marked answers', async () => {
+  const before = JSON.parse(storage.get('prince2Practice.v1')).attempts.length;
+  await click('leave');
+  assert.match(appEl.innerHTML, /Practice by chapter/);
+  const after = JSON.parse(storage.get('prince2Practice.v1')).attempts.length;
+  assert.equal(after, before, 'leaving must not add or remove attempts');
+});
+
+test('browser back leaves the session instead of the site', async () => {
+  await click('mode', { mode: 'chapter' });
+  await click('pick-set', { set: 'ch02' });
+  await click('start');
+  assert.match(appEl.innerHTML, /Question 1 of/);
+
+  await backTo('home');
+  assert.match(appEl.innerHTML, /Practice by chapter/);
+});
+
+test('an exam needs a second press before it can be abandoned', async () => {
+  await click('mode', { mode: 'exam' });
+  await click('start-exam');
+  assert.match(appEl.innerHTML, /Question 1 of 60/);
+
+  await click('leave');
+  assert.match(appEl.innerHTML, /will not be marked/);
+  assert.match(appEl.innerHTML, /Question 1 of 60/);
+
+  await click('leave');
+  assert.match(appEl.innerHTML, /Practice by chapter/);
 });

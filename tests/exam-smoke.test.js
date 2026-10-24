@@ -35,7 +35,13 @@ globalThis.localStorage = {
   setItem: (key, value) => storage.set(key, value),
 };
 
-globalThis.history = { replaceState() {} };
+globalThis.history = { replaceState() {}, pushState() {} };
+
+globalThis.window = {
+  addEventListener(type, handler) {
+    if (type === 'popstate') listeners.popstate = handler;
+  },
+};
 
 function makeQuestions(setId, count) {
   return Array.from({ length: count }, (_, i) => ({
@@ -132,4 +138,20 @@ test('submitting an exam records the paper and scores it against the pass mark',
   assert.equal(saved.exams.length, 1);
   assert.equal(saved.exams[0].total, 60);
   assert.equal(typeof saved.exams[0].durationMs, 'number');
+});
+
+test('browser back asks once before discarding a live exam paper', async () => {
+  await click('mode', { mode: 'exam' });
+  await click('start-exam');
+  assert.match(appEl.innerHTML, /Question 1 of 60/);
+
+  listeners.popstate({ state: { view: 'examIntro' } });
+  await flush();
+  assert.match(appEl.innerHTML, /will not be marked/);
+  assert.match(appEl.innerHTML, /Question 1 of 60/);
+
+  listeners.popstate({ state: { view: 'home' } });
+  await flush();
+  assert.match(appEl.innerHTML, /Practice by chapter/);
+  assert.match(appEl.innerHTML, /Missed questions/);
 });

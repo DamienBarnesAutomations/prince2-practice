@@ -5,6 +5,8 @@ const STORAGE_KEY = 'prince2Practice.v1';
 const COUNT_CHOICES = [10, 20, 30];
 const EXAM_QUESTIONS = 60;
 const EXAM_MINUTES = 60;
+const LEAVE_EXAM_NOTICE =
+  'Leaving abandons this paper and it will not be marked. Press Leave exam again to abandon, or carry on.';
 
 const appEl = document.getElementById('app');
 
@@ -22,6 +24,7 @@ const state = {
   results: null,
   notice: '',
   pendingSubmit: false,
+  pendingLeave: false,
   paletteOpen: true,
   loadError: '',
   storageOk: true,
@@ -232,6 +235,32 @@ function render() {
 
 function stopClockIfLeavingQuiz() {
   if (state.view !== 'quiz' && state.timer) stopClock();
+}
+
+/* --------------------------------------------------------------------- routing */
+
+// Each screen is a history entry so the browser's back control behaves like the
+// in-app one. Re-renders within a screen (answering, moving between questions)
+// deliberately do not push: back leaves the session rather than stepping
+// through it.
+function navigate(view, { replace = false } = {}) {
+  state.view = view;
+  const entry = { view };
+  if (replace) history.replaceState(entry, '');
+  else history.pushState(entry, '');
+  render();
+}
+
+// Abandoning keeps practice attempts already recorded; only the unasked
+// questions are lost. An exam paper is discarded without being marked.
+function abandonSession() {
+  stopClock();
+  state.session = null;
+  state.results = null;
+  state.position = 0;
+  state.pendingSubmit = false;
+  state.pendingLeave = false;
+  state.notice = '';
 }
 
 /* ---------------------------------------------------------------------- home */
@@ -480,6 +509,8 @@ function viewQuiz() {
     : `<span>${answered} answered</span>`;
 
   return `
+    <p class="eyebrow"><button class="btn subtle" data-action="leave" style="padding-left:0">← ${exam ? 'Leave exam' : 'Practice'}</button></p>
+
     <div class="quizbar">
       <span>Question ${state.position + 1} of ${total}</span>
       <div class="progress"><span style="width:${((state.position + 1) / total) * 100}%"></span></div>
@@ -625,27 +656,25 @@ async function openPool(label) {
 
   if (state.pool.length === 0) {
     state.notice = 'No questions match that selection.';
-    state.view = 'home';
-    render();
+    navigate('home');
     return;
   }
 
   state.config.count = Math.min(state.config.count, state.pool.length);
-  state.view = 'setup';
-  render();
+  navigate('setup');
 }
 
 function startSession(pool, count) {
   state.session = buildSession(pool, count);
   state.position = 0;
   state.pendingSubmit = false;
+  state.pendingLeave = false;
   state.notice = '';
-  state.view = 'quiz';
 
   if (state.mode === 'exam') {
     startClock();
   }
-  render();
+  navigate('quiz');
 }
 
 function submitSession({ auto = false } = {}) {
@@ -682,8 +711,9 @@ function submitSession({ auto = false } = {}) {
 
   state.pendingSubmit = false;
   state.notice = '';
-  state.view = 'results';
-  render();
+  // A finished paper must not be reachable by pressing back, so the results
+  // screen takes the place of the quiz entry rather than stacking on top of it.
+  navigate('results', { replace: true });
 }
 
 function answeredPool() {
@@ -700,9 +730,19 @@ appEl.addEventListener('click', async (event) => {
   try {
     switch (action) {
       case 'home':
-        state.view = 'home';
         state.notice = '';
-        render();
+        navigate('home');
+        break;
+
+      case 'leave':
+        if (state.mode === 'exam' && !state.pendingLeave) {
+          state.pendingLeave = true;
+          state.notice = LEAVE_EXAM_NOTICE;
+          render();
+          break;
+        }
+        abandonSession();
+        navigate('home', { replace: true });
         break;
 
       case 'mode':
@@ -711,11 +751,9 @@ appEl.addEventListener('click', async (event) => {
         state.notice = '';
 
         if (state.mode === 'chapter' || state.mode === 'mixed') {
-          state.view = 'pick';
-          render();
+          navigate('pick');
         } else if (state.mode === 'exam') {
-          state.view = 'examIntro';
-          render();
+          navigate('examIntro');
         } else {
           await openPool('Missed questions');
         }
@@ -746,8 +784,7 @@ appEl.addEventListener('click', async (event) => {
         break;
 
       case 'back-from-setup':
-        state.view = state.mode === 'missed' ? 'home' : 'pick';
-        render();
+        navigate(state.mode === 'missed' ? 'home' : 'pick');
         break;
 
       case 'set-count':
@@ -787,6 +824,7 @@ appEl.addEventListener('click', async (event) => {
         const index = Number(trigger.dataset.index);
         entry.selected = index;
         state.pendingSubmit = false;
+        state.pendingLeave = false;
         state.notice = '';
 
         if (state.mode !== 'exam') recordAttempt(entry, state.mode);
@@ -804,6 +842,8 @@ appEl.addEventListener('click', async (event) => {
       case 'goto':
         state.position = Number(trigger.dataset.index);
         state.pendingSubmit = false;
+        state.pendingLeave = false;
+        state.notice = '';
         render();
         break;
 
@@ -811,6 +851,7 @@ appEl.addEventListener('click', async (event) => {
         if (state.position < state.session.length - 1) {
           state.position += 1;
           state.pendingSubmit = false;
+          state.pendingLeave = false;
           state.notice = '';
           render();
         }
@@ -820,6 +861,7 @@ appEl.addEventListener('click', async (event) => {
         if (state.position > 0) {
           state.position -= 1;
           state.pendingSubmit = false;
+          state.pendingLeave = false;
           state.notice = '';
           render();
         }
@@ -872,6 +914,7 @@ document.addEventListener('keydown', (event) => {
     event.preventDefault();
     entry.selected = index;
     state.pendingSubmit = false;
+    state.pendingLeave = false;
     state.notice = '';
     if (!exam) recordAttempt(entry, state.mode);
     render();
@@ -891,6 +934,7 @@ document.addEventListener('keydown', (event) => {
     if (state.position < state.session.length - 1) {
       state.position += 1;
       state.pendingSubmit = false;
+      state.pendingLeave = false;
       state.notice = '';
       render();
     } else {
@@ -904,10 +948,38 @@ document.addEventListener('keydown', (event) => {
     if (state.position > 0) {
       state.position -= 1;
       state.pendingSubmit = false;
+      state.pendingLeave = false;
       state.notice = '';
       render();
     }
   }
+});
+
+window.addEventListener('popstate', (event) => {
+  const target = event.state?.view ?? 'home';
+
+  // Forward can land on the entry of a paper that has already been left.
+  if (target === 'quiz' && !state.session) {
+    history.replaceState({ view: 'home' }, '');
+    state.view = 'home';
+    render();
+    return;
+  }
+
+  // Back would discard a live exam paper, so it asks once rather than obeying.
+  // Pushing the entry back restores the position the browser just left.
+  if (state.view === 'quiz' && state.mode === 'exam' && !state.pendingLeave) {
+    state.pendingLeave = true;
+    state.notice = LEAVE_EXAM_NOTICE;
+    history.pushState({ view: 'quiz' }, '');
+    render();
+    return;
+  }
+
+  if (state.view === 'quiz' && target !== 'quiz') abandonSession();
+
+  state.view = target;
+  render();
 });
 
 /* ----------------------------------------------------------------- bootstrap */
@@ -926,6 +998,7 @@ async function boot() {
     return;
   }
 
+  if (!history.state?.view) history.replaceState({ view: 'home' }, '');
   render();
 }
 
