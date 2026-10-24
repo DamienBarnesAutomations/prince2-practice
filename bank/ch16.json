@@ -1,0 +1,662 @@
+[
+  {
+    "id": "ch16-001",
+    "set": "ch16",
+    "section": "16.1",
+    "topic": "Purpose of controlling a stage",
+    "difficulty": 1,
+    "stem": "What is the purpose of the process of controlling a stage?",
+    "answer": "To assign work, monitor it, handle issues, report progress to the project board and take corrective action so that the stage stays within its tolerances",
+    "distractors": [
+      "To assign work packages, monitor the team's output and report the completion of each product to the users",
+      "To monitor the stage against its plan, escalate every deviation to the project board and revise the tolerances",
+      "To handle issues and risks, keep the business case current and confirm that the expected benefits have been realized",
+      "To assign work, monitor progress and take corrective action so that the project stays within the business layer's tolerances",
+      "To report progress to the project board, take corrective action and prepare the plan for the next stage",
+      "To monitor the work of team managers, accept their products and authorize the closure of the project"
+    ],
+    "explanation": "The purpose covers assigning work, monitoring it, handling issues, reporting progress to the board and correcting the course of the stage within the tolerances the board set. Escalating every deviation, revising the tolerances and confirming benefits all belong elsewhere; the project manager works within tolerances rather than changing them.",
+    "source": "p.252"
+  },
+  {
+    "id": "ch16-002",
+    "set": "ch16",
+    "section": "16.1",
+    "topic": "Purpose compared with product delivery",
+    "difficulty": 2,
+    "stem": "How does the purpose of controlling a stage differ from that of managing product delivery?",
+    "answer": "Controlling a stage keeps the stage within tolerances, while managing product delivery accepts, executes and delivers the work packages allocated to a team",
+    "distractors": [
+      "Controlling a stage produces the specialist products, while managing product delivery only reports on their progress",
+      "Controlling a stage prepares the next stage plan, while managing product delivery approves the current stage plan",
+      "Controlling a stage owns the business case, while managing product delivery owns the benefits management approach",
+      "Controlling a stage is used only on linear projects, while managing product delivery is used only on agile projects",
+      "Controlling a stage sets project tolerances, while managing product delivery sets stage tolerances",
+      "Controlling a stage reports to the business layer, while managing product delivery reports to the project board"
+    ],
+    "explanation": "Controlling a stage is the project manager's day-to-day management of the stage, keeping it within the board's tolerances, while the team-side process is where work packages are accepted, the work is done and the products are delivered. The two processes meet at the work package, not at the stage plan.",
+    "source": "p.252"
+  },
+  {
+    "id": "ch16-003",
+    "set": "ch16",
+    "section": "16.2",
+    "topic": "Objectives of controlling a stage",
+    "difficulty": 1,
+    "stem": "Which of these is an objective of the process of controlling a stage?",
+    "answer": "That the business case is kept under review throughout the stage",
+    "distractors": [
+      "That the project plan is kept under review and re-baselined at each stage boundary",
+      "That the stage's products are handed over to the users and their benefits confirmed",
+      "That the project board authorizes each stage before any work begins",
+      "That the tolerances for team managers are agreed with the business layer",
+      "That the project's approach to quality is defined and baselined",
+      "That the project mandate is reviewed before the stage plan is produced"
+    ],
+    "explanation": "The objectives include keeping the business case under review, alongside focusing attention on the stage's products, controlling risks and issues, meeting quality expectations and working within tolerances. Re-baselining the project plan and confirming benefits belong to later processes, and defining the quality approach happens during initiation.",
+    "source": "p.252"
+  },
+  {
+    "id": "ch16-004",
+    "set": "ch16",
+    "section": "16.2",
+    "topic": "Objectives of controlling a stage",
+    "difficulty": 3,
+    "stem": "Which of these is NOT an objective of the process of controlling a stage?",
+    "answer": "To confirm that the project board has authorized the next stage and the resources to deliver it",
+    "distractors": [
+      "To ensure that risks and issues are controlled",
+      "To ensure that the business case is kept under review",
+      "To ensure that the agreed products for the stage meet the agreed quality expectations and are accepted"
+    ],
+    "exhaustive": true,
+    "explanation": "The objectives are about controlling risks and issues, reviewing the business case, meeting the stage's quality expectations, keeping attention on the agreed products and working within tolerances. Obtaining authority for the next stage, and the resources for it, is the purpose of managing a stage boundary.",
+    "source": "p.252"
+  },
+  {
+    "id": "ch16-005",
+    "set": "ch16",
+    "section": "16.2",
+    "topic": "Facilitator rather than controller",
+    "difficulty": 2,
+    "stem": "The manual says the project manager acts as a facilitator rather than a controller in this process. What does that mean in practice?",
+    "answer": "Giving team managers freedom within their tolerances and agreeing the project manager's own tolerances with the board, so that escalations are kept to a minimum",
+    "distractors": [
+      "Approving every task a team member performs, so that no unauthorized work takes place",
+      "Escalating all issues and risks to the project board as soon as they are identified",
+      "Delegating the stage plan and the highlight reports to the team managers",
+      "Keeping the stage plan away from the team so that they concentrate on their own work packages",
+      "Declining to set tolerances, because tolerances prevent the team from learning",
+      "Chairing the project board so that decisions can be taken more quickly"
+    ],
+    "explanation": "The point of tolerances is to give people room to act: team managers should have freedom where possible, and the project manager should discuss their own tolerances with the board to gain freedom to act and learn. Approving every task, or escalating everything, removes that freedom and defeats the purpose.",
+    "source": "p.252"
+  },
+  {
+    "id": "ch16-006",
+    "set": "ch16",
+    "section": "16.3",
+    "topic": "When the process is used",
+    "difficulty": 1,
+    "stem": "When is the process of controlling a stage used?",
+    "answer": "In every stage of the project, normally for the first time after the project board has authorized the project",
+    "distractors": [
+      "Only in the final stage, because earlier stages are covered by the initiation stage",
+      "Once per project, immediately after the project mandate has been received",
+      "Only between stage boundaries, and never during the initiation stage",
+      "Only once the project board has approved an exception plan for the stage",
+      "Only on projects that use a linear rather than an iterative delivery method",
+      "At each stage boundary, in place of the process of managing a stage boundary"
+    ],
+    "explanation": "Controlling a stage describes the project manager's day-to-day management of a stage and is used for each stage of the project. It is normally used first once the board has authorized the project, though it can also be used during initiation on large or complex projects.",
+    "source": "p.253"
+  },
+  {
+    "id": "ch16-007",
+    "set": "ch16",
+    "section": "16.3",
+    "topic": "Use during initiation",
+    "difficulty": 2,
+    "stem": "A large, complex project has a long and demanding initiation stage. What does the manual allow here?",
+    "answer": "Controlling a stage can be used during the initiation stage, especially for large or complex projects",
+    "distractors": [
+      "Controlling a stage cannot begin until the board has authorized the first delivery stage",
+      "Controlling a stage is used, but only to escalate issues, because no work packages exist yet",
+      "Controlling a stage replaces initiating a project above a defined size threshold",
+      "Controlling a stage may be used only if the board delegates its authority to the project manager",
+      "Controlling a stage may be used only after all initiation documentation has been baselined",
+      "Controlling a stage is used, but the initiation stage is then reported as a delivery stage"
+    ],
+    "explanation": "Although the process normally starts after project authorization, the manual notes it can be used during the initiation stage, particularly where the project is large or complex. That is a matter of scale and complexity, not of the board delegating its authority.",
+    "source": "p.253"
+  },
+  {
+    "id": "ch16-008",
+    "set": "ch16",
+    "section": "16.3",
+    "topic": "Work packages when the project manager is team manager",
+    "difficulty": 2,
+    "stem": "On a small project the project manager also takes the team manager role. What does the manual say about work package descriptions?",
+    "answer": "They are still used to define and control the work, with references to the team manager read as the individual assigned the work",
+    "distractors": [
+      "They are no longer needed, because the project manager already knows what the work involves",
+      "A separate team manager must be appointed before any work can be authorized",
+      "The stage plan replaces the work package descriptions for the whole stage",
+      "Checkpoint reports are replaced by the highlight report sent to the project board",
+      "The project board must approve each individual task before it can start",
+      "Team plans remain mandatory, but work package descriptions become optional"
+    ],
+    "explanation": "Work package descriptions are the vehicle for defining, assigning and controlling work and for setting tolerances, so they are still used when the project manager does both roles. In that case the references to the team manager apply to the individual team member given the work.",
+    "source": "p.253"
+  },
+  {
+    "id": "ch16-009",
+    "set": "ch16",
+    "section": "16.3",
+    "topic": "End of the final stage",
+    "difficulty": 3,
+    "stem": "At the end of the last stage of a project, what does controlling a stage trigger?",
+    "answer": "Closing a project, whereas at the end of every other stage it triggers managing a stage boundary",
+    "distractors": [
+      "Managing a stage boundary, exactly as it does at the end of every other stage",
+      "Directing a project, which then triggers managing a stage boundary",
+      "Managing product delivery, so that the last work package can be closed down",
+      "Starting up a project, so that lessons can be captured for the next project",
+      "Initiating a project, so that the next stage can be authorized by the board"
+    ],
+    "explanation": "The activities of managing a stage boundary happen towards the end of each stage with the exception of the final stage. There, controlling a stage hands over to closing a project instead, so that the project can be brought to a controlled close.",
+    "source": "p.254"
+  },
+  {
+    "id": "ch16-010",
+    "set": "ch16",
+    "section": "16.4.1",
+    "topic": "Triggers to authorize a work package",
+    "difficulty": 1,
+    "stem": "Which of these is a trigger for the project manager to authorize a work package?",
+    "answer": "The project board approving an exception plan",
+    "distractors": [
+      "A team manager submitting a checkpoint report for the period",
+      "A stakeholder requesting a copy of the latest highlight report",
+      "The completion of a quality review for one of the stage's products",
+      "The project manager adding a new entry to the lessons log",
+      "Project support circulating the minutes of a progress meeting",
+      "The quality register being updated with a planned review"
+    ],
+    "explanation": "The triggers are stage authorization, an approved exception plan, a new work package arising from evaluating stage status, and corrective action taken in response to an issue or risk. A checkpoint report feeds the evaluation of work package status, and a completed quality review belongs to receiving a finished work package.",
+    "source": "p.255"
+  },
+  {
+    "id": "ch16-011",
+    "set": "ch16",
+    "section": "16.4.1",
+    "topic": "Authorizing a work package",
+    "difficulty": 2,
+    "stem": "Which set of actions belongs to authorizing a work package?",
+    "answer": "Co-creating and reviewing the work package description with the team manager, confirming acceptance, and consulting project assurance on the proposed quality reviewers",
+    "distractors": [
+      "Checking the quality register for completed reviews, then marking the work package complete in the stage plan",
+      "Comparing actual progress with the stage plan and deciding whether corrective action is needed",
+      "Preparing an exception report and putting recovery options to the project board",
+      "Compiling the highlight report from checkpoint reports and the project log",
+      "Assessing each recovery option against the business case before escalating",
+      "Updating the risk register and escalating any risk that exceeds the stage tolerance"
+    ],
+    "explanation": "Authorization is a joint exercise with the team manager: the description is defined and reviewed together, the team manager's acceptance confirmed, and the quality reviewers checked with assurance before work starts. Checking completed reviews and marking work complete belong to receiving a completed work package.",
+    "source": "p.255"
+  },
+  {
+    "id": "ch16-012",
+    "set": "ch16",
+    "section": "16.4.1",
+    "topic": "Work packages and sub-products",
+    "difficulty": 3,
+    "stem": "A work package should cover the creation of one or more products. What does the manual recommend when a single product needs more work than one work package can hold?",
+    "answer": "Break the product down into further sub-products, each with its own supporting product description",
+    "distractors": [
+      "Authorize one work package and record the outstanding work as an issue in the project log",
+      "Split the product between teams without product descriptions, to keep the package simple",
+      "Ask the project board to widen the stage tolerance so that the work fits a single package",
+      "Treat the extra work as a change and let the team manager approve it",
+      "Issue a new project mandate covering the additional work before authorization",
+      "Move the whole product into the next stage and report it as unfinished"
+    ],
+    "explanation": "If a product requires more than one work package, it is broken down into sub-products with their own product descriptions, so each work package still covers coherent, defined products. Widening tolerances or leaving the work undefined simply hides the problem.",
+    "source": "p.255"
+  },
+  {
+    "id": "ch16-013",
+    "set": "ch16",
+    "section": "16.4.2",
+    "topic": "Progress information for a work package",
+    "difficulty": 1,
+    "stem": "Which management product provides the progress information reviewed when evaluating work package status?",
+    "answer": "The checkpoint report for the work package being executed",
+    "distractors": [
+      "The highlight report for the previous reporting period",
+      "The end stage report from the previous stage",
+      "The exception report raised for the current stage",
+      "The business case for the project",
+      "The communication management approach",
+      "The product description for the end product"
+    ],
+    "explanation": "Evaluating work package status draws on the checkpoint report for the work package in progress, together with informal conversations with the team manager. The highlight report is the project manager's output to the board, not an input to this activity.",
+    "source": "p.255"
+  },
+  {
+    "id": "ch16-014",
+    "set": "ch16",
+    "section": "16.4.2",
+    "topic": "Updating the stage plan",
+    "difficulty": 1,
+    "stem": "After evaluating work package status, which plan does the project manager update with actuals to date, forecasts and adjustments?",
+    "answer": "The stage plan for the current stage",
+    "distractors": [
+      "The project plan for the whole project",
+      "The team plan maintained by the team manager",
+      "The product description for each product in the work package",
+      "The communication management approach",
+      "The benefits management approach",
+      "The business case"
+    ],
+    "explanation": "The activity keeps the stage plan current by recording actuals to date, forecasts and any adjustments. The team plan belongs to the team manager, and the project plan is updated at the stage boundary rather than in this day-to-day activity.",
+    "source": "p.255"
+  },
+  {
+    "id": "ch16-015",
+    "set": "ch16",
+    "section": "16.4.3",
+    "topic": "Checking quality before acceptance",
+    "difficulty": 2,
+    "stem": "Before accepting a completed work package, which check does the manual require the project manager to make?",
+    "answer": "Check the quality register for the products concerned to confirm the necessary quality reviews have been completed",
+    "distractors": [
+      "Check that the team manager has entered the actual cost in the project plan",
+      "Check that the project board has approved the work package description",
+      "Check that the highlight report for the period has been distributed",
+      "Check that the risk register holds no open risks against the products",
+      "Check that the stage tolerance has been re-baselined by the project board",
+      "Check that the checkpoint reports have been filed in the project log"
+    ],
+    "explanation": "Receiving a completed work package is a confirmation step: the work must match the description and the quality register must show the required reviews were completed. Approval of the description happens at authorization, not at completion.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-016",
+    "set": "ch16",
+    "section": "16.4.3",
+    "topic": "Closing out a work package",
+    "difficulty": 2,
+    "stem": "The project manager has confirmed that each product in the work package has gained its requisite approval. What must happen next?",
+    "answer": "Confirm the product register record for each approved product is updated, then update the stage plan to show the work package as completed",
+    "distractors": [
+      "Ask the project board to authorize the next work package before any records are changed",
+      "Close the project log entry and archive the product descriptions",
+      "Raise an exception report explaining the completion to the project board",
+      "Record the completion in the lessons log and remove the products from the product register",
+      "Re-baseline the stage plan, because completion changes the plan's baseline",
+      "Ask project assurance to re-run the quality reviews before the work is accepted"
+    ],
+    "explanation": "The remaining steps are to confirm the product register reflects each approved product and to show the work package as complete in the stage plan. Re-baselining is not warranted by planned completion, and approval has already been checked.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-017",
+    "set": "ch16",
+    "section": "16.4.3",
+    "topic": "Completion under an agile approach",
+    "difficulty": 3,
+    "stem": "A team is delivering a work package using an agile approach. What does the manual say must have happened for the project manager to accept it as complete?",
+    "answer": "The team manager has delivered the features agreed for the timebox",
+    "distractors": [
+      "A product description has been written for every item in the product backlog",
+      "Every quality review listed in the project plan for the stage has been held",
+      "The product owner has approved the stage plan for the current stage",
+      "The work package has been closed in the product register before the end of the sprint",
+      "The full scope of the product has been delivered, regardless of the timebox",
+      "The team manager has re-estimated the remaining work for the next timebox"
+    ],
+    "explanation": "The confirmation required is that the work defined in the description has been done or, where an agile approach is used, that the features agreed for the timebox have been delivered. Completion is measured against what was agreed, not against the whole backlog or a future timebox.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-018",
+    "set": "ch16",
+    "section": "16.4.4",
+    "topic": "Objective of evaluating stage status",
+    "difficulty": 1,
+    "stem": "What is the objective of the activity evaluate stage status?",
+    "answer": "To maintain an accurate and current picture of progress on the work performed and the status of resources",
+    "distractors": [
+      "To record every issue and risk raised during the stage in the project log",
+      "To produce the highlight report for the current reporting period",
+      "To decide whether an exception report should be raised to the board",
+      "To confirm that each completed work package meets its quality criteria",
+      "To authorize the next work package required by the stage plan",
+      "To collect the checkpoint reports issued by the team managers"
+    ],
+    "explanation": "The activity exists to keep an accurate, current view of progress and of resource status, so that decisions are based on comparing what happened with what was expected. Producing the highlight report is a separate activity that draws on this one.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-019",
+    "set": "ch16",
+    "section": "16.4.4",
+    "topic": "Frequency of stage status review",
+    "difficulty": 2,
+    "stem": "How often does the project manager evaluate stage status?",
+    "answer": "At a frequency defined in the stage plan, and also when triggered by the board's advice or by analysis of a new issue or risk",
+    "distractors": [
+      "Only at each stage boundary, as part of preparing the next stage plan",
+      "At the frequency set out in the project's communication management approach",
+      "Whenever a checkpoint report arrives from a team manager",
+      "Only when the project manager suspects that a tolerance may be breached",
+      "Continuously, because a formal review would slow the team down",
+      "Once, when the stage plan is authorized, with no further reviews"
+    ],
+    "explanation": "The stage plan sets the rhythm, but the activity can also be prompted by the board's advice or by analysing a new issue or risk. Reacting only to checkpoint reports would leave the aggregated view of the stage unchecked.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-020",
+    "set": "ch16",
+    "section": "16.4.4",
+    "topic": "Phased handover",
+    "difficulty": 3,
+    "stem": "While evaluating stage status, the project manager confirms that ownership of two products has passed to the users. How does the manual treat this?",
+    "answer": "As a phased handover of the products, which may happen more than once during the project lifecycle",
+    "distractors": [
+      "As a stage boundary, which must be reported in the end stage report before it occurs",
+      "As project closure, which ends the project as soon as the first product is transferred",
+      "As a change of scope, which needs the change authority's approval",
+      "As benefit realization, which is recorded in the benefits management approach",
+      "As a quality failure, because products left the project's control before acceptance",
+      "As an exception, because ownership cannot transfer before the final stage"
+    ],
+    "explanation": "The activity includes confirming whether ownership of any products has been transferred to users as part of a phased handover, and the manual notes that there may be several handovers during the lifecycle. That is different from closing the project, which happens once.",
+    "source": "p.256"
+  },
+  {
+    "id": "ch16-021",
+    "set": "ch16",
+    "section": "16.4.5",
+    "topic": "Capturing an issue",
+    "difficulty": 2,
+    "stem": "An issue is raised in the middle of a stage. According to the manual, what must happen before a course of action is decided?",
+    "answer": "The issue is registered in the project log and then assessed for its impact",
+    "distractors": [
+      "The issue is escalated to the project board so that it can decide the response",
+      "An exception report is raised so that a replacement stage plan can be produced",
+      "The team manager is told to stop work until the issue has been resolved",
+      "The issue is entered in the lessons log and work continues on the current package",
+      "The issue is added to the next highlight report for the board's information",
+      "The issue is passed to project assurance to confirm whether it is genuine"
+    ],
+    "explanation": "Each issue or risk is registered in the project log and then assessed for its impact before any decision on a course of action. Escalation, exception reporting and stopping work are all responses that may follow the assessment, not steps that replace it.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-022",
+    "set": "ch16",
+    "section": "16.4.5",
+    "topic": "Who may raise issues and risks",
+    "difficulty": 3,
+    "stem": "Which statement about raising issues and risks during a stage is correct?",
+    "answer": "Any member of the business, the project or another stakeholder may raise one, and they should be captured in a consistent and reliable manner",
+    "distractors": [
+      "Only the project manager and team managers may raise one, and only through checkpoint reports",
+      "Only project board members may raise one, and only at the frequency set in the stage plan",
+      "Anyone may raise one, but only those affecting cost are entered in the project log",
+      "Anyone may raise one, but capture is deferred to the next stage boundary review",
+      "Only the roles named in the communication management approach, using its format",
+      "Only the project manager may raise one, because they own the project log"
+    ],
+    "explanation": "Issues and risks arrive in an unstructured way from anyone in the business, the project or the wider stakeholder group, so capture has to be consistent and reliable. The manual also stresses psychological safety, so that people feel able to raise concerns without fear.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-023",
+    "set": "ch16",
+    "section": "16.4.6",
+    "topic": "Objective of corrective action",
+    "difficulty": 2,
+    "stem": "What is the objective when the project manager takes corrective action?",
+    "answer": "To select and implement actions that resolve deviations from the plan within the limits of the stage and project tolerances",
+    "distractors": [
+      "To record every deviation in the project log for the project board's information",
+      "To change the stage plan baseline so that the deviation no longer appears",
+      "To escalate the deviation to the project board as soon as it is forecast",
+      "To prevent any change to the plan, so that the original baseline is preserved",
+      "To move work between team managers until the tolerances are met",
+      "To reduce the scope of the stage so that the forecast returns within tolerance"
+    ],
+    "explanation": "Corrective action resolves deviations within the tolerances already agreed for the stage and project. Re-baselining, cutting scope or escalating are different responses, and escalation is reserved for deviations that cannot be resolved inside those tolerances.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-024",
+    "set": "ch16",
+    "section": "16.4.6",
+    "topic": "How corrective action is triggered",
+    "difficulty": 1,
+    "stem": "How is the selected corrective action actually triggered in this process?",
+    "answer": "By authorizing a work package that carries out the corrective action",
+    "distractors": [
+      "By raising an exception report for the project board's approval",
+      "By updating the business case and issuing a revised highlight report",
+      "By asking the team manager to amend the team plan",
+      "By closing the current stage and starting a new one",
+      "By escalating the issue or risk to the business layer",
+      "By recording the deviation in the lessons log"
+    ],
+    "explanation": "The manual links the two activities directly: corrective action is triggered by authorizing a work package. That keeps the response inside the same controlled mechanism used for any other work.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-025",
+    "set": "ch16",
+    "section": "16.4.6",
+    "topic": "Records updated by corrective action",
+    "difficulty": 3,
+    "stem": "Corrective action will require one of the stage's products to change. Which records does the manual say the project manager updates?",
+    "answer": "The product register records of the affected products, showing whether changes or new products are required, and the issue report if one exists",
+    "distractors": [
+      "The project mandate and the outline business case, because the scope has altered",
+      "The communication management approach and the benefits management approach",
+      "The team plan only, because the stage plan is unaffected by corrective action",
+      "The quality register only, because a product change creates a quality activity",
+      "The project log only, because the product register is updated at the stage boundary",
+      "The product descriptions only, because the register records delivery not change"
+    ],
+    "explanation": "Corrective action updates the product register records of the affected products, including whether changes or new products are needed, and the issue report where one exists so that its status reflects the action. The stage plan and project log are also updated, but neither replaces the product register.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-026",
+    "set": "ch16",
+    "section": "16.4.7",
+    "topic": "When to escalate",
+    "difficulty": 2,
+    "stem": "When does the activity escalate issues and risks apply?",
+    "answer": "When no corrective action within the project manager's control would keep the stage from exceeding the tolerances agreed with the board",
+    "distractors": [
+      "When an issue or risk is raised by someone outside the project management team",
+      "When the project board has asked the project manager for advice on an issue",
+      "When a checkpoint report shows that a task is running behind schedule",
+      "When the project manager has delegated part of their tolerance to a team manager",
+      "When a single issue or risk affects more than one work package",
+      "When the stage plan has been updated with actuals more than once in a period"
+    ],
+    "explanation": "Escalation applies where corrective action inside the project manager's control cannot prevent the stage, or the project, from breaching the board's tolerances. It covers all types of issue and risk, including aggregations of them, and is not triggered merely by a late task.",
+    "source": "p.257"
+  },
+  {
+    "id": "ch16-027",
+    "set": "ch16",
+    "section": "16.4.7",
+    "topic": "Two-step escalation",
+    "difficulty": 3,
+    "stem": "Why does the manual suggest that escalation may be carried out in two steps?",
+    "answer": "Because assembling the information for an exception report takes time, so the board is warned of the forecast exception early and then receives the supporting report",
+    "distractors": [
+      "Because the board must approve the exception report before the project manager writes it",
+      "Because an exception report may only be raised once the tolerance has actually been breached",
+      "Because the business layer must be told before the project board is informed",
+      "Because the team manager must replan the affected work package first",
+      "Because the two steps mirror the actuals and forecasts in the stage plan",
+      "Because the project manager must seek the board's advice before analysing the deviation"
+    ],
+    "explanation": "Gathering the evidence for an exception report takes time, so the manual recommends alerting the board to the forecast exception situation as early as possible and following it with the report. Early warning gives more time to implement corrective action.",
+    "source": "p.258"
+  },
+  {
+    "id": "ch16-028",
+    "set": "ch16",
+    "section": "16.4.7",
+    "topic": "What escalation produces",
+    "difficulty": 2,
+    "stem": "What does the project manager put to the project board when escalating, and what happens next?",
+    "answer": "An exception report giving the situation, the options and a recommendation, on which the board decides, possibly rejecting the recommendation",
+    "distractors": [
+      "A highlight report describing the deviation, which the board notes for information only",
+      "An end stage report, which the board approves before the next stage is planned",
+      "An issue report, which the board forwards to the business layer for a decision",
+      "A checkpoint report, which the board uses to reset the stage tolerances",
+      "A revised business case, which the board approves before any recovery work starts",
+      "A work package description, which the board authorizes in place of the project manager"
+    ],
+    "explanation": "The exception report sets out the situation, the recovery options and the project manager's recommendation, and the board then decides what to do. The board is free to support or reject the recommendation, and the project manager executes the decision.",
+    "source": "p.258"
+  },
+  {
+    "id": "ch16-029",
+    "set": "ch16",
+    "section": "16.4.8",
+    "topic": "Corrective actions in the highlight report",
+    "difficulty": 2,
+    "stem": "Why does the highlight report include a list of the corrective actions taken during the reporting period?",
+    "answer": "To give the project board assurance that the project manager is acting within the agreed tolerances",
+    "distractors": [
+      "To allow the board to approve each corrective action retrospectively",
+      "To record the lessons that will be reviewed at the end of the stage",
+      "To bring the product register up to date with the status of each product",
+      "To show that the stage plan has been re-baselined during the period",
+      "To meet the business layer's requirement for a benefits update",
+      "To justify any change to the tolerances that the board has agreed"
+    ],
+    "explanation": "Listing the corrective actions gives the board visible evidence that the stage is being managed within tolerance between formal reviews. Approval of individual actions is not the purpose; that would remove the delegated freedom the tolerances exist to provide.",
+    "source": "p.258"
+  },
+  {
+    "id": "ch16-030",
+    "set": "ch16",
+    "section": "16.4.8",
+    "topic": "Frequency and pull reporting",
+    "difficulty": 3,
+    "stem": "Where is the frequency of highlight reporting defined, and how may reporting work on an agile project?",
+    "answer": "In the communication management approach, and on an agile project it may work as a pull system where the board views progress charts kept by the project manager and teams",
+    "distractors": [
+      "In the stage plan, and on an agile project it is replaced by the sprint review",
+      "In the business case, and on an agile project it is issued at timebox boundaries only",
+      "In the project initiation documentation, and on an agile project it becomes optional",
+      "In the risk management approach, and on an agile project it is replaced by the risk register",
+      "In the highlight report itself, and on an agile project it follows the delivery team's calendar",
+      "In the project board's terms of reference, and on an agile project it is issued on request"
+    ],
+    "explanation": "The board defines the reporting frequency in the communication management approach, and other information goes to stakeholders at that cadence. With an iterative-incremental delivery method the highlight report may rely on a pull system, with the board reading progress charts rather than waiting for a pushed report.",
+    "source": "p.258"
+  },
+  {
+    "id": "ch16-031",
+    "set": "ch16",
+    "section": "16.5.1",
+    "topic": "Collaborative working",
+    "difficulty": 2,
+    "stem": "How does the manual describe the relationship between the project manager, project support and team managers during this process?",
+    "answer": "Collaborative, with the project manager facilitating the process rather than assigning tasks, so that ownership and contribution improve",
+    "distractors": [
+      "Directive, with the project manager instructing team managers on how each task should be performed",
+      "Independent, with each role reporting its own progress directly to the project board",
+      "Contractual, with the relationship governed only by the work package description",
+      "Hierarchical, with project support directing team managers on the project manager's behalf",
+      "Optional, with collaboration needed only where the supplier is externally contracted",
+      "Competitive, with team managers bidding for the next work package"
+    ],
+    "explanation": "The manual is explicit that the relationship should be collaborative: the project manager facilitates rather than delegates or assigns, so that team managers and project support take ownership of their contribution. A purely directive or contractual reading misses the point of the work package relationship.",
+    "source": "p.259"
+  },
+  {
+    "id": "ch16-032",
+    "set": "ch16",
+    "section": "16.5.2",
+    "topic": "Tailoring roles",
+    "difficulty": 2,
+    "stem": "The project manager lacks the specialist knowledge to define the products and method statements in a work package description. What does the manual allow?",
+    "answer": "The work may be delegated, for example to the team manager or other specialists, but the project manager retains responsibility for ensuring it is defined, reviewed and assured",
+    "distractors": [
+      "Responsibility passes to the team manager, who becomes accountable for the description",
+      "The work package description must be written by project assurance to keep it independent",
+      "The specialist content may be left out until the team manager starts the work",
+      "The project board must approve the description before any delegation happens",
+      "The work package is not needed where the project manager lacks the expertise",
+      "The description is replaced by the relevant section of the project plan"
+    ],
+    "explanation": "PRINCE2 shows the project manager as responsible for creating the new management products but allows the tasks to be delegated while responsibility is retained. The project manager's role becomes making sure the content is properly defined, reviewed and assured for the stage plan's needs.",
+    "source": "p.259"
+  },
+  {
+    "id": "ch16-033",
+    "set": "ch16",
+    "section": "16.6",
+    "topic": "RACI for corrective action",
+    "difficulty": 2,
+    "stem": "In the RACI chart for controlling a stage, what does the note A1 record?",
+    "answer": "That the project manager is accountable for corrective actions taken by the team manager",
+    "distractors": [
+      "That the project manager is accountable for all corrective action in the project",
+      "That the team manager is accountable for corrective actions at team level",
+      "That project assurance is accountable for reviewing every corrective action",
+      "That the project board is accountable for corrective action that breaches a tolerance",
+      "That the project manager is responsible for their own corrective actions only"
+    ],
+    "explanation": "A1 sits against the project manager and records accountability for the corrective actions the team manager takes, while R3 records responsibility for the project manager's own corrective actions. Accountability for actions at team level stays with the project manager, not with the team manager.",
+    "source": "p.259"
+  },
+  {
+    "id": "ch16-034",
+    "set": "ch16",
+    "section": "16.6",
+    "topic": "RACI for capturing issues and risks",
+    "difficulty": 3,
+    "stem": "In the RACI chart, the notes R1 and R2 both relate to capturing issues and risks. What do they distinguish?",
+    "answer": "R1 is responsibility for capturing issues and risks at stage level and R2 the same responsibility at team level",
+    "distractors": [
+      "R1 is responsibility for assessing issues and R2 responsibility for assessing risks",
+      "R1 is responsibility for risks that are threats and R2 responsibility for opportunities",
+      "R1 is responsibility for issues raised inside the project and R2 for those raised outside",
+      "R1 is responsibility for capturing in the project log and R2 for capturing in the risk register",
+      "R1 is accountability for the project log and R2 responsibility for the lessons log"
+    ],
+    "explanation": "The chart splits the responsibility by level: the stage-level capture of issues and risks is distinguished from capture at team level, reflecting that both the project manager and the team manager contribute. The split is about where the capture happens, not about the type of issue or risk.",
+    "source": "p.259"
+  },
+  {
+    "id": "ch16-035",
+    "set": "ch16",
+    "section": "16.7",
+    "topic": "Business case application",
+    "difficulty": 1,
+    "stem": "What does the manual say about the business case while a stage is being controlled?",
+    "answer": "It is checked regularly to confirm that it remains viable, and the project board must be told if it does not",
+    "distractors": [
+      "It is re-baselined at each stage boundary by the project manager",
+      "It is reviewed only when the project board asks for an exception plan",
+      "It is delegated to the team managers, who confirm the benefits after handover",
+      "It is updated whenever a work package is authorized, to show the spend to date",
+      "It is checked once, when the stage plan is approved by the board",
+      "It is replaced by the benefits management approach once delivery starts"
+    ],
+    "explanation": "The business case practice is applied by checking viability regularly during the stage, with the board informed if the justification no longer holds. The benefits and sustainability management approaches are also applied, and their requirements are built into the stage's work package descriptions.",
+    "source": "p.260"
+  }
+]

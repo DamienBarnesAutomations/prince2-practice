@@ -1,0 +1,570 @@
+[
+  {
+    "id": "ch13-001",
+    "set": "ch13",
+    "section": "13.1",
+    "topic": "Purpose of the process",
+    "difficulty": 1,
+    "stem": "The process of starting up a project establishes the prerequisites for initiating a project. Which question is it primarily answering?",
+    "answer": "Do we have a viable and worthwhile project?",
+    "distractors": [
+      "How will the project's products be delivered, and by whom?",
+      "Is the project still justified now that the stage is complete?",
+      "Have the project's benefits been realized and measured?",
+      "Should the project be closed early or allowed to continue?",
+      "Are the products fit for operational use and ready to hand over?",
+      "Which team manager will accept each work package?"
+    ],
+    "explanation": "The manual frames the purpose as answering whether a viable and worthwhile project exists, and the process does only the minimum needed to support that judgement. Benefits realisation, closure and stage-boundary justification belong to later processes.",
+    "source": "p.220"
+  },
+  {
+    "id": "ch13-002",
+    "set": "ch13",
+    "section": "13.1",
+    "topic": "A light process",
+    "difficulty": 2,
+    "stem": "Why does the manual describe starting up a project as a lighter process than initiating a project?",
+    "answer": "Because it only needs to do the minimum necessary to decide whether it is worth initiating the project",
+    "distractors": [
+      "Because its management products are optional for small projects",
+      "Because it is performed entirely outside the project by the business layer",
+      "Because it produces no management products of its own",
+      "Because the programme supplies everything it would otherwise create",
+      "Because it is repeated at every stage boundary rather than done once",
+      "Because its activities are carried out after the board authorises initiation"
+    ],
+    "explanation": "The aim is deliberately limited: enough work to judge whether initiation is worthwhile, rather than the detailed and thorough work of initiating a project. The process does produce management products, and it happens before the board is asked to authorise initiation.",
+    "source": "p.220"
+  },
+  {
+    "id": "ch13-003",
+    "set": "ch13",
+    "section": "13.1",
+    "topic": "Preventing poor ideas",
+    "difficulty": 3,
+    "stem": "Which statement best describes how the process treats poorly conceived project ideas?",
+    "answer": "It is as much about preventing poorly conceived ideas from being initiated as about progressing viable projects for approval",
+    "distractors": [
+      "It assumes any idea that reaches the mandate has already been justified by the business",
+      "It defers the judgement on weak ideas to the first stage boundary",
+      "It initiates every mandated project but limits the resources available to the weak ones",
+      "It refers weak ideas to the programme for a benefits review before any work begins",
+      "It treats the mandate as approval to initiate, so weak ideas are filtered during initiation",
+      "It requires the project board to reject weak ideas before the executive is appointed"
+    ],
+    "explanation": "The process is described as much about prevention as progression, which is why it stays light: only enough is done to judge whether initiation is worthwhile. The decision to start the project is explicit and comes after these activities, so a mandate is not an approval.",
+    "source": "p.220"
+  },
+  {
+    "id": "ch13-004",
+    "set": "ch13",
+    "section": "13.2",
+    "topic": "Objectives of the process",
+    "difficulty": 2,
+    "stem": "Which of these is NOT an objective of the process of starting up a project?",
+    "answer": "That the project's benefits have been realized and can be measured",
+    "distractors": [
+      "That there is a business justification for initiating the project, documented in an outline business case",
+      "That alternative approaches have been evaluated and the chosen project approach agreed",
+      "That the work required for the initiation stage is planned in a stage plan"
+    ],
+    "exhaustive": true,
+    "explanation": "The objectives cover business justification, the authorities to proceed, enough information to define scope, an agreed project approach, appointed individuals and a planned initiation stage, plus avoiding wasted effort on unsound assumptions. Benefits realisation is assessed long after initiation, not as one of its prerequisites.",
+    "source": "p.220"
+  },
+  {
+    "id": "ch13-005",
+    "set": "ch13",
+    "section": "13.2",
+    "topic": "Objectives of the process",
+    "difficulty": 2,
+    "stem": "A project board is told that only one way of delivering the solution was ever considered. Which objective of starting up a project has not been met?",
+    "answer": "That alternative approaches have been evaluated and the chosen project approach agreed",
+    "distractors": [
+      "That sufficient information is available to define and confirm the project's scope",
+      "That all the necessary authorities exist for initiating the project",
+      "That individuals are appointed who will take significant project management roles",
+      "That there is a business justification documented in an outline business case",
+      "That time is not wasted initiating a project based on unsound assumptions",
+      "That the work required for the initiation stage is planned"
+    ],
+    "explanation": "One stated objective is that alternative approaches have been evaluated and the chosen project approach agreed, which a single-option analysis does not satisfy. The other options concern justification, authority, scope, appointments or planning, none of which is the gap described.",
+    "source": "p.220"
+  },
+  {
+    "id": "ch13-006",
+    "set": "ch13",
+    "section": "13.3",
+    "topic": "The project mandate",
+    "difficulty": 1,
+    "stem": "In PRINCE2, what is the term for whatever information is used to trigger a project?",
+    "answer": "The project mandate",
+    "distractors": [
+      "The project brief",
+      "The project initiation request",
+      "The outline business case",
+      "The project initiation documentation",
+      "The project product description",
+      "The business case"
+    ],
+    "explanation": "The project mandate is the trigger, whatever form the information takes, such as a feasibility study or a request for proposal. Refining the mandate is what produces the project brief.",
+    "source": "p.221"
+  },
+  {
+    "id": "ch13-007",
+    "set": "ch13",
+    "section": "13.3",
+    "topic": "The project mandate",
+    "difficulty": 1,
+    "stem": "What is the minimum the project mandate must contain?",
+    "answer": "Sufficient information to identify at least the prospective project executive",
+    "distractors": [
+      "An approved business case and a project plan",
+      "A project product description with agreed quality criteria",
+      "Stage tolerances for the initiation stage",
+      "The names of every member of the project board",
+      "A lessons log and an initial risk register",
+      "A fully costed benefits management approach"
+    ],
+    "explanation": "The mandate should provide the terms of reference and at least enough information to identify the prospective executive of the project board. The other products listed are created during this process or later.",
+    "source": "p.221"
+  },
+  {
+    "id": "ch13-008",
+    "set": "ch13",
+    "section": "13.3",
+    "topic": "Projects within a programme",
+    "difficulty": 2,
+    "stem": "A project is part of a programme. How does that change the work of starting up a project?",
+    "answer": "The programme should provide the project brief and appoint some or all of the board, and the project manager should validate what is provided",
+    "distractors": [
+      "The programme provides only the mandate, and the project creates everything else",
+      "The project manager should rebuild the brief independently to avoid inheriting programme assumptions",
+      "The process is skipped, because the programme has already justified the project",
+      "The programme manager becomes executive and owns the outline business case",
+      "The business layer appoints the board and the programme is merely informed",
+      "The project brief is replaced by the programme's business case"
+    ],
+    "explanation": "Where the project sits inside a programme, the programme management team should supply the brief and appoint board members, which removes much of the work; the project manager validates it and recommends changes if needed. The effort shrinks, but the process is not skipped.",
+    "source": "p.222"
+  },
+  {
+    "id": "ch13-009",
+    "set": "ch13",
+    "section": "13.3",
+    "topic": "Parallel activities",
+    "difficulty": 2,
+    "stem": "Which two activities does the manual describe as parallel and iterative, needing frequent consultation between the project manager, board members and other stakeholders?",
+    "answer": "Preparing the outline business case and assembling the project brief",
+    "distractors": [
+      "Assessing previous lessons and selecting the project approach",
+      "Appointing the executive and appointing the project manager",
+      "Designing the team structure and preparing role descriptions",
+      "Planning the initiation stage and requesting project initiation",
+      "Creating the daily log and creating the lessons log",
+      "Reviewing the mandate and appointing the project management team"
+    ],
+    "explanation": "The outline business case and the project brief are built in parallel and iteratively, so effort spent capturing requirements clearly is repaid during initiation and delivery by avoiding issues and replanning. The other pairs are sequential activities or steps inside a single activity.",
+    "source": "p.222"
+  },
+  {
+    "id": "ch13-010",
+    "set": "ch13",
+    "section": "13.4.1",
+    "topic": "Appoint the executive and project manager",
+    "difficulty": 1,
+    "stem": "Which sequence correctly describes the appointments made in the first activity?",
+    "answer": "The business appoints the project executive, who then appoints the project manager",
+    "distractors": [
+      "The project board appoints the executive, who then appoints the project manager",
+      "The business appoints the project manager, who then appoints the executive",
+      "The project executive appoints both the project manager and the project board",
+      "The project manager appoints the executive, who then appoints the senior user",
+      "The programme manager appoints the executive, who then appoints the project board",
+      "The business appoints both the executive and the project manager without further involvement"
+    ],
+    "explanation": "The business reviews the mandate and appoints the executive, and the executive then identifies, selects and appoints the project manager, possibly needing the business's agreement. The RACI chart confirms the business layer is accountable for this activity and responsible for appointing the executive.",
+    "source": "p.222"
+  },
+  {
+    "id": "ch13-011",
+    "set": "ch13",
+    "section": "13.4.1",
+    "topic": "The daily log",
+    "difficulty": 1,
+    "stem": "What does the project manager create in the first activity of the process?",
+    "answer": "The daily log, as a repository for project information",
+    "distractors": [
+      "The lessons log, as a record of lessons and associated actions",
+      "The project brief, as the basis for the initiation decision",
+      "The outline business case, as the justification for the project",
+      "The stage plan, as the plan for the initiation stage",
+      "The project product description, as the definition of the project's output",
+      "The issue register, as the record of issues and changes"
+    ],
+    "explanation": "The project manager creates the daily log in this activity as the repository for project information, and risks captured there are reviewed when the outline business case is prepared. The lessons log belongs to the following activity.",
+    "source": "p.222"
+  },
+  {
+    "id": "ch13-012",
+    "set": "ch13",
+    "section": "13.4.2",
+    "topic": "Assess previous lessons",
+    "difficulty": 1,
+    "stem": "In which activity is the lessons log created?",
+    "answer": "Assess previous lessons",
+    "distractors": [
+      "Appoint the project executive and project manager",
+      "Prepare the outline business case",
+      "Appoint the project management team",
+      "Select the project approach",
+      "Assemble the project brief",
+      "Plan the initiation stage"
+    ],
+    "explanation": "The lessons log is created during assess previous lessons, if appropriate, to record the lessons identified and their associated actions. The daily log, by contrast, is created in the first activity of the process.",
+    "source": "p.223"
+  },
+  {
+    "id": "ch13-013",
+    "set": "ch13",
+    "section": "13.4.2",
+    "topic": "What lessons influence",
+    "difficulty": 3,
+    "stem": "Which set of products can lessons from previous projects influence?",
+    "answer": "The design of the project management team, the outline business case, the contents of the project brief and the plan for the initiation stage",
+    "distractors": [
+      "The project mandate, the project board appointments and the project's tolerances",
+      "The outline business case and the project brief only, since everything else is planned later",
+      "The daily log, the lessons log and the project initiation request",
+      "The stage plan for the first delivery stage and the benefits management approach",
+      "The project approach only, because lessons concern delivery methods",
+      "The quality register, the issue register and the risk register"
+    ],
+    "explanation": "The manual names exactly those four: the team design, the outline business case, the project brief content and the initiation stage plan. Lessons can concern the strengths and weaknesses of processes, techniques and tools, so they reach more of this process's products than the approach alone.",
+    "source": "p.223"
+  },
+  {
+    "id": "ch13-014",
+    "set": "ch13",
+    "section": "13.4.3",
+    "topic": "Prepare the outline business case",
+    "difficulty": 1,
+    "stem": "Who develops the outline business case?",
+    "answer": "The project executive, in consultation with the senior user if one has been appointed",
+    "distractors": [
+      "The project manager, in consultation with the senior supplier",
+      "The business layer, on the project board's behalf",
+      "The senior user, in consultation with the project manager",
+      "The project executive acting alone, without consultation",
+      "Project assurance, using the project mandate",
+      "The programme manager, where the project is part of a programme"
+    ],
+    "explanation": "The executive develops the outline business case from the mandate and current knowledge, consulting the senior user if appointed so the contribution to business objectives is understood. The project manager's consultations in this activity produce the project product description, not the business case.",
+    "source": "p.223"
+  },
+  {
+    "id": "ch13-015",
+    "set": "ch13",
+    "section": "13.4.3",
+    "topic": "The project product description",
+    "difficulty": 3,
+    "stem": "The project manager consults the senior user, senior supplier and project executive to define what the project is to deliver. Which management product is created?",
+    "answer": "The project product description",
+    "distractors": [
+      "The project brief",
+      "The outline business case",
+      "The product breakdown structure",
+      "The quality management approach",
+      "The project plan",
+      "The benefits management approach"
+    ],
+    "explanation": "Those consultations produce the project product description within prepare the outline business case. The project brief is assembled later and draws that definition together with the rest of the starting point, while the breakdown structure and project plan belong to initiating a project.",
+    "source": "p.223"
+  },
+  {
+    "id": "ch13-016",
+    "set": "ch13",
+    "section": "13.4.4",
+    "topic": "Appoint the project management team",
+    "difficulty": 2,
+    "stem": "Who identifies, selects and appoints the project management team?",
+    "answer": "The project executive, in consultation with the senior user and the project manager",
+    "distractors": [
+      "The project manager, having designed the team structure",
+      "The business layer, in consultation with the project executive",
+      "The project board as a whole, at its first meeting",
+      "The senior supplier for supplier roles, and the executive for the rest",
+      "The programme manager, where a programme exists",
+      "The project executive acting alone"
+    ],
+    "explanation": "The executive appoints the team in consultation with the senior user and project manager, while the manager designs the structure and prepares role descriptions. The RACI chart keeps the executive accountable for the activity and the manager responsible.",
+    "source": "p.224"
+  },
+  {
+    "id": "ch13-017",
+    "set": "ch13",
+    "section": "13.4.4",
+    "topic": "Accountability for appointments",
+    "difficulty": 3,
+    "stem": "The project manager has designed the team structure and drafted the role descriptions. What does the method say about accountability for the resulting appointments?",
+    "answer": "The executive remains the single point of accountability for appointing the team, even though the manager did the design work",
+    "distractors": [
+      "The manager becomes accountable because they designed the structure",
+      "Accountability is shared between the executive and the manager",
+      "Accountability passes to the business layer, which appointed the executive",
+      "The board assumes accountability once it approves the role descriptions",
+      "Accountability sits with whoever signs the role descriptions",
+      "Accountability is delegated to project support, which maintains the descriptions"
+    ],
+    "explanation": "Designing the structure and descriptions is the manager's work, but appointing the team is the executive's, and the RACI chart keeps accountability with the executive. Dividing the tasks does not divide accountability.",
+    "source": "p.224"
+  },
+  {
+    "id": "ch13-018",
+    "set": "ch13",
+    "section": "13.4.5",
+    "topic": "Select the project approach",
+    "difficulty": 1,
+    "stem": "Which question must the project approach settle before the project can be planned?",
+    "answer": "Whether the solution will be developed in-house or contracted to third parties",
+    "distractors": [
+      "Which individuals will be appointed to the project board",
+      "What tolerances the board will set for each delivery stage",
+      "Which lessons from previous projects will be applied",
+      "When the initiation stage will end",
+      "How many work packages each team manager will receive",
+      "What quality criteria apply to each product"
+    ],
+    "explanation": "The delivery model, in-house or contracted, is one of the questions the project approach must answer before planning. The others concern modification versus build from scratch, COTS versus custom design, delivery methods and sustainability expectations.",
+    "source": "p.224"
+  },
+  {
+    "id": "ch13-019",
+    "set": "ch13",
+    "section": "13.4.5",
+    "topic": "Standards and the project approach",
+    "difficulty": 3,
+    "stem": "Why are user or supplier standards, practices and guidelines captured in the project brief as part of the project approach?",
+    "answer": "Because they shape the management approaches created during initiating a project and must be clearly understood between user and supplier",
+    "distractors": [
+      "Because the brief must list every standard the supplier is contractually bound to",
+      "Because they remove the need for a quality management approach",
+      "Because the board cannot approve the brief without them",
+      "Because they determine the tolerances for the initiation stage",
+      "Because they are required content of the outline business case",
+      "Because they must be baselined before the mandate can be accepted"
+    ],
+    "explanation": "The manual says these standards influence the management approaches to be created in initiating a project, and capturing them ensures the approach is understood between user and supplier so the project is not jeopardised. They belong in the brief, not in the business case or the stage plan.",
+    "source": "p.224"
+  },
+  {
+    "id": "ch13-020",
+    "set": "ch13",
+    "section": "13.4.6",
+    "topic": "Assemble the project brief",
+    "difficulty": 2,
+    "stem": "When assembling the project brief, which of these must the project manager confirm?",
+    "answer": "The project scope, its exclusions and the project tolerances",
+    "distractors": [
+      "The stage tolerances for every delivery stage",
+      "The quality criteria for each individual product",
+      "The business's risk appetite and the risk budget",
+      "The composition of each work package",
+      "The change authority for the project",
+      "The benefits management approach and its review points"
+    ],
+    "explanation": "Assembling the brief covers current status, objectives and outcomes, scope with exclusions and project tolerances, constraints and assumptions, users and interested parties, roles and dependencies. Stage tolerances belong in the stage plan, and product-level quality criteria in product descriptions.",
+    "source": "p.224"
+  },
+  {
+    "id": "ch13-021",
+    "set": "ch13",
+    "section": "13.4.6",
+    "topic": "Roles in the project ecosystem",
+    "difficulty": 2,
+    "stem": "While assembling the project brief, why does the project manager review the team structure and role descriptions?",
+    "answer": "To identify any additional roles or skills needed in the project ecosystem and prepare further role descriptions",
+    "distractors": [
+      "To confirm the appointments already made by the project executive",
+      "To check that every role has a named deputy",
+      "To decide which roles report directly to the project board",
+      "To replace the role descriptions with a responsibility assignment matrix",
+      "To verify that the team can work within the initiation stage budget",
+      "To identify which team members can be released after initiation"
+    ],
+    "explanation": "The review tests completeness of the project ecosystem: additional roles or skills may be needed, and further descriptions are prepared as necessary. Confirming appointments is not the purpose, because the brief is about a commonly understood and well-defined starting point.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-022",
+    "set": "ch13",
+    "section": "13.4.7",
+    "topic": "Plan the initiation stage",
+    "difficulty": 2,
+    "stem": "Why does the process produce a stage plan for the initiation stage?",
+    "answer": "Because initiation consumes time and resources, and the work should be planned and approved so that it is not aimless and unstructured",
+    "distractors": [
+      "Because the board needs a plan for the first delivery stage before approving the brief",
+      "Because the project plan cannot be produced until the initiation stage is planned",
+      "Because the stage plan replaces the project brief as the basis for the initiation decision",
+      "Because the programme requires a stage plan for every project stage",
+      "Because it establishes the tolerances that the board will delegate to the project manager",
+      "Because it records the benefits and dis-benefits for later comparison"
+    ],
+    "explanation": "The stage plan exists to get initiation authorised and controlled, not to plan delivery; the project plan is created during initiating a project. In a programme, the stage end date is checked against the programme's plans, which also gives the programme early warning of its requirements.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-023",
+    "set": "ch13",
+    "section": "13.4.7",
+    "topic": "Processes used during initiation",
+    "difficulty": 3,
+    "stem": "The manual notes that the project may choose to apply which other processes during the initiation stage?",
+    "answer": "Controlling a stage and managing product delivery",
+    "distractors": [
+      "Directing a project and closing a project",
+      "Managing a stage boundary and closing a project",
+      "Starting up a project and directing a project",
+      "Initiating a project and managing a stage boundary",
+      "Controlling a stage and managing a stage boundary",
+      "Managing product delivery and closing a project"
+    ],
+    "explanation": "Because initiation is real work that needs controlling, the project may apply controlling a stage and managing product delivery while initiating a project; deciding this is part of planning the initiation stage. Closing a project and managing a stage boundary fall at later points in the lifecycle.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-024",
+    "set": "ch13",
+    "section": "13.4.8",
+    "topic": "Request project initiation",
+    "difficulty": 1,
+    "stem": "How does the process of starting up a project end?",
+    "answer": "The project manager contacts the project board to request project initiation",
+    "distractors": [
+      "The project executive submits the outline business case to the business layer",
+      "The project board issues the project mandate to the project manager",
+      "The programme manager authorises the project manager to begin initiation",
+      "Project assurance recommends the brief to the executive for approval",
+      "The project manager issues the project initiation documentation to the board",
+      "The senior user signs off the project product description"
+    ],
+    "explanation": "The last activity is a request to the board supported by the outline business case and project brief, and it triggers directing a project. The project initiation documentation is produced later, during initiating a project.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-025",
+    "set": "ch13",
+    "section": "13.4.8",
+    "topic": "Request project initiation",
+    "difficulty": 2,
+    "stem": "What is the purpose of the formal request made at the end of the process?",
+    "answer": "To secure authority, people and resources for the initiation stage from the project board",
+    "distractors": [
+      "To obtain approval of the project plan and the full business case",
+      "To hand the project over to the delivery teams",
+      "To confirm that the project's benefits have been justified to the business",
+      "To authorise the project manager to commit the whole project budget",
+      "To close starting up a project and begin delivery",
+      "To record the board's acceptance of the project's risks"
+    ],
+    "explanation": "The manager briefs the board on the outline business case, project product, approach, appointments and the initiation stage's activities and controls, then formally asks for authority so people and resources can be secured. Approving the project plan and business case happens at the end of initiating a project.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-026",
+    "set": "ch13",
+    "section": "13.5.1",
+    "topic": "General considerations",
+    "difficulty": 2,
+    "stem": "The activities are combined and run concurrently on a small project. What must be preserved?",
+    "answer": "The integrity of the connection with directing a project when the request to initiate is submitted",
+    "distractors": [
+      "The sequence of the seven activities exactly as listed in the manual",
+      "A separate approval of each management product by the project board",
+      "The appointment of a team manager before the brief is assembled",
+      "The creation of a lessons log regardless of whether lessons exist",
+      "The production of the daily log before the mandate is reviewed",
+      "A stage plan for every stage identified in the project approach"
+    ],
+    "explanation": "Activities may be combined, split or run concurrently to suit the context, but the link to directing a project at the point of the initiation request must stay sound. The method does not require the listed sequence to be followed rigidly, nor board approval of each product.",
+    "source": "p.225"
+  },
+  {
+    "id": "ch13-027",
+    "set": "ch13",
+    "section": "13.5.2",
+    "topic": "Tailoring roles",
+    "difficulty": 3,
+    "stem": "A project manager is not appointed until late in the process. What does the manual allow?",
+    "answer": "The executive or anyone they appoint may create the required products, provided the single point of accountability for each duty is maintained",
+    "distractors": [
+      "The process must be restarted once the manager is appointed",
+      "The board must approve each product created before the appointment",
+      "The products may be created by the business layer and later ratified by the manager",
+      "The manager must recreate any product they did not personally produce",
+      "The executive becomes accountable for the products and cannot delegate the work",
+      "The process is suspended until a manager is in place"
+    ],
+    "explanation": "Appointing the manager early is good practice, but if it happens later the executive or their nominee can create the products, just as the executive need not write the outline business case personally. What must survive is a single point of accountability for each role's duty.",
+    "source": "p.226"
+  },
+  {
+    "id": "ch13-028",
+    "set": "ch13",
+    "section": "13.6",
+    "topic": "Responsibilities",
+    "difficulty": 3,
+    "stem": "According to the RACI chart for the process, who is accountable for the appointment of the project executive and the project manager?",
+    "answer": "The business layer, which is also responsible for appointing the project executive",
+    "distractors": [
+      "The project executive, who is accountable for every other activity",
+      "The project board, acting collectively",
+      "The project manager, on the board's behalf",
+      "The programme manager, where a programme exists",
+      "The senior user, representing the business interest",
+      "Project assurance, which checks the appointment"
+    ],
+    "explanation": "The chart marks this activity A/R for the business layer, with the executive also responsible: the business is accountable for the appointments and responsible for appointing the executive. For the remaining activities the executive is accountable.",
+    "source": "p.226"
+  },
+  {
+    "id": "ch13-029",
+    "set": "ch13",
+    "section": "13.7",
+    "topic": "Application of quality",
+    "difficulty": 2,
+    "stem": "How does the quality practice apply to the process of starting up a project?",
+    "answer": "Users' quality expectations and any known specifications or standards are captured in the project product description",
+    "distractors": [
+      "Quality criteria for every product are agreed with the board before initiation",
+      "The quality register is created and baselined during the process",
+      "Product descriptions are written for each product in the initiation stage plan",
+      "Quality tolerances are set for the project and recorded in the project mandate",
+      "Acceptance criteria are tested against the project product before the brief is assembled",
+      "The quality management approach is approved by the board alongside the brief"
+    ],
+    "explanation": "Quality expectations and known standards are recorded in the project product description and refined during initiating a project and stage planning through individual product descriptions. The quality management approach, the quality register and product descriptions are created later.",
+    "source": "p.227"
+  },
+  {
+    "id": "ch13-030",
+    "set": "ch13",
+    "section": "13.7",
+    "topic": "Application of progress",
+    "difficulty": 2,
+    "stem": "How does the progress practice apply to the process of starting up a project?",
+    "answer": "Known project tolerances go into the project brief, while tolerances for the initiation stage go into its stage plan for approval",
+    "distractors": [
+      "All tolerances are deferred until the project plan is created during initiation",
+      "Project tolerances are agreed by the board only after initiation is authorised",
+      "Stage tolerances for delivery are set now and recorded in the project brief",
+      "The initiation stage has no tolerances because it is authorised by a single request",
+      "Tolerances are recorded in the daily log until the project plan exists",
+      "The board delegates tolerance to the executive rather than to the project manager"
+    ],
+    "explanation": "Known project tolerances are identified and included in the brief, to be refined and approved after the process, while initiation stage tolerances are identified in the stage plan for approval. Neither is deferred entirely, and delivery stage tolerances are not set at this point.",
+    "source": "p.227"
+  }
+]

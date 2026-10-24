@@ -1,0 +1,948 @@
+[
+  {
+    "id": "ch15-001",
+    "set": "ch15",
+    "section": "15.1",
+    "topic": "Purpose of initiating a project",
+    "difficulty": 1,
+    "stem": "What is the purpose of the process of initiating a project?",
+    "answer": "To establish solid foundations so that the business understands the work needed to deliver the project product before committing significant expenditure or resources",
+    "distractors": [
+      "To appoint the project manager and prepare the outline business case for approval",
+      "To authorize each management stage and monitor its progress against the stage plan",
+      "To accept the products delivered by team managers and confirm they meet their quality criteria",
+      "To confirm that the project product is ready for operational use and hand it over",
+      "To prepare the next stage plan whenever a stage boundary is approaching",
+      "To define the organization's project management framework and its tailoring"
+    ],
+    "explanation": "Initiating a project establishes solid foundations so the business can see the work required to deliver the project product before committing significant expenditure or resources. Appointing the project manager and drafting the outline business case belong to starting up a project, and stage authorization belongs to directing a project.",
+    "source": "p.240"
+  },
+  {
+    "id": "ch15-002",
+    "set": "ch15",
+    "section": "15.1",
+    "topic": "Foundations for commitment",
+    "difficulty": 2,
+    "stem": "The manual says that initiating a project prepares the foundations for a successful project. For genuine commitment, what must all parties be clear about?",
+    "answer": "What the project is intended to achieve, why it is needed, how the outcome will be achieved and what their responsibilities are",
+    "distractors": [
+      "The cost of every work package, the name of every team member and the date of every checkpoint",
+      "The supplier's profit margin, the customer's budget and the payment schedule",
+      "The benefits to be realized in each financial year after the project closes",
+      "The full set of product descriptions and the acceptance criteria for every product",
+      "The tolerances that the business layer has set for the project executive",
+      "The lessons recorded in the project log and how each has been applied"
+    ],
+    "explanation": "Commitment depends on all parties being clear on what the project is intended to achieve, why it is needed, how the outcome is to be achieved and what their responsibilities are. Detailed cost breakdowns and product-level criteria are developed later in the process, not required for this shared understanding.",
+    "source": "p.241"
+  },
+  {
+    "id": "ch15-003",
+    "set": "ch15",
+    "section": "15.2",
+    "topic": "Objectives of initiation",
+    "difficulty": 1,
+    "stem": "Which of these is listed as an objective of the process of initiating a project?",
+    "answer": "Establishing a common understanding of how baselines will be established and controlled",
+    "distractors": [
+      "Appointing the project executive and project manager and confirming their availability",
+      "Delivering the project product within the tolerances agreed for the first stage",
+      "Confirming that the expected benefits have been realized in operational use",
+      "Selecting the supplier through a competitive procurement exercise",
+      "Approving the end stage report for the initiation stage",
+      "Defining the organization's overall risk appetite and risk tolerance"
+    ],
+    "explanation": "The objectives of initiating a project are a set of things on which there must be a common understanding, and how baselines will be established and controlled is one of them. Appointing the executive and project manager happens in starting up a project, and benefit realization is confirmed after the project.",
+    "source": "p.240"
+  },
+  {
+    "id": "ch15-004",
+    "set": "ch15",
+    "section": "15.2",
+    "topic": "Objectives of initiation",
+    "difficulty": 3,
+    "stem": "Which of these is NOT an objective of the process of initiating a project?",
+    "answer": "To appoint the project executive and project manager and confirm their availability",
+    "distractors": [
+      "To reach a common understanding of the reasons for the project, the benefits expected and the associated risks",
+      "To reach a common understanding of who needs information, in what format and at what time",
+      "To reach a common understanding of how the project applies business policies, methods and guidance"
+    ],
+    "exhaustive": true,
+    "explanation": "The objectives are shared understandings covering justification, scope, delivery, decision-making, quality, baselines, risks and issues, progress, information needs and the application of business policies. Appointing the executive and project manager is done during starting up a project, before initiation can be authorized.",
+    "source": "p.240"
+  },
+  {
+    "id": "ch15-005",
+    "set": "ch15",
+    "section": "15.2",
+    "topic": "Business policies and methods",
+    "difficulty": 2,
+    "stem": "A project manager is asked to make sure the project follows the corporate sustainability policy and the organization's standard delivery method. Which objective of initiating a project does this address?",
+    "answer": "The objective that there is a common understanding of how the project applies business policies, methods and guidance",
+    "distractors": [
+      "The objective that there is a common understanding of how baselines will be established and controlled",
+      "The objective that there is a common understanding of who is to be involved in project decision-making",
+      "The objective that there is a common understanding of how the quality required will be achieved",
+      "The objective that there is a common understanding of who needs information, in what format and at what time",
+      "The objective that there is a common understanding of how and when products will be delivered and at what cost",
+      "The objective that there is a common understanding of the scope of what is to be done"
+    ],
+    "explanation": "Aligning the project with corporate policy and a standard delivery method satisfies the objective about applying business policies, methods and guidance. Baseline control, decision-making, quality, communication needs and delivery are separate objectives in the same list.",
+    "source": "p.240"
+  },
+  {
+    "id": "ch15-006",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Process trigger",
+    "difficulty": 1,
+    "stem": "Which process triggers the process of initiating a project?",
+    "answer": "Directing a project, by authorizing initiation",
+    "distractors": [
+      "Starting up a project, by approving the project brief",
+      "Managing a stage boundary, at the end of the initiation stage",
+      "Controlling a stage, when the first delivery stage begins",
+      "Managing product delivery, when the first work package is agreed",
+      "The business layer, by issuing the project mandate",
+      "Closing a project, when the benefits are reviewed"
+    ],
+    "explanation": "The input that starts the process is project initiation authorized, which comes from the project board's decision in directing a project. Starting up a project ends by asking the board for that authorization, so it precedes rather than triggers the process.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-007",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Process inputs and outputs",
+    "difficulty": 2,
+    "stem": "Which of these is an input to the process of initiating a project, rather than an output of it?",
+    "answer": "The stage plan for the initiation stage",
+    "distractors": [
+      "The project plan for the whole project",
+      "The project initiation documentation",
+      "The project authorization request",
+      "The full business case",
+      "The management approaches",
+      "The quality register for the project's products"
+    ],
+    "explanation": "The inputs are the authority to initiate, the project brief, the project log, the project product description and the stage plan for the initiation stage, each reviewed or checked. The project plan, business case, management approaches, quality register and project initiation documentation all emerge from the process.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-008",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Process inputs and outputs",
+    "difficulty": 2,
+    "stem": "Which management product does this process update rather than create?",
+    "answer": "The project log",
+    "distractors": [
+      "The business case",
+      "The project plan",
+      "The management approaches",
+      "The project initiation documentation",
+      "The project authorization request",
+      "The project product description"
+    ],
+    "explanation": "The project log is checked as an input and then updated as risks, issues and product register records emerge, and it is the only product shown as updated in the process's output list. The project product description is reviewed rather than listed as an output, although the planning activity may refine it.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-009",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Process interfaces",
+    "difficulty": 3,
+    "stem": "Which two processes are triggered by the outputs at the end of initiating a project?",
+    "answer": "Managing a stage boundary and directing a project",
+    "distractors": [
+      "Starting up a project and directing a project",
+      "Directing a project and controlling a stage",
+      "Managing a stage boundary and managing product delivery",
+      "Controlling a stage and managing a stage boundary",
+      "Directing a project and closing a project",
+      "Starting up a project and managing a stage boundary"
+    ],
+    "explanation": "The stage end approaching output triggers managing a stage boundary, and the project authorization request triggers directing a project, where the board decides whether to authorize the project. Controlling a stage only begins once the project has been authorized.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-010",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Reviewing management products",
+    "difficulty": 2,
+    "stem": "The project manager should agree with the project board how the management products will be reviewed and approved. Which choice does the manual describe?",
+    "answer": "Reviewing each product as it becomes ready, or waiting until the full suite is ready and reviewing it as a set",
+    "distractors": [
+      "Reviewing products only at the end of the project, or delegating review to project assurance",
+      "Reviewing products in a formal board meeting, or by written resolution of the executive alone",
+      "Reviewing products against the project mandate, or against the outline business case",
+      "Reviewing products before they are created, or only after the next stage has started",
+      "Reviewing products through change control, or through entries in the daily log",
+      "Reviewing products at each programme tranche boundary, or annually"
+    ],
+    "explanation": "Because the project manager creates a suite of management products, the board and project manager must agree whether each product is reviewed as it becomes ready or the whole set is reviewed together. Both are legitimate; what matters is that the arrangement is agreed in advance.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-011",
+    "set": "ch15",
+    "section": "15.3",
+    "topic": "Commercial relationships",
+    "difficulty": 2,
+    "stem": "Why does the manual say that all activities need further consideration when the user-supplier relationship is commercial?",
+    "answer": "Because the risks, rewards and reasons for undertaking the project are different for the user as customer and for the supplier",
+    "distractors": [
+      "Because the supplier becomes accountable for the business case",
+      "Because the project board must include a representative of every customer",
+      "Because the project must adopt the supplier's management framework",
+      "Because tolerances must be agreed with the supplier rather than the board",
+      "Because commercial projects cannot apply the principle of managing by exception",
+      "Because the business case must be approved by the customer's finance function"
+    ],
+    "explanation": "In a commercial relationship the user is the customer, and the risks, rewards and reasons for doing the project differ between the two parties, so each activity needs further thought. The board's accountability for the business case, and its tolerances, do not move to the supplier.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-012",
+    "set": "ch15",
+    "section": "15.4.1",
+    "topic": "Tailoring a standard framework",
+    "difficulty": 2,
+    "stem": "A business already has a standard project management framework based on a tailored version of PRINCE2. What must the project manager do?",
+    "answer": "Document and agree how PRINCE2 or the business framework will be applied or tailored for the project",
+    "distractors": [
+      "Apply PRINCE2 in full, because a framework cannot be tailored a second time",
+      "Set the business framework aside and tailor PRINCE2 from first principles",
+      "Ask the board to choose between the two at the first stage boundary",
+      "Adopt the framework unchanged and record any deviations in the daily log",
+      "Use the framework for initiation only, then revert to untailored PRINCE2",
+      "Leave the choice to project assurance as part of its assurance duties"
+    ],
+    "explanation": "Tailoring must recognise the internal and external factors affecting delivery, and how PRINCE2 or a business framework will be applied or tailored must be documented and agreed. Using the existing framework is often sensible; ignoring it, or applying PRINCE2 untailored, is not.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-013",
+    "set": "ch15",
+    "section": "15.4.1",
+    "topic": "Tailoring requirements",
+    "difficulty": 1,
+    "stem": "Where are the project's tailoring requirements and any related project controls defined?",
+    "answer": "In the project initiation documentation",
+    "distractors": [
+      "In the project brief",
+      "In the stage plan for the initiation stage",
+      "In the project log",
+      "In the business case",
+      "In the project mandate",
+      "In the quality register"
+    ],
+    "explanation": "A recommended action is to define any tailoring requirements, and the controls that go with them, as part of the project initiation documentation. The project brief may outline a tailoring approach, but the defined requirements belong in the PID.",
+    "source": "p.242"
+  },
+  {
+    "id": "ch15-014",
+    "set": "ch15",
+    "section": "15.4.2",
+    "topic": "Management approaches",
+    "difficulty": 2,
+    "stem": "Which of these is NOT one of the management approaches agreed during initiation?",
+    "answer": "The resource management approach",
+    "distractors": [
+      "The commercial management approach",
+      "The sustainability management approach",
+      "The digital and data management approach"
+    ],
+    "exhaustive": true,
+    "explanation": "The nine approaches are change, communication, sustainability, benefits, commercial, quality, risk, issue, and digital and data management. Resources are identified within the project plan; there is no separate resource management approach.",
+    "source": "p.243"
+  },
+  {
+    "id": "ch15-015",
+    "set": "ch15",
+    "section": "15.4.2",
+    "topic": "Communication management approach",
+    "difficulty": 1,
+    "stem": "Which management approach is recommended to be completed last, and why?",
+    "answer": "The communication management approach, because it must include the communications required by the other approaches",
+    "distractors": [
+      "The quality management approach, because it depends on the product descriptions",
+      "The risk management approach, because it needs the aggregated risks from the project log",
+      "The benefits management approach, because it depends on the project plan",
+      "The change management approach, because it needs the baselined project initiation documentation",
+      "The commercial management approach, because it depends on the supplier contract",
+      "The issue management approach, because it needs the issue register"
+    ],
+    "explanation": "Although the approaches can be developed in parallel, communication is best completed last so that it can capture the communication needs arising from all the others. None of the other approaches depends on communication in the same way.",
+    "source": "p.243"
+  },
+  {
+    "id": "ch15-016",
+    "set": "ch15",
+    "section": "15.4.2",
+    "topic": "Sources of the approaches",
+    "difficulty": 2,
+    "stem": "What are the management approaches derived from?",
+    "answer": "Business strategies, standards or practices the project must comply with, and the users' quality and sustainability expectations in the project product description",
+    "distractors": [
+      "The project mandate and the outline business case only",
+      "The stage plan for initiation and the project log",
+      "The lessons log and the risk register",
+      "The project board's terms of reference and the supplier's contract",
+      "The product breakdown structure and the product flow diagram",
+      "The quality register and the issue register"
+    ],
+    "explanation": "The approaches reflect the business strategies, standards or practices the project must comply with, together with the users' quality and sustainability expectations captured in the project product description. The planning products and registers are created later, using the approaches as input.",
+    "source": "p.243"
+  },
+  {
+    "id": "ch15-017",
+    "set": "ch15",
+    "section": "15.4.2",
+    "topic": "Sequencing the approaches",
+    "difficulty": 3,
+    "stem": "Which sequencing point does the manual make about the management approaches?",
+    "answer": "Once the approaches are defined, the project controls can be established and the project plan created",
+    "distractors": [
+      "The project plan must be created first, because the approaches must reflect its stages",
+      "The project controls must be established first, because the approaches must reflect them",
+      "The business case must be prepared first, because the approaches must support the justification",
+      "The project initiation documentation must be assembled first, because the approaches are extracted from it",
+      "The approaches must be approved by the board before any of them can be drafted",
+      "The full business case and project plan must both be complete before the approaches are started"
+    ],
+    "explanation": "The approaches come before the controls and the plan: once they are defined it becomes possible to establish project controls and create the project plan. This is why agreeing the approaches is placed early in the process.",
+    "source": "p.243"
+  },
+  {
+    "id": "ch15-018",
+    "set": "ch15",
+    "section": "15.4.2",
+    "topic": "Contractual requirements",
+    "difficulty": 3,
+    "stem": "The project brief records a contractual requirement for the project to follow the customer's change control standard. What effect does this have?",
+    "answer": "The change management approach must reflect that standard",
+    "distractors": [
+      "The requirement is logged and applied only if a change is raised",
+      "The requirement is waived because PRINCE2 prescribes its own change approach",
+      "The requirement is handled solely by the supplier's commercial management approach",
+      "The requirement is added to the project plan as a product to be delivered",
+      "The requirement is escalated to the business layer for a decision",
+      "The requirement is recorded in the business case as a dis-benefit"
+    ],
+    "explanation": "The approaches must reflect any business strategies, standards or practices that apply to the project, expressly including contractual requirements. A contractual standard therefore shapes the relevant approach rather than sitting unused in the log.",
+    "source": "p.243"
+  },
+  {
+    "id": "ch15-019",
+    "set": "ch15",
+    "section": "15.4.3",
+    "topic": "Purpose of project controls",
+    "difficulty": 1,
+    "stem": "Effective project controls are described as a prerequisite for what?",
+    "answer": "Managing by exception",
+    "distractors": [
+      "Baselining the project initiation documentation",
+      "Tailoring PRINCE2 to the project",
+      "Appointing the project management team",
+      "Preparing the benefits management approach",
+      "Closing the project",
+      "Agreeing the project mandate"
+    ],
+    "explanation": "Delegated authority only works if the board can rely on controls to show when tolerances are threatened, so effective project controls are a prerequisite for managing by exception. Baselining and tailoring are separate steps in the process.",
+    "source": "p.244"
+  },
+  {
+    "id": "ch15-020",
+    "set": "ch15",
+    "section": "15.4.3",
+    "topic": "Examples of project controls",
+    "difficulty": 2,
+    "stem": "Which of these is listed as an example of a project control?",
+    "answer": "The number of stages",
+    "distractors": [
+      "The product breakdown structure",
+      "The project product description",
+      "The communication management approach",
+      "The outline business case",
+      "The project mandate",
+      "The lessons log"
+    ],
+    "explanation": "Controls include the frequency and format of communication between management layers, the number of stages, mechanisms to capture and analyse issues, tolerances for delegated authority, monitoring of delegated authority, and mechanisms to escalate exceptions. The others are documents or planning products, not controls.",
+    "source": "p.244"
+  },
+  {
+    "id": "ch15-021",
+    "set": "ch15",
+    "section": "15.4.3",
+    "topic": "Establishing controls as a set",
+    "difficulty": 3,
+    "stem": "Many project controls will already have been defined in the management approaches. What is the focus of establishing project controls, then?",
+    "answer": "Establishing the controls and making sure that they make sense as a coherent set",
+    "distractors": [
+      "Defining the controls for the first time in the management approaches",
+      "Documenting the controls in the project brief for the board's approval",
+      "Delegating the controls to team managers so they can apply them",
+      "Replacing the controls with tolerances set by the business layer",
+      "Recording the controls in the risk register as risk responses",
+      "Confirming the controls with the supplier under the commercial agreement"
+    ],
+    "explanation": "Defining a control in an approach is not the same as establishing it, so this activity establishes the controls and checks that together they form a coherent set suited to the project's scale, risk, complexity and importance. The controls must work as a whole, not as isolated mechanisms.",
+    "source": "p.244"
+  },
+  {
+    "id": "ch15-022",
+    "set": "ch15",
+    "section": "15.4.3",
+    "topic": "Delivery method and controls",
+    "difficulty": 2,
+    "stem": "Which task belongs to establishing project controls?",
+    "answer": "Confirming the delivery method and assessing its implications for project controls",
+    "distractors": [
+      "Writing product descriptions for the project's major products",
+      "Updating the outline business case with estimated costs",
+      "Preparing the project authorization request",
+      "Baselining the project initiation documentation",
+      "Creating the product flow diagram",
+      "Confirming the benefits in the benefits management approach"
+    ],
+    "explanation": "The delivery method, whether linear-sequential, iterative-incremental or hybrid, is confirmed when controls are established because it shapes how the project is controlled. Product descriptions and the product flow diagram belong to preparing the project plan.",
+    "source": "p.244"
+  },
+  {
+    "id": "ch15-023",
+    "set": "ch15",
+    "section": "15.4.3",
+    "topic": "Tolerances and escalation",
+    "difficulty": 3,
+    "stem": "Which escalation route does the manual give when confirming tolerances and escalation procedures?",
+    "answer": "From team managers to the project manager, from the project manager to the project board, and from the project board to the business",
+    "distractors": [
+      "From the project manager to project assurance, and from project assurance to the project board",
+      "From the project board to the project manager, and from the project manager to team managers",
+      "From the business layer to the project board, and from the board to the project executive",
+      "From team managers to project support, and from project support to the project board",
+      "From the project manager to the project executive only, who escalates to the business",
+      "From the supplier to the senior supplier, and from the senior supplier to the board"
+    ],
+    "explanation": "Tolerances are confirmed for the project and the escalation procedures run up each management layer: team manager to project manager, project manager to project board, and project board to business. Project assurance is a monitoring role, not a step in the escalation route.",
+    "source": "p.244"
+  },
+  {
+    "id": "ch15-024",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Project plan prerequisites",
+    "difficulty": 1,
+    "stem": "Before committing to major expenditure, which requirements must be established, and in which product are they held?",
+    "answer": "The timescale, resource and people requirements, held in the project plan",
+    "distractors": [
+      "The benefits, dis-benefits and tolerances, held in the business case",
+      "The scope, quality criteria and acceptance methods, held in the project product description",
+      "The risks, issues and changes, held in the project log",
+      "The costs, savings and funding, held in the business case",
+      "The roles, responsibilities and authorities, held in the project initiation documentation",
+      "The stages, work packages and checkpoints, held in the stage plan"
+    ],
+    "explanation": "The project plan holds the timescale, resource and people requirements that must be known before major expenditure is committed, and the board needs it to control the project. The business case holds the justification, not these delivery requirements.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-025",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Benefits management approach",
+    "difficulty": 2,
+    "stem": "Besides allowing the project board to control the project, what else does the information in the project plan make possible?",
+    "answer": "Preparing the benefits management approach",
+    "distractors": [
+      "Baselining the project product description",
+      "Approving the outline business case",
+      "Appointing the project management team",
+      "Writing the project mandate",
+      "Agreeing the project brief",
+      "Preparing the end stage report for initiation"
+    ],
+    "explanation": "The plan's timescale, resource and people requirements are needed so that the benefits management approach can be prepared, as well as for board control. The mandate, brief and outline business case all predate initiation.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-026",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Co-creating the plan",
+    "difficulty": 2,
+    "stem": "How does the manual say the project plan should be produced?",
+    "answer": "With close involvement of users and suppliers, for example through planning workshops, so that it is co-created",
+    "distractors": [
+      "By the project manager alone, then circulated to the team for comment",
+      "By project support, then approved by the project board without review",
+      "By the project executive, then reviewed by the project manager",
+      "By the team managers, once the first delivery stage has been authorized",
+      "By project assurance, using lessons from similar projects",
+      "By the business layer, applying the organization's standard framework"
+    ],
+    "explanation": "Planning is not something the project manager does in isolation: users and suppliers should be closely involved, and planning workshops help identify the products, their details and the dependencies between them. Project assurance is consulted, but it does not write the plan.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-027",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Transition to operational use",
+    "difficulty": 3,
+    "stem": "The project product is likely to need maintenance once it is operational. What should the project plan include?",
+    "answer": "An arrangement such as a service agreement between the support group and the user, planned as a product",
+    "distractors": [
+      "A contingency budget for maintenance held by the project board",
+      "A statement that maintenance is outside the project's scope",
+      "A warranty clause recorded in the commercial management approach",
+      "A separate project to be initiated after the current one closes",
+      "A benefits review scheduled for the end of the product's life",
+      "An operational stage added to the end of the project lifecycle"
+    ],
+    "explanation": "Where the product is likely to need maintenance in operation, arrangements for transition should include a suitable service agreement between the support group and the user, and that agreement should appear in the plan as a product. It is not left to a warranty clause or to a later project.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-028",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Planning products",
+    "difficulty": 3,
+    "stem": "Which set of planning products does the manual say should be created and included in the project plan?",
+    "answer": "A product breakdown structure, product descriptions for the major products, and a product flow diagram",
+    "distractors": [
+      "A work breakdown structure, role descriptions and a resource histogram",
+      "A product checklist, a stage plan and a quality register",
+      "A product register, a lessons log and a risk register",
+      "A product breakdown structure, a business case and a project initiation documentation",
+      "A product flow diagram, a product checklist and a stage plan",
+      "A work breakdown structure, a product flow diagram and a product register"
+    ],
+    "explanation": "Planning creates a product breakdown structure for the project product and its major components, writes product descriptions for them, and devises a product flow diagram, all included in the project plan. A work breakdown structure is considered under the organizing practice instead.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-029",
+    "set": "ch15",
+    "section": "15.4.4",
+    "topic": "Presenting the plan",
+    "difficulty": 2,
+    "stem": "The project board is the main audience for the project plan. What does the manual say may be sufficient for presenting the plan to the board?",
+    "answer": "A product checklist",
+    "distractors": [
+      "A Gantt chart",
+      "A product breakdown structure on its own",
+      "A product flow diagram",
+      "A stage plan for every stage",
+      "A work breakdown structure",
+      "A highlight report"
+    ],
+    "explanation": "The format and presentation of the plan should suit its audience and use, and the manual notes that a product checklist may be enough for presenting the plan to the project board. The full plan remains the baseline even where a summary is used for presentation.",
+    "source": "p.245"
+  },
+  {
+    "id": "ch15-030",
+    "set": "ch15",
+    "section": "15.4.5",
+    "topic": "Full business case",
+    "difficulty": 2,
+    "stem": "How is the full business case produced from the outline business case?",
+    "answer": "The outline is updated with the estimated time and costs from the project plan and the aggregated risks from the updated project log",
+    "distractors": [
+      "The outline is replaced by a new business case written from the project mandate",
+      "The outline is approved unchanged and the detailed figures are held in the project plan",
+      "The full business case is derived from the project initiation documentation once baselined",
+      "The outline is kept for the board and a separate full version is written for the supplier",
+      "The full business case adds the product descriptions and their quality criteria",
+      "The full business case is prepared only where the project sits within a programme"
+    ],
+    "explanation": "The full business case develops the outline with the better information available after planning: the estimated time and costs from the project plan and the aggregated risks from the updated project log. It is not a fresh document derived from the mandate or the PID.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-031",
+    "set": "ch15",
+    "section": "15.4.5",
+    "topic": "Co-creating the business case",
+    "difficulty": 1,
+    "stem": "Who should be closely involved with the project manager in preparing the full business case?",
+    "answer": "The project executive",
+    "distractors": [
+      "The senior supplier",
+      "The senior user",
+      "Project assurance",
+      "Project support",
+      "The business layer",
+      "The team managers"
+    ],
+    "explanation": "Preparing the full business case is not done in isolation: it should be co-created with close involvement of the project executive, who is accountable for the justification. Users and suppliers are the key collaborators when the project plan is created.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-032",
+    "set": "ch15",
+    "section": "15.4.5",
+    "topic": "Use of the business case",
+    "difficulty": 2,
+    "stem": "What will the project board use the full business case for?",
+    "answer": "To authorize the project, and as the basis of the ongoing check that the project remains viable",
+    "distractors": [
+      "To baseline the project plan and approve the stage tolerances",
+      "To confirm the product descriptions and their acceptance criteria",
+      "To record the aggregated risks from the project log",
+      "To appoint the project management team and its role holders",
+      "To decide whether to close the project at the next stage boundary",
+      "To summarize how PRINCE2 has been tailored for the project"
+    ],
+    "explanation": "The board uses the full business case to authorize the project and thereafter as the basis for checking that the project remains viable. It is not the vehicle for tolerances, product criteria or tailoring, which sit elsewhere in the PID.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-033",
+    "set": "ch15",
+    "section": "15.4.5",
+    "topic": "Justification under change",
+    "difficulty": 3,
+    "stem": "The project plan shows the work will take longer and cost more than the outline business case assumed. What follows for the business case?",
+    "answer": "It must be reassessed, because the justification depends on whether the benefits still outweigh the revised time, cost and risk",
+    "distractors": [
+      "It is unaffected, because a business case records benefits rather than costs",
+      "It is abandoned and the project returns to starting up a project",
+      "It is approved unchanged and the variance is recorded in the project log",
+      "It must be baselined before the project plan is prepared",
+      "It is replaced by the project initiation documentation",
+      "It is left to the business layer, because the board reviews only benefits"
+    ],
+    "explanation": "The full business case is built from the plan's estimates precisely because the justification depends on time, cost and aggregated risk as well as on benefits. A material change in those estimates therefore reopens the question of whether the project is still worth doing.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-034",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "Project initiation documentation",
+    "difficulty": 1,
+    "stem": "What is the project initiation documentation?",
+    "answer": "An aggregation of many of the management products created or updated during initiation, used to gain authorization for the project to proceed",
+    "distractors": [
+      "A single document containing the project brief and the outline business case",
+      "A record of the decisions taken by the project board during the initiation stage",
+      "The plan for the initiation stage, approved at the end of starting up a project",
+      "A summary of the lessons learned from similar previous projects",
+      "The formal request to the board to authorize delivery of the project",
+      "The set of product descriptions for the project's major products"
+    ],
+    "explanation": "The PID aggregates many of the products created or updated during initiation and is the means of gaining authorization for the project. The formal request to the board is the project authorization request, which is a separate product.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-035",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "Form of the PID",
+    "difficulty": 1,
+    "stem": "Which statement about the physical form of the project initiation documentation is correct?",
+    "answer": "It is not necessarily a single document; it may be a collection of documents or other information such as a workbook or tool contents",
+    "distractors": [
+      "It must be one bound document signed by every member of the project board",
+      "It must be held in a project management tool to have any validity",
+      "It must be shorter than the project brief it replaces",
+      "It must contain a stage plan for every stage of the project",
+      "It must be reissued in full at every stage boundary",
+      "It must be approved by the business layer before the board sees it"
+    ],
+    "explanation": "The PID is defined by what it aggregates rather than by its format: it may be a collection of documents or other information, including a workbook or the contents of a project management tool. Its contents are baselined, but its physical form is flexible.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-036",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "Baselining the PID",
+    "difficulty": 3,
+    "stem": "What must happen to the version of the project initiation documentation used to gain authorization?",
+    "answer": "It must be baselined and should be placed under change control",
+    "distractors": [
+      "It must be archived immediately and replaced by the first stage plan",
+      "It must be approved by project assurance instead of the project board",
+      "It must be reviewed only at the end of the project",
+      "It must be kept outside change control so that it can be updated freely",
+      "It must be summarized in the business case for the board",
+      "It must be re-baselined at every progress review"
+    ],
+    "explanation": "The authorizing version of the PID must be baselined and should be placed under change control, so that later performance can be compared with the forecasts on which approval was based. Baselining it repeatedly, or leaving it outside change control, would defeat that purpose.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-037",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "Why the PID is retained",
+    "difficulty": 2,
+    "stem": "Why is the baselined project initiation documentation retained after authorization?",
+    "answer": "To compare the project's actual performance against the original forecasts that formed the basis of approval",
+    "distractors": [
+      "To provide the audit trail for the supplier's invoices",
+      "To serve as the project mandate for any follow-on project",
+      "To record the lessons that emerge during delivery",
+      "To replace the business case at each stage boundary",
+      "To show the board how the tolerances have been revised",
+      "To demonstrate that PRINCE2 has been applied without tailoring"
+    ],
+    "explanation": "The baselined PID is the reference point for comparing actual performance with the original forecasts that were approved. Revised tolerances and new lessons are recorded elsewhere, such as in the project log and in progress reports.",
+    "source": "p.246"
+  },
+  {
+    "id": "ch15-038",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "PID content",
+    "difficulty": 2,
+    "stem": "Which of these is included or referenced in the project initiation documentation?",
+    "answer": "The project's management team structure and role descriptions",
+    "distractors": [
+      "The stage plan for the first delivery stage",
+      "The project mandate issued by the business layer",
+      "The lessons log from similar previous projects",
+      "The project manager's daily log",
+      "A product description for every product in the project",
+      "The highlight reports covering the initiation stage"
+    ],
+    "explanation": "The PID includes or references the team structure and role descriptions, the business case, the management approaches and the project plan, plus the project controls and a summary of how PRINCE2 has been tailored. Stage plans for later stages are prepared at stage boundaries.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-039",
+    "set": "ch15",
+    "section": "15.4.6",
+    "topic": "Cross-checking the PID",
+    "difficulty": 2,
+    "stem": "What cross-check is required when assembling the project initiation documentation?",
+    "answer": "A check that the information in the various elements is compatible",
+    "distractors": [
+      "A check that the PID aligns with the original project mandate",
+      "A check that the business case aligns with the benefits management approach",
+      "A check that the project plan aligns with the initiation stage plan",
+      "A check that the PID complies with the organization's quality management system",
+      "A check by the business layer before the board sees the PID",
+      "A check that every product description has a matching quality register entry"
+    ],
+    "explanation": "Because the PID is assembled from several products, the project manager performs a cross-check that the information in the various elements is compatible. The other checks are not the cross-check described, and alignment with the mandate is not its purpose.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-040",
+    "set": "ch15",
+    "section": "15.4.7",
+    "topic": "Requesting project authorization",
+    "difficulty": 1,
+    "stem": "In the final version, which products does the project manager share with the project board when requesting project authorization?",
+    "answer": "The business case, the project initiation documentation and the project plan",
+    "distractors": [
+      "The project brief, the project mandate and the initiation stage plan",
+      "The PID, the product descriptions and the quality register",
+      "The full business case, the risk register and the issue register",
+      "The project plan, the benefits management approach and the lessons log",
+      "The PID, the project log and the product authorization request",
+      "The project brief, the outline business case and the project product description"
+    ],
+    "explanation": "To finish initiation the project manager shares the final business case, the project initiation documentation and the project plan with the board, because these carry the formal justification. The brief, mandate and outline business case are earlier products.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-041",
+    "set": "ch15",
+    "section": "15.4.7",
+    "topic": "Purpose of the authorization request",
+    "difficulty": 1,
+    "stem": "Why does the project manager formally request project authorization at the end of initiation?",
+    "answer": "To obtain authority to deliver the project and to secure the people and resources required",
+    "distractors": [
+      "To obtain authority to begin the initiation stage",
+      "To agree the tolerances for the next stage boundary",
+      "To authorize the closure of the project",
+      "To approve the lessons captured during initiation",
+      "To confirm the appointment of the project manager",
+      "To approve the initiation stage plan retrospectively"
+    ],
+    "explanation": "The request seeks authority from the board to deliver the project, which is what allows the project manager to secure the people and resources required. Authority to initiate was already given by the board at the start of the process.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-042",
+    "set": "ch15",
+    "section": "15.5.1",
+    "topic": "Applying the activities",
+    "difficulty": 1,
+    "stem": "How may the activities of initiating a project be applied?",
+    "answer": "They may be combined, split or run concurrently to suit the project's circumstances",
+    "distractors": [
+      "They must always be performed sequentially in the order shown",
+      "They must be repeated at the start of every management stage",
+      "They may be omitted entirely where the project is small",
+      "They must be performed at every stage boundary",
+      "They may only be combined where they belong to the same practice",
+      "They must be performed by the project board rather than the project manager"
+    ],
+    "explanation": "The activities can be combined, split or run concurrently to fit the project's circumstances. This flexibility is part of applying the process, and it does not mean that the process can be skipped.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-043",
+    "set": "ch15",
+    "section": "15.5.1",
+    "topic": "Investigative stages",
+    "difficulty": 3,
+    "stem": "Some projects are too complex for the full output to be defined by the end of initiation. What does the manual say is common in such cases?",
+    "answer": "A lifecycle with investigative stages to look at options and choose a solution, with initiating a project used only at the start of the first stage",
+    "distractors": [
+      "Delaying initiation until the full output has been defined in the project brief",
+      "Running initiating a project again at the start of every investigative stage",
+      "Splitting the work into separate projects, each with its own PID",
+      "Baselining the PID with the project's output left undefined",
+      "Adopting a linear-sequential lifecycle to force early definition of the output",
+      "Asking the business layer to define the output in the project mandate"
+    ],
+    "explanation": "Where the output cannot be fully defined, a lifecycle with investigative stages is common, and initiating a project is used only at the start of the first stage to establish the management and control environment. Re-running initiation at every stage would defeat the purpose of the process.",
+    "source": "p.248"
+  },
+  {
+    "id": "ch15-044",
+    "set": "ch15",
+    "section": "15.5.1",
+    "topic": "Start simple",
+    "difficulty": 2,
+    "stem": "The number of management products in this process can look daunting. What guidance does the manual give?",
+    "answer": "Start simple and elaborate if needed, rather than create a management environment suited to a hypothetical major project",
+    "distractors": [
+      "Create every product in full, then remove those the board does not want",
+      "Use the product set from the largest similar project as a template",
+      "Ask the programme office to produce all the products before initiation begins",
+      "Reduce the products to the project brief and the business case only",
+      "Decide the tailoring only at the first stage boundary",
+      "Delegate the choice of products to project assurance"
+    ],
+    "explanation": "Tailoring factors may not be clear at the start of initiation, so the guidance is to begin simply and elaborate as needs emerge. Building a management environment for a hypothetical major project risks unnecessary overhead.",
+    "source": "p.247"
+  },
+  {
+    "id": "ch15-045",
+    "set": "ch15",
+    "section": "15.5.2",
+    "topic": "Tailoring roles",
+    "difficulty": 1,
+    "stem": "Which statement about roles in initiating a project is correct?",
+    "answer": "The project manager is responsible to the project executive for how the project is run and may assign the various roles to whoever is appropriate",
+    "distractors": [
+      "The project executive creates all the management products for the project manager to approve",
+      "Project support is accountable to the board for the products it creates",
+      "The project board assigns each activity to a named member of the project team",
+      "Project assurance creates the management products and the project manager reviews them",
+      "The business layer must write the business case because it owns the benefits",
+      "The senior supplier is responsible for the project plan because it commits resources"
+    ],
+    "explanation": "The project manager is responsible to the executive for how the project is run and can assign the roles to whoever is appropriate, with project support often producing some of the supporting products. Accountability for those products does not move to project support or assurance.",
+    "source": "p.248"
+  },
+  {
+    "id": "ch15-046",
+    "set": "ch15",
+    "section": "15.6",
+    "topic": "RACI for assembling the PID",
+    "difficulty": 3,
+    "stem": "In the RACI chart for initiating a project, which activity has the project manager accountable and project support responsible?",
+    "answer": "Assembling the project initiation documentation",
+    "distractors": [
+      "Preparing the project plan",
+      "Preparing the full business case",
+      "Establishing project controls",
+      "Agreeing the management approaches",
+      "Agreeing tailoring requirements",
+      "Requesting project authorization"
+    ],
+    "explanation": "Assembling the PID is the activity where the project manager is accountable rather than responsible, with project support responsible for doing the assembly. For the other activities the project executive is accountable and the project manager is responsible.",
+    "source": "p.248"
+  },
+  {
+    "id": "ch15-047",
+    "set": "ch15",
+    "section": "15.6",
+    "topic": "RACI accountability",
+    "difficulty": 2,
+    "stem": "In the RACI chart for initiating a project, which role is accountable for most of the activities?",
+    "answer": "The project executive",
+    "distractors": [
+      "The project manager",
+      "The business layer",
+      "The senior user",
+      "The senior supplier",
+      "Project assurance",
+      "Project support"
+    ],
+    "explanation": "The executive is accountable for agreeing tailoring, agreeing the approaches, establishing controls, preparing the plan, preparing the full business case and requesting authorization. The project manager is responsible for those activities, and project support is responsible for assembling the PID.",
+    "source": "p.248"
+  },
+  {
+    "id": "ch15-048",
+    "set": "ch15",
+    "section": "15.7",
+    "topic": "Risk practice in initiation",
+    "difficulty": 2,
+    "stem": "According to the application of the practices, how is the risk register created during initiation?",
+    "answer": "Based on the categories and grading system defined in the risk management approach",
+    "distractors": [
+      "From the risks listed in the project brief, regardless of category",
+      "By the project board when it authorizes the project",
+      "From the daily log once delivery of the first stage begins",
+      "By project assurance during its review of the PID",
+      "From the aggregated risks recorded in the business case only",
+      "By the senior supplier for supplier-related risks only"
+    ],
+    "explanation": "The risk register is created using the categories and grading system set out in the risk management approach, with risks from the business case, the project plan and elsewhere logged and assessed. The approach comes first; the register then applies it.",
+    "source": "p.249"
+  },
+  {
+    "id": "ch15-049",
+    "set": "ch15",
+    "section": "15.7",
+    "topic": "Progress reporting in initiation",
+    "difficulty": 2,
+    "stem": "Which report is used to show progress for the initiation stage?",
+    "answer": "A highlight report",
+    "distractors": [
+      "A checkpoint report",
+      "An end stage report",
+      "An exception report",
+      "A lessons report",
+      "A product status account",
+      "An issue report"
+    ],
+    "explanation": "The manual notes that highlight reports are used to show progress for the initiation stage, as they are for other stages. Checkpoint reports come from team managers, and end stage reports are produced at stage boundaries.",
+    "source": "p.249"
+  },
+  {
+    "id": "ch15-050",
+    "set": "ch15",
+    "section": "15.7",
+    "topic": "Business case practice in initiation",
+    "difficulty": 3,
+    "stem": "Which two management approaches are developed to support the business case and provide input for establishing controls?",
+    "answer": "The benefits management approach and the sustainability management approach",
+    "distractors": [
+      "The commercial management approach and the quality management approach",
+      "The risk management approach and the issue management approach",
+      "The change management approach and the communication management approach",
+      "The digital and data management approach and the quality management approach",
+      "The commercial management approach and the change management approach",
+      "The communication management approach and the benefits management approach"
+    ],
+    "explanation": "Under the business case practice, the benefits management approach and the sustainability management approach are developed to support the business case and feed into establishing controls. The risk, issue, change and communication approaches support other practices.",
+    "source": "p.249"
+  }
+]
