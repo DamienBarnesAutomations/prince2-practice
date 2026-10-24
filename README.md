@@ -121,13 +121,21 @@ question bank.
 
 ## Bank status
 
-| Set | Questions |
-|---|---|
-| Ch 2 — Principles | 57 |
-| Ch 6 — Organizing | 52 |
-| Ch 7 — Plans | 86 |
-| Ch 9 — Risk | 66 |
-| Ch 1, 3–5, 8, 10–19, Appendix A, Appendix B | not written yet |
+All 21 sets are written: 873 questions.
+
+| Set | Questions | Set | Questions |
+|---|---|---|---|
+| Ch 1 — Introduction | 20 | Ch 12 — Introduction to processes | 15 |
+| Ch 2 — Principles | 57 | Ch 13 — Starting up a project | 30 |
+| Ch 3 — People | 50 | Ch 14 — Directing a project | 30 |
+| Ch 4 — Introduction to practices | 15 | Ch 15 — Initiating a project | 50 |
+| Ch 5 — Business case | 50 | Ch 16 — Controlling a stage | 35 |
+| Ch 6 — Organizing | 52 | Ch 17 — Managing product delivery | 25 |
+| Ch 7 — Plans | 86 | Ch 18 — Managing a stage boundary | 25 |
+| Ch 8 — Quality | 52 | Ch 19 — Closing a project | 25 |
+| Ch 9 — Risk | 66 | Appendix A — Management products | 50 |
+| Ch 10 — Issues | 50 | Appendix B — Role descriptions | 30 |
+| Ch 11 — Progress | 60 | | |
 
 ## Progress storage
 

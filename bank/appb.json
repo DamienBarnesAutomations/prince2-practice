@@ -1,0 +1,568 @@
+[
+  {
+    "id": "appb-001",
+    "set": "appb",
+    "section": "B",
+    "topic": "Roles and jobs",
+    "difficulty": 1,
+    "stem": "How does the manual describe the relationship between PRINCE2 roles and the jobs people hold?",
+    "answer": "The roles do not necessarily map one-to-one to jobs and may be part-time, shared or combined to meet the project's needs",
+    "distractors": [
+      "Each role must be held by a different person to preserve separation of duties",
+      "Every role must be a full-time appointment for the whole life of the project",
+      "Each role corresponds to a permanent job title in the organization's structure",
+      "The project board roles must be held by people from outside the business",
+      "Roles may be combined only where the project sits within a programme",
+      "Role descriptions are fixed and cannot be tailored to the project"
+    ],
+    "explanation": "The appendix explains that the roles do not necessarily equate to jobs allocated one-to-one, and that some may be part-time while many may be shared or combined according to the project's needs. The role descriptions themselves may also be tailored, as chapters 2 and 6 describe.",
+    "source": "p.308"
+  },
+  {
+    "id": "appb-002",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project board",
+    "difficulty": 2,
+    "stem": "Who is responsible for establishing how project assurance will be undertaken on a project?",
+    "answer": "The project board, which also ensures clarity in the assurance roles and in how those appointed will interact",
+    "distractors": [
+      "The project manager, who records the arrangement in the quality management approach",
+      "The project executive alone, because assurance reports into the business",
+      "Project support, which administers the assurance calendar and records",
+      "The business layer, which appoints everyone who performs assurance work",
+      "The senior supplier, because assurance concentrates on product quality",
+      "The programme office, wherever the organization has one"
+    ],
+    "explanation": "The board is responsible for establishing how project assurance will be undertaken, ensuring clarity in roles and responsibilities, and determining how those appointed to assurance roles will interact. Individual board members remain responsible for assurance of their own area of concern, but the overall arrangement is the board's decision.",
+    "source": "p.308"
+  },
+  {
+    "id": "appb-003",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project assurance",
+    "difficulty": 2,
+    "stem": "Which statement about the people who carry out project assurance tasks is correct?",
+    "answer": "The tasks may be done by board members themselves or by others appointed for their knowledge, skills and capacity",
+    "distractors": [
+      "The tasks must always be performed by someone independent of the project board",
+      "The tasks must be performed by the project manager, who then reports to the board",
+      "The tasks are always delegated to a central programme or portfolio office",
+      "The tasks can only be performed by the executive, because accountability cannot be delegated",
+      "The tasks are performed by project support, which reports findings to the board",
+      "The tasks must be performed by an external party for the assurance to be credible"
+    ],
+    "explanation": "Board members are responsible for assurance of their respective business, user and supplier areas of concern, and the assurance tasks can be undertaken by the board members themselves. Depending on who has the knowledge, skills and capacity, others may be appointed instead, whether from the wider business or from an external party.",
+    "source": "p.308"
+  },
+  {
+    "id": "appb-004",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project assurance",
+    "difficulty": 2,
+    "stem": "Which responsibility belongs to project assurance rather than to the project manager?",
+    "answer": "Advising the project manager on the selection of project team members",
+    "distractors": [
+      "Designing the project management team structure and work breakdown structure",
+      "Preparing role descriptions for the project management team",
+      "Confirming appointments to the project management team",
+      "Managing individual team members from day to day",
+      "Authorizing work packages and setting their tolerances",
+      "Preparing the project plan for the board's approval"
+    ],
+    "explanation": "Project assurance advises the project manager on selecting project team members, but it does not design the team structure or make the appointments. Designing the structure and preparing role descriptions are project manager tasks, while confirming appointments is the executive's.",
+    "source": "p.308"
+  },
+  {
+    "id": "appb-005",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project assurance",
+    "difficulty": 3,
+    "stem": "Both the project manager and project assurance are concerned with progress against tolerances. Which pairing correctly separates their work?",
+    "answer": "The project manager monitors progress against the stage plan, while project assurance confirms stage and project progress against the agreed tolerances",
+    "distractors": [
+      "The project manager confirms progress against tolerances, while project assurance monitors progress against the stage plan",
+      "Both roles confirm progress against tolerances, but only project assurance may report the result to the board",
+      "The project manager confirms progress, and project assurance sets the tolerances used for that confirmation",
+      "Project assurance monitors progress, and the project manager confirms it to the business layer",
+      "Project assurance monitors progress for the business, and the project manager confirms it for the supplier",
+      "Both roles monitor progress, but project assurance does so only at the end of the project"
+    ],
+    "explanation": "Monitoring progress against stage plans is a project manager responsibility, while confirming stage and project progress against agreed tolerances is assurance work. Tolerances are set by the board, not by assurance, which is why the option giving assurance that power is wrong.",
+    "source": "p.309"
+  },
+  {
+    "id": "appb-006",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project assurance",
+    "difficulty": 1,
+    "stem": "Which role checks project finance on behalf of the business?",
+    "answer": "Project assurance",
+    "distractors": [
+      "The project executive",
+      "The project manager",
+      "Project support",
+      "The senior supplier",
+      "The business layer",
+      "The team manager"
+    ],
+    "explanation": "Checking project finance on behalf of the business is listed among the project assurance responsibilities, alongside checking that the project fits the overall business objectives. The executive is accountable for the business case, but the checking of finance is assurance work.",
+    "source": "p.309"
+  },
+  {
+    "id": "appb-007",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project assurance",
+    "difficulty": 2,
+    "stem": "A change is raised on a project. Which activity is project assurance's part in handling it?",
+    "answer": "Assuring the impact assessment of the potential change on the business case and project plan",
+    "distractors": [
+      "Administering the change control procedure and recording the change",
+      "Deciding whether the change may be approved within delegated authority",
+      "Assessing the impact of the change and recommending an option to the board",
+      "Updating the business case once the change has been approved",
+      "Instructing corrective action so the change is absorbed within the stage",
+      "Baselining the revised product description and distributing it"
+    ],
+    "explanation": "Project assurance assures the impact assessment of potential changes on the business case and project plan; it does not perform the assessment itself. Administering change control is project support's work, and deciding on changes within delegated authority belongs to the change authority.",
+    "source": "p.309"
+  },
+  {
+    "id": "appb-008",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project executive",
+    "difficulty": 1,
+    "stem": "Which statement about the project executive's accountability is correct?",
+    "answer": "The executive is the single point of accountability for the project, and that accountability cannot be delegated",
+    "distractors": [
+      "The executive may delegate accountability to the project manager but not to the board",
+      "The executive shares accountability equally with the senior user and senior supplier",
+      "The executive's accountability ends once the project initiation documentation is approved",
+      "The executive may delegate accountability to a programme director where one exists",
+      "The executive is accountable to the project manager for the project's performance",
+      "The executive's accountability passes to the business layer at each stage boundary"
+    ],
+    "explanation": "The executive is appointed by the business as the single point of accountability and is ultimately accountable for the project's success. The manual is explicit that this accountability cannot be delegated, although the day-to-day management of the project can be.",
+    "source": "p.309"
+  },
+  {
+    "id": "appb-009",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project executive",
+    "difficulty": 3,
+    "stem": "Who decides whether a project-level change budget is needed, specifies its amount, and decides whether a delegated authority for approving changes is required?",
+    "answer": "The project executive, who also sets the tolerances and change budget for each stage",
+    "distractors": [
+      "The project board, acting collectively at the stage boundary",
+      "The project manager, who administers changes with support from project support",
+      "The change authority, once the board has appointed it",
+      "The business layer, as part of the organization's financial controls",
+      "Project assurance, because it checks project finance for the business",
+      "The senior user, because most changes originate in user requirements"
+    ],
+    "explanation": "Determining whether a project-level change budget is needed, specifying the amount and deciding on delegated change authority are executive responsibilities, along with setting tolerances and a change budget for each stage. A change authority, once appointed, approves changes only within the limits the executive sets.",
+    "source": "p.309"
+  },
+  {
+    "id": "appb-010",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project executive",
+    "difficulty": 3,
+    "stem": "A stage is forecast to exceed its stage-level tolerances. Which description of what follows is correct?",
+    "answer": "The project manager produces an exception report and the executive decides on it and approves any exception plan",
+    "distractors": [
+      "The team manager escalates the deviation to the board, which instructs corrective action",
+      "The project manager approves the exception plan and reports it to the board for information",
+      "Project assurance decides on the exception and instructs the project manager to replan",
+      "The executive instructs the project manager to absorb the deviation within the stage",
+      "The change authority approves the exception plan because tolerances are being changed",
+      "The business layer decides on the exception because it provided the project's funding"
+    ],
+    "explanation": "The project manager produces exception reports when stage or project level tolerances are forecast to be exceeded, and prepares any exception plan. Decisions on exception reports at stage level, and approval of exception plans, rest with the executive.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-011",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project executive",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a responsibility of the project executive?",
+    "answer": "Preparing the business case and updating it at the end of each stage",
+    "distractors": [
+      "Being accountable for the benefits for the duration of the project",
+      "Securing the funding for the project",
+      "Confirming project closure and notifying the business"
+    ],
+    "exhaustive": true,
+    "explanation": "Preparing the business case, and assessing and updating it at the end of each stage, is the project manager's work, while the executive is accountable for the business case and for continued business justification. The other three options are executive responsibilities.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-012",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project manager",
+    "difficulty": 1,
+    "stem": "On what basis does the project manager hold authority over the project?",
+    "answer": "The board delegates authority to run the project within the agreed project tolerances and constraints",
+    "distractors": [
+      "The business layer appoints the project manager directly and defines their authority",
+      "The project manager's authority comes from being accountable for the business case",
+      "The senior supplier delegates authority because the project manager controls delivery",
+      "The project manager holds unlimited authority and reports only at closure",
+      "Authority is granted by project assurance once the project initiation documentation is approved",
+      "The project manager's authority extends only to managing team managers and their work packages"
+    ],
+    "explanation": "The project manager runs the project on behalf of the project board within the agreed project tolerances and constraints, and is responsible for its day-to-day management. Accountability stays with the executive, which is why that authority is bounded by tolerances.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-013",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project manager",
+    "difficulty": 3,
+    "stem": "Which statement about the business case is correct?",
+    "answer": "The project manager prepares it and reassesses it at the end of each stage, while the executive is accountable for it",
+    "distractors": [
+      "The executive prepares it, because accountability for the business case cannot be delegated",
+      "The senior user prepares it, because it is built from the benefits they specify",
+      "The project board prepares it collectively at each stage boundary",
+      "The project manager prepares it and is accountable for continued business justification",
+      "Project assurance prepares it, because it checks project finance for the business",
+      "It is prepared once during initiation and then baselined for the life of the project"
+    ],
+    "explanation": "Preparing the business case and management approaches, and assessing and updating them at the end of each stage, is a project manager responsibility. The executive is accountable for the business case and for the project's continued business justification, so the option that gives the project manager that accountability is wrong.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-014",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project manager",
+    "difficulty": 1,
+    "stem": "Who authorizes work packages and sets the tolerances within them?",
+    "answer": "The project manager",
+    "distractors": [
+      "The project board",
+      "The team manager",
+      "The senior supplier",
+      "Project assurance",
+      "Project support",
+      "The change authority"
+    ],
+    "explanation": "Authorizing work packages and setting work package tolerances are project manager responsibilities. The team manager agrees the work package description and delivers within those tolerances, notifying the project manager of any forecast deviation.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-015",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project manager",
+    "difficulty": 3,
+    "stem": "A team manager forecasts that a work package will exceed the tolerances set for it. What does the method require?",
+    "answer": "The team manager notifies the project manager, who may instruct corrective action",
+    "distractors": [
+      "The team manager escalates directly to the project board for a decision",
+      "The team manager amends the work package tolerances and continues",
+      "The project manager produces an exception report to the board immediately",
+      "Project assurance investigates and decides whether the work may continue",
+      "The work package is terminated and reissued with new tolerances",
+      "The senior supplier decides, because the deviation affects delivery"
+    ],
+    "explanation": "The team manager notifies the project manager of any forecast deviation from work package tolerances, and the project manager instructs corrective action when those tolerances are forecast to be exceeded. An exception report is triggered by stage or project level tolerances, not work package ones.",
+    "source": "p.314"
+  },
+  {
+    "id": "appb-016",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project manager",
+    "difficulty": 2,
+    "stem": "Which statement about the project log is correct?",
+    "answer": "The project manager establishes and maintains it, assisted by project support where possible",
+    "distractors": [
+      "Project support owns it, because it administers the project's records",
+      "Project assurance maintains it, because it must be independent of the project manager",
+      "The team manager maintains it for the products their team delivers",
+      "The executive maintains it, because it supports the business case",
+      "It is maintained by the change authority alongside the issue register",
+      "It is maintained by the programme office on the project's behalf"
+    ],
+    "explanation": "Establishing and maintaining the project log is a project manager responsibility, assisted by project support where possible. Project support does assist with maintaining it, which is why the two are easily confused.",
+    "source": "p.310"
+  },
+  {
+    "id": "appb-017",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project support",
+    "difficulty": 2,
+    "stem": "Which statement about who performs the project support role is correct?",
+    "answer": "It is the project manager's responsibility but may be delegated to suppliers, individuals or groups, and a project office may fulfil it",
+    "distractors": [
+      "It must be performed by someone independent of the project manager",
+      "It must be performed personally by the project manager",
+      "It is appointed by the executive and reports to the project board",
+      "It must be performed by the senior supplier's organization",
+      "It is always a full-time role separate from the rest of the team",
+      "It may only be delegated to a recognized project office"
+    ],
+    "explanation": "Project support is the project manager's responsibility, but it can be delegated to suppliers, individuals or groups within the business, or to other team members, depending on the scale and complexity of the project and the project manager's skills, knowledge and capacity. Some organizations establish a project office to fulfil the role.",
+    "source": "p.311"
+  },
+  {
+    "id": "appb-018",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project support",
+    "difficulty": 2,
+    "stem": "Which activity is part of project support's role in change control?",
+    "answer": "Administering the change control and issue procedures, and advising the project manager of changes that affect the business case",
+    "distractors": [
+      "Deciding whether a change should be approved within delegated authority",
+      "Approving the change budget for the current stage",
+      "Assessing the impact of a change on the business case and recommending an option",
+      "Escalating the change to the business layer whenever the business case is affected",
+      "Updating the business case after a change has been approved",
+      "Authorizing the revised work package that will deliver the change"
+    ],
+    "explanation": "Project support administers the change control and issue procedures and advises the project manager of proposed or actual changes to products that affect the business case. Decisions on changes rest with the change authority, the board or the executive, depending on the delegated authority.",
+    "source": "p.311"
+  },
+  {
+    "id": "appb-019",
+    "set": "appb",
+    "section": "B",
+    "topic": "Project support",
+    "difficulty": 2,
+    "stem": "What does project support provide for project plans, stage plans, team plans and work package descriptions?",
+    "answer": "A baseline for them, and a way to store and distribute them",
+    "distractors": [
+      "Approval of them on the project manager's behalf",
+      "The tolerances that apply to each of them",
+      "The quality criteria and acceptance methods for them",
+      "An independent review of their feasibility",
+      "The funding needed to deliver them",
+      "The lessons from similar plans in previous projects"
+    ],
+    "explanation": "Project support provides a baseline for project plans, stage plans, team plans and work package descriptions and determines ways to store and distribute them. It does the same for the business case, project brief, management approaches and project initiation documentation.",
+    "source": "p.311"
+  },
+  {
+    "id": "appb-020",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior supplier",
+    "difficulty": 1,
+    "stem": "What is the senior supplier accountable for?",
+    "answer": "The quality of what the suppliers deliver and the project's technical integrity",
+    "distractors": [
+      "The quality of the business case and the project's continued justification",
+      "The specification of benefits and their realization after closure",
+      "The project's day-to-day management within the agreed tolerances",
+      "The integrity of the project's change control procedure",
+      "The accuracy of progress reporting to the project board",
+      "The suitability of the project's assurance arrangements"
+    ],
+    "explanation": "The senior supplier represents the supplier community involved in delivering the project's products and is accountable for the quality of what the suppliers deliver and for the project's technical integrity. Accountability for the business case sits with the executive, and for benefits with the senior user.",
+    "source": "p.312"
+  },
+  {
+    "id": "appb-021",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior supplier",
+    "difficulty": 3,
+    "stem": "When deciding on an escalated issue, what is the senior supplier's particular focus?",
+    "answer": "Protecting the integrity of the solution as a whole",
+    "distractors": [
+      "Protecting the expected benefits",
+      "Protecting continued business justification",
+      "Ensuring value for money in the delivery method",
+      "Protecting the supplier's commercial position",
+      "Maintaining the user community's commitment to the project",
+      "Ensuring the issue is resolved within the stage tolerances"
+    ],
+    "explanation": "The senior supplier makes decisions on escalated issues with a particular focus on keeping the whole solution technically sound. The senior user's focus is the expected benefits, and the executive's is continued business justification.",
+    "source": "p.312"
+  },
+  {
+    "id": "appb-022",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior supplier",
+    "difficulty": 3,
+    "stem": "A work package needs two developers from the supplier and a business analyst from the user community. Which roles commit those resources?",
+    "answer": "The senior supplier commits the supplier resources and the senior user commits the user resources",
+    "distractors": [
+      "The executive commits both sets of resources, because it commits business resources",
+      "The project manager commits both sets of resources when authorizing the work package",
+      "The senior supplier commits both, because it represents everyone who delivers products",
+      "The project board commits both collectively at the stage boundary",
+      "The senior user commits both, because the analyst will work alongside the developers",
+      "The team manager commits both, because the work package falls within the team plan"
+    ],
+    "explanation": "The senior supplier commits people and supplier resources, the senior user commits people and user resources, and the executive commits people and business resources. The project manager allocates work through work packages but does not own those commitments.",
+    "source": "p.312"
+  },
+  {
+    "id": "appb-023",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior supplier",
+    "difficulty": 2,
+    "stem": "Which responsibility for quality techniques belongs to the senior supplier?",
+    "answer": "Agreeing the quality techniques and tools used in product development and providing people to perform supplier quality activities",
+    "distractors": [
+      "Defining the user's quality expectations for the project product",
+      "Managing quality controls for the products within each team plan",
+      "Assembling the quality records for completed products",
+      "Assuring the board that quality practices follow the quality management approach",
+      "Baselining the quality register and the product descriptions",
+      "Approving the quality management approach on behalf of the business"
+    ],
+    "explanation": "The senior supplier agrees the quality techniques and tools adopted in product development, as defined in product descriptions and work package descriptions, and provides the people and resources to perform supplier quality activities. Managing quality controls within a team plan belongs to the team manager.",
+    "source": "p.312"
+  },
+  {
+    "id": "appb-024",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior user",
+    "difficulty": 2,
+    "stem": "Who accepts the project product and is accountable for its performance?",
+    "answer": "The senior user",
+    "distractors": [
+      "The project executive",
+      "The project manager",
+      "The senior supplier",
+      "The project board collectively",
+      "Project assurance",
+      "The business layer"
+    ],
+    "explanation": "The senior user accepts the project product and is accountable for how it performs, as well as for realizing the benefits. The executive confirms at closure that the project is complete and the product accepted, and tells the business, but performance accountability rests with the senior user.",
+    "source": "p.313"
+  },
+  {
+    "id": "appb-025",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior user",
+    "difficulty": 2,
+    "stem": "Who provides statements of actual benefit achievement against forecast benefits at benefits reviews?",
+    "answer": "The senior user",
+    "distractors": [
+      "The project executive",
+      "The project manager",
+      "Project assurance",
+      "Project support",
+      "The business layer",
+      "The programme manager"
+    ],
+    "explanation": "Providing statements of actual benefit achievements versus forecast benefits at benefits reviews is a senior user responsibility, consistent with being accountable for realizing the benefits. The project manager's contribution is preparing and maintaining the business case.",
+    "source": "p.313"
+  },
+  {
+    "id": "appb-026",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior user",
+    "difficulty": 3,
+    "stem": "The senior user is accountable for the approach to capturing user requirements. What follows from that when requirements change?",
+    "answer": "The senior user controls the change according to requirements and benefits, whether it arises from users, the business or the project",
+    "distractors": [
+      "The senior user administers the change control procedure and records the change",
+      "The senior user approves every change, because user requirements take precedence",
+      "The senior user defers all changes to the project manager's delegated authority",
+      "The senior user refers every change to project assurance for a decision",
+      "The senior user accepts changes only where the supplier can absorb them",
+      "The senior user records changes in the benefits management approach instead of the issue register"
+    ],
+    "explanation": "The senior user controls change according to requirements and benefits, whatever its source, as part of being accountable for the approach to capturing user requirements. Administering the change control procedure is project support's role, and decisions within delegated authority belong to the change authority.",
+    "source": "p.313"
+  },
+  {
+    "id": "appb-027",
+    "set": "appb",
+    "section": "B",
+    "topic": "Senior user",
+    "difficulty": 1,
+    "stem": "Who is accountable for specifying the desired outcome and benefits on which the business case is approved?",
+    "answer": "The senior user",
+    "distractors": [
+      "The project executive",
+      "The project manager",
+      "The senior supplier",
+      "The business layer",
+      "Project assurance",
+      "The change authority"
+    ],
+    "explanation": "The senior user is accountable for specifying the desired outcome and benefits upon which the business case is approved, and for realizing those benefits. The executive ensures that the specified benefits represent value for money and can be realized.",
+    "source": "p.313"
+  },
+  {
+    "id": "appb-028",
+    "set": "appb",
+    "section": "B",
+    "topic": "Team manager",
+    "difficulty": 1,
+    "stem": "Within what limits does a team manager deliver the work allocated to them?",
+    "answer": "Within the tolerances and constraints agreed with the project manager in the work package",
+    "distractors": [
+      "Within the stage tolerances set by the project board",
+      "Within the project tolerances set by the executive",
+      "Within whatever limits the senior supplier sets for delivery",
+      "Within the budget agreed with the business layer",
+      "Within the quality tolerances in the project product description",
+      "Within the change budget delegated to the team"
+    ],
+    "explanation": "Team managers deliver the work allocated to them within the tolerances and constraints agreed with the project manager, who allocates work in the form of work packages in line with the commercial management approach. Stage and project tolerances sit above that level.",
+    "source": "p.314"
+  },
+  {
+    "id": "appb-029",
+    "set": "appb",
+    "section": "B",
+    "topic": "Team manager",
+    "difficulty": 2,
+    "stem": "Which planning products does the team manager prepare?",
+    "answer": "A schedule for each work package and a team plan",
+    "distractors": [
+      "The stage plan and the project plan",
+      "The exception plan and the end stage report",
+      "The work package descriptions and their tolerances",
+      "The project initiation documentation and the project brief",
+      "The highlight report and the lessons report",
+      "The benefits management approach and the business case"
+    ],
+    "explanation": "The team manager prepares schedules for each work package and prepares team plans, and agrees work package descriptions with the project manager. The stage and project plans are the project manager's work, and work package tolerances are set by the project manager.",
+    "source": "p.314"
+  },
+  {
+    "id": "appb-030",
+    "set": "appb",
+    "section": "B",
+    "topic": "Team manager",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a team manager responsibility?",
+    "answer": "Authorizing work packages and setting the tolerances within them",
+    "distractors": [
+      "Preparing a schedule for each work package and preparing team plans",
+      "Managing quality controls for the products within the team plan",
+      "Producing checkpoint reports for the project manager"
+    ],
+    "exhaustive": true,
+    "explanation": "Work packages are authorized, and their tolerances set, by the project manager; the team manager agrees the work package description and delivers within the tolerances. The other three options are team manager responsibilities.",
+    "source": "p.314"
+  }
+]

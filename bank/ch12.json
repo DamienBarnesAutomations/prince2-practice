@@ -1,0 +1,285 @@
+[
+  {
+    "id": "ch12-001",
+    "set": "ch12",
+    "section": "12",
+    "topic": "Definition of a process",
+    "difficulty": 1,
+    "stem": "How does PRINCE2 define a process?",
+    "answer": "A structured set of activities that defines the sequence of actions and their inputs and outputs in order to achieve a specific objective",
+    "distractors": [
+      "A documented agreement between the project board and the project manager that sets the tolerances for a stage",
+      "A collection of management products that are baselined at the same point in the project lifecycle",
+      "The set of roles and responsibilities needed to direct, manage and deliver a project",
+      "A technique for estimating the cost and duration of a piece of work before it is authorized",
+      "A principle that must be applied continuously throughout the life of the project",
+      "A decision point at which the project board authorizes the project to move to the next stage"
+    ],
+    "explanation": "A process is a structured set of activities defining the sequence of actions and their inputs and outputs to achieve a specific objective. Because PRINCE2 is a process-based approach, the seven processes together supply the activities needed to direct, manage and deliver a project.",
+    "source": "p.214"
+  },
+  {
+    "id": "ch12-002",
+    "set": "ch12",
+    "section": "12",
+    "topic": "The seven processes",
+    "difficulty": 1,
+    "stem": "What do the seven PRINCE2 processes provide?",
+    "answer": "The set of activities required to direct, manage and deliver a project successfully",
+    "distractors": [
+      "The seven roles that must be appointed to every project board",
+      "The four management levels into which a project organization is divided",
+      "The principles that must be applied at every stage of the project",
+      "The management products that must be baselined in the project initiation documentation",
+      "The techniques used to tailor the method to the size of the project",
+      "The tolerances within which the project manager is permitted to operate"
+    ],
+    "explanation": "The manual describes PRINCE2 as having seven processes that provide the set of activities required to direct, manage and deliver a project successfully. Principles, practices, roles and management products are separate elements of the method, not what the processes themselves supply.",
+    "source": "p.214"
+  },
+  {
+    "id": "ch12-003",
+    "set": "ch12",
+    "section": "12",
+    "topic": "Minimum number of stages",
+    "difficulty": 2,
+    "stem": "What is the minimum number of stages a PRINCE2 project can have, and what must the first one be?",
+    "answer": "Two stages, the first of which is the initiation stage",
+    "distractors": [
+      "Two stages, the first of which is the final stage",
+      "Three stages: an initiation stage, at least one delivery stage and a final stage",
+      "One stage, covering initiation, delivery and closure together",
+      "Two stages, the first of which is a pre-project stage before initiation",
+      "Four stages: starting up, initiation, delivery and closure",
+      "Three stages, the first of which is a pre-project stage"
+    ],
+    "explanation": "The lifecycle in the process model figure always has at least two stages - an initiation stage and a final stage - with any number of stages in between. Starting up a project happens before the first stage, so it is not itself counted as a stage.",
+    "source": "p.214"
+  },
+  {
+    "id": "ch12-004",
+    "set": "ch12",
+    "section": "12.1.1",
+    "topic": "The project mandate",
+    "difficulty": 1,
+    "stem": "What is the trigger that starts a PRINCE2 project, and who provides it?",
+    "answer": "A project mandate, provided by the business that is commissioning the project",
+    "distractors": [
+      "A project brief, provided by the project manager",
+      "A project initiation request, provided by the project board",
+      "A business case, provided by the executive",
+      "A statement of work, provided by the preferred supplier",
+      "A project initiation documentation, provided by the project manager",
+      "A project product description, provided by the senior user"
+    ],
+    "explanation": "The trigger for a project is the project mandate, which the business provides; it can range from a verbal instruction to a fully justified project definition. The project brief is produced later, during starting up a project.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-005",
+    "set": "ch12",
+    "section": "12.1.1",
+    "topic": "Starting up a project",
+    "difficulty": 2,
+    "stem": "What does starting up a project put in place before the project board decides whether to initiate the project?",
+    "answer": "The project manager and project board are appointed, and a project brief and initiation stage plan are produced",
+    "distractors": [
+      "The project initiation documentation and the benefits management approach are produced",
+      "The business case is developed in full and the first stage is authorized",
+      "The project mandate is written and the project board tolerances are agreed",
+      "The team plan and the first work packages are created for the delivery teams",
+      "The end project report is drafted and the post-project benefits reviews are scheduled",
+      "The communication management approach is agreed and the project is closed"
+    ],
+    "explanation": "Starting up a project appoints the project manager and the project board and produces the project brief and a stage plan for the initiation stage. The full business case, the project management approaches and the project initiation documentation belong to initiating a project.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-006",
+    "set": "ch12",
+    "section": "12.1.1",
+    "topic": "Authorizing initiation",
+    "difficulty": 2,
+    "stem": "Which process does the project board use to decide whether to proceed with project initiation?",
+    "answer": "Directing a project",
+    "distractors": [
+      "Starting up a project",
+      "Initiating a project",
+      "Managing a stage boundary",
+      "Controlling a stage",
+      "Managing product delivery",
+      "Closing a project"
+    ],
+    "explanation": "The decision to proceed is taken by the project board through its own process, directing a project, after reviewing the project brief and the initiation stage plan. The board returns to that process at the end of initiation to authorize the project and the next stage.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-007",
+    "set": "ch12",
+    "section": "12.1.2",
+    "topic": "Initiation stage",
+    "difficulty": 2,
+    "stem": "During the initiation stage, which process is used to plan the next stage in detail?",
+    "answer": "Managing a stage boundary",
+    "distractors": [
+      "Initiating a project",
+      "Starting up a project",
+      "Controlling a stage",
+      "Directing a project",
+      "Managing product delivery",
+      "Closing a project"
+    ],
+    "explanation": "Initiating a project covers planning at the appropriate level, the project management approaches and controls, the business case and how benefits will be reviewed, but the detailed planning of the following stage is done through managing a stage boundary. That process is first used at the end of the initiation stage and then at the end of each subsequent stage except the final one, although it can also be used to prepare an exception plan at any time.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-008",
+    "set": "ch12",
+    "section": "12.1.2",
+    "topic": "Baseline of the project initiation documentation",
+    "difficulty": 3,
+    "stem": "Why is the version of the project initiation documentation created during initiation kept rather than discarded once it has been updated?",
+    "answer": "Because its content is expected to change under change control, so this version is preserved as the baseline for later reviews",
+    "distractors": [
+      "Because it becomes the end project report when the project closes",
+      "Because the business layer requires a copy before any stage can be authorized",
+      "Because it must be re-approved in full at the end of every stage",
+      "Because it records the lessons that later projects are required to apply",
+      "Because it holds the only approved version of the project mandate",
+      "Because project assurance audits it at every stage boundary"
+    ],
+    "explanation": "The manual notes that the contents of the project initiation documentation are likely to change throughout the project under change control, so the version produced during initiation is preserved as the original baseline against which later versions are reviewed. It is not an end-of-project report, and it is not re-approved in full at each boundary.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-009",
+    "set": "ch12",
+    "section": "12.1.3",
+    "topic": "Progress reporting",
+    "difficulty": 3,
+    "stem": "During a delivery stage, how does progress information travel between the project manager and the board, and between the teams and the project manager?",
+    "answer": "The project manager sends highlight reports to the board, and team managers send checkpoint reports to the project manager",
+    "distractors": [
+      "The project manager sends checkpoint reports to the board, and team managers send highlight reports to the project manager",
+      "The project manager sends end stage reports to the board, and team managers send highlight reports to the project manager",
+      "The project manager sends highlight reports to the board, and team managers send end stage reports to the project manager",
+      "The project manager sends exception reports to the board, and team managers send issue reports to the project manager",
+      "The project manager sends highlight reports to the board, and team managers report only at the stage boundary",
+      "The project manager sends checkpoint reports to the board, and team managers send work package notices to the project manager"
+    ],
+    "explanation": "The board delegates day-to-day control to the project manager, who reports progress upwards through highlight reports, while team managers executing work packages report to the project manager through checkpoint reports. End stage reports are produced at the boundary, not as routine progress reporting during a stage.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-010",
+    "set": "ch12",
+    "section": "12.1.3",
+    "topic": "Requesting the next stage",
+    "difficulty": 2,
+    "stem": "What does the project manager do towards the end of a stage in order to ask permission to proceed to the next stage?",
+    "answer": "Report how the current stage performed, update the business case and plan the next stage in detail",
+    "distractors": [
+      "Report how the current stage performed, re-baseline the project initiation documentation and release the team",
+      "Report how the current stage performed, close the project and schedule the benefits reviews",
+      "Update the business case, authorize the next stage and allocate the work packages",
+      "Plan the next stage in detail, appoint a new project board and revise the project mandate",
+      "Produce the end project report, archive the project documentation and release the resources",
+      "Prepare an exception plan, escalate the stage to the business layer and await a new mandate"
+    ],
+    "explanation": "At the end of a stage the project manager reports the stage's performance, updates the business case and plans the next stage in detail, giving the board what it needs to judge continuing viability. Authorizing the next stage is the board's decision, taken in directing a project, not something the project manager does.",
+    "source": "p.215"
+  },
+  {
+    "id": "ch12-011",
+    "set": "ch12",
+    "section": "12.1.4",
+    "topic": "Closing a project",
+    "difficulty": 3,
+    "stem": "What must the project board be satisfied about before a project can close?",
+    "answer": "That the recipients of each product can own and use it on an ongoing basis and that the business can take overall ownership of the project product",
+    "distractors": [
+      "That every benefit in the business case has already been realized and measured",
+      "That all post-project benefits reviews have been completed and signed off",
+      "That the project has delivered within its original baseline for time and cost",
+      "That the project team has been released and the documentation has been archived",
+      "That the senior supplier has accepted the final work package",
+      "That the project mandate has been reissued for the next stage"
+    ],
+    "explanation": "Closure depends on the board being satisfied that recipients can own and use their products ongoing and that the business can take overall ownership of the project product. Most benefits are realized after the project, so the post-project reviews are only planned at closure rather than completed; archiving and releasing people are closure activities that follow the decision.",
+    "source": "p.216"
+  },
+  {
+    "id": "ch12-012",
+    "set": "ch12",
+    "section": "12.1.5",
+    "topic": "Post-project benefits reviews",
+    "difficulty": 2,
+    "stem": "Which management product sets out how and when post-project benefits reviews will happen, and who is responsible and accountable for them?",
+    "answer": "The benefits management approach",
+    "distractors": [
+      "The business case",
+      "The end project report",
+      "The project initiation documentation",
+      "The communication management approach",
+      "The benefits realization plan",
+      "The project product description"
+    ],
+    "explanation": "The benefits management approach documents how and when post-project benefits reviews should occur and who is responsible and accountable for them. The business case records the justification and the expected benefits, but not the arrangements for reviewing them after closure.",
+    "source": "p.216"
+  },
+  {
+    "id": "ch12-013",
+    "set": "ch12",
+    "section": "12.2",
+    "topic": "The process model",
+    "difficulty": 1,
+    "stem": "Which management levels are the PRINCE2 processes aligned with in the process model?",
+    "answer": "The business layer, directing, managing and delivering",
+    "distractors": [
+      "Corporate, programme, project and team",
+      "Directing, managing, delivering and assuring",
+      "The business layer, governing, managing and delivering",
+      "Portfolio, programme, project and delivery",
+      "Strategy, governance, management and operations",
+      "Directing, planning, managing and delivering"
+    ],
+    "explanation": "The process model aligns the processes with four management levels: the business layer, directing, managing and delivering. The triggers between the processes are also shown, with arrows to the business layer notifying the business of an update or request.",
+    "source": "p.216"
+  },
+  {
+    "id": "ch12-014",
+    "set": "ch12",
+    "section": "12.3",
+    "topic": "Format of the process chapters",
+    "difficulty": 2,
+    "stem": "Which of these is NOT part of the standard structure used to describe each PRINCE2 process?",
+    "answer": "A schedule of the tolerances delegated to each team manager",
+    "distractors": [
+      "A purpose statement and the specific objectives the process is to achieve",
+      "A context description, including a table of inputs and outputs for each activity",
+      "A RACI table describing the responsibilities for the process"
+    ],
+    "exhaustive": true,
+    "explanation": "Each process chapter is structured around purpose, objectives, context, activities, responsibilities and the application of the practices within the process. Tolerances delegated to team managers belong to the plans and progress practices, not to the way a process is described.",
+    "source": "p.218"
+  },
+  {
+    "id": "ch12-015",
+    "set": "ch12",
+    "section": "12.3",
+    "topic": "Processes, principles and practices",
+    "difficulty": 3,
+    "stem": "According to the key message closing the introduction to processes, how do the five integrated elements of PRINCE2 work together?",
+    "answer": "The practices ensure that the principles are continually applied during the processes, in a way suited to the project context and to the people in the project and organizational ecosystems",
+    "distractors": [
+      "The principles ensure that the practices are applied only at stage boundaries, when the board reviews progress",
+      "The processes ensure that the practices are tailored to each project, while the principles are applied only at the start",
+      "The practices replace the processes on small projects, where a full set of activities would be disproportionate",
+      "The processes take precedence over the principles wherever the two conflict, because they define the activities",
+      "The principles are applied by the business layer while the practices are applied by the delivery teams",
+      "The five elements are applied in sequence, starting with principles and ending with processes"
+    ],
+    "explanation": "The key message is that the five integrated elements work together: the practices ensure the principles are continually applied during the processes, in a way specific to the project context and taking account of people and groups in the project and organizational ecosystems. The elements are integrated, not applied in sequence or owned by separate layers.",
+    "source": "p.218"
+  }
+]

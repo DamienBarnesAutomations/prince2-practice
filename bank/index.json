@@ -1,8 +1,16 @@
 {
   "version": 1,
   "edition": "PRINCE2 7",
-  "total": 261,
+  "total": 873,
   "sets": [
+    {
+      "id": "ch01",
+      "order": 1,
+      "kind": "chapter",
+      "title": "Introduction",
+      "file": "bank/ch01.json",
+      "count": 20
+    },
     {
       "id": "ch02",
       "order": 2,
@@ -10,6 +18,30 @@
       "title": "Principles",
       "file": "bank/ch02.json",
       "count": 57
+    },
+    {
+      "id": "ch03",
+      "order": 3,
+      "kind": "chapter",
+      "title": "People",
+      "file": "bank/ch03.json",
+      "count": 50
+    },
+    {
+      "id": "ch04",
+      "order": 4,
+      "kind": "chapter",
+      "title": "Introduction to practices",
+      "file": "bank/ch04.json",
+      "count": 15
+    },
+    {
+      "id": "ch05",
+      "order": 5,
+      "kind": "chapter",
+      "title": "Business case",
+      "file": "bank/ch05.json",
+      "count": 50
     },
     {
       "id": "ch06",
@@ -28,12 +60,116 @@
       "count": 86
     },
     {
+      "id": "ch08",
+      "order": 8,
+      "kind": "chapter",
+      "title": "Quality",
+      "file": "bank/ch08.json",
+      "count": 52
+    },
+    {
       "id": "ch09",
       "order": 9,
       "kind": "chapter",
       "title": "Risk",
       "file": "bank/ch09.json",
       "count": 66
+    },
+    {
+      "id": "ch10",
+      "order": 10,
+      "kind": "chapter",
+      "title": "Issues",
+      "file": "bank/ch10.json",
+      "count": 50
+    },
+    {
+      "id": "ch11",
+      "order": 11,
+      "kind": "chapter",
+      "title": "Progress",
+      "file": "bank/ch11.json",
+      "count": 60
+    },
+    {
+      "id": "ch12",
+      "order": 12,
+      "kind": "chapter",
+      "title": "Introduction to processes",
+      "file": "bank/ch12.json",
+      "count": 15
+    },
+    {
+      "id": "ch13",
+      "order": 13,
+      "kind": "chapter",
+      "title": "Starting up a project",
+      "file": "bank/ch13.json",
+      "count": 30
+    },
+    {
+      "id": "ch14",
+      "order": 14,
+      "kind": "chapter",
+      "title": "Directing a project",
+      "file": "bank/ch14.json",
+      "count": 30
+    },
+    {
+      "id": "ch15",
+      "order": 15,
+      "kind": "chapter",
+      "title": "Initiating a project",
+      "file": "bank/ch15.json",
+      "count": 50
+    },
+    {
+      "id": "ch16",
+      "order": 16,
+      "kind": "chapter",
+      "title": "Controlling a stage",
+      "file": "bank/ch16.json",
+      "count": 35
+    },
+    {
+      "id": "ch17",
+      "order": 17,
+      "kind": "chapter",
+      "title": "Managing product delivery",
+      "file": "bank/ch17.json",
+      "count": 25
+    },
+    {
+      "id": "ch18",
+      "order": 18,
+      "kind": "chapter",
+      "title": "Managing a stage boundary",
+      "file": "bank/ch18.json",
+      "count": 25
+    },
+    {
+      "id": "ch19",
+      "order": 19,
+      "kind": "chapter",
+      "title": "Closing a project",
+      "file": "bank/ch19.json",
+      "count": 25
+    },
+    {
+      "id": "appa",
+      "order": 20,
+      "kind": "appendix",
+      "title": "Appendix A — Management products",
+      "file": "bank/appa.json",
+      "count": 50
+    },
+    {
+      "id": "appb",
+      "order": 21,
+      "kind": "appendix",
+      "title": "Appendix B — Role descriptions",
+      "file": "bank/appb.json",
+      "count": 30
     }
   ]
 }

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "ch01-001",
+    "set": "ch01",
+    "section": "1.1",
+    "topic": "What PRINCE2 is",
+    "difficulty": 1,
+    "stem": "Which description best fits PRINCE2?",
+    "answer": "A structured project management method built from the experience of many projects and practitioners",
+    "distractors": [
+      "A specialist development lifecycle used to design and construct project products",
+      "A set of detailed project management techniques such as critical path analysis and earned value management",
+      "A governance framework for managing programmes and portfolios of projects",
+      "A procurement process for selecting and contracting suppliers",
+      "A qualification scheme that sets the standard for project managers",
+      "A delivery method for iterative-incremental product development"
+    ],
+    "explanation": "The manual presents PRINCE2 as a structured project management method that draws on experience from thousands of projects and contributions from sponsors, project managers, teams, academics, trainers and consultants. Specialist lifecycles and detailed techniques sit outside the method, which is why they are not the answer.",
+    "source": "p.2"
+  },
+  {
+    "id": "ch01-002",
+    "set": "ch01",
+    "section": "1.1",
+    "topic": "What PRINCE2 is not",
+    "difficulty": 2,
+    "stem": "Which of these is NOT a feature of the PRINCE2 method?",
+    "answer": "It prescribes how the specialist work of the project should be carried out",
+    "distractors": [
+      "It separates the management of the project from the specialist development activities",
+      "It can be applied to any project regardless of its purpose, scale, type or organization",
+      "It requires that the method is tailored to the needs and context of the project"
+    ],
+    "exhaustive": true,
+    "explanation": "PRINCE2 focuses on what needs to be done to manage the project rather than prescribing how the work is done, which is what allows any specialist activity or delivery method to be brought into a controlled environment. The other three statements are the ways the manual says the method achieves its adaptability.",
+    "source": "p.2"
+  },
+  {
+    "id": "ch01-003",
+    "set": "ch01",
+    "section": "1.1.1",
+    "topic": "Scope of the method",
+    "difficulty": 1,
+    "stem": "Which two topics does the manual deliberately treat as outside the scope of PRINCE2?",
+    "answer": "Specialist aspects of the project work and detailed project management techniques",
+    "distractors": [
+      "Project governance and the development of the business case",
+      "Risk management and the management of quality",
+      "Benefits management and organizational change",
+      "Procurement and the management of supplier contracts",
+      "Team leadership and stakeholder engagement",
+      "Planning and the control of progress"
+    ],
+    "explanation": "The manual states plainly that PRINCE2 neither can nor does cover every aspect of project management, and names specialist aspects of project work and detailed project management techniques as deliberately excluded. Those subjects are either integrated into the project's management approaches or used in support of the method.",
+    "source": "p.3"
+  },
+  {
+    "id": "ch01-004",
+    "set": "ch01",
+    "section": "1.1.1.2",
+    "topic": "Techniques in PRINCE2",
+    "difficulty": 3,
+    "stem": "A project wants to use techniques that are equivalent to those PRINCE2 recommends, rather than the recommended ones themselves. What does the method require?",
+    "answer": "That the techniques chosen are explained in the project initiation documentation",
+    "distractors": [
+      "That the project board approves each substitute technique at a stage boundary",
+      "That the substitution is recorded as a tailoring decision in the end project report",
+      "That each substitution is raised as a request for change",
+      "That project assurance confirms the techniques are industry standard",
+      "That alternatives are used only where PRINCE2 recommends no technique at all",
+      "That the programme management office maintains a list of approved alternatives"
+    ],
+    "explanation": "PRINCE2 describes a technique in detail only where it specifically recommends that approach or the approach is unique to PRINCE2, such as its planning technique. Alternative or additional techniques can be substituted or included provided the chosen techniques are explained in the project initiation documentation.",
+    "source": "p.3"
+  },
+  {
+    "id": "ch01-005",
+    "set": "ch01",
+    "section": "1.2",
+    "topic": "Five integrated elements",
+    "difficulty": 1,
+    "stem": "Which of these lists the five integrated elements of PRINCE2?",
+    "answer": "Principles, people, practices, processes and project context",
+    "distractors": [
+      "Principles, themes, processes, products and project context",
+      "Principles, people, practices, stages and project context",
+      "Principles, people, plans, processes and project context",
+      "Principles, people, practices, processes and performance targets",
+      "Governance, people, practices, processes and project context",
+      "Principles, roles, practices, processes and project context"
+    ],
+    "explanation": "The method is composed of five integrated elements - principles, people, practices, processes and the project context - and the structure of the manual follows them. Themes belonged to earlier editions of PRINCE2 and are not one of the five elements.",
+    "source": "p.4"
+  },
+  {
+    "id": "ch01-006",
+    "set": "ch01",
+    "section": "1.2",
+    "topic": "Principles",
+    "difficulty": 2,
+    "stem": "A project team applies six of the seven PRINCE2 principles fully but decides the seventh is not relevant to its delivery method. What is the status of the project?",
+    "answer": "It is not a PRINCE2 project, because all seven principles must be applied",
+    "distractors": [
+      "It is a PRINCE2 project provided the omission is recorded as a tailoring decision",
+      "It is a PRINCE2 project provided the project board approves the omission",
+      "It is a partially compliant PRINCE2 project",
+      "It is a PRINCE2 project because the principles are guidance rather than obligations",
+      "It is a PRINCE2 project if project assurance confirms the omission is low risk",
+      "It is a PRINCE2 project provided the remaining principles are applied consistently"
+    ],
+    "explanation": "The principles are the guiding obligations that determine whether a project is genuinely being managed using PRINCE2, and the manual is categorical that unless all seven are applied it is not a PRINCE2 project. Tailoring changes how the method is applied, never which principles apply.",
+    "source": "p.4"
+  },
+  {
+    "id": "ch01-007",
+    "set": "ch01",
+    "section": "1.2",
+    "topic": "Practices and processes",
+    "difficulty": 3,
+    "stem": "How do the seven practices and the seven processes relate to each other?",
+    "answer": "The practices define the treatment required of each aspect of management, and the processes describe the project lifecycle through which they are applied",
+    "distractors": [
+      "The practices describe the project lifecycle, and the processes define the aspects of management to be applied",
+      "Each practice is carried out within exactly one of the processes",
+      "The practices are optional in simple projects, whereas the processes are always required",
+      "The practices apply at stage boundaries, whereas the processes apply continuously",
+      "The practices are owned by the project board, whereas the processes are owned by the project manager",
+      "The practices replace the processes where PRINCE2 is tailored for an iterative delivery method"
+    ],
+    "explanation": "The practices describe essential aspects of project management that must be applied consistently and throughout the lifecycle so that the processes are effective, while the processes describe the whole lifecycle from the work before the project starts to closure. They are complementary rather than alternatives, and no practice maps to a single process.",
+    "source": "p.4"
+  },
+  {
+    "id": "ch01-008",
+    "set": "ch01",
+    "section": "1.3",
+    "topic": "Definition of a project",
+    "difficulty": 1,
+    "stem": "How does the manual define a project?",
+    "answer": "A temporary organization created to deliver one or more business products according to an agreed business case",
+    "distractors": [
+      "A permanent team established to improve business operations over time",
+      "A temporary organization created to deliver a single product to a fixed specification",
+      "An agreed business case for changing part of the organization",
+      "A set of activities that maintains business as usual during a change",
+      "A structured programme of related projects delivered over several years",
+      "A controlled environment in which specialist work is carried out"
+    ],
+    "explanation": "The definition has three parts: it is a temporary organization, it delivers one or more business products, and it does so according to an agreed business case. A permanent team would be business as usual, and a controlled environment for specialist work describes what the method provides rather than what a project is.",
+    "source": "p.5"
+  },
+  {
+    "id": "ch01-009",
+    "set": "ch01",
+    "section": "1.3",
+    "topic": "Characteristics of a project",
+    "difficulty": 2,
+    "stem": "A project draws its team from finance, operations and IT, and also includes staff from an external supplier. Which characteristic of a project does this best illustrate?",
+    "answer": "That projects are cross-functional",
+    "distractors": [
+      "That projects are temporary",
+      "That projects are unique",
+      "That projects carry uncertainty",
+      "That projects introduce change",
+      "That projects are justified by a business case"
+    ],
+    "explanation": "A project involves people with different skills working together temporarily to introduce a change that affects others, often across the usual functional divisions and sometimes across organizations. Uniqueness would instead turn on the team, customer, supplier, product, location or timeframe differing from other projects.",
+    "source": "p.5"
+  },
+  {
+    "id": "ch01-010",
+    "set": "ch01",
+    "section": "1.3",
+    "topic": "Characteristics of a project",
+    "difficulty": 3,
+    "stem": "Why does the manual describe projects as riskier than operational work?",
+    "answer": "Because change, temporary duration, cross-functionality and uniqueness bring threats and opportunities beyond those of business as usual",
+    "distractors": [
+      "Because projects always involve external suppliers working under contract",
+      "Because projects are usually larger than the operations they set out to change",
+      "Because project teams are unfamiliar with the organization's standards and policies",
+      "Because projects are governed outside the business's strategy and objectives",
+      "Because projects have no agreed performance targets until closure",
+      "Because benefits are only realized after the project has ended"
+    ],
+    "explanation": "The extra risk is derived from the characteristics already listed: change, temporary, cross-functional and unique each introduce threats and opportunities over and above those typically encountered in business as usual. Size, the use of suppliers and unfamiliarity with standards are not offered as the reason.",
+    "source": "p.6"
+  },
+  {
+    "id": "ch01-011",
+    "set": "ch01",
+    "section": "1.4",
+    "topic": "Performance targets",
+    "difficulty": 1,
+    "stem": "Which of these lists the seven aspects of project performance that PRINCE2 manages?",
+    "answer": "Benefits, costs, time, quality, scope, sustainability and risk",
+    "distractors": [
+      "Benefits, costs, time, quality, scope, people and risk",
+      "Benefits, costs, time, quality, scope, sustainability and issues",
+      "Benefits, costs, time, quality, products, sustainability and risk",
+      "Benefits, budget, schedule, quality, scope, sustainability and risk",
+      "Benefits, costs, time, assurance, scope, sustainability and risk",
+      "Costs, time, quality, scope, sustainability, risk and change"
+    ],
+    "explanation": "PRINCE2 includes performance targets for benefits, costs, time, quality, scope, sustainability and risk, and all seven together with their tolerances are used throughout the method as the basis for control. People and issues are elements of the method rather than performance targets.",
+    "source": "p.7"
+  },
+  {
+    "id": "ch01-012",
+    "set": "ch01",
+    "section": "1.4",
+    "topic": "Purpose of project management",
+    "difficulty": 2,
+    "stem": "What is the purpose of project management, according to the manual?",
+    "answer": "To reduce and manage ambiguity by uniting the involved parties to clarify objectives and working practices, so the specialist work can be controlled",
+    "distractors": [
+      "To remove uncertainty from the project by planning every activity in detail",
+      "To ensure the project delivers beyond its agreed scope where benefits justify it",
+      "To replace the specialist delivery method with a single standard lifecycle",
+      "To guarantee that the benefits in the business case will be realized",
+      "To manage business as usual at the same time as the project",
+      "To produce the project's specialist products on behalf of the delivery team"
+    ],
+    "explanation": "The challenges that the characteristics of a project create - unclear accountability, conflicting expectations, uncontrolled change and so on - are addressed by reducing and managing ambiguity, uniting the parties to clarify objectives and working practices, and controlling the specialist work. Project management does not remove uncertainty, and it does not create the specialist products itself.",
+    "source": "p.6"
+  },
+  {
+    "id": "ch01-013",
+    "set": "ch01",
+    "section": "1.4",
+    "topic": "Tolerances",
+    "difficulty": 2,
+    "stem": "An urgent project places more importance on time than on cost. How does PRINCE2 allow that priority to be expressed?",
+    "answer": "By setting a range, in the form of a tolerance, for each performance target",
+    "distractors": [
+      "By allowing the less important performance targets to be dropped",
+      "By fixing all performance targets at the start of the project and not revising them",
+      "By setting one overall tolerance for the whole project",
+      "By recording the priority order in the risk register",
+      "By requiring the project board to approve each target separately",
+      "By replacing the performance targets with the business case objectives"
+    ],
+    "explanation": "Priorities are established by agreeing the project's performance targets, and PRINCE2 allows a range to be specified for each one as a tolerance, so some targets can have a narrow tolerance and others a broader one. Agreeing the targets and tolerances is also a prerequisite for exploring options and determining the project approach.",
+    "source": "p.7"
+  },
+  {
+    "id": "ch01-014",
+    "set": "ch01",
+    "section": "1.5.1",
+    "topic": "Organizational context",
+    "difficulty": 3,
+    "stem": "A business contracts an external supplier to deliver the project's products. Who is the customer in PRINCE2 terms?",
+    "answer": "The business, because there is a commercial relationship between the business and the supplier",
+    "distractors": [
+      "The organization that will use the products to gain the expected benefits",
+      "The organization that provides the expertise, people and resources to deliver the products",
+      "The organization that provides the project mandate and governs the project",
+      "The end users of the products within the commissioning organization",
+      "Whichever party the contract happens to name as the customer",
+      "The programme or portfolio to which the project reports"
+    ],
+    "explanation": "The manual reserves the word customer for the commercial relationship: where the business and a supplier have one, the business is regarded as the customer. The organization that will use the products to gain the benefits is the user, which may be internal or external to the business.",
+    "source": "p.8"
+  },
+  {
+    "id": "ch01-015",
+    "set": "ch01",
+    "section": "1.5.2",
+    "topic": "Commercial context",
+    "difficulty": 2,
+    "stem": "Which statement about commercial relationships in projects is correct?",
+    "answer": "There may be several customers and several suppliers, each with its own business reasons for undertaking the project",
+    "distractors": [
+      "A project may have only one customer and one supplier organization",
+      "The supplier is always an internal department of the business that commissions the project",
+      "The business stops being the customer once a prime contractor is appointed",
+      "Subcontractors sit outside the project's commercial relationships",
+      "The contract replaces the business case as the justification for the project",
+      "Commercial relationships matter only where the supplier is external to the business"
+    ],
+    "explanation": "Rather than a simple relationship between two organizations, a project may involve multiple organizations covered by multiple contracts, with a single customer and prime contractor or several customers and suppliers, each with its own reasons for taking part. The contract describes how the parties collaborate, and the rights and duties it creates must be reflected in how the project is managed.",
+    "source": "p.9"
+  },
+  {
+    "id": "ch01-016",
+    "set": "ch01",
+    "section": "1.5.3",
+    "topic": "Delivery method",
+    "difficulty": 2,
+    "stem": "A project builds its technical infrastructure in sequence, then develops the user-facing portal iteratively. Which delivery method does this describe?",
+    "answer": "A hybrid approach",
+    "distractors": [
+      "A linear-sequential approach",
+      "An iterative-incremental approach",
+      "A programme approach",
+      "A commercial approach",
+      "A product-based approach",
+      "A stage-by-stage approach"
+    ],
+    "explanation": "A hybrid approach has some elements following a linear-sequential method and others an iterative-incremental one, which is the infrastructure-then-portal combination the manual describes. Using a single method for the whole project would be either linear-sequential or iterative-incremental.",
+    "source": "p.10"
+  },
+  {
+    "id": "ch01-017",
+    "set": "ch01",
+    "section": "1.5.4",
+    "topic": "Sustainability",
+    "difficulty": 1,
+    "stem": "Unless the manual says otherwise, what does it mean by sustainability?",
+    "answer": "One, some or all of the 17 sustainable development goals defined by the United Nations",
+    "distractors": [
+      "The environmental impact of the project work only",
+      "The whole life cost and operational resilience of the delivered products",
+      "The business's legal environmental and social obligations",
+      "The sustainability responsibilities assigned to project roles",
+      "A single sustainability target agreed with the project board",
+      "The benefits set out in the business case over the life of the products"
+    ],
+    "explanation": "The manual accepts that sustainability means different things to different organizations - environmental impact, whole life cost, resilience in operations - but states that, unless otherwise specified, it refers to one, some or all of the United Nations' 17 sustainable development goals. Sustainability is also one of the seven performance targets.",
+    "source": "p.10"
+  },
+  {
+    "id": "ch01-018",
+    "set": "ch01",
+    "section": "1.5.5",
+    "topic": "Scale",
+    "difficulty": 3,
+    "stem": "What does the manual say about the perceived scale of a project?",
+    "answer": "It is relative to the organization, so it is more helpful to think in terms of simple and complex than small and large",
+    "distractors": [
+      "It is determined by the number of stages in the project plan",
+      "It is measured by the size of the project budget and team",
+      "It is fixed by the programme or portfolio that owns the project",
+      "It is judged by how many performance targets the project sets",
+      "It is defined by the delivery method the project adopts",
+      "It is set by the project board when it approves the project mandate"
+    ],
+    "explanation": "A small project in a large multinational could be bigger than a large project in a small organization, which is why the manual prefers simple and complex. Scale is generally a matter of how the business perceives the risk and importance of the project relative to its business as usual operations.",
+    "source": "p.11"
+  },
+  {
+    "id": "ch01-019",
+    "set": "ch01",
+    "section": "1.6",
+    "topic": "Benefits of PRINCE2",
+    "difficulty": 2,
+    "stem": "Which benefit of PRINCE2 keeps participants focused on the viability of the project in relation to its business case objectives, rather than treating completion as an end in itself?",
+    "answer": "Outcome-focused",
+    "distractors": [
+      "Proven",
+      "Universal",
+      "Flexible",
+      "Common language and concepts",
+      "Increased organizational maturity",
+      "Part of an integrated suite of methods"
+    ],
+    "explanation": "The outcome-focused benefit keeps attention on the viability of the project against its business case objectives and ensures stakeholders such as sponsors and resource providers are properly represented in planning and decision-making. 'Proven' refers to the method's established practice and governance, not to this focus.",
+    "source": "p.12"
+  },
+  {
+    "id": "ch01-020",
+    "set": "ch01",
+    "section": "1.7",
+    "topic": "Example scenarios",
+    "difficulty": 2,
+    "stem": "Which of the four example scenarios features a project run in an organization with very low project management maturity and no standard processes or templates?",
+    "answer": "NowByou",
+    "distractors": [
+      "Data Knowledge",
+      "Louistown City Council",
+      "Findef",
+      "LouisShopping",
+      "FindefTwo"
+    ],
+    "explanation": "NowByou, the not-for-profit running a six-month anti-discrimination campaign, has very low project management maturity and no standardized processes or templates, so it brings in an experienced project manager to develop the documentation and coach the sponsor and project manager. Data Knowledge and Louistown City Council both work within established frameworks.",
+    "source": "p.18"
+  }
+]
