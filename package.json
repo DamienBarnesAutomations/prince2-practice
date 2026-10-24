@@ -1,0 +1,9 @@
+{
+  "name": "prince2-practice",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial PRINCE2 7 Foundation practice app",
+  "scripts": {
+    "test": "node --test"
+  }
+}

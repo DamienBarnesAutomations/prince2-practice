@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "edition": "PRINCE2 7",
+  "total": 57,
+  "sets": [
+    {
+      "id": "ch02",
+      "order": 2,
+      "kind": "chapter",
+      "title": "Principles",
+      "file": "bank/ch02.json",
+      "count": 57
+    }
+  ]
+}

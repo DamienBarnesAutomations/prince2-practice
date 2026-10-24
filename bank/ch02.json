@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "ch02-001",
+    "set": "ch02",
+    "section": "2",
+    "topic": "The principles",
+    "difficulty": 1,
+    "stem": "Which statement best describes what the PRINCE2 principles are?",
+    "answer": "Guiding obligations that determine whether a project is genuinely being managed using PRINCE2",
+    "distractors": [
+      "Mandatory activities that must be performed in the sequence set out by the seven processes",
+      "Recommended techniques that the project manager may replace with an alternative approach",
+      "Tolerance thresholds that the project board sets for each stage of the project",
+      "Governance checkpoints at which the project board decides whether to continue the project",
+      "Tailoring options that the project manager selects during the initiation stage",
+      "Entry criteria that must be met before the project board will authorise the project"
+    ],
+    "explanation": "The manual defines the principles as guiding obligations: they determine whether the project is genuinely being managed using PRINCE2, and they ensure effective application and tailoring. They are not activities, techniques, tolerances or checkpoints — those belong to the processes, practices and management products.",
+    "source": "p.19"
+  },
+  {
+    "id": "ch02-002",
+    "set": "ch02",
+    "section": "2",
+    "topic": "The principles",
+    "difficulty": 2,
+    "stem": "The manual states that PRINCE2 is suitable for every project. Which list names the factors it says are irrelevant to that suitability?",
+    "answer": "Type, size, complexity, importance, level of risk and delivery method",
+    "distractors": [
+      "Sector, budget, geography, team size and contractual model",
+      "Culture, maturity, governance structure, tooling and reporting lines",
+      "Duration, resource availability, supplier capability and technology stack",
+      "Complexity, commercial terms, regulatory regime and stakeholder count",
+      "Scale, sensitivity, funding source and alignment to a programme",
+      "Delivery method, sector, geography, team capability and commercial relationship"
+    ],
+    "explanation": "The text reads: 'PRINCE2 is suitable for every project, regardless of type, size, complexity, importance, level of risk, or delivery method (linear-sequential, iterative-incremental, or hybrid).' Sector and geography are things the method can accommodate, not the qualifiers the manual lists.",
+    "source": "p.19"
+  },
+  {
+    "id": "ch02-003",
+    "set": "ch02",
+    "section": "2",
+    "topic": "Apply and tailor",
+    "difficulty": 3,
+    "stem": "Figure 2.1 treats applying the method and tailoring the method as distinct. Which action is an example of tailoring?",
+    "answer": "Replacing a PRINCE2 technique with an alternative procedure",
+    "distractors": [
+      "Assigning people to the project board roles",
+      "Deciding how many stages the project will have",
+      "Setting tolerances for a stage plan",
+      "Deciding how many teams and work packages to use",
+      "Choosing which supporting techniques the project will adopt",
+      "Recording the project-specific arrangements in the project plan"
+    ],
+    "explanation": "Figure 2.1 separates the two. Applying means using the method: assigning roles, the number of stages, the number of teams and work packages, setting tolerances, choice of supporting techniques. Tailoring means changing the method — for example using alternative terminology or replacing a PRINCE2 technique. Choosing a supporting technique is still applying it.",
+    "source": "p.20"
+  },
+  {
+    "id": "ch02-004",
+    "set": "ch02",
+    "section": "2",
+    "topic": "Apply and tailor",
+    "difficulty": 2,
+    "stem": "Where are the project-specific arrangements for how PRINCE2 is applied and tailored documented?",
+    "answer": "In the project initiation documentation, project plan, stage plans and team plans",
+    "distractors": [
+      "In the business case, risk register, quality register and issue register",
+      "In the project brief, project mandate, end stage report and lessons log",
+      "In the risk management approach, quality management approach and change control approach",
+      "In the project product description, product breakdown structure and product flow diagram",
+      "In the communication management approach, highlight reports and checkpoint reports",
+      "In the programme's governance baseline and the design authority's terms of reference"
+    ],
+    "explanation": "Figure 2.1 shows the project-specific arrangements documented in the project initiation documentation, project plan, stage plans and team plans. The four management approaches — including risk, quality and change control — sit inside the project initiation documentation rather than replacing it.",
+    "source": "p.20"
+  },
+  {
+    "id": "ch02-005",
+    "set": "ch02",
+    "section": "2",
+    "topic": "The principles",
+    "difficulty": 2,
+    "stem": "According to the manual, what establishes that PRINCE2 is being used effectively on a project?",
+    "answer": "That the seven principles are being followed",
+    "distractors": [
+      "That all seven processes are performed in sequence",
+      "That every management product in the method is produced",
+      "That the project board meets at each stage boundary",
+      "That tolerances have been set at every management level",
+      "That the method has been tailored by the project manager",
+      "That the project follows a linear-sequential delivery method"
+    ],
+    "explanation": "'So long as the principles are followed, PRINCE2 is being used effectively.' Tailoring is expected, and neither the full set of processes nor the full set of management products is compulsory in every project.",
+    "source": "p.20"
+  },
+  {
+    "id": "ch02-006",
+    "set": "ch02",
+    "section": "2",
+    "topic": "Apply and tailor",
+    "difficulty": 2,
+    "exhaustive": true,
+    "stem": "Figure 2.1 groups the contexts that shape how PRINCE2 is applied. Which of the following is NOT one of those contexts?",
+    "answer": "The personal career objectives of the project manager",
+    "distractors": [
+      "The delivery method, including lifecycle model and terminology",
+      "The organizational context, including sector, capability and culture",
+      "The commercial context, including contracts and relationships"
+    ],
+    "explanation": "Figure 2.1 lists organizational context, delivery method, project scale, sustainability context, commercial context and management approaches. The personal objectives of the project manager are not a tailoring context in the method.",
+    "source": "p.20"
+  },
+  {
+    "id": "ch02-007",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 1,
+    "stem": "What does the principle of continued business justification require when a project can no longer be justified?",
+    "answer": "The project should be stopped and brought to a controlled close",
+    "distractors": [
+      "The business case should be re-baselined and the project continued",
+      "The project should be paused until the benefits are re-quantified",
+      "The next stage should be withheld while the sponsor re-commits funding",
+      "The project should be transferred to the programme for continuation",
+      "The senior user should commission a benefits review before work resumes",
+      "The project board should reduce scope until the case is viable again"
+    ],
+    "explanation": "'If continuing with the project can no longer be justified, then it should be stopped and end in a controlled way.' The manual adds that cancelling in these circumstances is a positive contribution to the business, because funds and resources can be reinvested.",
+    "source": "p.21"
+  },
+  {
+    "id": "ch02-008",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 2,
+    "stem": "Why does a compulsory project, driven by legislation or regulation, still need business justification?",
+    "answer": "To show that the chosen approach represents the best value for money",
+    "distractors": [
+      "To demonstrate to the regulator that the project has been formally initiated",
+      "To confirm that the compliance benefits will exceed the cost of delivery",
+      "To justify the appointment and cost of the project board",
+      "To set tolerances for the scope that the legislation mandates",
+      "To prove that no alternative delivery method was available",
+      "To record lessons that later compulsory projects can reuse"
+    ],
+    "explanation": "The manual is specific: compulsory projects 'still require justification for the chosen approach to ensure it represents the best value for money'. The obligation to comply is not in question; how it is met is.",
+    "source": "p.22"
+  },
+  {
+    "id": "ch02-009",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 2,
+    "stem": "In a commercial project, what may legitimately form part of the supplier's business justification?",
+    "answer": "Non-financial benefits such as a customer reference or experience of new technology",
+    "distractors": [
+      "The customer's projected increase in market share",
+      "The regulatory compliance obligations carried by the customer",
+      "The savings the customer expects from reduced operating costs",
+      "The revenue the customer forecasts from the new product",
+      "The programme benefits that the customer's sponsor has committed to",
+      "The contractual penalty the customer avoids by proceeding"
+    ],
+    "explanation": "The supplier's justification 'might include non-financial benefits, such as gaining an impressive customer reference for promotional purposes or building experience in applying new technologies'. Every other option in this list is a benefit to the customer, not the supplier.",
+    "source": "p.22"
+  },
+  {
+    "id": "ch02-010",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 3,
+    "stem": "In a co-owned project, such as several agencies jointly developing an IT system, what should happen if one party loses its business justification?",
+    "answer": "That party should consider ending its participation in the project",
+    "distractors": [
+      "The project should be stopped for all parties until a new case is agreed",
+      "The remaining parties should absorb that party's share of the costs",
+      "The project board should re-allocate that party's roles and responsibilities",
+      "That party must continue until the current stage boundary is reached",
+      "The programme board should rule on whether the party may withdraw",
+      "That party should transfer its interest to the senior supplier role"
+    ],
+    "explanation": "Each investing party keeps monitoring its own business justification. If justification is lost for one or more parties, those parties 'should consider ending their participation', with contractual obligations informing the decision and the approach to premature closure.",
+    "source": "p.22"
+  },
+  {
+    "id": "ch02-011",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 2,
+    "stem": "How does the manual characterise the cancellation of a project that has lost its justification?",
+    "answer": "As a positive contribution to the business",
+    "distractors": [
+      "As a failure of the project board's assurance function",
+      "As an exception that must be reported to corporate management",
+      "As a premature closure requiring a formal lessons report",
+      "As a decision that only the project sponsor may authorise",
+      "As an outcome to be avoided unless tolerances are breached",
+      "As a change to the business case requiring programme approval"
+    ],
+    "explanation": "'Cancelling a project in these circumstances is a positive contribution to the business as the project's funds and resources can be reinvested in other more worthwhile projects.'",
+    "source": "p.22"
+  },
+  {
+    "id": "ch02-012",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 2,
+    "stem": "After a project has been completed, what does the manual say the review should establish?",
+    "answer": "Whether benefits have materialised sufficiently to warrant the final investment",
+    "distractors": [
+      "Whether the project was delivered within its original tolerances",
+      "Whether the project board authorised each stage correctly",
+      "Whether the supplier met its contractual obligations",
+      "Whether the project followed the approved tailoring decisions",
+      "Whether the management products were archived correctly",
+      "Whether the delivery method was appropriate to the project"
+    ],
+    "explanation": "'After the project is completed, the project should be reviewed to evaluate if the benefits have materialized sufficiently to warrant the final investment and what lessons can be learned from the project.'",
+    "source": "p.22"
+  },
+  {
+    "id": "ch02-013",
+    "set": "ch02",
+    "section": "2.1",
+    "topic": "Continued business justification",
+    "difficulty": 2,
+    "stem": "What does the manual identify as a consequence of poor alignment between projects and business strategy?",
+    "answer": "A portfolio containing projects with inconsistent or duplicated objectives",
+    "distractors": [
+      "A portfolio containing projects that exceed their cost tolerances",
+      "An organization that cannot demonstrate regulatory compliance",
+      "A programme that cannot appoint a business change manager",
+      "An organization that loses its capability to tailor the method",
+      "A portfolio that cannot produce a benefits management approach",
+      "A programme whose projects all use the same delivery method"
+    ],
+    "explanation": "'Poor alignment with business strategy can also result in organizations having a portfolio of projects that have inconsistent or duplicated objectives.'",
+    "source": "p.21"
+  },
+  {
+    "id": "ch02-014",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 1,
+    "stem": "What distinction does the manual draw between 'lessons identified' and 'lessons learned'?",
+    "answer": "Lessons that are not used to improve the project or future projects are only identified",
+    "distractors": [
+      "Lessons that are not recorded in the lessons log are only identified",
+      "Lessons that are raised by the project board are only identified",
+      "Lessons that are not reviewed at a stage boundary are only identified",
+      "Lessons that are not shared with the programme are only identified",
+      "Lessons that are captured at project closure are only identified",
+      "Lessons that relate to specialist work are only identified"
+    ],
+    "explanation": "'Lessons that are not used to improve the project, or future projects, are only lessons identified and not actually lessons learned.' The distinction is application, not recording, timing or ownership.",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-015",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 2,
+    "stem": "At what point in the lifecycle does the manual say lessons should be included in relevant reports and reviews and at the end of each stage?",
+    "answer": "Continuously, as the project progresses",
+    "distractors": [
+      "When the project is being started",
+      "When the project is being closed",
+      "At the end of the initiation stage only",
+      "At each project board authorisation of a stage",
+      "When a tolerance is forecast to be exceeded",
+      "When the lessons log is baselined at initiation"
+    ],
+    "explanation": "The manual sets out three points. When starting: review previous or similar projects. As the project progresses: lessons should be included in relevant reports and reviews and at the end of each stage. As the project closes: share the insights gained.",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-016",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 1,
+    "stem": "Which agile practice does the manual cite as an example of gathering lessons?",
+    "answer": "The retrospective technique",
+    "distractors": [
+      "The daily stand-up",
+      "The burn-down chart",
+      "The information radiator",
+      "The user story backlog",
+      "The timebox review",
+      "The definition of done"
+    ],
+    "explanation": "'The retrospective technique is an example of gathering lessons in agile approach.'",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-017",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 2,
+    "stem": "According to the manual, what is the foundation for learning?",
+    "answer": "Data and the ability to gain insights from it",
+    "distractors": [
+      "The lessons log and the lessons report",
+      "Senior management sponsorship and visible support",
+      "A culture in which mistakes are not penalised",
+      "Regular retrospectives at the end of each stage",
+      "Access to external benchmarking and prior projects",
+      "Documented processes and a quality management approach"
+    ],
+    "explanation": "'The foundation for learning is data and the ability to gain insights from it.' Projects must be clear about what data is required, how it will be analysed, and what will happen to it during the project and when it closes.",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-018",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 2,
+    "stem": "Who does the manual say is responsible for identifying lessons on a project?",
+    "answer": "Everyone involved with the project",
+    "distractors": [
+      "The project manager, as part of controlling a stage",
+      "The project board, through its assurance responsibilities",
+      "The project support role, through the lessons log",
+      "The senior user, on behalf of the business interest",
+      "The programme office, where one is in place",
+      "The team manager, at the end of each work package"
+    ],
+    "explanation": "'It is the responsibility of everyone involved with the project to identify lessons rather than wait for someone else to do so.'",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-019",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 3,
+    "stem": "When is it described as even more important for a project team to learn from others?",
+    "answer": "When the project is a first for the people concerned or contains novel content",
+    "distractors": [
+      "When the project has a fixed-price commercial contract",
+      "When the project is large and spread across several locations",
+      "When the project follows an iterative-incremental method",
+      "When the project has a short duration and a fixed deadline",
+      "When the project is part of a wider programme of change",
+      "When the project uses a supplier from outside the business"
+    ],
+    "explanation": "'If the project is a first for the people within the business or if there is any content which is new or novel, then it is even more important to learn from others.'",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-020",
+    "set": "ch02",
+    "section": "2.2",
+    "topic": "Learn from experience",
+    "difficulty": 2,
+    "stem": "How does the manual suggest lessons are captured in a small project with one co-located team?",
+    "answer": "By discussing them regularly in team meetings",
+    "distractors": [
+      "By commissioning explanatory videos and presentation kits",
+      "By running pilots, simulations and go-live rehearsals",
+      "By holding tailored workshops for each subgroup",
+      "By arranging field trips to comparable projects",
+      "By appointing a lessons owner within the project office",
+      "By reviewing the lessons log at every stage boundary"
+    ],
+    "explanation": "In a smaller project with one co-located team, lessons 'can be discussed on a regular basis in team meetings', so learning happens on the job, potentially daily. The other options are the large, multi-location approaches the manual lists.",
+    "source": "p.23"
+  },
+  {
+    "id": "ch02-021",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 1,
+    "stem": "Which three primary stakeholder interests must be represented in the project management team?",
+    "answer": "Business, user and supplier",
+    "distractors": [
+      "Business, customer and contractor",
+      "Sponsor, user and delivery team",
+      "Owner, operator and regulator",
+      "Customer, supplier and programme",
+      "Business, programme and project board",
+      "User, supplier and assurance"
+    ],
+    "explanation": "'All projects have the following primary stakeholders: the business, users, and suppliers. All three stakeholder interests need to be represented effectively in the project management team; this is reflected in the design of a PRINCE2 project board.'",
+    "source": "p.24"
+  },
+  {
+    "id": "ch02-022",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 2,
+    "stem": "The principle of defining roles, responsibilities and relationships is tied to which integrated element of PRINCE2?",
+    "answer": "People",
+    "distractors": [
+      "Principles",
+      "Practices",
+      "Processes",
+      "Project context",
+      "Sustainability",
+      "Tailoring"
+    ],
+    "explanation": "'This is why People is one of the five integrated elements of PRINCE2.' The five integrated elements are principles, people, practices, processes and project context.",
+    "source": "p.24"
+  },
+  {
+    "id": "ch02-023",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 3,
+    "stem": "In a programme context, what does the manual give as an example of the programme's business change manager taking a project role?",
+    "answer": "Undertaking the project executive or senior user role on the project board",
+    "distractors": [
+      "Undertaking the project manager role during initiation",
+      "Undertaking the project assurance role for the business",
+      "Undertaking the senior supplier role on the project board",
+      "Undertaking the team manager role for each work package",
+      "Undertaking the change authority role for project changes",
+      "Undertaking the project support role within the project office"
+    ],
+    "explanation": "'The programme's business change manager (BCM) may undertake the project executive or senior user role on the project board to help align the project with the programme.'",
+    "source": "p.24"
+  },
+  {
+    "id": "ch02-024",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 3,
+    "stem": "Which programme body does the manual say could be given decision-making responsibility for authorising changes at project level?",
+    "answer": "The programme's design authority",
+    "distractors": [
+      "The programme's business change manager",
+      "The programme management office",
+      "The programme board's senior responsible owner",
+      "The programme's assurance function",
+      "The programme's benefits realisation team",
+      "The programme's change control board"
+    ],
+    "explanation": "'The PMO could provide project support, or the programme's design authority could be given decision-making responsibility for authorizing changes at the project level.'",
+    "source": "p.24"
+  },
+  {
+    "id": "ch02-025",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 2,
+    "stem": "For projects using agile development methods, how does the manual say the team manager role may be handled?",
+    "answer": "It may be held collectively by the development team",
+    "distractors": [
+      "It may be merged with the project manager role",
+      "It may be delegated to the senior supplier",
+      "It may be rotated at each sprint review",
+      "It may be performed by the project support role",
+      "It may be omitted where work packages are not used",
+      "It may be shared between the business and user interests"
+    ],
+    "explanation": "'For projects that have development teams using agile development methods, the PRINCE2 team manager role may be held collectively by the development team.'",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-026",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 2,
+    "stem": "What does the manual say about the assignment of roles and responsibilities through the life of a project?",
+    "answer": "It must be clear, unambiguous and accepted",
+    "distractors": [
+      "It must be documented, approved and baselined",
+      "It must be delegated, reviewed and re-authorised",
+      "It must be recorded, audited and reported",
+      "It must be agreed, signed off and published",
+      "It must be allocated, monitored and evaluated",
+      "It must be defined, assigned and assured"
+    ],
+    "explanation": "'The assignment of roles to individuals throughout the life of the project and their responsibilities must be clear, unambiguous, and accepted.'",
+    "source": "p.24"
+  },
+  {
+    "id": "ch02-027",
+    "set": "ch02",
+    "section": "2.3",
+    "topic": "Roles and relationships",
+    "difficulty": 3,
+    "stem": "What determines how focused or how broad a project's stakeholder engagement should be?",
+    "answer": "The number of stakeholders and the amount of change the project creates for them",
+    "distractors": [
+      "The size of the project budget and the number of stages",
+      "The delivery method and the maturity of the project board",
+      "The level of risk and the length of the project",
+      "The number of teams and the number of work packages",
+      "The regulatory context and the commercial arrangements",
+      "The capability of the supplier and the availability of users"
+    ],
+    "explanation": "A project with few stakeholders and a high degree of impact will engage in a focused, individual way. A project with many stakeholders and a wide range of impacts will use a mix of personalised engagement and general engagement through surveys and broadcast channels such as email.",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-028",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 1,
+    "stem": "Which statement defines a tolerance in PRINCE2?",
+    "answer": "The permissible deviation above and below the plan's target without escalating to the next management level",
+    "distractors": [
+      "The range of variance the project board will accept before cancelling the project",
+      "The amount of contingency held in the budget to cover identified risks",
+      "The threshold at which a risk must be escalated to the programme board",
+      "The agreed limit on the number of changes a stage may absorb",
+      "The period between progress reports during which the project manager may act freely",
+      "The variance permitted between the forecast and actual cost of a work package"
+    ],
+    "explanation": "'The permissible deviation above and below the plan's target for benefits, cost, time, quality, scope, sustainability, and risk without needing to escalate the deviation to the next level of management.' Tolerance applies at project, stage and team level.",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-029",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 1,
+    "stem": "Which list names the seven aspects of performance for which tolerances are defined?",
+    "answer": "Benefits, cost, time, quality, scope, sustainability and risk",
+    "distractors": [
+      "Benefits, cost, time, quality, scope, risk and change",
+      "Cost, time, quality, scope, risk, sustainability and resources",
+      "Benefits, cost, time, quality, scope, sustainability and assurance",
+      "Cost, time, quality, scope, risk, change and benefits",
+      "Benefits, budget, schedule, quality, scope, risk and assurance"
+    ],
+    "explanation": "The seven aspects are benefits, cost, time, quality, scope, sustainability and risk. Change and assurance are part of the wider method but are not tolerance aspects.",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-030",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 1,
+    "stem": "At which levels does PRINCE2 apply tolerance?",
+    "answer": "Project, stage and team",
+    "distractors": [
+      "Programme, project and stage",
+      "Corporate, programme and project",
+      "Project, stage and work package",
+      "Project board, project manager and team manager",
+      "Project, delivery and operational",
+      "Stage, work package and product"
+    ],
+    "explanation": "'Tolerance is applied at project, stage, and team levels.' The other answers name management layers or planning units rather than the three levels at which tolerance is defined.",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-031",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 3,
+    "stem": "On an iterative-incremental project using defined timeboxes, which tolerance pattern does the manual describe?",
+    "answer": "Time and cost are fixed tightly and scope is permitted to vary",
+    "distractors": [
+      "Scope is fixed tightly and time and cost are permitted to vary",
+      "Quality is fixed tightly and benefits are permitted to vary",
+      "Cost is fixed tightly and time and scope are permitted to vary",
+      "Benefits are fixed tightly and quality and scope are permitted to vary",
+      "Time is fixed tightly and cost and quality are permitted to vary",
+      "Scope and quality are fixed tightly and time is permitted to vary"
+    ],
+    "explanation": "'A project using an iterative-incremental delivery method with defined timeboxes will typically fix time and cost and vary in scope. In this case, time and cost will have much tighter tolerances set than the scope.'",
+    "source": "p.26"
+  },
+  {
+    "id": "ch02-032",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 2,
+    "stem": "What is the stated benefit of managing by exception?",
+    "answer": "It reduces senior managers' time burden without removing their control",
+    "distractors": [
+      "It removes the need for the project board to authorise stages",
+      "It allows the project manager to set the project tolerances",
+      "It reduces the number of management products required",
+      "It transfers accountability for benefits to the supplier",
+      "It replaces stage boundaries with tolerance reviews",
+      "It allows exceptions to be resolved without escalation"
+    ],
+    "explanation": "'The implementation of manage by exception provides for efficient use of senior management time as it reduces senior managers' time burden without removing their control.' Decisions then get made at the right level in the organization.",
+    "source": "p.26"
+  },
+  {
+    "id": "ch02-033",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 3,
+    "stem": "Which three mechanisms does the manual say establish accountability under manage by exception?",
+    "answer": "Delegating tolerances, flagging exceptions for escalation, and assuring that exception controls work",
+    "distractors": [
+      "Setting tolerances, reporting progress and reviewing the business case",
+      "Delegating authority, producing highlight reports and auditing the project",
+      "Defining roles, agreeing work packages and signing off products",
+      "Setting tolerances, appointing assurance and closing each stage",
+      "Delegating authority, holding stage boundary reviews and managing change",
+      "Agreeing tolerances, monitoring risks and escalating issues to the board"
+    ],
+    "explanation": "The three are: delegating authority from one management level to the next by setting tolerances against the seven aspects; establishing controls so that a forecast breach is flagged as an exception and immediately escalated; and establishing an assurance mechanism so each level can be confident the exception controls are effective.",
+    "source": "p.25"
+  },
+  {
+    "id": "ch02-034",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 2,
+    "stem": "A project's scope tolerance permits all mandatory requirements to be delivered together with 60 percent or more of its could-have requirements. What does this illustrate?",
+    "answer": "A scope tolerance",
+    "distractors": [
+      "A quality tolerance",
+      "A benefits tolerance",
+      "A sustainability tolerance",
+      "A risk tolerance",
+      "A change control threshold",
+      "A requirements prioritisation rule"
+    ],
+    "explanation": "This is the manual's own scope example: all must-have mandatory requirements delivered, with 60 percent or more of should-have and could-have requirements permitted. Quality tolerance by contrast governs variation from agreed acceptance criteria.",
+    "source": "p.26"
+  },
+  {
+    "id": "ch02-035",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 3,
+    "stem": "Under a commercial arrangement, the project manager learns that procured materials will arrive late and the delay cannot be resolved within tolerance. What does the manual say should happen?",
+    "answer": "The project manager alerts the project board quickly so that it can decide and direct",
+    "distractors": [
+      "The project manager invokes the contractual remedies agreed with the supplier",
+      "The project manager re-plans the stage and reports the change at the stage boundary",
+      "The supplier escalates the delay to the senior supplier on the project board",
+      "The project board suspends the stage until the materials are delivered",
+      "The project manager records the delay as an issue and continues within tolerance",
+      "The project board re-baselines the stage plan and issues revised tolerances"
+    ],
+    "explanation": "The manual says the project manager 'will need to alert the project board quickly'. The contract may define cost remedies between customer and supplier, but the board decides what action to take and provides direction to the project manager.",
+    "source": "p.26"
+  },
+  {
+    "id": "ch02-036",
+    "set": "ch02",
+    "section": "2.4",
+    "topic": "Manage by exception",
+    "difficulty": 2,
+    "stem": "How does the manual say reviewing tolerances at the end of every stage benefits a project?",
+    "answer": "It lets the next stage's activities be adapted to a changing operating environment",
+    "distractors": [
+      "It confirms that the project board's assurance is still adequate",
+      "It allows the business case to be rewritten for the next stage",
+      "It resets the baseline so that the stage starts from zero variance",
+      "It reduces the number of exceptions escalated during the next stage",
+      "It proves that the project remains within its project tolerances",
+      "It allows the supplier to re-price the next stage's work"
+    ],
+    "explanation": "'By reviewing the tolerances at the end of every stage, the project is able to adapt and modify the next stage activities to reflect a changing operating environment.'",
+    "source": "p.26"
+  },
+  {
+    "id": "ch02-037",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 1,
+    "stem": "What is the minimum number of stages a PRINCE2 project should have?",
+    "answer": "Two: an initiation stage and one further stage",
+    "distractors": [
+      "One: a combined initiation and delivery stage",
+      "Three: initiation, delivery and closure stages",
+      "Two: a feasibility stage and a delivery stage",
+      "Three: initiation, one or more delivery stages and a final stage",
+      "Two: a directing stage and a managing stage",
+      "Four: initiation, delivery, transition and closure stages"
+    ],
+    "explanation": "'Every PRINCE2 project should have at least two stages: an initiation stage and one further stage. Many projects benefit from having more than two stages.' Closing a project is a process, not a mandatory separate stage.",
+    "source": "p.27"
+  },
+  {
+    "id": "ch02-038",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 1,
+    "stem": "Which statement defines a stage?",
+    "answer": "The section of a project that the project manager is managing on behalf of the project board at any one time",
+    "distractors": [
+      "A period of work authorised by the project board and delegated to a team manager",
+      "The period between two project board decision points as defined in the project plan",
+      "A collection of work packages delivered under a single stage plan",
+      "The part of the project covered by a single end stage report",
+      "A timeboxed increment of delivery agreed with the senior user",
+      "The part of the project for which the project board is accountable"
+    ],
+    "explanation": "The definition is deliberately about who is managing it and for whom: the section of a project that the project manager is managing on behalf of the project board at any one time.",
+    "source": "p.27"
+  },
+  {
+    "id": "ch02-039",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 3,
+    "stem": "What trade-off does the manual identify between shorter and longer stages?",
+    "answer": "Shorter stages offer more control; longer stages reduce senior management effort",
+    "distractors": [
+      "Shorter stages reduce risk; longer stages improve product quality",
+      "Shorter stages reduce cost; longer stages improve benefit realisation",
+      "Shorter stages suit agile delivery; longer stages suit linear delivery",
+      "Shorter stages increase assurance; longer stages increase tolerance",
+      "Shorter stages improve reporting; longer stages improve planning accuracy",
+      "Shorter stages reduce board involvement; longer stages increase it"
+    ],
+    "explanation": "'The size and complexity of the project (shorter stages offer more control, whereas longer stages reduce the effort for senior management).'",
+    "source": "p.27"
+  },
+  {
+    "id": "ch02-040",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 2,
+    "stem": "On what basis does the project board authorise the next stage?",
+    "answer": "Sufficient business justification and funds to continue",
+    "distractors": [
+      "Successful completion of every product in the current stage",
+      "The project manager's forecast that the stage will end within tolerance",
+      "A satisfactory end stage report and an updated risk register",
+      "Agreement of the next stage plan by the senior supplier",
+      "Confirmation that no exceptions remain open from the current stage",
+      "Evidence that the expected benefits have started to be realised"
+    ],
+    "explanation": "'The project board only authorizes the next stage if there is sufficient business justification and funds to continue. If the project no longer has a valid business case, the project board will determine whether and how to recover the project or prematurely end it.'",
+    "source": "p.27"
+  },
+  {
+    "id": "ch02-041",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 3,
+    "exhaustive": true,
+    "stem": "Which of the following is NOT one of the factors the manual lists as influencing the choice of appropriate stages?",
+    "answer": "The number of management products the project will produce",
+    "distractors": [
+      "Minimising risk exposure through the project lifecycle",
+      "The size and complexity of the project",
+      "Sector or business policies and standards"
+    ],
+    "explanation": "The listed factors are minimising risk exposure through the project lifecycle; the size and complexity of the project; significant decisions and control points, often linked to key investment, business or technical decisions; and sector or business policies and standards.",
+    "source": "p.27"
+  },
+  {
+    "id": "ch02-042",
+    "set": "ch02",
+    "section": "2.5",
+    "topic": "Manage by stages",
+    "difficulty": 3,
+    "stem": "How does the manual say PRINCE2 accommodates teams working in sprints and timeboxes?",
+    "answer": "The method can be tailored to use sprints and user stories instead of work packages and product descriptions",
+    "distractors": [
+      "Sprints replace stages, so the principle of manage by stages does not apply",
+      "Each sprint becomes a stage, authorised individually by the project board",
+      "Sprints are managed as work packages within a single delivery stage",
+      "The project manager sets sprint tolerances in place of stage tolerances",
+      "Timeboxes are recorded in the project plan as stage boundaries",
+      "User stories replace the project product description at initiation"
+    ],
+    "explanation": "'PRINCE2 can be tailored to work with sprints and user stories instead of work packages and product descriptions. The project manager will define how many sprints are required for each stage.' Stages remain; sprints sit inside them.",
+    "source": "p.28"
+  },
+  {
+    "id": "ch02-043",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 1,
+    "stem": "Which statement defines a product in PRINCE2?",
+    "answer": "An input or output, tangible or intangible, that can be described in advance, created and tested",
+    "distractors": [
+      "A deliverable agreed with the customer and handed over at project closure",
+      "Any document produced by the project management team during the lifecycle",
+      "A component of the project product described in the product breakdown structure",
+      "An output of a work package that meets its quality criteria",
+      "A tangible item that the supplier delivers under the commercial agreement",
+      "The total output of the project as defined in the project product description"
+    ],
+    "explanation": "The definition covers inputs as well as outputs, and intangible as well as tangible items: 'An input or output, whether tangible or intangible, that can be described in advance, created, and tested.'",
+    "source": "p.28"
+  },
+  {
+    "id": "ch02-044",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 1,
+    "stem": "Which list names the four types of product in PRINCE2?",
+    "answer": "Management products, specialist products, the project product and external products",
+    "distractors": [
+      "Management products, specialist products, project products and component products",
+      "Baseline products, records, reports and specialist products",
+      "Management products, technical products, business products and external products",
+      "Project products, stage products, team products and work package products",
+      "Management products, specialist products, interim products and final products",
+      "Internal products, external products, baseline products and specialist products"
+    ],
+    "explanation": "The four are management products, specialist products, the project product and external products. 'Project products' is a collective term for the specialist and management products created during the project, not a fourth type.",
+    "source": "p.28"
+  },
+  {
+    "id": "ch02-045",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 2,
+    "stem": "Which statement describes an external product?",
+    "answer": "One developed or provided outside the project's control on which the project depends",
+    "distractors": [
+      "One produced by a supplier under contract to the project",
+      "One supplied by the customer as an input to the project",
+      "One produced by a programme of which the project is part",
+      "One that the project hands over to the business at closure",
+      "One defined in the project product description but out of scope",
+      "One produced by another team within the same project"
+    ],
+    "explanation": "The manual's example is the publication of a new standard. External products sit outside the project's control, which is what distinguishes them from specialist products delivered by a supplier working under the project's direction.",
+    "source": "p.28"
+  },
+  {
+    "id": "ch02-046",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 2,
+    "stem": "How does the manual characterise the orientation PRINCE2 requires of a project?",
+    "answer": "Output-oriented rather than work-oriented",
+    "distractors": [
+      "Product-oriented rather than process-oriented",
+      "Benefit-oriented rather than output-oriented",
+      "Stage-oriented rather than activity-oriented",
+      "Risk-oriented rather than plan-oriented",
+      "Customer-oriented rather than supplier-oriented",
+      "Quality-oriented rather than cost-oriented"
+    ],
+    "explanation": "'PRINCE2 requires projects to be output-oriented rather than work-oriented. PRINCE2 calls these outputs products.' The set of agreed products defines the scope and provides the basis for planning and control.",
+    "source": "p.29"
+  },
+  {
+    "id": "ch02-047",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 3,
+    "stem": "How does focusing on products help control 'scope creep'?",
+    "answer": "Changes are agreed in terms of their impact on the project products and the business case",
+    "distractors": [
+      "Changes are refused unless the project board raises the scope tolerance",
+      "Changes are assessed against the product breakdown structure only",
+      "Changes are logged in the issue register before any work is done",
+      "Changes are limited to one per stage by the change authority",
+      "Changes are priced by the supplier before the board authorises them",
+      "Changes are reviewed at each stage boundary against the project plan"
+    ],
+    "explanation": "The manual lists this as one of four benefits of focusing on products: it 'helps manage uncontrolled change (scope creep) by ensuring that all changes are agreed in terms of how they will impact the project products and the business case for the project'.",
+    "source": "p.29"
+  },
+  {
+    "id": "ch02-048",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 2,
+    "stem": "Which of the following is a benefit the manual gives for focusing on products?",
+    "answer": "It reduces the risk of user dissatisfaction and acceptance disputes",
+    "distractors": [
+      "It reduces the number of management products the project needs",
+      "It removes the need for a product breakdown structure",
+      "It allows the project board to set fewer tolerances",
+      "It shortens the initiation stage by removing product descriptions",
+      "It transfers acceptance of products from the user to the supplier",
+      "It allows specialist products to be defined after delivery starts"
+    ],
+    "explanation": "The four benefits are: only work that directly contributes to a product is performed; scope creep is controlled; the risk of user dissatisfaction and acceptance disputes is reduced by agreeing at the start what will be produced; and pausing or closing a project is easier, as is controlled resumption.",
+    "source": "p.29"
+  },
+  {
+    "id": "ch02-049",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 3,
+    "stem": "What happens as the project product description is subdivided further into sub-products?",
+    "answer": "It becomes harder for the project board to decide whether product descriptions are correct",
+    "distractors": [
+      "It becomes easier for the project board to assure the specialist work",
+      "It becomes necessary to re-baseline the project product description",
+      "It becomes the responsibility of the senior supplier to approve them",
+      "It becomes impossible to produce a product breakdown structure",
+      "It becomes a matter for the programme's design authority to decide",
+      "It becomes cheaper to estimate the effort needed for each product"
+    ],
+    "explanation": "'The further the products are subdivided, the harder it will be for the project board to be able to decide whether product descriptions are correct. This is because the content becomes more technical and will require specialist knowledge to understand.' The supplier defines products at each level; the business establishes project assurance with the knowledge to assure the specification.",
+    "source": "p.29"
+  },
+  {
+    "id": "ch02-050",
+    "set": "ch02",
+    "section": "2.6",
+    "topic": "Focus on products",
+    "difficulty": 2,
+    "stem": "For an iterative-incremental project, what may product descriptions take the form of?",
+    "answer": "Requirements, features, epics and user stories",
+    "distractors": [
+      "Work packages, stage plans and team plans",
+      "Product breakdown structures and product flow diagrams",
+      "Project mandates, project briefs and business cases",
+      "Quality criteria, quality methods and quality registers",
+      "Checkpoint reports, highlight reports and end stage reports",
+      "Tolerances, exceptions and change proposals"
+    ],
+    "explanation": "'Product descriptions for projects using an iterative-incremental delivery method, such as agile, may be in the form of requirements, features, epics, and user stories.'",
+    "source": "p.29"
+  },
+  {
+    "id": "ch02-051",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 2,
+    "stem": "Who is responsible for tailoring PRINCE2, and who is accountable for approving it?",
+    "answer": "The project manager is responsible; the project board is accountable",
+    "distractors": [
+      "The project board is responsible; the programme is accountable",
+      "The project manager is responsible; project assurance is accountable",
+      "The project support role is responsible; the project manager is accountable",
+      "The senior supplier is responsible; the project board is accountable",
+      "The programme office is responsible; the project board is accountable",
+      "The project manager is responsible; the executive is accountable"
+    ],
+    "explanation": "'The project manager is responsible for tailoring and will make recommendations having consulted relevant lessons and standards. The project board is accountable and needs to approve the recommendations at the end of the initiation stage and every time there is a proposed change to the management approaches.'",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-052",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 2,
+    "stem": "What does the manual say happens when PRINCE2 is not tailored?",
+    "answer": "The project falls into inattentive management or 'heroic' management",
+    "distractors": [
+      "The project is unlikely to pass its assurance reviews",
+      "The project board is unable to authorise stages",
+      "The project manager loses authority to set tolerances",
+      "The project accumulates exceptions at each stage boundary",
+      "The project reverts to a linear-sequential delivery method",
+      "The project cannot produce a project initiation documentation"
+    ],
+    "explanation": "Untailored, the project management effort 'would [not be] appropriate for the needs of the project', leading to 'inattentive project management at one extreme, where PRINCE2 is followed without question, or heroic project management at the other extreme, where PRINCE2 is not really followed at all'.",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-053",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 2,
+    "stem": "Which pair of statements captures the manual's warning about what tailoring should preserve?",
+    "answer": "Information but not necessarily documents; decisions but not necessarily meetings",
+    "distractors": [
+      "Products but not necessarily plans; approvals but not necessarily boards",
+      "Principles but not necessarily processes; practices but not necessarily products",
+      "Reports but not necessarily reviews; tolerances but not necessarily baselines",
+      "Roles but not necessarily people; assurance but not necessarily audits",
+      "Lessons but not necessarily logs; benefits but not necessarily cases",
+      "Stages but not necessarily sprints; controls but not necessarily reports"
+    ],
+    "explanation": "'When tailoring PRINCE2, it is important to remember that effective project management requires information (but not necessarily documents) and decisions (but not necessarily meetings).'",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-054",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 2,
+    "stem": "What are the two purposes of tailoring given in the manual?",
+    "answer": "Making the method appropriate to the project, and making controls appropriate to its scale, complexity and risk",
+    "distractors": [
+      "Reducing the number of management products, and shortening the project lifecycle",
+      "Aligning the method to programme governance, and reducing board involvement",
+      "Making the project plan realistic, and making the business case achievable",
+      "Matching the supplier's delivery method, and matching the customer's quality system",
+      "Removing unnecessary processes, and removing unnecessary roles",
+      "Increasing the frequency of reporting, and increasing the level of assurance"
+    ],
+    "explanation": "The two purposes are: that the project management method used is appropriate to the project, for example aligning with governing business processes such as HR, finance and procurement; and that project controls are appropriate to scale, complexity, importance, delivery method, team capability and risk, for example the frequency and formality of reports and reviews.",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-055",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 3,
+    "stem": "When does the project board need to approve a change to the project's management approaches?",
+    "answer": "At the end of the initiation stage, and every time a change is proposed",
+    "distractors": [
+      "At the end of each stage boundary, when the stage plan is approved",
+      "Only when the change would alter the project's tolerances",
+      "Only when the change requires additional funding or resources",
+      "At the first project board meeting following the change",
+      "When the change is raised as an exception in a highlight report",
+      "Whenever the project manager judges the change to be significant"
+    ],
+    "explanation": "The board approves the project manager's tailoring recommendations 'at the end of the initiation stage and every time there is a proposed change to the management approaches'. The bar is a proposed change, not its size or cost.",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-056",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 3,
+    "exhaustive": true,
+    "stem": "A supplier wants to use its own agile product development framework. Which tailoring action does the manual NOT suggest in this situation?",
+    "answer": "Substituting the supplier's sprint review for the stage boundary",
+    "distractors": [
+      "Mapping and defining terminology between PRINCE2 and the supplier's approach",
+      "Adding customer and supplier subject matter expert roles to the agile team",
+      "Adding a coach to guide the teams in combining the two approaches"
+    ],
+    "explanation": "The manual suggests mapping terminology, adding customer and supplier subject matter experts, adding a coach, collaborating through agile ways of working such as daily stand-ups and information radiators, and defining procedures for sprints or work packages and for product descriptions or user stories. Stage boundaries are retained.",
+    "source": "p.30"
+  },
+  {
+    "id": "ch02-057",
+    "set": "ch02",
+    "section": "2.7",
+    "topic": "Tailor to suit the project",
+    "difficulty": 2,
+    "stem": "Where is the agreed tailoring captured, and what must it remain consistent with?",
+    "answer": "The project initiation documentation, consistent with the seven principles",
+    "distractors": [
+      "The project plan, consistent with the project tolerances",
+      "The business case, consistent with the expected benefits",
+      "The project brief, consistent with the project mandate",
+      "The management approaches, consistent with the programme's standards",
+      "The end stage report, consistent with the lessons log",
+      "The project product description, consistent with the quality management approach"
+    ],
+    "explanation": "'How PRINCE2 will be applied and tailored for the particular project is captured in the project initiation documentation... Care should be taken that the proposed tailoring is consistent with PRINCE2's seven principles and that the resultant method retains its integrity.'",
+    "source": "p.30"
+  }
+]
