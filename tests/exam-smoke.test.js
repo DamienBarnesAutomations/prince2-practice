@@ -89,6 +89,11 @@ async function click(action, data = {}) {
   await flush();
 }
 
+// ch05 is absent when the app boots (it preloads every set), so the first test can
+// watch a load fail and then succeed on retry.
+const heldCh05 = bank['bank/ch05.json'];
+delete bank['bank/ch05.json'];
+
 await import('../app.js');
 for (let attempt = 0; attempt < 500; attempt += 1) {
   if (/Exam mode/.test(appEl.innerHTML)) break;
@@ -97,15 +102,12 @@ for (let attempt = 0; attempt < 500; attempt += 1) {
 
 test('a failed file load is reported on the current screen and can be retried', async () => {
   await click('mode', { mode: 'chapter' });
-  const held = bank['bank/ch05.json'];
-  delete bank['bank/ch05.json'];
-
   await click('pick-set', { set: 'ch05' });
   assert.match(appEl.innerHTML, /Something went wrong: Could not load bank\/ch05\.json/);
   assert.doesNotMatch(appEl.innerHTML, /question bank could not be loaded/);
   assert.match(appEl.innerHTML, /Pick a chapter to drill/);
 
-  bank['bank/ch05.json'] = held;
+  bank['bank/ch05.json'] = heldCh05;
   await click('pick-set', { set: 'ch05' });
   assert.match(appEl.innerHTML, /How many questions/);
   assert.doesNotMatch(appEl.innerHTML, /Something went wrong/);

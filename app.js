@@ -28,6 +28,7 @@ const state = {
   pendingLeave: false,
   paletteOpen: true,
   loadError: '',
+  knownIds: null,
   busy: false,
   storageOk: true,
   exam: { totalMs: EXAM_MINUTES * 60 * 1000, deadline: 0, remainingMs: 0 },
@@ -115,11 +116,7 @@ function recordAttempt(entry, mode) {
 
 /* -------------------------------------------------------------------- assets */
 
-async function loadSet(setId) {
-  if (state.cache.has(setId)) return state.cache.get(setId);
-  const meta = state.index.sets.find((entry) => entry.id === setId);
-  if (!meta) throw new Error(`Unknown set "${setId}"`);
-
+async function fetchSet(meta) {
   const response = await fetch(`./${meta.file}`, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Could not load ${meta.file} (HTTP ${response.status})`);
 
@@ -127,27 +124,44 @@ async function loadSet(setId) {
   if (!Array.isArray(questions) || questions.length === 0) {
     throw new Error(`${meta.file} contained no questions`);
   }
-  state.cache.set(setId, questions);
   return questions;
+}
+
+// The cache holds promises, so overlapping requests for a set share one fetch;
+// a failed fetch is dropped so a retry actually retries.
+function loadSet(setId) {
+  if (!state.cache.has(setId)) {
+    const meta = state.index.sets.find((entry) => entry.id === setId);
+    if (!meta) return Promise.reject(new Error(`Unknown set "${setId}"`));
+    state.cache.set(setId, fetchSet(meta).catch((error) => {
+      state.cache.delete(setId);
+      throw error;
+    }));
+  }
+  return state.cache.get(setId);
+}
+
+// Ids that exist in the bank now. Until every set has loaded this stays null and
+// progress counts everything stored, which is only wrong after a bank edit.
+function learnKnownIds() {
+  Promise.all(state.index.sets.map((meta) => loadSet(meta.id)))
+    .then((sets) => {
+      state.knownIds = new Set(sets.flat().map((question) => question.id));
+      if (state.view === 'home') render();
+    })
+    .catch(() => {}); // offline or a bad file: the screens that need a set report it themselves
 }
 
 async function gatherPool() {
   if (state.mode === 'missed') {
-    const wanted = new Set(missedIds(store.attempts));
-    const pool = [];
-    for (const meta of state.index.sets) {
-      if (!wanted.size) break;
-      const questions = await loadSet(meta.id);
-      pool.push(...questions.filter((question) => wanted.has(question.id)));
-    }
-    return pool;
+    const wanted = new Set(missedIds(store.attempts, state.knownIds));
+    if (!wanted.size) return [];
+    const sets = await Promise.all(state.index.sets.map((meta) => loadSet(meta.id)));
+    return sets.flat().filter((question) => wanted.has(question.id));
   }
 
-  const pool = [];
-  for (const setId of state.selection) {
-    pool.push(...(await loadSet(setId)));
-  }
-  return pool;
+  const sets = await Promise.all(state.selection.map((setId) => loadSet(setId)));
+  return sets.flat();
 }
 
 /* -------------------------------------------------------------------- helpers */
@@ -381,8 +395,9 @@ function backButton(action, label) {
 
 function viewHome() {
   const { index } = state;
-  const progress = chapterProgress(store.attempts, index.sets);
-  const missedCount = missedIds(store.attempts).length;
+  const progress = chapterProgress(store.attempts, index.sets, state.knownIds);
+  const missedCount = missedIds(store.attempts, state.knownIds).length;
+  const expectedSets = index.expectedSets ?? index.sets.length;
   const lastExam = [...store.exams].reverse()[0];
   const overall = progress.overall;
 
@@ -408,7 +423,7 @@ function viewHome() {
         <p class="eyebrow">PRINCE2 7 Foundation</p>
         <h1>Practice</h1>
       </div>
-      <p class="bankstat">${index.total} questions · ${index.sets.length} of 21 sets</p>
+      <p class="bankstat">${index.total} questions · ${index.sets.length} of ${expectedSets} sets</p>
     </header>
 
     <div class="overall">
@@ -442,7 +457,7 @@ function viewHome() {
     <h2 class="sectionhead">Progress by chapter</h2>
     <div class="chaplist">${chapterRows}</div>
 
-    ${index.sets.length < 21 ? `<p class="footnote">Bank in progress: ${21 - index.sets.length} sets not written yet.</p>` : ''}
+    ${index.sets.length < expectedSets ? `<p class="footnote">Bank in progress: ${expectedSets - index.sets.length} sets not written yet.</p>` : ''}
     ${state.storageOk ? '' : '<p class="footnote">This browser blocked storage, so progress is not being saved.</p>'}
     ${store.corrupt ? `<p class="footnote">${store.keptAs
       ? `Saved progress could not be read, so this session starts fresh. The original is kept in this browser under "${escapeHtml(store.keptAs)}".`
@@ -454,7 +469,7 @@ function viewHome() {
 
 function viewPick() {
   const mixed = state.mode === 'mixed';
-  const progress = chapterProgress(store.attempts, state.index.sets);
+  const progress = chapterProgress(store.attempts, state.index.sets, state.knownIds);
 
   const rows = progress.rows
     .map((row) => {
@@ -1065,6 +1080,7 @@ async function boot() {
   // page always starts as a fresh home entry.
   history.replaceState({ view: 'home' }, '');
   render();
+  learnKnownIds();
 }
 
 boot();

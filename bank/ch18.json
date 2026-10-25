@@ -8,7 +8,7 @@
     "stem": "What is the purpose of the managing a stage boundary process?",
     "answer": "To give the project board enough information to judge the stage just finished and decide on the next",
     "distractors": [
-      "To deliver the products of the current stage within the agreed tolerances, and report their completion",
+      "To deliver the products of the current stage within the agreed tolerances",
       "To monitor progress within a stage and take corrective action where needed",
       "To confirm that the benefits in the business case have been realized, and measured by the senior user",
       "To appoint the project management team and assemble the project brief",
@@ -30,9 +30,9 @@
       "Only when the board has asked for one, for an exception plan, or a new stage plan",
       "At the start of each stage, before work packages are authorized",
       "At intervals fixed in the communication management approach, as agreed",
-      "Once only, when the project moves from initiation into delivery, as authorized",
+      "Once only, when the project moves from initiation into delivery",
       "Each time a work package is completed, and signed off by the team manager",
-      "Only at the end of the final stage, immediately before closure, and not before"
+      "Only at the end of the final stage, immediately before closure"
     ],
     "explanation": "The manual states that the process should be executed at, or close to, the end of each stage, because that is when the board needs to assess the stage just finished. It is not confined to exception situations or to the final stage.",
     "source": "p.270"
@@ -79,13 +79,13 @@
     "section": "18.2",
     "topic": "Reviewing the project initiation documentation",
     "difficulty": 1,
-    "stem": "When the process reviews the project initiation documentation, which components does the manual single out for possible updating?",
+    "stem": "When the process reviews the project initiation documentation, which components does PRINCE2 single out for possible updating?",
     "answer": "The business case, project plan, management approaches, team structure and role descriptions",
     "distractors": [
       "The project brief, the project mandate, the outline business case, and the quality register",
       "The stage plan, the team plans, the work package descriptions, and the checkpoint reports",
       "The risk register, the issue register, the quality register, and the lessons log",
-      "The end project report, the lessons report, the benefits management approach, and the exception plan",
+      "The end project report, the lessons report, the benefits management approach",
       "The project's tolerances, the senior supplier's contract terms, the brief, and the board's minutes",
       "The communication management approach, the product backlog, the daily log, and the stage plan"
     ],
@@ -136,13 +136,13 @@
     "section": "18.3",
     "topic": "Failure at a stage boundary",
     "difficulty": 3,
-    "stem": "According to the manual, which of these is a failure rather than a legitimate outcome of a stage boundary?",
+    "stem": "Which of these is a failure rather than a legitimate outcome of a stage boundary?",
     "answer": "Giving the board too little information to make an informed decision",
     "distractors": [
       "Recommending that the project should not continue, as the case is weak",
       "Recommending that the project should be redirected, with a revised plan",
       "Escalating a forecast that tolerances will be exceeded, to the project board",
-      "Asking the board to replace the stage plan with an exception plan, as needed",
+      "Asking the board to replace the stage plan with an exception plan",
       "Reporting that the stage's products cost more than planned",
       "Confirming that the business case is still valid"
     ],
@@ -155,7 +155,7 @@
     "section": "18.3",
     "topic": "Early warning of failure",
     "difficulty": 2,
-    "stem": "What does the manual describe as an early identifier that a project may be failing?",
+    "stem": "What does PRINCE2 describe as an early identifier that a project may be failing?",
     "answer": "A forecast that tolerances are likely to be exceeded",
     "distractors": [
       "A risk that has been logged but not yet assessed",
@@ -193,12 +193,12 @@
     "section": "18.4.1",
     "topic": "Recommended actions when planning the next stage",
     "difficulty": 2,
-    "stem": "A project manager is preparing the stage plan for the next stage. Which action does the manual recommend as part of this activity?",
+    "stem": "A project manager is preparing the stage plan for the next stage. Which action does PRINCE2 recommend as part of this activity?",
     "answer": "Updating the quality register with planned quality activities, including target review dates",
     "distractors": [
       "Requesting the project board's approval of the exception plan, and the next stage plan",
       "Preparing the end stage report for the current stage, and the lessons report",
-      "Confirming that the benefits in the business case have been realized, and recording them in the log",
+      "Confirming that the benefits in the business case have been realized",
       "Authorizing the work packages that the next stage will need, and agreeing their tolerances",
       "Reviewing the finished products with the users after handover, and recording their acceptance",
       "Baselining the project plan for the first time, and issuing it to the team managers"
@@ -273,10 +273,10 @@
     "answer": "Adding the progress of the finishing stage and forecasting duration and cost for the next stage",
     "distractors": [
       "Replacing the project plan with the stage plan for the next stage, and discarding the old plan",
-      "Recording the stage's actual costs and closing the project plan baseline, and archiving the plan",
-      "Adding the lessons from the stage to the project plan's assumptions, and to the business case",
-      "Recalculating the benefits in the business case from actual expenditure, and reporting them to the board",
-      "Moving the project plan's milestones into the benefits management approach, and closing the plan",
+      "Recording the stage's actual costs and closing the project plan baseline",
+      "Adding the lessons from the stage to the project plan's assumptions",
+      "Recalculating the benefits in the business case from actual expenditure",
+      "Moving the project plan's milestones into the benefits management approach",
       "Restating the project's tolerances so they match the stage plan, and the board's expectations"
     ],
     "explanation": "The project plan is updated to take in progress from the stage that is finishing and to forecast the duration and cost of the next stage or exception plan. The revised costs and end dates then feed the business case.",
@@ -307,13 +307,13 @@
     "section": "18.4.4",
     "topic": "Risk checks in the business case",
     "difficulty": 3,
-    "stem": "Which check does the manual recommend when updating the business case at a stage boundary?",
+    "stem": "Which check does PRINCE2 recommend when updating the business case at a stage boundary?",
     "answer": "Whether risk appetite or capacity has changed and the risk tolerances therefore need redefining",
     "distractors": [
       "Whether every risk in the project log has an owner on the project management team",
       "Whether the risk budget has been fully spent during the stage, and what remains for the next",
       "Whether the project's insurance cover is still adequate for the remaining work",
-      "Whether each risk has been re-assessed using quantitative modelling, and ranked by monetary value",
+      "Whether each risk has been re-assessed using quantitative modelling",
       "Whether the risk management approach should be re-baselined, and reissued to the team managers",
       "Whether the board's appetite should be replaced by the business layer's capacity"
     ],
@@ -330,10 +330,10 @@
     "answer": "The updated business case, updated project plan, project logs and any updated management approaches",
     "distractors": [
       "The project mandate, the project brief, and the outline business case, as first approved",
-      "The stage plan, the team plans, and the work package status accounts for the stage, in full",
+      "The stage plan, the team plans, and the work package status accounts for the stage",
       "The exception report, the issue report, and the lessons report, as submitted to the board",
-      "The project product description, the quality register, and the product status account, in each case",
-      "The benefits management approach, the benefits confirmed after closure, and the review dates, in turn",
+      "The project product description, the quality register, and the product status account",
+      "The benefits management approach, the benefits confirmed after closure, and the review dates",
       "The communication management approach, the highlight reports, and the checkpoint reports"
     ],
     "explanation": "The end stage report is based on the performance of the stage as shown by the updated business case, updated project plan, project logs and any updated management approaches. The mandate and brief are pre-project products, not evidence of stage performance.",
@@ -348,12 +348,12 @@
     "stem": "When preparing the end stage report, why does the project manager review the communication management approach?",
     "answer": "To see whether copies of the report, and possibly a lessons report, should go to external parties",
     "distractors": [
-      "To confirm that the board has been formally informed of the stage's progress, and approved it, in writing",
-      "To decide which stakeholders should be consulted on the next stage plan, and in which order",
-      "To check that the project's products have been accepted by the users, and by the senior supplier",
-      "To set the reporting frequency for the next stage's highlight reports, and the format",
+      "To confirm that the board has been formally informed of the stage's progress, and approved it",
+      "To decide which stakeholders should be consulted on the next stage plan",
+      "To check that the project's products have been accepted by the users",
+      "To set the reporting frequency for the next stage's highlight reports",
       "To identify which team managers need copies of the quality register, and which need the risk register",
-      "To confirm that lessons have been entered in the project log, and reviewed by the board, at the boundary"
+      "To confirm that lessons have been entered in the project log, and reviewed by the board"
     ],
     "explanation": "The communication management approach is reviewed to see whether the end stage report, and where appropriate a lessons report, should be sent to interested external parties. Deciding who is consulted on the next stage plan is a separate planning consideration.",
     "source": "p.275"
@@ -383,7 +383,7 @@
     "section": "18.4.6",
     "topic": "Briefing the board on the stage",
     "difficulty": 2,
-    "stem": "When briefing the board before requesting the next stage, what does the manual say the project manager should confirm about off-specifications?",
+    "stem": "When briefing the board before requesting the next stage, what does PRINCE2 say the project manager should confirm about off-specifications?",
     "answer": "Where concessions were made for any off-specifications in the stage",
     "distractors": [
       "That every off-specification has been rejected by the change authority",
@@ -406,10 +406,10 @@
     "answer": "They may be combined, split or run concurrently, provided links to other processes stay sound",
     "distractors": [
       "They must run in the prescribed order, with each output approved before the next activity starts",
-      "They may be reordered freely, because the process has no dependencies on other processes, at all",
+      "They may be reordered freely, because the process has no dependencies on other processes",
       "They must all be completed within a single project board meeting, and approved",
-      "They may run concurrently only while an exception plan is being prepared, and the board has agreed",
-      "They may be combined for small projects and must be separated for large ones, by the board",
+      "They may run concurrently only while an exception plan is being prepared",
+      "They may be combined for small projects and must be separated for large ones",
       "They may be delegated in full to project support provided the board is informed"
     ],
     "explanation": "The manual allows the activities to be combined, separated or run concurrently to suit the context, but warns that the integrity of the connections with initiating a project, controlling a stage and directing a project must be preserved. There is no fixed sequence requirement and no rule based on project size.",

@@ -318,6 +318,7 @@ def write_index(sets: list[dict]) -> None:
         "version": 1,
         "edition": "PRINCE2 7",
         "total": sum(entry["count"] for entry in sets),
+        "expectedSets": len(CATALOGUE),
         "sets": [
             {
                 "id": entry["id"],

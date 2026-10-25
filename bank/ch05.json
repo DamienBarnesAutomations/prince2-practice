@@ -24,14 +24,14 @@
     "section": "5.1",
     "topic": "Definition of a benefit",
     "difficulty": 1,
-    "stem": "How does the manual define a benefit?",
+    "stem": "What is a benefit?",
     "answer": "The measurable improvement from an outcome that the organization perceives as an advantage",
     "distractors": [
       "The tangible or intangible deliverable produced by an activity, whether or not the business uses it",
       "The result of change, normally affecting real-world behavior and circumstances",
       "The completed set of project outputs required to deliver an outcome, as described in the brief",
       "The measurable decline resulting from an outcome that the organization perceives as negative",
-      "The measurable outcomes that demonstrate progress against the organization's strategy, year on year",
+      "The measurable outcomes that demonstrate progress against the organization's strategy",
       "The new capability the business must embed before any improvement can be claimed, or measured"
     ],
     "explanation": "A benefit is a measurable improvement arising from an outcome, perceived as an advantage by the investing organization and contributing to business objectives. The deliverable is the output, the result of change is the outcome, and a measurable decline is a dis-benefit.",
@@ -62,7 +62,7 @@
     "section": "5.1",
     "topic": "Definition of a dis-benefit",
     "difficulty": 1,
-    "stem": "How does the manual define a dis-benefit?",
+    "stem": "What is a dis-benefit?",
     "answer": "The measurable decline resulting from an outcome that the investing organization perceives as negative",
     "distractors": [
       "An outcome that some stakeholders dislike but which has no measurable effect on the business objectives",
@@ -160,11 +160,11 @@
     "stem": "Why does the outline business case normally need further development?",
     "answer": "Because costs, timescales and risks are usually not understood well enough at that point to justify the project",
     "distractors": [
-      "Because the board is not permitted to authorize initiation on the basis of an outline case, whatever its quality",
+      "Because the board is not permitted to authorize initiation on the basis of an outline case",
       "Because the outline is written by the business, and the detailed case must be written by the project manager",
-      "Because the mandate does not contain enough information about the business objectives, and the board lacks time",
+      "Because the mandate does not contain enough information about the business objectives",
       "Because the investment committee must re-approve the case at every stage boundary and at project closure",
-      "Because PRINCE2 requires a full business case before the mandate can be accepted, and the board agrees it",
+      "Because PRINCE2 requires a full business case before the mandate can be accepted",
       "Because an outline case may not include dis-benefits, risks or sustainability targets, which the board needs"
     ],
     "explanation": "At the start, the project's costs, timescales, products, risks and targets are not understood well enough for a robust justification of the whole project. The outline case is therefore refined into a full business case as the project is planned in more detail during initiation.",
@@ -176,7 +176,7 @@
     "section": "5.2.1",
     "topic": "Business case terminology",
     "difficulty": 1,
-    "stem": "Which alternative terms does the manual give for what PRINCE2 calls the full business case?",
+    "stem": "Which alternative terms exist for what PRINCE2 calls the full business case?",
     "answer": "Detailed business case or final business case",
     "distractors": [
       "Strategic outline case or outline investment case",
@@ -195,11 +195,11 @@
     "section": "5.2.2",
     "topic": "Delivery success versus investment success",
     "difficulty": 2,
-    "stem": "Why does the manual warn that a project can succeed at delivery and yet fail as an investment?",
+    "stem": "Why does PRINCE2 warn that a project can succeed at delivery and yet fail as an investment?",
     "answer": "Because benefits are often realized only after closure, so teams focus on producing outputs",
     "distractors": [
-      "Because suppliers are paid in full before any benefit is measured, and the contract ends at handover",
-      "Because the business case is only approved at the end of the project, and not used to steer the work",
+      "Because suppliers are paid in full before any benefit is measured",
+      "Because the business case is only approved at the end of the project",
       "Because dis-benefits are excluded from the investment appraisal, and the board never reviews them",
       "Because the board is unable to measure benefits while the project is running",
       "Because benefits are usually intangible and therefore cannot be measured, so the board relies on opinion",
@@ -214,11 +214,11 @@
     "section": "5.2.2",
     "topic": "Benefits tolerance",
     "difficulty": 2,
-    "stem": "How does the manual define benefits tolerance?",
+    "stem": "What is benefits tolerance?",
     "answer": "The permissible deviation in the benefit performance targets allowed before it must be escalated to the next level",
     "distractors": [
       "The permissible deviation in the sustainability performance targets before escalation is required to the board",
-      "The amount and type of benefit the business is willing to forgo in pursuit of its wider objectives, set by the corporate body",
+      "The amount and type of benefit the business is willing to forgo in pursuit of its wider objectives",
       "The range of forecast benefits presented as best case, expected case and worst case",
       "The baseline measure from which improvements in benefits will be calculated and later reviewed by the business",
       "The period over which the benefits are expected to be realized after closure, as agreed with the senior user",
@@ -233,7 +233,7 @@
     "section": "5.2.2",
     "topic": "Measurable benefits",
     "difficulty": 3,
-    "stem": "What follows, according to the manual, if a project includes benefits that cannot be measured?",
+    "stem": "What follows, according to PRINCE2, if a project includes benefits that cannot be measured?",
     "answer": "It becomes impossible to determine whether the project has been a success or provided value for money",
     "distractors": [
       "The benefits must be reclassified as dis-benefits in the business case",
@@ -252,7 +252,7 @@
     "section": "5.2.2",
     "topic": "Checking forecast benefits",
     "difficulty": 1,
-    "stem": "At what minimum frequency does the manual say forecast benefits should be checked during the project?",
+    "stem": "At what minimum frequency does PRINCE2 say forecast benefits should be checked during the project?",
     "answer": "At least at the end of every stage, when the business case is reviewed",
     "distractors": [
       "At least once a month, through the highlight report to the board",
@@ -309,7 +309,7 @@
     "section": "5.2.3",
     "topic": "Costs in the business case",
     "difficulty": 1,
-    "stem": "Besides the cost of developing the project product, what costs does the manual say the business case should include?",
+    "stem": "Besides the cost of developing the project product, what costs does PRINCE2 say the business case should include?",
     "answer": "Changes to operational costs after the project concludes",
     "distractors": [
       "The costs already sunk in earlier, abandoned projects",
@@ -369,9 +369,9 @@
     "stem": "Why should the do-nothing-differently option always be assessed first?",
     "answer": "Because it provides the basis against which the other options are quantified, giving the benefit bought",
     "distractors": [
-      "Because it is the option the business will fall back on if the project is stopped, and costs nothing",
-      "Because it is the only option that does not require an investment appraisal, and so is quickest",
-      "Because the board must formally reject it before considering any other option, and record the reasons",
+      "Because it is the option the business will fall back on if the project is stopped",
+      "Because it is the only option that does not require an investment appraisal",
+      "Because the board must formally reject it before considering any other option",
       "Because it sets the baseline for the project's quality tolerances, and for the stage plans that follow",
       "Because regulation requires the status quo to be appraised first, and the result to be published",
       "Because it defines the minimum scope that the project must deliver, and the cost of delivering it"
@@ -385,15 +385,15 @@
     "section": "5.3.1.1",
     "topic": "Must-do projects",
     "difficulty": 3,
-    "stem": "Why does the manual insist that must-do projects, such as regulatory projects, still explore options?",
+    "stem": "Why does PRINCE2 insist that must-do projects, such as regulatory projects, still explore options?",
     "answer": "Because different approaches may exist and must be evaluated for viability, desirability and achievability",
     "distractors": [
       "Because a must-do project is exempt from the investment appraisal, and the board only records the decision",
       "Because the cheapest approach must always be chosen for compliance work, and the options are irrelevant",
-      "Because the business options for such projects are set by the regulator, and cannot be varied, however costly",
-      "Because the do-nothing option is the required baseline for regulatory work, and must be costed, however unlikely",
-      "Because the board cannot authorize a mandatory project without an options analysis, and the regulator audits it",
-      "Because the options must be revisited at every stage boundary, and the cheapest one adopted, if possible"
+      "Because the business options for such projects are set by the regulator, and cannot be varied",
+      "Because the do-nothing option is the required baseline for regulatory work, and must be costed",
+      "Because the board cannot authorize a mandatory project without an options analysis",
+      "Because the options must be revisited at every stage boundary, and the cheapest one adopted"
     ],
     "explanation": "Every project, including must-do projects, should explore different options and select the most appropriate. There may be different approaches available, and each must be evaluated in terms of viability, desirability and achievability.",
     "source": "p.61"
@@ -404,7 +404,7 @@
     "section": "5.3.1.2",
     "topic": "Check",
     "difficulty": 2,
-    "stem": "At which points does the manual say the project board should, as a minimum, check the business case?",
+    "stem": "At which points does PRINCE2 say the project board should, as a minimum, check the business case?",
     "answer": "At each stage boundary, including the end of starting up and initiating a project, and when assessing an exception plan",
     "distractors": [
       "At the end of each stage only, because earlier checks belong to the project manager, and later ones to the business layer",
@@ -423,7 +423,7 @@
     "section": "5.3.1.2",
     "topic": "Check",
     "difficulty": 2,
-    "stem": "In which situation does the manual say the project manager will check the business case?",
+    "stem": "In which situation does PRINCE2 say the project manager will check the business case?",
     "answer": "When assessing progress, risks and issues to determine their impact on the business justification",
     "distractors": [
       "At the end of starting up a project, to authorize the initiation of the project and its stage plan",
@@ -448,7 +448,7 @@
       "Whether the forecast benefits fall within the tolerance set by the business layer",
       "Which option scores highest against weighted assessment criteria, and which is the cheapest overall",
       "How long it will take to recover the money invested in the project, and when it breaks even",
-      "The discount rate at which the net present value of the project becomes zero, and so no gain is made",
+      "The discount rate at which the net present value of the project becomes zero",
       "Whether the business case has been version-controlled correctly, and approved by the right people",
       "Whether the senior user is the right person to confirm the benefits, and has the time to do so"
     ],
@@ -465,10 +465,10 @@
     "answer": "By updating it with progress data and the latest forecasts, keeping earlier versions for comparison",
     "distractors": [
       "By replacing it with the benefits actually realized, so that only the current position is held and reviewed",
-      "By aligning it with the stage plan so that both show identical figures, and withdrawing earlier versions",
-      "By recalculating the investment appraisal from the original baseline every time, and discarding the update",
+      "By aligning it with the stage plan so that both show identical figures",
+      "By recalculating the investment appraisal from the original baseline every time",
       "By recording the stage's lessons in the business case instead of the lessons log",
-      "By updating the actual costs only, leaving all forecasts to the senior user, and archiving the rest",
+      "By updating the actual costs only, leaving all forecasts to the senior user",
       "By replacing the previous justification with the board's stage authorization decision"
     ],
     "explanation": "Maintaining the case means keeping it updated with progress data such as products delivered, project costs and benefits realized, together with the latest forecasts. Version control matters so that previous versions can be accessed for reference and comparison.",
@@ -524,9 +524,9 @@
       "The cost of each business option with the cost of the do-nothing option, over the life of the project",
       "The project's benefits with its dis-benefits, ignoring the costs of delivering and operating the products",
       "The supplier's price with the budget the customer has available, and with the contingency it holds",
-      "The benefits tolerance with the forecast benefits at each stage boundary, and at project closure",
+      "The benefits tolerance with the forecast benefits at each stage boundary",
       "The seven performance aspects with one another, to find which aspect should take priority",
-      "The benefits forecast before the project with those realized afterwards, and the costs with the budget"
+      "The benefits forecast before the project with those realized afterwards"
     ],
     "explanation": "An investment appraisal compares the costs of developing, operating and maintaining the product with the value of the benefits over time, covering both project costs and ongoing operations and maintenance costs. It looks at the relationship between benefits, costs and risks.",
     "source": "p.64"
@@ -537,7 +537,7 @@
     "section": "5.3.2.1",
     "topic": "Net present value",
     "difficulty": 2,
-    "stem": "Using the manual's illustration of a 6 per cent discount rate, what is a forecast benefit of £500,000 in year 12 worth in today's money?",
+    "stem": "At a 6 per cent discount rate, what is a forecast benefit of £500,000 in year 12 worth in today's money?",
     "answer": "About £250,000",
     "distractors": [
       "About £500,000",
@@ -598,9 +598,9 @@
     "answer": "The benefits expected when only must-have requirements are delivered, and it should show that the project is still viable",
     "distractors": [
       "The benefits expected when the must-have and should-have requirements are delivered, but none of the could-haves",
-      "The benefits expected when the must-have, should-have and could-have requirements are all delivered in full, within tolerance",
+      "The benefits expected when the must-have, should-have and could-have requirements are all delivered in full",
       "The lowest level of benefit the business would accept before cancelling the project, as set by the board",
-      "The benefits that would be realized if the project were stopped at the next stage boundary, and closed",
+      "The benefits that would be realized if the project were stopped at the next stage boundary",
       "The benefits forecast if every identified risk materialized, and no response was made to any of them",
       "The benefits expected if the project used its full time tolerance and its full cost tolerance together"
     ],
@@ -617,9 +617,9 @@
     "answer": "The programme usually provides an outline business case, and the project's case is aggregated into the programme's",
     "distractors": [
       "The project must produce a fully independent case, because programme cases cannot be aggregated with it",
-      "The programme business case removes the need for any project-level justification, and for any review",
+      "The programme business case removes the need for any project-level justification",
       "The project business case is approved by the programme board instead of the project board, and re-approved",
-      "The project case must contain the justification aspects that the programme case omits, and no others",
+      "The project case must contain the justification aspects that the programme case omits",
       "The project case is developed only after the programme has closed, and then reported to the board",
       "The programme supplies the benefits management approach, so the project needs none of its own and holds no reviews"
     ],
@@ -676,7 +676,7 @@
       "Only the customer needs a business case, because the supplier is paid for its work",
       "The supplier's case must be approved by the customer's project board before work starts",
       "The supplier's case replaces the project business case once delivery begins, and the customer's is closed",
-      "The two cases must contain identical content to be considered compatible, and be held in one document",
+      "The two cases must contain identical content to be considered compatible",
       "The supplier becomes accountable for the customer's benefits once products are accepted",
       "The customer's case must disclose the supplier's profit margin to the board, and the supplier's to the customer"
     ],
@@ -695,7 +695,7 @@
       "It is fixed at authorization and changed only through formal exception procedures, which the board must approve",
       "It is produced after the first increment, once actual costs are known",
       "It is replaced at each stage boundary by the latest best, expected and worst case",
-      "It is maintained by the business layer rather than by the project manager, and reviewed at each increment",
+      "It is maintained by the business layer rather than by the project manager",
       "It is reduced to a statement of scope, budget and timescales",
       "It is approved by the senior supplier instead of the project board, and revised each sprint by the team"
     ],
@@ -732,10 +732,10 @@
     "distractors": [
       "That the option with the lowest carbon emissions must always be selected, whatever its risk or cost",
       "That sustainability targets replace the financial investment appraisal, and are set by the project manager",
-      "That the project board delegates sustainability decisions to the project team, and does not review them",
+      "That the project board delegates sustainability decisions to the project team",
       "That untested technology is never acceptable in a retail building, and always carries the highest cost",
-      "That the carbon allowance was set by the project board rather than the council, and cannot be varied",
-      "That double glazing was chosen because it had the lowest carbon emissions available, and the lowest cost"
+      "That the carbon allowance was set by the project board rather than the council",
+      "That double glazing was chosen because it had the lowest carbon emissions available"
     ],
     "explanation": "The carbon allowance forced trade-offs in design, delivery and operations. The water-filled windows produced better carbon results but carried a high level of risk because the solution was untested in a retail context, so the board chose the better-established double glazing.",
     "source": "p.67"
@@ -785,11 +785,11 @@
     "stem": "What is the purpose of the business case management product?",
     "answer": "To document the project's justification, based on estimated costs against expected benefits and risks",
     "distractors": [
-      "To provide a full and firm foundation for the initiation of the project, and for each later stage decision",
+      "To provide a full and firm foundation for the initiation of the project",
       "To define the benefits management actions and reviews that will confirm the benefits are realized",
       "To record the reasons for the project and the chosen option for the initiation decision only, not later ones",
-      "To summarize the project's products, their quality criteria and acceptance methods, for the user's sign-off",
-      "To set out the funding arrangements and the budget available for each stage, and for the whole project",
+      "To summarize the project's products, their quality criteria and acceptance methods",
+      "To set out the funding arrangements and the budget available for each stage",
       "To compare the costs of the business options and recommend the cheapest, with the risks of each option"
     ],
     "explanation": "The business case documents the justification based on estimated costs against expected benefits, offset by risks, and outlines how and when benefits can be measured. Unlike the brief it is maintained and re-checked throughout the project, not used only at the initiation decision.",
@@ -901,7 +901,7 @@
       "The project board sets both levels, on the advice of project assurance",
       "The senior user sets both levels, because they are accountable for realizing the benefits",
       "The project manager sets the stage-level tolerance and the senior user sets the project-level tolerance",
-      "The business layer sets both levels and the executive applies them without variation, even if exceptions arise",
+      "The business layer sets both levels and the executive applies them without variation",
       "The programme sets the project-level tolerance and the board sets the stage-level tolerance for each stage"
     ],
     "explanation": "In Table 5.1 the business layer is accountable for the post-project benefits management approach and sets the project-level benefits tolerance. The executive is accountable for the business case during the project and sets the stage-level benefits tolerance.",
@@ -935,12 +935,12 @@
     "stem": "How does the business case practice support the principle manage by exception?",
     "answer": "By measuring the impact of issues and risks on the business case and escalating forecast breaches of tolerance",
     "distractors": [
-      "By ensuring that decisions at stage boundaries are checked for business justification, and recorded in the log",
+      "By ensuring that decisions at stage boundaries are checked for business justification",
       "By using lessons from previous work to inform the business justification, and to improve the options appraisal",
-      "By clarifying who is responsible for developing and maintaining the business case, and who approves it",
-      "By ensuring that the products produced can lead to the required outcomes and benefits, and that they are used",
+      "By clarifying who is responsible for developing and maintaining the business case",
+      "By ensuring that the products produced can lead to the required outcomes and benefits",
       "By adapting the formality of business case approval to the size and complexity of the project",
-      "By creating and maintaining a business case for the project throughout its life, and reviewing it each stage"
+      "By creating and maintaining a business case for the project throughout its life"
     ],
     "explanation": "Table 5.2 links manage by exception to measuring the impact of issues and risks on the case and escalating when tolerances are forecast to be exceeded, which gives a clear understanding of potential impacts. Checking justification at stage boundaries supports manage by stages, and creating and maintaining the case supports continued business justification.",
     "source": "p.72"

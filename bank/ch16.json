@@ -79,15 +79,15 @@
     "section": "16.2",
     "topic": "Facilitator rather than controller",
     "difficulty": 2,
-    "stem": "The manual says the project manager acts as a facilitator rather than a controller in this process. What does that mean in practice?",
+    "stem": "PRINCE2 says the project manager acts as a facilitator rather than a controller in this process. What does that mean in practice?",
     "answer": "Giving team managers freedom within their tolerances, so that escalations are kept to a minimum",
     "distractors": [
       "Approving every task a team member performs, so that no unauthorized work takes place at all",
-      "Escalating all issues and risks to the project board as soon as they are identified, in writing",
+      "Escalating all issues and risks to the project board as soon as they are identified",
       "Delegating the stage plan and the highlight reports to the team managers",
       "Keeping the stage plan away from the team so that they concentrate on their own work packages",
       "Declining to set tolerances, because tolerances prevent the team from learning",
-      "Chairing the project board so that decisions can be taken more quickly, and with fewer delays"
+      "Chairing the project board so that decisions can be taken more quickly"
     ],
     "explanation": "The point of tolerances is to give people room to act: team managers should have freedom where possible, and the project manager should discuss their own tolerances with the board to gain freedom to act and learn. Approving every task, or escalating everything, removes that freedom and defeats the purpose.",
     "source": "p.252"
@@ -104,8 +104,8 @@
       "Only in the final stage, because earlier stages are covered by the initiation stage",
       "Once per project, immediately after the project mandate has been received",
       "Only between stage boundaries, and never during the initiation stage",
-      "Only once the project board has approved an exception plan for the stage, and the plan is baselined",
-      "Only on projects that use a linear rather than an iterative delivery method, and not on hybrid ones",
+      "Only once the project board has approved an exception plan for the stage",
+      "Only on projects that use a linear rather than an iterative delivery method",
       "At each stage boundary, in place of the process of managing a stage boundary"
     ],
     "explanation": "Controlling a stage describes the project manager's day-to-day management of a stage and is used for each stage of the project. It is normally used first once the board has authorized the project, though it can also be used during initiation on large or complex projects.",
@@ -117,7 +117,7 @@
     "section": "16.3",
     "topic": "Use during initiation",
     "difficulty": 2,
-    "stem": "A large, complex project has a long and demanding initiation stage. What does the manual allow here?",
+    "stem": "A large, complex project has a long and demanding initiation stage. What does PRINCE2 allow here?",
     "answer": "Controlling a stage can be used during the initiation stage, especially for large projects",
     "distractors": [
       "Controlling a stage cannot begin until the board has authorized the first delivery stage",
@@ -136,15 +136,15 @@
     "section": "16.3",
     "topic": "Work packages when the project manager is team manager",
     "difficulty": 2,
-    "stem": "On a small project the project manager also takes the team manager role. What does the manual say about work package descriptions?",
-    "answer": "They are still used to define and control the work, with team manager read as the individual assigned",
+    "stem": "On a small project the project manager also takes the team manager role. What does PRINCE2 say about work package descriptions?",
+    "answer": "They are still used to define and control the work, with team manager read as the individual",
     "distractors": [
       "They are no longer needed, because the project manager already knows what the work involves",
-      "A separate team manager must be appointed before any work can be authorized, and the board must approve",
-      "The stage plan replaces the work package descriptions for the whole stage, and the team plans too",
+      "A separate team manager must be appointed before any work can be authorized",
+      "The stage plan replaces the work package descriptions for the whole stage",
       "Checkpoint reports are replaced by the highlight report sent to the project board",
-      "The project board must approve each individual task before it can start, and sign it off afterwards",
-      "Team plans remain mandatory, but work package descriptions become optional, and are kept by the board"
+      "The project board must approve each individual task before it can start",
+      "Team plans remain mandatory, but work package descriptions become optional"
     ],
     "explanation": "Work package descriptions are the vehicle for defining, assigning and controlling work and for setting tolerances, so they are still used when the project manager does both roles. In that case the references to the team manager apply to the individual team member given the work.",
     "source": "p.253"
@@ -199,7 +199,7 @@
       "Comparing actual progress with the stage plan, deciding whether corrective action is needed, and recording the decision in the log",
       "Preparing an exception report, putting recovery options to the project board, and recording its decision in the project log",
       "Compiling the highlight report from checkpoint reports, the project log, and the stage plan, and issuing it to the board",
-      "Assessing each recovery option against the business case, selecting one, and escalating it to the board, in writing",
+      "Assessing each recovery option against the business case, selecting one, and escalating it to the board",
       "Updating the risk register, escalating any risk that exceeds the stage tolerance, and informing the board of the action"
     ],
     "explanation": "Authorization is a joint exercise with the team manager: the description is defined and reviewed together, the team manager's acceptance confirmed, and the quality reviewers checked with assurance before work starts. Checking completed reviews and marking work complete belong to receiving a completed work package.",
@@ -211,7 +211,7 @@
     "section": "16.4.1",
     "topic": "Work packages and sub-products",
     "difficulty": 3,
-    "stem": "A work package should cover the creation of one or more products. What does the manual recommend when a single product needs more work than one work package can hold?",
+    "stem": "A work package should cover the creation of one or more products. What does PRINCE2 recommend when a single product needs more work than one work package can hold?",
     "answer": "Break the product down into sub-products, each with its own product description",
     "distractors": [
       "Authorize one work package and record the outstanding work as an issue in the project log",
@@ -268,7 +268,7 @@
     "section": "16.4.3",
     "topic": "Checking quality before acceptance",
     "difficulty": 2,
-    "stem": "Before accepting a completed work package, which check does the manual require the project manager to make?",
+    "stem": "Before accepting a completed work package, which check does PRINCE2 require the project manager to make?",
     "answer": "Check the quality register to confirm the necessary quality reviews have been completed",
     "distractors": [
       "Check that the team manager has entered the actual cost in the project plan",
@@ -292,10 +292,10 @@
     "distractors": [
       "Ask the project board to authorize the next work package before any records are changed",
       "Close the project log entry and archive the product descriptions, then report to the board",
-      "Raise an exception report explaining the completion to the project board, and ask for approval to proceed",
+      "Raise an exception report explaining the completion to the project board",
       "Record the completion in the lessons log and remove the products from the product register, then update the plan",
       "Re-baseline the stage plan, because completion changes the plan's baseline",
-      "Ask project assurance to re-run the quality reviews before the work is accepted, and then report"
+      "Ask project assurance to re-run the quality reviews before the work is accepted"
     ],
     "explanation": "The remaining steps are to confirm the product register reflects each approved product and to show the work package as complete in the stage plan. Re-baselining is not warranted by planned completion, and approval has already been checked.",
     "source": "p.256"
@@ -306,7 +306,7 @@
     "section": "16.4.3",
     "topic": "Completion under an agile approach",
     "difficulty": 3,
-    "stem": "A team is delivering a work package using an agile approach. What does the manual say must have happened for the project manager to accept it as complete?",
+    "stem": "A team is delivering a work package using an agile approach. What does PRINCE2 say must have happened for the project manager to accept it as complete?",
     "answer": "The team manager has delivered the features agreed for the timebox in full",
     "distractors": [
       "A product description has been written for every item in the product backlog",
@@ -348,9 +348,9 @@
     "answer": "At a frequency defined in the stage plan, and also when triggered by board advice or a new issue",
     "distractors": [
       "Only at each stage boundary, as part of preparing the next stage plan, and the end stage report for the board",
-      "At the frequency set out in the project's communication management approach, and in the stage plan",
-      "Whenever a checkpoint report arrives from a team manager, and on the dates in the project plan, for the board",
-      "Only when the project manager suspects that a tolerance may be breached, and the board is informed",
+      "At the frequency set out in the project's communication management approach",
+      "Whenever a checkpoint report arrives from a team manager, and on the dates in the project plan",
+      "Only when the project manager suspects that a tolerance may be breached",
       "Continuously, because a formal review would slow the team down, and delay the work",
       "Once, when the stage plan is authorized, with no further reviews"
     ],
@@ -363,7 +363,7 @@
     "section": "16.4.4",
     "topic": "Phased handover",
     "difficulty": 3,
-    "stem": "While evaluating stage status, the project manager confirms that ownership of two products has passed to the users. How does the manual treat this?",
+    "stem": "While evaluating stage status, the project manager confirms that ownership of two products has passed to the users. How does PRINCE2 treat this?",
     "answer": "As a phased handover, which may happen more than once during the lifecycle",
     "distractors": [
       "As a stage boundary, which must be reported in the end stage report before it occurs",
@@ -382,7 +382,7 @@
     "section": "16.4.5",
     "topic": "Capturing an issue",
     "difficulty": 2,
-    "stem": "An issue is raised in the middle of a stage. According to the manual, what must happen before a course of action is decided?",
+    "stem": "An issue is raised in the middle of a stage. According to PRINCE2, what must happen before a course of action is decided?",
     "answer": "The issue is registered in the project log and then assessed for its impact",
     "distractors": [
       "The issue is escalated to the project board so that it can decide the response",
@@ -405,11 +405,11 @@
     "answer": "Any business member, project member or other stakeholder may raise one, captured consistently",
     "distractors": [
       "Only the project manager and team managers may raise one, and only through checkpoint reports",
-      "Only project board members may raise one, and only at the frequency set in the stage plan, in turn",
+      "Only project board members may raise one, and only at the frequency set in the stage plan",
       "Anyone may raise one, but only those affecting cost are entered in the project log",
       "Anyone may raise one, but capture is deferred to the next stage boundary review",
       "Only the roles named in the communication management approach, using its format",
-      "Only the project manager may raise one, because they own the project log, and the daily log"
+      "Only the project manager may raise one, because they own the project log"
     ],
     "explanation": "Issues and risks arrive in an unstructured way from anyone in the business, the project or the wider stakeholder group, so capture has to be consistent and reliable. The manual also stresses psychological safety, so that people feel able to raise concerns without fear.",
     "source": "p.257"
@@ -424,8 +424,8 @@
     "answer": "To select and implement actions that resolve deviations within the stage and project tolerances",
     "distractors": [
       "To record every deviation in the project log for the project board's information",
-      "To change the stage plan baseline so that the deviation no longer appears, and the board is not told",
-      "To escalate the deviation to the project board as soon as it is forecast, and ask for a decision",
+      "To change the stage plan baseline so that the deviation no longer appears",
+      "To escalate the deviation to the project board as soon as it is forecast",
       "To prevent any change to the plan, so that the original baseline is preserved",
       "To move work between team managers until the tolerances are met, and the plan is updated each week",
       "To reduce the scope of the stage so that the forecast returns within tolerance"
@@ -458,15 +458,15 @@
     "section": "16.4.6",
     "topic": "Records updated by corrective action",
     "difficulty": 3,
-    "stem": "Corrective action will require one of the stage's products to change. Which records does the manual say the project manager updates?",
+    "stem": "Corrective action will require one of the stage's products to change. Which records does PRINCE2 say the project manager updates?",
     "answer": "The product register records of the affected products, showing required changes, and the issue report",
     "distractors": [
-      "The project mandate and the outline business case, because the scope has altered, and the plan",
+      "The project mandate and the outline business case, because the scope has altered",
       "The communication management approach and the benefits management approach, because the change affects them",
       "The team plan only, because the stage plan is unaffected by corrective action, and the board's records",
-      "The quality register only, because a product change creates a quality activity, and a new test",
+      "The quality register only, because a product change creates a quality activity",
       "The project log only, because the product register is updated at the stage boundary",
-      "The product descriptions only, because the register records delivery not change, and the baseline"
+      "The product descriptions only, because the register records delivery not change"
     ],
     "explanation": "Corrective action updates the product register records of the affected products, including whether changes or new products are needed, and the issue report where one exists so that its status reflects the action. The stage plan and project log are also updated, but neither replaces the product register.",
     "source": "p.257"
@@ -496,14 +496,14 @@
     "section": "16.4.7",
     "topic": "Two-step escalation",
     "difficulty": 3,
-    "stem": "Why does the manual suggest that escalation may be carried out in two steps?",
+    "stem": "Why does PRINCE2 suggest that escalation may be carried out in two steps?",
     "answer": "Because an exception report takes time to assemble, so the board is warned early and then receives it",
     "distractors": [
       "Because the board must approve the exception report before the project manager writes it",
       "Because an exception report may only be raised once the tolerance has actually been breached",
-      "Because the business layer must be told before the project board is informed, and then the board",
+      "Because the business layer must be told before the project board is informed",
       "Because the team manager must replan the affected work package first, and the project manager approve it",
-      "Because the two steps mirror the actuals and forecasts in the stage plan, and the project log entries",
+      "Because the two steps mirror the actuals and forecasts in the stage plan",
       "Because the project manager must seek the board's advice before analyzing the deviation"
     ],
     "explanation": "Gathering the evidence for an exception report takes time, so the manual recommends alerting the board to the forecast exception situation as early as possible and following it with the report. Early warning gives more time to implement corrective action.",
@@ -519,11 +519,11 @@
     "answer": "An exception report giving the situation, the options and a recommendation, on which the board decides",
     "distractors": [
       "A highlight report describing the deviation, which the board notes for information only",
-      "An end stage report, which the board approves before the next stage is planned, and the plan issued",
-      "An issue report, which the board forwards to the business layer for a decision, and the log updated",
+      "An end stage report, which the board approves before the next stage is planned",
+      "An issue report, which the board forwards to the business layer for a decision",
       "A checkpoint report, which the board uses to reset the stage tolerances, and the work packages",
-      "A revised business case, which the board approves before any recovery work starts, and funds, in full",
-      "A work package description, which the board authorizes in place of the project manager, and signs"
+      "A revised business case, which the board approves before any recovery work starts, and funds",
+      "A work package description, which the board authorizes in place of the project manager"
     ],
     "explanation": "The exception report sets out the situation, the recovery options and the project manager's recommendation, and the board then decides what to do. The board is free to support or reject the recommendation, and the project manager executes the decision.",
     "source": "p.258"
@@ -572,12 +572,12 @@
     "section": "16.5.1",
     "topic": "Collaborative working",
     "difficulty": 2,
-    "stem": "How does the manual describe the relationship between the project manager, project support and team managers during this process?",
+    "stem": "How does PRINCE2 describe the relationship between the project manager, project support and team managers during this process?",
     "answer": "Collaborative, with the project manager facilitating rather than assigning, so ownership improves",
     "distractors": [
       "Directive, with the project manager instructing team managers on how each task should be performed",
       "Independent, with each role reporting its own progress directly to the project board",
-      "Contractual, with the relationship governed only by the work package description, and the supplier's terms",
+      "Contractual, with the relationship governed only by the work package description",
       "Hierarchical, with project support directing team managers on the project manager's behalf",
       "Optional, with collaboration needed only where the supplier is externally contracted",
       "Competitive, with team managers bidding for the next work package, and the project manager choosing"
@@ -591,15 +591,15 @@
     "section": "16.5.2",
     "topic": "Tailoring roles",
     "difficulty": 2,
-    "stem": "The project manager lacks the specialist knowledge to define the products and method statements in a work package description. What does the manual allow?",
+    "stem": "The project manager lacks the specialist knowledge to define the products and method statements in a work package description. What does PRINCE2 allow?",
     "answer": "The work may be delegated, for example to the team manager or specialists, but the manager retains responsibility",
     "distractors": [
-      "Responsibility passes to the team manager, who becomes accountable for the description, and the plan",
-      "The work package description must be written by project assurance to keep it independent, and signed by the board",
-      "The specialist content may be left out until the team manager starts the work, and added later, if needed",
-      "The project board must approve the description before any delegation happens, and then sign it, in full",
+      "Responsibility passes to the team manager, who becomes accountable for the description",
+      "The work package description must be written by project assurance to keep it independent",
+      "The specialist content may be left out until the team manager starts the work, and added later",
+      "The project board must approve the description before any delegation happens, and then sign it",
       "The work package is not needed where the project manager lacks the expertise, and the team manager decides",
-      "The description is replaced by the relevant section of the project plan, and the stage plan, in turn"
+      "The description is replaced by the relevant section of the project plan, and the stage plan"
     ],
     "explanation": "PRINCE2 shows the project manager as responsible for creating the new management products but allows the tasks to be delegated while responsibility is retained. The project manager's role becomes making sure the content is properly defined, reviewed and assured for the stage plan's needs.",
     "source": "p.259"
@@ -646,15 +646,15 @@
     "section": "16.7",
     "topic": "Business case application",
     "difficulty": 1,
-    "stem": "What does the manual say about the business case while a stage is being controlled?",
+    "stem": "What is true of the business case while a stage is being controlled?",
     "answer": "It is checked regularly to confirm that it remains viable, and the board must be told if not",
     "distractors": [
       "It is re-baselined at each stage boundary by the project manager, and approved by the project board",
-      "It is reviewed only when the project board asks for an exception plan, and then by the executive alone",
+      "It is reviewed only when the project board asks for an exception plan",
       "It is delegated to the team managers, who confirm the benefits after handover",
       "It is updated whenever a work package is authorized, to show the spend to date",
       "It is checked once, when the stage plan is approved by the board, and then filed with the plan",
-      "It is replaced by the benefits management approach once delivery starts, and the board is told of it"
+      "It is replaced by the benefits management approach once delivery starts"
     ],
     "explanation": "The business case practice is applied by checking viability regularly during the stage, with the board informed if the justification no longer holds. The benefits and sustainability management approaches are also applied, and their requirements are built into the stage's work package descriptions.",
     "source": "p.260"

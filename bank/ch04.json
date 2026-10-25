@@ -5,7 +5,7 @@
     "section": "4.1",
     "topic": "Definition of a practice",
     "difficulty": 1,
-    "stem": "How does the manual define a PRINCE2 practice?",
+    "stem": "What is a PRINCE2 practice?",
     "answer": "An area of project management that has to be addressed in the same way at every point of the project's lifecycle",
     "distractors": [
       "A step in the project lifecycle that is performed once at a defined point and then signed off by the board",
@@ -66,9 +66,9 @@
     "answer": "Because projects are cross-functional, so accountability and delivery must be assigned within a temporary team",
     "distractors": [
       "Because line managers are not permitted to fund any project work, release staff, or take part in a project",
-      "Because the project board must approve every appointment to a project role, set its pay, and review its performance",
+      "Because the project board must approve every appointment to a project role, set its pay",
       "Because suppliers sit outside the organization and cannot be managed, so contracts must replace all management",
-      "Because the project manager reports to the business layer rather than to line managers, and so needs its own structure",
+      "Because the project manager reports to the business layer rather than to line managers",
       "Because project roles are permanent and must be resourced by the business, which then funds and staffs them",
       "Because the executive must delegate all delivery work to the senior user, and the project manager must report to both"
     ],
@@ -84,7 +84,7 @@
     "stem": "The project board wants to know whether the plan can still be achieved and whether the project should continue. Which practice provides this, and on what does it rely?",
     "answer": "Progress, using a mixture of event-based and time-based controls to monitor performance and escalate deviations",
     "distractors": [
-      "Plans, using the stage plan and team plan to show how the objectives will be met, and by whom",
+      "Plans, using the stage plan and team plan to show how the objectives will be met",
       "Issues, using the issue register to respond to deviations from the plan and to record the decisions made",
       "Quality, using quality control activities to confirm that products meet their criteria and are fit for purpose",
       "Business case, using benefits reviews to confirm that the investment is still worthwhile and the benefits still achievable",
@@ -100,11 +100,11 @@
     "section": "4.1",
     "topic": "Integration of the practices",
     "difficulty": 2,
-    "stem": "What does the manual identify as the particular strength of PRINCE2 in relation to the seven practices?",
+    "stem": "What is the particular strength of PRINCE2 in relation to the seven practices?",
     "answer": "The way the seven practices are integrated, both in how they link together and in how they are used",
     "distractors": [
-      "The way each practice can be applied in isolation by a specialist team, and omitted where not needed",
-      "The way the practices replace the principles when a project is tailored, and the processes when it is simple",
+      "The way each practice can be applied in isolation by a specialist team",
+      "The way the practices replace the principles when a project is tailored",
       "The way each practice has its own management product and technique, and its own owner on the board",
       "The way practices may be omitted on small or simple projects, and added back when risk increases again",
       "The way the processes describe the practices in more detail than the practice chapters do",
@@ -142,7 +142,7 @@
     "answer": "Nothing is prescribed about format or detail; the project board decides the documentation it needs",
     "distractors": [
       "A single reference document is required, approved by the executive before initiation",
-      "A comprehensive instruction manual is required for every practice on every project, and must be signed by the board",
+      "A comprehensive instruction manual is required for every practice on every project",
       "The project manager chooses the format, and the board approves it at each stage boundary",
       "The programme office prescribes the format, and the project may vary only the content",
       "PRINCE2 provides a template for each approach, which may be shortened but not restructured",
@@ -157,15 +157,15 @@
     "section": "4.2",
     "topic": "Applying all seven practices",
     "difficulty": 3,
-    "stem": "A small, low-risk project team proposes to drop two practices because the project is simple. What is the manual's position?",
+    "stem": "A small, low-risk project team proposes to drop two practices because the project is simple. What is PRINCE2's position?",
     "answer": "All seven practices should be applied; they vary only in how they are applied, according to scale, risk and complexity",
     "distractors": [
-      "Practices may be dropped if the project board records the decision in the project log, and tailoring is noted",
-      "Practices may be dropped on projects that are not part of a programme, are low in risk, and are short",
-      "Only the practices that have management products need to be applied, and the rest, by agreement, may be left out",
+      "Practices may be dropped if the project board records the decision in the project log",
+      "Practices may be dropped on projects that are not part of a programme, are low in risk",
+      "Only the practices that have management products need to be applied, and the rest, by agreement",
       "Practices may be replaced by equivalent techniques from the chosen delivery method, if the board agrees",
       "All seven must be applied with the same degree of formality on every project, whatever its scale, risk, or complexity",
-      "A practice may be dropped only if its tolerance has been set to zero, the board agrees, and the risk is low"
+      "A practice may be dropped only if its tolerance has been set to zero, the board agrees"
     ],
     "explanation": "The manual states that all seven practices should be applied in a project, while the way they are applied varies with scale, risk, the people and organizations involved, and complexity. That variation keeps the method consistent with the seven principles; it is not a licence to omit a practice.",
     "source": "p.52"
@@ -176,7 +176,7 @@
     "section": "4.3",
     "topic": "Products relevant to most practices",
     "difficulty": 1,
-    "stem": "Which two management products does the manual single out as relevant to the majority of the practices?",
+    "stem": "Which two management products does PRINCE2 single out as relevant to the majority of the practices?",
     "answer": "The project initiation documentation and the project log",
     "distractors": [
       "The business case and the risk register",
@@ -220,9 +220,9 @@
       "It is frozen at the end of initiation, and replaced by a new stage plan at the start of each following stage",
       "It is rewritten at each stage boundary, and the previous version is discarded once the board has approved the new one",
       "It is updated continuously, and the latest version replaces the authorizing baseline as soon as it is approved",
-      "It is reviewed only at project closure, when the end project report supersedes it, and the baseline is discarded",
-      "Only the business case within it is updated, because the rest was approved once, and the board will not revisit it",
-      "It is re-baselined at closure so that reported performance matches the plan, and the earlier versions are discarded"
+      "It is reviewed only at project closure, when the end project report supersedes it",
+      "Only the business case within it is updated, because the rest was approved once",
+      "It is re-baselined at closure so that reported performance matches the plan"
     ],
     "explanation": "The documentation is a living product that should reflect the current status, plans and controls, so each component is reviewed for currency at every stage end and changed in a structured way if required. The baseline version used to gain authorization is always preserved, because it is the reference against which performance is later assessed.",
     "source": "p.53"
@@ -236,12 +236,12 @@
     "stem": "What is the purpose of the project log?",
     "answer": "To keep a live record of all the issues, lessons, risks and other items arising on the project",
     "distractors": [
-      "To describe how the project will be directed, managed and delivered, and by whom it is controlled",
+      "To describe how the project will be directed, managed and delivered",
       "To provide the single source of reference about the project, for people joining it and for auditors",
       "To record the board's decisions, the tolerances it has set, and the escalation routes it requires",
-      "To hold the baseline version of the project initiation documentation, and each later approved version",
+      "To hold the baseline version of the project initiation documentation",
       "To list the management approaches, the responsibilities for each, and the people who approve them",
-      "To summarize the project's performance, the lessons learned, and the benefits expected, for the end project report"
+      "To summarize the project's performance, the lessons learned, and the benefits expected"
     ],
     "explanation": "The project log is dynamic, holding the current and historic record of issues, lessons, products, quality, risk and other formal or informal actions. It may be a single document or, more commonly, a collection of logs and registers; being the single source of reference for new joiners is a use of the project initiation documentation.",
     "source": "p.53"
@@ -252,10 +252,10 @@
     "section": "4.4",
     "topic": "Two types of technique",
     "difficulty": 3,
-    "stem": "A team wants to replace product-based planning with its own scheduling method. What does the manual say about substituting techniques?",
+    "stem": "A team wants to replace product-based planning with its own scheduling method. What does PRINCE2 say about substituting techniques?",
     "answer": "Replacing a PRINCE2-specific technique requires tailoring, whereas context-specific techniques may be substituted freely",
     "distractors": [
-      "Any technique may be substituted provided the project board approves the change and the log records it, whatever its type",
+      "Any technique may be substituted provided the project board approves the change and the log records it",
       "Additional techniques may be substituted only if a PRINCE2-specific technique is retained in their place",
       "All techniques are optional, because techniques are guidance rather than part of the method",
       "Substitution is permitted only where the project uses an agile delivery method, and the board has approved the change",

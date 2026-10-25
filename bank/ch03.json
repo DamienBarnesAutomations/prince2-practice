@@ -24,7 +24,7 @@
     "section": "3.1",
     "topic": "Organizational ecosystem",
     "difficulty": 1,
-    "stem": "How does the manual define the organizational ecosystem?",
+    "stem": "What is the organizational ecosystem?",
     "answer": "The organization's internal elements together with its external relationships, such as customers, partners and suppliers",
     "distractors": [
       "The elements of the business involved in or directly impacted by the project, with its users and suppliers, but not its regulators",
@@ -48,7 +48,7 @@
     "distractors": [
       "The internal elements of the organization together with all of its external relationships, such as customers and regulators",
       "The whole organization plus its customers, partners, regulators and competitors",
-      "The permanent business organization within which the project is being delivered, and the line managers who run it",
+      "The permanent business organization within which the project is being delivered",
       "The supplier organizations engaged to provide specialist project skills, together with the contracts that govern them",
       "The business, user and supplier interests represented on the project board",
       "Every group that perceives itself to be affected by the project, whether or not it holds any formal role"
@@ -62,7 +62,7 @@
     "section": "3.1",
     "topic": "Decisions at the best level",
     "difficulty": 2,
-    "stem": "According to the manual, when should a decision be escalated rather than taken locally?",
+    "stem": "When should a decision be escalated rather than taken locally?",
     "answer": "When the impact on other parts of the ecosystem must be considered, or wider political implications managed",
     "distractors": [
       "Whenever the decision commits any of the project's financial budget, whatever the amount involved",
@@ -76,31 +76,12 @@
     "source": "p.32"
   },
   {
-    "id": "ch03-005",
-    "set": "ch03",
-    "section": "3.1",
-    "topic": "Decisions at the best level",
-    "difficulty": 3,
-    "stem": "In the Findef scenario, which body must be involved when additional change would exceed 20 per cent of the original programme budget?",
-    "answer": "The investment committee, which retains authority over programme finances",
-    "distractors": [
-      "The programme board, which agrees programme tolerances and signs off each tranche",
-      "The project board, which handles operational matters in the individual projects",
-      "The leadership board, which takes strategic decisions at the top of the hierarchy",
-      "The programme office, which administers the governance calendar",
-      "The project manager, acting within the delegated financial tolerance",
-      "The end-user market steering group, which owns the move away from B2B only"
-    ],
-    "explanation": "Findef's four governance layers each hold a different level of authority: the programme board handles programme tolerances and tranches, while any change above 20 per cent of the original programme budget moves to the investment committee. The leadership board is reserved for strategic decisions such as entering a new market or adopting a new technology.",
-    "source": "p.34"
-  },
-  {
     "id": "ch03-006",
     "set": "ch03",
     "section": "3.2.1",
     "topic": "Change management",
     "difficulty": 1,
-    "stem": "How does PRINCE2 define change management?",
+    "stem": "What is change management in PRINCE2?",
     "answer": "How an organization moves from its current state to its target state",
     "distractors": [
       "The means by which a project's products are handed over to the business",
@@ -123,10 +104,10 @@
     "answer": "It is part of the initiation documentation and establishes the target state and the means of shifting",
     "distractors": [
       "It is part of the project brief and records the shared understanding reached with the key influencers during start-up",
-      "It is part of the business case and explains how the project's benefits will be measured, reviewed and reported",
+      "It is part of the business case and explains how the project's benefits will be measured",
       "It is part of the project plan and sets out the sequence of products and activities, with the dependencies between them",
       "It is a stand-alone document produced at the end of the project, to record the transition and the lessons learned",
-      "It sits within the communication management approach and defines stakeholder messaging, channels and timing",
+      "It sits within the communication management approach and defines stakeholder messaging",
       "It is part of the project log and records requests for change raised during the stage and their outcomes"
     ],
     "explanation": "The change management approach is part of the project initiation documentation. Its stated purpose is to establish the target organizational state required for the project to meet its objectives, together with the means by which the business will shift from the current state and through any interim states.",
@@ -157,7 +138,7 @@
     "section": "3.2.1",
     "topic": "Transition options",
     "difficulty": 2,
-    "stem": "When considering how best to transition to the target state, which options does the manual give?",
+    "stem": "When considering how best to transition to the target state, which options does PRINCE2 give?",
     "answer": "Learning or upskilling, transferring knowledge from the project team, or recruiting new people into the business",
     "distractors": [
       "Extending the project by a stage, seeking additional funding from the board, or delaying the handover",
@@ -195,7 +176,7 @@
     "section": "3.2.2",
     "topic": "Stakeholders",
     "difficulty": 1,
-    "stem": "How does PRINCE2 define a stakeholder?",
+    "stem": "What is a stakeholder in PRINCE2?",
     "answer": "Any individual, group or organization that can affect or be affected by the project, including by perception",
     "distractors": [
       "Any person who holds a formal role in the project management team, whatever the stage of the project",
@@ -233,15 +214,15 @@
     "section": "3.2.2",
     "topic": "Key influencers",
     "difficulty": 2,
-    "stem": "Which approach does the manual suggest for identifying key influencers?",
+    "stem": "Which approach does PRINCE2 suggest for identifying key influencers?",
     "answer": "Looking at the bottlenecks where information, knowledge and money cross organizational interfaces",
     "distractors": [
-      "Selecting the most senior person in each department touched by the project, and their deputies",
-      "Using the organization chart to list everyone with a formal project role, and their managers",
-      "Asking the project board to nominate representatives from each business area, and from suppliers",
-      "Reviewing the stakeholder list from a previous project of similar size, and updating its names",
+      "Selecting the most senior person in each department touched by the project",
+      "Using the organization chart to list everyone with a formal project role",
+      "Asking the project board to nominate representatives from each business area",
+      "Reviewing the stakeholder list from a previous project of similar size",
       "Ranking stakeholders by the size of the budget they control, and by how long they have served",
-      "Inviting the whole organizational ecosystem to a single briefing event, and recording who attends"
+      "Inviting the whole organizational ecosystem to a single briefing event"
     ],
     "explanation": "The manual points to the points where information, knowledge and money flow across interfaces, naming roles such as document controllers, technical experts and commercial managers. Seniority and formal position are not reliable guides, because influence often sits with people who hold practical knowledge.",
     "source": "p.36"
@@ -252,15 +233,15 @@
     "section": "3.2.2",
     "topic": "Three project interests",
     "difficulty": 3,
-    "stem": "Figure 3.2 shows the business, user and supplier interests as bubbles of varying size. Why does the manual say the sizes vary?",
+    "stem": "The business, user and supplier interests can be drawn as bubbles of varying size. Why do the sizes vary?",
     "answer": "Because where each interest sits between the project and organizational ecosystems differs between projects",
     "distractors": [
       "Because the business interest always outweighs the supplier interest, and the user interest is smaller still",
-      "Because user representation on the board grows as the project nears closure, and supplier representation shrinks",
+      "Because user representation on the board grows as the project nears closure",
       "Because supplier interests are always external to the organizational ecosystem, whereas the other two are internal",
       "Because the number of stakeholders increases at every stage boundary and the bubbles expand to reflect it",
       "Because the three interests take turns leading the project as it progresses from one stage to the next",
-      "Because the project ecosystem expands to absorb the whole organization over time, and the bubbles grow with it"
+      "Because the project ecosystem expands to absorb the whole organization over time"
     ],
     "explanation": "The manual notes that for some projects most users sit in the organizational ecosystem, while for others all suppliers sit inside the project ecosystem because they are engaged only for that project. Understanding where each interest sits helps decide how it will be represented and engaged.",
     "source": "p.37"
@@ -271,14 +252,14 @@
     "section": "3.2.2",
     "topic": "Relationship building",
     "difficulty": 2,
-    "stem": "How does the manual suggest a project should support relationship building across its interfaces with the organization?",
+    "stem": "How does PRINCE2 suggest a project should support relationship building across its interfaces with the organization?",
     "answer": "By holding regular meetings and working groups where perspectives and project data are shared",
     "distractors": [
-      "By holding a single kick-off event for all stakeholders at the start, and a closing event at the end",
+      "By holding a single kick-off event for all stakeholders at the start",
       "By issuing formal written reports, signed by the executive, to all stakeholders at each stage boundary",
-      "By restricting contact to the named representatives on the project board, and to the project manager",
-      "By rotating project team members between stakeholder groups each month, and sharing their notes",
-      "By delegating all stakeholder contact to the project support office, and publishing a contact list",
+      "By restricting contact to the named representatives on the project board",
+      "By rotating project team members between stakeholder groups each month",
+      "By delegating all stakeholder contact to the project support office",
       "By publishing the project plan, the stage plan and the risk register so stakeholders can track progress"
     ],
     "explanation": "The manual describes regular meetings and working groups as the way to build a shared understanding of different perspectives, the project data and knowledge agreed by stakeholders. A one-off event or one-way reporting does not create that continuing shared understanding.",
@@ -290,15 +271,15 @@
     "section": "3.2.3",
     "topic": "Culture",
     "difficulty": 1,
-    "stem": "How does the manual define culture?",
+    "stem": "What is culture?",
     "answer": "The set of shared attitudes, values, goals and ways of working that characterize a group of people",
     "distractors": [
       "The means by which an organization moves from its current state to its target state",
       "The formal hierarchy of roles, responsibilities and reporting lines in an organization or its projects",
       "The agreed standards, processes and templates that a project must follow, and the tolerances it works within",
-      "The behavior that senior leaders model for the rest of the organization, and that staff are expected to copy",
-      "The shared understanding of the project captured in the project brief, and agreed by the key influencers",
-      "The capability to relate and work across different organizational groups, and to build trust between them"
+      "The behavior that senior leaders model for the rest of the organization",
+      "The shared understanding of the project captured in the project brief",
+      "The capability to relate and work across different organizational groups"
     ],
     "explanation": "Culture is defined through shared attitudes, values, goals and ways of working. The shared understanding in the project brief helps set the project's culture, and the capability to work across groups is cultural intelligence, but neither is the definition itself.",
     "source": "p.38"
@@ -347,7 +328,7 @@
     "section": "3.2.3",
     "topic": "Culture and ways of working",
     "difficulty": 3,
-    "stem": "The team consistently ignores an agreed project process. What does the manual suggest this most likely indicates?",
+    "stem": "The team consistently ignores an agreed project process. What does PRINCE2 suggest this most likely indicates?",
     "answer": "That the agreed ways of working have become unaligned with the emerging project culture, worth exploring",
     "distractors": [
       "That individual team members are displaying poor behavior and need disciplining by the project manager",
@@ -385,15 +366,15 @@
     "section": "3.3",
     "topic": "Leadership",
     "difficulty": 1,
-    "stem": "How does PRINCE2 define leadership on a project?",
+    "stem": "What is leadership on a project in PRINCE2?",
     "answer": "Motivating people to achieve the project's objectives, best done through collaboration and persuasion",
     "distractors": [
       "Instructing the execution of tasks, in line with agreed ways of working, and checking the results",
       "Directing the project board to make decisions within set tolerances, and to escalate exceptions promptly",
       "Allocating people to roles according to their capability, availability and cost, and reviewing the allocation",
-      "Ensuring all project documentation is produced to the required standard, approved and filed, on time",
+      "Ensuring all project documentation is produced to the required standard, approved and filed",
       "Controlling changes to the project's baselines and tolerances, and reporting them to the board",
-      "Reporting progress to the business layer at each stage boundary, and escalating exceptions, as needed"
+      "Reporting progress to the business layer at each stage boundary, and escalating exceptions"
     ],
     "explanation": "Leadership is defined as motivating people to achieve the project's objectives, and the manual adds that on projects this is best done through collaboration, persuasion, influence and co-creation. Instructing the execution of tasks is the definition of management, not leadership.",
     "source": "p.39"
@@ -411,7 +392,7 @@
       "Instructing the execution of tasks in line with agreed ways of working, and checking the results afterwards",
       "Motivating people to achieve the project's objectives through persuasion, and recognizing their contribution",
       "Bringing the team together physically to build social cohesion, and to speed up everyday decisions",
-      "Consulting stakeholders on the content of the communication management approach, and recording their views",
+      "Consulting stakeholders on the content of the communication management approach",
       "Assigning roles and responsibilities that reflect people's capabilities, and agreeing them with the board"
     ],
     "explanation": "Co-creation is a specific form of collaboration, with the distinguishing feature that users and key influencers help design the products and the ways of working so that the result is adopted. The first option is the broader definition of collaboration, which does not by itself require involvement in design.",
@@ -431,7 +412,7 @@
       "Because suppliers cannot be given instructions by the project manager, and the contract forbids any contact",
       "Because PRINCE2 roles are always aligned to people's job titles, so authority is always clear and fixed",
       "Because team members are always less senior than the project manager, so persuasion is more polite",
-      "Because remuneration and career progression sit within the project manager's remit, and are fixed in advance"
+      "Because remuneration and career progression sit within the project manager's remit"
     ],
     "explanation": "A project manager does hold formal authority within the tolerances set by the board, but temporary teams, multiple reporting lines and part-time assignments mean influence and aligned interests carry much of the load. The manual also notes that team members may be more senior than the project manager, not less.",
     "source": "p.39"
@@ -442,7 +423,7 @@
     "section": "3.3",
     "topic": "Motivational limits",
     "difficulty": 2,
-    "stem": "Which pair of motivational factors does the manual identify as usually outside a project manager's remit?",
+    "stem": "Which pair of motivational factors does PRINCE2 identify as usually outside a project manager's remit?",
     "answer": "Remuneration and career progression of team members",
     "distractors": [
       "Recognition and feedback on performance",
@@ -480,7 +461,7 @@
     "section": "3.3.1",
     "topic": "Working across cultures",
     "difficulty": 2,
-    "stem": "Which of these does the manual list as necessary for successfully working across cultures?",
+    "stem": "Which of these does PRINCE2 list as necessary for successfully working across cultures?",
     "answer": "Agreeing clear boundaries for the project within which people are free to adapt their approach",
     "distractors": [
       "Removing boundaries from the project so that people can adapt freely to the local practice of each site",
@@ -500,13 +481,13 @@
     "topic": "Working beyond project scope",
     "difficulty": 3,
     "stem": "Benefiting activities sit outside the defined project scope but must happen for the project to succeed. What must the project ensure?",
-    "answer": "That the dependencies, who is responsible, and how the activities will be funded are clearly understood",
+    "answer": "That the dependencies, who is responsible, and how the activities are funded are understood",
     "distractors": [
-      "That the activities are added to the project's product breakdown structure and planned",
-      "That the project board approves each activity before it begins, records the decision",
+      "That the activities are added to the project's product breakdown structure, planned, and then monitored",
+      "That the project board approves each activity before it begins, records the decision, and monitors delivery",
       "That the activities are recorded as risks in the risk register, assigned owners, and reviewed each stage",
       "That the project manager takes direct control of the activities, reports on them, and funds them",
-      "That the activities are deferred until after project closure, handed to the business",
+      "That the activities are deferred until after project closure, handed to the business, and then reviewed",
       "That the communication management approach covers each activity, its owner, and the people affected"
     ],
     "explanation": "Where such work falls outside the defined scope, the manual requires a clear understanding of the dependencies on it, who is responsible for doing it, and how it will be funded and monitored. Without that, projects can be delayed or fail to achieve their benefits.",
@@ -518,7 +499,7 @@
     "section": "3.3.2",
     "topic": "Building effective teams",
     "difficulty": 1,
-    "stem": "What does an effective project team require, according to the manual?",
+    "stem": "What does an effective project team require?",
     "answer": "A diverse set of capabilities, competencies and perspectives that match the project's requirements",
     "distractors": [
       "A single strong leader supported by a uniform set of generalist skills, rather than a mix of specialists",
@@ -542,7 +523,7 @@
     "distractors": [
       "Team members are protected from any change to their working arrangements, and from any extra workload",
       "The project manager guarantees that no one is held accountable for errors, and that blame is never assigned",
-      "Team members' personal wellbeing is handled by a dedicated HR representative, and reported to the board",
+      "Team members' personal wellbeing is handled by a dedicated HR representative",
       "All team members receive the same training and development opportunities, whatever their role or grade",
       "The team is co-located so that people can see each other's behavior, and respond to it immediately",
       "Confidential concerns are escalated directly to the project board, and handled outside the team"
@@ -598,7 +579,7 @@
     "answer": "By people meeting purposefully and regularly, building trust across organizational and project silos",
     "distractors": [
       "By issuing regular written progress reports, signed by the manager, to the whole team and the board",
-      "By ensuring all team members report to the same line manager, share a budget, and use the same tools",
+      "By ensuring all team members report to the same line manager, share a budget",
       "By holding one team-building event at the start of the project, and a second event at its closure",
       "By standardizing everyone's ways of working, tools and templates across the organization and its suppliers",
       "By keeping social contact separate from project work, and discouraging informal conversation in meetings",
@@ -613,7 +594,7 @@
     "section": "3.3.3",
     "topic": "Virtual teams",
     "difficulty": 2,
-    "stem": "Which activity does the manual recommend specifically to build social cohesion in virtual or hybrid teams?",
+    "stem": "Which activity does PRINCE2 recommend specifically to build social cohesion in virtual or hybrid teams?",
     "answer": "Away days for virtual teams and co-location days for key staff",
     "distractors": [
       "Relying on unstructured conversations in corridors and communal kitchens",
@@ -632,7 +613,7 @@
     "section": "3.3.3",
     "topic": "Co-location",
     "difficulty": 3,
-    "stem": "Why does the manual suggest considering co-location of an office-based project team?",
+    "stem": "Why does PRINCE2 suggest considering co-location of an office-based project team?",
     "answer": "Because organic relationship building happens in unstructured activities, and good relationships build resilience",
     "distractors": [
       "Because co-location reduces the cost of communication tools and platforms, and removes the need for travel",
@@ -655,7 +636,7 @@
     "answer": "To define the means and frequency of communication with, and feedback from, the project ecosystem",
     "distractors": [
       "To record the stakeholder analysis, the key messages, and the channels used on the project",
-      "To establish the target organizational state, and how the business will reach it, step by step",
+      "To establish the target organizational state, and how the business will reach it",
       "To define the roles, responsibilities, and relationships of the project management team members",
       "To describe how the project's products will be verified, validated, and accepted by the users",
       "To set out the tolerances, the escalation routes, and the limits within which the manager may operate",
@@ -670,7 +651,7 @@
     "section": "3.4",
     "topic": "Listening",
     "difficulty": 2,
-    "stem": "The manual says the communication management approach is as much about listening as broadcasting. What follows from this?",
+    "stem": "PRINCE2 says the communication management approach is as much about listening as broadcasting. What follows from this?",
     "answer": "It seeks to understand perceptions and concerns so they can be addressed before they become significant risks",
     "distractors": [
       "It requires all communication to flow through a single central channel, controlled by the project manager",
@@ -689,7 +670,7 @@
     "section": "3.4",
     "topic": "Tailored messaging",
     "difficulty": 2,
-    "stem": "Why does the manual say generic messaging is rarely effective?",
+    "stem": "Why does PRINCE2 say generic messaging is rarely effective?",
     "answer": "Because people obtain information from a variety of channels, so messaging must be tailored to each",
     "distractors": [
       "Because stakeholders prefer to receive information only in writing, and will ignore other formats",
@@ -750,11 +731,11 @@
     "answer": "To keep wider communications to a minimum until the project is better defined, limiting misinformation",
     "distractors": [
       "To prevent stakeholders from giving feedback until the board has approved the plan",
-      "To allow the project team to work without a communication management approach, and with no reporting",
+      "To allow the project team to work without a communication management approach",
       "To delay communication until the project's benefits have been realized, and the board has reviewed them",
       "To restrict communication to the supplier community during procurement, and to the legal team after it",
       "To avoid documenting decisions until the end of the current stage, and then record them in one batch",
-      "To keep the project's existence secret from the organizational ecosystem, and from the programme"
+      "To keep the project's existence secret from the organizational ecosystem"
     ],
     "explanation": "A quiet phase develops the project with a smaller group of key influencers and keeps wider communications minimal until it is better defined, which limits misinformation and rumors. It is used especially where the project is politically sensitive or of public interest, not as a way to avoid feedback altogether.",
     "source": "p.44"
@@ -769,7 +750,7 @@
     "answer": "Because reporting can be biased, as people present information in line with what is expected",
     "distractors": [
       "Because reports are usually produced too late to influence decisions, and are then filed unread by the board",
-      "Because the project board does not read reports in sufficient detail, and relies on verbal updates instead",
+      "Because the project board does not read reports in sufficient detail",
       "Because reports are written by the supplier rather than the business, so they omit the business view",
       "Because reporting formats vary between projects and stages, so results cannot be compared directly",
       "Because reports cannot capture information about risks and issues, which are held only in the logs",
@@ -801,7 +782,7 @@
     "section": "3.5",
     "topic": "People and the method",
     "difficulty": 1,
-    "stem": "Which three people-focused activities does the manual identify as central to the PRINCE2 method?",
+    "stem": "Which three people-focused activities are central to the PRINCE2 method?",
     "answer": "Leading successful change, leading successful teams and communication",
     "distractors": [
       "Organizing, planning and controlling progress across the project's stages",
@@ -846,7 +827,7 @@
       "Stage boundaries fix the team's roles, and the relationships between them, so that nothing can change during delivery",
       "Stage boundaries ensure that the same people remain on the project, and that the team is never reviewed, until closure",
       "Stage boundaries remove the need to review key relationships during a stage, and so reduce management effort",
-      "Stage boundaries transfer responsibility for people factors to the business layer, and release the project manager",
+      "Stage boundaries transfer responsibility for people factors to the business layer",
       "Stage boundaries confirm that the project culture matches the organization's, and that no change is needed"
     ],
     "explanation": "Each stage boundary often marks a change in influencers, key relationships and organizational design, so it is a controlled moment to review the skills needed and adjust the team. The aim is to have the right people, not to preserve the same people throughout.",
@@ -877,13 +858,13 @@
     "section": "3.5.1",
     "topic": "Business justification",
     "difficulty": 3,
-    "stem": "Why does the manual describe the communication management approach as a key enabler of continued business justification?",
+    "stem": "Why does PRINCE2 describe the communication management approach as a key enabler of continued business justification?",
     "answer": "Because justification can be perception-based, so managing relationships and showing progress sustains value",
     "distractors": [
-      "Because the business case must be re-approved at every project board meeting, and communication supplies the evidence",
-      "Because the communication management approach contains the benefits review plan, and the justification for the stage",
+      "Because the business case must be re-approved at every project board meeting",
+      "Because the communication management approach contains the benefits review plan",
       "Because stakeholders vote on whether the project should continue, and the communication approach records the result",
-      "Because justification is measured only through stakeholder satisfaction surveys, and the results are reported monthly",
+      "Because justification is measured only through stakeholder satisfaction surveys",
       "Because the board delegates the business case to the communications manager, and the manager sustains its value",
       "Because perceived value removes the need for a documented business case, and so reduces the cost of governance"
     ],
@@ -896,14 +877,14 @@
     "section": "3.5.1",
     "topic": "Learn from experience",
     "difficulty": 2,
-    "stem": "Why does the manual say behaviors, culture and relationships are best learned through social learning?",
+    "stem": "Why does PRINCE2 say behaviors, culture and relationships are best learned through social learning?",
     "answer": "Because they are difficult to document, so people learn well by connecting with experienced people",
     "distractors": [
       "Because documented lessons are of no value to a project, and the lessons log is therefore never needed by the board",
       "Because social learning eliminates the need for a lessons log, and the board no longer reviews the lessons",
       "Because only senior managers can transfer cultural knowledge, and juniors learn it only from the manual",
       "Because formal training cannot address any people factors, and the project has no budget for training anyway",
-      "Because social learning is required by the 'focus on products' principle, and is audited by assurance",
+      "Because social learning is required by the 'focus on products' principle",
       "Because knowledge sharing is limited to the project board, and does not extend to the delivery teams"
     ],
     "explanation": "Behaviors, culture and relationships are hard to capture in documents, so the manual recommends social learning, such as connecting with people who worked on an earlier stage or a similar project. That sits alongside visible knowledge such as captured lessons, which the manual still values.",

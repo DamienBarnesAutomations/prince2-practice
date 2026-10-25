@@ -1,7 +1,8 @@
 {
   "version": 1,
   "edition": "PRINCE2 7",
-  "total": 873,
+  "total": 869,
+  "expectedSets": 21,
   "sets": [
     {
       "id": "ch01",
@@ -9,7 +10,7 @@
       "kind": "chapter",
       "title": "Introduction",
       "file": "bank/ch01.json",
-      "count": 20
+      "count": 19
     },
     {
       "id": "ch02",
@@ -25,7 +26,7 @@
       "kind": "chapter",
       "title": "People",
       "file": "bank/ch03.json",
-      "count": 50
+      "count": 49
     },
     {
       "id": "ch04",
@@ -81,7 +82,7 @@
       "kind": "chapter",
       "title": "Issues",
       "file": "bank/ch10.json",
-      "count": 50
+      "count": 49
     },
     {
       "id": "ch11",
@@ -89,7 +90,7 @@
       "kind": "chapter",
       "title": "Progress",
       "file": "bank/ch11.json",
-      "count": 60
+      "count": 59
     },
     {
       "id": "ch12",

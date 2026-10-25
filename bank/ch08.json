@@ -24,10 +24,10 @@
     "section": "8.1",
     "topic": "Definition of quality",
     "difficulty": 1,
-    "stem": "Which of these is the manual's definition of quality?",
+    "stem": "Which of these best describes quality?",
     "answer": "The degree to which a set of inherent characteristics of a product fulfils its requirements",
     "distractors": [
-      "A prioritized list of criteria that a product must meet before the user will accept it, in order",
+      "A prioritized list of criteria that a product must meet before the user will accept it",
       "The permissible deviation in a product's quality before it must be escalated to the next management level",
       "The measures that quality control will apply and the levels a finished product must reach",
       "A planned and systematic activity providing confidence that products will meet their specifications",
@@ -66,11 +66,11 @@
     "answer": "It falls outside the scope, because only needs captured in approved products are requirements",
     "distractors": [
       "It is a requirement, because all stakeholder expectations are in scope once they have been stated",
-      "It becomes a quality specification as soon as the project manager hears it, and must then be met",
+      "It becomes a quality specification as soon as the project manager hears it",
       "It must be added to the project product description before the workshop closes",
       "It is treated as an issue and escalated to the project board, because it threatens the baseline",
       "It is a risk, because unrecorded expectations may later cause dissatisfaction among the stakeholders",
-      "It is recorded in the lessons log for consideration in a later project, and in the risk register"
+      "It is recorded in the lessons log for consideration in a later project"
     ],
     "explanation": "A requirement is a need or expectation documented in an approved management product, and only documented needs form part of the project scope. The manual stresses that this distinction is essential to effective monitoring and control, so an unrecorded expectation must be captured through the proper route before it can be managed.",
     "source": "p.129"
@@ -81,7 +81,7 @@
     "section": "8.1.1",
     "topic": "Acceptance criteria",
     "difficulty": 1,
-    "stem": "Which of these is the definition of acceptance criteria?",
+    "stem": "Which of these best describes acceptance criteria?",
     "answer": "A prioritized list of criteria the project product must meet to be accepted",
     "distractors": [
       "A description of the measures to be applied by those performing quality control",
@@ -143,8 +143,8 @@
     "distractors": [
       "Because the project board must approve each requirement individually before work starts",
       "Because prioritization replaces the need for acceptance criteria in the project product description",
-      "Because suppliers are paid in proportion to the priority of each requirement, and not its cost",
-      "Because prioritization allows the project manager to avoid recording requirements, and so save effort",
+      "Because suppliers are paid in proportion to the priority of each requirement",
+      "Because prioritization allows the project manager to avoid recording requirements",
       "Because higher-priority requirements do not need quality control, and lower ones need more of it",
       "Because prioritization fixes the project's cost baseline at initiation, and cannot then be revisited"
     ],
@@ -214,7 +214,7 @@
     "section": "8.2.1",
     "topic": "Quality planning",
     "difficulty": 1,
-    "stem": "Which of these is the definition of quality planning?",
+    "stem": "Which of these best describes quality planning?",
     "answer": "Capturing quality specifications for the products and generating the associated product descriptions",
     "distractors": [
       "Monitoring the project's products and their delivery activities against relevant standards",
@@ -222,7 +222,7 @@
       "Deciding whether a delivered product is acceptable to the user, and recording the decision as a pass",
       "Agreeing the quality tolerances that the project board will approve, and the criteria they relate to",
       "Recording the results of quality control activities as pass or fail, and filing them with the report",
-      "Confirming that the project's quality procedures are being followed correctly, and are fit for purpose"
+      "Confirming that the project's quality procedures are being followed correctly"
     ],
     "explanation": "Quality planning captures the quality specifications for the products and produces the associated product descriptions and the quality management approach. The other options describe quality control, quality assurance or acceptance activities.",
     "source": "p.131"
@@ -240,7 +240,7 @@
       "To give the project board a basis for approving each quality control activity",
       "To remove the need for a quality management approach on small projects",
       "To ensure quality control results can be recorded directly in the project brief, not elsewhere",
-      "To let the supplier set its own quality specifications without reference to the user, if it prefers",
+      "To let the supplier set its own quality specifications without reference to the user",
       "To allow acceptance criteria to be changed without going through change control, if the board agrees"
     ],
     "explanation": "The manual says this coverage is crucial to avoid the introduction of requirements outside the approved scope when product descriptions are developed. The project product description should therefore identify the major products, the user's expectations and acceptance criteria, applicable standards and procedures, useful measurements and any quality tolerances.",
@@ -277,7 +277,7 @@
       "Apply a fixed percentage to each quality specification, and record it in the quality management approach, then review it",
       "Ask the supplier to propose tolerances, because it knows what can realistically be achieved",
       "Adopt the tolerances from the business's quality management system without adjustment",
-      "Set tolerances only after the first quality control activity has produced a result, and then fix them in the plan",
+      "Set tolerances only after the first quality control activity has produced a result",
       "Leave tolerances unset until the project board raises an exception at a stage boundary",
       "Derive tolerances from the cost of rework recorded in previous lessons logs, and from the supplier's rates"
     ],
@@ -314,9 +314,9 @@
     "distractors": [
       "As a separate sustainability plan appended to the project initiation documentation",
       "As a note in the business case's benefits section, outside the product descriptions",
-      "As a quality tolerance set by the business layer for the project as a whole, and applied to every product",
-      "As a responsibility of the acceptance authority rather than as a specification, and checked at handover",
-      "As a line in the lessons log recording environmental issues from earlier projects, and their causes",
+      "As a quality tolerance set by the business layer for the project as a whole",
+      "As a responsibility of the acceptance authority rather than as a specification",
+      "As a line in the lessons log recording environmental issues from earlier projects",
       "As an entry in the records section of the quality register, completed by the reviewer after each test"
     ],
     "explanation": "Product descriptions should include product sustainability requirements captured as quality specifications or acceptance criteria. Sustainability covers both the environmental impact of the product and the characteristics that let it sustain the realization of benefits over its expected lifetime, including decommissioning where that represents a significant part of the impact.",
@@ -355,7 +355,7 @@
       "It should be escalated to the business layer, because it affects the quality management system",
       "It should be added to the project product description as a new acceptance criterion",
       "It should be referred to the senior supplier, who owns all supplier testing decisions",
-      "It should be deferred to project closure and raised as a lessons-learned entry, and then forgotten"
+      "It should be deferred to project closure and raised as a lessons-learned entry"
     ],
     "explanation": "Stage and team plans may document individual quality control events such as testing in more detail to allow accurate estimating and scheduling. The project manager should take care not to introduce new requirements that cannot be traced back to the product descriptions and project product description, and changes to the baseline arising from lower-level planning go through issue management.",
     "source": "p.133"
@@ -366,7 +366,7 @@
     "section": "8.2.2",
     "topic": "Quality control",
     "difficulty": 1,
-    "stem": "Which of these is the definition of quality control?",
+    "stem": "Which of these best describes quality control?",
     "answer": "The procedures to monitor a project's products and their delivery activities to determine compliance with standards",
     "distractors": [
       "The planned and systematic activity that provides confidence products will meet their specifications when tested",
@@ -412,7 +412,7 @@
       "A new product is controlled by the project board, while a mature one is controlled by the supplier alone",
       "A new product requires quality assurance, while a mature one requires only project assurance",
       "A new product is exempt from the quality register until it enters full production, while a mature one is not",
-      "A new product needs acceptance criteria, while a mature one needs only quality specifications, set by the supplier"
+      "A new product needs acceptance criteria, while a mature one needs only quality specifications"
     ],
     "explanation": "Where development or delivery involves new design or production methods, quality control may involve evaluating both a prototype and the initial production method ahead of full-scale production. For a mature or commercial off-the-shelf product it may consist of no more than inspection at the point of delivery.",
     "source": "p.134"
@@ -429,7 +429,7 @@
       "It lists the products to be delivered and their current acceptance status",
       "It describes the quality standards, tools and techniques the project will use",
       "It holds the quality specifications and tolerances approved for each product",
-      "It records the lessons identified during the product quality lifecycle, and the actions that followed",
+      "It records the lessons identified during the product quality lifecycle",
       "It shows the budget allocated to each quality control activity, and the cost incurred to date",
       "It identifies which reviewers are independent of each producer, and which are not"
     ],
@@ -442,13 +442,13 @@
     "section": "8.2.3",
     "topic": "Quality assurance",
     "difficulty": 1,
-    "stem": "Which of these is the definition of quality assurance?",
+    "stem": "Which of these best describes quality assurance?",
     "answer": "A planned and systematic activity giving confidence that products will meet their quality specifications",
     "distractors": [
       "The procedures that monitor products and delivery activities against relevant standards, to determine compliance",
-      "The confirmation to the project board that the project is being conducted correctly, and on its behalf",
+      "The confirmation to the project board that the project is being conducted correctly",
       "The independent review of a product against the user's expectations and acceptance criteria, before handover",
-      "The capture of quality specifications and generation of the quality management approach, for each product",
+      "The capture of quality specifications and generation of the quality management approach",
       "The decision that a delivered product is acceptable to the user, taken by the acceptance authority",
       "The presentation of proof that a supplier meets industry requirements, as audited by an external body"
     ],
@@ -468,8 +468,8 @@
       "Quality assurance focuses on whether the project is being conducted correctly, while project assurance focuses on product specifications",
       "Quality assurance is performed by the project manager, while project assurance is performed by the team manager",
       "Quality assurance is independent of the project, while project assurance is independent of the project management team",
-      "Quality assurance is a single review at closure, while project assurance runs throughout the project, stage by stage",
-      "Quality assurance signs off product acceptance, while project assurance signs off the business case, stage by stage"
+      "Quality assurance is a single review at closure, while project assurance runs throughout the project",
+      "Quality assurance signs off product acceptance, while project assurance signs off the business case"
     ],
     "explanation": "Quality assurance is product-focused and independent of the project management team, typically performed by a function from the business. Project assurance is the project board's responsibility, used to confirm the project is being conducted correctly, and is independent of the project manager but not of the project.",
     "source": "p.135"
@@ -537,7 +537,7 @@
     "section": "8.3.1.1.2",
     "topic": "Creating product descriptions",
     "difficulty": 2,
-    "stem": "A project product description contains only a few user quality expectations. What does the manual say usually happens when they are translated?",
+    "stem": "A project product description contains only a few user quality expectations. What does PRINCE2 say usually happens when they are translated?",
     "answer": "A small number of expectations is often translated into dozens of quality specifications in a product description",
     "distractors": [
       "Each expectation becomes exactly one quality specification, keeping the two documents aligned at all times",
@@ -578,11 +578,11 @@
     "stem": "What is the purpose of the quality management approach?",
     "answer": "To describe the quality techniques and standards to apply and the roles and responsibilities for quality",
     "distractors": [
-      "To summarize all quality management activities that are planned, in progress, or completed, and their results",
+      "To summarize all quality management activities that are planned, in progress, or completed",
       "To describe each product's purpose, composition, format and quality specifications",
       "To list all products required of a plan and the status of those products, and their versions and dates",
-      "To record the lessons identified during the product quality lifecycle, and the actions taken, for later use",
-      "To capture the user's quality expectations and acceptance criteria for the project, and prioritize them",
+      "To record the lessons identified during the product quality lifecycle, and the actions taken",
+      "To capture the user's quality expectations and acceptance criteria for the project",
       "To set stage-level quality tolerance on behalf of the project board, and report it to the business layer"
     ],
     "explanation": "The quality management approach describes the techniques and standards to be applied and the roles and responsibilities for meeting the required specifications and acceptance criteria. The quality register summarizes the activities, and the project product description holds the user's expectations and acceptance criteria.",
@@ -594,7 +594,7 @@
     "section": "8.3.1.2",
     "topic": "Controlling quality",
     "difficulty": 2,
-    "stem": "A product fails an inspection, but the team believes the failure was a fluke and the product is likely to pass. What does the manual say is reasonable?",
+    "stem": "A product fails an inspection, but the team believes the failure was a fluke and the product is likely to pass. What does PRINCE2 say is reasonable?",
     "answer": "To repeat the quality control activity, as the product should pass",
     "distractors": [
       "To record the failure in the quality register and accept the product anyway",
@@ -616,11 +616,11 @@
     "stem": "A product cannot pass its quality control activity and the deviation lies outside the agreed quality tolerance. How is this handled?",
     "answer": "It is handled through issue management, because it is outside tolerance or an off-specification",
     "distractors": [
-      "It is recorded as a fail in the quality register and retested at the next stage boundary, if the board agrees",
+      "It is recorded as a fail in the quality register and retested at the next stage boundary",
       "It is handled by raising a new product description for the product, and approving it at the boundary",
       "It is passed to quality assurance, which decides whether the tolerance can be changed",
       "It is recorded in the lessons log and reported at project closure, with the cost of the rework involved",
-      "It is resolved by the team manager under the work package's quality procedure, without any escalation",
+      "It is resolved by the team manager under the work package's quality procedure",
       "It is referred to the senior supplier, because suppliers own off-specifications"
     ],
     "explanation": "Where a product cannot pass a quality control activity, the failure must be reviewed against the quality tolerances and specifications. Exceptions to tolerances and off-specifications are then addressed using the issue management technique; repeating the activity is only reasonable where the product is expected to pass.",
@@ -655,10 +655,10 @@
     "answer": "Verification occurs before the product exists; validation occurs during testing or after it exists",
     "distractors": [
       "Verification occurs during testing after the product exists; validation occurs during design, before it exists",
-      "Verification occurs at the point of delivery; validation occurs throughout the project, at each stage boundary",
+      "Verification occurs at the point of delivery; validation occurs throughout the project",
       "Verification confirms the product meets acceptance criteria; validation confirms the delivery method follows good practice",
       "Verification is performed by the producer; validation is performed by the reviewer, who is independent",
-      "Verification applies only to interim products; validation applies only to the project product, at handover",
+      "Verification applies only to interim products; validation applies only to the project product",
       "Verification requires independent testing; validation requires only inspection, by the user"
     ],
     "explanation": "Verification confirms that interim products reflect the necessary specifications and criteria and that the delivery method follows good practice, and it occurs during design and development before the product exists. Validation confirms the product itself meets the specifications and criteria, and occurs during testing or after the product exists.",
@@ -694,7 +694,7 @@
     "distractors": [
       "To present proof that a supplier complies with industry or regulatory requirements, before it is paid",
       "To confirm that interim products reflect the required specifications before the design is complete and approved",
-      "To check a delivered product against its quality specifications at the point of delivery, for the user",
+      "To check a delivered product against its quality specifications at the point of delivery",
       "To compare the cost of alternative production methods before a supplier is selected",
       "To obtain the project board's approval of the project product description, before initiation ends",
       "To record the results of quality control activities in the quality register, for later audit"
@@ -711,10 +711,10 @@
     "stem": "A project sits within a programme that already has a quality management approach. What should the project do?",
     "answer": "Document only the project-specific aspects in its own approach, since the programme's covers the rest",
     "distractors": [
-      "Write a completely new quality management approach, because a project cannot reuse the programme's, and approve it",
+      "Write a completely new quality management approach, because a project cannot reuse the programme's",
       "Adopt the programme's approach unchanged and record no project-level quality documentation, to save effort",
       "Ask the business layer to approve a replacement quality management system for the project",
-      "Record the programme's approach in the project product description instead, and cite it in the brief",
+      "Record the programme's approach in the project product description instead",
       "Defer the quality management approach until the first stage boundary, when the programme's can be reviewed",
       "Rely on quality assurance to apply the programme's approach without documenting it"
     ],
@@ -727,14 +727,14 @@
     "section": "8.4.2",
     "topic": "Commercial context",
     "difficulty": 3,
-    "stem": "A supplier's contract sets acceptance criteria that differ from those in the project's product descriptions. What does the manual advise?",
+    "stem": "A supplier's contract sets acceptance criteria that differ from those in the project's product descriptions. What does PRINCE2 advise?",
     "answer": "Care should be taken that contractual criteria do not conflict with those in the product descriptions",
     "distractors": [
       "The contract terms take precedence, so the product descriptions should be amended to match them",
       "The project's criteria take precedence, because contract terms sit outside the project initiation documentation",
       "Both sets of criteria should be recorded in the quality register and applied at the board's discretion",
       "The conflict should be resolved by the senior supplier, who is accountable for contractual acceptance",
-      "Contractual acceptance should replace project acceptance once the contract has been signed, by both parties",
+      "Contractual acceptance should replace project acceptance once the contract has been signed",
       "The difference should be handled as an off-specification under the issue management technique"
     ],
     "explanation": "Acceptance must be treated in both a contractual and a project sense: acceptance from a supplier may be a prerequisite to acceptance by the customer, and the contract's terms and conditions sit outside the project initiation documentation. Because of that gap, care is needed to ensure contractual quality and acceptance criteria do not conflict with those in the product and project product descriptions.",
@@ -753,8 +753,8 @@
       "Linear-sequential projects cannot record acceptance criteria; iterative-incremental projects record them in a product backlog",
       "Linear-sequential projects use a definition of done; iterative-incremental projects rely on stage boundaries instead",
       "Linear-sequential projects develop specifications only at closure; iterative-incremental projects develop them at start-up",
-      "Linear-sequential projects need no quality tolerances; iterative-incremental projects set them each sprint, in the backlog",
-      "Linear-sequential projects rely on user stories; iterative-incremental projects use only product descriptions, never stories"
+      "Linear-sequential projects need no quality tolerances; iterative-incremental projects set them each sprint",
+      "Linear-sequential projects rely on user stories; iterative-incremental projects use only product descriptions"
     ],
     "explanation": "In iterative-incremental projects the specifications and acceptance criteria are not fixed by approving the project initiation documentation but are treated as goals achieved through iterations, often captured as user stories with acceptance criteria or in a product backlog. Linear-sequential projects can develop specifications in more detail earlier, which supports higher-confidence scheduling, though requirements can still change.",
     "source": "p.141"
@@ -768,11 +768,11 @@
     "stem": "Which two aspects of sustainability should quality requirements address?",
     "answer": "The ability to sustain benefits after delivery, and expectations for the environmental impact",
     "distractors": [
-      "The product's compliance with industry standards, and the supplier's certification status, each year",
-      "The cost of decommissioning the product, and the project's budget for quality control, as set by the board",
+      "The product's compliance with industry standards, and the supplier's certification status",
+      "The cost of decommissioning the product, and the project's budget for quality control",
       "The sustainability of the business case, and the sustainability of the project board's support for it",
-      "The product's maintainability, and the availability of specialist reviewers, throughout the project",
-      "The organization's quality management system, and the programme's quality approach, as they apply to the product",
+      "The product's maintainability, and the availability of specialist reviewers",
+      "The organization's quality management system, and the programme's quality approach",
       "The product's lifetime cost, and the value of its residual assets, when the organization retires it"
     ],
     "explanation": "Sustainability in quality covers product sustainability, meaning the ability to sustain expected benefits after delivery, and environmental sustainability, meaning the organization's expectations for the environmental impacts of the project and its products. Both can be addressed at a high level in the project product description, with detail derived from the supply chain and from regulatory or advisory standards.",
@@ -864,9 +864,9 @@
       "The quality specifications and tolerances for each individual product, and the reviewers' names",
       "The pass or fail result of each quality control activity, with the date and the reviewer",
       "The date each product description was approved and each product accepted, with the current version",
-      "The producer, reviewer and acceptance authority for each product, and their contact details",
+      "The producer, reviewer and acceptance authority for each product",
       "The user's quality expectations and the acceptance criteria for the project product",
-      "The lessons identified during the product quality lifecycle, with the actions, owners and dates"
+      "The lessons identified during the product quality lifecycle, with the actions"
     ],
     "explanation": "The quality management approach covers scope, quality management procedures, responsibilities, resources, supporting tools and techniques, standards and references. Individual specifications, results and named product responsibilities belong in the product descriptions and the registers.",
     "source": "p.144"

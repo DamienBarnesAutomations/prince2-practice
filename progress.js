@@ -16,11 +16,13 @@ export const MASTERY_STREAK = 2;
  * the question has been answered wrong at least once and is not yet mastered —
  * getting it right twice in a row is what clears it.
  */
-export function summariseAttempts(attempts) {
+export function summariseAttempts(attempts, knownIds = null) {
   const rows = new Map();
 
   for (const attempt of attempts) {
     if (!attempt || typeof attempt.id !== 'string' || !attempt.id) continue;
+    // A question removed or renumbered in the bank must not keep counting.
+    if (knownIds && !knownIds.has(attempt.id)) continue;
 
     let row = rows.get(attempt.id);
     if (!row) {
@@ -58,8 +60,8 @@ export function summariseAttempts(attempts) {
   return rows;
 }
 
-export function missedIds(attempts) {
-  return [...summariseAttempts(attempts).values()]
+export function missedIds(attempts, knownIds = null) {
+  return [...summariseAttempts(attempts, knownIds).values()]
     .filter((row) => row.missed)
     .map((row) => row.id);
 }
@@ -71,8 +73,8 @@ export function missedIds(attempts) {
  * sum to exposed. mastered is counted separately because a question can be
  * right now and not yet mastered.
  */
-export function chapterProgress(attempts, sets) {
-  const summaries = summariseAttempts(attempts);
+export function chapterProgress(attempts, sets, knownIds = null) {
+  const summaries = summariseAttempts(attempts, knownIds);
   const bySet = new Map();
 
   for (const row of summaries.values()) {

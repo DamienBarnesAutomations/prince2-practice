@@ -24,7 +24,7 @@
     "section": "6.1",
     "topic": "Roles and responsibilities",
     "difficulty": 2,
-    "stem": "The manual defines a role as a function assigned to a group or individual in a particular project. Which statement follows from that definition?",
+    "stem": "PRINCE2 defines a role as a function assigned to a group or individual in a particular project. Which statement follows from that definition?",
     "answer": "A project role is not the same as the person's job outside the project",
     "distractors": [
       "A project role must map one-to-one onto a job title in the organization",
@@ -100,7 +100,7 @@
     "section": "6.2.1",
     "topic": "The three project interests",
     "difficulty": 3,
-    "stem": "The manual says the three interests are brought together on the project board, and that the principle of manage by exception supports the day-to-day needs of managing the project. What does it say that principle enables?",
+    "stem": "PRINCE2 says the three interests are brought together on the project board, and that the principle of manage by exception supports the day-to-day needs of managing the project. What does it say that principle enables?",
     "answer": "Decision-making at the most local level where the knowledge and capacity reside",
     "distractors": [
       "A single decision-making point so that accountability cannot be diluted",
@@ -118,7 +118,7 @@
     "set": "ch06",
     "section": "6.2.2",
     "topic": "Organizational levels",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which organizational layer provides the project mandate and defines the project-level tolerances?",
     "answer": "Commissioning, the business layer",
     "distractors": [
@@ -172,7 +172,7 @@
     "set": "ch06",
     "section": "6.2.2",
     "topic": "Organizational levels",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is described as the project manager's primary responsibility at the managing layer?",
     "answer": "Managing relationships so the project produces the products in line with objectives",
     "distractors": [
@@ -229,7 +229,7 @@
     "set": "ch06",
     "section": "6.2.4.1",
     "topic": "Project executive",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which role combination is explicitly prohibited for the project executive?",
     "answer": "Combining the project executive role with the project manager role",
     "distractors": [
@@ -249,14 +249,14 @@
     "section": "6.2.4.1",
     "topic": "Project executive",
     "difficulty": 3,
-    "stem": "An organization runs a job-sharing scheme and two people share the business role that corresponds to project executive. What does the manual say must happen?",
+    "stem": "An organization runs a job-sharing scheme and two people share the business role that corresponds to project executive. What does PRINCE2 say must happen?",
     "answer": "The business role still maps one-to-one to the project role, keeping a single point of accountability",
     "distractors": [
       "Two project executive roles are created so that each job holder has one, each with half of the authority",
       "The project executive role passes to the senior user while the job share continues, with the board's approval",
       "Accountability is delegated to the project manager for the duration of the job share",
-      "The project must appoint an executive from outside the job-sharing scheme, and release the two job holders",
-      "The job share is not permitted, because the executive role cannot be shared in any form, even in part",
+      "The project must appoint an executive from outside the job-sharing scheme",
+      "The job share is not permitted, because the executive role cannot be shared in any form",
       "The two job holders alternate accountability at each stage boundary, and each signs the stage report"
     ],
     "explanation": "The manual accepts job-sharing schemes but insists on a one-to-one allocation of the business role to the project role, with additional arrangements to make clear how the single point of accountability is maintained. Those arrangements should be reflected in the executive's role description and the project initiation documentation.",
@@ -302,7 +302,7 @@
     "set": "ch06",
     "section": "6.2.4.3",
     "topic": "Senior supplier",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which role is accountable for the quality of the products delivered by suppliers and for the technical integrity of the project?",
     "answer": "The senior supplier",
     "distractors": [
@@ -412,7 +412,7 @@
     "set": "ch06",
     "section": "6.2.4.6",
     "topic": "Team manager",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "How is work allocated to a team manager?",
     "answer": "As a work package, in line with the commercial management approach",
     "distractors": [
@@ -436,10 +436,10 @@
     "answer": "The team must hold all the team manager responsibilities, and the arrangement be accepted as tailoring",
     "distractors": [
       "A named individual must still hold the team manager role on the project board's behalf",
-      "The project manager must take on the team manager responsibilities personally, and report to the board",
-      "The team must adopt the PRINCE2 role names before the arrangement can be used, and the board must agree",
+      "The project manager must take on the team manager responsibilities personally",
+      "The team must adopt the PRINCE2 role names before the arrangement can be used",
       "The arrangement must be approved by the commissioning party as a project-level tolerance change",
-      "The team manager role cannot be tailored, because it is required on every project, and by every team",
+      "The team manager role cannot be tailored, because it is required on every project",
       "Project assurance must cover the team manager responsibilities in the absence of a named holder"
     ],
     "explanation": "The manual's scenario accepts collective ownership: every area of the team manager's responsibility becomes the responsibility of the whole team and each member, a single point of contact is appointed for the project manager, and the project manager accepts it as appropriate tailoring at team level.",
@@ -488,7 +488,7 @@
     "set": "ch06",
     "section": "6.2.4.8",
     "topic": "Project support",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Who is responsible for the project support role, and can it be delegated?",
     "answer": "The project manager is responsible, and may delegate it to suppliers, individuals or groups",
     "distractors": [
@@ -526,7 +526,7 @@
     "set": "ch06",
     "section": "6.2.5",
     "topic": "Work breakdown structure",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What does the work breakdown structure link?",
     "answer": "The product breakdown structure and the work packages",
     "distractors": [
@@ -546,7 +546,7 @@
     "section": "6.2.5",
     "topic": "Work breakdown structure",
     "difficulty": 3,
-    "stem": "A project consists of a single work package delivered by a small team. What does the manual say about the work breakdown structure?",
+    "stem": "A project consists of a single work package delivered by a small team. What does PRINCE2 say about the work breakdown structure?",
     "answer": "It would not be required for a project as simple as this",
     "distractors": [
       "It is required whenever any external supplier is involved",
@@ -564,15 +564,15 @@
     "set": "ch06",
     "section": "6.2.5",
     "topic": "Work breakdown structure",
-    "difficulty": 3,
-    "stem": "Why does the manual advise against a single work package containing both internal and external team members?",
+    "difficulty": 2,
+    "stem": "Why does PRINCE2 advise against a single work package containing both internal and external team members?",
     "answer": "An internal agreement and an external contract have a different character and set of relationships",
     "distractors": [
       "External team members cannot be given work package tolerances, and the contract forbids any mixing",
       "A work package may only be issued to a single supplier organization, and to one named team manager only",
-      "The commercial management approach forbids mixed teams on any project, and the board must not approve them",
+      "The commercial management approach forbids mixed teams on any project",
       "The work breakdown structure requires one work package per supplier, and one team manager per package",
-      "Internal staff cannot be managed by a team manager from a supplier, and vice versa, in any project",
+      "Internal staff cannot be managed by a team manager from a supplier, and vice versa",
       "Mixed work packages cannot be assured by the project board, and so cannot be authorized by the manager"
     ],
     "explanation": "The manual's reason is the difference in kind between an internal agreement and an external contract, and the relationships that go with each. It is better to manage them separately rather than place both inside one work package.",
@@ -647,7 +647,7 @@
       "The programme manager, documented in the programme plan, and then copied into the project brief",
       "Project assurance, documented in the assurance plan",
       "The commissioning party, documented in the business case, and confirmed by the corporate body",
-      "The project support role, documented in the communication management approach, and issued to the team"
+      "The project support role, documented in the communication management approach"
     ],
     "explanation": "The executive, supported by the project manager, is responsible for the project organizational design, and it should be documented in the project initiation documentation. On large or complex projects the executive may delegate it internally or to a specialist supplier.",
     "source": "p.84"
@@ -658,15 +658,15 @@
     "section": "6.3.1.2",
     "topic": "Design the project ecosystem",
     "difficulty": 3,
-    "stem": "A project will move from a client-led design team to a supplier-led delivery team at stage 3. What does the manual say should happen during initiation?",
+    "stem": "A project will move from a client-led design team to a supplier-led delivery team at stage 3. What does PRINCE2 say should happen during initiation?",
     "answer": "The transition should be identified and planned, with team structures planned for the different stages",
     "distractors": [
       "The structure should stay fixed, because changes to the team structure require a new project mandate",
       "The supplier-led structure should be deferred until the stage boundary, when it can be designed",
       "The design team should be retained alongside the delivery team to avoid loss of knowledge",
       "The transition should be raised as an exception once the stage begins, and then planned by the new team",
-      "The project board should appoint the delivery team before the design stage starts, and release the designers",
-      "The change should be recorded in the lessons log rather than planned in advance, and reviewed at closure"
+      "The project board should appoint the delivery team before the design stage starts",
+      "The change should be recorded in the lessons log rather than planned in advance"
     ],
     "explanation": "Where the structure needs to change between stages, this should where possible be identified and planned during initiation, establishing planned team structures at different stages, and considering the people and resources needed to support the transition and its impact on the team.",
     "source": "p.84"
@@ -699,10 +699,10 @@
     "distractors": [
       "Raise an exception immediately, because any capability gap breaches the stage tolerances",
       "Ask the project board to replace the team member at the next stage boundary",
-      "Amend the business case to reflect the reduced capability of the team, and the likely delay",
-      "Re-plan the stage so that the affected work moves to a later stage, and tell the board",
-      "Ask project assurance to cover the work until someone else is available, and report back",
-      "Record the gap in the lessons log and continue with the original allocation, whatever the risk"
+      "Amend the business case to reflect the reduced capability of the team",
+      "Re-plan the stage so that the affected work moves to a later stage",
+      "Ask project assurance to cover the work until someone else is available",
+      "Record the gap in the lessons log and continue with the original allocation"
     ],
     "explanation": "The project manager is responsible for making the best use of the people and resources available: matching responsibilities to capability and capacity, sourcing additional skills, or upskilling through coaching and learning, with the commercial management approach supporting people moving on and off the project.",
     "source": "p.86"
@@ -731,7 +731,7 @@
     "set": "ch06",
     "section": "6.3.2.1",
     "topic": "Delivery models",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "What distinguishes a thin client delivery model from a thick client model?",
     "answer": "In a thin client model most of the work, including much of the project management, is undertaken by external suppliers",
     "distractors": [
@@ -768,7 +768,7 @@
     "set": "ch06",
     "section": "6.3.2.1",
     "topic": "Delivery models",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Who determines the balance between in-house and external suppliers and the commercial arrangements between them?",
     "answer": "The project board, in consultation with the project manager",
     "distractors": [
@@ -787,7 +787,7 @@
     "set": "ch06",
     "section": "6.3.2.2",
     "topic": "RACI chart",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "In a RACI chart, what does the accountable designation mean?",
     "answer": "The single person who owns the task or the outcome",
     "distractors": [
@@ -806,7 +806,7 @@
     "set": "ch06",
     "section": "6.4.1",
     "topic": "Organizational context",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which of these is given as an example of integrating programme and project roles?",
     "answer": "A single programme office taking project support duties for all projects",
     "distractors": [
@@ -916,13 +916,13 @@
     "set": "ch06",
     "section": "6.6",
     "topic": "Focus of key roles",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which organizing responsibility belongs to the business layer rather than to the project executive?",
     "answer": "Appointing the project executive, and possibly the project manager",
     "distractors": [
       "Approving the commercial management approach, and its procedures",
       "Confirming appointments to the project management team",
-      "Approving the project management team structure, and its design",
+      "Approving the project management team structure",
       "Preparing the role descriptions, and agreeing them with the team",
       "Assuring the implementation of the commercial management procedures"
     ],
@@ -934,7 +934,7 @@
     "set": "ch06",
     "section": "6.6",
     "topic": "Focus of key roles",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Which role prepares the role descriptions and designs, reviews and updates the project management team structure?",
     "answer": "The project manager",
     "distractors": [
@@ -953,7 +953,7 @@
     "set": "ch06",
     "section": "6.7",
     "topic": "Key relationships with principles",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Which outcome does the organizing practice produce in support of the principle define roles, responsibilities and relationships?",
     "answer": "There is no duplication or gap in responsibilities, and relationships are positive across the ecosystem",
     "distractors": [

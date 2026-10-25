@@ -5,7 +5,6 @@ import {
   buildOptions,
   buildSession,
   drawQuestions,
-  reshuffleOptions,
   scoreSession,
   shuffle,
 } from '../bank-logic.js';
@@ -94,14 +93,4 @@ test('scoreSession tallies overall and per-section results', () => {
     result.bySection.map((s) => [s.section, s.correct, s.total]),
     [['1', 1, 2], ['2', 0, 1]],
   );
-});
-
-test('reshuffleOptions keeps the chosen answer on the same option text', () => {
-  const session = buildSession([question({ id: 'ch99-009' })], 1, () => 0.4);
-  const answered = session.map((entry) => ({ ...entry, selected: entry.correctIndex }));
-  const chosenText = answered[0].options[answered[0].selected];
-
-  const rebuilt = reshuffleOptions(answered);
-  assert.equal(rebuilt[0].options[rebuilt[0].selected], chosenText);
-  assert.equal(rebuilt[0].selected, rebuilt[0].correctIndex);
 });

@@ -5,13 +5,13 @@
     "section": "12",
     "topic": "Definition of a process",
     "difficulty": 1,
-    "stem": "How does PRINCE2 define a process?",
+    "stem": "What is a process in PRINCE2?",
     "answer": "A structured set of activities that defines the sequence of actions and their inputs and outputs",
     "distractors": [
       "A documented agreement between the project board and the project manager that sets the tolerances for a stage",
-      "A collection of management products that are baselined at the same point in the project lifecycle, by the board",
+      "A collection of management products that are baselined at the same point in the project lifecycle",
       "The set of roles and responsibilities needed to direct, manage and deliver a project",
-      "A technique for estimating the cost and duration of a piece of work before it is authorized, by the board",
+      "A technique for estimating the cost and duration of a piece of work before it is authorized",
       "A principle that must be applied continuously throughout the life of the project",
       "A decision point at which the project board authorizes the project to move to the next stage, or stops it"
     ],
@@ -28,11 +28,11 @@
     "answer": "The set of activities required to direct, manage and deliver a project successfully",
     "distractors": [
       "The seven roles that must be appointed to every project board, whatever its size",
-      "The four management levels into which a project organization is divided, by the board",
-      "The principles that must be applied at every stage of the project, and each process",
-      "The management products that must be baselined in the project initiation documentation, in full",
+      "The four management levels into which a project organization is divided",
+      "The principles that must be applied at every stage of the project",
+      "The management products that must be baselined in the project initiation documentation",
       "The techniques used to tailor the method to the size of the project",
-      "The tolerances within which the project manager is permitted to operate, in each stage"
+      "The tolerances within which the project manager is permitted to operate"
     ],
     "explanation": "The manual describes PRINCE2 as having seven processes that provide the set of activities required to direct, manage and deliver a project successfully. Principles, practices, roles and management products are separate elements of the method, not what the processes themselves supply.",
     "source": "p.214"
@@ -144,7 +144,7 @@
       "Because it becomes the end project report when the project closes, and is then filed by the manager",
       "Because the business layer requires a copy before any stage can be authorized",
       "Because it must be re-approved in full at the end of every stage, and then returned to the manager",
-      "Because it records the lessons that later projects are required to apply, and the actions to take",
+      "Because it records the lessons that later projects are required to apply",
       "Because it holds the only approved version of the project mandate, and the original business case",
       "Because project assurance audits it at every stage boundary, and the board reviews the audit report"
     ],
@@ -196,14 +196,14 @@
     "topic": "Closing a project",
     "difficulty": 3,
     "stem": "What must the project board be satisfied about before a project can close?",
-    "answer": "That recipients can own and use each product, and the business the project product",
+    "answer": "That recipients can own and use each product and the business the project product",
     "distractors": [
-      "That every benefit in the business case has already been realized and measured, in full",
-      "That all post-project benefits reviews have been completed and signed off, by the user",
+      "That every benefit in the business case has already been realized and measured",
+      "That all post-project benefits reviews have been completed and signed off",
       "That the project has delivered within its original baseline for time and cost",
-      "That the project team has been released and the documentation has been archived, as required",
-      "That the senior supplier has accepted the final work package, and the products in it",
-      "That the project mandate has been reissued for the next stage, and the plan approved"
+      "That the project team has been released and the documentation has been archived",
+      "That the senior supplier has accepted the final work package",
+      "That the project mandate has been reissued for the next stage"
     ],
     "explanation": "Closure depends on the board being satisfied that recipients can own and use their products ongoing and that the business can take overall ownership of the project product. Most benefits are realized after the project, so the post-project reviews are only planned at closure rather than completed; archiving and releasing people are closure activities that follow the decision.",
     "source": "p.216"
@@ -276,7 +276,7 @@
       "The processes ensure that the practices are tailored to each project, while the principles are applied only at the start",
       "The practices replace the processes on small projects, where a full set of activities would be disproportionate",
       "The processes take precedence over the principles wherever the two conflict, because they define the activities",
-      "The principles are applied by the business layer while the practices are applied by the delivery teams, in turn",
+      "The principles are applied by the business layer while the practices are applied by the delivery teams",
       "The five elements are applied in sequence, starting with principles and ending with processes"
     ],
     "explanation": "The key message is that the five integrated elements work together: the practices ensure the principles are continually applied during the processes, in a way specific to the project context and taking account of people and groups in the project and organizational ecosystems. The elements are integrated, not applied in sequence or owned by separate layers.",

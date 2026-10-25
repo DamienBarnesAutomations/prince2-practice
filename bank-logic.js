@@ -60,18 +60,8 @@ export function buildSession(pool, count, rng = Math.random) {
   });
 }
 
-/** Reshuffles the options of an already-built session, keeping the answers chosen. */
-export function reshuffleOptions(session, rng = Math.random) {
-  return session.map((entry) => {
-    const chosenText = entry.selected === null ? null : entry.options[entry.selected];
-    const { options, correctIndex } = buildOptions(entry.question, rng);
-    return { ...entry, options, correctIndex, selected: chosenText === null ? null : options.indexOf(chosenText) };
-  });
-}
-
 export function scoreSession(session) {
   const bySection = new Map();
-  const byTopic = new Map();
   let correct = 0;
 
   for (const entry of session) {
@@ -83,12 +73,6 @@ export function scoreSession(session) {
     sectionTally.total += 1;
     if (isCorrect) sectionTally.correct += 1;
     bySection.set(section, sectionTally);
-
-    const topic = entry.question.topic ?? 'unknown';
-    const topicTally = byTopic.get(topic) ?? { topic, correct: 0, total: 0 };
-    topicTally.total += 1;
-    if (isCorrect) topicTally.correct += 1;
-    byTopic.set(topic, topicTally);
   }
 
   const total = session.length;
@@ -98,7 +82,6 @@ export function scoreSession(session) {
     correct,
     percent: total === 0 ? 0 : Math.round((correct / total) * 100),
     bySection: [...bySection.values()].sort((a, b) => a.section.localeCompare(b.section)),
-    byTopic: [...byTopic.values()].sort((a, b) => b.total - a.total),
     missed: session.filter((entry) => entry.selected !== entry.correctIndex).map((entry) => entry.question.id),
   };
 }

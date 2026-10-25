@@ -5,14 +5,14 @@
     "section": "B",
     "topic": "Roles and jobs",
     "difficulty": 1,
-    "stem": "How does the manual describe the relationship between PRINCE2 roles and the jobs people hold?",
+    "stem": "How are PRINCE2 roles related to the jobs people hold?",
     "answer": "The roles do not necessarily map one-to-one to jobs and may be part-time, shared or combined",
     "distractors": [
       "Each role must be held by a different person to preserve separation of duties",
       "Every role must be a full-time appointment for the whole life of the project",
       "Each role corresponds to a permanent job title in the organization's structure",
-      "The project board roles must be held by people from outside the business, and outside the supplier too",
-      "Roles may be combined only where the project sits within a programme, and the board agrees",
+      "The project board roles must be held by people from outside the business",
+      "Roles may be combined only where the project sits within a programme",
       "Role descriptions are fixed and cannot be tailored to the project, whatever its size"
     ],
     "explanation": "The appendix explains that the roles do not necessarily equate to jobs allocated one-to-one, and that some may be part-time while many may be shared or combined according to the project's needs. The role descriptions themselves may also be tailored, as chapters 2 and 6 describe.",
@@ -30,8 +30,8 @@
       "The project manager, who records the arrangement in the quality management approach",
       "The project executive alone, because assurance reports into the business",
       "Project support, which administers the assurance calendar and records",
-      "The business layer, which appoints everyone who performs assurance work, and sets their terms",
-      "The senior supplier, because assurance concentrates on product quality, and on supplier delivery",
+      "The business layer, which appoints everyone who performs assurance work",
+      "The senior supplier, because assurance concentrates on product quality",
       "The programme office, wherever the organization has one, together with the sponsor and the board"
     ],
     "explanation": "The board is responsible for establishing how project assurance will be undertaken, ensuring clarity in roles and responsibilities, and determining how those appointed to assurance roles will interact. Individual board members remain responsible for assurance of their own area of concern, but the overall arrangement is the board's decision.",
@@ -47,9 +47,9 @@
     "answer": "The tasks may be done by board members or by others appointed for their skills and capacity",
     "distractors": [
       "The tasks must always be performed by someone independent of the project board",
-      "The tasks must be performed by the project manager, who then reports to the board, in writing",
+      "The tasks must be performed by the project manager, who then reports to the board",
       "The tasks are always delegated to a central programme or portfolio office",
-      "The tasks can only be performed by the executive, because accountability cannot be delegated, in any case",
+      "The tasks can only be performed by the executive, because accountability cannot be delegated",
       "The tasks are performed by project support, which reports findings to the board",
       "The tasks must be performed by an external party for the assurance to be credible"
     ],
@@ -85,7 +85,7 @@
     "answer": "The project manager monitors progress against the stage plan, while project assurance confirms it against tolerances",
     "distractors": [
       "The project manager confirms progress against tolerances, while project assurance monitors progress against the stage plan",
-      "Both roles confirm progress against tolerances, but only project assurance may report the result to the board, in writing",
+      "Both roles confirm progress against tolerances, but only project assurance may report the result to the board",
       "The project manager confirms progress, and project assurance sets the tolerances used for that confirmation",
       "Project assurance monitors progress, and the project manager confirms it to the business layer",
       "Project assurance monitors progress for the business, and the project manager confirms it for the supplier",
@@ -123,10 +123,10 @@
     "answer": "Assuring the impact assessment of the potential change on the business case and project plan",
     "distractors": [
       "Administering the change control procedure and recording the change",
-      "Deciding whether the change may be approved within delegated authority, and recording it",
+      "Deciding whether the change may be approved within delegated authority",
       "Assessing the impact of the change and recommending an option to the board",
       "Updating the business case once the change has been approved, and informing the executive",
-      "Instructing corrective action so the change is absorbed within the stage, and recording it",
+      "Instructing corrective action so the change is absorbed within the stage",
       "Baselining the revised product description and distributing it"
     ],
     "explanation": "Project assurance assures the impact assessment of potential changes on the business case and project plan; it does not perform the assessment itself. Administering change control is project support's work, and deciding on changes within delegated authority belongs to the change authority.",
@@ -141,7 +141,7 @@
     "stem": "Which statement about the project executive's accountability is correct?",
     "answer": "The executive is the single point of accountability for the project, and it cannot be delegated",
     "distractors": [
-      "The executive may delegate accountability to the project manager but not to the board, in writing",
+      "The executive may delegate accountability to the project manager but not to the board",
       "The executive shares accountability equally with the senior user and senior supplier",
       "The executive's accountability ends once the project initiation documentation is approved",
       "The executive may delegate accountability to a programme director where one exists",
@@ -236,7 +236,7 @@
     "distractors": [
       "The executive prepares it, because accountability for the business case cannot be delegated",
       "The senior user prepares it, because it is built from the benefits they specify",
-      "The project board prepares it collectively at each stage boundary, and the executive approves it, in full",
+      "The project board prepares it collectively at each stage boundary, and the executive approves it",
       "The project manager prepares it and is accountable for continued business justification",
       "Project assurance prepares it, because it checks project finance for the business",
       "It is prepared once during initiation and then baselined for the life of the project"
@@ -291,12 +291,12 @@
     "stem": "Which statement about the project log is correct?",
     "answer": "The project manager establishes and maintains it, assisted by project support where possible",
     "distractors": [
-      "Project support owns it, because it administers the project's records, and the registers",
+      "Project support owns it, because it administers the project's records",
       "Project assurance maintains it, because it must be independent of the project manager",
-      "The team manager maintains it for the products their team delivers, and the project manager reviews it",
-      "The executive maintains it, because it supports the business case, and the benefits",
-      "It is maintained by the change authority alongside the issue register, and approved by the board",
-      "It is maintained by the programme office on the project's behalf, and reviewed, each stage"
+      "The team manager maintains it for the products their team delivers",
+      "The executive maintains it, because it supports the business case",
+      "It is maintained by the change authority alongside the issue register",
+      "It is maintained by the programme office on the project's behalf, and reviewed"
     ],
     "explanation": "Establishing and maintaining the project log is a project manager responsibility, assisted by project support where possible. Project support does assist with maintaining it, which is why the two are easily confused.",
     "source": "p.310"
@@ -329,8 +329,8 @@
     "stem": "Which activity is part of project support's role in change control?",
     "answer": "Administering the change control and issue procedures, and advising the project manager of changes",
     "distractors": [
-      "Deciding whether a change should be approved within delegated authority, and recording the decision",
-      "Approving the change budget for the current stage, and the risk budget, for the project manager, in writing",
+      "Deciding whether a change should be approved within delegated authority",
+      "Approving the change budget for the current stage, and the risk budget, for the project manager",
       "Assessing the impact of a change on the business case and recommending an option to the project board",
       "Escalating the change to the business layer whenever the business case is affected",
       "Updating the business case after a change has been approved, and informing the board of the effect",
@@ -348,10 +348,10 @@
     "stem": "What does project support provide for project plans, stage plans, team plans and work package descriptions?",
     "answer": "A baseline for them, and a way to store and distribute them",
     "distractors": [
-      "Approval of them on the project manager's behalf, in each stage",
+      "Approval of them on the project manager's behalf",
       "The tolerances that apply to each of them, and their owners",
       "The quality criteria and acceptance methods for them",
-      "An independent review of their feasibility, and their cost",
+      "An independent review of their feasibility",
       "The funding needed to deliver them, and the people to do it",
       "The lessons from similar plans in previous projects"
     ],
@@ -426,10 +426,10 @@
     "distractors": [
       "Defining the user's quality expectations for the project product, and agreeing them with the board",
       "Managing quality controls for the products within each team plan, and reporting the results to the manager",
-      "Assembling the quality records for completed products, and keeping them in the quality register, for audit",
+      "Assembling the quality records for completed products, and keeping them in the quality register",
       "Assuring the board that quality practices follow the quality management approach",
       "Baselining the quality register and the product descriptions, and approving changes to either",
-      "Approving the quality management approach on behalf of the business, and the senior user, in writing"
+      "Approving the quality management approach on behalf of the business, and the senior user"
     ],
     "explanation": "The senior supplier agrees the quality techniques and tools adopted in product development, as defined in product descriptions and work package descriptions, and provides the people and resources to perform supplier quality activities. Managing quality controls within a team plan belongs to the team manager.",
     "source": "p.312"
@@ -484,8 +484,8 @@
       "The senior user administers the change control procedure and records the change",
       "The senior user approves every change, because user requirements take precedence",
       "The senior user defers all changes to the project manager's delegated authority",
-      "The senior user refers every change to project assurance for a decision, and signs the decision",
-      "The senior user accepts changes only where the supplier can absorb them, and records them in the log",
+      "The senior user refers every change to project assurance for a decision",
+      "The senior user accepts changes only where the supplier can absorb them",
       "The senior user records changes in the benefits management approach instead of the issue register"
     ],
     "explanation": "The senior user controls change according to requirements and benefits, whatever its source, as part of being accountable for the approach to capturing user requirements. Administering the change control procedure is project support's role, and decisions within delegated authority belong to the change authority.",
@@ -523,7 +523,7 @@
       "Within the project tolerances set by the executive, and the business layer",
       "Within whatever limits the senior supplier sets for delivery, and the contract",
       "Within the budget agreed with the business layer, and the sponsor",
-      "Within the quality tolerances in the project product description, and the stage plan",
+      "Within the quality tolerances in the project product description",
       "Within the change budget delegated to the team, and the stage tolerance"
     ],
     "explanation": "Team managers deliver the work allocated to them within the tolerances and constraints agreed with the project manager, who allocates work in the form of work packages in line with the commercial management approach. Stage and project tolerances sit above that level.",

@@ -121,7 +121,7 @@ test('home offers the four modes and a progress summary', () => {
   assert.match(appEl.innerHTML, /Missed questions/);
   assert.match(appEl.innerHTML, new RegExp(`of ${index.total} questions seen`));
   assert.match(appEl.innerHTML, /Progress by chapter/);
-  assert.match(appEl.innerHTML, new RegExp(`${index.sets.length} of 21 sets`));
+  assert.match(appEl.innerHTML, new RegExp(`${index.sets.length} of ${index.expectedSets} sets`));
 });
 
 test('practice by chapter lists chapters, then offers a question count', async () => {

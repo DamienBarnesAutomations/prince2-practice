@@ -97,3 +97,16 @@ test('pass mark is 60% of the questions drawn, rounded up', () => {
   assert.equal(passMark(57), 35);
   assert.equal(passMark(10), 6);
 });
+
+test('attempts for questions no longer in the bank are not counted', () => {
+  const known = new Set(['q1']);
+  const attempts = [attempt('q1', false), attempt('gone', false)];
+
+  assert.deepEqual(missedIds(attempts, known), ['q1']);
+  assert.deepEqual(missedIds(attempts), ['q1', 'gone']);
+
+  const sets = [{ id: 'ch02', title: 'Principles', order: 2, count: 10 }];
+  const { rows } = chapterProgress(attempts, sets, known);
+  assert.equal(rows[0].exposed, 1);
+  assert.equal(rows[0].wrong, 1);
+});

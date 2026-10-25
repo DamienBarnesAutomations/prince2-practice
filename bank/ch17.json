@@ -10,10 +10,10 @@
     "distractors": [
       "To control the link between the project board and the project manager, by authorizing, funding and reviewing each stage",
       "To define the specialist products to be delivered and the means by which they will be produced and estimated",
-      "To assess at the end of each stage whether the project remains justified, viable and achievable, and should continue",
+      "To assess at the end of each stage whether the project remains justified, viable and achievable",
       "To capture, assess and control changes to the project's baselined products, and to approve them",
       "To confirm that the project's products are complete, accepted and approved, and can be handed over to the business",
-      "To define the quality criteria and acceptance methods that each product must satisfy, and the reviewers, in turn"
+      "To define the quality criteria and acceptance methods that each product must satisfy, and the reviewers"
     ],
     "explanation": "The process exists to control the interface between project manager and team manager, agreeing the requirements for acceptance, execution, reporting and delivery of specialist products. Authorizing stages and reviewing justification belong to directing a project, and controlling changes belongs to the issues practice.",
     "source": "p.262"
@@ -24,13 +24,13 @@
     "section": "17.1",
     "topic": "The team manager",
     "difficulty": 1,
-    "stem": "What does the manual say about the team manager role?",
+    "stem": "What is true of the team manager role?",
     "answer": "The team manager coordinates an area of work that delivers specialist products, and may be internal or external",
     "distractors": [
-      "The team manager must be appointed from inside the organization, because external suppliers cannot hold the role, in practice",
+      "The team manager must be appointed from inside the organization, because external suppliers cannot hold the role",
       "The team manager is always the senior supplier, acting as the board's representative on the team",
       "The team manager is a temporary appointment made by the project board at each stage boundary",
-      "The team manager role only exists where the project is run under a commercial contract, and a supplier is appointed",
+      "The team manager role only exists where the project is run under a commercial contract",
       "The team manager is accountable to the business layer for the whole project's specialist products",
       "The team manager is a member of the project board delegated to supervise day-to-day delivery"
     ],
@@ -46,8 +46,8 @@
     "stem": "Which of these is an objective of the managing product delivery process?",
     "answer": "That team managers and their teams are clear about what is to be produced and the expected effort, cost and timescales",
     "distractors": [
-      "That the project board approves the stage plan before any work begins, and the work packages are issued, on time",
-      "That the project manager monitors the stage against its tolerances, and the team managers report, on time",
+      "That the project board approves the stage plan before any work begins, and the work packages are issued",
+      "That the project manager monitors the stage against its tolerances, and the team managers report",
       "That the benefits set out in the business case are realized after closure, and measured, by the senior user",
       "That the project's risks are escalated to the appropriate level of management, and recorded, in the register",
       "That the team plan is baselined by the project board at each stage boundary, and approved, by the executive",
@@ -62,7 +62,7 @@
     "section": "17.2",
     "topic": "Freedom from micromanagement",
     "difficulty": 3,
-    "stem": "The manual warns that micromanagement by the project manager will not improve a project. What should give the team manager freedom to deliver instead?",
+    "stem": "PRINCE2 warns that micromanagement by the project manager will not improve a project. What should give the team manager freedom to deliver instead?",
     "answer": "The tolerances in the work package description, with the project manager's trust in the team manager",
     "distractors": [
       "The authority the project board delegates to the team manager when it authorizes the stage",
@@ -127,7 +127,7 @@
       "The quality methods to be used, and the names of the reviewers for each product, in the stage",
       "The stage tolerance that the work package will inherit, once it is authorized, and the stage plan",
       "The team structure, appointments, and working arrangements for the team members, and their managers",
-      "The date of the next stage boundary, so that the team knows when work must finish, and report"
+      "The date of the next stage boundary, so that the team knows when work must finish"
     ],
     "explanation": "Before allocation there should be an agreement covering reporting requirements, constraints, procedures and whether the requirements are reasonable and achievable. The commercial terms belong to the contract, and product descriptions and quality methods are referenced through the work package rather than agreed here.",
     "source": "p.264"
@@ -142,7 +142,7 @@
     "answer": "To show which products can be completed within the given constraints, such as the agile timebox",
     "distractors": [
       "To replace the stage plan for the duration of the work package, and the project plan",
-      "To obtain the project board's approval for the work package tolerances, and the stage tolerances",
+      "To obtain the project board's approval for the work package tolerances",
       "To record the quality methods that will be applied to each specialist product",
       "To set the frequency at which checkpoint reports will be produced, and the format they will take",
       "To allocate each specialist product to a named team member, and agree its due date with them",
@@ -199,9 +199,9 @@
     "distractors": [
       "Raise an exception report so that the project board can decide how to handle the risk",
       "Record the risk in the supplier's own register and leave the project log unchanged",
-      "Ask project assurance to log the risk on the team manager's behalf, and report it to the board later",
+      "Ask project assurance to log the risk on the team manager's behalf",
       "Add the risk to the team plan and manage it without troubling the project manager",
-      "Escalate the risk to the senior supplier under the terms of the contract, and the project board",
+      "Escalate the risk to the senior supplier under the terms of the contract",
       "Wait until the next checkpoint report and mention the risk in the narrative"
     ],
     "explanation": "The team manager reviews risks against the team plan and advises the project manager of any additional or modified risks, updating the project log directly only where the work package description permits it. An exception report would be premature, because the risk has not yet pushed the work outside tolerance.",
@@ -235,10 +235,10 @@
     "stem": "Which action belongs to executing a work package rather than evaluating or notifying its completion?",
     "answer": "Telling the manager which quality activities are complete, and updating the quality register",
     "distractors": [
-      "Reviewing the issue register for issues associated with the work package, and the risk register",
-      "Confirming expected progress for the period against the team plan, and reporting it to the manager",
-      "Reporting the status of the work package to the project manager in a checkpoint report, each period",
-      "Checking the approval records before delivering the completed products, and the quality register",
+      "Reviewing the issue register for issues associated with the work package",
+      "Confirming expected progress for the period against the team plan",
+      "Reporting the status of the work package to the project manager in a checkpoint report",
+      "Checking the approval records before delivering the completed products",
       "Updating the team plan to show that the work package is complete, and informing the project board",
       "Briefing the project manager on performance against the work package agreements"
     ],
@@ -289,7 +289,7 @@
     "section": "17.4.3",
     "topic": "Evaluate a work package",
     "difficulty": 2,
-    "stem": "Which records does the manual have the team manager review when evaluating a work package?",
+    "stem": "Which records does PRINCE2 have the team manager review when evaluating a work package?",
     "answer": "The issue register, the risk register, the quality register, the product register and the lessons log",
     "distractors": [
       "The issue register, the risk register, the business case, the stage plan and the benefits management approach",
@@ -311,11 +311,11 @@
     "stem": "On an iterative-incremental project, the checkpoint report may be based on a 'pull' system. What does this mean?",
     "answer": "The project manager looks at progress charts such as Kanban boards or burn-down charts kept by the team",
     "distractors": [
-      "The team manager asks the project manager for a status report at the end of each period, in writing",
-      "The project board pulls the checkpoint report from the project log at each stage boundary, for the executive",
+      "The team manager asks the project manager for a status report at the end of each period",
+      "The project board pulls the checkpoint report from the project log at each stage boundary",
       "The checkpoint report is replaced by the team's daily stand-up meeting, which the project manager attends in person",
       "The project manager writes the checkpoint report from data supplied by project support",
-      "Progress is reported only when the team manager is asked for it by the project manager, in each period",
+      "Progress is reported only when the team manager is asked for it by the project manager",
       "The team plan is updated by the project manager instead of by the team manager, who then reviews it"
     ],
     "explanation": "A pull system means the project manager draws progress information from charts the team already maintains, rather than the team pushing a periodic written report. The information still flows to the project manager; only the mechanism differs.",
@@ -387,10 +387,10 @@
     "distractors": [
       "They must be performed strictly in the order given, one after another, without any overlap",
       "They may be rearranged, but only on a project using an iterative-incremental delivery method",
-      "They may be rearranged, but only with the project board's approval at a stage boundary, in writing",
+      "They may be rearranged, but only with the project board's approval at a stage boundary",
       "Only evaluate and notify may be combined, because they share the same reporting period",
       "Only accept and execute may overlap, and only on a commercial contract",
-      "They may be rearranged, except that a checkpoint report must still be produced every month, by the manager"
+      "They may be rearranged, except that a checkpoint report must still be produced every month"
     ],
     "explanation": "The manual allows the activities to be combined, separated or run concurrently to suit the context, with the caveat that the link back to controlling a stage must stay sound. The connection matters because the project manager depends on it for control.",
     "source": "p.266"
@@ -401,14 +401,14 @@
     "section": "17.5.1",
     "topic": "Size of work packages",
     "difficulty": 3,
-    "stem": "The manual says work packages are not necessarily small in scale. What follows from that?",
+    "stem": "PRINCE2 says work packages are not necessarily small in scale. What follows from that?",
     "answer": "All the PRINCE2 principles apply to a work package as to a project, so it needs governance and control",
     "distractors": [
-      "A work package must therefore be delivered entirely within a single stage, and by a single team, under one manager",
+      "A work package must therefore be delivered entirely within a single stage, and by a single team",
       "A work package may only be authorized by the project board, not the project manager",
       "Small work packages may be exempted from the principles to reduce management overhead",
-      "A work package must produce exactly one specialist product to remain controllable, and be owned by one person",
-      "A large work package must be managed as a separate project with its own board, and its own executive",
+      "A work package must produce exactly one specialist product to remain controllable",
+      "A large work package must be managed as a separate project with its own board",
       "A large work package does not need a team plan, because the stage plan already covers it"
     ],
     "explanation": "Because a work package can be substantial, the principles apply to it just as they do to a project, requiring governance and control and often a team manager with real project management skill. Nothing in the process caps a work package at a single product or a single stage.",
@@ -439,15 +439,15 @@
     "section": "17.5.2",
     "topic": "Working with the team",
     "difficulty": 2,
-    "stem": "How does the manual characterize the relationship between the team manager and team members during this process?",
+    "stem": "How does PRINCE2 characterize the relationship between the team manager and team members during this process?",
     "answer": "Collaborative, with the team manager facilitating the work rather than assigning tasks, so ownership improves",
     "distractors": [
       "Directive, with the team manager assigning each task and checking it personally",
-      "Contractual, with the relationship governed by the supplier's employment terms, and the work package description",
+      "Contractual, with the relationship governed by the supplier's employment terms",
       "Hands-off, with the team manager relying solely on the checkpoint reports, and visiting the team only monthly",
-      "Hierarchical, with each team member reporting to a separate lower-level team manager, and then the project manager",
+      "Hierarchical, with each team member reporting to a separate lower-level team manager",
       "Advisory, with team members choosing what to deliver and the team manager recording it",
-      "Delegated, with the project manager directing team members through the team manager, and checking their output"
+      "Delegated, with the project manager directing team members through the team manager"
     ],
     "explanation": "The relationship should be collaborative: the team manager facilitates rather than assigns tasks, which improves ownership of the work package and team plan. This mirrors the manual's treatment of co-creation and collaboration in the people chapter.",
     "source": "p.266"
@@ -458,15 +458,15 @@
     "section": "17.5.2",
     "topic": "Work package description responsibilities",
     "difficulty": 3,
-    "stem": "The PRINCE2 processes define who creates, updates and approves a work package description. What does the manual allow?",
+    "stem": "The PRINCE2 processes define who creates, updates and approves a work package description. What is allowed?",
     "answer": "Those responsibilities may be changed, if the team manager and project manager agree the description",
     "distractors": [
       "Those responsibilities may be changed only by the project board at a stage boundary",
-      "Those responsibilities are fixed and may not be tailored on any project, and the board must enforce this",
+      "Those responsibilities are fixed and may not be tailored on any project",
       "Those responsibilities may be changed by project assurance if the change improves quality",
       "Those responsibilities may be changed by the senior supplier under a commercial contract",
       "Those responsibilities may be delegated to project support, which maintains the description",
-      "Those responsibilities may be changed once the work package has been authorized, and the board is told"
+      "Those responsibilities may be changed once the work package has been authorized"
     ],
     "explanation": "The manual permits the responsibilities for creating, updating and approving the work package description to be reallocated, on the condition that the team manager and project manager agree on its content. The agreement between those two roles is what protects the interface.",
     "source": "p.267"

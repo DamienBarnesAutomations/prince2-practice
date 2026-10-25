@@ -8,8 +8,8 @@
     "stem": "What is the purpose of the plans practice?",
     "answer": "To facilitate communication and control by defining the products and the means to deliver them",
     "distractors": [
-      "To define the project's structure of accountability and responsibilities, and the roles that hold them",
-      "To describe the quality criteria and acceptance methods for each product, and who approves them",
+      "To define the project's structure of accountability and responsibilities",
+      "To describe the quality criteria and acceptance methods for each product",
       "To identify and control the uncertainties that threaten the project's objectives",
       "To capture, assess and control changes and other issues",
       "To decide which products are worth delivering and to keep that decision under review at each stage",
@@ -63,7 +63,7 @@
     "stem": "Plans are said to integrate three perspectives. Which set is correct?",
     "answer": "The user's expectations, the project management team's assessment of the approach, and the business's support",
     "distractors": [
-      "The user's expectations, the supplier's commercial terms, and the project board's tolerances, as agreed with the programme",
+      "The user's expectations, the supplier's commercial terms, and the project board's tolerances",
       "The business case, the project plan, and the stage plans, as approved by the project board at each boundary",
       "The requirements, the quality criteria, and the acceptance methods",
       "The delivery method, the work breakdown structure, and the product flow diagram, as agreed by the team managers",
@@ -97,12 +97,12 @@
     "set": "ch07",
     "section": "7.1.2",
     "topic": "Scope",
-    "difficulty": 2,
-    "stem": "How does the manual define scope?",
+    "difficulty": 1,
+    "stem": "What is scope?",
     "answer": "The sum of the product, delivery and management activities represented by an approved plan",
     "distractors": [
       "The list of products named in the project product description, and their acceptance criteria",
-      "The work packages assigned to external suppliers under contract, and the products they deliver",
+      "The work packages assigned to external suppliers under contract",
       "Everything the user has asked for, whether or not it is funded, scheduled or approved",
       "The products and activities that fall within the current stage plan only",
       "The sum of the acceptance criteria in the product descriptions, and the quality criteria",
@@ -117,7 +117,7 @@
     "section": "7.1.2",
     "topic": "Scope creep",
     "difficulty": 3,
-    "stem": "A stage plan contains an activity that cannot be traced back to any high-level element of the project plan. What does the manual say this indicates?",
+    "stem": "A stage plan contains an activity that cannot be traced back to any high-level element of the project plan. What does PRINCE2 say this indicates?",
     "answer": "That the project is at risk of scope creep, as the work is untraceable",
     "distractors": [
       "That the project plan needs to be re-baselined before the stage can continue",
@@ -135,7 +135,7 @@
     "set": "ch07",
     "section": "7.2.1",
     "topic": "Planning horizon",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is the planning horizon?",
     "answer": "The period over which plans can be made with confidence",
     "distractors": [
@@ -154,7 +154,7 @@
     "set": "ch07",
     "section": "7.2.1",
     "topic": "Planning horizon",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "How does the length of the planning horizon affect the level of detail in a plan?",
     "answer": "A long horizon gives a high-level plan, while a shorter one allows more detail",
     "distractors": [
@@ -174,7 +174,7 @@
     "section": "7.2.1",
     "topic": "Planning horizon",
     "difficulty": 3,
-    "stem": "A three-year infrastructure project is starting its design stage. Which planning approach does the manual describe as sensible?",
+    "stem": "A three-year infrastructure project is starting its design stage. Which planning approach does PRINCE2 describe as sensible?",
     "answer": "An outline plan for the remaining two years combined with a detailed plan for the current design stage",
     "distractors": [
       "A detailed day-by-day plan for the whole three years, reviewed monthly",
@@ -192,7 +192,7 @@
     "set": "ch07",
     "section": "7.2.2",
     "topic": "Levels of plans",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What do all PRINCE2 plans have in common?",
     "answer": "The same fundamental structure, differing in purpose, scope and level of detail",
     "distractors": [
@@ -200,8 +200,8 @@
       "The same scope, differing only in who prepares them, who approves them",
       "The same approval route, differing only in the reporting format, the owner and the frequency",
       "The same tolerance values, differing only in the level, owner and unit at which they apply",
-      "The same schedule, differing only in the number of work packages, stages and teams",
-      "The same product descriptions, differing only in the acceptance criteria, owners and dates"
+      "The same schedule, differing only in the number of work packages",
+      "The same product descriptions, differing only in the acceptance criteria"
     ],
     "explanation": "All PRINCE2 plans share the same fundamental structure. What differs is their purpose, scope and level of detail, and each should still give the project management team confidence that it is a realistic assessment of the products and the work needed.",
     "source": "p.101"
@@ -211,7 +211,7 @@
     "set": "ch07",
     "section": "7.2.2.1",
     "topic": "Project plan",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is the purpose of the project plan?",
     "answer": "To give the board confidence that the business case will be met and the team confidence in the approach",
     "distractors": [
@@ -219,7 +219,7 @@
       "To authorize each work package before it is issued to a team manager, and to record the authorization",
       "To define the roles and responsibilities of the project management team",
       "To record the lessons learned from previous projects, and to apply them to the current project plan",
-      "To set out how the project's products will be accepted into operational use, and who will support them",
+      "To set out how the project's products will be accepted into operational use",
       "To provide the detailed schedule that team managers will work to, and the board will use to authorize stages"
     ],
     "explanation": "The project plan is a high-level plan of the major products and when, how and at what cost they will be delivered. Its purpose is to give the board confidence in the business case and the team confidence in a viable approach within the approved resources and tolerances.",
@@ -230,13 +230,13 @@
     "set": "ch07",
     "section": "7.2.2.1",
     "topic": "Project plan",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Which statement about the project plan is correct?",
     "answer": "It is created during initiating a project, baselined on board approval, and changed only with board approval",
     "distractors": [
       "It is created during starting up a project, and baselined when the project mandate is issued, then fixed",
-      "It is created at the first stage boundary, and re-baselined at every subsequent boundary, whatever the change",
-      "It is created during initiating a project, and may be changed by the project manager without approval, if small",
+      "It is created at the first stage boundary, and re-baselined at every subsequent boundary",
+      "It is created during initiating a project, and may be changed by the project manager without approval",
       "It is created during managing a stage boundary, and approved by the project manager, then sent to the board",
       "It is created at the start of each stage, and replaces the previous version, which is then discarded",
       "It is created during directing a project, and approved by the commissioning party, then issued to the team"
@@ -249,7 +249,7 @@
     "set": "ch07",
     "section": "7.2.2.1",
     "topic": "Project plan",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "What should the project plan state about each proposed work package?",
     "answer": "Whether it will be delivered sequentially or iteratively",
     "distractors": [
@@ -325,16 +325,16 @@
     "set": "ch07",
     "section": "7.2.2.3",
     "topic": "Team plan",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which statement about team plans is correct?",
     "answer": "They are optional, and are produced by a team manager to facilitate executing work packages",
     "distractors": [
       "They are mandatory for every work package in a PRINCE2 project, and are approved by the project board",
       "They are produced by the project manager and approved by the project board",
       "They replace the stage plan when the work is delivered by an external supplier",
-      "They are produced by the project board to control the team manager, and are issued with each package",
+      "They are produced by the project board to control the team manager",
       "They are required only where a work package spans a stage boundary, and must then be approved by the board",
-      "They are a type of exception plan used for work package tolerances, and are approved by the executive"
+      "They are a type of exception plan used for work package tolerances"
     ],
     "explanation": "Team plans are optional. A team manager produces them to organize and control the work of the team when executing one or more work packages. They are most useful where the team is a temporary organization drawn from different parts of the business.",
     "source": "p.103"
@@ -344,7 +344,7 @@
     "set": "ch07",
     "section": "7.2.2.4",
     "topic": "Exception plan",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is an exception plan?",
     "answer": "A plan that follows an exception report and explains how the project will respond within the stage",
     "distractors": [
@@ -364,7 +364,7 @@
     "section": "7.2.2.4",
     "topic": "Exception plan",
     "difficulty": 3,
-    "stem": "Resolving an exception requires actions that go beyond the scope of the current stage. What does the manual say must happen?",
+    "stem": "Resolving an exception requires actions that go beyond the scope of the current stage. What does PRINCE2 say must happen?",
     "answer": "The actions must be addressed through a change to the project plan",
     "distractors": [
       "A second exception plan should be prepared for the next stage",
@@ -382,7 +382,7 @@
     "set": "ch07",
     "section": "7.2.2.4",
     "topic": "Exception plan",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "For which type of plan is an exception plan explicitly not required?",
     "answer": "A team plan for delivering work packages",
     "distractors": [
@@ -401,7 +401,7 @@
     "set": "ch07",
     "section": "7.2.3",
     "topic": "Stages",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Dividing a project into stages is a balance between which factors?",
     "answer": "The delivery method, the sequence of activities, key decision points, and how far ahead to plan",
     "distractors": [
@@ -420,7 +420,7 @@
     "set": "ch07",
     "section": "7.2.3.1",
     "topic": "Number of stages",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is the trade-off in choosing the number of stages?",
     "answer": "More stages increase control, but each stage boundary adds management overhead",
     "distractors": [
@@ -458,8 +458,8 @@
     "set": "ch07",
     "section": "7.2.3.2",
     "topic": "Length of stages",
-    "difficulty": 3,
-    "stem": "Which factor does the manual give for making a stage shorter?",
+    "difficulty": 2,
+    "stem": "Which factor does PRINCE2 give for making a stage shorter?",
     "answer": "Significant uncertainty in estimates of resources or durations, so they can be refined in the next stage plan",
     "distractors": [
       "A large number of products, so that each stage can deliver fewer of them and be easier to manage",
@@ -496,7 +496,7 @@
     "set": "ch07",
     "section": "7.2.3.3",
     "topic": "Stages and work packages",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Why do PRINCE2 stages not overlap?",
     "answer": "They partition the project with stop-go points, so progress and justification can be reviewed",
     "distractors": [
@@ -516,7 +516,7 @@
     "section": "7.2.3.3",
     "topic": "Stages and work packages",
     "difficulty": 3,
-    "stem": "A work package must span a stage boundary, for example to procure a long-lead item. What does the manual say should happen?",
+    "stem": "A work package must span a stage boundary, for example to procure a long-lead item. What does PRINCE2 say should happen?",
     "answer": "Its status should be reviewed as part of managing a stage boundary",
     "distractors": [
       "It should be split into two work packages, one for each stage",
@@ -535,7 +535,7 @@
     "section": "7.2.4",
     "topic": "Tolerances in planning",
     "difficulty": 2,
-    "stem": "Which set lists the tolerance types the manual says PRINCE2 includes for managing constraints at each plan level?",
+    "stem": "Which set lists the tolerance types PRINCE2 includes for managing constraints at each plan level?",
     "answer": "Benefits, time, cost, quality, scope, risk and sustainability",
     "distractors": [
       "Time, cost, quality, scope, risk and people",
@@ -554,10 +554,10 @@
     "section": "7.2.4",
     "topic": "Tolerances in planning",
     "difficulty": 2,
-    "stem": "A project must be completed by a fixed date. What does the manual say about its time tolerance?",
+    "stem": "A project must be completed by a fixed date. What does PRINCE2 say about its time tolerance?",
     "answer": "It will be narrow, possibly zero, because any delay would put the project at risk of failure",
     "distractors": [
-      "It will be wide, so the project manager can recover slippage without escalating, as the board expects",
+      "It will be wide, so the project manager can recover slippage without escalating",
       "It will be set at the project level only, with no stage time tolerance, because the date is fixed",
       "It will be replaced by a cost tolerance, because the date is fixed and cannot be varied by anyone",
       "It will be set to the length of the final stage, so that any slippage can be absorbed there",
@@ -629,14 +629,14 @@
     "set": "ch07",
     "section": "7.2.5",
     "topic": "Product-based planning",
-    "difficulty": 3,
-    "stem": "Which benefit of product-based planning does the manual give?",
+    "difficulty": 2,
+    "stem": "Which benefit of product-based planning does PRINCE2 give?",
     "answer": "It reduces the risk of scope being overlooked, by clearly identifying products and interdependencies",
     "distractors": [
       "It removes the need for a work breakdown structure on simple projects, and for any schedule",
       "It guarantees that the project will not exceed its cost tolerance, and so removes the need for escalation",
       "It allows the project manager to skip estimating, because products are already defined",
-      "It replaces the business case as the basis for continued justification, and is reviewed instead",
+      "It replaces the business case as the basis for continued justification",
       "It means that stage boundaries are no longer required, and the board need only review the project once",
       "It ensures that every product is delivered by an external supplier, and so reduces internal workload"
     ],
@@ -668,7 +668,7 @@
     "section": "7.3.1",
     "topic": "Planning technique",
     "difficulty": 3,
-    "stem": "The manual says the planning technique is not strictly sequential. Which example does it give?",
+    "stem": "PRINCE2 says the planning technique is not strictly sequential. Which example does it give?",
     "answer": "Scheduling and estimating are often interdependent and performed collaboratively",
     "distractors": [
       "Product descriptions must always be written before the project product description exists",
@@ -706,7 +706,7 @@
     "section": "7.3.1",
     "topic": "Planning technique",
     "difficulty": 3,
-    "stem": "What does the manual say about requirements or activities introduced in a subordinate plan that cannot be traced back to the approved project plan?",
+    "stem": "What is true of requirements or activities introduced in a subordinate plan that cannot be traced back to the approved project plan?",
     "answer": "They must not be introduced, because this is a common means by which scope creep occurs",
     "distractors": [
       "They should be recorded as a change to the stage plan and approved by the project manager",
@@ -744,7 +744,7 @@
     "section": "7.3.2.1",
     "topic": "Project product description",
     "difficulty": 3,
-    "stem": "High-level acceptance criteria are recommended to be measurable, but that is not always feasible. What does the manual allow instead?",
+    "stem": "High-level acceptance criteria are recommended to be measurable, but that is not always feasible. What does PRINCE2 allow instead?",
     "answer": "Descriptive statements, if the project brief says they will be translated into precise criteria later",
     "distractors": [
       "Acceptance criteria may be omitted until the products are delivered, and then agreed with the user",
@@ -800,8 +800,8 @@
     "set": "ch07",
     "section": "7.3.2.2",
     "topic": "Product breakdown structure",
-    "difficulty": 3,
-    "stem": "Which function of a product breakdown structure does the manual give?",
+    "difficulty": 2,
+    "stem": "Which function of a product breakdown structure does PRINCE2 give?",
     "answer": "It groups requirements by delivery method",
     "distractors": [
       "It sets the tolerances for each product",
@@ -823,9 +823,9 @@
     "stem": "Why might a product breakdown structure include different states of the same product, such as a design, the construction, and the interior finishing of a building?",
     "answer": "Because each state may have its own quality specifications and be produced by a different team",
     "distractors": [
-      "Because the product breakdown structure must show every work package, and every task in each",
+      "Because the product breakdown structure must show every work package",
       "Because each state has to be accepted by a different senior user, and signed off separately",
-      "Because the final state replaces the earlier ones in the hierarchy, and they are then deleted",
+      "Because the final state replaces the earlier ones in the hierarchy",
       "Because states must be sequenced in the product flow diagram and not in the breakdown structure",
       "Because the project board approves each state separately, and may reject one without the others",
       "Because each state consumes a separate stage tolerance, and must be tracked against it"
@@ -895,7 +895,7 @@
     "set": "ch07",
     "section": "7.3.2.4",
     "topic": "Product flow diagram",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is an intermediate product?",
     "answer": "A product made as an essential input to another but not for the user",
     "distractors": [
@@ -939,10 +939,10 @@
     "distractors": [
       "An external dependency is between two work packages delivered by different teams inside the project",
       "An external dependency is one that has been contracted to a supplier but remains in project scope",
-      "An external dependency is any dependency identified after the project plan is baselined, however minor",
+      "An external dependency is any dependency identified after the project plan is baselined",
       "An external dependency is one that the project board has accepted as a risk",
       "An external dependency is one that crosses a stage boundary",
-      "An external dependency is one recorded in the risk register rather than in the plan, for the board"
+      "An external dependency is one recorded in the risk register rather than in the plan"
     ],
     "explanation": "An internal dependency is between two products of the project, where the team has control. An external dependency is between a project product and a product or activity outside the project's scope, where the team does not have complete control.",
     "source": "p.113"
@@ -953,7 +953,7 @@
     "section": "7.3.2.5",
     "topic": "Work packages and dependencies",
     "difficulty": 3,
-    "stem": "What does the manual say about work package descriptions where no contract is involved?",
+    "stem": "What is true of work package descriptions where no contract is involved?",
     "answer": "The work package description is still considered an agreement between the manager and team manager",
     "distractors": [
       "It is not required, because there is no commercial relationship to document",
@@ -971,16 +971,16 @@
     "set": "ch07",
     "section": "7.3.2.5",
     "topic": "Work packages and dependencies",
-    "difficulty": 3,
-    "stem": "What does the manual require of the set of work packages in relation to scope?",
+    "difficulty": 2,
+    "stem": "What does PRINCE2 require of the set of work packages in relation to scope?",
     "answer": "Work packages should not overlap, and together should comprise the full delivery scope",
     "distractors": [
       "Work packages may overlap where teams need to collaborate, provided the overlap is recorded and approved",
       "Work packages should cover the delivery scope, and management activities are excluded from them",
       "Work packages may leave gaps provided the gaps are covered by the stage plan",
       "Each work package must map to exactly one stage, and may never span a stage boundary or a team",
-      "Work packages should be defined only after the schedule is baselined, and then not changed",
-      "Work packages must be of equal size to allow progress to be compared, and to balance team loads"
+      "Work packages should be defined only after the schedule is baselined",
+      "Work packages must be of equal size to allow progress to be compared"
     ],
     "explanation": "The project manager should ensure no overlap in the scope of any two work packages, because overlap costs money and creates conflict between teams. The totality of the work packages should also comprise the full delivery scope, with no gaps between the product flow diagram, product breakdown structure and work packages.",
     "source": "p.113"
@@ -991,15 +991,15 @@
     "section": "7.3.2.5",
     "topic": "Work packages and dependencies",
     "difficulty": 2,
-    "stem": "Why does the manual suggest organizing project management activities into a single work package for each stage?",
+    "stem": "Why does PRINCE2 suggest organizing project management activities into a single work package for each stage?",
     "answer": "It documents all management tasks and shows how stages, milestones and product delivery relate",
     "distractors": [
       "It allows management costs to be excluded from the project budget, and from the stage plan, to save effort",
       "It removes the need for a stage plan for that stage, and for any reporting, review or assurance",
       "It transfers management accountability to the team manager, and releases the project manager to deliver",
-      "It makes the project management activities optional in the schedule, and so reduces the estimate",
+      "It makes the project management activities optional in the schedule",
       "It allows the stage to proceed without board authorization, and the executive to approve it later",
-      "It reduces the number of products in the product breakdown structure, and the work breakdown too"
+      "It reduces the number of products in the product breakdown structure"
     ],
     "explanation": "A single work package per stage for management activities helps document all project management tasks and shows the relationship between stages and milestones and the activities purely related to product delivery, even where those activities are not part of the project budget.",
     "source": "p.113"
@@ -1009,7 +1009,7 @@
     "set": "ch07",
     "section": "7.3.2.6",
     "topic": "Preparing estimates",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which list names what project and team managers always estimate?",
     "answer": "People, resources, durations, cost, benefits and risk",
     "distractors": [
@@ -1029,7 +1029,7 @@
     "section": "7.3.2.6",
     "topic": "Preparing estimates",
     "difficulty": 2,
-    "stem": "Why does the manual recommend including a level of confidence with every estimate?",
+    "stem": "Why does PRINCE2 recommend including a level of confidence with every estimate?",
     "answer": "Higher confidence means fewer variations and lets the manager and board agree realistic tolerances",
     "distractors": [
       "It allows estimates to be replaced by guarantees from the supplier, and so removes the need for tolerances",
@@ -1047,7 +1047,7 @@
     "set": "ch07",
     "section": "7.3.2.7",
     "topic": "Preparing a schedule",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which statement about the schedule is correct?",
     "answer": "All work packages for a stage must be included in that stage's schedule",
     "distractors": [
@@ -1067,7 +1067,7 @@
     "section": "7.3.2.8",
     "topic": "Preparing the budget",
     "difficulty": 2,
-    "stem": "Which items does the manual say the budget should include?",
+    "stem": "Which items does PRINCE2 say the budget should include?",
     "answer": "Activity costs including project management, the risk budget, the change budget and cost tolerances",
     "distractors": [
       "Activity costs, the benefits estimate, the quality budget and time tolerances, with the supplier's margin",
@@ -1086,7 +1086,7 @@
     "section": "7.3.2.8",
     "topic": "Preparing the budget",
     "difficulty": 3,
-    "stem": "When does the manual say separate risk and change budgets may be omitted?",
+    "stem": "When does PRINCE2 say separate risk and change budgets may be omitted?",
     "answer": "Where the value of the additional control does not outweigh the additional management cost and time",
     "distractors": [
       "When the project is delivered by external suppliers under a fixed-price contract, with the risk held by them",
@@ -1094,7 +1094,7 @@
       "When the project board has set the cost tolerance to zero, and the budget is therefore fixed in full",
       "When the risk register contains no high-priority risks, and no change is expected during the stage",
       "When the project is part of a programme with a central budget, and the programme holds the contingency",
-      "When the project manager has delegated budget control to team managers, and they hold the contingency"
+      "When the project manager has delegated budget control to team managers"
     ],
     "explanation": "Their use is optional and depends on project context: whether the value of the additional control outweighs the additional project management costs and time.",
     "source": "p.115"
@@ -1105,7 +1105,7 @@
     "section": "7.3.2.9",
     "topic": "Analysing risks",
     "difficulty": 2,
-    "stem": "Until when does the manual say a completed plan should still be regarded as a draft?",
+    "stem": "Until when does PRINCE2 say a completed plan should still be regarded as a draft?",
     "answer": "Until decisions have been made on whether and how to treat the plan's inherent risks",
     "distractors": [
       "Until the project board has approved the business case and authorized the next stage",
@@ -1124,14 +1124,14 @@
     "section": "7.3.2.10",
     "topic": "Documenting the plan",
     "difficulty": 2,
-    "stem": "A narrative document is often prepared alongside the planning products. Which item does the manual list as part of it?",
+    "stem": "A narrative document is often prepared alongside the planning products. Which item does PRINCE2 list as part of it?",
     "answer": "The assumptions underlying the dependencies, tolerances and key risks",
     "distractors": [
-      "The individual task assignments for every team member, and their start dates",
+      "The individual task assignments for every team member",
       "The supplier's confidential subcontractor costs, and its profit margin",
       "The lessons log entries from previous projects, and their owners",
-      "The business case and benefits management approach, and the review dates",
-      "The role descriptions for the project management team, and the board",
+      "The business case and benefits management approach",
+      "The role descriptions for the project management team",
       "The quality register entries for each product, and their approvals"
     ],
     "explanation": "The narrative explains the plan at a high level and identifies internal and external dependencies, proposed tolerances, monitoring and control requirements, budgets, key risks, and the assumptions underlying any of those. A project plan also describes the stages and planned board decisions.",
@@ -1143,14 +1143,14 @@
     "section": "7.3.3.1",
     "topic": "Prioritizing",
     "difficulty": 2,
-    "stem": "Why does the manual say scope usually has to be prioritized?",
+    "stem": "Why does PRINCE2 say scope usually has to be prioritized?",
     "answer": "Projects seldom have the money, time or resources to deliver everything wanted, even if justified",
     "distractors": [
-      "Because the project board is required to reduce scope at every stage boundary, and report the reduction",
-      "Because acceptance criteria cannot be measured unless they are prioritized, and the board has ranked them",
+      "Because the project board is required to reduce scope at every stage boundary",
+      "Because acceptance criteria cannot be measured unless they are prioritized",
       "Because suppliers will not contract for unprioritized requirements, and the contract must list them in order",
-      "Because the business case cannot be approved without a priority list, and the list must be signed",
-      "Because quality specifications must be ranked before products are defined, and approved by the executive",
+      "Because the business case cannot be approved without a priority list",
+      "Because quality specifications must be ranked before products are defined",
       "Because the project manager needs a backlog to schedule the work, and the team needs one to estimate"
     ],
     "explanation": "Even where delivery of everything has business justification, the money, time or resources are rarely available, so scope including acceptance criteria and quality specifications must be prioritized, delivering as much as possible within the justification.",
@@ -1161,14 +1161,14 @@
     "set": "ch07",
     "section": "7.3.3.1",
     "topic": "Prioritizing",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Which pairing of prioritization technique with its description is correct?",
     "answer": "The Kano model describes features as delighters, performance features and essential features",
     "distractors": [
       "The Kano model assesses criteria in two dimensions such as importance versus urgency, to rank the work",
       "Pairwise comparison categorizes criteria as must-have, should-have, could-have and won't have",
       "A product backlog explains preferences between two criteria at a time, for the whole of the project",
-      "Eisenhower matrices describe the sequence in which features will be released, and to whom, by iteration",
+      "Eisenhower matrices describe the sequence in which features will be released",
       "MoSCoW uses two contrasting dimensions such as value versus ease of implementation, to rank features",
       "The Kano model ranks requirements by the order in which they appear in the contract"
     ],
@@ -1224,7 +1224,7 @@
     "distractors": [
       "The critical path accounts for resource limitations; the critical chain does not",
       "The critical path includes procurement activities; the critical chain excludes them",
-      "The critical path is used in iterative projects; the critical chain in linear projects, by convention",
+      "The critical path is used in iterative projects; the critical chain in linear projects",
       "The critical path is set by the supplier; the critical chain by the project manager, with the board",
       "The critical path shows milestones only; the critical chain shows tasks only, with their resources",
       "They are the same sequence, described with different terminology by different planning communities"
@@ -1237,7 +1237,7 @@
     "set": "ch07",
     "section": "7.3.3.2",
     "topic": "Scheduling techniques",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What does a schedule with zero float across all activities represent?",
     "answer": "A high risk of delay and of an exception to the time tolerance",
     "distractors": [
@@ -1293,7 +1293,7 @@
     "section": "7.3.4",
     "topic": "Estimating techniques",
     "difficulty": 2,
-    "stem": "Which pair of consensus-based techniques does the manual give for developing estimates with subject matter experts?",
+    "stem": "Which pair of consensus-based techniques does PRINCE2 give for developing estimates with subject matter experts?",
     "answer": "Delphi and planning poker",
     "distractors": [
       "Gantt and Kanban",
@@ -1319,7 +1319,7 @@
       "It requires the project to use the same number of stages, stage lengths, and tolerances as other projects",
       "It prohibits the project from having its own stage tolerances, and from varying the programme's",
       "It means the project board is replaced by the programme board, and the plan by the programme plan",
-      "It requires all project work packages to be delivered by the programme office, and approved there"
+      "It requires all project work packages to be delivered by the programme office"
     ],
     "explanation": "A programme may lead or support planning with dedicated planners and templates, influence the number and length of stages so reviews align with programme milestones or tranches, and its delivery plan will identify product dependencies to be incorporated into the project's plans.",
     "source": "p.118"
@@ -1330,13 +1330,13 @@
     "section": "7.4.2",
     "topic": "Commercial context",
     "difficulty": 3,
-    "stem": "What is a back-to-back agreement in the commercial context described by the manual?",
+    "stem": "What is a back-to-back agreement in the commercial context described by PRINCE2?",
     "answer": "An agreement requiring the supplier's plans to trace to the user's project plan and acceptance criteria",
     "distractors": [
-      "An agreement where the supplier and the user exchange confidential cost information, margins and plans in full",
-      "A contract where the supplier takes over the project board's assurance role, and reports to the executive",
+      "An agreement where the supplier and the user exchange confidential cost information",
+      "A contract where the supplier takes over the project board's assurance role",
       "An agreement that the supplier will be paid on a labor basis rather than a product basis",
-      "A contract that fixes the supplier's price to the project's change budget, and to its risk budget too",
+      "A contract that fixes the supplier's price to the project's change budget",
       "An agreement that the supplier's plan replaces the stage plan for its work packages",
       "A contract term allowing the supplier to set its own tolerances, and to vary them without approval"
     ],
@@ -1348,8 +1348,8 @@
     "set": "ch07",
     "section": "7.4.2",
     "topic": "Commercial context",
-    "difficulty": 2,
-    "stem": "Why does the manual suggest preparing non-confidential versions of plans?",
+    "difficulty": 1,
+    "stem": "Why does PRINCE2 suggest preparing non-confidential versions of plans?",
     "answer": "Because plans may hold private information, such as costs",
     "distractors": [
       "Because the project board is not permitted to see supplier plans",
@@ -1367,7 +1367,7 @@
     "set": "ch07",
     "section": "7.4.3",
     "topic": "Delivery method",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "In a linear-sequential project, where is most planning effort applied?",
     "answer": "Upfront, in starting up a project and initiating a project",
     "distractors": [
@@ -1392,7 +1392,7 @@
     "distractors": [
       "Tolerances fix scope for each iteration and allow time and cost to vary, with the project board approving each one",
       "Product descriptions must be complete before the first iteration begins, and the board must approve them all",
-      "The project plan is replaced by the product backlog, and the stage plans by the sprint plans, in full",
+      "The project plan is replaced by the product backlog, and the stage plans by the sprint plans",
       "Stage boundaries are removed because iterations provide the control, and the board meets at each iteration",
       "Estimates are prepared only at the end of the project, and the plan is then updated to match them",
       "A team plan is mandatory for every iteration, and the team manager must have it approved by the board"
@@ -1413,7 +1413,7 @@
       "A product checklist maintained by project support",
       "A critical path diagram for each sprint, and its float",
       "A work breakdown structure for the team, and its estimates",
-      "A stage plan approved by the project board, and reissued each sprint"
+      "A stage plan approved by the project board"
     ],
     "explanation": "The manual says the product backlog and workflow can be combined in a collaborative planning tool such as a Kanban board, which may be used instead of a team plan and is developed as a joint effort by the whole development team.",
     "source": "p.120"
@@ -1424,7 +1424,7 @@
     "section": "7.4.4",
     "topic": "Sustainability in plans",
     "difficulty": 2,
-    "stem": "Which three ways does the manual say plans can address sustainability?",
+    "stem": "Which three ways does PRINCE2 say plans can address sustainability?",
     "answer": "Product sustainability, delivery sustainability and benefits sustainability",
     "distractors": [
       "Product sustainability, cost sustainability and risk sustainability",
@@ -1461,13 +1461,13 @@
     "section": "7.4.5",
     "topic": "Scale",
     "difficulty": 3,
-    "stem": "Which statement about the cost of project planning does the manual make?",
+    "stem": "Which statement about the cost of project planning does PRINCE2 make?",
     "answer": "Planning effort should be proportionate to the project, and could be ten per cent or more of its cost",
     "distractors": [
       "Planning should never exceed one per cent of the project cost, however complex the project may be",
-      "Planning costs are fixed by the programme office regardless of the project, and are charged to it centrally",
+      "Planning costs are fixed by the programme office regardless of the project",
       "Planning effort should be the same on every project, because the technique does not scale",
-      "Planning costs are excluded from the project budget and funded centrally, and the board does not see them",
+      "Planning costs are excluded from the project budget and funded centrally",
       "Planning effort should be minimized, because it does not reduce the risk of failure",
       "Planning and support costs must be recorded in the change budget, and approved by the project board"
     ],
@@ -1498,12 +1498,12 @@
     "set": "ch07",
     "section": "7.5",
     "topic": "Plan management product",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "Which tolerance statement about plan content is correct?",
     "answer": "Plans set scope, cost and time tolerances, with sustainability and risk tolerances optional",
     "distractors": [
       "Plans set benefits, scope and quality tolerances only, with no time or cost tolerances at all",
-      "All plans must set the same seven tolerance types, with no variation, and no optional types",
+      "All plans must set the same seven tolerance types, with no variation",
       "Only the project plan may contain tolerances, and stage and team plans must rely on its limits",
       "Tolerances are set in the business case rather than in the plan, and the plan only repeats them",
       "Plans set time and cost tolerances only, because scope is fixed, and the board agrees them",
@@ -1517,7 +1517,7 @@
     "set": "ch07",
     "section": "7.5",
     "topic": "Work package description",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "What is the purpose of a work package description?",
     "answer": "To describe how products will be produced, passing responsibility to the team manager",
     "distractors": [
@@ -1590,7 +1590,7 @@
     "set": "ch07",
     "section": "7.6",
     "topic": "Focus of key roles",
-    "difficulty": 2,
+    "difficulty": 1,
     "stem": "Which role prepares team plans and schedules for each work package?",
     "answer": "The team manager",
     "distractors": [
@@ -1608,7 +1608,7 @@
     "set": "ch07",
     "section": "7.7",
     "topic": "Key relationships with principles",
-    "difficulty": 3,
+    "difficulty": 2,
     "stem": "How does the plans practice support the principle manage by stages?",
     "answer": "By breaking the lifecycle into stages that fit planning horizons and align with decision points",
     "distractors": [
