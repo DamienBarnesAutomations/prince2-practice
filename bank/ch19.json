@@ -6,7 +6,7 @@
     "topic": "Purpose of closing a project",
     "difficulty": 1,
     "stem": "What is the purpose of the closing a project process?",
-    "answer": "To provide a fixed point at which acceptance of the project product is confirmed and achievement of the project's objectives is recognized",
+    "answer": "To provide a fixed point at which acceptance is confirmed and achievement of objectives recognized",
     "distractors": [
       "To confirm that the benefits promised in the business case have been measured in operational use",
       "To review the performance of the current stage and authorize the next stage of the project",
@@ -25,7 +25,7 @@
     "topic": "Premature closure",
     "difficulty": 2,
     "stem": "A project's funding is withdrawn partway through delivery and the board decides to stop the work. How does the closing a project process apply?",
-    "answer": "The process is still executed, so that the project is closed in an orderly way rather than simply abandoned",
+    "answer": "The process is still executed, so the project closes in an orderly way, not abandoned",
     "distractors": [
       "The process is not used, because acceptance of the project product cannot be confirmed",
       "The project is suspended instead of closed, so that work can restart if funding is restored",
@@ -44,7 +44,7 @@
     "topic": "Objectives of the process",
     "difficulty": 1,
     "stem": "Which of these is NOT an objective of the closing a project process?",
-    "answer": "To confirm that the project's products were delivered within the final stage's tolerances",
+    "answer": "To confirm that products were delivered within the final stage's tolerances",
     "distractors": [
       "To check that the users have accepted the project product",
       "To review how the project performed against its baselines",
@@ -61,14 +61,14 @@
     "topic": "Benefits at closure",
     "difficulty": 2,
     "stem": "The project product has been in operational use for some months when the project closes. What does the process require in relation to benefits?",
-    "answer": "That benefits already realized are assessed and the benefits management approach is updated to include post-project benefit reviews",
+    "answer": "That benefits already realized are assessed and the benefits management approach is updated for reviews",
     "distractors": [
-      "That every benefit in the business case is measured and the results recorded in the end project report",
+      "That every benefit in the business case is measured and the results recorded in the end project report, in full",
       "That responsibility for realizing the remaining benefits passes to the project board",
       "That the benefits management approach is closed along with the project's other registers",
-      "That the business case is re-baselined to show only the benefits achieved so far",
+      "That the business case is re-baselined to show only the benefits achieved so far, and the costs incurred",
       "That the senior supplier confirms which benefits the products are capable of delivering",
-      "That the remaining benefits are assessed at the next stage boundary"
+      "That the remaining benefits are assessed at the next stage boundary, and reported to the project board"
     ],
     "explanation": "One objective is to assess benefits that have already been realized and to update the benefits management approach so that it covers post-project benefit reviews. Benefits that can only be measured after a period of operational use are planned for, not measured, before closure.",
     "source": "p.278"
@@ -97,7 +97,7 @@
     "topic": "Process triggers",
     "difficulty": 1,
     "stem": "Which events trigger the closing a project process?",
-    "answer": "The project end approaching, or a premature close request",
+    "answer": "The approach of the project end, or a premature close request from the board",
     "distractors": [
       "Completion of the final stage's products, or approval of the end project report",
       "Closure of the project log, or the disbanding of the project management team",
@@ -116,10 +116,10 @@
     "topic": "Planning the closure work",
     "difficulty": 3,
     "stem": "Where should the work of closing the project be planned, and why?",
-    "answer": "In the stage plan for the final stage, because information must be prepared for the board to authorize closure",
+    "answer": "In the final stage plan, because information must be prepared for the board to authorize closure",
     "distractors": [
       "In the project initiation documentation, because closure is part of the project's baseline",
-      "In a separate closure plan written once the board has requested closure",
+      "In a separate closure plan written once the board has requested closure, and approved by the executive",
       "In the benefits management approach, because closure is a post-project activity",
       "In the end project report, because that document justifies the closure",
       "In the final stage's end stage report, which the board approves at the stage boundary",
@@ -135,13 +135,13 @@
     "topic": "Follow-on action recommendations",
     "difficulty": 2,
     "stem": "Some actions relating to the project product must continue after the project ends. How should they be handled?",
-    "answer": "They are documented and planned as follow-on action recommendations, issued in whatever form suits each recipient",
+    "answer": "They are documented as follow-on action recommendations, issued in a form that suits each recipient",
     "distractors": [
       "They are added to the project plan and completed before closure can be authorized",
-      "They are recorded as open issues and passed to the business layer's issue register",
-      "They are summarized in the end project report and owned by the project manager",
-      "They are consolidated into a single formal report to the project board",
-      "They are deferred until the first post-project benefits review",
+      "They are recorded as open issues and passed to the business layer's issue register, with their owners",
+      "They are summarized in the end project report and owned by the project manager, until they are closed",
+      "They are consolidated into a single formal report to the project board, and signed by the executive",
+      "They are deferred until the first post-project benefits review, and then assigned to the user",
       "They are included in the project closure notification sent to interested parties"
     ],
     "explanation": "Actions specific to the project product after the project should be documented and planned as follow-on action recommendations. Their audiences differ, so they may be issued individually, with the recipient's needs deciding whether the format is a formal report, a log entry or a meeting.",
@@ -175,12 +175,12 @@
     "stem": "Why does the project manager secure and archive all project information during prepare planned closure?",
     "answer": "So that the project management team's decisions, actions and performance can be audited in the future",
     "distractors": [
-      "So that the senior supplier can retain the records required by the contract",
-      "So that the post-project benefits reviews have a documented baseline",
-      "So that the programme can reuse the project initiation documentation unchanged",
-      "So that the communication management approach's reporting schedule is fulfilled",
-      "So that the lessons log remains available to team managers after disbandment",
-      "So that the board can reconstruct the business case at a future stage boundary"
+      "So that the senior supplier can retain the records required by the contract, and the board's minutes",
+      "So that the post-project benefits reviews have a documented baseline, and a named reviewer",
+      "So that the programme can reuse the project initiation documentation unchanged, and the plans",
+      "So that the communication management approach's reporting schedule is fulfilled, and the board informed",
+      "So that the lessons log remains available to team managers after disbandment, and to the programme",
+      "So that the board can reconstruct the business case at a future stage boundary, and review it"
     ],
     "explanation": "Project information is secured and archived, in line with the issue management approach, so that a future audit of the team's decisions, actions and performance is possible. The records are kept for governance, not as a working input to benefits reviews.",
     "source": "p.280"
@@ -192,14 +192,14 @@
     "topic": "Prepare premature closure",
     "difficulty": 2,
     "stem": "The board instructs the project manager to close a project prematurely. What must the project manager ensure?",
-    "answer": "That work in progress is not simply abandoned, that anything of value is salvaged, and that gaps left by the cancellation are raised to the business",
+    "answer": "That work in progress is not abandoned, that value is salvaged, and that gaps are raised to the business",
     "distractors": [
-      "That all work in progress is completed so that the project product can still be accepted",
+      "That all work in progress is completed, so that the project product can still be accepted, and closed",
       "That the project is suspended rather than closed, so work can restart if the business case improves",
-      "That the remaining products are deleted from the product register before the closure is recorded",
-      "That the team managers are released before the board has approved the closure",
-      "That the end project report is replaced by an exception report to the business layer",
-      "That the premature closure is recorded in the lessons log rather than the project log"
+      "That the remaining products are deleted from the product register, before the closure is recorded, and the log",
+      "That the team managers are released before the board has approved the closure, and the funds returned",
+      "That the end project report is replaced by an exception report, sent to the business layer, and the board",
+      "That the premature closure is recorded in the lessons log, rather than the project log, and reviewed"
     ],
     "explanation": "In a premature close the project manager stops work from being abandoned, salvages anything of value already created, and makes sure the business is told about the gaps the cancellation leaves. The closure request itself is recorded in the project log and, if needed, in an issue report.",
     "source": "p.281"
@@ -211,11 +211,11 @@
     "topic": "Product status in premature closure",
     "difficulty": 3,
     "stem": "In a premature closure, the project manager obtains a product status from project support. What is it used to establish?",
-    "answer": "Which components are approved, in development, covered by concessions, not yet started, in need of making safe, or useful to other projects",
+    "answer": "Which components are approved, in development, covered by concessions or not yet started",
     "distractors": [
-      "Which components the users have formally accepted and which they have rejected",
-      "Which components have breached their quality tolerances and require rework",
-      "Which components were delivered in earlier stages rather than the final stage",
+      "Which components the users have formally accepted, and which they have rejected, in the stage",
+      "Which components have breached their quality tolerances, and require rework, by the supplier",
+      "Which components were delivered in earlier stages, and not the final stage, by the project",
       "Which components the senior supplier is contractually obliged to finish",
       "Which components carry residual risk that the board has already accepted",
       "Which components must be re-baselined before the programme can adopt them"
@@ -249,7 +249,7 @@
     "topic": "Early release of resources",
     "difficulty": 2,
     "stem": "What must the project manager do before giving notice that resources and people will be released early?",
-    "answer": "Seek approval for the notice to be given to the business",
+    "answer": "Seek approval for the notice to be given to the business layer",
     "distractors": [
       "Confirm the release dates with the team managers and update the resource plan",
       "Obtain the senior supplier's agreement to the revised delivery dates",
@@ -287,11 +287,11 @@
     "topic": "Approved but undelivered products",
     "difficulty": 3,
     "stem": "A project closes prematurely with some products approved but not yet delivered to the users. What does the manual say may be needed?",
-    "answer": "That ownership of some or all of those products is transferred to the users, depending on the board's guidance",
+    "answer": "That ownership of some or all of those products is transferred to the users, as the board guides",
     "distractors": [
       "That the products are returned to the supplier until a future project can deliver them",
       "That the products are withdrawn from the product register because they were never delivered",
-      "That the products are handed over only after the post-project benefits review",
+      "That the products are handed over only after the post-project benefits review, and the board's approval",
       "That the products are reclassified as open issues for the business layer to resolve",
       "That the products are completed under an exception plan before closure can proceed",
       "That the products stay the responsibility of the project management team after closure"
@@ -306,7 +306,7 @@
     "topic": "Post-project benefits reviews",
     "difficulty": 3,
     "stem": "Which statement about post-project benefits reviews is correct?",
-    "answer": "Planning them is part of the project; carrying them out after the project has finished is not",
+    "answer": "Planning them is part of the project; carrying them out later is not",
     "distractors": [
       "Both planning and carrying them out are project activities",
       "Neither planning nor carrying them out is a project activity",
@@ -325,16 +325,16 @@
     "topic": "Evaluate the project",
     "difficulty": 2,
     "stem": "What is the objective when the project is evaluated at closure?",
-    "answer": "To assess how successful the project has been, or in a premature close to evaluate it and the reasons for early closure",
+    "answer": "To assess how successful the project has been, or in a premature close, why it closed early",
     "distractors": [
       "To confirm that each product met the quality criteria in its product description",
       "To decide whether the project should be allowed to proceed to its final stage",
       "To compare the project's benefits with those of other projects in the programme",
       "To set the baseline against which the final stage's performance will be judged",
-      "To agree which lessons may be published to the wider business",
-      "To confirm that the supplier has met the terms of its contract"
+      "To agree which lessons may be published to the wider business, and which should stay in the project",
+      "To confirm that the supplier has met the terms of its contract, and is entitled to final payment"
     ],
-    "explanation": "Evaluation assesses the project's success, or in a premature close examines the project and why it ended early. Analysing estimates against actual progress metrics may also improve estimation for future projects.",
+    "explanation": "Evaluation assesses the project's success, or in a premature close examines the project and why it ended early. Analyzing estimates against actual progress metrics may also improve estimation for future projects.",
     "source": "p.282"
   },
   {
@@ -344,14 +344,14 @@
     "topic": "Evaluate the project",
     "difficulty": 2,
     "stem": "Which two things does the project manager review when evaluating the project?",
-    "answer": "The project's original intent as baselined in the project initiation documentation, and the approved changes defined by its current version",
+    "answer": "The original intent baselined in the PID, and the approved changes in its current version",
     "distractors": [
-      "The business case as first drafted, and the benefits realized so far",
+      "The business case as first drafted, and the benefits realized so far, as reported to the board",
       "The final stage plan, and the actuals recorded against it",
-      "The end project report, and the lessons report",
+      "The end project report, and the lessons report, as drafted by the manager",
       "The project's tolerances, and the exceptions raised against them",
-      "The product descriptions, and the results in the quality register",
-      "The communication management approach, and the stakeholders it identified"
+      "The product descriptions, and the results in the quality register, as recorded by the reviewers",
+      "The communication management approach, and the stakeholders it identified, as updated each stage"
     ],
     "explanation": "Evaluation compares the original intent agreed and baselined during initiation with the approved changes recorded in the current version of the project initiation documentation's components. The end project report and lessons report are outputs of that review, not its inputs.",
     "source": "p.282"
@@ -384,12 +384,12 @@
     "stem": "What should the project manager highlight when briefing the board and confirming readiness to close the project?",
     "answer": "A summary of the project's performance, including any concessions granted for off-specifications",
     "distractors": [
-      "The benefits already realized and the date of the first post-project review",
-      "The residual risks that the business layer has agreed to take on",
-      "The follow-on action recommendations and the owners who accepted them",
-      "The lessons that will be shared with other projects in the programme",
-      "The assurance reviews carried out during the final stage and their recommendations",
-      "The reasons why any outstanding issues were not resolved during the project"
+      "The benefits already realized and the date of the first post-project review, as agreed with the user",
+      "The residual risks that the business layer has agreed to take on, and the owners who accepted them",
+      "The follow-on action recommendations and the owners who accepted them, in writing",
+      "The lessons that will be shared with other projects in the programme, and by what route",
+      "The assurance reviews carried out during the final stage and their recommendations, in full",
+      "The reasons why any outstanding issues were not resolved during the project, and who owns them"
     ],
     "explanation": "The briefing summarizes the project's performance and confirms readiness to close, drawing attention to any concessions where products were delivered off-specification. The project manager also asks the board to mark the project's success and to appreciate those involved.",
     "source": "p.282"
@@ -401,7 +401,7 @@
     "topic": "General considerations",
     "difficulty": 3,
     "stem": "A project handed over all of its products during earlier stages, so nothing remains to hand over in the final stage. What does the closing a project process then require?",
-    "answer": "Only confirmation that all the handovers have been completed",
+    "answer": "Only confirmation that all of the product handovers have been completed",
     "distractors": [
       "A repeat handover in the final stage so that acceptance is formally recorded",
       "That the confirm project acceptance activity is omitted from the process",
@@ -420,9 +420,9 @@
     "topic": "Tailoring roles",
     "difficulty": 2,
     "stem": "How does the manual allocate responsibility for the management products created when closing a project?",
-    "answer": "The project manager is responsible for creating them all, but may delegate the work while keeping overall responsibility",
+    "answer": "The project manager creates them all, but may delegate while keeping overall responsibility",
     "distractors": [
-      "The project manager creates them all and may not delegate any of the work",
+      "The project manager creates them all and may not delegate any of the work, even to project support",
       "The project board is accountable for creating them, with the project manager consulted",
       "Project support creates them, because it holds the project's registers and logs",
       "The senior user creates them, because they own the benefits and the end project report",
@@ -439,7 +439,7 @@
     "topic": "Responsibilities in closing a project",
     "difficulty": 3,
     "stem": "Under the RACI chart for closing a project, how are accountability and responsibility for request project closure assigned?",
-    "answer": "The project executive is accountable, the project manager is responsible, and the business layer is only informed",
+    "answer": "The executive is accountable, the project manager responsible, and the business layer only informed",
     "distractors": [
       "The project executive is accountable, the project manager is responsible, and the business layer is consulted",
       "The project manager is accountable and responsible, and the project executive is informed",

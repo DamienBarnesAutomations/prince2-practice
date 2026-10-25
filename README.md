@@ -90,6 +90,11 @@ tests/                node --test
 1. Write `bank/chNN.json` as an array of questions in the schema below.
 2. Run `python tools/validate_bank.py --write-index`. It fails on anything that could make
    the app show three options or score the wrong answer, and regenerates `bank/index.json`.
+   It also fails on questions whose answer can be guessed from its shape: an answer that is
+   far longer or shorter than its distractors, or is the longest or shortest of the four
+   shown more than 35% of the time across the bank, or is built from noticeably more (or
+   fewer) clauses than the distractors. It rejects duplicate stems and UK spellings, because
+   the manual is written in US English and an option that differs in spelling stands out.
 3. Run `node --test`. The integrity test draws four options from every question in the bank.
 
 ### Question schema

@@ -6,14 +6,14 @@
     "topic": "Purpose of progress",
     "difficulty": 1,
     "stem": "What is the purpose of the progress practice?",
-    "answer": "To establish mechanisms for comparing actual achievement with what was planned, to forecast the project's continued viability, and to control deviations that cause an exception",
+    "answer": "To establish mechanisms for comparing achievement with plan, forecasting viability, and controlling deviations",
     "distractors": [
-      "To define the tolerances that the business layer will apply to the project and to each of its stages",
-      "To measure only the time and cost spent so far and to report them to the business layer each period",
-      "To approve the corrective action taken whenever a work package departs from its agreed baseline",
-      "To produce the reports the project board needs in order to authorize each stage of the project",
-      "To confirm after closure that the benefits promised in the business case have been realized",
-      "To decide whether a proposed change to the project's scope should be approved or rejected"
+      "To define the tolerances that the business layer will apply, to the project, and to each of its stages",
+      "To measure only the time and cost spent so far, and to report them to the business layer each period, in full",
+      "To approve the corrective action taken whenever a work package departs from its baseline, and to record it, as required",
+      "To produce the reports the project board needs, in order to authorize each stage, and to review the project",
+      "To confirm after closure that the benefits promised in the business case have been realized, and to report them, if needed",
+      "To decide whether a proposed change to the project's scope should be approved or rejected, and to record the decision, in turn"
     ],
     "explanation": "The purpose has three strands: mechanisms for comparing achievement with the plan, a forecast of the project's objectives and continued viability, and control of any deviation that causes an exception. Measuring progress is not an end in itself, and approving changes or confirming benefits after closure belong elsewhere.",
     "source": "p.186"
@@ -25,7 +25,7 @@
     "topic": "Definition of progress",
     "difficulty": 1,
     "stem": "How does the manual define progress?",
-    "answer": "The measure of the achievement of the objectives of a plan",
+    "answer": "The measure of the achievement of the objectives of a plan, at any level",
     "distractors": [
       "A prediction of future performance derived from historical data and past patterns",
       "The difference between the value of work completed and its planned cost",
@@ -44,10 +44,10 @@
     "topic": "Definition of exception",
     "difficulty": 2,
     "stem": "How does the manual define an exception?",
-    "answer": "A situation in which it can be forecast that a deviation will go beyond the tolerances agreed between the project manager and the project board, or between the project board and the business layer",
+    "answer": "A situation in which it can be forecast that a deviation will go beyond the tolerances agreed with the board",
     "distractors": [
       "A situation in which a deviation has already gone beyond the tolerances agreed for the stage",
-      "Any deviation from the stage plan that the project manager decides not to escalate",
+      "Any deviation from the stage plan that the project manager decides not to escalate to the board, however large",
       "A request for change that would alter the scope of a product already baselined",
       "A product that fails to meet one of the quality specifications in its product description",
       "An uncertain event that, if it occurred, would affect the achievement of the project's objectives",
@@ -99,14 +99,14 @@
     "topic": "Setting tolerances",
     "difficulty": 1,
     "stem": "Who sets the overall requirements and tolerance levels for the project?",
-    "answer": "The business layer, which sits outside the project team",
+    "answer": "The business layer, outside the project team",
     "distractors": [
-      "The project board",
-      "The project executive acting alone",
-      "The project manager",
-      "The senior user",
-      "The programme or project office",
-      "Project assurance"
+      "The project board, which directs the project",
+      "The project executive acting alone, for the board",
+      "The project manager, who runs the project",
+      "The senior user, on behalf of the users",
+      "The programme or project office, if there is one",
+      "Project assurance, on behalf of the board"
     ],
     "explanation": "The business layer sets the overall requirements and tolerance levels, and the three levels of management inside the project work within them. The project board then allocates tolerances for each stage to the project manager.",
     "source": "p.188"
@@ -118,7 +118,7 @@
     "topic": "Stage tolerance breach",
     "difficulty": 3,
     "stem": "A forecast shows that a stage is likely to exceed its agreed stage tolerances. What should the project manager do?",
-    "answer": "Refer the deviation to the project board by raising an issue and producing an exception report",
+    "answer": "Raise an issue and an exception report to refer the deviation to the board",
     "distractors": [
       "Refer the deviation to the business layer, because project tolerance is now at risk",
       "Instruct the team manager to resolve the deviation within the work package tolerances",
@@ -137,13 +137,13 @@
     "topic": "Work package tolerance breach",
     "difficulty": 2,
     "stem": "A team manager forecasts that a work package will exceed the tolerances agreed with the project manager. What is the correct action?",
-    "answer": "Raise an issue for the project manager's attention and follow the corrective action the project manager advises",
+    "answer": "Raise an issue for the project manager's attention and follow the corrective action they advise",
     "distractors": [
-      "Raise an exception report and send it directly to the project board",
+      "Raise an exception report and send it directly to the project board, copying the project manager",
       "Amend the work package description so that the forecast falls within tolerance",
-      "Refer the deviation to the business layer through the project executive",
-      "Re-baseline the work package with project assurance and then continue",
-      "Record the deviation in the daily log and raise it at the next stage boundary",
+      "Refer the deviation to the business layer through the project executive, and wait for a ruling",
+      "Re-baseline the work package with project assurance and then continue, without telling the manager",
+      "Record the deviation in the daily log and raise it at the next stage boundary, if it persists",
       "Escalate to the senior supplier, who owns the resources in the work package"
     ],
     "explanation": "The team manager controls the work package only within the tolerances agreed with the project manager, and refers any forecast breach by raising an issue. Exception reports are the project manager's product for the board, not the team manager's.",
@@ -156,14 +156,14 @@
     "topic": "Quality tolerance",
     "difficulty": 3,
     "stem": "How does the tolerance table treat quality tolerance at stage and work package level?",
-    "answer": "It is not summarily defined at those levels, because quality tolerances are set in each product description within the scope of the plan",
+    "answer": "It is not summarily defined there, because quality tolerances sit in each product description",
     "distractors": [
       "It is recorded in the stage plan and the work package description, in the same way as time and cost",
       "It is set in the project product description and inherited unchanged by every stage and work package",
-      "It is agreed with the team manager when each work package is authorized",
+      "It is agreed with the team manager when each work package is authorized, and recorded in the log",
       "It is held in the quality register as a single range covering the whole stage",
-      "It does not apply below project level, because quality is judged only at handover",
-      "It is derived from the benefits tolerance recorded in the business case"
+      "It does not apply below project level, because quality is judged only at handover, by the user",
+      "It is derived from the benefits tolerance recorded in the business case, and applied to each product"
     ],
     "explanation": "At project level, quality tolerance appears in the project product description as the acceptance criteria; below that it is expressed through each product description rather than as a summary figure for a stage or work package. The table marks it as not applicable at those levels for exactly that reason.",
     "source": "p.189"
@@ -175,14 +175,14 @@
     "topic": "Prioritizing tolerances",
     "difficulty": 3,
     "stem": "In the manual's example, a board prioritizes speed over cost and gives the project a cost tolerance of up to 25 per cent but a time tolerance of only plus or minus one month. What does the example show?",
-    "answer": "Tolerances can be set differently for each performance target, and a forecast breach of the tighter one must be escalated even when the wider one is not threatened",
+    "answer": "Tolerances can differ by performance target, and a forecast breach of the tighter must be escalated",
     "distractors": [
       "A project may hold only one tolerance at a time, so the board must choose between time and cost",
       "Cost tolerance is always wider than time tolerance, because cost is harder to forecast",
-      "Tolerances apply to stage plans only and never to the project plan",
-      "A time tolerance of one month means that the project may not finish early",
-      "The project board may widen a tolerance without involving the business layer",
-      "Time tolerance is expressed in working days, whereas cost tolerance is a percentage of budget"
+      "Tolerances apply to stage plans only and never to the project plan, and the board sets them each stage",
+      "A time tolerance of one month means that the project may not finish early, and must not finish late",
+      "The project board may widen a tolerance without involving the business layer, and then inform it later",
+      "Time tolerance is expressed in working days, whereas cost tolerance is a percentage of budget, by default"
     ],
     "explanation": "The example shows the board choosing tolerances that reflect the business priority, with a generous cost tolerance and a deliberately tight time tolerance. Because the time tolerance is tight, a forecast of more than a month early or late has to go up to the programme board.",
     "source": "p.190"
@@ -194,14 +194,14 @@
     "topic": "Event-driven control",
     "difficulty": 1,
     "stem": "What is an event-driven control?",
-    "answer": "A control that is triggered when a specific event occurs, such as the end of a stage or the creation of an exception report",
+    "answer": "A control that is triggered when a specific event occurs, such as the end of a stage or an exception report",
     "distractors": [
-      "A control that occurs at predefined periodic intervals, such as a monthly board meeting",
-      "A control that the project manager may call at any time on their own judgement",
-      "A control that reports work package status at the frequency set in the work package",
-      "A control that is used only after a tolerance has actually been breached",
-      "A control that is fixed when the stage is authorized and cannot be varied",
-      "A control that depends on data supplied by the business layer rather than the team"
+      "A control that occurs at predefined periodic intervals, such as a monthly board meeting, or a weekly report",
+      "A control that the project manager may call at any time on their own judgment, without the board",
+      "A control that reports work package status at the frequency set in the work package, by the team",
+      "A control that is used only after a tolerance has actually been breached, and the board informed",
+      "A control that is fixed when the stage is authorized and cannot be varied, by anyone",
+      "A control that depends on data supplied by the business layer rather than the team, on its schedule"
     ],
     "explanation": "Event-driven controls respond to a specific event, which may be internal such as the end of a stage, or organizational such as the end of the financial year. Controls that occur at predefined intervals are time-driven.",
     "source": "p.190"
@@ -215,12 +215,12 @@
     "stem": "Which of these is a time-driven control?",
     "answer": "A checkpoint report produced at the interval defined in the work package",
     "distractors": [
-      "The end of a management stage",
-      "Completion of the project initiation documentation",
-      "The creation of an exception report",
-      "The end of the organization's financial year",
-      "A decision taken because a product failed its quality test",
-      "The handover of the final product to the business"
+      "The end of a management stage, as defined in the stage plan",
+      "Completion of the project initiation documentation by the project manager",
+      "The creation of an exception report by the project manager",
+      "The end of the organization's financial year, as set by the business",
+      "A decision taken because a product failed its quality test, in the stage",
+      "The handover of the final product to the business at closure"
     ],
     "explanation": "Time-driven controls occur at predefined periodic intervals, and checkpoint reports and highlight reports are the examples the manual gives. The end of a stage, completion of the project initiation documentation, an exception report and the end of the financial year are all events.",
     "source": "p.190"
@@ -232,14 +232,14 @@
     "topic": "Monitoring, control and reporting",
     "difficulty": 3,
     "stem": "The manual distinguishes monitoring, control and reporting by how each is triggered. Which statement matches that distinction?",
-    "answer": "Progress is measured regularly, decisions are taken when a specific event calls for one, and reports may be produced either periodically or in response to an event",
+    "answer": "Progress is measured regularly, decisions are taken when an event calls for one, and reports may be periodic or event-driven",
     "distractors": [
       "Progress is measured when an event occurs, decisions are taken periodically, and reports are produced only at stage boundaries",
-      "All three are time-driven, because all three depend on the reporting calendar",
+      "All three are time-driven, because all three depend on the reporting calendar, and the board's meeting dates",
       "Monitoring is event-driven and control is time-driven, because decisions follow the board's meeting schedule",
-      "Reporting is event-driven only, because a report is always a response to a problem",
-      "Control is time-based and monitoring is event-based, because control happens at board meetings",
-      "All three are event-driven, because PRINCE2 avoids unnecessary meetings"
+      "Reporting is event-driven only, because a report is always a response to a problem, and not a routine",
+      "Control is time-based and monitoring is event-based, because control happens at board meetings, and monitoring in between",
+      "All three are event-driven, because PRINCE2 avoids unnecessary meetings, and relies on forecasts of exceptions"
     ],
     "explanation": "Measurement happens on a cycle, the decision to act follows an event, and reporting can be either time-driven or event-driven. Because event-driven control waits for the event that matters, the management team does not meet unnecessarily or too often.",
     "source": "p.190"
@@ -251,7 +251,7 @@
     "topic": "Level of detail in plans",
     "difficulty": 2,
     "stem": "Why does the manual say that progress can only be controlled at the level of detail in the plans?",
-    "answer": "Because the plan has to show what is to be achieved in each reporting period before a report can measure it",
+    "answer": "Because the plan must show each period's achievement before it is measured",
     "distractors": [
       "Because a plan cannot be changed once its stage has been authorized",
       "Because checkpoint reports are produced only at the end of a stage",
@@ -279,7 +279,7 @@
       "The lessons log and the project log",
       "The product register and the benefits management approach"
     ],
-    "explanation": "Analysing project data for trends gives a view of the overall health of the stage: the issue register shows issues that are not being resolved, and the quality register shows failed tests that have not been recorded as re-tested. Schedule performance on its own can hide both.",
+    "explanation": "Analyzing project data for trends gives a view of the overall health of the stage: the issue register shows issues that are not being resolved, and the quality register shows failed tests that have not been recorded as re-tested. Schedule performance on its own can hide both.",
     "source": "p.191"
   },
   {
@@ -289,14 +289,14 @@
     "topic": "Formal and informal issues",
     "difficulty": 2,
     "stem": "What distinguishes a formal issue from an informal issue?",
-    "answer": "A formal issue is captured in the issue register and monitored because of its material impact, while an informal issue lacks that impact or needs discreet handling",
+    "answer": "A formal issue is captured in the issue register for its material impact, while an informal one is not",
     "distractors": [
-      "A formal issue is raised by the project board and an informal issue by the team manager",
-      "A formal issue concerns cost or time and an informal issue concerns quality",
-      "A formal issue is recorded in the daily log and an informal issue in the issue register",
-      "A formal issue must be resolved within the stage and an informal issue at the stage boundary",
-      "A formal issue needs an exception report and an informal issue a checkpoint report",
-      "A formal issue has already happened while an informal issue is only forecast"
+      "A formal issue is raised by the project board and an informal issue by the team manager, as the board decides",
+      "A formal issue concerns cost or time and an informal issue concerns quality, as the manual explains in full",
+      "A formal issue is recorded in the daily log and an informal issue in the issue register, by the manager",
+      "A formal issue must be resolved within the stage and an informal issue at the stage boundary, by the board",
+      "A formal issue needs an exception report and an informal issue a checkpoint report, as the board requires",
+      "A formal issue has already happened while an informal issue is only forecast, and may never occur at all"
     ],
     "explanation": "The issue register is an open forum, so it holds issues whose material impact justifies monitoring and review. An informal issue is either immaterial or unsuitable for open access, and the daily log is the natural place to record it.",
     "source": "p.191"
@@ -307,15 +307,15 @@
     "section": "11.2.3",
     "topic": "Analysing a lesson",
     "difficulty": 2,
-    "stem": "The manual analyses a lesson by answering five questions in a fixed order. Which question comes last?",
-    "answer": "What needs to be done differently, or what needs to be repeated?",
+    "stem": "The manual analyzes a lesson by answering five questions in a fixed order. Which question comes last?",
+    "answer": "What should be done differently, or repeated?",
     "distractors": [
-      "What did we expect to occur?",
-      "What actually happened?",
-      "What worked well, and why?",
-      "What did not work, and why?",
-      "Who was accountable for the outcome?",
-      "When should the lesson be reviewed again?"
+      "What did we expect to occur at the start, and why?",
+      "What actually happened, and when did it happen?",
+      "What worked well, and why did it work so well?",
+      "What did not work, and why did it fail to work?",
+      "Who was accountable for the outcome, and who was consulted?",
+      "When should the lesson be reviewed again, and by whom?"
     ],
     "explanation": "The sequence runs from the expectation, to what actually happened, to what worked and what did not, and only then to what should change or be repeated. The two remaining options are not among the five questions.",
     "source": "p.192"
@@ -327,14 +327,14 @@
     "topic": "Reporting frequency",
     "difficulty": 2,
     "stem": "How should the frequency of progress reporting be decided?",
-    "answer": "It should reflect the level of control required, which may change during the project, with more frequent reporting for an inexperienced team",
+    "answer": "It should reflect the control needed, which may change, with more reports for an inexperienced team",
     "distractors": [
-      "It should be fixed when the project starts and never varied afterwards",
-      "It should always match the project board's meeting cycle",
-      "It should be set independently by each team manager for their own work packages",
-      "It should be as frequent as the project manager's available time allows",
-      "It should follow the business layer's financial reporting calendar in all cases",
-      "It should be agreed with the supplier and recorded in the contract"
+      "It should be fixed when the project starts and never varied afterwards, whatever the level of risk",
+      "It should always match the project board's meeting cycle, and the business layer's reporting dates",
+      "It should be set independently by each team manager for their own work packages, and not shared",
+      "It should be as frequent as the project manager's available time allows, and no more than weekly",
+      "It should follow the business layer's financial reporting calendar in all cases, and be fixed at start",
+      "It should be agreed with the supplier and recorded in the contract, and not varied during the stage"
     ],
     "explanation": "The frequency of reporting follows the level of control needed, so a highly experienced team may report less often while an inexperienced team is reported on more often until confidence in its capability is gained. The requirement is likely to vary as the project proceeds.",
     "source": "p.192"
@@ -355,7 +355,7 @@
       "The end project report",
       "The issue report"
     ],
-    "explanation": "The end stage report summarises the stage's performance and requests approval to proceed. The end project report has a similar event-driven role but asks the board to approve closure, while highlight and checkpoint reports are time-driven.",
+    "explanation": "The end stage report summarizes the stage's performance and requests approval to proceed. The end project report has a similar event-driven role but asks the board to approve closure, while highlight and checkpoint reports are time-driven.",
     "source": "p.193"
   },
   {
@@ -365,14 +365,14 @@
     "topic": "Report format",
     "difficulty": 3,
     "stem": "What does PRINCE2 say about the composition, format and presentation of its reports?",
-    "answer": "It does not define them, but they should take account of the quality, risk and issue management approaches and, in a programme, the programme's monitoring requirements",
+    "answer": "It does not define them, but they should take account of the quality, risk and issue management approaches",
     "distractors": [
-      "It prescribes a standard template for each report that must be followed exactly",
-      "It requires every report to be a formal document signed by the project executive",
-      "It leaves them entirely to the project manager, with nothing else to consider",
-      "It requires them to follow the business layer's financial reporting standards in every case",
-      "It defines them only for projects using a linear-sequential delivery method",
-      "It requires them to be produced from an electronic dashboard rather than as a document"
+      "It prescribes a standard template for each report, and requires it to be followed, exactly, every time",
+      "It requires every report to be a formal document, signed by the project executive, and filed, in full",
+      "It leaves them entirely to the project manager, with nothing else to consider, and nothing to approve",
+      "It requires them to follow the business layer's financial reporting standards, in every case, and for every report",
+      "It defines them only for linear-sequential projects, and leaves iterative ones, which use dashboards, to the team",
+      "It requires them to be produced from an electronic dashboard, rather than a document, and reviewed daily"
     ],
     "explanation": "PRINCE2 deliberately leaves the presentation open, while pointing to the management approaches and any programme requirements as the things that shape it. The manual notes that a report may take the form of an electronic dashboard, but does not require one.",
     "source": "p.193"
@@ -403,14 +403,14 @@
     "topic": "Forecasting early",
     "difficulty": 2,
     "stem": "Why is forecasting essential instead of waiting for a deviation to occur?",
-    "answer": "Because an exception is a forecast deviation, so waiting until it happens removes the opportunity to respond in time",
+    "answer": "Because an exception is a forecast deviation, so waiting until it happens removes the chance to respond",
     "distractors": [
-      "Because the board will not authorize a stage without a forecast",
-      "Because forecasts replace the need for checkpoint reports",
-      "Because a forecast is a contractual obligation in supplier agreements",
-      "Because forecasts are the only way to size the risk budget",
-      "Because tolerances cannot be set until a forecast exists",
-      "Because the daily log must hold a forecast for every work package"
+      "Because the board will not authorize a stage without a forecast, and the business layer requires one too",
+      "Because forecasts replace the need for checkpoint reports, and the team manager can then stop writing them",
+      "Because a forecast is a contractual obligation in supplier agreements, and the supplier must provide it",
+      "Because forecasts are the only way to size the risk budget, and the board cannot size it otherwise",
+      "Because tolerances cannot be set until a forecast exists, and the board must then approve the tolerance",
+      "Because the daily log must hold a forecast for every work package, and review it each day by the manager"
     ],
     "explanation": "The manual is explicit that it is neither necessary nor helpful to wait for the deviation, since an exception is defined as a forecast breach. Forecasting also helps identify responses to risk and predict project outcomes.",
     "source": "p.193"
@@ -422,12 +422,12 @@
     "topic": "Forecasting and manage by exception",
     "difficulty": 3,
     "stem": "Which statement best describes the relationship between forecasting and the manage by exception principle?",
-    "answer": "Forecasting is fundamental to managing by exception, because the level above is engaged as soon as a tolerance breach can be foreseen",
+    "answer": "Forecasting is fundamental to managing by exception, as the level above is engaged once a breach is foreseen",
     "distractors": [
       "Forecasting replaces manage by exception on simple projects, where tolerances are not used",
-      "Manage by exception requires the board to approve every forecast before it is shared",
-      "Forecasting applies only at project level, whereas manage by exception applies only at stage level",
-      "Manage by exception requires forecasts to be produced by project assurance",
+      "Manage by exception requires the board to approve every forecast before it is shared, and to sign it with the executive",
+      "Forecasting applies only at project level, whereas manage by exception applies only at stage level, in practice",
+      "Manage by exception requires forecasts to be produced by project assurance, and reviewed by the executive",
       "Forecasting covers time and cost only, which are the targets manage by exception uses",
       "Manage by exception allows the project manager to ignore forecasts that remain within tolerance"
     ],
@@ -441,16 +441,16 @@
     "topic": "Stage level escalation",
     "difficulty": 3,
     "stem": "A stage is forecast to exceed its tolerances. Which two products does the project manager use, and in what order?",
-    "answer": "An issue report to capture and analyse the deviation, then an exception report to the project board",
+    "answer": "An issue report to capture and analyze the deviation, then an exception report to the project board",
     "distractors": [
-      "An exception report to the project board, then an issue report for the team manager",
-      "A checkpoint report to the project board, then an end stage report",
-      "An exception report to the business layer, then an exception plan for the board",
-      "A highlight report to the project board, then an issue report for the register",
-      "A lessons report on the cause, then an exception plan for the board",
-      "An issue report to the team manager, then a checkpoint report to the board"
+      "An exception report to the project board, then an issue report for the team manager to record it",
+      "A checkpoint report to the project board, then an end stage report for the business layer to review",
+      "An exception report to the business layer, then an exception plan for the board to approve it",
+      "A highlight report to the project board, then an issue report for the register to be updated",
+      "A lessons report on the cause, then an exception plan for the board to authorize the next stage",
+      "An issue report to the team manager, then a checkpoint report to the board to confirm the action"
     ],
-    "explanation": "The project manager first uses an issue report to capture and analyse the data behind the deviation, then provides an exception report so the board can decide. The board may then ask for an exception plan to replace the plan that was forecast to exceed tolerance.",
+    "explanation": "The project manager first uses an issue report to capture and analyze the data behind the deviation, then provides an exception report so the board can decide. The board may then ask for an exception plan to replace the plan that was forecast to exceed tolerance.",
     "source": "p.194"
   },
   {
@@ -460,14 +460,14 @@
     "topic": "Project level escalation",
     "difficulty": 2,
     "stem": "A forecast shows that project tolerances will be exceeded. What is the position of the project board?",
-    "answer": "It no longer has the authority to direct the project and must refer the matter to the business layer for a decision",
+    "answer": "It no longer has the authority to direct the project and must refer the matter to the business layer",
     "distractors": [
-      "It may reallocate stage tolerances to bring the project back within tolerance",
-      "It must instruct the project manager to close the project immediately",
-      "It decides the corrective action and informs the business layer afterwards",
-      "It refers the matter to project assurance for an independent ruling",
-      "It may extend the project tolerances without reference to anyone else",
-      "It asks the team managers to re-plan their current work packages"
+      "It may reallocate stage tolerances to bring the project back within tolerance, and tell the business layer",
+      "It must instruct the project manager to close the project immediately, and tell the business layer why",
+      "It decides the corrective action and informs the business layer afterwards, once the plan is revised",
+      "It refers the matter to project assurance for an independent ruling, and then informs the business layer",
+      "It may extend the project tolerances without reference to anyone else, and record the decision itself",
+      "It asks the team managers to re-plan their current work packages, and the project manager to approve"
     ],
     "explanation": "Once project tolerance is forecast to be breached, the board's delegated authority is exhausted and the decision passes to the business layer. The board may still ask the project manager to prepare an exception plan for the project.",
     "source": "p.194"
@@ -479,7 +479,7 @@
     "topic": "Board options on a stage exception",
     "difficulty": 3,
     "stem": "A stage is forecast to breach its cost tolerance, but the project as a whole is still within project tolerance. Which action may the project board take?",
-    "answer": "Reallocate part of the overall project tolerance to the stage to resolve the breach",
+    "answer": "Reallocate part of the overall project tolerance to the stage concerned",
     "distractors": [
       "Refer the matter to the business layer, because only the business layer may act",
       "Instruct the team managers to widen their work package tolerances",
@@ -500,12 +500,12 @@
     "stem": "A team manager reports a forecast breach of work package tolerances. What happens next?",
     "answer": "The project manager advises the corrective action required, and the matter stays at that level",
     "distractors": [
-      "The project manager raises an exception report to the project board",
-      "The team manager produces an exception plan for the work package",
-      "The project board decides whether the work package should continue",
-      "The issue is logged on the daily log and reviewed at the next stage boundary",
-      "The project manager refers the matter to the business layer",
-      "The work package is terminated and the work re-tendered"
+      "The project manager raises an exception report to the project board, and the board decides",
+      "The team manager produces an exception plan for the work package, and the project manager signs it",
+      "The project board decides whether the work package should continue, and the manager is told of it",
+      "The issue is logged on the daily log and reviewed at the next stage boundary, by the manager",
+      "The project manager refers the matter to the business layer, and the board is informed afterwards",
+      "The work package is terminated and the work re-tendered, and the supplier is told of the decision"
     ],
     "explanation": "The project manager is kept informed through checkpoint reports and, on a forecast breach, receives an issue from the team manager and advises on corrective action. Nothing at work package level requires an exception report to the board.",
     "source": "p.194"
@@ -557,12 +557,12 @@
     "stem": "The manual says that progress reviews are not confined to looking backwards. What does that mean?",
     "answer": "Data captured on past performance can be used to predict future performance, presented in the format stakeholders prefer",
     "distractors": [
-      "Reviews must cover the whole project rather than a single stage",
-      "Reviews should concentrate on future risks and disregard historical data",
-      "Reviews must be repeated at every board meeting to stay valid",
-      "Reviews should look forward only when the project is in exception",
-      "Reviews should be carried out by project assurance rather than the project manager",
-      "Reviews must include an audit of every completed product"
+      "Reviews must cover the whole project rather than a single stage, and then be repeated at each board meeting",
+      "Reviews should concentrate on future risks and disregard historical data, which is unreliable",
+      "Reviews must be repeated at every board meeting to stay valid, and recorded in the project log by the executive",
+      "Reviews should look forward only when the project is in exception, and backward the rest of the time",
+      "Reviews should be carried out by project assurance rather than the project manager, and reported to the board each stage",
+      "Reviews must include an audit of every completed product, and of each quality record kept"
     ],
     "explanation": "Once performance data has been secured and stored, it becomes the basis for predicting what comes next, and the output can be shaped to the audience's preferred format. That forward use of data is why forecasting and progress management are so closely linked.",
     "source": "p.195"
@@ -593,14 +593,14 @@
     "topic": "Alternative exception procedure",
     "difficulty": 2,
     "stem": "A programme already has its own exception management procedure. What does PRINCE2 require of the project?",
-    "answer": "An alternative procedure may be used, provided the choice is documented as a tailoring decision in the project initiation documentation",
+    "answer": "An alternative procedure may be used, if the choice is documented as a tailoring decision in the PID",
     "distractors": [
       "The PRINCE2 six-step technique must be used regardless of the programme's procedure",
-      "The programme procedure must be replaced by the project's own procedure",
-      "The choice must be approved by the business layer and recorded in the project mandate",
+      "The programme procedure must be replaced by the project's own procedure, and the programme told of it",
+      "The choice must be approved by the business layer and recorded in the project mandate, within the stage plan",
       "An alternative procedure may be used only if the project is not part of a programme",
-      "The project may use the programme procedure without recording the decision anywhere",
-      "The project board must be told verbally which procedure will be used"
+      "The project may use the programme procedure without recording the decision anywhere, if the board agrees",
+      "The project board must be told verbally which procedure will be used, and the manager need not record it"
     ],
     "explanation": "The manual allows an alternative procedure, for example where the project sits inside a programme with its own approach, but the tailoring decision has to be documented in the project initiation documentation. Leaving the choice unrecorded is not an option.",
     "source": "p.196"
@@ -612,14 +612,14 @@
     "topic": "Resolving within stage tolerance",
     "difficulty": 3,
     "stem": "An issue raised by a team manager can be resolved by the project manager within the stage tolerances. What is the consequence for reporting?",
-    "answer": "No exception report is needed, but the issue is reported in the next highlight report and a note may be made in the lessons log",
+    "answer": "No exception report is needed, but the issue is reported in the next highlight report and perhaps the lessons log",
     "distractors": [
-      "An exception report must still be raised, because an issue has been escalated",
-      "Nothing further is required, because the issue has been resolved",
-      "The issue must be reported to the business layer in the next project status report",
-      "An exception plan is produced to show how the resolution was achieved",
-      "The issue is closed in the daily log and excluded from all later reporting",
-      "A checkpoint report is sent to the project board describing the resolution"
+      "An exception report must still be raised, because an issue has been escalated, and the board must see it",
+      "Nothing further is required, because the issue has been resolved, and the project manager has authority",
+      "The issue must be reported to the business layer in the next project status report, and by the board",
+      "An exception plan is produced to show how the resolution was achieved, and approved by the executive",
+      "The issue is closed in the daily log and excluded from all later reporting, as it was resolved in-stage",
+      "A checkpoint report is sent to the project board describing the resolution, and the stage plan updated"
     ],
     "explanation": "Where the project manager can resolve the matter inside stage tolerances, the exception route is not triggered. The board still learns of it through the next highlight report, and the experience may be worth a lessons log entry.",
     "source": "p.196"
@@ -631,14 +631,14 @@
     "topic": "Creating the exception plan",
     "difficulty": 2,
     "stem": "What does the project manager do once an exception plan has been requested?",
-    "answer": "Cease the current stage, introduce a stage boundary to create the exception plan, and adjust any related information in the project initiation documentation",
+    "answer": "Cease the current stage, introduce a stage boundary to create the exception plan, and adjust the PID",
     "distractors": [
-      "Continue the current stage and write the exception plan alongside it",
-      "Close the project and produce an end project report",
-      "Hand the stage over to the team manager to re-plan",
-      "Ask the project board to authorize the next stage on the existing plan",
-      "Produce a highlight report explaining why the plan cannot be replaced",
-      "Escalate to the business layer before any planning work begins"
+      "Continue the current stage, write the exception plan alongside it, and keep the board informed weekly",
+      "Close the project, produce an end project report, and hand the products over to the business now",
+      "Hand the stage over to the team manager, ask them to re-plan it, and report back to the board",
+      "Ask the project board to authorize the next stage, on the existing plan, and update the business case",
+      "Produce a highlight report explaining why the plan cannot be replaced, and ask the board, in writing, for guidance",
+      "Escalate to the business layer before any planning work begins, and wait for its ruling, in full"
     ],
     "explanation": "The project manager stops the current stage and uses a stage boundary to build the exception plan, updating the project initiation documentation as needed. An end stage report may also be produced where it would help the board's decision.",
     "source": "p.197"
@@ -650,14 +650,14 @@
     "topic": "Assessing the exception plan",
     "difficulty": 2,
     "stem": "The project board is assessing an exception plan. Which set of choices does the manual give it?",
-    "answer": "Reject it and request amendments, reject it and direct the project manager to continue with the stage, or approve it and return it for action",
+    "answer": "Reject it and ask for amendments, reject it and continue the stage, or approve it and return it for action",
     "distractors": [
-      "Approve it, reject it, or refer the whole matter to the business layer",
-      "Approve it, amend it directly, or replace the project manager",
-      "Reject it and close the project, or approve it and close the stage",
-      "Approve it only, because rejection would breach the project tolerances",
-      "Reject it and request a new business case, or approve it and re-baseline the project",
-      "Defer it to the next stage boundary, or approve it with new tolerances"
+      "Approve it, reject it, or refer the whole matter, in full, to the business layer for a decision",
+      "Approve it, amend it directly, or replace the project manager, whichever the board decides",
+      "Reject it and close the project, or approve it and close the stage, whichever the board prefers",
+      "Approve it only, because rejection would breach the project tolerances, and the board has no other option",
+      "Reject it and request a new business case, or approve it and re-baseline the project, in full",
+      "Defer it to the next stage boundary, or approve it with new tolerances, and tell the business layer"
     ],
     "explanation": "The board may reject and ask for amendments, reject and tell the project manager to carry on with the stage, possibly with minor adjustments, or approve the plan. Approving it returns the plan to the project manager for implementation.",
     "source": "p.197"
@@ -669,14 +669,14 @@
     "topic": "Implementing the exception plan",
     "difficulty": 3,
     "stem": "After an exception plan is approved, why does the manual suggest aligning the new stage end with the old stage end where this is feasible?",
-    "answer": "So that the board's planned end stage assessments do not need rescheduling and stay aligned with the original decision points",
+    "answer": "So that the board's planned end stage assessments do not need rescheduling",
     "distractors": [
-      "So that the original stage plan can be reinstated without change",
+      "So that the original stage plan can be reinstated without change or board approval",
       "So that the exception plan need not be recorded in the project initiation documentation",
-      "So that the project can avoid producing an end stage report",
+      "So that the project can avoid producing an end stage report for the stage",
       "So that the project manager can keep the original work package tolerances",
       "So that the business layer does not need to be told about the exception",
-      "So that the project tolerances revert to their original values"
+      "So that the project tolerances revert to their original values after approval"
     ],
     "explanation": "Keeping the stage end where it was avoids moving the board's decision points, which remain aligned with the original requirements for a decision at that time. A product flow diagram can also be used to map progress and remind the board of product dependencies.",
     "source": "p.197"
@@ -688,14 +688,14 @@
     "topic": "Dashboards",
     "difficulty": 1,
     "stem": "What is a dashboard, as described in the manual?",
-    "answer": "A technique for presenting large amounts of decision-supporting information at an amalgamated level using tables, graphs and traffic lights",
+    "answer": "A technique for presenting decision-supporting information at an amalgamated level using tables and graphs",
     "distractors": [
       "A register that records the status of every product in the project",
-      "A report produced at predefined intervals for the project board",
+      "A report produced at predefined intervals for the project board, and issued by the project manager",
       "A chart showing work completed and work remaining during a timebox",
-      "A visual system that limits the number of work items in circulation",
-      "A short meeting held daily to review progress and identify blockers",
-      "A review of the way of working rather than of what was produced"
+      "A visual system that limits the number of work items in circulation, and shows where work is blocked",
+      "A short meeting held daily to review progress, identify blockers, and plan the day, led by the team",
+      "A review of the way of working rather than of what was produced, held after each stage, with the team"
     ],
     "explanation": "A dashboard amalgamates decision-supporting information into tables and graphics such as graphs and red-amber-green indicators. Several of the other options describe different supporting techniques, such as burn charts, Kanban and daily stand-ups.",
     "source": "p.198"
@@ -724,9 +724,9 @@
     "topic": "Earned value management",
     "difficulty": 2,
     "stem": "What does earned value management do?",
-    "answer": "It combines scope, schedule and cost performance in one baseline, comparing completed products and actual cost and time against their estimates",
+    "answer": "It combines scope, schedule and cost performance in one baseline",
     "distractors": [
-      "It compares the number of products completed with the number planned for the stage",
+      "It compares products completed with products planned, and reports the gap",
       "It tracks the effort remaining in a timebox using a burn-down line",
       "It records the value of each benefit realized against the business case",
       "It measures the cost of quality activities against the quality register",
@@ -743,14 +743,14 @@
     "topic": "Peer reviews",
     "difficulty": 1,
     "stem": "What is a peer review?",
-    "answer": "An evaluation of the project by people experienced in project management who are outside the project management team",
+    "answer": "An evaluation of the project by experienced people outside the project management team",
     "distractors": [
-      "A review of a product by the team that built it",
-      "A review of the project by the project board at a stage boundary",
+      "A review of a product by the team that built it, carried out before it is handed to the user",
+      "A review of the project by the project board at a stage boundary, for the business layer",
       "An independent audit requested by the project executive",
-      "A review of the business case by project assurance",
-      "A review of a supplier's work by the senior supplier",
-      "A review of lessons by the business layer after closure"
+      "A review of the business case by project assurance, carried out at each stage boundary",
+      "A review of a supplier's work by the senior supplier, before payment is made to the supplier",
+      "A review of lessons by the business layer after closure, to decide what to change in future"
     ],
     "explanation": "Peer reviews bring in experience from outside the project management team, and may also be run between subject matter experts for a particular product. The quality management approach should say which peer review techniques are appropriate.",
     "source": "p.200"
@@ -762,7 +762,7 @@
     "topic": "Burn charts",
     "difficulty": 2,
     "stem": "What is the difference between a burn-down chart and a burn-up chart?",
-    "answer": "A burn-down chart shows how much work remains, while a burn-up chart shows how much work has been done",
+    "answer": "A burn-down chart shows how much work remains, while a burn-up chart shows how much work is done",
     "distractors": [
       "A burn-down chart shows cost to date, while a burn-up chart shows benefits realized",
       "A burn-down chart covers a whole stage, while a burn-up chart covers a single work package",
@@ -781,14 +781,14 @@
     "topic": "Retrospectives",
     "difficulty": 3,
     "stem": "Which statement about retrospectives is correct?",
-    "answer": "A retrospective examines the way of working rather than what was produced, and works best when planned, structured and independently facilitated",
+    "answer": "A retrospective examines the way of working rather than what was produced, and works best when planned",
     "distractors": [
       "A retrospective examines the products delivered in the stage against their quality criteria",
       "A retrospective should be an unstructured discussion so that the team feels free to speak",
       "A retrospective should cover as many issues as possible in order to maximize the learning",
-      "A retrospective must be facilitated by the project manager to keep it on track",
+      "A retrospective must be facilitated by the project manager to keep it on track, and approved by the board",
       "A retrospective is held once, at the end of the project, as part of the end project report",
-      "A retrospective replaces the lessons log for teams using an agile approach"
+      "A retrospective replaces the lessons log for teams using an agile approach, and is reviewed by the board"
     ],
     "explanation": "The retrospective focuses on how the team worked rather than on what it produced. The manual warns that an unstructured meeting is likely to be ineffective, and recommends an independent facilitator plus a small number of issues that can actually be actioned.",
     "source": "p.201"
@@ -800,16 +800,16 @@
     "topic": "Kanban boards",
     "difficulty": 2,
     "stem": "What does a Kanban board do?",
-    "answer": "It displays work items moving through their states and shows blockers and areas where flow is not smooth, with limits on work in progress",
+    "answer": "It displays work items moving through their states, showing blockers and flow problems",
     "distractors": [
-      "It records the tolerances agreed for each work package",
-      "It charts the work remaining against time for a timebox",
-      "It lists the lessons captured during the stage and their owners",
+      "It records the tolerances agreed for each work package, and the dates they were agreed",
+      "It charts the work remaining against time for a timebox, and shows the forecast completion date",
+      "It lists the lessons captured during the stage and their owners, and the actions taken",
       "It shows the project's red-amber-green status against each performance target",
-      "It sets out the sequence in which products must be delivered",
-      "It records the quality tests performed on each product"
+      "It sets out the sequence in which products must be delivered, and the dependencies between them",
+      "It records the quality tests performed on each product, and the results of each test, by reviewer"
     ],
-    "explanation": "Kanban systems limit the number of work items in circulation, and the board visualises those items as they move left to right through their states. Like a dashboard, it lets the team see blockers and uneven flow.",
+    "explanation": "Kanban systems limit the number of work items in circulation, and the board visualizes those items as they move left to right through their states. Like a dashboard, it lets the team see blockers and uneven flow.",
     "source": "p.201"
   },
   {
@@ -819,14 +819,14 @@
     "topic": "Organizational context",
     "difficulty": 2,
     "stem": "What does the manual say about designing a project's progress controls in its organizational context?",
-    "answer": "It is usually advisable to align them with the timing of the business layer's governance arrangements, and a programme or portfolio will usually dictate them",
+    "answer": "It is usually advisable to align them with the business layer's governance timing, and a programme may dictate them",
     "distractors": [
       "They should be designed independently of the business layer so that the project stays autonomous",
-      "They should follow the project manager's previous project's calendar",
-      "They should be set by the supplier, because the supplier holds the delivery data",
-      "They should be reviewed only when the project enters exception",
-      "They should be identical on every project in the organization, whatever its scale",
-      "They should be agreed with the team managers rather than with the board"
+      "They should follow the project manager's previous project's calendar, and the same reporting dates",
+      "They should be set by the supplier, because the supplier holds the delivery data, and the contract",
+      "They should be reviewed only when the project enters exception, and not at stage boundaries, by the board",
+      "They should be identical on every project in the organization, whatever its scale, and its risk",
+      "They should be agreed with the team managers rather than with the board, and recorded in the plan"
     ],
     "explanation": "A starting point is to identify when the business layer needs to make decisions or grant authority, and to design the controls around those timings. Where the project sits in a programme or portfolio, common controls, procedures, tolerances and timings are typically imposed.",
     "source": "p.202"
@@ -838,14 +838,14 @@
     "topic": "Commercial context",
     "difficulty": 2,
     "stem": "In a commercial customer and supplier relationship, what constraint does the contract place on the project manager?",
-    "answer": "It limits the project manager's or team manager's degree of freedom, so tailoring should respect the parties' contractual obligations",
+    "answer": "It limits the managers' degree of freedom, so tailoring should respect contractual obligations",
     "distractors": [
       "It removes the need for tolerances, because the contract fixes the price and the date",
-      "It transfers all project board decisions to the supplier's management",
-      "It means that PRINCE2 cannot be applied to the project at all",
-      "It allows the project manager to change the contract terms when a tolerance is breached",
+      "It transfers all project board decisions to the supplier's management, who then report to the customer",
+      "It means that PRINCE2 cannot be applied to the project at all, as contracts override the method",
+      "It allows the project manager to change the contract terms when a tolerance is breached, with consent",
       "It requires the supplier to adopt the customer's progress controls unchanged",
-      "It replaces the business case with the contract as the basis for decisions"
+      "It replaces the business case with the contract as the basis for decisions, and for the board"
     ],
     "explanation": "The contract constrains how freely the project or work package can be managed, which is why the manual says contracts should promote good working relations and tailoring should fit them. From the supplier's side, the lifecycle should also allow for pre-contract work and for warranty or maintenance afterwards.",
     "source": "p.202"
@@ -857,14 +857,14 @@
     "topic": "Iterative-incremental delivery",
     "difficulty": 3,
     "stem": "How should progress be managed on a project using an iterative-incremental delivery method?",
-    "answer": "Focus on how much of the requirement is met by the end of each sprint, with checkpoint reporting possibly working on a pull basis from the team's charts",
+    "answer": "Focus on how much requirement is met by each sprint, with pull-based checkpoint reporting",
     "distractors": [
-      "Focus on when each stage's products will be complete and at what cost",
-      "Focus on the number of stages completed against the project plan",
-      "Focus on earned value calculated from the project's cost baseline",
-      "Focus on the contract milestones agreed with the supplier",
-      "Focus on exception reports rather than on routine progress reporting",
-      "Focus on the end stage report as the only progress control"
+      "Focus on when each stage's products will be complete and at what cost, with checkpoint reports weekly",
+      "Focus on the number of stages completed against the project plan, with reports at each stage end",
+      "Focus on earned value calculated from the project's cost baseline, with reports at each stage end",
+      "Focus on the contract milestones agreed with the supplier, with reporting by the supplier's manager",
+      "Focus on exception reports rather than on routine progress reporting, with no checkpoint reports",
+      "Focus on the end stage report as the only progress control, with the board reviewing it in full"
     ],
     "explanation": "In iterative-incremental delivery the emphasis is on how much of the requirement each increment satisfies, and tolerances are set on that basis. The manual also notes that checkpoint reporting may become a pull system, with the project manager reviewing the teams' charts rather than receiving reports.",
     "source": "p.202"
@@ -876,11 +876,11 @@
     "topic": "Sustainability",
     "difficulty": 2,
     "stem": "How should sustainability reporting be handled in progress management?",
-    "answer": "It should be integrated into the cyclical analysis of project data rather than treated as separate reporting",
+    "answer": "It should be integrated into the cyclical analysis of project data, not reported separately",
     "distractors": [
-      "It should be produced as a standalone report at the end of each stage",
+      "It should be produced as a standalone report at the end of each stage, and issued to the board",
       "It should be delegated to the supplier, because the supplier holds the data",
-      "It should be reported only when a sustainability tolerance is breached",
+      "It should be reported only when a sustainability tolerance is breached, and then to the executive",
       "It should be handled outside the project by the business layer's auditors",
       "It should be added to the highlight report only where legislation applies",
       "It should be reviewed once, when the project initiation documentation is approved"
@@ -895,14 +895,14 @@
     "topic": "Scale",
     "difficulty": 2,
     "stem": "On a simple project with minimal risk and complexity, which statement fits the manual's guidance on scale?",
-    "answer": "Roles may be combined and progress reported in a structured email, with the frequency agreed by the project executive or board and recorded in the project initiation documentation",
+    "answer": "Roles may be combined and progress reported in a structured email, with frequency recorded in the PID",
     "distractors": [
       "Every management product must still be produced in full, whatever the size of the project",
-      "Progress controls may be dropped entirely because the project is small",
-      "The project must appoint a separate project board and project assurance function",
-      "Reporting frequency is decided by the project manager alone and need not be recorded",
-      "Tolerances are not required on simple projects",
-      "A formal highlight report must be produced at least monthly in all cases"
+      "Progress controls may be dropped entirely because the project is small, and the board agrees to it",
+      "The project must appoint a separate project board and project assurance function, and a full office",
+      "Reporting frequency is decided by the project manager alone and need not be recorded, if the risk is low",
+      "Tolerances are not required on simple projects, and neither are stage boundaries or board reviews",
+      "A formal highlight report must be produced at least monthly in all cases, and signed by the executive"
     ],
     "explanation": "The practice is tailored to scale, so simple projects may combine roles, run without a board under an executive sponsor, and report progress less formally. What does not change is that the frequency is agreed by the executive or board and recorded in the project initiation documentation.",
     "source": "p.203"
@@ -914,13 +914,13 @@
     "topic": "Digital and data management approach product",
     "difficulty": 1,
     "stem": "What is the purpose of the digital and data management approach?",
-    "answer": "To describe how digital technology will support project management and project work, and how data and information will be created, used and managed across the project",
+    "answer": "To describe how digital technology supports project management, and how data will be managed",
     "distractors": [
-      "To describe the quality criteria and acceptance methods for each product",
+      "To describe the quality criteria and acceptance methods for each product, and who will apply them",
       "To describe how progress will be measured and reported to the business layer",
-      "To describe the data an individual work package will produce and when",
-      "To record the systems used by the supplier for its own commercial purposes",
-      "To set out the tolerances that apply to the project's data",
+      "To describe the data an individual work package will produce and when, and who will store it",
+      "To record the systems used by the supplier for its own purposes, billing and reporting, and the licences",
+      "To set out the tolerances that apply to the project's data, and the limits on its use",
       "To record the lessons learned about data management after the project closes"
     ],
     "explanation": "The approach covers both the technology used to support project management and project work, and the treatment of data through the project lifecycle and afterwards. It also identifies the systems that support analytics and forecasting.",
@@ -933,14 +933,14 @@
     "topic": "Daily log",
     "difficulty": 1,
     "stem": "What is the purpose of the daily log?",
-    "answer": "To record informal issues, required actions or significant events that are not captured by other management products",
+    "answer": "To record informal issues, required actions or significant events not captured by other products",
     "distractors": [
       "To record formal issues that need to be monitored and reviewed",
-      "To record lessons that apply to this project or to future projects",
-      "To report the status of a work package to the project manager",
-      "To record the tolerances agreed for each work package",
-      "To summarise the stage status for the project board",
-      "To hold the quality tests performed on each product"
+      "To record lessons that apply to this project or to future projects, and the actions to take on them",
+      "To report the status of a work package to the project manager, at the frequency it defines",
+      "To record the tolerances agreed for each work package, and the authority delegated to each team",
+      "To summarize the stage status for the project board, and the forecast for the following stage",
+      "To hold the quality tests performed on each product, and the results of each test"
     ],
     "explanation": "The daily log is part of the project log and can act as the project manager's diary. It is also a place to keep issues and risks during starting up a project, before the other registers have been set up.",
     "source": "p.205"
@@ -952,14 +952,14 @@
     "topic": "Lessons log content",
     "difficulty": 2,
     "stem": "Which set of entries appears in the high-level content of the lessons log?",
-    "answer": "A unique lesson identifier, a lesson description, the lesson type, the lesson owner, a grading, a status and relevant dates",
+    "answer": "A unique lesson identifier, a lesson description, the lesson type, the owner and a status",
     "distractors": [
       "The lesson identifier, the affected product, the quality test result and the sign-off date",
-      "The lesson owner, the work package tolerances and the checkpoint report reference",
-      "The lesson description, the risk response and the risk budget allocation",
-      "The lesson identifier, the exception cause and the exception plan version",
-      "The lesson owner, the stage tolerance status and the highlight report period",
-      "The lesson description, the business case revision and the benefit profile"
+      "The lesson owner, the work package tolerances, the stage, and the checkpoint report reference",
+      "The lesson description, the risk response, the owner, and the risk budget allocation",
+      "The lesson identifier, the exception cause, the stage, and the exception plan version",
+      "The lesson owner, the stage tolerance status, the date, and the highlight report period",
+      "The lesson description, the business case revision, the owner, and the benefit profile"
     ],
     "explanation": "The log records each lesson with an identifier and description, a type such as team, project or business layer lesson, an owner, a grading of priority and severity, a status and the relevant dates. The description also notes effects such as a positive or negative financial impact and any early warning indicators.",
     "source": "p.206"
@@ -971,11 +971,11 @@
     "topic": "Checkpoint report",
     "difficulty": 1,
     "stem": "What is the purpose of a checkpoint report?",
-    "answer": "To report the status of the work package to the project manager at the frequency defined in the work package",
+    "answer": "To report work package status to the project manager at the frequency the package defines",
     "distractors": [
       "To provide the project board with a summary of stage status at intervals it defines",
       "To inform the project board that a stage plan is forecast to exceed its tolerances",
-      "To summarise the performance of the stage and request approval to proceed",
+      "To summarize the performance of the stage and request approval to proceed",
       "To share lessons and trigger action so that they become embedded in the organization",
       "To request formal review of a change, off-specification or business opportunity",
       "To review how the project performed against the project initiation documentation"
@@ -990,7 +990,7 @@
     "topic": "Exception report content",
     "difficulty": 3,
     "stem": "Which of these is NOT part of the high-level content of an exception report?",
-    "answer": "A forecast for the next stage and project against targets and their tolerances",
+    "answer": "A forecast for the next stage against its targets",
     "distractors": [
       "The cause of the exception",
       "The options available to address the deviation and the effect of each",
@@ -1007,13 +1007,13 @@
     "topic": "End project report",
     "difficulty": 1,
     "stem": "What distinguishes the end project report from the end stage report?",
-    "answer": "The end project report reviews performance against the version of the project initiation documentation used to authorize the project",
+    "answer": "The end project report reviews performance against the initiation documentation that authorized the project",
     "distractors": [
-      "The end project report is produced by the project board rather than the project manager",
+      "The end project report is produced by the project board rather than the project manager, at closure",
       "The end project report is time-driven, whereas the end stage report is event-driven",
-      "The end project report covers only the final stage's performance",
-      "The end project report requests approval to proceed to the next stage",
-      "The end project report is written by project assurance for the business layer",
+      "The end project report covers only the final stage's performance, not the whole project's performance",
+      "The end project report requests approval to proceed to the next stage, as the end stage report does",
+      "The end project report is written by project assurance for the business layer, not the board",
       "The end project report replaces the lessons report at closure"
     ],
     "explanation": "The end project report looks back over the whole project against the project initiation documentation that authorized it, covering performance, products, handover and follow-on actions. The end stage report does the same job for a single stage and asks the board to approve the next one.",
@@ -1026,14 +1026,14 @@
     "topic": "Project manager role",
     "difficulty": 1,
     "stem": "Which progress responsibilities belong to the project manager?",
-    "answer": "Authorizing work packages, setting their tolerances, maintaining the project log, monitoring progress against stage plans and producing the highlight, exception, end stage and end project reports",
+    "answer": "Authorizing work packages, setting their tolerances, and producing the highlight and exception reports",
     "distractors": [
-      "Setting project tolerances and making decisions when project level tolerances are exceeded",
-      "Producing checkpoint reports and notifying the project manager of forecast deviations",
-      "Confirming to the board that progress against the agreed tolerances is on track",
-      "Agreeing the digital and data management approach from the user perspective",
-      "Administering the planning and reporting tools on the project's behalf",
-      "Setting stage tolerances and remaining accountable for sharing lessons with the business"
+      "Setting project tolerances, making decisions when project tolerances are exceeded, and informing the board",
+      "Producing checkpoint reports, notifying the project manager of forecast deviations, and agreeing work packages",
+      "Confirming to the board that progress is on track, checking the business case, and reviewing the plans",
+      "Agreeing the digital approach, the data management approach, and the tools from the user perspective",
+      "Administering the planning tools, the reporting tools, and the project log on the project's behalf",
+      "Setting stage tolerances, remaining accountable for lessons, and sharing them with the business layer"
     ],
     "explanation": "The project manager runs progress at stage level: authorizing work packages with their tolerances, maintaining the project log, and producing the reports that go to the board. Setting project tolerances is the business layer's job, and setting stage tolerances belongs to the executive.",
     "source": "p.210"
@@ -1045,13 +1045,13 @@
     "topic": "Project assurance role",
     "difficulty": 2,
     "stem": "What is project assurance's role in progress management?",
-    "answer": "Confirming stage and project progress against agreed tolerances and checking the business case against progress and external events",
+    "answer": "Confirming stage and project progress against tolerances and checking the business case",
     "distractors": [
-      "Producing the highlight reports for the project board",
-      "Authorizing work packages and setting their tolerances",
-      "Producing checkpoint reports for the project manager",
-      "Setting the project tolerances in the project mandate",
-      "Administering the project's planning and reporting tools",
+      "Producing the highlight reports for the project board, and presenting them at each board meeting",
+      "Authorizing work packages and setting their tolerances, and recording the authorization in the log",
+      "Producing checkpoint reports for the project manager, and agreeing the frequency with each team",
+      "Setting the project tolerances in the project mandate, and confirming them to the project board",
+      "Administering the project's planning and reporting tools, and maintaining the project log for them",
       "Notifying the project manager of forecast deviations from work package tolerances"
     ],
     "explanation": "Project assurance gives the board confidence that progress is being reported honestly against tolerance, and watches the business case as events unfold. It also reviews exception reports for their impact on the business case when asked.",
@@ -1064,14 +1064,14 @@
     "topic": "Team manager role",
     "difficulty": 2,
     "stem": "Which progress responsibilities belong to the team manager?",
-    "answer": "Agreeing work packages with the project manager, producing checkpoint reports and notifying the project manager of any forecast deviation from work package tolerances",
+    "answer": "Agreeing work packages, producing checkpoint reports and notifying the project manager of deviations",
     "distractors": [
-      "Setting work package tolerances and authorizing the work to begin",
-      "Producing the exception report when stage tolerances are threatened",
-      "Confirming stage progress against tolerances to the project board",
-      "Maintaining the project log on the project manager's behalf",
-      "Setting the project's reporting frequency with the business layer",
-      "Reviewing the business case against project progress"
+      "Setting work package tolerances and authorizing the work to begin, and recording the authorization",
+      "Producing the exception report when stage tolerances are threatened, and informing the board",
+      "Confirming stage progress against tolerances to the project board, and the business case check",
+      "Maintaining the project log on the project manager's behalf, and the registers within it",
+      "Setting the project's reporting frequency with the business layer, and the project board's meeting dates",
+      "Reviewing the business case against project progress, and reporting any concern to the board"
     ],
     "explanation": "The team manager delivers within the work package tolerance agreed with the project manager, reports through checkpoint reports and raises any forecast deviation promptly. Setting work package tolerances and authorizing the work belongs to the project manager.",
     "source": "p.210"
@@ -1083,14 +1083,14 @@
     "topic": "Business layer role",
     "difficulty": 3,
     "stem": "An exception report forecasts that project tolerances will be exceeded. Who makes the decision on it?",
-    "answer": "The business layer, which sets the project tolerances and decides when they are forecast to be exceeded",
+    "answer": "The business layer, which sets the project tolerances and decides on forecast breaches",
     "distractors": [
-      "The project board, because it directs the project",
-      "The project executive, because it chairs the board",
-      "The project manager, because it produced the report",
-      "Project assurance, because it reviews exception reports",
-      "The senior user, because it represents the business interest",
-      "The programme office, because it owns the reporting calendar"
+      "The project board, because it directs the project and is accountable for its stages and tolerances",
+      "The project executive, because it chairs the board and is accountable for the business case",
+      "The project manager, because it produced the report and is responsible for the stage plans",
+      "Project assurance, because it reviews exception reports and advises the project board on them",
+      "The senior user, because it represents the business interest and is accountable for benefits",
+      "The programme office, because it owns the reporting calendar and the programme risk register"
     ],
     "explanation": "The business layer sets project tolerances, so a forecast breach of them goes to the business layer for a decision. At that point the executive's role is to recommend future action to the business layer rather than to decide.",
     "source": "p.209"
@@ -1121,12 +1121,12 @@
     "topic": "Progress and focus on products",
     "difficulty": 3,
     "stem": "How does the progress practice support the focus on products principle?",
-    "answer": "By tracking the status of each product and the project product, so that progress reflects product delivery rather than only time elapsed",
+    "answer": "By tracking the status of each product, so progress reflects delivery rather than time elapsed",
     "distractors": [
-      "By ensuring that every product has a named owner in the business layer",
-      "By confirming that the business case remains viable at each stage boundary",
-      "By dividing the project into stages that are authorized one at a time",
-      "By identifying lessons from the output of progress management",
+      "By ensuring that every product has a named owner in the business layer, and a reviewer in assurance",
+      "By confirming that the business case remains viable at each stage boundary, and recording the result",
+      "By dividing the project into stages that are authorized one at a time, and reviewing each in turn",
+      "By identifying lessons from the output of progress management, and sharing them with the board",
       "By setting tolerances appropriate to the risk and complexity of the project",
       "By defining reporting requirements so that decisions rest on verified information"
     ],

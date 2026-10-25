@@ -6,14 +6,14 @@
     "topic": "Purpose of the process",
     "difficulty": 1,
     "stem": "What is the purpose of the managing a stage boundary process?",
-    "answer": "To give the project board enough information to judge the stage just finished and decide whether to authorize the next one",
+    "answer": "To give the project board enough information to judge the stage just finished and decide on the next",
     "distractors": [
-      "To deliver the products of the current stage within the agreed tolerances",
+      "To deliver the products of the current stage within the agreed tolerances, and report their completion",
       "To monitor progress within a stage and take corrective action where needed",
-      "To confirm that the benefits in the business case have been realized",
+      "To confirm that the benefits in the business case have been realized, and measured by the senior user",
       "To appoint the project management team and assemble the project brief",
       "To define the quality criteria and acceptance methods for each product",
-      "To approve the project mandate on behalf of the business layer"
+      "To approve the project mandate on behalf of the business layer, and confirm the executive's appointment"
     ],
     "explanation": "The process exists so the project manager can give the board what it needs to review the success of the current stage, review the updated project plan, confirm continued justification and the acceptability of risks, and decide on the next stage. Monitoring progress within a stage and correcting it is controlling a stage.",
     "source": "p.270"
@@ -25,14 +25,14 @@
     "topic": "Timing of the process",
     "difficulty": 1,
     "stem": "At what point should the managing a stage boundary process be carried out?",
-    "answer": "At, or close to, the end of each stage",
+    "answer": "At, or close to, the end of each stage, before the next stage's work begins",
     "distractors": [
-      "Only when the project board has asked for an exception plan",
+      "Only when the board has asked for one, for an exception plan, or a new stage plan",
       "At the start of each stage, before work packages are authorized",
-      "At intervals fixed in the communication management approach",
-      "Once only, when the project moves from initiation into delivery",
-      "Each time a work package is completed and signed off by the team manager",
-      "Only at the end of the final stage, immediately before project closure"
+      "At intervals fixed in the communication management approach, as agreed",
+      "Once only, when the project moves from initiation into delivery, as authorized",
+      "Each time a work package is completed, and signed off by the team manager",
+      "Only at the end of the final stage, immediately before closure, and not before"
     ],
     "explanation": "The manual states that the process should be executed at, or close to, the end of each stage, because that is when the board needs to assess the stage just finished. It is not confined to exception situations or to the final stage.",
     "source": "p.270"
@@ -44,7 +44,7 @@
     "topic": "Exception as a trigger",
     "difficulty": 1,
     "stem": "Apart from a stage coming to an end, what else may trigger the managing a stage boundary process?",
-    "answer": "A decision by the project board to have the stage or project replanned after an exception report",
+    "answer": "A board decision to replan after an exception report",
     "distractors": [
       "A request for change that the change authority has approved",
       "A new risk that the project manager has entered in the risk register",
@@ -63,11 +63,11 @@
     "topic": "Objectives of the process",
     "difficulty": 1,
     "stem": "Which of these is NOT an objective of the managing a stage boundary process?",
-    "answer": "Authorizing the start of the current stage",
+    "answer": "Authorizing the start of the current stage, which is already in progress",
     "distractors": [
-      "Assuring the project board that all products in the current stage plan have been completed and approved",
-      "Preparing a stage plan or an exception plan for the next stage",
-      "Recording information and lessons that can help later stages or other projects"
+      "Assuring the board that the stage products are completed and approved",
+      "Preparing a stage plan or exception plan for the next stage",
+      "Recording information and lessons that help later stages or projects"
     ],
     "exhaustive": true,
     "explanation": "The objectives include assuring the board that the current stage's products are complete and approved, preparing the next stage plan or exception plan, reviewing and updating the project initiation documentation, providing viability information, recording lessons and requesting authority to start the next stage. Authority is sought for the stage about to begin, never for the stage already under way.",
@@ -80,14 +80,14 @@
     "topic": "Reviewing the project initiation documentation",
     "difficulty": 1,
     "stem": "When the process reviews the project initiation documentation, which components does the manual single out for possible updating?",
-    "answer": "The business case, project plan, user's quality expectations, management approaches, team structure and role descriptions",
+    "answer": "The business case, project plan, management approaches, team structure and role descriptions",
     "distractors": [
-      "The project brief, the project mandate and the outline business case",
-      "The stage plan, the team plans and the work package descriptions",
-      "The risk register, the issue register and the quality register",
-      "The end project report, the lessons report and the benefits management approach",
-      "The project's tolerances and the senior supplier's contract terms",
-      "The communication management approach and the product backlog"
+      "The project brief, the project mandate, the outline business case, and the quality register",
+      "The stage plan, the team plans, the work package descriptions, and the checkpoint reports",
+      "The risk register, the issue register, the quality register, and the lessons log",
+      "The end project report, the lessons report, the benefits management approach, and the exception plan",
+      "The project's tolerances, the senior supplier's contract terms, the brief, and the board's minutes",
+      "The communication management approach, the product backlog, the daily log, and the stage plan"
     ],
     "explanation": "The objectives name the business case, project plan, user's quality expectations, management approaches, project management team structure and role descriptions as the parts of the documentation most likely to need revision. The project brief and mandate are pre-project products and are not part of the project initiation documentation.",
     "source": "p.270"
@@ -102,11 +102,11 @@
     "answer": "They add preparing an exception plan and seeking approval to replace the project or stage plan with it",
     "distractors": [
       "They drop the review of the business case, because a tolerance has already been breached",
-      "They seek approval to close the project rather than to continue it",
-      "They replace the end stage report with the exception report",
-      "They defer the next stage plan until the board has reset the tolerances",
-      "They require the board to re-authorize the original project mandate",
-      "They move responsibility for the stage plan to the senior supplier"
+      "They seek approval to close the project rather than to continue it, and release the team now",
+      "They replace the end stage report with the exception report, and the next stage plan with the old one",
+      "They defer the next stage plan until the board has reset the tolerances, and the business case",
+      "They require the board to re-authorize the original project mandate, and reissue the brief to the manager",
+      "They move responsibility for the stage plan to the senior supplier, and the project manager reports"
     ],
     "explanation": "The manual says the objectives are similar for an exception but include preparing an exception plan and seeking approval to replace the project or current stage plan with it. Reviewing the business case and reporting on the stage still happen.",
     "source": "p.270"
@@ -118,7 +118,7 @@
     "topic": "Reconfirming business justification",
     "difficulty": 1,
     "stem": "Why is the business justification of a project reconfirmed at the end of each stage?",
-    "answer": "So the project can be redirected or stopped before more time and money are committed",
+    "answer": "So the project can be redirected or stopped before more is committed",
     "distractors": [
       "So the project manager can renegotiate the stage tolerances with the team",
       "So the project's products can be handed over to the users sooner",
@@ -137,12 +137,12 @@
     "topic": "Failure at a stage boundary",
     "difficulty": 3,
     "stem": "According to the manual, which of these is a failure rather than a legitimate outcome of a stage boundary?",
-    "answer": "Giving the board so little information that it cannot make an informed decision",
+    "answer": "Giving the board too little information to make an informed decision",
     "distractors": [
-      "Recommending that the project should not continue",
-      "Recommending that the project should be redirected",
-      "Escalating a forecast that tolerances will be exceeded",
-      "Asking the board to replace the stage plan with an exception plan",
+      "Recommending that the project should not continue, as the case is weak",
+      "Recommending that the project should be redirected, with a revised plan",
+      "Escalating a forecast that tolerances will be exceeded, to the project board",
+      "Asking the board to replace the stage plan with an exception plan, as needed",
       "Reporting that the stage's products cost more than planned",
       "Confirming that the business case is still valid"
     ],
@@ -156,7 +156,7 @@
     "topic": "Early warning of failure",
     "difficulty": 2,
     "stem": "What does the manual describe as an early identifier that a project may be failing?",
-    "answer": "The project manager's forecast that project or stage tolerances are likely to be exceeded",
+    "answer": "A forecast that tolerances are likely to be exceeded",
     "distractors": [
       "A risk that has been logged but not yet assessed",
       "A highlight report submitted later than the agreed date",
@@ -175,7 +175,7 @@
     "topic": "Prepare the next stage plan",
     "difficulty": 1,
     "stem": "When is the stage plan for the next stage produced, and where are the project's closure activities planned?",
-    "answer": "Near the end of the current stage, with closure activities planned in the stage plan for the final stage",
+    "answer": "Near the end of the current stage, with closure activities planned in the final stage's plan",
     "distractors": [
       "At the start of the current stage, with closure activities planned only in the project plan",
       "Near the end of the current stage, with closure activities planned as a separate closure stage",
@@ -194,14 +194,14 @@
     "topic": "Recommended actions when planning the next stage",
     "difficulty": 2,
     "stem": "A project manager is preparing the stage plan for the next stage. Which action does the manual recommend as part of this activity?",
-    "answer": "Updating the quality register with planned quality activities, including target review and approval dates",
+    "answer": "Updating the quality register with planned quality activities, including target review dates",
     "distractors": [
-      "Requesting the project board's approval of the exception plan",
-      "Preparing the end stage report for the current stage",
-      "Confirming that the benefits in the business case have been realized",
-      "Authorizing the work packages that the next stage will need",
-      "Reviewing the finished products with the users after handover",
-      "Baselining the project plan for the first time"
+      "Requesting the project board's approval of the exception plan, and the next stage plan",
+      "Preparing the end stage report for the current stage, and the lessons report",
+      "Confirming that the benefits in the business case have been realized, and recording them in the log",
+      "Authorizing the work packages that the next stage will need, and agreeing their tolerances",
+      "Reviewing the finished products with the users after handover, and recording their acceptance",
+      "Baselining the project plan for the first time, and issuing it to the team managers"
     ],
     "explanation": "The recommended actions include producing the stage plan and product descriptions, creating or updating product register records, and updating the quality register for planned quality activities with target review and approval dates. Authorizing work packages belongs to controlling a stage.",
     "source": "p.273"
@@ -232,7 +232,7 @@
     "topic": "When the revised stage begins",
     "difficulty": 3,
     "stem": "An exception plan is written two weeks before the planned end of the stage. When does the stage boundary for the revised stage occur?",
-    "answer": "When the project board approves the exception plan",
+    "answer": "When the project board approves the exception plan submitted",
     "distractors": [
       "On the originally planned end date of the current stage",
       "When the project manager first raises the exception report",
@@ -251,7 +251,7 @@
     "topic": "An exception plan the board rejects",
     "difficulty": 3,
     "stem": "The project board refuses to approve the exception plan the project manager submitted. What happens next?",
-    "answer": "The current stage continues under the board's direction until a revised exception plan is approved",
+    "answer": "The stage continues under the board's direction until a revised plan is approved",
     "distractors": [
       "The project is closed, because a tolerance has already been breached",
       "The project manager resumes the original stage plan without further approval",
@@ -270,14 +270,14 @@
     "topic": "Update the project plan",
     "difficulty": 2,
     "stem": "What does updating the project plan at a stage boundary involve?",
-    "answer": "Adding the progress of the finishing stage and forecasting duration and cost for the next stage or exception plan",
+    "answer": "Adding the progress of the finishing stage and forecasting duration and cost for the next stage",
     "distractors": [
-      "Replacing the project plan with the stage plan for the next stage",
-      "Recording the stage's actual costs and closing the project plan baseline",
-      "Adding the lessons from the stage to the project plan's assumptions",
-      "Recalculating the benefits in the business case from actual expenditure",
-      "Moving the project plan's milestones into the benefits management approach",
-      "Restating the project's tolerances so they match the stage plan"
+      "Replacing the project plan with the stage plan for the next stage, and discarding the old plan",
+      "Recording the stage's actual costs and closing the project plan baseline, and archiving the plan",
+      "Adding the lessons from the stage to the project plan's assumptions, and to the business case",
+      "Recalculating the benefits in the business case from actual expenditure, and reporting them to the board",
+      "Moving the project plan's milestones into the benefits management approach, and closing the plan",
+      "Restating the project's tolerances so they match the stage plan, and the board's expectations"
     ],
     "explanation": "The project plan is updated to take in progress from the stage that is finishing and to forecast the duration and cost of the next stage or exception plan. The revised costs and end dates then feed the business case.",
     "source": "p.273"
@@ -289,7 +289,7 @@
     "topic": "Update the business case",
     "difficulty": 2,
     "stem": "Why should the project manager consult the project executive when updating the business case?",
-    "answer": "Because the executive is accountable for the business case",
+    "answer": "Because the executive is accountable for the project's business case",
     "distractors": [
       "Because the executive must approve every change to the project plan",
       "Because the executive owns the project's risk register",
@@ -308,13 +308,13 @@
     "topic": "Risk checks in the business case",
     "difficulty": 3,
     "stem": "Which check does the manual recommend when updating the business case at a stage boundary?",
-    "answer": "Whether risk appetite or risk capacity has changed and the risk tolerances therefore need redefining",
+    "answer": "Whether risk appetite or capacity has changed and the risk tolerances therefore need redefining",
     "distractors": [
       "Whether every risk in the project log has an owner on the project management team",
-      "Whether the risk budget has been fully spent during the stage",
+      "Whether the risk budget has been fully spent during the stage, and what remains for the next",
       "Whether the project's insurance cover is still adequate for the remaining work",
-      "Whether each risk has been re-assessed using quantitative modelling",
-      "Whether the risk management approach should be re-baselined",
+      "Whether each risk has been re-assessed using quantitative modelling, and ranked by monetary value",
+      "Whether the risk management approach should be re-baselined, and reissued to the team managers",
       "Whether the board's appetite should be replaced by the business layer's capacity"
     ],
     "explanation": "The recommended actions include checking for changes to the risk appetite and risk capacity of the organizations involved and whether tolerances need redefining, then assessing whether aggregated exposure still sits within them. Spending the risk budget or insuring the work are not the checks the manual lists.",
@@ -329,12 +329,12 @@
     "stem": "What information does the project manager draw on to prepare the end stage report?",
     "answer": "The updated business case, updated project plan, project logs and any updated management approaches",
     "distractors": [
-      "The project mandate, the project brief and the outline business case",
-      "The stage plan, the team plans and the work package status accounts",
-      "The exception report, the issue report and the lessons report",
-      "The project product description, the quality register and the product status account",
-      "The benefits management approach and the benefits confirmed after closure",
-      "The communication management approach and the highlight reports only"
+      "The project mandate, the project brief, and the outline business case, as first approved",
+      "The stage plan, the team plans, and the work package status accounts for the stage, in full",
+      "The exception report, the issue report, and the lessons report, as submitted to the board",
+      "The project product description, the quality register, and the product status account, in each case",
+      "The benefits management approach, the benefits confirmed after closure, and the review dates, in turn",
+      "The communication management approach, the highlight reports, and the checkpoint reports"
     ],
     "explanation": "The end stage report is based on the performance of the stage as shown by the updated business case, updated project plan, project logs and any updated management approaches. The mandate and brief are pre-project products, not evidence of stage performance.",
     "source": "p.274"
@@ -346,14 +346,14 @@
     "topic": "External distribution of the end stage report",
     "difficulty": 3,
     "stem": "When preparing the end stage report, why does the project manager review the communication management approach?",
-    "answer": "To see whether copies of the report, and possibly a lessons report, should go to interested external parties",
+    "answer": "To see whether copies of the report, and possibly a lessons report, should go to external parties",
     "distractors": [
-      "To confirm that the board has been formally informed of the stage's progress",
-      "To decide which stakeholders should be consulted on the next stage plan",
-      "To check that the project's products have been accepted by the users",
-      "To set the reporting frequency for the next stage's highlight reports",
-      "To identify which team managers need copies of the quality register",
-      "To confirm that lessons have been entered in the project log"
+      "To confirm that the board has been formally informed of the stage's progress, and approved it, in writing",
+      "To decide which stakeholders should be consulted on the next stage plan, and in which order",
+      "To check that the project's products have been accepted by the users, and by the senior supplier",
+      "To set the reporting frequency for the next stage's highlight reports, and the format",
+      "To identify which team managers need copies of the quality register, and which need the risk register",
+      "To confirm that lessons have been entered in the project log, and reviewed by the board, at the boundary"
     ],
     "explanation": "The communication management approach is reviewed to see whether the end stage report, and where appropriate a lessons report, should be sent to interested external parties. Deciding who is consulted on the next stage plan is a separate planning consideration.",
     "source": "p.275"
@@ -365,7 +365,7 @@
     "topic": "Request the next stage",
     "difficulty": 2,
     "stem": "Where does the formal justification for requesting the next stage appear?",
-    "answer": "In the end stage report together with the next stage plan or the exception plan",
+    "answer": "In the end stage report with the next stage plan or exception plan",
     "distractors": [
       "In the highlight report together with the updated business case",
       "In the exception report together with the project plan",
@@ -384,7 +384,7 @@
     "topic": "Briefing the board on the stage",
     "difficulty": 2,
     "stem": "When briefing the board before requesting the next stage, what does the manual say the project manager should confirm about off-specifications?",
-    "answer": "Where concessions have been made for any off-specifications during the stage",
+    "answer": "Where concessions were made for any off-specifications in the stage",
     "distractors": [
       "That every off-specification has been rejected by the change authority",
       "That no off-specifications were raised during the stage",
@@ -403,13 +403,13 @@
     "topic": "General considerations",
     "difficulty": 2,
     "stem": "How may the activities of the process be run, and what must be protected?",
-    "answer": "They may be combined, separated or run concurrently, provided the links with initiating a project, controlling a stage and directing a project stay sound",
+    "answer": "They may be combined, split or run concurrently, provided links to other processes stay sound",
     "distractors": [
       "They must run in the prescribed order, with each output approved before the next activity starts",
-      "They may be reordered freely, because the process has no dependencies on other processes",
-      "They must all be completed within a single project board meeting",
-      "They may run concurrently only while an exception plan is being prepared",
-      "They may be combined for small projects and must be separated for large ones",
+      "They may be reordered freely, because the process has no dependencies on other processes, at all",
+      "They must all be completed within a single project board meeting, and approved",
+      "They may run concurrently only while an exception plan is being prepared, and the board has agreed",
+      "They may be combined for small projects and must be separated for large ones, by the board",
       "They may be delegated in full to project support provided the board is informed"
     ],
     "explanation": "The manual allows the activities to be combined, separated or run concurrently to suit the context, but warns that the integrity of the connections with initiating a project, controlling a stage and directing a project must be preserved. There is no fixed sequence requirement and no rule based on project size.",
@@ -422,14 +422,14 @@
     "topic": "Tailoring roles",
     "difficulty": 2,
     "stem": "Who is responsible for creating the new management products in this process, and may the work be delegated?",
-    "answer": "The project manager, who may delegate to project support or a team manager but keeps overall responsibility",
+    "answer": "The project manager, who may delegate to support or a team manager but keeps responsibility",
     "distractors": [
-      "The project board, which may delegate to the project manager but keeps accountability",
-      "Project assurance, which may delegate to project support but keeps overall responsibility",
-      "The project manager, who may not delegate any of the work",
-      "The team manager, who may delegate upwards to the project manager",
-      "The project executive, who may delegate to the senior user",
-      "Project support, which may delegate to a team manager with the board's approval"
+      "The project board, which may delegate to the project manager but keeps accountability for the stage",
+      "Project assurance, which may delegate to project support but keeps overall responsibility for it",
+      "The project manager, who may not delegate any of the work, even to project support or a team manager",
+      "The team manager, who may delegate upwards to the project manager, but keeps accountability for it",
+      "The project executive, who may delegate to the senior user, but keeps overall responsibility for it",
+      "Project support, which may delegate to a team manager with the board's approval, but keeps accountability"
     ],
     "explanation": "The project manager is responsible for creating all new management products in the process and may delegate to others with the right skills, such as project support or a team manager, while retaining overall responsibility. Accountability is not passed to the board.",
     "source": "p.275"

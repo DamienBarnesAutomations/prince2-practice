@@ -6,14 +6,14 @@
     "topic": "Purpose of issues",
     "difficulty": 1,
     "stem": "What is the purpose of the issues practice?",
-    "answer": "To collect and assess issues and to control changes to the project's baseline",
+    "answer": "To collect and assess issues and to control any changes to the project's baselined products",
     "distractors": [
-      "To maintain a record of every issue raised without assessing its impact",
-      "To decide which changes are affordable within the project's risk budget",
+      "To maintain a record of every issue raised without assessing its impact, and to close it",
+      "To decide which changes are affordable within the project's risk budget, and to approve them",
       "To ensure that every change to the baseline is approved by the project board itself",
-      "To prevent the project baseline from being changed during a stage",
-      "To allocate each issue to a risk owner so that it can be monitored",
-      "To record issues only when they are raised formally by a stakeholder"
+      "To prevent the project baseline from being changed during a stage, and to freeze the plan",
+      "To allocate each issue to a risk owner so that it can be monitored, and to report on it",
+      "To record issues only when they are raised formally by a stakeholder, and to log them"
     ],
     "explanation": "The key message is that the issues practice collects and assesses issues and controls changes to the project baseline. The practice is not a passive log: assessment and change control are both part of its purpose, and change control sits inside issue management rather than alongside it.",
     "source": "p.168"
@@ -46,12 +46,12 @@
     "stem": "Why does the manual warn against members of the project management team filtering or censoring issues?",
     "answer": "A project cannot be responsive to changes in its organizational and environmental context if issues are filtered",
     "distractors": [
-      "Filtering prevents the issue register from being baselined at the end of each stage",
-      "Filtering transfers the project board's decision-making authority to the project manager",
-      "Filtering makes it impossible to distinguish a request for change from an off-specification",
-      "Filtering breaches the requirement to record every issue in the daily log",
+      "Filtering prevents the issue register from being baselined at the end of each stage, and reported",
+      "Filtering transfers the project board's decision-making authority to the project manager, and so weakens control",
+      "Filtering makes it impossible to distinguish a request for change from an off-specification, in the register",
+      "Filtering breaches the requirement to record every issue in the daily log, and in the issue register",
       "Filtering removes the need for a change budget, which weakens control",
-      "Filtering duplicates entries that already exist in the risk register"
+      "Filtering duplicates entries that already exist in the risk register, and so inflates the number of issues"
     ],
     "explanation": "Issue management sits at the heart of the project's monitoring function, and censoring issues breaks the link between the project and the context it must respond to. The chapter accepts that capturing too much can distract the team with trivial decisions, but its warning is against filtering and prejudging, not against assessment.",
     "source": "p.168"
@@ -63,14 +63,14 @@
     "topic": "Elements of the approach",
     "difficulty": 2,
     "stem": "Which set lists the elements that make up the PRINCE2 issue management approach?",
-    "answer": "Baselines, issue resolution, change control, delegating authority for changes and the change budget",
+    "answer": "Baselines, issue resolution, change control, delegating authority and the change budget",
     "distractors": [
-      "Baselines, risk responses, change control, escalation routes and the risk budget",
-      "Issue resolution, quality control, delegating authority and the stage plan",
-      "Baselines, issue resolution, configuration audits, change authority and contingency",
-      "Change control, benefits review, delegating authority and the change budget",
-      "Issue resolution, change control, lessons capture and the project log",
-      "Baselines, change control, product descriptions and the change budget"
+      "Baselines, risk responses, change control, escalation routes and the risk budget for the stage",
+      "Issue resolution, quality control, delegating authority, the stage plan and the lessons log",
+      "Baselines, issue resolution, configuration audits, change authority and the contingency fund",
+      "Change control, benefits review, delegating authority, the change budget and the risk budget",
+      "Issue resolution, change control, lessons capture, the project log and the daily log entries",
+      "Baselines, change control, product descriptions, the change budget and the quality register"
     ],
     "explanation": "The five elements are baselines (what is subject to change control), issue resolution (how issues are identified, captured, assessed and recommended), change control, delegation of change authority and the change budget. Risk responses and benefits review belong to other practices.",
     "source": "p.169"
@@ -82,14 +82,14 @@
     "topic": "Baselining level",
     "difficulty": 2,
     "stem": "How does the manual suggest the appropriate level for baselining products should be determined?",
-    "answer": "By dividing the project products until a component can be independently released, installed, replaced or modified",
+    "answer": "By dividing products until a component can be released, installed, replaced or modified alone",
     "distractors": [
       "By baselining every product description before any work package is authorized",
       "By baselining only those products that appear on the project's critical path",
       "By following the levels set out in the organization's quality management system",
       "By baselining at the level of the stage plan, so that each stage has one baseline",
       "By baselining the products that the project board approved in the business case",
-      "By dividing products until each one can be delivered within a single stage"
+      "By dividing products until each one can be delivered within a single stage, and by a single team"
     ],
     "explanation": "The level of baselining is generally found by dividing the project products until a component can be independently released, installed, replaced or modified. The level of control exercised is then influenced by the importance of the project and the complexity of the relationships between its products.",
     "source": "p.169"
@@ -101,14 +101,14 @@
     "topic": "Verifying product status",
     "difficulty": 1,
     "stem": "When does the manual say it is good practice to verify that the actual status of products reflects their authorized state?",
-    "answer": "Periodically, usually through reviews or audits at the end of each stage and at the end of the project",
+    "answer": "Periodically, usually through reviews or audits at the end of each stage and of the project",
     "distractors": [
       "Continuously, through automated configuration checks on every product version",
-      "Only once, when the project baseline is first created during initiation",
-      "At every project board meeting, before the highlight report is approved",
-      "Whenever a request for change is raised, before the change is assessed",
-      "At the end of each work package, as part of the team manager's checkpoint report",
-      "Only at project closure, as part of the end project report"
+      "Only once, when the project baseline is first created during initiation, and never again after that",
+      "At every project board meeting, before the highlight report is approved, and the minutes signed",
+      "Whenever a request for change is raised, before the change is assessed, and its impact estimated",
+      "At the end of each work package, as part of the team manager's checkpoint report, and its sign-off",
+      "Only at project closure, as part of the end project report, and before the lessons are captured"
     ],
     "explanation": "Periodic verification that actual product status matches the authorized state is good practice, typically through reviews or audits at the end of each stage and at the end of the project. It is a control point, not a continuous automated check.",
     "source": "p.170"
@@ -120,14 +120,14 @@
     "topic": "Baseline systems",
     "difficulty": 2,
     "stem": "What must every system used to manage a project baseline be able to do?",
-    "answer": "Prevent changes being introduced without the appropriate level of approval, and provide an audit trail for all changes",
+    "answer": "Prevent changes being introduced without appropriate approval, and provide an audit trail for all changes",
     "distractors": [
-      "Hold every management and specialist product in a single repository",
-      "Record the cost and schedule impact of every change against the business case",
-      "Report any change to the project board within one working day of it being raised",
-      "Replace the issue register for products that are under configuration control",
-      "Allow the project manager to approve any change within the stage tolerance",
-      "Archive superseded versions only at the end of the project"
+      "Hold every management and specialist product in a single repository, and back it up daily",
+      "Record the cost and schedule impact of every change against the business case, and report it monthly",
+      "Report any change to the project board within one working day of it being raised, and log it",
+      "Replace the issue register for products that are under configuration control, and for those under change",
+      "Allow the project manager to approve any change within the stage tolerance, and to record it after",
+      "Archive superseded versions only at the end of the project, and delete the working copies"
     ],
     "explanation": "Management products may be maintained as simple versioned documents and specialist products may need a dedicated system, so the systems can differ. Whatever the system, changes must not be possible without the appropriate approval and there must be an audit trail; the product register then records approval and implementation.",
     "source": "p.170"
@@ -139,12 +139,12 @@
     "topic": "Problems and concerns",
     "difficulty": 1,
     "stem": "What distinguishes a problem from a concern?",
-    "answer": "A problem has an immediate and negative impact, whereas the timeliness and impact of a concern still need to be assessed",
+    "answer": "A problem has an immediate negative impact, whereas a concern's timeliness and impact need assessing",
     "distractors": [
       "A problem is raised by the project board, whereas a concern is raised by any team member",
       "A problem is recorded in the issue register, whereas a concern is recorded in the daily log",
       "A problem relates to a specialist product, whereas a concern relates to a management product",
-      "A problem is certain to occur, whereas a concern may never occur",
+      "A problem is certain to occur, whereas a concern may never occur, and needs no response",
       "A problem requires a request for change, whereas a concern requires an off-specification",
       "A problem affects cost and time, whereas a concern affects quality only"
     ],
@@ -158,12 +158,12 @@
     "topic": "Issues and risks",
     "difficulty": 3,
     "stem": "While categorizing an issue it becomes clear that the matter is uncertain rather than something that has already happened. What should happen?",
-    "answer": "It should be transferred to the risk register and the procedure in the risk management approach followed",
+    "answer": "It should be transferred to the risk register and the risk management approach followed",
     "distractors": [
       "It should remain in the issue register until it occurs, then be reassessed",
       "It should be recorded as a concern and reviewed at the next stage boundary",
       "It should be closed, because only events that have already occurred can be issues",
-      "It should be escalated to the project board as an exception",
+      "It should be escalated to the project board as an exception, and a new plan requested from the manager",
       "It should be reclassified as an external event and monitored by the supplier",
       "It should be added to both registers so that neither loses the information"
     ],
@@ -177,14 +177,14 @@
     "topic": "Business opportunity",
     "difficulty": 1,
     "stem": "How does the manual define a business opportunity?",
-    "answer": "An issue that represents unanticipated positive consequences for the project or the user organization",
+    "answer": "An issue that represents unanticipated positive consequences for the project or the user",
     "distractors": [
       "An opportunity identified during risk assessment and recorded in the risk register",
-      "A request from the business layer to increase the scope of the project",
-      "A change that reduces the cost of the project without affecting its benefits",
+      "A request from the business layer to increase the scope of the project, funded by the business",
+      "A change that reduces the cost of the project without affecting its benefits, or the schedule",
       "An issue that the project board has decided to exploit within its tolerance",
-      "A benefit in the business case that has been brought forward to an earlier stage",
-      "An external event that allows a supplier to offer better commercial terms"
+      "A benefit in the business case that has been brought forward to an earlier stage by the team",
+      "An external event that allows a supplier to offer better commercial terms to the customer"
     ],
     "explanation": "A business opportunity is an issue with unanticipated positive consequences, such as a saving in the cost of goods or newly available equipment with better functionality. Because the consequences may reach beyond the project, it can be useful to seek the board's advice when assessing impacts and possible responses.",
     "source": "p.171"
@@ -198,9 +198,9 @@
     "stem": "Which of these is NOT one of the categories into which PRINCE2 recommends all issues should be placed?",
     "answer": "An assumption recorded in the project plan",
     "distractors": [
-      "A problem or concern",
-      "An event external to the project",
-      "A request for change"
+      "A problem or concern about the project",
+      "An event that is external to the project",
+      "A request for change to the baseline"
     ],
     "exhaustive": true,
     "explanation": "The five categories are problem or concern, event external to the project, business opportunity, request for change and off-specification. An assumption is a component of a plan and is not one of the issue categories.",
@@ -232,14 +232,14 @@
     "topic": "Change control",
     "difficulty": 1,
     "stem": "How does the manual define change control?",
-    "answer": "The process by which changes that may affect the project baseline are identified, assessed and then approved, rejected or deferred",
+    "answer": "The process by which baseline changes are assessed, then approved, rejected or deferred",
     "distractors": [
-      "The process by which issues are captured in the project log and allocated to an owner",
-      "The process by which approved changes are funded from the change budget",
+      "The process by which issues are captured in the project log, assessed, and allocated to an owner",
+      "The process by which approved changes are funded from the change budget and tracked",
       "The process by which the project board delegates its authority to approve changes",
-      "The process by which products are baselined and their versions identified",
-      "The process by which exceptions are reported to the project board",
-      "The process by which superseded product versions are archived"
+      "The process by which products are baselined, their versions identified, and their status recorded",
+      "The process by which exceptions are reported to the project board and assessed",
+      "The process by which superseded product versions are archived and indexed"
     ],
     "explanation": "Change control covers the whole decision cycle: identifying and assessing a change and then approving, rejecting or deferring it. Funding it from the change budget and archiving superseded versions are parts of implementing a decision, not the definition of change control.",
     "source": "p.172"
@@ -251,7 +251,7 @@
     "topic": "Request for change",
     "difficulty": 2,
     "stem": "What must a request for change identify?",
-    "answer": "The management products proposed to be changed, a justification, and the source of funding if the change has a cost",
+    "answer": "The products proposed to be changed, a justification, and the funding source if costed",
     "distractors": [
       "The team manager responsible, the work package affected and the date of the next stage boundary",
       "The business benefit expected, the risk owner and the change authority that will decide it",
@@ -270,14 +270,14 @@
     "topic": "Off-specification",
     "difficulty": 1,
     "stem": "In which two circumstances does the manual say an off-specification can arise?",
-    "answer": "A supplier fails to deliver a product that fully complies with its quality specifications, or a required quality specification is found to be unachievable",
+    "answer": "A supplier fails to deliver a compliant product, or a required specification is found unachievable",
     "distractors": [
-      "A stakeholder requests additional functionality, or the business case is revised",
-      "A product is delivered late, or a work package exceeds its cost tolerance",
-      "A quality specification is changed, or a product description is not baselined",
-      "A supplier withdraws from the contract, or a stage plan is replaced by an exception plan",
-      "A product fails acceptance testing, or the project board rejects a request for change",
-      "A tolerance is breached, or the project manager delegates change authority"
+      "A stakeholder requests additional functionality, or the business case is revised after approval by the board",
+      "A product is delivered late, or a work package exceeds its cost tolerance and is escalated to the board",
+      "A quality specification is changed, or a product description is not baselined by the project manager",
+      "A supplier withdraws from the contract, or a stage plan is replaced by an exception plan after approval",
+      "A product fails acceptance testing, or the project board rejects a request for change after assessing it",
+      "A tolerance is breached, or the project manager delegates change authority to the team manager"
     ],
     "explanation": "Off-specification most often arises when a supplier fails to deliver a product that fully complies with its quality specifications, but it can equally arise when a required specification turns out to be unachievable. Either way there is a discrepancy between the approved baseline and the delivered products that must go through change control.",
     "source": "p.172"
@@ -289,7 +289,7 @@
     "topic": "Concessions",
     "difficulty": 1,
     "stem": "What is a concession?",
-    "answer": "An off-specification that the project board accepts without corrective action",
+    "answer": "An off-specification the board accepts without correcting it",
     "distractors": [
       "A request for change that the project board rejects without giving a reason",
       "A change approved by the project manager within delegated authority",
@@ -308,14 +308,14 @@
     "topic": "Rejected off-specification",
     "difficulty": 3,
     "stem": "An off-specification is rejected. What does the manual say should happen next?",
-    "answer": "The team manager, consulting the project manager, explores how to correct the situation, possibly using the change budget or raising an exception report",
+    "answer": "The team manager and project manager explore a correction, possibly using the change budget",
     "distractors": [
-      "The product is accepted as a concession and the baseline is updated",
-      "The issue is closed and the discrepancy is recorded in the lessons log",
-      "The supplier's contract is terminated and the work is re-tendered",
-      "The off-specification is reclassified as a request for change and reassessed",
-      "The project board sets a new quality specification and rebaselines the stage",
-      "The issue is transferred to the risk register as a secondary risk"
+      "The product is accepted as a concession, the baseline is updated, and the issue is closed with the board's consent",
+      "The issue is closed, the discrepancy is recorded in the lessons log, and the supplier is told of it",
+      "The supplier's contract is terminated, the work is re-tendered, and the board is informed of the cost",
+      "The off-specification is reclassified as a request for change, reassessed, and sent back to the board",
+      "The project board sets a new quality specification, rebaselines the stage, and informs the supplier",
+      "The issue is transferred to the risk register, assessed as a secondary risk, and given an owner"
     ],
     "explanation": "Rejection does not end the matter: the team manager, in consultation with the project manager, must find a way to correct it, which may draw on the change budget or require an exception report. Acceptance, by contrast, would produce a concession and an updated baseline.",
     "source": "p.172"
@@ -345,12 +345,12 @@
     "topic": "Delegation balance",
     "difficulty": 3,
     "stem": "What does the manual say is the risk of delegating change authority too widely, particularly to too many different roles?",
-    "answer": "The overall benefits of the project may be reduced as alignment with the business justification is diluted",
+    "answer": "The benefits may be reduced as alignment with the justification is diluted",
     "distractors": [
       "The project manager loses the ability to maintain the issue register",
       "Changes are approved that exceed the project's stage tolerances",
       "The project board is unable to review the issue management approach",
-      "Suppliers begin to raise requests for change directly with the board",
+      "Suppliers begin to raise requests for change directly with the board, bypassing the project manager",
       "The change budget is exhausted before the end of the stage",
       "The audit trail for approved changes is broken"
     ],
@@ -364,14 +364,14 @@
     "topic": "Work package changes",
     "difficulty": 2,
     "stem": "Why is it important that sufficient authority is delegated to approve changes at work package level?",
-    "answer": "Because most changes are generated there, and they can then be approved without escalating every decision to the project board",
+    "answer": "Because most changes arise there, and they can be approved without escalating every decision",
     "distractors": [
-      "Because work packages are where the change budget is held and spent",
+      "Because work packages are where the change budget is held and spent, and reported to the board",
       "Because team managers are accountable for the project's business justification",
-      "Because the project board is not permitted to decide changes to specialist products",
+      "Because the project board is not permitted to decide changes to specialist products, or to approve them",
       "Because work package changes do not need to be recorded in the issue register",
       "Because authority at that level removes the need for a change control procedure",
-      "Because the project manager cannot approve changes to management products"
+      "Because the project manager cannot approve changes to management products, and must escalate them all"
     ],
     "explanation": "In practice most changes arise at work package level, so the approach should place enough delegated authority there to keep decisions responsive. On larger projects authority may be delegated to several levels, using parameters specified in the issue management approach.",
     "source": "p.173"
@@ -383,14 +383,14 @@
     "topic": "Change budget",
     "difficulty": 1,
     "stem": "How does the manual define the change budget?",
-    "answer": "The money or authorized constraints set aside in a plan to cover changes, allocated by those with delegated authority to deliver authorized changes",
+    "answer": "The money or authorized constraints set aside in a plan to cover changes, allocated by delegated authority",
     "distractors": [
-      "The total contingency held by the project board for unidentified risks",
-      "The sum reserved for funding responses to threats and opportunities",
-      "The difference between the approved project budget and the actual spend to date",
-      "The amount the project manager may spend without seeking board approval",
-      "The funding set aside to correct rejected off-specifications",
-      "The cost of administering the change control procedure during a stage"
+      "The total contingency held by the project board for unidentified risks, and the changes they cause",
+      "The sum reserved for funding responses to threats and opportunities, held by the project manager",
+      "The difference between the approved project budget and the actual spend to date, at each stage",
+      "The amount the project manager may spend without seeking board approval, in any single stage",
+      "The funding set aside to correct rejected off-specifications, and to repay the supplier's costs",
+      "The cost of administering the change control procedure during a stage, and the staff who run it"
     ],
     "explanation": "The change budget is money or authorized constraints set aside in a plan to cover changes, allocated by those with delegated authority. The sum reserved for risk responses is the separate risk budget, and a rejected off-specification is corrected from the change budget or through an exception plan.",
     "source": "p.173"
@@ -402,7 +402,7 @@
     "topic": "Change budget as constraints",
     "difficulty": 3,
     "stem": "The manual says a change budget can be defined as a set of authorized constraints rather than a sum of money. Which example does it give?",
-    "answer": "In-person user training may be replaced by virtual training, provided the same number of people are trained within the required timeframe",
+    "answer": "In-person user training may be replaced by virtual training, provided the same number are trained",
     "distractors": [
       "A supplier may substitute an equivalent product, provided the price does not increase",
       "A stage may be extended by up to two weeks, provided the benefits are unaffected",
@@ -440,7 +440,7 @@
     "topic": "Alternative procedure",
     "difficulty": 2,
     "stem": "A project within a programme wants to use the programme's issue management procedure instead of the PRINCE2 technique. What does the method require?",
-    "answer": "The alternative should be documented as a tailoring decision in the project initiation documentation",
+    "answer": "It should be documented as a tailoring decision in the initiation documentation",
     "distractors": [
       "The alternative must be approved by the programme board as a change to the project baseline",
       "The alternative is not permitted, because the PRINCE2 technique is mandatory",
@@ -459,14 +459,14 @@
     "topic": "Formal and informal issues",
     "difficulty": 2,
     "stem": "A team member reports that the project printer has stopped working and a colleague can fix it immediately at negligible cost. Where should this be recorded?",
-    "answer": "In the daily log, because it is an informal issue that the team can resolve without significant cost or change to the baseline",
+    "answer": "In the daily log, because it is an informal issue resolved without significant cost or change",
     "distractors": [
-      "In the issue register, because every issue must be recorded formally",
+      "In the issue register, because every issue must be recorded formally, however minor",
       "In the risk register, because the printer may fail again later in the project",
       "In the lessons log, because it reveals a weakness in project support",
       "In an issue report, because it affects a management product",
       "In the product register, because the printer supports product development",
-      "In the highlight report, because the board must be told about every issue"
+      "In the highlight report, because the board must be told about every issue, however small or cheap"
     ],
     "explanation": "The manual contrasts an off-specification, which must be handled formally in the issue register, with a broken printer that the team can simply fix, which is an informal issue for the daily log. The test is whether it needs formal assessment and a recorded decision.",
     "source": "p.174"
@@ -516,7 +516,7 @@
     "topic": "Recommending resolution",
     "difficulty": 2,
     "stem": "What must a recommendation about an issue make clear?",
-    "answer": "The consequences of both approving and rejecting the proposal",
+    "answer": "The consequences of both approving and rejecting the proposal, in full",
     "distractors": [
       "The name of the person who raised the issue and the date it was logged",
       "The remaining change budget and the project manager's delegated authority",
@@ -552,7 +552,7 @@
     "topic": "Exception plan response",
     "difficulty": 3,
     "stem": "When does the manual say asking for an exception plan may be an appropriate response to a change proposal?",
-    "answer": "When the problem stems from overly stringent quality specifications or acceptance criteria that could be resolved by changing the approved tolerances",
+    "answer": "When the problem stems from overly stringent specifications resolvable by changing tolerances",
     "distractors": [
       "When the change is complex and the impacts of approving or rejecting it are unclear",
       "When the cost of the change can be met from the approved change budget",
@@ -609,11 +609,11 @@
     "topic": "Root cause analysis",
     "difficulty": 2,
     "stem": "What does root cause analysis aim to do?",
-    "answer": "Deconstruct a problem into its contributing causes to distinguish primary causes from secondary or derivative ones",
+    "answer": "Deconstruct a problem into its contributing causes to distinguish primary from secondary causes",
     "distractors": [
       "Identify all possible failures in a product and assess the consequences of each",
-      "Sort possible causes into categories that diverge from the original problem",
-      "Investigate successive layers of a problem by repeatedly asking why",
+      "Sort possible causes into categories that diverge from the original problem, as on a fishbone chart",
+      "Investigate successive layers of a problem by repeatedly asking why, until the symptom is understood",
       "Identify the most likely causes using the 80/20 rule",
       "Compare the cost of resolving a problem with the benefit of doing so",
       "Establish which stakeholder is accountable for the problem"
@@ -628,14 +628,14 @@
     "topic": "Failure mode analysis",
     "difficulty": 3,
     "stem": "Why does the manual say failure mode analysis usually requires some form of the product to exist?",
-    "answer": "Because it identifies all possible failures in a product or process and assesses the consequences of each, which needs at least an interim form such as a prototype",
+    "answer": "Because it identifies all possible failures in a product and their consequences, so needs an interim form",
     "distractors": [
-      "Because it compares the delivered product with its baselined product description",
-      "Because it requires statistical data on failures from previous projects",
-      "Because it needs the product's acceptance criteria to have been approved",
-      "Because it traces failures back through five successive layers of cause",
-      "Because it sorts failure causes into categories on a fishbone diagram",
-      "Because it must be performed after the product has been handed over"
+      "Because it compares the delivered product with its baselined product description, and the specification",
+      "Because it requires statistical data on failures from previous projects, and from the supplier's test records",
+      "Because it needs the product's acceptance criteria to have been approved, and the tolerances set",
+      "Because it traces failures back through five successive layers of cause, and records each layer in the register",
+      "Because it sorts failure causes into categories on a fishbone diagram, and ranks them by their likelihood",
+      "Because it must be performed after the product has been handed over, and the user has used it"
     ],
     "explanation": "Failure mode analysis works step by step through all possible failures in a product or process and the consequence of each, so the product must exist in some form, whether interim such as a prototype or final. It is not a document comparison or a post-handover review.",
     "source": "p.177"
@@ -647,14 +647,14 @@
     "topic": "Organizational context",
     "difficulty": 2,
     "stem": "A project is part of a programme that has a common issue management capability and change control systems. What should the project manager do?",
-    "answer": "Incorporate the programme's policies, procedures and change control systems into the project's issue management approach",
+    "answer": "Incorporate the programme's policies, procedures and change control into the project's approach",
     "distractors": [
-      "Adopt the programme's issue register in place of the project's project log",
-      "Ask the programme board to approve every issue raised in the project",
+      "Adopt the programme's issue register in place of the project's project log, and close the latter",
+      "Ask the programme board to approve every issue raised in the project, and report back to the project board",
       "Record the programme's requirements as a tailoring decision in the business case",
       "Use the programme's approach only where the project's own approach is silent",
-      "Delegate all issue decisions to the programme manager",
-      "Replace the project board's change authority with the programme's"
+      "Delegate all issue decisions to the programme manager, and release the project board from them",
+      "Replace the project board's change authority with the programme's, and close the project's own"
     ],
     "explanation": "The project manager determines which organizational or external policies, standards and procedures must be applied and builds them into the project's own approach. Many programmes also set requirements on how issues are assessed and on which issues must be raised to programme level.",
     "source": "p.177"
@@ -685,14 +685,14 @@
     "topic": "Collaborative resolution",
     "difficulty": 3,
     "stem": "In the manual's collaborative example, how was the water storage tank off-specification resolved between the parties?",
-    "answer": "The supplier absorbed the additional construction cost and the board allowed the extra time without applying penalties",
+    "answer": "The supplier absorbed the extra construction cost and the board allowed extra time without penalties",
     "distractors": [
-      "The board released additional funding and the supplier shortened the construction programme",
-      "The off-specification was accepted as a concession and the requirement was removed",
-      "The supplier corrected the work at the project's expense under a contractual remedy",
-      "The issue was escalated to the programme, which funded an alternative supplier",
-      "The requirement was deferred to a later stage and recorded in the lessons log",
-      "The board reduced the scope of another product in order to fund the correction"
+      "The board released additional funding and the supplier shortened the construction programme to recover time",
+      "The off-specification was accepted as a concession and the requirement was removed from the specification",
+      "The supplier corrected the work at the project's expense under a contractual remedy, with penalties applied",
+      "The issue was escalated to the programme, which funded an alternative supplier to rebuild the tank",
+      "The requirement was deferred to a later stage and recorded in the lessons log, with a revised date",
+      "The board reduced the scope of another product in order to fund the correction, and extended the date"
     ],
     "explanation": "The supplier wanted a partnership relationship and reference site, so it completed the installation and absorbed the extra cost rather than requesting more funding, while the board accepted the additional time without penalties. The result was a collaborative resolution rather than a contractual one.",
     "source": "p.178"
@@ -704,14 +704,14 @@
     "topic": "Linear-sequential projects",
     "difficulty": 2,
     "stem": "What key assumption about issues underlies the choice of a linear-sequential delivery approach?",
-    "answer": "That the number and magnitude of changes will reduce as the lifecycle progresses, because change is cheaper and easier early on",
+    "answer": "That changes will reduce in number and size as the lifecycle progresses, as change is cheaper early",
     "distractors": [
       "That changes will be raised mainly by the project board rather than by delivery teams",
-      "That the project baseline will not need to change after the design stage",
-      "That tolerances can be progressively widened as the project advances",
-      "That the change budget will be needed mainly in the final stages",
-      "That issues will always be resolved within the stage in which they are raised",
-      "That the scope baseline will evolve in line with user feedback"
+      "That the project baseline will not need to change after the design stage, and the plans can be frozen",
+      "That tolerances can be progressively widened as the project advances, and the change budget released",
+      "That the change budget will be needed mainly in the final stages, when the products are being tested",
+      "That issues will always be resolved within the stage in which they are raised, and by the same team",
+      "That the scope baseline will evolve in line with user feedback, and the plans change at each iteration"
     ],
     "explanation": "A linear-sequential approach assumes that changes become fewer and smaller as the project proceeds, since it is much easier and less costly to change the baseline early. Resizing a room is trivial while the building is being designed and expensive once it is nearly complete.",
     "source": "p.178"
@@ -723,13 +723,13 @@
     "topic": "Tailoring tolerances",
     "difficulty": 3,
     "stem": "How might a linear-sequential project tailor its tolerances and change budget across the lifecycle?",
-    "answer": "Looser tolerances in early stages such as design, then tighter tolerances and a larger portion of the change budget in later stages such as construction",
+    "answer": "Looser tolerances early such as in design, then tighter tolerances and more change budget later",
     "distractors": [
-      "Tighter tolerances in early stages, then looser tolerances as the design matures",
+      "Tighter tolerances in early stages, then looser tolerances as the design matures, with a smaller budget",
       "A larger change budget early on, then looser tolerances once construction begins",
       "The same tolerances throughout, with the change budget released only at closure",
       "No change budget until the stage boundary, then tolerances set by the team manager",
-      "Looser tolerances in later stages because changes are cheaper to make then",
+      "Looser tolerances in later stages because changes are cheaper to make then, and the budget smaller",
       "Tolerances set by the supplier, with the change budget held by the project board"
     ],
     "explanation": "Because early changes are relatively cheap, the approach may allow flexibility during design, then restrict tolerances during construction and make a larger share of the change budget available in recognition of the cost of even minor changes.",
@@ -742,7 +742,7 @@
     "topic": "Iterative-incremental projects",
     "difficulty": 2,
     "stem": "How does the manual suggest change authority should be split in an iterative-incremental project?",
-    "answer": "The board retains authority over management products, while authority over features and functionality in specialist products is delegated to delivery teams",
+    "answer": "The board retains authority over management products, while authority over features is delegated to teams",
     "distractors": [
       "The board retains authority over all changes, and teams may only raise issues",
       "Delivery teams hold authority over management products, and the board decides specialist features",
@@ -761,14 +761,14 @@
     "topic": "Sustainability issues",
     "difficulty": 2,
     "stem": "Where sustainability and environmental impacts are a major aspect of a project, what does the manual say the issue management approach should ensure?",
-    "answer": "That someone in the project management team is responsible for monitoring external sources of potential issues and changes",
+    "answer": "That someone on the project management team monitors external sources of potential issues and changes",
     "distractors": [
       "That sustainability issues are recorded in the business case rather than the issue register",
       "That all sustainability issues are escalated to the business layer for a decision",
-      "That sustainability tolerances are set to zero to avoid regulatory exposure",
-      "That suppliers accept responsibility for all sustainability-related changes",
-      "That sustainability issues are reviewed only at the end of each stage",
-      "That a separate sustainability register is maintained outside the project log"
+      "That sustainability tolerances are set to zero to avoid regulatory exposure, and any breach is reported",
+      "That suppliers accept responsibility for all sustainability-related changes, and bear the cost of them",
+      "That sustainability issues are reviewed only at the end of each stage, and then by the project board",
+      "That a separate sustainability register is maintained outside the project log, and audited by assurance"
     ],
     "explanation": "Sustainability is a significant source of issues and changes from outside the project, particularly through regulatory requirements and supplier capabilities, so the approach should assign someone to monitor those external sources. It does not create a separate register or move the issues out of the normal procedure.",
     "source": "p.179"
@@ -780,7 +780,7 @@
     "topic": "Scale",
     "difficulty": 2,
     "stem": "Which of these does the manual list as a factor in developing the issue management approach?",
-    "answer": "The degree of uncertainty or volatility in the quality specifications of the products to be delivered",
+    "answer": "The volatility of the products' quality specifications",
     "distractors": [
       "The number of stages in the project and the length of each stage",
       "The size of the project's risk budget relative to its change budget",
@@ -799,13 +799,13 @@
     "topic": "Sensitive issues",
     "difficulty": 3,
     "stem": "Why might a project team want to exercise strong control over access to its issue register?",
-    "answer": "Because the project's scope may involve dis-benefits or outcomes that some stakeholders could perceive as negative",
+    "answer": "Because the scope may involve dis-benefits or outcomes some stakeholders could perceive as negative",
     "distractors": [
       "Because the issue register contains the change budget and delegated authorities",
-      "Because access controls are required before the issue register can be baselined",
+      "Because access controls are required before the issue register can be baselined, under the change procedure",
       "Because the register must be kept separate from the project log for audit purposes",
       "Because stakeholders may raise more issues than the team can assess",
-      "Because the register holds commercially confidential supplier pricing",
+      "Because the register holds commercially confidential supplier pricing, which the supplier has asked to protect",
       "Because the project board has not yet approved the issue management approach"
     ],
     "explanation": "Sensitivity of issues and of the baseline is one of the scale factors. Where scope may involve dis-benefits or outcomes that some stakeholders view negatively, restricting access to the issue register protects the project and the people involved.",
@@ -818,14 +818,14 @@
     "topic": "Issue management approach",
     "difficulty": 1,
     "stem": "What is the purpose of the issue management approach?",
-    "answer": "To describe how issues will be captured and reported and how changes to the project baseline will be assessed and controlled",
+    "answer": "To describe how issues are captured and reported and how changes to the baseline are assessed and controlled",
     "distractors": [
       "To log every issue report raised during the project, its status and its date of closure",
-      "To describe an issue's impact on the project baseline and recommend a decision",
-      "To record the change authority delegated to each role in the project",
-      "To set out the quality specifications and acceptance criteria for each product",
-      "To summarise the project's issues for the board in each highlight report",
-      "To record the lessons learned from issues in previous projects"
+      "To describe an issue's impact on the project baseline and recommend a decision, and the options",
+      "To record the change authority delegated to each role in the project, and the limits and budgets",
+      "To set out the quality specifications and acceptance criteria for each product, and the tolerances",
+      "To summarize the project's issues for the board in each highlight report, and the actions taken and agreed",
+      "To record the lessons learned from issues in previous projects, and apply them to this one"
     ],
     "explanation": "The issue management approach is part of the project initiation documentation and describes how issues are captured and reported and how baseline changes are assessed and controlled. Logging issues is the job of the issue register, and assessing a single issue is the job of the issue report.",
     "source": "p.180"
@@ -837,7 +837,7 @@
     "topic": "Approach content",
     "difficulty": 2,
     "stem": "Which item is high-level content of the issue management approach rather than of the issue register?",
-    "answer": "The change budget and any allocations at stage or work package level",
+    "answer": "The change budget and its allocations at stage level",
     "distractors": [
       "The unique reference and description of each issue",
       "The grading of each issue by priority and severity",
@@ -856,16 +856,16 @@
     "topic": "Issue register",
     "difficulty": 1,
     "stem": "What is the purpose of the issue register?",
-    "answer": "To log all issue reports raised during the project lifecycle, their current status and date of closure",
+    "answer": "To log all issue reports raised during the project, their current status and date of closure",
     "distractors": [
       "To describe how issues will be captured, reported and resolved on the project",
       "To set out one issue's impact on the baseline and the options for resolving it",
-      "To record the change authority delegated to each role in the project",
-      "To list the standards and grading systems that apply to issue management",
+      "To record the change authority delegated to each role in the project, and the limits for each role",
+      "To list the standards and grading systems that apply to issue management, and how they are used",
       "To record the corrective actions taken by team managers in their work packages",
-      "To hold the approved versions of the products subject to change control"
+      "To hold the approved versions of the products subject to change control, and their baselines"
     ],
-    "explanation": "The issue register, which is part of the project log, logs all issue reports raised during the lifecycle together with their status and closure date. Describing how issues will be handled is the approach, and analysing one issue in depth is the issue report.",
+    "explanation": "The issue register, which is part of the project log, logs all issue reports raised during the lifecycle together with their status and closure date. Describing how issues will be handled is the approach, and analyzing one issue in depth is the issue report.",
     "source": "p.181"
   },
   {

@@ -3,6 +3,7 @@ import test from 'node:test';
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 
 import { buildOptions } from '../bank-logic.js';
 
@@ -39,4 +40,25 @@ test('the shipped bank has no duplicate question ids', async () => {
     for (const question of await readJson(meta.file)) ids.push(question.id);
   }
   assert.equal(new Set(ids).size, ids.length);
+});
+
+test('the bank passes the validator: answer shape, duplicate stems and spelling', (t) => {
+  // The shape rules live in tools/validate_bank.py so the same check runs from the
+  // command line when questions are written. Skip where Python is not installed.
+  const script = path.join(repo, 'tools', 'validate_bank.py');
+  // Windows ships a `python3` stub that exits non-zero without raising, so a
+  // status of 9009 or a "not found" message means try the next interpreter.
+  let result = { error: new Error('no python') };
+  for (const python of ['python3', 'python', 'py']) {
+    const attempt = spawnSync(python, [script], { encoding: 'utf8' });
+    if (attempt.error || /was not found/i.test(attempt.stderr ?? '')) continue;
+    result = attempt;
+    break;
+  }
+  if (result.error) {
+    t.skip('python is not available');
+    return;
+  }
+  assert.equal(result.status, 0, `${result.stdout}
+${result.stderr}`);
 });

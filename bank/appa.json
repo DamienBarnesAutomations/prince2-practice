@@ -29,10 +29,10 @@
     "distractors": [
       "It records the current status of an aspect of the project as that status changes",
       "It gives a snapshot of status at the intervals the project board defines",
-      "It summarises the quality activities planned for each product",
-      "It captures informal events and actions that no other product records",
-      "It is created only during the initiating a project process",
-      "It is approved by project assurance rather than by the project board"
+      "It summarizes the quality activities planned for each product, and is held by project assurance",
+      "It captures informal events and actions that no other product records, and is kept by the manager",
+      "It is created only during the initiating a project process, and then approved by the board",
+      "It is approved by project assurance rather than by the project board, and then issued to teams"
     ],
     "explanation": "Baselines define aspects of the project — the business case, the plans, the product descriptions, the project brief, the project initiation documentation, the project product description and the work package description. Once approved, any change to one of them has to go through change control.",
     "source": "p.286"
@@ -44,14 +44,14 @@
     "topic": "Types of management product",
     "difficulty": 3,
     "stem": "Which statement correctly contrasts reports with records?",
-    "answer": "A report is a snapshot of the status of certain aspects of the project, whereas a record maintains continually changing information about progress",
+    "answer": "A report is a snapshot of certain aspects of the project, whereas a record maintains changing information",
     "distractors": [
       "A report is dynamic and updated continuously, whereas a record is fixed once approved",
       "A report is subject to change control once approved, whereas a record is not",
-      "A report is created only at the end of a stage, whereas a record is created only at project close",
+      "A report is created only at the end of a stage, whereas a record is created only at project close, in full",
       "A report is held in the project log, whereas a record is a type of baseline",
-      "A report defines an aspect of the project, whereas a record defines acceptance criteria",
-      "A report is produced by project assurance, whereas a record is produced by the project board"
+      "A report defines an aspect of the project, whereas a record defines acceptance criteria, as set by the user",
+      "A report is produced by project assurance, whereas a record is produced by the project board, in each stage"
     ],
     "explanation": "Reports give a snapshot of status, which is why they are produced at points in time such as a checkpoint or a stage boundary. Records are dynamic: the registers and logs hold the current and historic record of progress, and together they make up the project log.",
     "source": "p.286"
@@ -63,13 +63,13 @@
     "topic": "Business case",
     "difficulty": 1,
     "stem": "What is the purpose of the business case?",
-    "answer": "To document the business justification for the project, based on estimated costs against expected benefits and offset by associated risks",
+    "answer": "To document the justification for the project, based on estimated costs against expected benefits",
     "distractors": [
       "To record the reasons for the project and the chosen option in the project mandate",
       "To define the project's scope, objectives and acceptance criteria in one document",
-      "To summarise the project's costs and schedule so that progress can be measured",
+      "To summarize the project's costs and schedule so that progress can be measured",
       "To set out the benefits and the reviews that will confirm they were realized",
-      "To obtain the project board's authorisation to proceed to the next stage",
+      "To obtain the project board's authorization to proceed to the next stage, and release the funds for it",
       "To record the actual costs and benefits achieved once the project has closed"
     ],
     "explanation": "The business case documents the justification from estimated costs, expected benefits and the risks that offset them, and it outlines how and when the benefits can be measured. The benefits management approach, not the business case, defines the benefits reviews that confirm realization.",
@@ -91,7 +91,7 @@
       "Executive summary",
       "Major risks"
     ],
-    "explanation": "Investment appraisal is the section that weighs benefits and dis-benefits against project costs and ongoing incremental operations and maintenance costs. Business options holds the analysis and reasoned recommendation between options, and costs simply summarises the cost figures and their funding arrangements.",
+    "explanation": "Investment appraisal is the section that weighs benefits and dis-benefits against project costs and ongoing incremental operations and maintenance costs. Business options holds the analysis and reasoned recommendation between options, and costs simply summarizes the cost figures and their funding arrangements.",
     "source": "p.288"
   },
   {
@@ -101,7 +101,7 @@
     "topic": "Business case",
     "difficulty": 3,
     "stem": "How do the outline and full business cases differ in where they are produced?",
-    "answer": "The outline business case is produced in starting up a project and sits in the project brief, while the full business case is created in initiating a project and sits in the project initiation documentation",
+    "answer": "The outline is produced in starting up a project, while the full business case is created in initiating a project",
     "distractors": [
       "The outline business case is produced in initiating a project and the full business case in managing a stage boundary",
       "The outline business case is produced by the project board and the full business case by the project manager",
@@ -119,17 +119,17 @@
     "section": "A2",
     "topic": "Checkpoint report",
     "difficulty": 1,
-    "stem": "What is the purpose of a checkpoint report?",
-    "answer": "To tell the project manager how the work package is progressing, as often as the work package itself specifies",
+    "stem": "A team manager needs to tell the project manager how a work package is progressing, as often as the work package itself specifies. Which management product is used?",
+    "answer": "The checkpoint report",
     "distractors": [
-      "To report the status of the stage to the project board, at intervals defined by the board",
-      "To summarise how the whole project performed against the project initiation documentation",
-      "To inform the project board that a stage plan is forecast to exceed its tolerances",
-      "To describe an issue's impact on the baseline and recommend a decision",
-      "To record the quality activities planned and completed for each product",
-      "To pass formal responsibility for a piece of work to a team manager"
+      "The highlight report",
+      "The exception report",
+      "The end stage report",
+      "The issue report",
+      "The work package description",
+      "The daily log"
     ],
-    "explanation": "A checkpoint report moves status information from the team manager to the project manager about a work package, and the work package itself sets the reporting frequency. Reporting the stage to the board is the job of the highlight report.",
+    "explanation": "A checkpoint report moves status information from the team manager to the project manager about a work package, and the work package itself sets the reporting frequency. The highlight report is the project manager's report to the board on the stage.",
     "source": "p.289"
   },
   {
@@ -158,16 +158,16 @@
     "topic": "End project report",
     "difficulty": 1,
     "stem": "An end project report reviews how the project performed against what?",
-    "answer": "The version of the project initiation documentation that authorised the project",
+    "answer": "The version of the initiation documentation that authorized the project",
     "distractors": [
       "The business case as it stood at the end of the last stage",
       "The stage plan for the final stage of the project",
-      "The project brief approved at the end of starting up a project",
+      "The project brief approved at the end of starting up a project, by the board",
       "The project product description approved by the project board",
       "The benefits management approach agreed with the business",
       "The project mandate supplied by the business at the outset"
     ],
-    "explanation": "The end project report measures the project against the version of the project initiation documentation that authorised it, which is why that document is baselined. Comparing actuals with the business case baseline is part of closing a project, but the report's stated reference point is the authorising PID.",
+    "explanation": "The end project report measures the project against the version of the project initiation documentation that authorized it, which is why that document is baselined. Comparing actuals with the business case baseline is part of closing a project, but the report's stated reference point is the authorizing PID.",
     "source": "p.290"
   },
   {
@@ -177,14 +177,14 @@
     "topic": "End project report",
     "difficulty": 2,
     "stem": "Which statement about the creation and review of the end project report is correct?",
-    "answer": "The project manager creates it in closing a project, project assurance confirms it, and the project board reviews it in directing a project",
+    "answer": "The project manager creates it in closing a project, assurance confirms it, and the board reviews it",
     "distractors": [
-      "The project manager creates it in managing a stage boundary and the project board reviews it there",
-      "The team manager creates it in managing product delivery and project assurance confirms it",
-      "The project board creates it in directing a project and the project manager confirms it",
-      "The project manager creates it in controlling a stage and the project board reviews it at the next stage boundary",
-      "Project assurance creates it and the project executive approves it",
-      "The project manager creates it in initiating a project and the board approves it alongside the PID"
+      "The project manager creates it in managing a stage boundary, and the project board reviews it there, in full",
+      "The team manager creates it in managing product delivery, and project assurance confirms it, in turn",
+      "The project board creates it in directing a project, and the project manager confirms it, in writing",
+      "The project manager creates it in controlling a stage, and the board reviews it at the next stage boundary",
+      "Project assurance creates it, and the project executive approves it, in the final stage, in writing",
+      "The project manager creates it in initiating a project, and the board approves it alongside the PID, in full"
     ],
     "explanation": "The end project report is a closing a project product: the project manager writes it, project assurance confirms it, and the board reviews it while directing the project. Creating a report at a stage boundary is the end stage report instead.",
     "source": "p.290"
@@ -215,16 +215,16 @@
     "topic": "End stage report",
     "difficulty": 1,
     "stem": "What is the purpose of an end stage report?",
-    "answer": "To summarise progress to date and the overall project situation, and to give the board enough information to decide what to do next",
+    "answer": "To summarize progress and the overall project situation, and to give the board enough information to decide",
     "distractors": [
-      "To record how the project performed against the project initiation documentation that authorised it",
+      "To record how the project performed against the project initiation documentation that authorized it, and report, in full",
       "To inform the board that the stage plan is forecast to exceed its tolerances, with options",
-      "To report the status of each work package to the project manager at an agreed frequency",
-      "To give the board a summary of stage status at intervals it has defined",
-      "To hand formal responsibility for a set of products to a team manager",
-      "To describe the impact of a single issue on the project baseline"
+      "To report the status of each work package to the project manager, at an agreed frequency, and in an agreed format",
+      "To give the board a summary of stage status at intervals it has defined, and a forecast, for the next stage",
+      "To hand formal responsibility for a set of products to a team manager, and to record their acceptance",
+      "To describe the impact of a single issue on the project baseline, and to recommend a decision, in writing"
     ],
-    "explanation": "The end stage report exists to support the board's decision at a stage boundary, so it summarises progress and the project situation and offers what the board needs to choose the next step. Assessing the whole project against the authorising PID is the end project report's job.",
+    "explanation": "The end stage report exists to support the board's decision at a stage boundary, so it summarizes progress and the project situation and offers what the board needs to choose the next step. Assessing the whole project against the authorizing PID is the end project report's job.",
     "source": "p.290"
   },
   {
@@ -243,7 +243,7 @@
       "Initiating a project, by the project manager",
       "Starting up a project, by the project manager and project executive"
     ],
-    "explanation": "The project manager creates the end stage report in managing a stage boundary, alongside the next stage plan, and project assurance confirms it. The board then reviews it in directing a project when deciding whether to authorise the next stage.",
+    "explanation": "The project manager creates the end stage report in managing a stage boundary, alongside the next stage plan, and project assurance confirms it. The board then reviews it in directing a project when deciding whether to authorize the next stage.",
     "source": "p.291"
   },
   {
@@ -255,12 +255,12 @@
     "stem": "Both the end stage report and the end project report contain an executive summary and a summary of follow-on action recommendations. Which heading appears only in the end project report?",
     "answer": "A product review covering concessions, off-specifications, project product handover and lessons",
     "distractors": [
-      "A forecast for the next stage and the project against targets and tolerances",
-      "A review of the business case and of team performance",
+      "A forecast for the next stage and the project against targets and tolerances, with the options available",
+      "A review of the business case and of team performance, with recommendations, and conclusions",
       "A summary of key issues and risks, including requests for change and off-specifications",
-      "A review of the stage objectives and the quality activities carried out",
-      "A review of the phased handover of products during the stage",
-      "An executive summary written as the project manager's report"
+      "A review of the stage objectives and the quality activities carried out, with their results",
+      "A review of the phased handover of products during the stage, with dates and owners",
+      "An executive summary written as the project manager's report, with the board's comments"
     ],
     "explanation": "The end project report adds a product review, which looks back over concessions, off-specifications, project product handover and lessons. A forecast for the next stage exists only in the end stage report, because at project close there is no next stage to forecast.",
     "source": "p.291"
@@ -272,14 +272,14 @@
     "topic": "Exception report",
     "difficulty": 1,
     "stem": "What is the purpose of an exception report?",
-    "answer": "To warn the project board when a stage or project plan looks set to go beyond its tolerances, and to set out options with a recommendation",
+    "answer": "To warn the project board when a plan looks set to exceed its tolerances, and to set out options",
     "distractors": [
-      "To record any deviation from the plan once the stage has closed",
-      "To ask the project board to approve the next stage plan at a stage boundary",
-      "To report the status of a work package to the project manager",
+      "To record any deviation from the plan once the stage has closed, and to file it with the log, for audit",
+      "To ask the project board to approve the next stage plan at a stage boundary, and to release funds",
+      "To report the status of a work package to the project manager, and the frequency",
       "To describe an individual issue's impact on the baseline and recommend a decision",
-      "To summarise stage status for the board at intervals it defines",
-      "To record the cause of a deviation so that it can be added to the lessons log"
+      "To summarize stage status for the board at intervals it defines, and to list the corrective actions",
+      "To record the cause of a deviation so that it can be added to the lessons log, and reviewed later"
     ],
     "explanation": "An exception report is raised on a forecast breach of the stage or project plan tolerances and must present options with a recommendation so the board can decide. A single issue with a baseline impact is handled through an issue report instead.",
     "source": "p.291"
@@ -291,14 +291,14 @@
     "topic": "Exception report",
     "difficulty": 2,
     "stem": "Which statement about who handles an exception report is correct?",
-    "answer": "The project manager creates it in controlling a stage, and the project board responds to it in directing a project, escalating to the business if needed",
+    "answer": "The project manager creates it in controlling a stage, and the board responds to it in directing a project",
     "distractors": [
       "The team manager creates it in managing product delivery, and the project board responds in directing a project",
-      "The project manager creates it in managing a stage boundary, and the project board approves it there",
-      "Project assurance creates it and the project board responds in directing a project",
+      "The project manager creates it in managing a stage boundary, and the project board approves it there, in full",
+      "Project assurance creates it and the project board responds in directing a project, in writing",
       "The project manager creates it in controlling a stage, and project assurance decides the response",
-      "The project board creates it in directing a project and the business responds to it",
-      "The project manager creates it in closing a project and the board confirms it"
+      "The project board creates it in directing a project and the business responds to it, in writing",
+      "The project manager creates it in closing a project and the board confirms it, in writing, at closure"
     ],
     "explanation": "The project manager raises the exception report while controlling a stage, and the board makes a decision or escalates it to the business while directing the project. The board, not project assurance, owns the response decision.",
     "source": "p.292"
@@ -312,10 +312,10 @@
     "stem": "What does the manual recommend when an exception is urgent?",
     "answer": "That the exception report is oral in the first instance and is then followed up in the agreed format",
     "distractors": [
-      "That the exception report is deferred until the next stage boundary",
-      "That the exception report is replaced by an entry in the daily log",
-      "That the project manager records the exception in the risk register instead",
-      "That the project board is informed only once the exception has been resolved",
+      "That the exception report is deferred until the next stage boundary, and presented to the board then",
+      "That the exception report is replaced by an entry in the daily log, and mentioned at the next meeting",
+      "That the project manager records the exception in the risk register instead, and tells the board later",
+      "That the project board is informed only once the exception has been resolved, and the stage closed",
       "That the exception is handled as a request for change rather than as an exception",
       "That the project manager issues the report only after updating the business case"
     ],
@@ -329,14 +329,14 @@
     "topic": "Highlight report",
     "difficulty": 1,
     "stem": "What is the purpose of a highlight report?",
-    "answer": "To give the project board, and possibly other stakeholders, a summary of the stage status at intervals the board defines",
+    "answer": "To give the project board, and possibly others, a summary of stage status at intervals it defines",
     "distractors": [
       "To give the project manager a summary of each work package's status at intervals set in the work package",
       "To inform the board that the stage is forecast to exceed its tolerances, with options and a recommendation",
-      "To summarise the whole project's performance against the authorising PID at closure",
-      "To review the business case and confirm that the project remains justified",
-      "To record the quality activities planned and completed during the stage",
-      "To give the team manager formal authorisation to begin a work package"
+      "To summarize the whole project's performance against the authorizing PID at closure",
+      "To review the business case and confirm that the project remains justified, and the benefits achievable",
+      "To record the quality activities planned and completed during the stage, and the results of each test",
+      "To give the team manager formal authorization to begin a work package, and the tolerances for it"
     ],
     "explanation": "The highlight report is the project manager's regular summary of stage status for the board, at whatever interval the board chooses. The checkpoint report is the equivalent flow from team manager to project manager about a work package.",
     "source": "p.292"
@@ -367,10 +367,10 @@
     "topic": "Highlight report",
     "difficulty": 3,
     "stem": "A highlight report has a section on stage and project tolerance status, while a checkpoint report has one on work package tolerance status. What is the difference?",
-    "answer": "The highlight report reports the stage and the project against their tolerances, whereas the checkpoint report reports the work package against its own tolerances",
+    "answer": "The highlight report covers stage and project tolerances, whereas the checkpoint report covers work package tolerances",
     "distractors": [
       "The highlight report covers only time tolerances, whereas the checkpoint report covers time, cost and scope",
-      "The highlight report reports the risk budget, whereas the checkpoint report reports the change budget",
+      "The highlight report reports the risk budget, whereas the checkpoint report reports the change budget, in full",
       "The highlight report reports the board's tolerances, whereas the checkpoint report reports the business's risk appetite",
       "The highlight report reports tolerances at project closure, whereas the checkpoint report reports them during the stage",
       "The highlight report reports product quality tolerances, whereas the checkpoint report reports stage tolerances",
@@ -386,16 +386,16 @@
     "topic": "Issue report",
     "difficulty": 1,
     "stem": "What is the purpose of an issue report?",
-    "answer": "To set out how an issue affects the project baseline, suggest ways of resolving it or handling an off-specification, and recommend a course of action",
+    "answer": "To set out how an issue affects the baseline, suggest ways of resolving it, and recommend action",
     "distractors": [
-      "To log every issue raised during the project, with its status and date of closure",
-      "To inform the board that the stage plan is forecast to exceed its tolerances",
-      "To record the lessons arising from an issue for use by future projects",
-      "To authorise a change to the project baseline on the board's behalf",
-      "To capture informal events and actions that no other product records",
-      "To summarise the quality activities associated with an affected product"
+      "To log every issue raised during the project, with its status, date of closure, and the person who owns it",
+      "To inform the board that the stage plan is forecast to exceed its tolerances, with options",
+      "To record the lessons arising from an issue for use by future projects, the programme",
+      "To authorize a change to the project baseline on the board's behalf, record it",
+      "To capture informal events and actions that no other product records, such as meetings and calls",
+      "To summarize the quality activities associated with an affected product, its reviews"
     ],
-    "explanation": "The issue report analyses the baseline impact and sets out options with a recommendation so a decision can be taken. Logging every issue with its status and closure date is the purpose of the issue register.",
+    "explanation": "The issue report analyzes the baseline impact and sets out options with a recommendation so a decision can be taken. Logging every issue with its status and closure date is the purpose of the issue register.",
     "source": "p.294"
   },
   {
@@ -405,7 +405,7 @@
     "topic": "Issue report",
     "difficulty": 2,
     "stem": "Which statement about issue reports and the issue register is correct?",
-    "answer": "Not every entry in the issue register will need a separately documented issue report",
+    "answer": "Not every entry in the issue register needs a separately documented issue report",
     "distractors": [
       "Every entry in the issue register must have its own issue report",
       "An issue report replaces the need for an issue register on small projects",
@@ -414,7 +414,7 @@
       "An issue report is created by the project board for the issues it escalates",
       "Issue reports are optional, but a project log may not contain an issue register"
     ],
-    "explanation": "The issue register logs every issue, but a full issue report is only needed where the impact has to be analysed and a decision recommended. Its format is defined in the issue management approach, and many register entries will never need one.",
+    "explanation": "The issue register logs every issue, but a full issue report is only needed where the impact has to be analyzed and a decision recommended. Its format is defined in the issue management approach, and many register entries will never need one.",
     "source": "p.294"
   },
   {
@@ -424,7 +424,7 @@
     "topic": "Issue report",
     "difficulty": 3,
     "stem": "What does the decision section of an issue report record when the issue is an off-specification?",
-    "answer": "That the off-specification was accepted, with a summary of the concession granted",
+    "answer": "That it was accepted, with a summary of the concession granted",
     "distractors": [
       "The options available and the effect of each on the business case and risks",
       "The project manager's or team manager's recommended course of action",
@@ -443,14 +443,14 @@
     "topic": "Lessons report",
     "difficulty": 1,
     "stem": "What is the purpose of a lessons report?",
-    "answer": "To pass on what has been learned and prompt action so that the learning changes how the organization works",
+    "answer": "To pass on what has been learned and prompt action so the learning changes how work is done",
     "distractors": [
       "To record every lesson identified during the project in a single repository",
-      "To describe how the project performed against the authorising PID",
-      "To set out the actions the business must take after the project closes",
-      "To summarise the quality activities planned and carried out during a stage",
-      "To provide the project board with a summary of stage status",
-      "To define the lessons that will be reviewed at the next stage boundary"
+      "To describe how the project performed against the authorizing PID, and why it differed from it",
+      "To set out the actions the business must take after the project closes, and who must take them",
+      "To summarize the quality activities planned and carried out during a stage",
+      "To provide the project board with a summary of stage status, and the forecast for the next stage",
+      "To define the lessons that will be reviewed at the next stage boundary, and who will review them"
     ],
     "explanation": "A lessons report exists to share learning and prompt action so that it changes how the organization works. Keeping the running record of lessons is the job of the lessons log.",
     "source": "p.295"
@@ -462,13 +462,13 @@
     "topic": "Lessons report",
     "difficulty": 3,
     "stem": "Why might a single project produce several lessons reports?",
-    "answer": "Because different organizations, such as the user, the supplier and the business, may each need their own",
+    "answer": "Because different organizations, such as the user and the supplier, may each need their own",
     "distractors": [
-      "Because one report is required for each stage of the project",
-      "Because the project board and the project manager must report separately",
-      "Because each lesson must be reported to the business layer individually",
-      "Because lessons reports replace the lessons log once a stage closes",
-      "Because project assurance must confirm a separate report for each lesson",
+      "Because one report is required for each stage of the project, and one for each work package",
+      "Because the project board and the project manager must report separately, and in different formats",
+      "Because each lesson must be reported to the business layer individually, and by the person who learned it",
+      "Because lessons reports replace the lessons log once a stage closes, and the log is then archived",
+      "Because project assurance must confirm a separate report for each lesson, and the board must approve it",
       "Because a report is needed for every work package delivered by a supplier"
     ],
     "explanation": "The manual says it may be appropriate and necessary for there to be several lessons reports specific to a particular organization, naming the user, supplier and business as examples. The number of reports follows the organizations involved, not the number of stages or lessons.",
@@ -483,12 +483,12 @@
     "stem": "What do the project manager and project executive do with lessons reports during starting up a project?",
     "answer": "Review lessons reports from other projects and, perhaps, other organizations",
     "distractors": [
-      "Create the project's lessons report for the initiation stage",
+      "Create the project's lessons report for the initiation stage, and file it",
       "Confirm that lessons and follow-on actions have been assigned",
-      "Approve the lessons log on behalf of the project board",
+      "Approve the lessons log on behalf of the project board, and the executive",
       "Escalate all previous lessons to the business layer for a decision",
       "Update the end project report with lessons drawn from the mandate",
-      "Review the lessons log only once the project has closed"
+      "Review the lessons log only once the project has closed, and not before"
     ],
     "explanation": "Starting up a project is where previous lessons are reviewed by the project manager and project executive, including lessons from other organizations, so that they can shape the project's approaches and plans. Confirming that lessons and follow-on actions are assigned is project assurance's role in closing a project.",
     "source": "p.295"
@@ -500,16 +500,16 @@
     "topic": "Plan",
     "difficulty": 1,
     "stem": "What is the purpose of a plan?",
-    "answer": "To propose the what, where, when, how and by whom the project or part of it will be performed, and when approved to provide a baseline for measuring progress",
+    "answer": "To propose how and when the project will be performed, and provide a baseline for progress",
     "distractors": [
-      "To define the quality methods and acceptance criteria for each product",
-      "To authorise a team manager to begin work on a set of products",
-      "To record the actual progress of the stage against its tolerances",
-      "To describe the business justification for the project and its benefits",
-      "To list all the products required for a plan and the status of each",
-      "To summarise the lessons that have been incorporated into the stage"
+      "To define the quality methods and acceptance criteria for each product, and who will apply them",
+      "To authorize a team manager to begin work on a set of products, and to agree the tolerances",
+      "To record the actual progress of the stage against its tolerances, and the corrective actions taken",
+      "To describe the business justification for the project and its benefits, and the risks to them",
+      "To list all the products required for a plan and the status of each, and their versions",
+      "To summarize the lessons that have been incorporated into the stage, and the actions that followed"
     ],
-    "explanation": "A plan is a proposal for how the work will be done, and once approved it becomes the baseline against which progress is measured and issues are assessed. Authorising a team manager to start work is done through a work package description.",
+    "explanation": "A plan is a proposal for how the work will be done, and once approved it becomes the baseline against which progress is measured and issues are assessed. Authorizing a team manager to start work is done through a work package description.",
     "source": "p.296"
   },
   {
@@ -556,15 +556,15 @@
     "section": "A10",
     "topic": "Product description",
     "difficulty": 1,
-    "stem": "What is the purpose of a product description?",
-    "answer": "To set out what a product is for, what it contains, what it derives from and the quality it must meet",
+    "stem": "Which management product sets out a product's purpose, composition, what it is derived from and its quality specifications, and is produced as soon as the need for the product is identified?",
+    "answer": "The product description",
     "distractors": [
-      "To specify the quality activities planned for each product and their results",
-      "To set out the work, tolerances and reporting arrangements for a work package",
-      "To record a product's status and the dates it was approved and accepted",
-      "To summarise the user's quality expectations and the project's acceptance criteria",
-      "To define the product breakdown structure and product flow diagram for a plan",
-      "To authorise a supplier to begin producing a product"
+      "The quality register",
+      "The work package description",
+      "The product register",
+      "The product breakdown structure",
+      "The quality management approach",
+      "The stage plan"
     ],
     "explanation": "A product description sets out the product's purpose, its composition, what it is derived from and its quality specifications, and is produced at planning time as soon as the need is identified. Recording quality activities and results is the quality register's job.",
     "source": "p.297"
@@ -576,7 +576,7 @@
     "topic": "Product description",
     "difficulty": 2,
     "stem": "What does the quality tolerance section of a product description define?",
-    "answer": "The limits within which a product's key quality specifications may vary without becoming unacceptable",
+    "answer": "The limits within which a product's key quality specifications may vary",
     "distractors": [
       "The functional and non-functional requirements the product must meet, with their measures",
       "The quality methods used to check that the product meets its specification",
@@ -599,9 +599,9 @@
     "distractors": [
       "To justify the project and explain why the chosen business option was selected",
       "To act as the contract between the project manager and the project board",
-      "To authorise the project manager to start the first stage of delivery",
+      "To authorize the project manager to start the first stage of delivery",
       "To record the project's products, activities, resources and people as a baseline",
-      "To summarise how the project performed against the authorising documentation",
+      "To summarize how the project performed against the authorizing documentation",
       "To define the responsibilities of each member of the project board"
     ],
     "explanation": "The project brief is the foundation document that starting up a project produces so that initiation can begin on a firm footing. The project initiation documentation, together with the stage plan, is what forms the contract with the board.",
@@ -614,7 +614,7 @@
     "topic": "Project brief",
     "difficulty": 2,
     "stem": "Which of these is NOT part of the project brief?",
-    "answer": "The full business case, including the investment appraisal",
+    "answer": "The full business case",
     "distractors": [
       "The outline business case",
       "The project product description",
@@ -631,14 +631,14 @@
     "topic": "Project brief",
     "difficulty": 3,
     "stem": "What happens to the project brief once the project is being initiated?",
-    "answer": "The project manager reviews it while initiating the project, and from that point it forms part of the project initiation documentation",
+    "answer": "The project manager reviews it in initiating the project, and it then forms part of the PID",
     "distractors": [
-      "It is archived once the PID is approved and is not referred to again",
-      "It is replaced by the project mandate, which the board re-approves",
-      "It becomes the project plan, against which progress is measured",
-      "It is updated at every stage boundary and reissued to the board",
-      "It is confirmed by project assurance at project closure",
-      "It stays a separate baseline that the PID must not duplicate"
+      "It is archived once the PID is approved and is not referred to again, and the board is told in writing",
+      "It is replaced by the project mandate, which the board re-approves, and the executive signs again",
+      "It becomes the project plan, against which progress is measured, and the stage plans are derived",
+      "It is updated at every stage boundary and reissued to the board, and to the business layer",
+      "It is confirmed by project assurance at project closure, and the board is told of it, in writing",
+      "It stays a separate baseline that the PID must not duplicate, and the manager must not amend"
     ],
     "explanation": "The project brief is reviewed by the project manager during initiating a project, after which it is absorbed into the project initiation documentation rather than living on as a separate document. That is why the brief is only shown as produced in starting up a project and approved in directing a project.",
     "source": "p.299"
@@ -669,16 +669,16 @@
     "topic": "Project initiation documentation",
     "difficulty": 2,
     "stem": "Which of these is one of the three primary uses of the project initiation documentation?",
-    "answer": "To be the one place newcomers to the temporary organization can look to understand the project",
+    "answer": "The one place newcomers can look to understand the project",
     "distractors": [
-      "To authorise each work package before delivery begins",
+      "To authorize each work package before delivery begins",
       "To record the actual costs and benefits achieved at project close",
       "To set out the quality methods for every product in the project",
-      "To summarise stage status for the board at intervals it defines",
+      "To summarize stage status for the board at intervals it defines",
       "To justify the project to the business layer at each stage boundary",
       "To record issues and their impact on the project baseline"
     ],
-    "explanation": "The three uses are to ensure a sound basis before the board commits, to act as the base document for assessing progress, issues and viability, and to be a single source of reference for those joining the temporary organization. Work packages are authorised by a work package description.",
+    "explanation": "The three uses are to ensure a sound basis before the board commits, to act as the base document for assessing progress, issues and viability, and to be a single source of reference for those joining the temporary organization. Work packages are authorized by a work package description.",
     "source": "p.299"
   },
   {
@@ -707,14 +707,14 @@
     "topic": "Project initiation documentation",
     "difficulty": 3,
     "stem": "Which statement about the use of the project initiation documentation during delivery is correct?",
-    "answer": "The team manager reviews it while managing product delivery, and a work package description may point to the management approaches it contains",
+    "answer": "The team manager reviews it in managing delivery, and work package descriptions may refer to it",
     "distractors": [
-      "The team manager approves it in managing product delivery before work starts",
-      "It is no longer used once the first stage plan has been approved",
-      "The team manager updates it at the end of every work package",
-      "It is reissued in full at every stage boundary by project assurance",
-      "The project board reviews it in managing product delivery",
-      "It is replaced by the business case once delivery begins"
+      "The team manager approves it in managing product delivery before work starts, and signs it, in turn",
+      "It is no longer used once the first stage plan has been approved, and the board then archives it",
+      "The team manager updates it at the end of every work package, and the board approves each update",
+      "It is reissued in full at every stage boundary by project assurance, and the board then signs it",
+      "The project board reviews it in managing product delivery, and the team manager approves the review",
+      "It is replaced by the business case once delivery begins, and the board archives the original"
     ],
     "explanation": "The PID remains a live reference throughout delivery: the team manager reviews it while managing product delivery, and the management approaches it contains may be referenced in a work package description. Only the project manager updates it, and only in specific processes such as managing a stage boundary.",
     "source": "p.301"
@@ -725,15 +725,15 @@
     "section": "A13",
     "topic": "Project log",
     "difficulty": 1,
-    "stem": "What is the purpose of the project log?",
-    "answer": "To keep a changing record of issues, lessons, products, quality, risk and informal events throughout the project",
+    "stem": "Which management product is a changing record of issues, lessons, products, quality, risk and informal events, often held as a collection of logs and registers?",
+    "answer": "The project log",
     "distractors": [
-      "To hold the approved baselines against which the project is measured",
-      "To report the status of the stage to the project board at agreed intervals",
-      "To summarise all the quality activities planned or completed in the project",
-      "To keep the project's approaches, plans and business case in one place",
-      "To record the decisions taken by the project board at stage boundaries",
-      "To describe each product's composition and quality specifications"
+      "The project brief",
+      "The stage plan",
+      "The business case",
+      "The highlight report",
+      "The end project report",
+      "The project initiation documentation"
     ],
     "explanation": "The project log is dynamic, holding the current and historic record of issues, lessons, products, quality, risk and informal events. Its registers and logs are records, not baselines, so approved baselines are kept outside it.",
     "source": "p.301"
@@ -745,14 +745,14 @@
     "topic": "Project log",
     "difficulty": 2,
     "stem": "What is the purpose of the lessons log?",
-    "answer": "To hold the lessons the project has captured, whether they apply here or to later projects",
+    "answer": "To hold the lessons captured, for this project or later projects",
     "distractors": [
       "To describe each lesson in enough detail to trigger action across the organization",
       "To record the quality activities from which each lesson was derived",
       "To log the issues that gave rise to lessons, together with their status",
       "To record the decisions taken about which lessons to escalate",
       "To hold the follow-on actions the business must complete after closure",
-      "To summarise the lessons that have been incorporated into the current plan"
+      "To summarize the lessons that have been incorporated into the current plan"
     ],
     "explanation": "The lessons log is the repository for lessons, including lessons that originate outside the project and feed into its approaches and plans. Triggering action so that lessons change the way the organization works is the purpose of the lessons report.",
     "source": "p.302"
@@ -763,15 +763,15 @@
     "section": "A13",
     "topic": "Project log",
     "difficulty": 2,
-    "stem": "What is the purpose of the product register?",
-    "answer": "To keep a list of the products a plan requires, together with each product's status",
+    "stem": "Which register lists the products a plan requires, with each product's status, current version and the dates its description was approved and the product accepted?",
+    "answer": "The product register",
     "distractors": [
-      "To record the quality activities planned for each product and their results",
-      "To hold each product's composition, quality specifications and tolerance",
-      "To record the approval of the project product description and its acceptance criteria",
-      "To list the products delivered in each work package and their acceptance dates",
-      "To track the issues affecting each product and how they were resolved",
-      "To record the products handed over to the business at project closure"
+      "The quality register",
+      "The issue register",
+      "The risk register",
+      "The lessons log",
+      "The daily log",
+      "The product breakdown structure"
     ],
     "explanation": "The product register lists the products required for a plan with their status and current version, together with the dates of product description approval and product acceptance. Quality activities and their results are held in the quality register instead.",
     "source": "p.302"
@@ -782,7 +782,7 @@
     "section": "A13",
     "topic": "Project log",
     "difficulty": 2,
-    "stem": "The quality register summarises all quality management activities that are planned or have occurred. Which two parties use it as part of reviewing progress?",
+    "stem": "The quality register summarizes all quality management activities that are planned or have occurred. Which two parties use it as part of reviewing progress?",
     "answer": "The project manager and project assurance",
     "distractors": [
       "The project board and the project executive",
@@ -821,14 +821,14 @@
     "topic": "Project log",
     "difficulty": 2,
     "stem": "Which statement about the daily log is correct?",
-    "answer": "It takes informal issues, actions and significant events that no other product captures, and can hold issues and risks in starting up a project before the registers exist",
+    "answer": "It takes informal issues, actions and events that no other product captures, and can hold early risks",
     "distractors": [
-      "It records every issue raised and replaces the issue register on small projects",
-      "It is held by the project board and records the decisions taken at board meetings",
-      "It is a single log that team managers are not permitted to keep separately",
-      "It holds the quality activities planned for each work package",
-      "It is created in initiating a project and closed at the first stage boundary",
-      "It records the lessons that will feed into the end project report"
+      "It records every issue raised, replaces the issue register on small projects, and is held by the manager",
+      "It is held by the project board, records the decisions taken at board meetings, and is signed by the executive",
+      "It is a single log, which team managers are not permitted to keep separately, and which the board reviews",
+      "It holds the quality activities planned for each work package, the results, and the reviewers' names",
+      "It is created in initiating a project, closed at the first stage boundary, and archived by project support",
+      "It records the lessons that will feed into the end project report, the lessons report"
     ],
     "explanation": "The daily log can act as the project manager's diary for informal issues, actions and significant events, and it is created during starting up a project when the other registers do not yet exist. There may be more than one, since team managers may keep one for their work packages.",
     "source": "p.303"
@@ -840,14 +840,14 @@
     "topic": "Project product description",
     "difficulty": 1,
     "stem": "What is the purpose of the project product description?",
-    "answer": "To set out the project's major products and what they are for, with the user's quality expectations, the acceptance criteria and how acceptance will be confirmed",
+    "answer": "To set out the project's major products, with the user's quality expectations and acceptance criteria",
     "distractors": [
       "To describe each product's composition, quality specifications and quality tolerance",
       "To set out the work, tolerances and reporting arrangements for a work package",
-      "To provide a full and firm foundation for the initiation of the project",
-      "To record the user's quality expectations for each stage of the project",
-      "To define the products to be delivered in a stage and their interdependencies",
-      "To summarise the quality activities to be carried out for each major product"
+      "To provide a full and firm foundation for the initiation of the project, and for the first stage plan",
+      "To record the user's quality expectations for each stage of the project, and the criteria for accepting them",
+      "To define the products to be delivered in a stage and their interdependencies, and the order of delivery",
+      "To summarize the quality activities to be carried out for each major product, and the people who do them"
     ],
     "explanation": "The project product description covers the project's major products, the user's quality expectations, the acceptance criteria and how acceptance will be confirmed. Describing an individual product's composition and quality specifications is the job of a product description.",
     "source": "p.304"
@@ -859,7 +859,7 @@
     "topic": "Project product description",
     "difficulty": 2,
     "stem": "What is the acceptance criteria section of the project product description?",
-    "answer": "A ranked list of the conditions the project's products must satisfy before the user will accept them",
+    "answer": "A ranked list of conditions the products must satisfy to be accepted",
     "distractors": [
       "A description of the quality expected of the products and the standards to be applied",
       "The means by which acceptance will be confirmed and who will decide",
@@ -896,15 +896,15 @@
     "section": "A15",
     "topic": "Work package description",
     "difficulty": 1,
-    "stem": "What is the purpose of a work package description?",
-    "answer": "To set out what a team must produce and how, and to hand formal responsibility for that work to a team manager or team member",
+    "stem": "Which management product is the vehicle for delegating work to a team manager or team member, describing what is to be produced and how, with tolerances and reporting arrangements?",
+    "answer": "The work package description",
     "distractors": [
-      "To describe each product's composition and quality specifications",
-      "To authorise the project manager to commit the project budget",
-      "To define the stage tolerances and the reporting arrangements to the board",
-      "To record the team's progress against the work package at agreed intervals",
-      "To set out the business justification for the work being delegated",
-      "To summarise the lessons from previous work packages for the team"
+      "The product description",
+      "The stage plan",
+      "The team plan",
+      "The checkpoint report",
+      "The project plan",
+      "The project product description"
     ],
     "explanation": "The work package description is the vehicle for delegating work, describing what is to be produced and how, with tolerances and reporting arrangements. Progress against it comes back through checkpoint reports.",
     "source": "p.305"
@@ -916,16 +916,16 @@
     "topic": "Work package description",
     "difficulty": 2,
     "stem": "What does the agreement section of a work package description record?",
-    "answer": "The initial authorisation and the final completion of the work package, between the project manager and the team manager",
+    "answer": "The initial authorization and final completion of the work package by the project and team managers",
     "distractors": [
-      "The team manager's acceptance of the products on behalf of the user",
-      "The project board's approval of the products within the work package",
-      "The contract between the customer organization and the supplier",
-      "The quality methods agreed for checking the products",
-      "The constraints on the work, such as authorised hours and security measures",
-      "The identity of whoever will approve each completed product"
+      "The team manager's acceptance of the products on behalf of the user, and the project manager's approval",
+      "The project board's approval of the products within the work package, and the date of the approval",
+      "The contract between the customer organization and the supplier, and the terms of payment for the work",
+      "The quality methods agreed for checking the products, and the people who will apply each of the methods",
+      "The constraints on the work, such as authorized hours and security measures",
+      "The identity of whoever will approve each completed product, and the date by which they must do so"
     ],
-    "explanation": "The agreement section is the record of the work package being authorised at the start and completed at the end, made between the project manager and the team manager. Naming who approves the completed products is a separate approval section.",
+    "explanation": "The agreement section is the record of the work package being authorized at the start and completed at the end, made between the project manager and the team manager. Naming who approves the completed products is a separate approval section.",
     "source": "p.305"
   },
   {
@@ -935,14 +935,14 @@
     "topic": "Work package description",
     "difficulty": 3,
     "stem": "When may a work package description be given orally?",
-    "answer": "When the work is being done by a team working directly under the project manager, although putting it in writing is still recommended",
+    "answer": "When the work is done by a team working directly under the project manager, though writing is recommended",
     "distractors": [
       "When the work is being performed by a supplier under a contract with the customer organization",
-      "When the project board has delegated the work package to the project manager",
+      "When the project board has delegated the work package to the project manager, and the manager approves it",
       "When the work package has no tolerances and no products to deliver",
-      "When the project is using an iterative-incremental delivery method",
-      "When the products are to be approved by project assurance rather than the board",
-      "Never, because a work package description must always be a formal written instruction"
+      "When the project is using an iterative-incremental delivery method, and the team works in sprints each fortnight",
+      "When the products are to be approved by project assurance rather than the board, and the executive agrees",
+      "Never, because a work package description must always be a formal written instruction, signed by both parties"
     ],
     "explanation": "Where a team works directly under the project manager, the description may be an oral instruction, though writing it down avoids misunderstanding and supports performance assessment. Where a supplier works under contract, a formal written instruction matching the contract standards is needed.",
     "source": "p.306"

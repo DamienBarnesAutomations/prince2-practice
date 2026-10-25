@@ -6,14 +6,14 @@
     "topic": "Definition of a process",
     "difficulty": 1,
     "stem": "How does PRINCE2 define a process?",
-    "answer": "A structured set of activities that defines the sequence of actions and their inputs and outputs in order to achieve a specific objective",
+    "answer": "A structured set of activities that defines the sequence of actions and their inputs and outputs",
     "distractors": [
       "A documented agreement between the project board and the project manager that sets the tolerances for a stage",
-      "A collection of management products that are baselined at the same point in the project lifecycle",
+      "A collection of management products that are baselined at the same point in the project lifecycle, by the board",
       "The set of roles and responsibilities needed to direct, manage and deliver a project",
-      "A technique for estimating the cost and duration of a piece of work before it is authorized",
+      "A technique for estimating the cost and duration of a piece of work before it is authorized, by the board",
       "A principle that must be applied continuously throughout the life of the project",
-      "A decision point at which the project board authorizes the project to move to the next stage"
+      "A decision point at which the project board authorizes the project to move to the next stage, or stops it"
     ],
     "explanation": "A process is a structured set of activities defining the sequence of actions and their inputs and outputs to achieve a specific objective. Because PRINCE2 is a process-based approach, the seven processes together supply the activities needed to direct, manage and deliver a project.",
     "source": "p.214"
@@ -27,12 +27,12 @@
     "stem": "What do the seven PRINCE2 processes provide?",
     "answer": "The set of activities required to direct, manage and deliver a project successfully",
     "distractors": [
-      "The seven roles that must be appointed to every project board",
-      "The four management levels into which a project organization is divided",
-      "The principles that must be applied at every stage of the project",
-      "The management products that must be baselined in the project initiation documentation",
+      "The seven roles that must be appointed to every project board, whatever its size",
+      "The four management levels into which a project organization is divided, by the board",
+      "The principles that must be applied at every stage of the project, and each process",
+      "The management products that must be baselined in the project initiation documentation, in full",
       "The techniques used to tailor the method to the size of the project",
-      "The tolerances within which the project manager is permitted to operate"
+      "The tolerances within which the project manager is permitted to operate, in each stage"
     ],
     "explanation": "The manual describes PRINCE2 as having seven processes that provide the set of activities required to direct, manage and deliver a project successfully. Principles, practices, roles and management products are separate elements of the method, not what the processes themselves supply.",
     "source": "p.214"
@@ -65,12 +65,12 @@
     "stem": "What is the trigger that starts a PRINCE2 project, and who provides it?",
     "answer": "A project mandate, provided by the business that is commissioning the project",
     "distractors": [
-      "A project brief, provided by the project manager",
-      "A project initiation request, provided by the project board",
-      "A business case, provided by the executive",
-      "A statement of work, provided by the preferred supplier",
-      "A project initiation documentation, provided by the project manager",
-      "A project product description, provided by the senior user"
+      "A project brief, provided by the project manager at the start of the project",
+      "A project initiation request, provided by the project board to the executive",
+      "A business case, provided by the executive to the board for approval",
+      "A statement of work, provided by the preferred supplier to the customer",
+      "A project initiation documentation, provided by the project manager to the board",
+      "A project product description, provided by the senior user to the manager"
     ],
     "explanation": "The trigger for a project is the project mandate, which the business provides; it can range from a verbal instruction to a fully justified project definition. The project brief is produced later, during starting up a project.",
     "source": "p.215"
@@ -82,14 +82,14 @@
     "topic": "Starting up a project",
     "difficulty": 2,
     "stem": "What does starting up a project put in place before the project board decides whether to initiate the project?",
-    "answer": "The project manager and project board are appointed, and a project brief and initiation stage plan are produced",
+    "answer": "The management team is appointed, and a project brief and an initiation stage plan are produced",
     "distractors": [
       "The project initiation documentation and the benefits management approach are produced",
-      "The business case is developed in full and the first stage is authorized",
-      "The project mandate is written and the project board tolerances are agreed",
+      "The business case is developed in full, and the first stage is authorized by the project board",
+      "The project mandate is written, and the project board tolerances are agreed with the business layer",
       "The team plan and the first work packages are created for the delivery teams",
-      "The end project report is drafted and the post-project benefits reviews are scheduled",
-      "The communication management approach is agreed and the project is closed"
+      "The end project report is drafted, and the post-project benefits reviews are scheduled with the user",
+      "The communication management approach is agreed, and the project is closed by the board at the end"
     ],
     "explanation": "Starting up a project appoints the project manager and the project board and produces the project brief and a stage plan for the initiation stage. The full business case, the project management approaches and the project initiation documentation belong to initiating a project.",
     "source": "p.215"
@@ -139,14 +139,14 @@
     "topic": "Baseline of the project initiation documentation",
     "difficulty": 3,
     "stem": "Why is the version of the project initiation documentation created during initiation kept rather than discarded once it has been updated?",
-    "answer": "Because its content is expected to change under change control, so this version is preserved as the baseline for later reviews",
+    "answer": "Because its content is expected to change under change control, so this version is the baseline",
     "distractors": [
-      "Because it becomes the end project report when the project closes",
+      "Because it becomes the end project report when the project closes, and is then filed by the manager",
       "Because the business layer requires a copy before any stage can be authorized",
-      "Because it must be re-approved in full at the end of every stage",
-      "Because it records the lessons that later projects are required to apply",
-      "Because it holds the only approved version of the project mandate",
-      "Because project assurance audits it at every stage boundary"
+      "Because it must be re-approved in full at the end of every stage, and then returned to the manager",
+      "Because it records the lessons that later projects are required to apply, and the actions to take",
+      "Because it holds the only approved version of the project mandate, and the original business case",
+      "Because project assurance audits it at every stage boundary, and the board reviews the audit report"
     ],
     "explanation": "The manual notes that the contents of the project initiation documentation are likely to change throughout the project under change control, so the version produced during initiation is preserved as the original baseline against which later versions are reviewed. It is not an end-of-project report, and it is not re-approved in full at each boundary.",
     "source": "p.215"
@@ -196,14 +196,14 @@
     "topic": "Closing a project",
     "difficulty": 3,
     "stem": "What must the project board be satisfied about before a project can close?",
-    "answer": "That the recipients of each product can own and use it on an ongoing basis and that the business can take overall ownership of the project product",
+    "answer": "That recipients can own and use each product, and the business the project product",
     "distractors": [
-      "That every benefit in the business case has already been realized and measured",
-      "That all post-project benefits reviews have been completed and signed off",
+      "That every benefit in the business case has already been realized and measured, in full",
+      "That all post-project benefits reviews have been completed and signed off, by the user",
       "That the project has delivered within its original baseline for time and cost",
-      "That the project team has been released and the documentation has been archived",
-      "That the senior supplier has accepted the final work package",
-      "That the project mandate has been reissued for the next stage"
+      "That the project team has been released and the documentation has been archived, as required",
+      "That the senior supplier has accepted the final work package, and the products in it",
+      "That the project mandate has been reissued for the next stage, and the plan approved"
     ],
     "explanation": "Closure depends on the board being satisfied that recipients can own and use their products ongoing and that the business can take overall ownership of the project product. Most benefits are realized after the project, so the post-project reviews are only planned at closure rather than completed; archiving and releasing people are closure activities that follow the decision.",
     "source": "p.216"
@@ -253,7 +253,7 @@
     "topic": "Format of the process chapters",
     "difficulty": 2,
     "stem": "Which of these is NOT part of the standard structure used to describe each PRINCE2 process?",
-    "answer": "A schedule of the tolerances delegated to each team manager",
+    "answer": "A schedule of the tolerances delegated to each team manager and the board",
     "distractors": [
       "A purpose statement and the specific objectives the process is to achieve",
       "A context description, including a table of inputs and outputs for each activity",
@@ -270,13 +270,13 @@
     "topic": "Processes, principles and practices",
     "difficulty": 3,
     "stem": "According to the key message closing the introduction to processes, how do the five integrated elements of PRINCE2 work together?",
-    "answer": "The practices ensure that the principles are continually applied during the processes, in a way suited to the project context and to the people in the project and organizational ecosystems",
+    "answer": "The practices ensure that the principles are continually applied during the processes, suited to the project",
     "distractors": [
       "The principles ensure that the practices are applied only at stage boundaries, when the board reviews progress",
       "The processes ensure that the practices are tailored to each project, while the principles are applied only at the start",
       "The practices replace the processes on small projects, where a full set of activities would be disproportionate",
       "The processes take precedence over the principles wherever the two conflict, because they define the activities",
-      "The principles are applied by the business layer while the practices are applied by the delivery teams",
+      "The principles are applied by the business layer while the practices are applied by the delivery teams, in turn",
       "The five elements are applied in sequence, starting with principles and ending with processes"
     ],
     "explanation": "The key message is that the five integrated elements work together: the practices ensure the principles are continually applied during the processes, in a way specific to the project context and taking account of people and groups in the project and organizational ecosystems. The elements are integrated, not applied in sequence or owned by separate layers.",

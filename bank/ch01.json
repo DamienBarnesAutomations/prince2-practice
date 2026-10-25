@@ -8,12 +8,12 @@
     "stem": "Which description best fits PRINCE2?",
     "answer": "A structured project management method built from the experience of many projects and practitioners",
     "distractors": [
-      "A specialist development lifecycle used to design and construct project products",
+      "A specialist development lifecycle used to design, build and test the technical products of a project",
       "A set of detailed project management techniques such as critical path analysis and earned value management",
-      "A governance framework for managing programmes and portfolios of projects",
-      "A procurement process for selecting and contracting suppliers",
-      "A qualification scheme that sets the standard for project managers",
-      "A delivery method for iterative-incremental product development"
+      "A governance framework for managing programmes and portfolios of projects across the whole organization",
+      "A procurement process for selecting, contracting and managing the suppliers who deliver project products",
+      "A qualification scheme that sets the professional standard that individual project managers must meet",
+      "A delivery method for iterative-incremental product development in which the scope is refined each cycle"
     ],
     "explanation": "The manual presents PRINCE2 as a structured project management method that draws on experience from thousands of projects and contributions from sponsors, project managers, teams, academics, trainers and consultants. Specialist lifecycles and detailed techniques sit outside the method, which is why they are not the answer.",
     "source": "p.2"
@@ -25,7 +25,7 @@
     "topic": "What PRINCE2 is not",
     "difficulty": 2,
     "stem": "Which of these is NOT a feature of the PRINCE2 method?",
-    "answer": "It prescribes how the specialist work of the project should be carried out",
+    "answer": "It prescribes how the specialist work of the project itself should be carried out",
     "distractors": [
       "It separates the management of the project from the specialist development activities",
       "It can be applied to any project regardless of its purpose, scale, type or organization",
@@ -44,12 +44,12 @@
     "stem": "Which two topics does the manual deliberately treat as outside the scope of PRINCE2?",
     "answer": "Specialist aspects of the project work and detailed project management techniques",
     "distractors": [
-      "Project governance and the development of the business case",
-      "Risk management and the management of quality",
-      "Benefits management and organizational change",
-      "Procurement and the management of supplier contracts",
-      "Team leadership and stakeholder engagement",
-      "Planning and the control of progress"
+      "Project governance and the development of the business case for a proposed project",
+      "Risk management and the management of quality across the whole project lifecycle",
+      "Benefits management and the organizational change needed to realize those benefits",
+      "Procurement and the management of supplier contracts for the products of the project",
+      "Team leadership and the engagement of stakeholders throughout the life of the project",
+      "Planning and the control of progress against the plans approved by the project board"
     ],
     "explanation": "The manual states plainly that PRINCE2 neither can nor does cover every aspect of project management, and names specialist aspects of project work and detailed project management techniques as deliberately excluded. Those subjects are either integrated into the project's management approaches or used in support of the method.",
     "source": "p.3"
@@ -118,14 +118,14 @@
     "topic": "Practices and processes",
     "difficulty": 3,
     "stem": "How do the seven practices and the seven processes relate to each other?",
-    "answer": "The practices define the treatment required of each aspect of management, and the processes describe the project lifecycle through which they are applied",
+    "answer": "The practices define how each aspect of management is treated, and the processes describe the lifecycle for applying them",
     "distractors": [
-      "The practices describe the project lifecycle, and the processes define the aspects of management to be applied",
-      "Each practice is carried out within exactly one of the processes",
-      "The practices are optional in simple projects, whereas the processes are always required",
-      "The practices apply at stage boundaries, whereas the processes apply continuously",
-      "The practices are owned by the project board, whereas the processes are owned by the project manager",
-      "The practices replace the processes where PRINCE2 is tailored for an iterative delivery method"
+      "The practices describe the project lifecycle, and the processes define the aspects of management to be applied throughout it",
+      "Each practice is carried out within exactly one of the processes, so the two sets map one-to-one in every project",
+      "The practices are optional in simple projects, whereas the processes are always required whatever the project's size",
+      "The practices apply at stage boundaries only, whereas the processes apply continuously for the whole of the project",
+      "The practices are owned by the project board, whereas the processes are owned by the project manager and the team",
+      "The practices replace the processes where PRINCE2 is tailored for an iterative delivery method in a complex project"
     ],
     "explanation": "The practices describe essential aspects of project management that must be applied consistently and throughout the lifecycle so that the processes are effective, while the processes describe the whole lifecycle from the work before the project starts to closure. They are complementary rather than alternatives, and no practice maps to a single process.",
     "source": "p.4"
@@ -139,12 +139,12 @@
     "stem": "How does the manual define a project?",
     "answer": "A temporary organization created to deliver one or more business products according to an agreed business case",
     "distractors": [
-      "A permanent team established to improve business operations over time",
-      "A temporary organization created to deliver a single product to a fixed specification",
-      "An agreed business case for changing part of the organization",
-      "A set of activities that maintains business as usual during a change",
-      "A structured programme of related projects delivered over several years",
-      "A controlled environment in which specialist work is carried out"
+      "A permanent team established to improve business operations over time through a continuing improvement programme",
+      "A temporary organization created to deliver a single product to a fixed specification and a fixed budget",
+      "An agreed business case for changing part of the organization, together with the funding to carry it out",
+      "A set of activities that maintains business as usual while a change is introduced into the organization",
+      "A structured programme of related projects delivered over several years to achieve a strategic objective",
+      "A controlled environment in which specialist work is carried out by a team under a single manager"
     ],
     "explanation": "The definition has three parts: it is a temporary organization, it delivers one or more business products, and it does so according to an agreed business case. A permanent team would be business as usual, and a controlled environment for specialist work describes what the method provides rather than what a project is.",
     "source": "p.5"
@@ -176,12 +176,12 @@
     "stem": "Why does the manual describe projects as riskier than operational work?",
     "answer": "Because change, temporary duration, cross-functionality and uniqueness bring threats and opportunities beyond those of business as usual",
     "distractors": [
-      "Because projects always involve external suppliers working under contract",
-      "Because projects are usually larger than the operations they set out to change",
-      "Because project teams are unfamiliar with the organization's standards and policies",
-      "Because projects are governed outside the business's strategy and objectives",
-      "Because projects have no agreed performance targets until closure",
-      "Because benefits are only realized after the project has ended"
+      "Because projects always involve external suppliers, shifting priorities and contractual disputes, which adds commercial risk to every project",
+      "Because projects are usually larger than the operations they set out to change, so any failure costs the organization more",
+      "Because project teams are unfamiliar with the organization's standards and policies and cannot follow its normal controls",
+      "Because projects are governed outside the business's strategy and objectives, which removes the usual management oversight",
+      "Because projects have no agreed performance targets until closure, so progress cannot be measured as work proceeds",
+      "Because benefits are only realized after the project has ended, so their delivery is outside the team's control"
     ],
     "explanation": "The extra risk is derived from the characteristics already listed: change, temporary, cross-functional and unique each introduce threats and opportunities over and above those typically encountered in business as usual. Size, the use of suppliers and unfamiliarity with standards are not offered as the reason.",
     "source": "p.6"
@@ -212,14 +212,14 @@
     "topic": "Purpose of project management",
     "difficulty": 2,
     "stem": "What is the purpose of project management, according to the manual?",
-    "answer": "To reduce and manage ambiguity by uniting the involved parties to clarify objectives and working practices, so the specialist work can be controlled",
+    "answer": "To reduce and manage ambiguity by uniting the parties to clarify objectives and working practices, so the work can be controlled",
     "distractors": [
-      "To remove uncertainty from the project by planning every activity in detail",
-      "To ensure the project delivers beyond its agreed scope where benefits justify it",
-      "To replace the specialist delivery method with a single standard lifecycle",
-      "To guarantee that the benefits in the business case will be realized",
-      "To manage business as usual at the same time as the project",
-      "To produce the project's specialist products on behalf of the delivery team"
+      "To remove uncertainty from the project altogether by planning every activity in detail before the specialist work begins",
+      "To ensure the project delivers beyond its agreed scope wherever the benefits justify it, so stakeholders are pleasantly surprised",
+      "To replace the specialist delivery method with one standard lifecycle, and to require every project in the organization to follow it",
+      "To guarantee that the benefits in the business case will be realized by holding the project manager to the forecast",
+      "To manage business as usual at the same time as the project, so that day-to-day operations are never disrupted",
+      "To produce the project's specialist products on behalf of the delivery team while the team manager reports progress"
     ],
     "explanation": "The challenges that the characteristics of a project create - unclear accountability, conflicting expectations, uncontrolled change and so on - are addressed by reducing and managing ambiguity, uniting the parties to clarify objectives and working practices, and controlling the specialist work. Project management does not remove uncertainty, and it does not create the specialist products itself.",
     "source": "p.6"
@@ -252,12 +252,12 @@
     "stem": "A business contracts an external supplier to deliver the project's products. Who is the customer in PRINCE2 terms?",
     "answer": "The business, because there is a commercial relationship between the business and the supplier",
     "distractors": [
-      "The organization that will use the products to gain the expected benefits",
-      "The organization that provides the expertise, people and resources to deliver the products",
-      "The organization that provides the project mandate and governs the project",
-      "The end users of the products within the commissioning organization",
-      "Whichever party the contract happens to name as the customer",
-      "The programme or portfolio to which the project reports"
+      "The organization that will use the products to gain the expected benefits once the project has closed",
+      "The organization that provides the expertise, people and resources to deliver the products under the contract",
+      "The organization that provides the project mandate and governs the project on behalf of the corporate body",
+      "The end users of the products within the commissioning organization, who operate them after handover",
+      "Whichever party the contract happens to name as the customer, whatever its role in the project",
+      "The programme or portfolio to which the project reports, because it owns the commercial agreement"
     ],
     "explanation": "The manual reserves the word customer for the commercial relationship: where the business and a supplier have one, the business is regarded as the customer. The organization that will use the products to gain the benefits is the user, which may be internal or external to the business.",
     "source": "p.8"
@@ -271,12 +271,12 @@
     "stem": "Which statement about commercial relationships in projects is correct?",
     "answer": "There may be several customers and several suppliers, each with its own business reasons for undertaking the project",
     "distractors": [
-      "A project may have only one customer and one supplier organization",
-      "The supplier is always an internal department of the business that commissions the project",
-      "The business stops being the customer once a prime contractor is appointed",
-      "Subcontractors sit outside the project's commercial relationships",
-      "The contract replaces the business case as the justification for the project",
-      "Commercial relationships matter only where the supplier is external to the business"
+      "A project may have only one customer and one supplier organization, which must agree a single set of business reasons",
+      "The supplier is always an internal department of the business that commissions the project and shares its aims",
+      "The business stops being the customer once a prime contractor is appointed, because the contract replaces its role",
+      "Subcontractors sit outside the project's commercial relationships because they have no contract with the business",
+      "The contract replaces the business case as the justification for the project once a supplier has been appointed",
+      "Commercial relationships matter only where the supplier is external to the business and works under a formal contract"
     ],
     "explanation": "Rather than a simple relationship between two organizations, a project may involve multiple organizations covered by multiple contracts, with a single customer and prime contractor or several customers and suppliers, each with its own reasons for taking part. The contract describes how the parties collaborate, and the rights and duties it creates must be reflected in how the project is managed.",
     "source": "p.9"
@@ -307,14 +307,14 @@
     "topic": "Sustainability",
     "difficulty": 1,
     "stem": "Unless the manual says otherwise, what does it mean by sustainability?",
-    "answer": "One, some or all of the 17 sustainable development goals defined by the United Nations",
+    "answer": "One, some or all of the 17 sustainable development goals set by the United Nations, unless stated",
     "distractors": [
-      "The environmental impact of the project work only",
-      "The whole life cost and operational resilience of the delivered products",
-      "The business's legal environmental and social obligations",
-      "The sustainability responsibilities assigned to project roles",
-      "A single sustainability target agreed with the project board",
-      "The benefits set out in the business case over the life of the products"
+      "The environmental impact of the project work only, measured against the organization's own targets",
+      "The whole life cost and operational resilience of the delivered products over their expected lifetime",
+      "The business's legal environmental and social obligations, as set out by regulators and legislators",
+      "The sustainability responsibilities assigned to project roles in the role descriptions and the plans",
+      "A single sustainability target agreed with the project board and recorded in the business case",
+      "The benefits set out in the business case that continue to accrue over the life of the products"
     ],
     "explanation": "The manual accepts that sustainability means different things to different organizations - environmental impact, whole life cost, resilience in operations - but states that, unless otherwise specified, it refers to one, some or all of the United Nations' 17 sustainable development goals. Sustainability is also one of the seven performance targets.",
     "source": "p.10"
@@ -326,14 +326,14 @@
     "topic": "Scale",
     "difficulty": 3,
     "stem": "What does the manual say about the perceived scale of a project?",
-    "answer": "It is relative to the organization, so it is more helpful to think in terms of simple and complex than small and large",
+    "answer": "It is relative to the organization, so it is more helpful to think in terms of simple and complex",
     "distractors": [
-      "It is determined by the number of stages in the project plan",
-      "It is measured by the size of the project budget and team",
-      "It is fixed by the programme or portfolio that owns the project",
-      "It is judged by how many performance targets the project sets",
-      "It is defined by the delivery method the project adopts",
-      "It is set by the project board when it approves the project mandate"
+      "It is determined by the number of stages in the project plan, so a project with more stages is larger",
+      "It is measured by the size of the project budget and team, which together set how the project is governed",
+      "It is fixed by the programme or portfolio that owns the project, and is the same for every organization",
+      "It is judged by how many performance targets the project sets and how tight their tolerances are",
+      "It is defined by the delivery method the project adopts, with iterative methods always counted as complex",
+      "It is set by the project board when it approves the project mandate and cannot change afterwards"
     ],
     "explanation": "A small project in a large multinational could be bigger than a large project in a small organization, which is why the manual prefers simple and complex. Scale is generally a matter of how the business perceives the risk and importance of the project relative to its business as usual operations.",
     "source": "p.11"

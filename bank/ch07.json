@@ -6,13 +6,13 @@
     "topic": "Purpose of plans",
     "difficulty": 1,
     "stem": "What is the purpose of the plans practice?",
-    "answer": "To facilitate communication and control by defining the products to be delivered and the means to deliver them",
+    "answer": "To facilitate communication and control by defining the products and the means to deliver them",
     "distractors": [
-      "To define the project's structure of accountability and responsibilities",
-      "To describe the quality criteria and acceptance methods for each product",
+      "To define the project's structure of accountability and responsibilities, and the roles that hold them",
+      "To describe the quality criteria and acceptance methods for each product, and who approves them",
       "To identify and control the uncertainties that threaten the project's objectives",
       "To capture, assess and control changes and other issues",
-      "To decide which products are worth delivering and keep that decision under review",
+      "To decide which products are worth delivering and to keep that decision under review at each stage",
       "To describe how the project's products will be transitioned into operational use"
     ],
     "explanation": "The key message defines plans as the what (products) and the means of delivery — who, how, where, and estimates of when and how much — in order to satisfy the business case, which is the why. Accountability sits with organizing, quality criteria with quality, and uncertainty with risk.",
@@ -61,14 +61,14 @@
     "topic": "Plans enable communication",
     "difficulty": 3,
     "stem": "Plans are said to integrate three perspectives. Which set is correct?",
-    "answer": "The user's expectations and benefits, the project management team's assessment of the most effective approach, and the business's support including committed funding, people and resources",
+    "answer": "The user's expectations, the project management team's assessment of the approach, and the business's support",
     "distractors": [
-      "The user's expectations, the supplier's commercial terms, and the project board's tolerances",
-      "The business case, the project plan, and the stage plans",
+      "The user's expectations, the supplier's commercial terms, and the project board's tolerances, as agreed with the programme",
+      "The business case, the project plan, and the stage plans, as approved by the project board at each boundary",
       "The requirements, the quality criteria, and the acceptance methods",
-      "The delivery method, the work breakdown structure, and the product flow diagram",
-      "The project manager's estimates, the team manager's schedule, and the board's budget",
-      "The current stage, the next stage, and the programme tranche"
+      "The delivery method, the work breakdown structure, and the product flow diagram, as agreed by the team managers",
+      "The project manager's estimates, the team manager's schedule, and the board's budget, as reconciled at the stage boundary",
+      "The current stage, the next stage, and the programme tranche, as reviewed by the board at the end of each stage"
     ],
     "explanation": "The three perspectives are the user's expectations of products and benefits, the project management team's assessment of the most effective approach, and business support including commitment of funding, people and resources. A plan that omits any of the three is not a plan the organization has actually agreed to.",
     "source": "p.98"
@@ -85,7 +85,7 @@
       "It removes the need for stage boundaries, because the plan already fixes the scope",
       "It transfers accountability for delivery from the project manager to the project board",
       "It guarantees that the estimates in the plan will not change during delivery",
-      "It authorises the project manager to approve any change that stays within the budget",
+      "It authorizes the project manager to approve any change that stays within the budget",
       "It replaces the business case as the basis for continued justification",
       "It fixes the project's tolerances for the whole lifecycle"
     ],
@@ -99,14 +99,14 @@
     "topic": "Scope",
     "difficulty": 2,
     "stem": "How does the manual define scope?",
-    "answer": "The sum of the product, delivery and management activities represented by an approved plan, its product descriptions and work package descriptions",
+    "answer": "The sum of the product, delivery and management activities represented by an approved plan",
     "distractors": [
-      "The list of products named in the project product description",
-      "The work packages assigned to external suppliers under contract",
-      "Everything the user has asked for, whether or not it is funded",
+      "The list of products named in the project product description, and their acceptance criteria",
+      "The work packages assigned to external suppliers under contract, and the products they deliver",
+      "Everything the user has asked for, whether or not it is funded, scheduled or approved",
       "The products and activities that fall within the current stage plan only",
-      "The sum of the acceptance criteria in the product descriptions",
-      "The benefits set out in the business case, expressed as measurable outcomes"
+      "The sum of the acceptance criteria in the product descriptions, and the quality criteria",
+      "The benefits set out in the business case, expressed as measurable outcomes and dis-benefits"
     ],
     "explanation": "Scope is defined as the sum of product, delivery and management activities represented by an approved plan and its product descriptions and work package descriptions. That is why plans, product descriptions and work package descriptions all police scope.",
     "source": "p.99"
@@ -118,7 +118,7 @@
     "topic": "Scope creep",
     "difficulty": 3,
     "stem": "A stage plan contains an activity that cannot be traced back to any high-level element of the project plan. What does the manual say this indicates?",
-    "answer": "That the project is at risk of scope creep",
+    "answer": "That the project is at risk of scope creep, as the work is untraceable",
     "distractors": [
       "That the project plan needs to be re-baselined before the stage can continue",
       "That the activity should be treated as an exception and escalated to the board",
@@ -137,10 +137,10 @@
     "topic": "Planning horizon",
     "difficulty": 2,
     "stem": "What is the planning horizon?",
-    "answer": "The period over which it is possible to plan with reasonable confidence",
+    "answer": "The period over which plans can be made with confidence",
     "distractors": [
       "The end date by which the project must deliver its final product",
-      "The longest stage that the project board is prepared to authorise",
+      "The longest stage that the project board is prepared to authorize",
       "The period covered by the project plan, regardless of detail",
       "The point at which the project must be re-baselined",
       "The lead time needed to procure external products",
@@ -156,7 +156,7 @@
     "topic": "Planning horizon",
     "difficulty": 3,
     "stem": "How does the length of the planning horizon affect the level of detail in a plan?",
-    "answer": "A long horizon produces a high-level plan, while a shorter horizon allows more detail",
+    "answer": "A long horizon gives a high-level plan, while a shorter one allows more detail",
     "distractors": [
       "A long horizon produces a detailed plan, because more time is available to plan",
       "The horizon has no effect on detail, which depends only on the number of products",
@@ -178,10 +178,10 @@
     "answer": "An outline plan for the remaining two years combined with a detailed plan for the current design stage",
     "distractors": [
       "A detailed day-by-day plan for the whole three years, reviewed monthly",
-      "A high-level plan for the whole project with no stage plan until construction starts",
+      "A high-level plan for the whole project with no stage plan until construction starts, to save effort",
       "A detailed plan for the current stage only, with no project plan until the design is complete",
       "A single detailed plan for the next two years, produced at the next stage boundary",
-      "A rolling plan that details each month one month before it begins",
+      "A rolling plan that details each month one month before it begins, with no stage or project plan",
       "A detailed plan for each year, produced at the start of that year"
     ],
     "explanation": "The scenario concludes that a sensible approach combines planning horizons and levels of detail: an outline plan for the long term and a detailed plan for the current stage. Attempting day-by-day detail two years ahead would be inaccurate within a short time.",
@@ -196,12 +196,12 @@
     "stem": "What do all PRINCE2 plans have in common?",
     "answer": "The same fundamental structure, differing in purpose, scope and level of detail",
     "distractors": [
-      "The same level of detail, differing only in duration",
-      "The same scope, differing only in who prepares them",
-      "The same approval route, differing only in the reporting format",
-      "The same tolerance values, differing only in the level at which they apply",
-      "The same schedule, differing only in the number of work packages",
-      "The same product descriptions, differing only in the acceptance criteria"
+      "The same level of detail, differing only in duration, owner and approval route",
+      "The same scope, differing only in who prepares them, who approves them",
+      "The same approval route, differing only in the reporting format, the owner and the frequency",
+      "The same tolerance values, differing only in the level, owner and unit at which they apply",
+      "The same schedule, differing only in the number of work packages, stages and teams",
+      "The same product descriptions, differing only in the acceptance criteria, owners and dates"
     ],
     "explanation": "All PRINCE2 plans share the same fundamental structure. What differs is their purpose, scope and level of detail, and each should still give the project management team confidence that it is a realistic assessment of the products and the work needed.",
     "source": "p.101"
@@ -213,14 +213,14 @@
     "topic": "Project plan",
     "difficulty": 2,
     "stem": "What is the purpose of the project plan?",
-    "answer": "To give the project board confidence that the project will fulfil its business case, and the team confidence that the approach is viable within the approved resources and tolerances",
+    "answer": "To give the board confidence that the business case will be met and the team confidence in the approach",
     "distractors": [
-      "To give the project manager day-to-day control of the current stage",
-      "To authorise each work package before it is issued to a team manager",
+      "To give the project manager day-to-day control of the current stage, and the board a weekly view of it",
+      "To authorize each work package before it is issued to a team manager, and to record the authorization",
       "To define the roles and responsibilities of the project management team",
-      "To record the lessons learned from previous projects",
-      "To set out how the project's products will be accepted into operational use",
-      "To provide the detailed schedule that team managers will work to"
+      "To record the lessons learned from previous projects, and to apply them to the current project plan",
+      "To set out how the project's products will be accepted into operational use, and who will support them",
+      "To provide the detailed schedule that team managers will work to, and the board will use to authorize stages"
     ],
     "explanation": "The project plan is a high-level plan of the major products and when, how and at what cost they will be delivered. Its purpose is to give the board confidence in the business case and the team confidence in a viable approach within the approved resources and tolerances.",
     "source": "p.101"
@@ -232,14 +232,14 @@
     "topic": "Project plan",
     "difficulty": 3,
     "stem": "Which statement about the project plan is correct?",
-    "answer": "It is created during initiating a project, baselined on board approval, and changes are approved by the board when managing a stage boundary",
+    "answer": "It is created during initiating a project, baselined on board approval, and changed only with board approval",
     "distractors": [
-      "It is created during starting up a project and baselined when the project mandate is issued",
-      "It is created at the first stage boundary and re-baselined at every subsequent boundary",
-      "It is created during initiating a project and may be changed by the project manager without approval",
-      "It is created during managing a stage boundary and approved by the project manager",
-      "It is created at the start of each stage and replaces the previous version",
-      "It is created during directing a project and approved by the commissioning party"
+      "It is created during starting up a project, and baselined when the project mandate is issued, then fixed",
+      "It is created at the first stage boundary, and re-baselined at every subsequent boundary, whatever the change",
+      "It is created during initiating a project, and may be changed by the project manager without approval, if small",
+      "It is created during managing a stage boundary, and approved by the project manager, then sent to the board",
+      "It is created at the start of each stage, and replaces the previous version, which is then discarded",
+      "It is created during directing a project, and approved by the commissioning party, then issued to the team"
     ],
     "explanation": "The project plan is created during initiating a project and baselined when the board approves it. Changes needed at a stage boundary are approved by the board and reflected in an updated, re-baselined project plan.",
     "source": "p.102"
@@ -251,11 +251,11 @@
     "topic": "Project plan",
     "difficulty": 3,
     "stem": "What should the project plan state about each proposed work package?",
-    "answer": "Whether it will be delivered sequentially or in an iterative-incremental manner",
+    "answer": "Whether it will be delivered sequentially or iteratively",
     "distractors": [
       "The name of the team member who will perform each task in it",
-      "The detailed cost of every task, by labour rate",
-      "The acceptance method that will be used for each product",
+      "The detailed cost of every task in it, calculated by labor rate and hours worked",
+      "The acceptance method that will be used for each product in it",
       "The lessons that were applied when it was planned",
       "The change budget that has been allocated to it",
       "The stage boundary at which it will be re-planned"
@@ -272,12 +272,12 @@
     "stem": "What is a stage plan?",
     "answer": "A detailed plan used as the basis for project management control throughout a stage",
     "distractors": [
-      "A high-level plan of the major products for the whole project",
-      "A plan produced by a team manager to control a work package",
-      "A plan that explains how the project will respond to an exception",
-      "A schedule of the project board's decision points",
-      "A summary of the products completed at the end of a stage",
-      "A plan for the transition of products into operational use"
+      "A high-level plan of the major products for the whole project, approved at initiation",
+      "A plan produced by a team manager to control a work package from start to finish",
+      "A plan that explains how the project will respond to an exception, within the stage",
+      "A schedule of the project board's decision points, set at the start of the project",
+      "A summary of the products completed at the end of a stage, for the project board",
+      "A plan for the transition of products into operational use, once the stage has finished"
     ],
     "explanation": "The stage plan is the detailed plan for a single stage, used as the basis for day-to-day control by the project manager. It shares the project plan's structure but is divided to the level of detail needed for that control.",
     "source": "p.102"
@@ -289,7 +289,7 @@
     "topic": "Stage plan",
     "difficulty": 2,
     "stem": "When is the stage plan for the initiation stage created, and when are subsequent stage plans created?",
-    "answer": "The initiation stage plan is created during starting up a project; subsequent stage plans are prepared near the end of the current stage",
+    "answer": "The initiation stage plan is created in starting up a project; later stage plans are prepared near the end of the current stage",
     "distractors": [
       "The initiation stage plan is created during initiating a project; subsequent stage plans are prepared at the start of each stage",
       "The initiation stage plan is created during directing a project; subsequent stage plans are prepared at the end of the previous stage",
@@ -298,7 +298,7 @@
       "All stage plans are created during managing a stage boundary",
       "The initiation stage plan is created during initiating a project; subsequent stage plans are prepared by the project board"
     ],
-    "explanation": "The initiation stage plan is created during starting up a project, because it is needed to authorise that stage. Later stage plans are prepared near the end of the current stage, so they are close to the work, shorter than the project plan, and informed by how earlier stages actually performed.",
+    "explanation": "The initiation stage plan is created during starting up a project, because it is needed to authorize that stage. Later stage plans are prepared near the end of the current stage, so they are close to the work, shorter than the project plan, and informed by how earlier stages actually performed.",
     "source": "p.102"
   },
   {
@@ -310,12 +310,12 @@
     "stem": "Which two structures should be included in each stage plan?",
     "answer": "A product breakdown structure for the stage and a work breakdown structure for the stage",
     "distractors": [
-      "A project breakdown structure and a resource breakdown structure",
-      "A product flow diagram and a critical path diagram",
-      "A product breakdown structure for the project and a team plan",
-      "A work breakdown structure for the project and a risk register",
-      "A product checklist and a product flow diagram",
-      "A cost breakdown structure and a benefits map"
+      "A project breakdown structure and a resource breakdown structure, each for the whole project",
+      "A product flow diagram and a critical path diagram, each drawn for the whole stage plan",
+      "A product breakdown structure for the project and a team plan for the stage's work packages",
+      "A work breakdown structure for the project and a risk register covering the stage",
+      "A product checklist and a product flow diagram, both approved by the project board",
+      "A cost breakdown structure and a benefits map, both prepared by the project manager"
     ],
     "explanation": "Each stage plan should include a product breakdown structure showing the products in scope and their relationships, and a work breakdown structure identifying the major activities and the people and resources involved in each.",
     "source": "p.102"
@@ -327,16 +327,16 @@
     "topic": "Team plan",
     "difficulty": 2,
     "stem": "Which statement about team plans is correct?",
-    "answer": "They are optional, and are produced by a team manager to facilitate the execution of one or more work packages",
+    "answer": "They are optional, and are produced by a team manager to facilitate executing work packages",
     "distractors": [
-      "They are mandatory for every work package in a PRINCE2 project",
+      "They are mandatory for every work package in a PRINCE2 project, and are approved by the project board",
       "They are produced by the project manager and approved by the project board",
       "They replace the stage plan when the work is delivered by an external supplier",
-      "They are produced by the project board to control the team manager",
-      "They are required only where a work package spans a stage boundary",
-      "They are a type of exception plan used for work package tolerances"
+      "They are produced by the project board to control the team manager, and are issued with each package",
+      "They are required only where a work package spans a stage boundary, and must then be approved by the board",
+      "They are a type of exception plan used for work package tolerances, and are approved by the executive"
     ],
-    "explanation": "Team plans are optional. A team manager produces them to organise and control the work of the team when executing one or more work packages. They are most useful where the team is a temporary organization drawn from different parts of the business.",
+    "explanation": "Team plans are optional. A team manager produces them to organize and control the work of the team when executing one or more work packages. They are most useful where the team is a temporary organization drawn from different parts of the business.",
     "source": "p.103"
   },
   {
@@ -346,14 +346,14 @@
     "topic": "Exception plan",
     "difficulty": 2,
     "stem": "What is an exception plan?",
-    "answer": "A plan that follows an exception report and explains how the project will respond to the exception within the stage",
+    "answer": "A plan that follows an exception report and explains how the project will respond within the stage",
     "distractors": [
       "A plan that replaces the project plan after a project-level tolerance is breached",
-      "A plan produced by a team manager when a work package overruns",
-      "A plan for recovering benefits that were not realised after closure",
-      "A plan that records the actions taken to avoid an exception arising",
-      "A revised stage plan produced at every stage boundary",
-      "A plan that sets out how exceptions will be escalated to the board"
+      "A plan produced by a team manager when a work package overruns, and approved by the project manager",
+      "A plan for recovering benefits that were not realized after closure, and agreed with the senior user",
+      "A plan that records the actions taken to avoid an exception arising, and the lessons from doing so",
+      "A revised stage plan produced at every stage boundary, whether or not an exception has occurred",
+      "A plan that sets out how exceptions will be escalated to the board, and who will decide on each one"
     ],
     "explanation": "When a project or stage exceeds, or is expected to exceed, an agreed tolerance, the project manager raises an exception report. If the board decides to address the exception within the stage, an exception plan is prepared covering how the directed actions will be performed.",
     "source": "p.103"
@@ -370,7 +370,7 @@
       "A second exception plan should be prepared for the next stage",
       "The exception plan should be extended until it covers the remaining stages",
       "The project should be closed and restarted with a new mandate",
-      "The project board should authorise the actions as a stage tolerance deviation",
+      "The project board should authorize the actions as a stage tolerance deviation",
       "The actions should be deferred until the end of the project",
       "A team plan should be prepared to cover the additional work"
     ],
@@ -384,7 +384,7 @@
     "topic": "Exception plan",
     "difficulty": 2,
     "stem": "For which type of plan is an exception plan explicitly not required?",
-    "answer": "A team plan used to manage the delivery of work packages",
+    "answer": "A team plan for delivering work packages",
     "distractors": [
       "A project plan covering the full lifecycle",
       "A stage plan for the current stage",
@@ -403,13 +403,13 @@
     "topic": "Stages",
     "difficulty": 3,
     "stem": "Dividing a project into stages is a balance between which factors?",
-    "answer": "The delivery method, sequence of activities, people and resources, key decision points, manageable risk, and how far ahead it is sensible to plan",
+    "answer": "The delivery method, the sequence of activities, key decision points, and how far ahead to plan",
     "distractors": [
-      "The number of suppliers, the contract values, the payment milestones, and the reporting lines",
-      "The project budget, the benefits, the quality criteria, and the acceptance methods",
-      "The number of products, the size of the project board, the change budget, and the risk budget",
-      "The organization's financial year, the programme tranches, and the supplier's availability",
-      "The project manager's availability, the team size, the tools, and the locations",
+      "The number of suppliers, the contract values, the payment milestones, and the reporting lines of the team",
+      "The project budget, the benefits, the quality criteria, and the acceptance methods for each product delivered",
+      "The number of products, the size of the project board, the change budget, and the risk budget for the stage",
+      "The organization's financial year, the programme tranches, and the supplier's availability for the work",
+      "The project manager's availability, the team size, the tools, and the locations of the team members",
       "The business case, the project product description, the product breakdown structure, and the schedule"
     ],
     "explanation": "The manual lists six balancing factors: delivery method, sequence of delivery activities, type of people and resources, number and timing of key decision points, the amount of risk the project can manage, and how far ahead it is sensible to plan.",
@@ -441,7 +441,7 @@
     "topic": "Number of stages",
     "difficulty": 2,
     "stem": "What is the minimum stage structure described for a simple project with well-understood products and a mature delivery method?",
-    "answer": "An initiation stage and a single delivery stage",
+    "answer": "An initiation stage and a single further delivery stage",
     "distractors": [
       "A single stage covering both initiation and delivery",
       "An initiation stage, a design stage and a delivery stage",
@@ -460,14 +460,14 @@
     "topic": "Length of stages",
     "difficulty": 3,
     "stem": "Which factor does the manual give for making a stage shorter?",
-    "answer": "Significant uncertainty in estimates of resources or activity durations, so they can be refined in the next stage plan",
+    "answer": "Significant uncertainty in estimates of resources or durations, so they can be refined in the next stage plan",
     "distractors": [
-      "A large number of products, so that each stage can deliver fewer of them",
-      "A long planning horizon, so that more detail can be captured in the stage plan",
-      "A low level of complexity, so that the board can meet more often",
-      "A mature delivery method, so that fewer decision points are needed",
-      "A programme tranche that is longer than the project stage",
-      "A fixed budget, so that spending can be reviewed more frequently"
+      "A large number of products, so that each stage can deliver fewer of them and be easier to manage",
+      "A long planning horizon, so that more detail can be captured in the stage plan and in the schedule",
+      "A low level of complexity, so that the board can meet more often and review each stage in detail",
+      "A mature delivery method, so that fewer decision points are needed and the stages can be shorter",
+      "A programme tranche that is longer than the project stage, so that the two can be aligned and reviewed",
+      "A fixed budget, so that spending can be reviewed more frequently and the contingency released earlier"
     ],
     "explanation": "The length of a stage is assessed against complexity, risk, planning horizon, appropriate decision points and alignment with programme activities. Where the planning horizon contains significant uncertainty about resources or durations, a shorter stage lets estimates be refined in the next stage plan.",
     "source": "p.104"
@@ -479,14 +479,14 @@
     "topic": "Length of stages",
     "difficulty": 2,
     "stem": "Which statement about the length of stages is correct?",
-    "answer": "Stages do not have to be uniform in length; design or prototyping stages may be much shorter than a build stage",
+    "answer": "Stages need not be uniform; design or prototyping stages may be much shorter than a build stage",
     "distractors": [
       "All stages must be the same length so that progress can be compared",
       "Stage length is fixed at the start of the project and cannot be varied",
-      "The final stage must always be the longest, to absorb slippage",
-      "Stage length is determined only by the programme's reporting cycle",
-      "Stages must be longer than the work packages they contain",
-      "Stage length must be a whole number of months"
+      "The final stage must always be the longest, to absorb any slippage that has built up in earlier stages",
+      "Stage length is determined only by the programme's reporting cycle, not by the project's own risks",
+      "Stages must be longer than the work packages they contain, so that each package fits inside one stage",
+      "Stage length must be a whole number of months, so that stage boundaries can align with board meetings"
     ],
     "explanation": "The manual notes that stage length does not have to be uniform, giving design or prototyping stages that may be much shorter than a build stage as the example.",
     "source": "p.105"
@@ -498,14 +498,14 @@
     "topic": "Stages and work packages",
     "difficulty": 3,
     "stem": "Why do PRINCE2 stages not overlap?",
-    "answer": "They partition the project with stop-go decision points, so progress and continued business justification can be reviewed",
+    "answer": "They partition the project with stop-go points, so progress and justification can be reviewed",
     "distractors": [
-      "Because work packages cannot be run in parallel within a stage",
-      "Because the project board can only meet once per stage",
-      "Because the project plan must be re-baselined at every stage",
-      "Because overlapping stages would breach the time tolerance",
-      "Because each stage must be delivered by a different team",
-      "Because the stage plan must be approved before the project plan"
+      "Because work packages cannot be run in parallel within a stage, and so stages must follow one another",
+      "Because the project board can only meet once per stage, and must see every product before it decides",
+      "Because the project plan must be re-baselined at every stage, and overlapping would prevent that",
+      "Because overlapping stages would breach the time tolerance, and the executive could not authorize them",
+      "Because each stage must be delivered by a different team, and teams cannot work at the same time",
+      "Because the stage plan must be approved before the project plan, and approvals would then be out of order"
     ],
     "explanation": "Stages do not overlap but partition the project with stop-go decision points, which lets the team and board review progress, confirm continued business justification, and decide whether to proceed. Work packages, by contrast, may run in parallel and overlap within a stage.",
     "source": "p.105"
@@ -557,12 +557,12 @@
     "stem": "A project must be completed by a fixed date. What does the manual say about its time tolerance?",
     "answer": "It will be narrow, possibly zero, because any delay would put the project at risk of failure",
     "distractors": [
-      "It will be wide, so the project manager can recover slippage without escalating",
-      "It will be set at the project level only, with no stage time tolerance",
-      "It will be replaced by a cost tolerance, because the date is fixed",
-      "It will be set to the length of the final stage",
-      "It will be agreed at each stage boundary rather than in the plan",
-      "It will be expressed as a percentage of the project budget"
+      "It will be wide, so the project manager can recover slippage without escalating, as the board expects",
+      "It will be set at the project level only, with no stage time tolerance, because the date is fixed",
+      "It will be replaced by a cost tolerance, because the date is fixed and cannot be varied by anyone",
+      "It will be set to the length of the final stage, so that any slippage can be absorbed there",
+      "It will be agreed at each stage boundary rather than in the plan, because the date may change",
+      "It will be expressed as a percentage of the project budget, because time and cost move together"
     ],
     "explanation": "A schedule-driven project has a narrow time tolerance, possibly set to zero, indicating that any delay would put the project at risk of failure. The same logic applies to a fixed budget and cost tolerance.",
     "source": "p.106"
@@ -614,12 +614,12 @@
     "stem": "What does product-based planning mean in practice?",
     "answer": "Identifying the required products first, then determining the most effective way to deliver them",
     "distractors": [
-      "Identifying the activities first, then working out which products they will produce",
+      "Identifying the activities first, then working out which products they will produce and when",
       "Planning only the products that the user has specified in the project product description",
-      "Producing a product breakdown structure after the schedule has been agreed",
-      "Planning each product independently, without considering dependencies",
-      "Basing the plan on the supplier's standard product catalogue",
-      "Planning by work package rather than by product"
+      "Producing a product breakdown structure after the schedule has been agreed, then checking it against the plan",
+      "Planning each product independently, without considering dependencies, so that teams can work in parallel",
+      "Basing the plan on the supplier's standard product catalogue, then adding the user's requirements",
+      "Planning by work package rather than by product, then grouping the packages into stages for the board"
     ],
     "explanation": "Product-based planning starts from the required products and derives the supporting elements of the plan, such as the work breakdown structure, estimates and schedule. It reflects the focus on products principle.",
     "source": "p.107"
@@ -631,14 +631,14 @@
     "topic": "Product-based planning",
     "difficulty": 3,
     "stem": "Which benefit of product-based planning does the manual give?",
-    "answer": "It reduces the risk of scope being neglected or overlooked, by clearly identifying products and their interdependencies",
+    "answer": "It reduces the risk of scope being overlooked, by clearly identifying products and interdependencies",
     "distractors": [
-      "It removes the need for a work breakdown structure on simple projects",
-      "It guarantees that the project will not exceed its cost tolerance",
+      "It removes the need for a work breakdown structure on simple projects, and for any schedule",
+      "It guarantees that the project will not exceed its cost tolerance, and so removes the need for escalation",
       "It allows the project manager to skip estimating, because products are already defined",
-      "It replaces the business case as the basis for continued justification",
-      "It means that stage boundaries are no longer required",
-      "It ensures that every product is delivered by an external supplier"
+      "It replaces the business case as the basis for continued justification, and is reviewed instead",
+      "It means that stage boundaries are no longer required, and the board need only review the project once",
+      "It ensures that every product is delivered by an external supplier, and so reduces internal workload"
     ],
     "explanation": "By identifying and documenting products and their interdependencies clearly and consistently, product-based planning reduces the risk of scope being neglected or overlooked and helps establish what is and is not in scope. It also simplifies identifying and sequencing work packages.",
     "source": "p.107"
@@ -650,16 +650,16 @@
     "topic": "Planning technique",
     "difficulty": 2,
     "stem": "Which sequence lists the steps of the PRINCE2 planning technique?",
-    "answer": "Define and analyse the products, organize work packages, prepare estimates, prepare the schedule, prepare the budget, then document the plan",
+    "answer": "Define and analyze the products, organize work packages, prepare estimates, prepare the schedule, prepare the budget, then document the plan",
     "distractors": [
-      "Prepare estimates, define and analyse the products, prepare the budget, organize work packages, prepare the schedule, then document the plan",
-      "Define and analyse the products, prepare estimates, organize work packages, prepare the budget, prepare the schedule, then document the plan",
-      "Organize work packages, define and analyse the products, prepare the schedule, prepare estimates, prepare the budget, then document the plan",
-      "Define and analyse the products, prepare the schedule, prepare estimates, prepare the budget, organize work packages, then document the plan",
-      "Prepare the budget, define and analyse the products, organize work packages, prepare estimates, prepare the schedule, then document the plan",
-      "Define and analyse the products, organize work packages, prepare the budget, prepare estimates, prepare the schedule, then document the plan"
+      "Prepare estimates, define and analyze the products, prepare the budget, organize work packages, prepare the schedule, then document the plan",
+      "Define and analyze the products, prepare estimates, organize work packages, prepare the budget, prepare the schedule, then document the plan",
+      "Organize work packages, define and analyze the products, prepare the schedule, prepare estimates, prepare the budget, then document the plan",
+      "Define and analyze the products, prepare the schedule, prepare estimates, prepare the budget, organize work packages, then document the plan",
+      "Prepare the budget, define and analyze the products, organize work packages, prepare estimates, prepare the schedule, then document the plan",
+      "Define and analyze the products, organize work packages, prepare the budget, prepare estimates, prepare the schedule, then document the plan"
     ],
-    "explanation": "The technique runs from defining and analysing products through organizing work packages, estimates, schedule and budget, to documenting the plan, with risks analysed as the plan develops. The steps are not strictly sequential in practice, but this is their order.",
+    "explanation": "The technique runs from defining and analyzing products through organizing work packages, estimates, schedule and budget, to documenting the plan, with risks analyzed as the plan develops. The steps are not strictly sequential in practice, but this is their order.",
     "source": "p.108"
   },
   {
@@ -669,13 +669,13 @@
     "topic": "Planning technique",
     "difficulty": 3,
     "stem": "The manual says the planning technique is not strictly sequential. Which example does it give?",
-    "answer": "Scheduling and estimating are often interdependent and performed collaboratively, while budgeting is more efficient once descriptions and schedule are mature",
+    "answer": "Scheduling and estimating are often interdependent and performed collaboratively",
     "distractors": [
-      "Product descriptions must always be written before the project product description",
-      "Risk analysis must be completed before any product is defined",
-      "The budget must be prepared before the schedule so that costs can be capped",
-      "Documentation is prepared first so that the plan has a template to follow",
-      "Work packages are organized before the products are understood",
+      "Product descriptions must always be written before the project product description exists",
+      "The budget must be prepared before the schedule, and the costs capped",
+      "Risk analysis must be completed before any product is defined or estimated",
+      "Documentation is prepared first, and the plan then follows its template",
+      "Work packages are organized before the products are understood or described",
       "Every step must be signed off by the project board before the next begins"
     ],
     "explanation": "The manual notes that scheduling and estimating are often interdependent and done collaboratively, and that preparing the budget is usually more efficient once the product descriptions, work package descriptions and schedule are relatively mature.",
@@ -688,7 +688,7 @@
     "topic": "Planning technique",
     "difficulty": 2,
     "stem": "A business has its own planning procedure and wants to use it instead of the PRINCE2 technique. What does the method require?",
-    "answer": "The alternative should be documented as a tailoring decision in the project initiation documentation",
+    "answer": "It should be documented as a tailoring decision in the initiation documentation",
     "distractors": [
       "The alternative must be approved by the commissioning party as a project tolerance change",
       "An alternative is not permitted, because product-based planning always applies",
@@ -726,14 +726,14 @@
     "topic": "Project product description",
     "difficulty": 2,
     "stem": "When is the project product description first written, and what is its purpose at that point?",
-    "answer": "During starting up a project, to confirm that all the major products needed to achieve the user's outcomes are identified",
+    "answer": "During starting up a project, to confirm that all the major products needed are identified",
     "distractors": [
-      "During initiating a project, to describe every product in sufficient detail to estimate cost",
-      "During managing a stage boundary, to confirm the products delivered in the stage",
-      "During directing a project, to authorise the project board to proceed",
+      "During initiating a project, to describe every product in sufficient detail to estimate cost and time",
+      "During managing a stage boundary, to confirm the products delivered in the stage and their acceptance",
+      "During directing a project, to authorize the project board to proceed",
       "During controlling a stage, to record progress against the plan",
       "During closing a project, to confirm acceptance of the products",
-      "During starting up a project, to set the tolerances for the initiation stage"
+      "During starting up a project, to set the tolerances for the initiation stage and the project"
     ],
     "explanation": "The major products or outcomes and key quality requirements are documented in the project product description during starting up a project, to confirm that all the major products needed for the user's expected outcomes are identified and that no unnecessary ones are included. It is refined during initiating a project.",
     "source": "p.109"
@@ -745,14 +745,14 @@
     "topic": "Project product description",
     "difficulty": 3,
     "stem": "High-level acceptance criteria are recommended to be measurable, but that is not always feasible. What does the manual allow instead?",
-    "answer": "Descriptive statements, provided the project brief says they will be translated into precise criteria when product descriptions are developed",
+    "answer": "Descriptive statements, if the project brief says they will be translated into precise criteria later",
     "distractors": [
-      "Acceptance criteria may be omitted until the products are delivered",
-      "The project board may waive acceptance criteria for innovative products",
-      "Descriptive statements may be used only where a supplier contract defines acceptance",
-      "The criteria may be replaced by the user's quality expectations",
-      "Acceptance may be deferred to the benefits management approach",
-      "The criteria may be expressed as tolerances rather than statements"
+      "Acceptance criteria may be omitted until the products are delivered, and then agreed with the user",
+      "The project board may waive acceptance criteria for innovative products, with the executive's approval",
+      "Descriptive statements may be used only where a supplier contract defines acceptance of the products",
+      "The criteria may be replaced by the user's quality expectations, which are then treated as the criteria",
+      "Acceptance may be deferred to the benefits management approach, and agreed at the benefits review",
+      "The criteria may be expressed as tolerances rather than statements, if the board agrees to them"
     ],
     "explanation": "Descriptive statements can be used instead of measurable criteria, as long as the project brief clearly indicates that they will be translated into more precise criteria as part of developing product descriptions. This matters for a common understanding and for setting quality tolerances.",
     "source": "p.109"
@@ -766,12 +766,12 @@
     "stem": "Which item is part of the project product description rather than the plan?",
     "answer": "The acceptance methods and who is responsible for the acceptance decisions",
     "distractors": [
-      "The schedule of stages and activities",
-      "The risk budget and change budget",
-      "The work breakdown structure",
+      "The schedule of stages and activities, with the dependencies between them",
+      "The risk budget and change budget, with the contingency held for each stage",
+      "The work breakdown structure, with the activities and work packages it groups",
       "The proposed tolerances for scope, cost and time",
       "The monitoring and reporting arrangements",
-      "The lessons incorporated into the plan"
+      "The lessons incorporated into the plan, and the actions that followed from them"
     ],
     "explanation": "The project product description covers purpose, major products, derivation, the user's quality expectations, acceptance criteria, acceptance methods and responsibilities, and project-level quality tolerances. Budgets, schedules, work breakdown structures and tolerances are plan content.",
     "source": "p.110"
@@ -783,7 +783,7 @@
     "topic": "Product breakdown structure",
     "difficulty": 1,
     "stem": "What is a product breakdown structure?",
-    "answer": "A hierarchy of all the products to be produced during a plan",
+    "answer": "A hierarchy of all the products to be produced in a plan",
     "distractors": [
       "A diagram showing the sequence and dependencies of products",
       "A hierarchy of the work needed to deliver the products",
@@ -802,7 +802,7 @@
     "topic": "Product breakdown structure",
     "difficulty": 3,
     "stem": "Which function of a product breakdown structure does the manual give?",
-    "answer": "It groups requirements that relate to the same procurement or delivery method",
+    "answer": "It groups requirements by delivery method",
     "distractors": [
       "It sets the tolerances for each product",
       "It assigns each product to a named team member",
@@ -823,12 +823,12 @@
     "stem": "Why might a product breakdown structure include different states of the same product, such as a design, the construction, and the interior finishing of a building?",
     "answer": "Because each state may have its own quality specifications and be produced by a different team",
     "distractors": [
-      "Because the product breakdown structure must show every work package",
-      "Because each state has to be accepted by a different senior user",
-      "Because the final state replaces the earlier ones in the hierarchy",
-      "Because states must be sequenced in the product flow diagram and not the breakdown",
-      "Because the project board approves each state separately",
-      "Because each state consumes a separate stage tolerance"
+      "Because the product breakdown structure must show every work package, and every task in each",
+      "Because each state has to be accepted by a different senior user, and signed off separately",
+      "Because the final state replaces the earlier ones in the hierarchy, and they are then deleted",
+      "Because states must be sequenced in the product flow diagram and not in the breakdown structure",
+      "Because the project board approves each state separately, and may reject one without the others",
+      "Because each state consumes a separate stage tolerance, and must be tracked against it"
     ],
     "explanation": "The manual suggests considering whether to include different states of a product: the mall may start as an architect's design, become a construction effort, then interior finishing. Even though the owner wants a building that can be let, there may be quality specifications for each state.",
     "source": "p.111"
@@ -842,12 +842,12 @@
     "stem": "When are product descriptions written in more detail, and whose requirements does the project manager elicit?",
     "answer": "During initiating a project, eliciting the user's requirements and consulting subject matter experts",
     "distractors": [
-      "During starting up a project, eliciting the project board's requirements",
-      "During managing a stage boundary, eliciting the team manager's requirements",
-      "During controlling a stage, eliciting the supplier's requirements",
-      "During closing a project, eliciting the operations team's requirements",
-      "During directing a project, eliciting the commissioning party's requirements",
-      "During starting up a project, consulting only the senior supplier"
+      "During starting up a project, eliciting the project board's requirements and the mandate's constraints",
+      "During managing a stage boundary, eliciting the team manager's requirements and the supplier's terms",
+      "During controlling a stage, eliciting the supplier's requirements and reviewing the product descriptions",
+      "During closing a project, eliciting the operations team's requirements and the support teams' needs",
+      "During directing a project, eliciting the commissioning party's requirements and the board's wishes",
+      "During starting up a project, consulting only the senior supplier and the project manager's team"
     ],
     "explanation": "In initiating a project, the project manager elicits the user's requirements for the products and documents them in product descriptions, consulting subject matter experts on how the products will be procured, developed, tested, used and supported after acceptance.",
     "source": "p.111"
@@ -859,14 +859,14 @@
     "topic": "Product descriptions",
     "difficulty": 3,
     "stem": "How does the level of detail in product descriptions differ between a linear-sequential project and an iterative-incremental one?",
-    "answer": "In a linear-sequential project they must be detailed enough to estimate cost and time with confidence; in an iterative one a high-level set may suffice for the stage",
+    "answer": "In linear-sequential projects they must allow confident estimates; in iterative ones high level may suffice",
     "distractors": [
       "In a linear-sequential project they can be high level; in an iterative one they must be complete before the stage starts",
-      "Both require the same detail, because product descriptions are mandatory management products",
-      "In a linear-sequential project they are written by the supplier; in an iterative one by the user",
-      "In an iterative project they are replaced entirely by the product breakdown structure",
-      "In both cases the detail is fixed at the end of the initiation stage",
-      "In a linear-sequential project they are written only for final products, not intermediate ones"
+      "Both require the same detail, because product descriptions are mandatory management products in every project",
+      "In a linear-sequential project they are written by the supplier; in an iterative one they are written by the user",
+      "In an iterative project they are replaced entirely by the product breakdown structure; in a linear project they are kept",
+      "In both cases the detail is fixed at the end of the initiation stage; later changes need a new mandate",
+      "In a linear-sequential project they are written only for final products; in an iterative one for intermediate products too"
     ],
     "explanation": "In a linear-sequential project, product descriptions should be detailed enough for costs and time to be estimated at an appropriate level of confidence. In an iterative-incremental project, detailed requirements may be developed in parallel with the products, so a high-level set may be enough to proceed with the stage.",
     "source": "p.111"
@@ -878,14 +878,14 @@
     "topic": "Product flow diagram",
     "difficulty": 1,
     "stem": "What does a product flow diagram show?",
-    "answer": "The sequence of production and the interdependencies of the products in the product breakdown structure",
+    "answer": "The sequence of production and the interdependencies of the products in the breakdown structure",
     "distractors": [
-      "The hierarchy of products and their component parts",
-      "The work packages and the teams responsible for them",
-      "The schedule of activities with their durations and float",
-      "The budget for each product and work package",
-      "The acceptance criteria for each product",
-      "The risks associated with each product"
+      "The hierarchy of products and their component parts, as set out in the project product description",
+      "The work packages and the teams responsible for them, with the dates they are due to be delivered",
+      "The schedule of activities with their durations and float, as calculated from the work breakdown",
+      "The budget for each product and work package, with the contingency held against each of them",
+      "The acceptance criteria for each product, and the methods by which each one will be assessed",
+      "The risks associated with each product, and the responses that have been planned for them"
     ],
     "explanation": "The product flow diagram shows the sequence in which the products in the plan will be developed and the dependencies between them. It should have a clear starting point and a clear end point.",
     "source": "p.111"
@@ -897,11 +897,11 @@
     "topic": "Product flow diagram",
     "difficulty": 2,
     "stem": "What is an intermediate product?",
-    "answer": "A product created as an essential input to another product but not intended for use by the user",
+    "answer": "A product made as an essential input to another but not for the user",
     "distractors": [
       "A product delivered part-way through a stage for early acceptance",
       "A product produced by an external supplier outside the project's scope",
-      "A product that the user has asked for but that is not funded",
+      "A product that the user has asked for but that is not funded or included in the project's scope",
       "A product that is produced in more than one state",
       "A product that has been deferred to a later stage",
       "A product whose acceptance criteria are still being defined"
@@ -916,16 +916,16 @@
     "topic": "Product flow diagram",
     "difficulty": 3,
     "stem": "How might the product breakdown structure and product flow diagram help the project manager and senior user?",
-    "answer": "By identifying when outputs will begin to affect outcomes, so the user can start measuring benefits realisation",
+    "answer": "By identifying when outputs begin to affect outcomes, so the user can start measuring benefits",
     "distractors": [
-      "By setting the tolerances for each stage of the project",
-      "By replacing the benefits management approach",
-      "By assigning accountability for benefits to the suppliers",
-      "By determining whether the business case should be approved",
-      "By deciding how many stages the project will have",
-      "By establishing the change budget"
+      "By setting the tolerances for each stage of the project, so the board can control the stage plans",
+      "By replacing the benefits management approach, so the user need not plan any benefits reviews",
+      "By assigning accountability for benefits to the suppliers, so the user can leave the benefits to them",
+      "By determining whether the business case should be approved, so the board can decide at initiation",
+      "By deciding how many stages the project will have, so the board can authorize each of them in turn",
+      "By establishing the change budget, so the user can fund any changes that arise during the stage"
     ],
-    "explanation": "The manual suggests the project manager and senior user may find these products useful for identifying when project outputs will begin to affect outcomes, allowing the user to begin measuring benefits realisation. Products may also be distinguished by the stage in which they are completed.",
+    "explanation": "The manual suggests the project manager and senior user may find these products useful for identifying when project outputs will begin to affect outcomes, allowing the user to begin measuring benefits realization. Products may also be distinguished by the stage in which they are completed.",
     "source": "p.112"
   },
   {
@@ -935,14 +935,14 @@
     "topic": "Work packages and dependencies",
     "difficulty": 2,
     "stem": "What distinguishes an external dependency from an internal dependency?",
-    "answer": "An external dependency is on a product or activity outside the project's scope, over which the team does not have complete control",
+    "answer": "An external dependency is on something outside the project's scope that the team does not control",
     "distractors": [
       "An external dependency is between two work packages delivered by different teams inside the project",
       "An external dependency is one that has been contracted to a supplier but remains in project scope",
-      "An external dependency is any dependency identified after the project plan is baselined",
+      "An external dependency is any dependency identified after the project plan is baselined, however minor",
       "An external dependency is one that the project board has accepted as a risk",
       "An external dependency is one that crosses a stage boundary",
-      "An external dependency is one recorded in the risk register rather than the plan"
+      "An external dependency is one recorded in the risk register rather than in the plan, for the board"
     ],
     "explanation": "An internal dependency is between two products of the project, where the team has control. An external dependency is between a project product and a product or activity outside the project's scope, where the team does not have complete control.",
     "source": "p.113"
@@ -954,14 +954,14 @@
     "topic": "Work packages and dependencies",
     "difficulty": 3,
     "stem": "What does the manual say about work package descriptions where no contract is involved?",
-    "answer": "The work package description is still considered an agreement between the project manager and the team manager responsible",
+    "answer": "The work package description is still considered an agreement between the manager and team manager",
     "distractors": [
       "It is not required, because there is no commercial relationship to document",
-      "It is replaced by the team plan for internal work",
-      "It must be approved by the senior supplier before work starts",
-      "It should be recorded in the commercial management approach instead",
-      "It is only required if the work package spans a stage boundary",
-      "It becomes a contract once the team manager accepts it"
+      "It is replaced by the team plan for internal work, which the team manager agrees with the board",
+      "It must be approved by the senior supplier before work starts, and then issued by the project manager",
+      "It should be recorded in the commercial management approach instead, and issued with the contract",
+      "It is only required if the work package spans a stage boundary, and the board must approve it",
+      "It becomes a contract once the team manager accepts it, and is then enforceable in law by the business"
     ],
     "explanation": "Whether or not a contract is involved, a work package description is considered an agreement between the project manager and the team manager responsible for the work package. All dependencies shown in the product flow diagram must be documented in it.",
     "source": "p.113"
@@ -973,14 +973,14 @@
     "topic": "Work packages and dependencies",
     "difficulty": 3,
     "stem": "What does the manual require of the set of work packages in relation to scope?",
-    "answer": "There should be no overlap between any two work packages, and together they should comprise the full delivery scope with no gaps",
+    "answer": "Work packages should not overlap, and together should comprise the full delivery scope",
     "distractors": [
-      "Work packages may overlap where teams need to collaborate, provided the overlap is recorded",
-      "Work packages should cover the delivery scope, and management activities are excluded",
+      "Work packages may overlap where teams need to collaborate, provided the overlap is recorded and approved",
+      "Work packages should cover the delivery scope, and management activities are excluded from them",
       "Work packages may leave gaps provided the gaps are covered by the stage plan",
-      "Each work package must map to exactly one stage",
-      "Work packages should be defined only after the schedule is baselined",
-      "Work packages must be of equal size to allow progress to be compared"
+      "Each work package must map to exactly one stage, and may never span a stage boundary or a team",
+      "Work packages should be defined only after the schedule is baselined, and then not changed",
+      "Work packages must be of equal size to allow progress to be compared, and to balance team loads"
     ],
     "explanation": "The project manager should ensure no overlap in the scope of any two work packages, because overlap costs money and creates conflict between teams. The totality of the work packages should also comprise the full delivery scope, with no gaps between the product flow diagram, product breakdown structure and work packages.",
     "source": "p.113"
@@ -992,14 +992,14 @@
     "topic": "Work packages and dependencies",
     "difficulty": 2,
     "stem": "Why does the manual suggest organizing project management activities into a single work package for each stage?",
-    "answer": "It documents all management tasks and shows the relationship between stages, milestones and product delivery activities",
+    "answer": "It documents all management tasks and shows how stages, milestones and product delivery relate",
     "distractors": [
-      "It allows management costs to be excluded from the project budget",
-      "It removes the need for a stage plan for that stage",
-      "It transfers management accountability to the team manager",
-      "It makes the project management activities optional in the schedule",
-      "It allows the stage to proceed without board authorisation",
-      "It reduces the number of products in the product breakdown structure"
+      "It allows management costs to be excluded from the project budget, and from the stage plan, to save effort",
+      "It removes the need for a stage plan for that stage, and for any reporting, review or assurance",
+      "It transfers management accountability to the team manager, and releases the project manager to deliver",
+      "It makes the project management activities optional in the schedule, and so reduces the estimate",
+      "It allows the stage to proceed without board authorization, and the executive to approve it later",
+      "It reduces the number of products in the product breakdown structure, and the work breakdown too"
     ],
     "explanation": "A single work package per stage for management activities helps document all project management tasks and shows the relationship between stages and milestones and the activities purely related to product delivery, even where those activities are not part of the project budget.",
     "source": "p.113"
@@ -1011,7 +1011,7 @@
     "topic": "Preparing estimates",
     "difficulty": 2,
     "stem": "Which list names what project and team managers always estimate?",
-    "answer": "People, resources, duration of activities, cost of people and resources, benefits, and risk",
+    "answer": "People, resources, durations, cost, benefits and risk",
     "distractors": [
       "People, resources, duration, cost, quality and scope",
       "Duration, cost, benefits, risk, tolerances and assumptions",
@@ -1030,14 +1030,14 @@
     "topic": "Preparing estimates",
     "difficulty": 2,
     "stem": "Why does the manual recommend including a level of confidence with every estimate?",
-    "answer": "Higher confidence means fewer unexpected variations and lets the manager and board agree realistic tolerances",
+    "answer": "Higher confidence means fewer variations and lets the manager and board agree realistic tolerances",
     "distractors": [
-      "It allows estimates to be replaced by guarantees from the supplier",
-      "It removes the need to review estimates at stage boundaries",
-      "It transfers the risk of inaccuracy to the project board",
-      "It permits the project manager to exceed the cost tolerance without escalating",
-      "It is required for the business case to be approved",
-      "It allows the schedule to be produced without estimating durations"
+      "It allows estimates to be replaced by guarantees from the supplier, and so removes the need for tolerances",
+      "It removes the need to review estimates at stage boundaries, and so reduces the effort of planning",
+      "It transfers the risk of inaccuracy to the project board, and relieves the team manager of it",
+      "It permits the project manager to exceed the cost tolerance without escalating it to the project board",
+      "It is required for the business case to be approved, and for the project plan to be baselined",
+      "It allows the schedule to be produced without estimating durations, and so saves the planner's time"
     ],
     "explanation": "Confidence in an estimate signals how likely unexpected variations are, which is exactly what the project manager and board need in order to agree a realistic set of tolerances.",
     "source": "p.114"
@@ -1049,7 +1049,7 @@
     "topic": "Preparing a schedule",
     "difficulty": 2,
     "stem": "Which statement about the schedule is correct?",
-    "answer": "All work packages for a stage must be included in the schedule for that stage",
+    "answer": "All work packages for a stage must be included in that stage's schedule",
     "distractors": [
       "Only externally contracted work packages need to appear in the schedule",
       "The schedule must be a Gantt chart, because other formats are not permitted",
@@ -1070,12 +1070,12 @@
     "stem": "Which items does the manual say the budget should include?",
     "answer": "Activity costs including project management, the risk budget, the change budget and cost tolerances",
     "distractors": [
-      "Activity costs, the benefits estimate, the quality budget and time tolerances",
-      "People costs only, because equipment and facilities are in the schedule",
-      "The risk budget and change budget, but not the cost of management activities",
-      "Activity costs, contingency, supplier margin and the cost of assurance",
-      "The project budget, the stage budgets and the team budgets",
-      "Activity costs, the change budget and the scope tolerance"
+      "Activity costs, the benefits estimate, the quality budget and time tolerances, with the supplier's margin",
+      "People costs only, because equipment and facilities are in the schedule, and the risk budget is held by the board",
+      "The risk budget and change budget, but not the cost of management activities, nor the cost tolerances",
+      "Activity costs, contingency, supplier margin and the cost of assurance, with the cost tolerances",
+      "The project budget, the stage budgets and the team budgets, each approved by the project board",
+      "Activity costs, the change budget and the scope tolerance, but not the risk budget or the time tolerance"
     ],
     "explanation": "The budget should include the costs of the activities to produce and deliver the products, including the cost of project management activities, plus the risk budget, the change budget and cost tolerances. The risk and change budgets are optional depending on the value of the extra control.",
     "source": "p.115"
@@ -1089,12 +1089,12 @@
     "stem": "When does the manual say separate risk and change budgets may be omitted?",
     "answer": "Where the value of the additional control does not outweigh the additional management cost and time",
     "distractors": [
-      "When the project is delivered by external suppliers under a fixed-price contract",
-      "When the project is using an iterative-incremental delivery method",
-      "When the project board has set the cost tolerance to zero",
-      "When the risk register contains no high-priority risks",
-      "When the project is part of a programme with a central budget",
-      "When the project manager has delegated budget control to team managers"
+      "When the project is delivered by external suppliers under a fixed-price contract, with the risk held by them",
+      "When the project is using an iterative-incremental delivery method, and the scope is flexible",
+      "When the project board has set the cost tolerance to zero, and the budget is therefore fixed in full",
+      "When the risk register contains no high-priority risks, and no change is expected during the stage",
+      "When the project is part of a programme with a central budget, and the programme holds the contingency",
+      "When the project manager has delegated budget control to team managers, and they hold the contingency"
     ],
     "explanation": "Their use is optional and depends on project context: whether the value of the additional control outweighs the additional project management costs and time.",
     "source": "p.115"
@@ -1106,14 +1106,14 @@
     "topic": "Analysing risks",
     "difficulty": 2,
     "stem": "Until when does the manual say a completed plan should still be regarded as a draft?",
-    "answer": "Until decisions have been made on whether and how to treat the risks inherent in the plan",
+    "answer": "Until decisions have been made on whether and how to treat the plan's inherent risks",
     "distractors": [
-      "Until the project board has approved the business case",
-      "Until the product descriptions have all been signed off by the user",
-      "Until the schedule has been baselined in the planning tool",
-      "Until the change budget has been agreed with the commissioning party",
-      "Until the plan has been reviewed by project assurance",
-      "Until the first stage boundary has been passed"
+      "Until the project board has approved the business case and authorized the next stage",
+      "Until the product descriptions have all been signed off by the user and the supplier",
+      "Until the schedule has been baselined in the planning tool and shared with the board",
+      "Until the change budget has been agreed with the commissioning party and the executive",
+      "Until the plan has been reviewed by project assurance and by the team managers",
+      "Until the first stage boundary has been passed and the stage plan has been approved"
     ],
     "explanation": "After the plan is produced it is still a draft until decisions on treating its inherent risks have been made, and the plan may need to change as a result. All identified risks are entered in the risk register as the plan develops.",
     "source": "p.115"
@@ -1125,14 +1125,14 @@
     "topic": "Documenting the plan",
     "difficulty": 2,
     "stem": "A narrative document is often prepared alongside the planning products. Which item does the manual list as part of it?",
-    "answer": "The assumptions underlying the dependencies, tolerances, monitoring arrangements, budgets and key risks",
+    "answer": "The assumptions underlying the dependencies, tolerances and key risks",
     "distractors": [
-      "The individual task assignments for every team member",
-      "The supplier's confidential subcontractor costs",
-      "The lessons log entries from previous projects",
-      "The business case and benefits management approach",
-      "The role descriptions for the project management team",
-      "The quality register entries for each product"
+      "The individual task assignments for every team member, and their start dates",
+      "The supplier's confidential subcontractor costs, and its profit margin",
+      "The lessons log entries from previous projects, and their owners",
+      "The business case and benefits management approach, and the review dates",
+      "The role descriptions for the project management team, and the board",
+      "The quality register entries for each product, and their approvals"
     ],
     "explanation": "The narrative explains the plan at a high level and identifies internal and external dependencies, proposed tolerances, monitoring and control requirements, budgets, key risks, and the assumptions underlying any of those. A project plan also describes the stages and planned board decisions.",
     "source": "p.116"
@@ -1144,14 +1144,14 @@
     "topic": "Prioritizing",
     "difficulty": 2,
     "stem": "Why does the manual say scope usually has to be prioritized?",
-    "answer": "Projects seldom have the money, time or resources to deliver everything that is wanted, even where everything has business justification",
+    "answer": "Projects seldom have the money, time or resources to deliver everything wanted, even if justified",
     "distractors": [
-      "Because the project board is required to reduce scope at every stage boundary",
-      "Because acceptance criteria cannot be measured unless they are prioritized",
-      "Because suppliers will not contract for unprioritized requirements",
-      "Because the business case cannot be approved without a priority list",
-      "Because quality specifications must be ranked before products are defined",
-      "Because the project manager needs a backlog to schedule the work"
+      "Because the project board is required to reduce scope at every stage boundary, and report the reduction",
+      "Because acceptance criteria cannot be measured unless they are prioritized, and the board has ranked them",
+      "Because suppliers will not contract for unprioritized requirements, and the contract must list them in order",
+      "Because the business case cannot be approved without a priority list, and the list must be signed",
+      "Because quality specifications must be ranked before products are defined, and approved by the executive",
+      "Because the project manager needs a backlog to schedule the work, and the team needs one to estimate"
     ],
     "explanation": "Even where delivery of everything has business justification, the money, time or resources are rarely available, so scope including acceptance criteria and quality specifications must be prioritized, delivering as much as possible within the justification.",
     "source": "p.116"
@@ -1163,13 +1163,13 @@
     "topic": "Prioritizing",
     "difficulty": 3,
     "stem": "Which pairing of prioritization technique with its description is correct?",
-    "answer": "The Kano model describes features as delighters, performance features and essential features to gauge customer satisfaction",
+    "answer": "The Kano model describes features as delighters, performance features and essential features",
     "distractors": [
-      "The Kano model assesses criteria in two dimensions such as importance versus urgency",
+      "The Kano model assesses criteria in two dimensions such as importance versus urgency, to rank the work",
       "Pairwise comparison categorizes criteria as must-have, should-have, could-have and won't have",
-      "A product backlog explains preferences between two criteria at a time",
-      "Eisenhower matrices describe the sequence in which features will be released",
-      "MoSCoW uses two contrasting dimensions such as value versus ease of implementation",
+      "A product backlog explains preferences between two criteria at a time, for the whole of the project",
+      "Eisenhower matrices describe the sequence in which features will be released, and to whom, by iteration",
+      "MoSCoW uses two contrasting dimensions such as value versus ease of implementation, to rank features",
       "The Kano model ranks requirements by the order in which they appear in the contract"
     ],
     "explanation": "The manual gives MoSCoW-style categories, a product backlog for the sequence of features, pairwise comparison for preferences between criteria, the Kano model with delighters, performance and essential features, and Eisenhower matrices for two contrasting dimensions such as importance versus urgency.",
@@ -1220,14 +1220,14 @@
     "topic": "Scheduling techniques",
     "difficulty": 3,
     "stem": "What is the difference between the critical path and the critical chain?",
-    "answer": "The critical path is the sequence with the least total float; the critical chain also accounts for resource limitations",
+    "answer": "The critical path has the least total float; the critical chain also accounts for resource limits",
     "distractors": [
       "The critical path accounts for resource limitations; the critical chain does not",
       "The critical path includes procurement activities; the critical chain excludes them",
-      "The critical path is used in iterative projects; the critical chain in linear projects",
-      "The critical path is set by the supplier; the critical chain by the project manager",
-      "The critical path shows milestones only; the critical chain shows tasks only",
-      "They are the same sequence, described with different terminology"
+      "The critical path is used in iterative projects; the critical chain in linear projects, by convention",
+      "The critical path is set by the supplier; the critical chain by the project manager, with the board",
+      "The critical path shows milestones only; the critical chain shows tasks only, with their resources",
+      "They are the same sequence, described with different terminology by different planning communities"
     ],
     "explanation": "A critical path diagram illustrates the sequence of activities with the least total float, and a delay beyond the planned float on that path means the project overruns. Its weakness is that it ignores resource limitations, which is why identifying the critical chain as well can be useful.",
     "source": "p.117"
@@ -1241,12 +1241,12 @@
     "stem": "What does a schedule with zero float across all activities represent?",
     "answer": "A high risk of delay and of an exception to the time tolerance",
     "distractors": [
-      "A project that is certain to finish on time",
-      "A schedule that has not yet been estimated",
-      "A project with no critical path",
-      "A schedule that needs no monitoring",
-      "A project that has used its change budget",
-      "A stage that can be shortened without risk"
+      "A project that is certain to finish on time, whatever happens",
+      "A schedule that has not yet been estimated or sequenced by the team",
+      "A project with no critical path, because every activity is critical",
+      "A schedule that needs no monitoring, because nothing can slip",
+      "A project that has used up its change budget in full",
+      "A stage that can be shortened without any added risk"
     ],
     "explanation": "Float, or slack, is the time an activity can be delayed without affecting the plan's completion. A schedule with zero float across all activities represents a high risk of delay and of an exception to the time tolerance.",
     "source": "p.117"
@@ -1312,14 +1312,14 @@
     "topic": "Organizational context",
     "difficulty": 3,
     "stem": "A project is part of a programme. How might the programme affect the project's plans?",
-    "answer": "It may provide planners and templates, require stage reviews to align with programme milestones or tranches, and its delivery plan may create dependencies to incorporate",
+    "answer": "It may provide templates, align stage reviews with programme milestones, and create dependencies",
     "distractors": [
       "It removes the need for a project plan, because the programme plan replaces it",
-      "It transfers accountability for the project plan to the programme manager",
-      "It requires the project to use the same number of stages as every other project",
-      "It prohibits the project from having its own stage tolerances",
-      "It means the project board is replaced by the programme board",
-      "It requires all project work packages to be delivered by the programme office"
+      "It transfers accountability for the project plan to the programme manager, who approves it",
+      "It requires the project to use the same number of stages, stage lengths, and tolerances as other projects",
+      "It prohibits the project from having its own stage tolerances, and from varying the programme's",
+      "It means the project board is replaced by the programme board, and the plan by the programme plan",
+      "It requires all project work packages to be delivered by the programme office, and approved there"
     ],
     "explanation": "A programme may lead or support planning with dedicated planners and templates, influence the number and length of stages so reviews align with programme milestones or tranches, and its delivery plan will identify product dependencies to be incorporated into the project's plans.",
     "source": "p.118"
@@ -1331,14 +1331,14 @@
     "topic": "Commercial context",
     "difficulty": 3,
     "stem": "What is a back-to-back agreement in the commercial context described by the manual?",
-    "answer": "An agreement requiring the supplier's plans to trace to the user's project plan and align with board-approved acceptance criteria and quality specifications",
+    "answer": "An agreement requiring the supplier's plans to trace to the user's project plan and acceptance criteria",
     "distractors": [
-      "An agreement where the supplier and user exchange confidential cost information",
-      "A contract where the supplier takes over the project board's assurance role",
-      "An agreement that the supplier will be paid on a labour basis rather than a product basis",
-      "A contract that fixes the supplier's price to the project's change budget",
+      "An agreement where the supplier and the user exchange confidential cost information, margins and plans in full",
+      "A contract where the supplier takes over the project board's assurance role, and reports to the executive",
+      "An agreement that the supplier will be paid on a labor basis rather than a product basis",
+      "A contract that fixes the supplier's price to the project's change budget, and to its risk budget too",
       "An agreement that the supplier's plan replaces the stage plan for its work packages",
-      "A contract term allowing the supplier to set its own tolerances"
+      "A contract term allowing the supplier to set its own tolerances, and to vary them without approval"
     ],
     "explanation": "The manual recommends ensuring the agreement requires the supplier's plans to provide clear traceability to the applicable elements of the user's project plan, and alignment with the acceptance criteria and quality specifications approved by the project board. That approach is called a back-to-back agreement.",
     "source": "p.118"
@@ -1350,7 +1350,7 @@
     "topic": "Commercial context",
     "difficulty": 2,
     "stem": "Why does the manual suggest preparing non-confidential versions of plans?",
-    "answer": "Because both parties' plans may contain private information such as other client dependencies or subcontractor costs",
+    "answer": "Because plans may hold private information, such as costs",
     "distractors": [
       "Because the project board is not permitted to see supplier plans",
       "Because the supplier is not permitted to see the project plan",
@@ -1388,14 +1388,14 @@
     "topic": "Delivery method",
     "difficulty": 3,
     "stem": "Which statement describes a common planning approach for an iterative-incremental project?",
-    "answer": "Tolerances fix time and cost for each iteration and allow more flexibility in scope, with user stories and a backlog replacing product descriptions",
+    "answer": "Tolerances fix time and cost for each iteration and allow flexible scope, with a backlog replacing descriptions",
     "distractors": [
-      "Tolerances fix scope for each iteration and allow time and cost to vary",
-      "Product descriptions must be complete before the first iteration begins",
-      "The project plan is replaced by the product backlog",
-      "Stage boundaries are removed because iterations provide the control",
-      "Estimates are prepared only at the end of the project",
-      "A team plan is mandatory for every iteration"
+      "Tolerances fix scope for each iteration and allow time and cost to vary, with the project board approving each one",
+      "Product descriptions must be complete before the first iteration begins, and the board must approve them all",
+      "The project plan is replaced by the product backlog, and the stage plans by the sprint plans, in full",
+      "Stage boundaries are removed because iterations provide the control, and the board meets at each iteration",
+      "Estimates are prepared only at the end of the project, and the plan is then updated to match them",
+      "A team plan is mandatory for every iteration, and the team manager must have it approved by the board"
     ],
     "explanation": "The manual's common approach sets tolerances for each iteration that fix time and cost while allowing more flexibility in scope, produces the project product description in terms of outcomes and benefits, and develops user stories, epics and product backlogs instead of product descriptions, with releases or timeboxes defined as stages.",
     "source": "p.119"
@@ -1409,11 +1409,11 @@
     "stem": "What may be used instead of a team plan in an iterative-incremental project?",
     "answer": "A Kanban board combining the product backlog and workflow",
     "distractors": [
-      "A Gantt chart covering the whole project",
+      "A Gantt chart covering the whole project, drawn by the board",
       "A product checklist maintained by project support",
-      "A critical path diagram for each sprint",
-      "A work breakdown structure for the team",
-      "A stage plan approved by the project board"
+      "A critical path diagram for each sprint, and its float",
+      "A work breakdown structure for the team, and its estimates",
+      "A stage plan approved by the project board, and reissued each sprint"
     ],
     "explanation": "The manual says the product backlog and workflow can be combined in a collaborative planning tool such as a Kanban board, which may be used instead of a team plan and is developed as a joint effort by the whole development team.",
     "source": "p.120"
@@ -1462,14 +1462,14 @@
     "topic": "Scale",
     "difficulty": 3,
     "stem": "Which statement about the cost of project planning does the manual make?",
-    "answer": "Planning effort should be proportionate to the project, and in some cases planning and support could be ten per cent or more of the overall project cost",
+    "answer": "Planning effort should be proportionate to the project, and could be ten per cent or more of its cost",
     "distractors": [
-      "Planning should never exceed one per cent of the project cost",
-      "Planning costs are fixed by the programme office regardless of the project",
+      "Planning should never exceed one per cent of the project cost, however complex the project may be",
+      "Planning costs are fixed by the programme office regardless of the project, and are charged to it centrally",
       "Planning effort should be the same on every project, because the technique does not scale",
-      "Planning costs are excluded from the project budget and funded centrally",
-      "Planning effort should be minimised, because it does not reduce the risk of failure",
-      "Planning and support costs must be recorded in the change budget"
+      "Planning costs are excluded from the project budget and funded centrally, and the board does not see them",
+      "Planning effort should be minimized, because it does not reduce the risk of failure",
+      "Planning and support costs must be recorded in the change budget, and approved by the project board"
     ],
     "explanation": "Project planning is one of the most prudent ways to reduce the risk of failure, so the level of effort should be in line with the overall cost of the project. The manual notes it could be ten per cent or more of the overall cost in some cases.",
     "source": "p.121"
@@ -1481,14 +1481,14 @@
     "topic": "Plan management product",
     "difficulty": 2,
     "stem": "Which item is part of the high-level content of a plan management product?",
-    "answer": "Planning assumptions and prerequisites that must be established or remain in place for the plan to succeed",
+    "answer": "Planning assumptions and prerequisites for the plan to succeed",
     "distractors": [
-      "The user's quality expectations and acceptance methods",
-      "The role descriptions for the project management team",
-      "The composition of the change authority",
-      "The stakeholder engagement approach",
-      "The benefits management approach",
-      "The project mandate"
+      "The user's quality expectations and acceptance methods for the products",
+      "The role descriptions for the project management team members",
+      "The composition of the change authority and its delegated limits",
+      "The stakeholder engagement approach and the messages it uses",
+      "The benefits management approach and the reviews it requires",
+      "The project mandate and the constraints it records"
     ],
     "explanation": "Plan content includes scope, dependencies, planning assumptions and prerequisites, lessons incorporated, products to be delivered, work to be performed, budget, schedule, targets and tolerances, and monitoring, control and reporting arrangements.",
     "source": "p.122"
@@ -1500,14 +1500,14 @@
     "topic": "Plan management product",
     "difficulty": 3,
     "stem": "Which tolerance statement about plan content is correct?",
-    "answer": "Plans set scope, cost and time tolerances, and stage and team plans may also include sustainability and risk tolerances",
+    "answer": "Plans set scope, cost and time tolerances, with sustainability and risk tolerances optional",
     "distractors": [
-      "Plans set benefits, scope and quality tolerances only",
-      "All plans must set the same seven tolerance types",
-      "Only the project plan may contain tolerances",
-      "Tolerances are set in the business case rather than in the plan",
-      "Plans set time and cost tolerances only, because scope is fixed",
-      "Risk tolerances may appear only in exception plans"
+      "Plans set benefits, scope and quality tolerances only, with no time or cost tolerances at all",
+      "All plans must set the same seven tolerance types, with no variation, and no optional types",
+      "Only the project plan may contain tolerances, and stage and team plans must rely on its limits",
+      "Tolerances are set in the business case rather than in the plan, and the plan only repeats them",
+      "Plans set time and cost tolerances only, because scope is fixed, and the board agrees them",
+      "Risk tolerances may appear only in exception plans, and then only for the stage, not the project"
     ],
     "explanation": "The plan content lists targets and tolerances for scope, cost and time at the level of the plan, and notes that stage plans and team plans may also include sustainability and risk tolerances.",
     "source": "p.122"
@@ -1519,14 +1519,14 @@
     "topic": "Work package description",
     "difficulty": 2,
     "stem": "What is the purpose of a work package description?",
-    "answer": "To describe how one or more products will be produced and delivered, passing responsibility formally to a team manager or team member",
+    "answer": "To describe how products will be produced, passing responsibility to the team manager",
     "distractors": [
       "To describe the project's major products and acceptance criteria",
-      "To set the stage tolerances for the current stage",
-      "To record progress against the stage plan",
-      "To explain how the project will respond to an exception",
+      "To set the stage tolerances for the current stage, and the arrangements for reporting them",
+      "To record progress against the stage plan, and the products completed by each team",
+      "To explain how the project will respond to an exception, and who will approve the response",
       "To describe the delivery model and commercial arrangements",
-      "To summarise the lessons learned during the stage"
+      "To summarize the lessons learned during the stage, and the actions taken as a result"
     ],
     "explanation": "The work package description describes how one or more products will be produced and delivered and is the means of passing responsibility for the work formally to a team manager or team member.",
     "source": "p.123"
@@ -1538,14 +1538,14 @@
     "topic": "Work package description",
     "difficulty": 3,
     "stem": "Which of these is NOT high-level content of a work package description?",
-    "answer": "The business justification for the work package",
+    "answer": "The business justification for the work package itself",
     "distractors": [
       "Techniques and procedures for how the work is to be done",
       "Change control requirements for the baselines in scope",
-      "Constraints such as authorised work hours, safety and security measures"
+      "Constraints such as authorized work hours, safety and security measures"
     ],
     "exhaustive": true,
-    "explanation": "A work package description covers the work, the authorised person, product descriptions, techniques and procedures, change control, constraints, monitoring and reporting, targets and tolerances, references, approval and the agreement. Business justification belongs to the business case, not the work package.",
+    "explanation": "A work package description covers the work, the authorized person, product descriptions, techniques and procedures, change control, constraints, monitoring and reporting, targets and tolerances, references, approval and the agreement. Business justification belongs to the business case, not the work package.",
     "source": "p.123"
   },
   {
@@ -1555,14 +1555,14 @@
     "topic": "Focus of key roles",
     "difficulty": 2,
     "stem": "Who sets project tolerances, and where are they documented?",
-    "answer": "The business layer, in the project mandate or confirmed to the project board for inclusion in the project brief",
+    "answer": "The business layer, in the project mandate or confirmed to the board for the project brief",
     "distractors": [
-      "The project board, in the project initiation documentation",
-      "The project manager, in the project plan",
-      "The project executive, in the stage plan",
-      "The commissioning party, in the end project report",
-      "The programme manager, in the programme plan",
-      "Project assurance, in the assurance plan"
+      "The project board, in the project initiation documentation, approved at the end of initiating a project",
+      "The project manager, in the project plan, approved by the board at the first stage boundary",
+      "The project executive, in the stage plan, which the board approves at the start of each stage",
+      "The commissioning party, in the end project report, reviewed at project closure by the board",
+      "The programme manager, in the programme plan, then passed to the project in the project brief",
+      "Project assurance, in the assurance plan, agreed with the executive at the end of start-up"
     ],
     "explanation": "Table 7.1 gives the business layer responsibility for setting project tolerances and documenting them in the project mandate or confirming them to the project board for inclusion in the project brief. The executive sets stage tolerances and approves stage plans.",
     "source": "p.124"
@@ -1610,13 +1610,13 @@
     "topic": "Key relationships with principles",
     "difficulty": 3,
     "stem": "How does the plans practice support the principle manage by stages?",
-    "answer": "By breaking the lifecycle into stages to accommodate planning horizons and align stages with key decision points",
+    "answer": "By breaking the lifecycle into stages that fit planning horizons and align with decision points",
     "distractors": [
       "By setting tolerances for benefits, time, cost, quality, scope, risk and sustainability",
       "By defining the project, stage and team levels of plan and their tolerances",
       "By basing all plans on identifying the required products and how to deliver them",
       "By establishing roles and responsibilities specific to each plan",
-      "By using lessons from previous projects to inform planning",
+      "By using lessons from previous projects to inform planning, and recording new lessons at each stage",
       "By requiring only the planning activities appropriate to the project's context"
     ],
     "explanation": "Table 7.2 pairs manage by stages with breaking the lifecycle into stages to accommodate planning horizons and align stages to key decision points, producing stages and tolerances appropriate to business needs and realistic estimates.",
