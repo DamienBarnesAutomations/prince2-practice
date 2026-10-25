@@ -139,7 +139,7 @@
     "distractors": [
       "It holds regular progress meetings with the project manager in addition to the decision points",
       "It monitors through project assurance reviews and controls through the project manager's highlight reports",
-      "It monitors through the stage plan and controls by approving each work package, as the board decides",
+      "It monitors through the stage plan and controls by approving each work package",
       "It monitors through checkpoint reports from team managers and controls through daily stand-ups",
       "It monitors through the business case and controls through the benefits management approach",
       "It delegates monitoring to project support and controls through the end stage report"
@@ -549,7 +549,7 @@
     "topic": "Responsibilities",
     "difficulty": 3,
     "stem": "In the RACI chart for this process, how is responsibility for giving ongoing direction allocated among board members?",
-    "answer": "The executive covers business direction, the senior user user direction and the senior supplier supplier direction",
+    "answer": "The executive covers the business, the senior user the users and the senior supplier the suppliers",
     "distractors": [
       "The executive alone is responsible, with the other board members consulted, and the project manager informed",
       "The senior user and senior supplier are responsible, with the executive only informed",

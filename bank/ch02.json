@@ -24,7 +24,7 @@
     "section": "2",
     "topic": "The principles",
     "difficulty": 2,
-    "stem": "PRINCE2 is suitable for every project. Which list names the factors that are irrelevant to that suitability?",
+    "stem": "PRINCE2 is described as suitable for any project, whatever its... Which list completes that statement?",
     "answer": "Type, size, complexity, importance, level of risk and delivery method",
     "distractors": [
       "Sector, budget, geography, team size and contractual model",
@@ -127,7 +127,7 @@
       "The senior user should commission a benefits review before work resumes",
       "The project board should reduce scope until the case is viable again"
     ],
-    "explanation": "When continuing can no longer be justified, the project should be stopped in a controlled way. Cancelling in these circumstances is a positive contribution to the business, because funds and resources can be reinvested.",
+    "explanation": "When continuing can no longer be justified, the project should be stopped in a controlled way. Canceling in these circumstances is a positive contribution to the business, because funds and resources can be reinvested.",
     "source": "p.21"
   },
   {
@@ -203,7 +203,7 @@
       "As an outcome to be avoided unless tolerances are breached",
       "As a change to the business case requiring programme approval"
     ],
-    "explanation": "'Cancelling a project in these circumstances is a positive contribution to the business as the project's funds and resources can be reinvested in other more worthwhile projects.'",
+    "explanation": "Stopping a project that can no longer be justified is a positive contribution to the business, because its funds and resources can be reinvested in more worthwhile projects.",
     "source": "p.22"
   },
   {
@@ -269,8 +269,8 @@
     "section": "2.2",
     "topic": "Learn from experience",
     "difficulty": 2,
-    "stem": "At what point in the lifecycle does PRINCE2 say lessons should be included in relevant reports and reviews and at the end of each stage?",
-    "answer": "Continuously, as the project progresses",
+    "stem": "PRINCE2 gives three points for learning lessons: when starting, as the project progresses, and when closing. At which point are lessons included in relevant reports and reviews and at the end of each stage?",
+    "answer": "As the project progresses through its stages",
     "distractors": [
       "When the project is being started",
       "When the project is being closed",
@@ -397,25 +397,6 @@
     "source": "p.24"
   },
   {
-    "id": "ch02-022",
-    "set": "ch02",
-    "section": "2.3",
-    "topic": "Roles and relationships",
-    "difficulty": 2,
-    "stem": "The principle of defining roles, responsibilities and relationships is tied to which integrated element of PRINCE2?",
-    "answer": "People",
-    "distractors": [
-      "Principles",
-      "Practices",
-      "Processes",
-      "Project context",
-      "Sustainability",
-      "Tailoring"
-    ],
-    "explanation": "People is one of the five integrated elements of PRINCE2, which are principles, people, practices, processes and project context.",
-    "source": "p.24"
-  },
-  {
     "id": "ch02-023",
     "set": "ch02",
     "section": "2.3",
@@ -431,7 +412,7 @@
       "Undertaking the change authority role for changes within the project's tolerances",
       "Undertaking the project support role within the project office for the stage"
     ],
-    "explanation": "'The programme's business change manager (BCM) may undertake the project executive or senior user role on the project board to help align the project with the programme.'",
+    "explanation": "Where the project sits in a programme, the business change manager may take the project executive or senior user role on the project board, which helps keep the project aligned with the programme.",
     "source": "p.24"
   },
   {
@@ -450,7 +431,7 @@
       "The programme's benefits realization team",
       "The programme's change control board"
     ],
-    "explanation": "'The PMO could provide project support, or the programme's design authority could be given decision-making responsibility for authorizing changes at the project level.'",
+    "explanation": "In a programme, the programme management office could provide project support, and the design authority could be given decision-making responsibility for authorizing changes at project level.",
     "source": "p.24"
   },
   {
@@ -526,7 +507,7 @@
       "The period between progress reports during which the project manager may act freely without reporting",
       "The variance permitted between the forecast and actual cost of a work package before it is accepted"
     ],
-    "explanation": "'The permissible deviation above and below the plan's target for benefits, cost, time, quality, scope, sustainability, and risk without needing to escalate the deviation to the next level of management.' Tolerance applies at project, stage and team level.",
+    "explanation": "A tolerance is the permitted deviation above and below a plan's target for each of the seven performance aspects, beyond which the deviation must be escalated to the next management level. Tolerance applies at project, stage and team level.",
     "source": "p.25"
   },
   {
@@ -629,7 +610,7 @@
     "section": "2.4",
     "topic": "Manage by exception",
     "difficulty": 2,
-    "stem": "A project's scope tolerance permits all mandatory requirements to be delivered together with 60 percent or more of its could-have requirements. What does this illustrate?",
+    "stem": "A project's scope tolerance permits all mandatory requirements to be delivered together with 60 percent or more of its should-have and could-have requirements. What does this illustrate?",
     "answer": "A scope tolerance",
     "distractors": [
       "A quality tolerance",
@@ -779,7 +760,7 @@
     "section": "2.5",
     "topic": "Manage by stages",
     "difficulty": 3,
-    "stem": "How does PRINCE2 accommodates teams working in sprints and timeboxes?",
+    "stem": "How does PRINCE2 accommodate teams working in sprints and timeboxes?",
     "answer": "The method can be tailored to use sprints and user stories instead of work packages and product descriptions",
     "distractors": [
       "Sprints replace stages altogether, so the principle of manage by stages no longer applies to the project",
@@ -858,7 +839,7 @@
     "stem": "What orientation does PRINCE2 require of a project?",
     "answer": "Output-oriented rather than work-oriented",
     "distractors": [
-      "Product-oriented rather than process-oriented",
+      "Activity-oriented rather than output-oriented",
       "Benefit-oriented rather than output-oriented",
       "Stage-oriented rather than activity-oriented",
       "Risk-oriented rather than plan-oriented",
@@ -958,7 +939,7 @@
       "The project support role is responsible; the project manager is accountable",
       "The senior supplier is responsible; the project board is accountable",
       "The programme office is responsible; the project board is accountable",
-      "The project manager is responsible; the executive is accountable"
+      "The project manager is responsible; the programme manager is accountable"
     ],
     "explanation": "The project manager is responsible for tailoring and recommends it after consulting relevant lessons and standards. The board is accountable and approves the recommendations at the end of the initiation stage and whenever a change to the management approaches is proposed.",
     "source": "p.30"
@@ -1072,7 +1053,7 @@
       "The end stage report, consistent with the lessons log",
       "The project product description, consistent with the quality management approach"
     ],
-    "explanation": "'How PRINCE2 will be applied and tailored for the particular project is captured in the project initiation documentation... Care should be taken that the proposed tailoring is consistent with PRINCE2's seven principles and that the resultant method retains its integrity.'",
+    "explanation": "The project initiation documentation records how PRINCE2 is applied and tailored for the project. The tailoring has to stay consistent with the seven principles so that the resulting method keeps its integrity.",
     "source": "p.30"
   }
 ]

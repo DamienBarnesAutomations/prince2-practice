@@ -388,12 +388,12 @@
     "stem": "What is the purpose of an issue report?",
     "answer": "To set out how an issue affects the baseline, suggest ways of resolving it, and recommend action",
     "distractors": [
-      "To log every issue raised during the project, with its status, date of closure",
+      "To log every issue raised during the project, with its status and date of closure",
       "To inform the board that the stage plan is forecast to exceed its tolerances, with options",
-      "To record the lessons arising from an issue for use by future projects, the programme",
-      "To authorize a change to the project baseline on the board's behalf, record it",
+      "To record the lessons arising from an issue for use by future projects and the programme",
+      "To authorize a change to the project baseline on the board's behalf and record it",
       "To capture informal events and actions that no other product records, such as meetings and calls",
-      "To summarize the quality activities associated with an affected product, its reviews"
+      "To summarize the quality activities associated with an affected product and its reviews"
     ],
     "explanation": "The issue report analyzes the baseline impact and sets out options with a recommendation so a decision can be taken. Logging every issue with its status and closure date is the purpose of the issue register.",
     "source": "p.294"
@@ -828,7 +828,7 @@
       "It is a single log, which team managers are not permitted to keep separately, and which the board reviews",
       "It holds the quality activities planned for each work package, the results, and the reviewers' names",
       "It is created in initiating a project, closed at the first stage boundary, and archived by project support",
-      "It records the lessons that will feed into the end project report, the lessons report"
+      "It records the lessons that will feed into the end project report and the lessons report"
     ],
     "explanation": "The daily log can act as the project manager's diary for informal issues, actions and significant events, and it is created during starting up a project when the other registers do not yet exist. There may be more than one, since team managers may keep one for their work packages.",
     "source": "p.303"

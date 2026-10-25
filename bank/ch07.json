@@ -197,7 +197,7 @@
     "answer": "The same fundamental structure, differing in purpose, scope and level of detail",
     "distractors": [
       "The same level of detail, differing only in duration, owner and approval route",
-      "The same scope, differing only in who prepares them, who approves them",
+      "The same scope, differing only in who prepares them and who approves them",
       "The same approval route, differing only in the reporting format, the owner and the frequency",
       "The same tolerance values, differing only in the level, owner and unit at which they apply",
       "The same schedule, differing only in the number of work packages",
@@ -618,7 +618,7 @@
       "Planning only the products that the user has specified in the project product description",
       "Producing a product breakdown structure after the schedule has been agreed, then checking it against the plan",
       "Planning each product independently, without considering dependencies, so that teams can work in parallel",
-      "Basing the plan on the supplier's standard product catalogue, then adding the user's requirements",
+      "Basing the plan on the supplier's standard product catalog, then adding the user's requirements",
       "Planning by work package rather than by product, then grouping the packages into stages for the board"
     ],
     "explanation": "Product-based planning starts from the required products and derives the supporting elements of the plan, such as the work breakdown structure, estimates and schedule. It reflects the focus on products principle.",
@@ -954,7 +954,7 @@
     "topic": "Work packages and dependencies",
     "difficulty": 3,
     "stem": "What is true of work package descriptions where no contract is involved?",
-    "answer": "The work package description is still considered an agreement between the manager and team manager",
+    "answer": "The work package description is still considered an agreement between the project manager and team manager",
     "distractors": [
       "It is not required, because there is no commercial relationship to document",
       "It is replaced by the team plan for internal work, which the team manager agrees with the board",

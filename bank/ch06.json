@@ -91,7 +91,7 @@
       "The supplier interest, represented by the operations manager role",
       "The user interest, represented by the change authority role"
     ],
-    "explanation": "Users can sit outside the business as end users or be impacted by the outputs of the project, and the senior user role represents them. Operations and maintenance interests normally sit with the senior user too, unless a different supplier provides those services.",
+    "explanation": "Users can sit outside the business as end users or be impacted by the outputs of the project, and the senior user role represents them.",
     "source": "p.75"
   },
   {
@@ -100,7 +100,7 @@
     "section": "6.2.1",
     "topic": "The three project interests",
     "difficulty": 3,
-    "stem": "PRINCE2 says the three interests are brought together on the project board, and that the principle of manage by exception supports the day-to-day needs of managing the project. What does it say that principle enables?",
+    "stem": "What does PRINCE2 say the manage by exception principle enables on a project board that draws its members from three communities?",
     "answer": "Decision-making at the most local level where the knowledge and capacity reside",
     "distractors": [
       "A single decision-making point so that accountability cannot be diluted",
@@ -499,7 +499,7 @@
       "Project assurance is responsible, and may delegate it to the project office, or to the executive",
       "The commissioning party is responsible, and may delegate it to a P3O, or to a programme office"
     ],
-    "explanation": "Project support is the project manager's responsibility but can be delegated to suppliers, individuals, groups within the business or other team members, depending on scale, complexity, and the project manager's skills, knowledge and capacity. A project office can fulfil the role.",
+    "explanation": "Project support is the project manager's responsibility but can be delegated to suppliers, individuals, groups within the business or other team members, depending on scale, complexity, and the project manager's skills, knowledge and capacity. A project office can fulfill the role.",
     "source": "p.82"
   },
   {
@@ -518,7 +518,7 @@
       "Programme governance",
       "The senior user"
     ],
-    "explanation": "Project support provides services such as administrative support, facilitating meetings and workshops, advice and guidance on project tools, planning support, and risk, issue and change management. Some organizations establish a project office that fulfils this role.",
+    "explanation": "Project support provides services such as administrative support, facilitating meetings and workshops, advice and guidance on project tools, planning support, and risk, issue and change management. Some organizations establish a project office that fulfills this role.",
     "source": "p.82"
   },
   {

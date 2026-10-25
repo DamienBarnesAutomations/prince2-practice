@@ -32,7 +32,7 @@
       "The completed set of project outputs required to deliver an outcome, as described in the brief",
       "The measurable decline resulting from an outcome that the organization perceives as negative",
       "The measurable outcomes that demonstrate progress against the organization's strategy",
-      "The new capability the business must embed before any improvement can be claimed, or measured"
+      "The new capability the business must embed before any improvement can be claimed"
     ],
     "explanation": "A benefit is a measurable improvement arising from an outcome, perceived as an advantage by the investing organization and contributing to business objectives. The deliverable is the output, the result of change is the outcome, and a measurable decline is a dis-benefit.",
     "source": "p.57"
@@ -315,9 +315,9 @@
       "The costs already sunk in earlier, abandoned projects",
       "The cost of the programme office that supports the project",
       "The supplier's profit margin and any commercial overheads",
-      "The cost of the benefits reviews held after closure",
+      "The procurement costs of products that the business already owns",
       "The cost of the project's assurance and audit activities",
-      "The value of the dis-benefits, expressed as a cost"
+      "The cost of staff time spent on business as usual during the project"
     ],
     "explanation": "The case should cover not only the cost of developing the project product but also any changes to operational costs when the project concludes. Most organizations have policies defining how such costs are treated in business cases.",
     "source": "p.60"
@@ -599,7 +599,7 @@
     "distractors": [
       "The benefits expected when the must-have and should-have requirements are delivered, but none of the could-haves",
       "The benefits expected when the must-have, should-have and could-have requirements are all delivered in full",
-      "The lowest level of benefit the business would accept before cancelling the project, as set by the board",
+      "The lowest level of benefit the business would accept before canceling the project, as set by the board",
       "The benefits that would be realized if the project were stopped at the next stage boundary",
       "The benefits forecast if every identified risk materialized, and no response was made to any of them",
       "The benefits expected if the project used its full time tolerance and its full cost tolerance together"
@@ -633,7 +633,7 @@
     "topic": "Organizational context",
     "difficulty": 2,
     "stem": "In a programme context, who usually defines, tracks and manages the benefits?",
-    "answer": "The programme management team, the project's benefits approach possibly forming part of its plan",
+    "answer": "The programme management team, with the project's approach possibly forming part of the programme's plan",
     "distractors": [
       "The project board, because accountability for benefits cannot be delegated to a programme or anyone else",
       "The senior user, working independently of the programme and reporting only to the project executive",
@@ -708,7 +708,7 @@
     "section": "5.4.4",
     "topic": "Sustainability and appraisal",
     "difficulty": 3,
-    "stem": "Why may discounted cash flow be a poor way to justify a project such as a flood defence barrier?",
+    "stem": "Why may discounted cash flow be a poor way to justify a project such as a flood defense barrier?",
     "answer": "Because its benefits may not be realized for 20 or 30 years, and discounting reduces their present value",
     "distractors": [
       "Because sustainability projects have no measurable benefits to appraise, and so cannot be justified at all",
@@ -718,7 +718,7 @@
       "Because the project's costs are met from the risk budget rather than the project budget",
       "Because ESG objectives are not business objectives and cannot be appraised, however they are measured"
     ],
-    "explanation": "The manual uses the flood defence example to show that where benefits arise only after 20 or 30 years, discounting makes them look small in today's money. For a project whose primary purpose is a sustainability objective, traditional appraisal may need to be adapted.",
+    "explanation": "The manual uses the flood defense example to show that where benefits arise only after 20 or 30 years, discounting makes them look small in today's money. For a project whose primary purpose is a sustainability objective, traditional appraisal may need to be adapted.",
     "source": "p.67"
   },
   {

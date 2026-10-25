@@ -184,7 +184,7 @@
       "The project board may widen a tolerance without involving the business layer",
       "Time tolerance is expressed in working days, whereas cost tolerance is a percentage of budget"
     ],
-    "explanation": "The example shows the board choosing tolerances that reflect the business priority, with a generous cost tolerance and a deliberately tight time tolerance. Because the time tolerance is tight, a forecast of more than a month early or late has to go up to the programme board.",
+    "explanation": "The example shows the board choosing tolerances that reflect the business priority, with a generous cost tolerance and a deliberately tight time tolerance. Because the time tolerance is tight, a forecast of more than a month early or late has to go up to the business layer.",
     "source": "p.190"
   },
   {
@@ -292,7 +292,7 @@
     "answer": "A formal issue is captured in the issue register for its material impact, while an informal one is not",
     "distractors": [
       "A formal issue is raised by the project board and an informal issue by the team manager",
-      "A formal issue concerns cost or time and an informal issue concerns quality, as the manual explains in full",
+      "A formal issue concerns cost or time and an informal issue concerns quality",
       "A formal issue is recorded in the daily log and an informal issue in the issue register",
       "A formal issue must be resolved within the stage and an informal issue at the stage boundary",
       "A formal issue needs an exception report and an informal issue a checkpoint report",
@@ -367,7 +367,7 @@
     "stem": "What does PRINCE2 say about the composition, format and presentation of its reports?",
     "answer": "It does not define them, but they should take account of the quality, risk and issue management approaches",
     "distractors": [
-      "It prescribes a standard template for each report, and requires it to be followed, exactly",
+      "It prescribes a standard template for each report and requires it to be followed exactly",
       "It requires every report to be a formal document, signed by the project executive, and filed",
       "It leaves them entirely to the project manager, with nothing else to consider",
       "It requires them to follow the business layer's financial reporting standards, in every case",
@@ -576,7 +576,7 @@
     "stem": "A programme already has its own exception management procedure. What does PRINCE2 require of the project?",
     "answer": "An alternative procedure may be used, if the choice is documented as a tailoring decision in the PID",
     "distractors": [
-      "The PRINCE2 six-step technique must be used regardless of the programme's procedure",
+      "The PRINCE2 exception management technique must be used regardless of the programme's procedure",
       "The programme procedure must be replaced by the project's own procedure",
       "The choice must be approved by the business layer and recorded in the project mandate",
       "An alternative procedure may be used only if the project is not part of a programme",
@@ -900,7 +900,7 @@
       "To describe the quality criteria and acceptance methods for each product",
       "To describe how progress will be measured and reported to the business layer",
       "To describe the data an individual work package will produce and when",
-      "To record the systems used by the supplier for its own purposes, billing and reporting",
+      "To record the systems used by the supplier for its own purposes, such as billing and reporting",
       "To set out the tolerances that apply to the project's data, and the limits on its use",
       "To record the lessons learned about data management after the project closes"
     ],

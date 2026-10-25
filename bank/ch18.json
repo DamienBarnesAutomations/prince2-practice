@@ -313,7 +313,7 @@
       "Whether every risk in the project log has an owner on the project management team",
       "Whether the risk budget has been fully spent during the stage, and what remains for the next",
       "Whether the project's insurance cover is still adequate for the remaining work",
-      "Whether each risk has been re-assessed using quantitative modelling",
+      "Whether each risk has been re-assessed using quantitative modeling",
       "Whether the risk management approach should be re-baselined, and reissued to the team managers",
       "Whether the board's appetite should be replaced by the business layer's capacity"
     ],

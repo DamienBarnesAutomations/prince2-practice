@@ -142,7 +142,7 @@
     "answer": "Learning or upskilling, transferring knowledge from the project team, or recruiting new people into the business",
     "distractors": [
       "Extending the project by a stage, seeking additional funding from the board, or delaying the handover",
-      "Outsourcing the transition to a supplier, postponing it to a later programme, or cancelling the benefit",
+      "Outsourcing the transition to a supplier, postponing it to a later programme, or canceling the benefit",
       "Running a pilot, delaying handover until all staff are retrained, or phasing the roll-out by department",
       "Reducing scope, deferring benefits until the next financial year, or reducing the size of the user group",
       "Increasing assurance activity, escalating transition decisions to the board, or appointing an independent reviewer",
@@ -167,7 +167,7 @@
       "As standards, because they set the expected level of service",
       "As references, because they point to associated documents"
     ],
-    "explanation": "Enabling activities are the things that help people make the transition, such as consultation, trials, training and a helpline, and they are planned before, during and after transition. Supporting tools and techniques is the nearest wrong option, but that heading covers aids such as modelling rather than the activities themselves.",
+    "explanation": "Enabling activities are the things that help people make the transition, such as consultation, trials, training and a helpline, and they are planned before, during and after transition. Supporting tools and techniques is the nearest wrong option, but that heading covers aids such as modeling rather than the activities themselves.",
     "source": "p.35"
   },
   {
@@ -579,7 +579,7 @@
     "answer": "By people meeting purposefully and regularly, building trust across organizational and project silos",
     "distractors": [
       "By issuing regular written progress reports, signed by the manager, to the whole team and the board",
-      "By ensuring all team members report to the same line manager, share a budget",
+      "By ensuring all team members report to the same line manager and share a budget",
       "By holding one team-building event at the start of the project, and a second event at its closure",
       "By standardizing everyone's ways of working, tools and templates across the organization and its suppliers",
       "By keeping social contact separate from project work, and discouraging informal conversation in meetings",
@@ -802,13 +802,13 @@
     "topic": "People and principles",
     "difficulty": 1,
     "stem": "Which PRINCE2 principle ensures that people factors are continually addressed through the project's lifecycle?",
-    "answer": "Defined roles and responsibilities",
+    "answer": "Define roles and responsibilities",
     "distractors": [
       "Continued business justification",
       "Learn from experience",
       "Manage by exception",
       "Focus on products",
-      "Tailor to suit the project context",
+      "Tailor to suit the project",
       "Manage by stages"
     ],
     "explanation": "The principle requiring every project to define roles, responsibilities and relationships is what keeps people factors in view throughout the lifecycle. The other principles also touch on people, but none carries that specific requirement.",

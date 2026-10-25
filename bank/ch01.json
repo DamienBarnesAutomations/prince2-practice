@@ -198,7 +198,7 @@
       "Benefits, costs, time, quality, scope, people and risk",
       "Benefits, costs, time, quality, scope, sustainability and issues",
       "Benefits, costs, time, quality, products, sustainability and risk",
-      "Benefits, budget, schedule, quality, scope, sustainability and risk",
+      "Benefits, costs, time, quality, scope, sustainability and resources",
       "Benefits, costs, time, assurance, scope, sustainability and risk",
       "Costs, time, quality, scope, sustainability, risk and change"
     ],
@@ -306,8 +306,8 @@
     "section": "1.5.4",
     "topic": "Sustainability",
     "difficulty": 1,
-    "stem": "Unless stated otherwise, what does it mean by sustainability?",
-    "answer": "One, some or all of the 17 sustainable development goals set by the United Nations, unless stated",
+    "stem": "Unless stated otherwise, what does PRINCE2 mean by sustainability?",
+    "answer": "One, some or all of the 17 sustainable development goals set by the United Nations",
     "distractors": [
       "The environmental impact of the project work only, measured against the organization's own targets",
       "The whole life cost and operational resilience of the delivered products over their expected lifetime",

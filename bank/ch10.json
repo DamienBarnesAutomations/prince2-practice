@@ -237,7 +237,7 @@
       "The process by which issues are captured in the project log, assessed, and allocated to an owner",
       "The process by which approved changes are funded from the change budget and tracked",
       "The process by which the project board delegates its authority to approve changes",
-      "The process by which products are baselined, their versions identified",
+      "The process by which products are baselined and their versions identified",
       "The process by which exceptions are reported to the project board and assessed",
       "The process by which superseded product versions are archived and indexed"
     ],
@@ -313,8 +313,8 @@
       "The product is accepted as a concession, the baseline is updated, and the issue is closed with the board's consent",
       "The issue is closed, the discrepancy is recorded in the lessons log, and the supplier is told of it",
       "The supplier's contract is terminated, the work is re-tendered, and the board is informed of the cost",
-      "The off-specification is reclassified as a request for change, reassessed",
-      "The project board sets a new quality specification, rebaselines the stage",
+      "The off-specification is reclassified as a request for change and reassessed",
+      "The project board sets a new quality specification and rebaselines the stage",
       "The issue is transferred to the risk register, assessed as a secondary risk"
     ],
     "explanation": "Rejection does not end the matter: the team manager, in consultation with the project manager, must find a way to correct it, which may draw on the change budget or require an exception report. Acceptance, by contrast, would produce a concession and an updated baseline.",
@@ -913,11 +913,11 @@
     "answer": "Manage by exception",
     "distractors": [
       "Focus on products",
-      "Learn by experience",
+      "Learn from experience",
       "Manage by stages",
       "Ensure continued business justification",
       "Define roles, responsibilities and relationships",
-      "Tailor to suit the project context"
+      "Tailor to suit the project"
     ],
     "explanation": "Table 10.3 pairs manage by exception with establishing the authority and procedure for issue management, which gives the project manager an efficient means to decide and report exceptions within delegated authority. Focus on products is supported instead by linking issues and requested changes to the baseline.",
     "source": "p.183"

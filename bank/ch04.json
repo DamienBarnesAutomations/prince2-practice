@@ -66,7 +66,7 @@
     "answer": "Because projects are cross-functional, so accountability and delivery must be assigned within a temporary team",
     "distractors": [
       "Because line managers are not permitted to fund any project work, release staff, or take part in a project",
-      "Because the project board must approve every appointment to a project role, set its pay",
+      "Because the project board must approve every appointment to a project role and set its pay",
       "Because suppliers sit outside the organization and cannot be managed, so contracts must replace all management",
       "Because the project manager reports to the business layer rather than to line managers",
       "Because project roles are permanent and must be resourced by the business, which then funds and staffs them",
@@ -161,13 +161,13 @@
     "answer": "All seven practices should be applied; they vary only in how they are applied, according to scale, risk and complexity",
     "distractors": [
       "Practices may be dropped if the project board records the decision in the project log",
-      "Practices may be dropped on projects that are not part of a programme, are low in risk",
-      "Only the practices that have management products need to be applied, and the rest, by agreement",
+      "Practices may be dropped on projects that are not part of a programme and are low in risk",
+      "Only the practices that have management products need to be applied, and the rest may be dropped by agreement",
       "Practices may be replaced by equivalent techniques from the chosen delivery method, if the board agrees",
       "All seven must be applied with the same degree of formality on every project, whatever its scale, risk, or complexity",
-      "A practice may be dropped only if its tolerance has been set to zero, the board agrees"
+      "A practice may be dropped only if its tolerance has been set to zero and the board agrees"
     ],
-    "explanation": "The manual states that all seven practices should be applied in a project, while the way they are applied varies with scale, risk, the people and organizations involved, and complexity. That variation keeps the method consistent with the seven principles; it is not a licence to omit a practice.",
+    "explanation": "The manual states that all seven practices should be applied in a project, while the way they are applied varies with scale, risk, the people and organizations involved, and complexity. That variation keeps the method consistent with the seven principles; it is not a license to omit a practice.",
     "source": "p.52"
   },
   {

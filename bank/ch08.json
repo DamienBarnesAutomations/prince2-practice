@@ -25,7 +25,7 @@
     "topic": "Definition of quality",
     "difficulty": 1,
     "stem": "Which of these best describes quality?",
-    "answer": "The degree to which a set of inherent characteristics of a product fulfils its requirements",
+    "answer": "The degree to which a set of inherent characteristics of a product fulfills its requirements",
     "distractors": [
       "A prioritized list of criteria that a product must meet before the user will accept it",
       "The permissible deviation in a product's quality before it must be escalated to the next management level",
@@ -34,7 +34,7 @@
       "A need or expectation that has been documented in an approved management product, such as the brief",
       "The procedures used to monitor a product and its delivery against relevant standards"
     ],
-    "explanation": "Quality is about the degree to which inherent characteristics fulfil requirements, and the definition applies to products, services, processes, people, organizations, systems and resources. The other options are the definitions of acceptance criteria, quality tolerance, quality specifications, quality assurance, requirement and quality control.",
+    "explanation": "Quality is about the degree to which inherent characteristics fulfill requirements, and the definition applies to products, services, processes, people, organizations, systems and resources. The other options are the definitions of acceptance criteria, quality tolerance, quality specifications, quality assurance, requirement and quality control.",
     "source": "p.128"
   },
   {
@@ -937,12 +937,12 @@
     "stem": "Which quality responsibility belongs to the senior user rather than to the executive?",
     "answer": "Accepting the project product and being accountable for its acceptance",
     "distractors": [
-      "Approving the quality management approach for the project and its suppliers",
+      "Preparing the quality management approach for the project and its suppliers",
       "Setting stage-level quality tolerance on behalf of the project board",
       "Confirming acceptance of the project product on behalf of the business layer",
       "Advising the project manager on suitable quality experts and reviewers",
       "Preparing and maintaining the product register and quality register",
-      "Approving the project product description before the board authorizes initiation"
+      "Providing the business's quality management system and applicable standards"
     ],
     "explanation": "The senior user provides the user's quality expectations and acceptance criteria, approves the project product description, agrees the quality management approach, approves product descriptions for specialist products, provides people and resources for user quality activities, and accepts the project product with accountability for that acceptance. The executive confirms acceptance of the project product and sets stage-level quality tolerance.",
     "source": "p.145"
@@ -976,7 +976,7 @@
     "answer": "By establishing quality tolerances, approved by the board, so the manager can decide and report exceptions",
     "distractors": [
       "By aligning quality controls and techniques with stages and stage boundary controls, as the board requires",
-      "By basing all quality planning, and control activities, on the project products, as the manual requires",
+      "By basing all quality planning and control activities on the project products",
       "By establishing the roles and responsibilities for quality within the project organization",
       "By requiring only those quality activities appropriate to the delivery method, and to product characteristics",
       "By incorporating lessons from quality control activities into quality planning for later stages",

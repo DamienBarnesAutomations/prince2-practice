@@ -66,7 +66,9 @@ UK_SPELLING = re.compile(
     r"\b\w*?(?:authoris|summaris|realis|characteris|penalis|materialis|personalis|prioritis|"
     r"minimis|recognis|organis|formalis|jeopardis|visualis|standardis|centralis|synchronis|"
     r"utilis|finalis|customis|optimis)(?:e|ed|es|ing|ation|ations)\b"
-    r"|\banalys(?:e|ed|es|ing)\b|\b(?:behaviour|labour|rumour)s?\b|\bcentres?\b|\bjudgement\b",
+    r"|\banalys(?:e|ed|es|ing)\b|\b(?:behaviour|labour|rumour)s?\b|\bcentres?\b|\bjudgement\b"
+    r"|\bfulfils?\b|\bdefences?\b|\blicences?\b|\bmodell(?:ed|ing)\b|\bcancell(?:ed|ing)\b"
+    r"|\bcatalogues?\b|\blabell(?:ed|ing)\b",
     re.IGNORECASE,
 )
 

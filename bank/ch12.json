@@ -196,7 +196,7 @@
     "topic": "Closing a project",
     "difficulty": 3,
     "stem": "What must the project board be satisfied about before a project can close?",
-    "answer": "That recipients can own and use each product and the business the project product",
+    "answer": "That recipients can own each product and the business can own the project product",
     "distractors": [
       "That every benefit in the business case has already been realized and measured",
       "That all post-project benefits reviews have been completed and signed off",

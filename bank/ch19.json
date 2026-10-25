@@ -30,7 +30,7 @@
       "The process is not used, because acceptance of the project product cannot be confirmed",
       "The project is suspended instead of closed, so that work can restart if funding is restored",
       "Acceptance of the project product is confirmed before the closure can be recorded",
-      "The remaining products are cancelled and removed from the product register without further review",
+      "The remaining products are canceled and removed from the product register without further review",
       "The closure is treated as an exception that the business layer must approve before it takes effect",
       "The project is merged into a programme so that the remaining products can be completed there"
     ],

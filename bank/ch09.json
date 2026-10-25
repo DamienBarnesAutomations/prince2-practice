@@ -48,7 +48,7 @@
     "distractors": [
       "A threat is certain to occur and an opportunity is uncertain, so threats are always escalated first",
       "A threat affects cost and an opportunity affects benefits only",
-      "A threat is owned by the project board and an opportunity by the business layer, as the manual states",
+      "A threat is owned by the project board and an opportunity by the business layer",
       "A threat is recorded in the risk register and an opportunity in the lessons log, for later projects",
       "A threat is assessed quantitatively and an opportunity qualitatively, by the project manager alone",
       "A threat arises internally and an opportunity arises externally, so they need different responses"
@@ -180,7 +180,7 @@
     "answer": "A sum of money to fund specific management responses to the project's threats and opportunities",
     "distractors": [
       "The total contingency added to every work package in the project, and held by the team managers",
-      "The amount the business is willing to lose before cancelling the project, as set by the board",
+      "The amount the business is willing to lose before canceling the project, as set by the board",
       "The cost of the risk management approach and the risk register",
       "The difference between the project budget and the stage budgets, held in reserve by the executive",
       "The funding reserved for unidentified changes to requirements, and held by the change authority",
@@ -195,17 +195,17 @@
     "section": "9.2.1",
     "topic": "Risk planning",
     "difficulty": 1,
-    "stem": "Who sets the risk tolerance, and on what basis?",
-    "answer": "The project board, based on the business's risk appetite",
+    "stem": "On what is the risk tolerance based?",
+    "answer": "The business's overall risk appetite, as applied by the board",
     "distractors": [
-      "The project manager, based on the stage plan estimates",
-      "The business layer, based on the project mandate",
-      "The executive alone, based on the business case",
-      "Project assurance, based on the risk register",
-      "The programme manager, based on the programme risk budget",
-      "The senior supplier, based on the supplier's contractual risk"
+      "The project manager's estimates of cost and time in the stage plan",
+      "The project mandate and the funding that the business has committed",
+      "The business case and the benefits that the project is forecast to deliver",
+      "The number and grading of risks held in the risk register at initiation",
+      "The programme's risk budget and the threshold set for the programme",
+      "The supplier's contractual risk allocation and its commercial position"
     ],
-    "explanation": "A key item recorded in the risk management approach is the board's attitude towards risk-taking, documented as the risk tolerance. The board sets it based on the business's overall risk appetite.",
+    "explanation": "The risk management approach records the board's attitude to risk-taking as the risk tolerance, and that tolerance is derived from the business's overall risk appetite.",
     "source": "p.150"
   },
   {
@@ -236,12 +236,12 @@
     "stem": "\"Insufficient staffing capacity could lead to the business being unable to provide enough staff to complete user training in the planned timescales, resulting in the project taking longer than planned.\" Which part is the risk event?",
     "answer": "The business being unable to provide enough staff to complete user training in the planned timescales",
     "distractors": [
-      "Insufficient staffing capacity within the business, which is the cause of the risk rather than the event",
-      "The project taking longer than planned, which is the effect on the project's time objective",
-      "The user training that the project must deliver, which is the product at risk in the scenario",
-      "The planned timescales for the training, which are the objective that the risk would affect",
-      "The project board's risk tolerance for time, which sets how much delay the board would accept",
-      "The risk response of recruiting temporary trainers, which is an action rather than part of the risk"
+      "Insufficient staffing capacity across the business units that would supply trainers to the project",
+      "The project taking longer than planned to deliver the user training programme to the business",
+      "The user training that the project must deliver to the business before the project closes",
+      "The planned timescales that the user training was scheduled to meet in the approved plan",
+      "The project board's tolerance for delay on the time objective of the stage in question",
+      "A response of recruiting temporary trainers to cover any shortfall in staff during the training"
     ],
     "explanation": "The manual's own threat example maps insufficient staffing capacity to the cause, the inability to provide enough staff to complete user training in the planned timescales to the event, and the project taking longer than planned to the effect.",
     "source": "p.150"
@@ -338,7 +338,7 @@
       "A prompt list",
       "A cause and effect diagram"
     ],
-    "explanation": "Quantitative risk assessment uses modelling techniques such as Monte Carlo analysis to calculate overall risk exposure and analyze the effects of risk, including quantitative risk cost analysis and quantitative risk schedule analysis.",
+    "explanation": "Quantitative risk assessment uses modeling techniques such as Monte Carlo analysis to calculate overall risk exposure and analyze the effects of risk, including quantitative risk cost analysis and quantitative risk schedule analysis.",
     "source": "p.151"
   },
   {
@@ -1216,7 +1216,7 @@
     "stem": "What is true of all roles in relation to risk responses?",
     "answer": "All roles are responsible for implementing risk responses, as risk action owner, for assigned risks",
     "distractors": [
-      "All roles are responsible for approving the risk management approach, as the board decides",
+      "All roles are responsible for approving the risk management approach",
       "All roles are responsible for maintaining the risk register, as risk owner, for the risks they raise",
       "All roles are responsible for setting the risk tolerance for their area, as the board delegates",
       "Only the project manager is responsible for implementing responses, as risk action owner",

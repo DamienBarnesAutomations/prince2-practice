@@ -196,14 +196,14 @@
     "topic": "Project executive",
     "difficulty": 2,
     "stem": "Which of these is NOT a responsibility of the project executive?",
-    "answer": "Preparing the business case and updating it each stage",
+    "answer": "Accepting the project product and being accountable for how it performs",
     "distractors": [
-      "Being accountable for the benefits for the duration of the project",
+      "Being accountable for the business case for the duration of the project",
       "Securing the funding for the project and its release",
       "Confirming project closure and notifying the business"
     ],
     "exhaustive": true,
-    "explanation": "Preparing the business case, and assessing and updating it at the end of each stage, is the project manager's work, while the executive is accountable for the business case and for continued business justification. The other three options are executive responsibilities.",
+    "explanation": "Accepting the project product and being accountable for how it performs belong to the senior user. The executive is accountable for the business case and continued justification, secures the funding, and confirms closure and notifies the business.",
     "source": "p.310"
   },
   {
@@ -317,7 +317,7 @@
       "It is always a full-time role separate from the rest of the team, and funded centrally by the board",
       "It may only be delegated to a recognized project office, and approved by the project board"
     ],
-    "explanation": "Project support is the project manager's responsibility, but it can be delegated to suppliers, individuals or groups within the business, or to other team members, depending on the scale and complexity of the project and the project manager's skills, knowledge and capacity. Some organizations establish a project office to fulfil the role.",
+    "explanation": "Project support is the project manager's responsibility, but it can be delegated to suppliers, individuals or groups within the business, or to other team members, depending on the scale and complexity of the project and the project manager's skills, knowledge and capacity. Some organizations establish a project office to fulfill the role.",
     "source": "p.311"
   },
   {
