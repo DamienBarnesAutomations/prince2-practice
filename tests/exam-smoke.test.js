@@ -35,7 +35,8 @@ globalThis.localStorage = {
   setItem: (key, value) => storage.set(key, value),
 };
 
-globalThis.history = { replaceState() {}, pushState() {} };
+const pushed = [];
+globalThis.history = { replaceState() {}, pushState: (entry) => pushed.push(entry.view) };
 
 globalThis.window = {
   addEventListener(type, handler) {
@@ -93,6 +94,31 @@ for (let attempt = 0; attempt < 500; attempt += 1) {
   if (/Exam mode/.test(appEl.innerHTML)) break;
   await flush();
 }
+
+test('a failed file load is reported on the current screen and can be retried', async () => {
+  await click('mode', { mode: 'chapter' });
+  const held = bank['bank/ch05.json'];
+  delete bank['bank/ch05.json'];
+
+  await click('pick-set', { set: 'ch05' });
+  assert.match(appEl.innerHTML, /Something went wrong: Could not load bank\/ch05\.json/);
+  assert.doesNotMatch(appEl.innerHTML, /question bank could not be loaded/);
+  assert.match(appEl.innerHTML, /Pick a chapter to drill/);
+
+  bank['bank/ch05.json'] = held;
+  await click('pick-set', { set: 'ch05' });
+  assert.match(appEl.innerHTML, /How many questions/);
+  assert.doesNotMatch(appEl.innerHTML, /Something went wrong/);
+});
+
+test('a filter that matches nothing says so instead of doing nothing', async () => {
+  // The synthetic bank has no hard questions.
+  await click('toggle-hard');
+  await click('start');
+  assert.match(appEl.innerHTML, /No questions match that filter/);
+  assert.match(appEl.innerHTML, /How many questions/);
+  await click('toggle-hard');
+});
 
 test('exam intro states the real exam rules', async () => {
   await click('mode', { mode: 'exam' });
@@ -154,4 +180,18 @@ test('browser back asks once before discarding a live exam paper', async () => {
   await flush();
   assert.match(appEl.innerHTML, /Practice by chapter/);
   assert.match(appEl.innerHTML, /Missed questions/);
+});
+
+test('a double-click on Start exam starts one paper and one history entry', async () => {
+  await click('home');
+  await click('mode', { mode: 'exam' });
+  const before = pushed.filter((view) => view === 'quiz').length;
+
+  await Promise.all([click('start-exam'), click('start-exam')]);
+  assert.match(appEl.innerHTML, /Question 1 of 60/);
+  assert.equal(pushed.filter((view) => view === 'quiz').length - before, 1);
+
+  // Abandon, so the exam clock does not keep the test process alive.
+  await click('leave');
+  await click('leave');
 });

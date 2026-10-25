@@ -26,7 +26,8 @@ const appEl = {
 };
 const clockEl = { textContent: '' };
 
-const storage = new Map();
+// Unreadable saved progress must be set aside, not overwritten by the first answer.
+const storage = new Map([['prince2Practice.v1', '{not json']]);
 
 globalThis.HTMLInputElement = class HTMLInputElement {};
 globalThis.HTMLTextAreaElement = class HTMLTextAreaElement {};
@@ -49,7 +50,23 @@ globalThis.window = {
   },
 };
 
-globalThis.history = { replaceState() {}, pushState() {} };
+// A real stack, because the bugs worth catching live in what pushState truncates
+// and in entries that outlive the state behind them.
+const stack = [null];
+let at = 0;
+globalThis.history = {
+  get state() {
+    return stack[at];
+  },
+  replaceState(entry) {
+    stack[at] = entry;
+  },
+  pushState(entry) {
+    stack.splice(at + 1);
+    stack.push(entry);
+    at += 1;
+  },
+};
 
 globalThis.fetch = async (url) => {
   const relative = String(url).replace(/^\.\//, '').split('?')[0];
@@ -69,13 +86,14 @@ async function click(action, data = {}) {
   await flush();
 }
 
-async function press(key) {
-  listeners.document({ key, preventDefault() {}, target: {} });
+async function press(key, target = {}) {
+  listeners.document({ key, preventDefault() {}, target });
   await flush();
 }
 
-async function backTo(view) {
-  listeners.popstate({ state: { view } });
+async function travel(delta) {
+  at += delta;
+  listeners.popstate({ state: stack[at] });
   await flush();
 }
 
@@ -91,6 +109,11 @@ for (let attempt = 0; attempt < 500; attempt += 1) {
   await flush();
 }
 assert.match(appEl.innerHTML, /Practice by chapter/, 'app never rendered its home screen');
+
+test('unreadable saved progress is kept aside and the user is told', () => {
+  assert.match(appEl.innerHTML, /Saved progress could not be read/);
+  assert.equal(storage.get('prince2Practice.v1.corrupt'), '{not json');
+});
 
 test('home offers the four modes and a progress summary', () => {
   assert.match(appEl.innerHTML, /Mixed chapters/);
@@ -196,7 +219,44 @@ test('browser back leaves the session instead of the site', async () => {
   await click('start');
   assert.match(appEl.innerHTML, /Question 1 of/);
 
-  await backTo('home');
+  await travel(-1);
+  assert.match(appEl.innerHTML, /How many questions/);
+});
+
+async function finishPracticeSet() {
+  await click('mode', { mode: 'chapter' });
+  await click('pick-set', { set: 'ch02' });
+  await click('set-count', { count: '10' });
+  await click('start');
+  await click('submit');
+  await click('submit');
+  assert.match(appEl.innerHTML, /class="review"/);
+}
+
+test('back from a restarted quiz lands on a usable screen, not a dead results entry', async () => {
+  await click('home');
+  await finishPracticeSet();
+  await click('restart');
+  assert.match(appEl.innerHTML, /Question 1 of/);
+
+  await travel(-1);
+  assert.match(appEl.innerHTML, /Practice by chapter/);
+  assert.equal(history.state.view, 'home', 'the dead entry is corrected');
+});
+
+test('forward onto a results entry whose paper is gone falls back to home', async () => {
+  await click('home');
+  await finishPracticeSet();
+  await click('restart');
+  await click('leave');
+  await travel(-1);
+  assert.match(appEl.innerHTML, /Practice by chapter/);
+});
+
+test('a history entry for a screen with no state behind it shows home', async () => {
+  await click('home');
+  history.replaceState({ view: 'results' }, '');
+  await travel(0);
   assert.match(appEl.innerHTML, /Practice by chapter/);
 });
 
@@ -211,4 +271,28 @@ test('an exam needs a second press before it can be abandoned', async () => {
 
   await click('leave');
   assert.match(appEl.innerHTML, /Practice by chapter/);
+});
+
+test('Enter on a focused button activates it instead of advancing the question', async () => {
+  await click('mode', { mode: 'chapter' });
+  await click('pick-set', { set: 'ch02' });
+  await click('start');
+  assert.match(appEl.innerHTML, /Question 1 of/);
+
+  await press('Enter', { closest: () => ({}) });
+  assert.match(appEl.innerHTML, /Question 1 of/);
+
+  await press('Enter');
+  assert.match(appEl.innerHTML, /Question 2 of/);
+});
+
+test('hard-only does not carry over into the next pool', async () => {
+  await click('leave');
+  await click('open-chapter', { set: 'ch02' });
+  await click('toggle-hard');
+  assert.match(appEl.innerHTML, /toggle-hard" checked/);
+
+  await click('home');
+  await click('open-chapter', { set: 'ch03' });
+  assert.doesNotMatch(appEl.innerHTML, /toggle-hard" checked/);
 });

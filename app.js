@@ -2,6 +2,7 @@ import { buildSession, scoreSession } from './bank-logic.js';
 import { chapterProgress, missedIds, passMark } from './progress.js';
 
 const STORAGE_KEY = 'prince2Practice.v1';
+const CORRUPT_BACKUP_KEY = `${STORAGE_KEY}.corrupt`;
 const COUNT_CHOICES = [10, 20, 30];
 const EXAM_QUESTIONS = 60;
 const EXAM_MINUTES = 60;
@@ -27,6 +28,7 @@ const state = {
   pendingLeave: false,
   paletteOpen: true,
   loadError: '',
+  busy: false,
   storageOk: true,
   exam: { totalMs: EXAM_MINUTES * 60 * 1000, deadline: 0, remainingMs: 0 },
   timer: null,
@@ -52,8 +54,11 @@ function loadStore() {
   try {
     parsed = JSON.parse(raw);
   } catch {
-    // Corrupt data must not be silently trusted, and must not take the app down.
-    return { ...empty, corrupt: true };
+    parsed = null;
+  }
+
+  if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.attempts)) {
+    return setAsideUnreadable(raw, empty);
   }
 
   // v1 stored nothing but attempts; the shape is still valid, so migrate in place.
@@ -65,6 +70,20 @@ function loadStore() {
     : [];
 
   return { version: 2, attempts, exams };
+}
+
+// Unreadable data must not be trusted, must not take the app down, and must not
+// be overwritten by the next answer. It is copied aside first; if even that
+// fails, saving is switched off so the original survives.
+function setAsideUnreadable(raw, empty) {
+  let keptAs = '';
+  try {
+    localStorage.setItem(CORRUPT_BACKUP_KEY, raw);
+    keptAs = CORRUPT_BACKUP_KEY;
+  } catch {
+    state.storageOk = false;
+  }
+  return { ...empty, corrupt: true, keptAs };
 }
 
 function saveStore() {
@@ -180,12 +199,58 @@ function modeLabel(mode) {
   }[mode] ?? 'Practice';
 }
 
+/* ------------------------------------------------------------------ recovery */
+
+// A runtime fault is not a failed bank load. Say what happened on the screen the
+// user is already on; only if that screen cannot draw, fall back to home.
+function recover(error) {
+  console.error(error);
+  const notice = `Something went wrong: ${error.message}`;
+  try {
+    state.notice = notice;
+    render();
+  } catch (again) {
+    console.error(again);
+    abandonSession();
+    state.view = 'home';
+    state.notice = notice;
+    history.replaceState({ view: 'home' }, '');
+    render();
+  }
+}
+
+// Wraps an event entry point so a throw, sync or async, reaches recover().
+function safely(handler) {
+  return (...args) => {
+    try {
+      const result = handler(...args);
+      return result && typeof result.then === 'function' ? result.catch(recover) : result;
+    } catch (error) {
+      recover(error);
+    }
+  };
+}
+
+// Actions that wait on the network run one at a time, and say whether the user
+// has navigated elsewhere while they waited.
+let navEpoch = 0;
+
+async function exclusive(task) {
+  if (state.busy) return;
+  state.busy = true;
+  try {
+    await task(navEpoch);
+  } finally {
+    state.busy = false;
+  }
+}
+
 /* --------------------------------------------------------------------- clock */
 
 function startClock() {
   stopClock();
   state.exam.deadline = Date.now() + state.exam.totalMs;
-  state.timer = setInterval(tickClock, 250);
+  state.timer = setInterval(safely(tickClock), 250);
   tickClock();
 }
 
@@ -229,8 +294,27 @@ function render() {
     results: viewResults,
   };
 
-  appEl.innerHTML = (views[state.view] ?? viewHome)();
+  // History entries outlive the page (reload, restart, abandoned paper), so a
+  // restored view may name state that no longer exists. Show home instead of
+  // rendering against nulls, and correct the entry so Back/Forward stay sane.
+  if (!viewHasState(state.view)) {
+    state.view = 'home';
+    history.replaceState({ view: 'home' }, '');
+  }
+
+  const banner = state.notice && state.view !== 'quiz'
+    ? `<p class="banner" role="status">${escapeHtml(state.notice)}</p>`
+    : '';
+
+  appEl.innerHTML = banner + (views[state.view] ?? viewHome)();
   appEl.focus({ preventScroll: true });
+}
+
+function viewHasState(view) {
+  if (view === 'setup') return state.pool.length > 0;
+  if (view === 'quiz') return state.session !== null;
+  if (view === 'results') return state.results !== null && state.session !== null;
+  return true;
 }
 
 function stopClockIfLeavingQuiz() {
@@ -244,6 +328,7 @@ function stopClockIfLeavingQuiz() {
 // deliberately do not push: back leaves the session rather than stepping
 // through it.
 function navigate(view, { replace = false } = {}) {
+  navEpoch += 1;
   state.view = view;
   const entry = { view };
   if (replace) history.replaceState(entry, '');
@@ -258,9 +343,38 @@ function abandonSession() {
   state.session = null;
   state.results = null;
   state.position = 0;
+  clearTransient();
+}
+
+// Messages and armed confirmations belong to one moment; any real action ends them.
+function clearTransient() {
   state.pendingSubmit = false;
   state.pendingLeave = false;
   state.notice = '';
+}
+
+function goToQuestion(position) {
+  state.position = position;
+  clearTransient();
+  render();
+}
+
+// Returns whether the answer was taken: marked questions are locked in practice.
+function selectOption(index) {
+  const entry = state.session[state.position];
+  const exam = state.mode === 'exam';
+  if (index >= entry.options.length) return false;
+  if (!exam && entry.selected !== null) return false;
+
+  entry.selected = index;
+  clearTransient();
+  if (!exam) recordAttempt(entry, state.mode);
+  render();
+  return true;
+}
+
+function backButton(action, label) {
+  return `<p class="eyebrow"><button class="btn subtle" data-action="${action}" style="padding-left:0">← ${label}</button></p>`;
 }
 
 /* ---------------------------------------------------------------------- home */
@@ -330,6 +444,9 @@ function viewHome() {
 
     ${index.sets.length < 21 ? `<p class="footnote">Bank in progress: ${21 - index.sets.length} sets not written yet.</p>` : ''}
     ${state.storageOk ? '' : '<p class="footnote">This browser blocked storage, so progress is not being saved.</p>'}
+    ${store.corrupt ? `<p class="footnote">${store.keptAs
+      ? `Saved progress could not be read, so this session starts fresh. The original is kept in this browser under "${escapeHtml(store.keptAs)}".`
+      : 'Saved progress could not be read and could not be set aside, so nothing will be saved this session.'}</p>` : ''}
   `;
 }
 
@@ -355,7 +472,7 @@ function viewPick() {
     .join('');
 
   return `
-    <p class="eyebrow"><button class="btn subtle" data-action="home" style="padding-left:0">← Practice</button></p>
+    ${backButton('home', 'Practice')}
     <h1>${mixed ? 'Mixed chapters' : 'Practice by chapter'}</h1>
     <p class="lede">${mixed
       ? 'Tick the chapters you want. Questions are drawn across all of them.'
@@ -386,7 +503,7 @@ function viewSetup() {
     .join('');
 
   return `
-    <p class="eyebrow"><button class="btn subtle" data-action="back-from-setup" style="padding-left:0">← Back</button></p>
+    ${backButton('back-from-setup', 'Back')}
     <h1>${escapeHtml(state.poolLabel)}</h1>
     <p class="lede">${pool.length} question${pool.length === 1 ? '' : 's'} available.
       ${state.mode === 'missed' ? 'A question leaves this list once you answer it correctly twice in a row.' : 'Marked as you go, with the reason shown.'}</p>
@@ -422,7 +539,7 @@ function viewExamIntro() {
   const short = total < EXAM_QUESTIONS;
 
   return `
-    <p class="eyebrow"><button class="btn subtle" data-action="home" style="padding-left:0">← Practice</button></p>
+    ${backButton('home', 'Practice')}
     <h1>Exam mode</h1>
     <p class="lede">The real paper, as closely as the bank currently allows. No feedback of any kind until you submit.</p>
 
@@ -509,7 +626,7 @@ function viewQuiz() {
     : `<span>${answered} answered</span>`;
 
   return `
-    <p class="eyebrow"><button class="btn subtle" data-action="leave" style="padding-left:0">← ${exam ? 'Leave exam' : 'Practice'}</button></p>
+    ${backButton('leave', exam ? 'Leave exam' : 'Practice')}
 
     <div class="quizbar">
       <span>Question ${state.position + 1} of ${total}</span>
@@ -552,7 +669,7 @@ function viewQuiz() {
 
     ${palette}
 
-    <p class="footnote" style="margin-top:12px">Keys: 1–4 to answer${exam ? '' : ''}${exam ? ' · F to flag' : ''} · ← → to move · Enter to advance</p>
+    <p class="footnote" style="margin-top:12px">Keys: 1–4 to answer${exam ? ' · F to flag' : ''} · ← → to move · Enter to advance</p>
   `;
 }
 
@@ -650,9 +767,14 @@ function viewResults() {
 
 /* ------------------------------------------------------------------- actions */
 
-async function openPool(label) {
+async function openPool(label, epoch) {
+  state.notice = '';
+  const pool = await gatherPool();
+  if (epoch !== navEpoch) return; // the user moved on while the files loaded
+
   state.poolLabel = label;
-  state.pool = await gatherPool();
+  state.pool = pool;
+  state.config.hardOnly = false;
 
   if (state.pool.length === 0) {
     state.notice = 'No questions match that selection.';
@@ -667,9 +789,7 @@ async function openPool(label) {
 function startSession(pool, count) {
   state.session = buildSession(pool, count);
   state.position = 0;
-  state.pendingSubmit = false;
-  state.pendingLeave = false;
-  state.notice = '';
+  clearTransient();
 
   if (state.mode === 'exam') {
     startClock();
@@ -709,8 +829,7 @@ function submitSession({ auto = false } = {}) {
     state.results = scoreSession(state.session);
   }
 
-  state.pendingSubmit = false;
-  state.notice = '';
+  clearTransient();
   // A finished paper must not be reachable by pressing back, so the results
   // screen takes the place of the quiz entry rather than stacking on top of it.
   navigate('results', { replace: true });
@@ -722,202 +841,164 @@ function answeredPool() {
     : state.pool;
 }
 
-appEl.addEventListener('click', async (event) => {
+appEl.addEventListener('click', safely(async (event) => {
   const trigger = event.target.closest('[data-action]');
   if (!trigger) return;
   const action = trigger.dataset.action;
 
-  try {
-    switch (action) {
-      case 'home':
-        state.notice = '';
-        navigate('home');
-        break;
+  switch (action) {
+    case 'home':
+      state.notice = '';
+      navigate('home');
+      break;
 
-      case 'leave':
-        if (state.mode === 'exam' && !state.pendingLeave) {
-          state.pendingLeave = true;
-          state.notice = LEAVE_EXAM_NOTICE;
-          render();
-          break;
-        }
-        abandonSession();
-        navigate('home', { replace: true });
-        break;
-
-      case 'mode':
-        state.mode = trigger.dataset.mode;
-        state.selection = [];
-        state.notice = '';
-
-        if (state.mode === 'chapter' || state.mode === 'mixed') {
-          navigate('pick');
-        } else if (state.mode === 'exam') {
-          navigate('examIntro');
-        } else {
-          await openPool('Missed questions');
-        }
-        break;
-
-      case 'pick-set':
-        state.selection = [trigger.dataset.set];
-        await openPool(setTitle(state.index.sets.find((entry) => entry.id === state.selection[0])));
-        break;
-
-      case 'open-chapter':
-        state.mode = 'chapter';
-        state.selection = [trigger.dataset.set];
-        await openPool(setTitle(state.index.sets.find((entry) => entry.id === state.selection[0])));
-        break;
-
-      case 'toggle-set': {
-        const setId = trigger.dataset.set;
-        state.selection = state.selection.includes(setId)
-          ? state.selection.filter((id) => id !== setId)
-          : [...state.selection, setId];
+    case 'leave':
+      if (state.mode === 'exam' && !state.pendingLeave) {
+        state.pendingLeave = true;
+        state.notice = LEAVE_EXAM_NOTICE;
         render();
         break;
       }
+      abandonSession();
+      navigate('home', { replace: true });
+      break;
 
-      case 'mixed-continue':
-        await openPool('Mixed chapters');
-        break;
+    case 'mode':
+      state.mode = trigger.dataset.mode;
+      state.selection = [];
+      state.notice = '';
 
-      case 'back-from-setup':
-        navigate(state.mode === 'missed' ? 'home' : 'pick');
-        break;
+      if (state.mode === 'chapter' || state.mode === 'mixed') {
+        navigate('pick');
+      } else if (state.mode === 'exam') {
+        navigate('examIntro');
+      } else {
+        await exclusive((epoch) => openPool('Missed questions', epoch));
+      }
+      break;
 
-      case 'set-count':
-        state.config.count = Number(trigger.dataset.count);
+    case 'pick-set':
+    case 'open-chapter':
+      await exclusive((epoch) => {
+        if (action === 'open-chapter') state.mode = 'chapter';
+        state.selection = [trigger.dataset.set];
+        return openPool(setTitle(state.index.sets.find((entry) => entry.id === trigger.dataset.set)), epoch);
+      });
+      break;
+
+    case 'toggle-set': {
+      const setId = trigger.dataset.set;
+      state.selection = state.selection.includes(setId)
+        ? state.selection.filter((id) => id !== setId)
+        : [...state.selection, setId];
+      render();
+      break;
+    }
+
+    case 'mixed-continue':
+      await exclusive((epoch) => openPool('Mixed chapters', epoch));
+      break;
+
+    case 'back-from-setup':
+      navigate(state.mode === 'missed' ? 'home' : 'pick');
+      break;
+
+    case 'set-count':
+      state.config.count = Number(trigger.dataset.count);
+      render();
+      break;
+
+    case 'toggle-hard':
+      state.config.hardOnly = !state.config.hardOnly;
+      render();
+      break;
+
+    case 'start': {
+      const pool = answeredPool();
+      if (pool.length === 0) {
+        state.notice = 'No questions match that filter.';
         render();
-        break;
-
-      case 'toggle-hard':
-        state.config.hardOnly = !state.config.hardOnly;
-        render();
-        break;
-
-      case 'start': {
-        const pool = answeredPool();
-        if (pool.length === 0) {
-          state.notice = 'No questions match that filter.';
-          break;
-        }
-        startSession(pool, Math.min(state.config.count, pool.length));
         break;
       }
+      startSession(pool, Math.min(state.config.count, pool.length));
+      break;
+    }
 
-      case 'start-exam': {
+    case 'start-exam':
+      await exclusive(async (epoch) => {
         state.selection = state.index.sets.map((entry) => entry.id);
         const pool = await gatherPool();
-        const total = Math.min(EXAM_QUESTIONS, pool.length);
+        if (epoch !== navEpoch) return;
         state.pool = pool;
         state.notice = '';
-        startSession(pool, total);
-        break;
-      }
+        startSession(pool, Math.min(EXAM_QUESTIONS, pool.length));
+      });
+      break;
 
-      case 'answer': {
-        const entry = state.session[state.position];
-        if (state.mode !== 'exam' && entry.selected !== null) break; // locked once marked
+    case 'answer':
+      selectOption(Number(trigger.dataset.index));
+      break;
 
-        const index = Number(trigger.dataset.index);
-        entry.selected = index;
-        state.pendingSubmit = false;
-        state.pendingLeave = false;
-        state.notice = '';
-
-        if (state.mode !== 'exam') recordAttempt(entry, state.mode);
-        render();
-        break;
-      }
-
-      case 'flag': {
-        const entry = state.session[state.position];
-        entry.flagged = !entry.flagged;
-        render();
-        break;
-      }
-
-      case 'goto':
-        state.position = Number(trigger.dataset.index);
-        state.pendingSubmit = false;
-        state.pendingLeave = false;
-        state.notice = '';
-        render();
-        break;
-
-      case 'next':
-        if (state.position < state.session.length - 1) {
-          state.position += 1;
-          state.pendingSubmit = false;
-          state.pendingLeave = false;
-          state.notice = '';
-          render();
-        }
-        break;
-
-      case 'prev':
-        if (state.position > 0) {
-          state.position -= 1;
-          state.pendingSubmit = false;
-          state.pendingLeave = false;
-          state.notice = '';
-          render();
-        }
-        break;
-
-      case 'submit':
-        submitSession();
-        break;
-
-      case 'restart': {
-        const pool = answeredPool();
-        startSession(pool, Math.min(state.config.count, pool.length));
-        break;
-      }
-
-      case 'drill-results-missed': {
-        const wanted = new Set(state.results.missed);
-        const pool = state.session
-          .filter((entry) => wanted.has(entry.question.id))
-          .map((entry) => entry.question);
-        state.mode = 'missed';
-        state.pool = pool;
-        state.poolLabel = 'Missed questions';
-        state.config.count = pool.length;
-        startSession(pool, pool.length);
-        break;
-      }
-
-      default:
-        break;
+    case 'flag': {
+      const entry = state.session[state.position];
+      entry.flagged = !entry.flagged;
+      render();
+      break;
     }
-  } catch (error) {
-    state.loadError = error.message;
-    render();
-  }
-});
 
-document.addEventListener('keydown', (event) => {
+    case 'goto':
+      goToQuestion(Number(trigger.dataset.index));
+      break;
+
+    case 'next':
+      if (state.position < state.session.length - 1) goToQuestion(state.position + 1);
+      break;
+
+    case 'prev':
+      if (state.position > 0) goToQuestion(state.position - 1);
+      break;
+
+    case 'submit':
+      submitSession();
+      break;
+
+    case 'restart': {
+      const pool = answeredPool();
+      startSession(pool, Math.min(state.config.count, pool.length));
+      break;
+    }
+
+    case 'drill-results-missed': {
+      const wanted = new Set(state.results.missed);
+      const pool = state.session
+        .filter((entry) => wanted.has(entry.question.id))
+        .map((entry) => entry.question);
+      state.mode = 'missed';
+      state.pool = pool;
+      state.poolLabel = 'Missed questions';
+      state.config.count = pool.length;
+      startSession(pool, pool.length);
+      break;
+    }
+
+    default:
+      break;
+  }
+}));
+
+document.addEventListener('keydown', safely((event) => {
   if (state.view !== 'quiz') return;
   if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) return;
   if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+  // Enter on a focused control activates that control; it is not 'next question'.
+  if (event.key === 'Enter' && event.target.closest?.('button, a, summary, select')) return;
 
   const entry = state.session[state.position];
   const exam = state.mode === 'exam';
 
   if (event.key >= '1' && event.key <= '4') {
-    const index = Number(event.key) - 1;
-    if (index >= entry.options.length) return;
-    if (!exam && entry.selected !== null) return;
-    event.preventDefault();
-    entry.selected = index;
-    state.pendingSubmit = false;
-    state.pendingLeave = false;
-    state.notice = '';
-    if (!exam) recordAttempt(entry, state.mode);
-    render();
+    if (selectOption(Number(event.key) - 1)) event.preventDefault();
     return;
   }
 
@@ -931,40 +1012,20 @@ document.addEventListener('keydown', (event) => {
 
   if (event.key === 'ArrowRight' || event.key === 'Enter') {
     event.preventDefault();
-    if (state.position < state.session.length - 1) {
-      state.position += 1;
-      state.pendingSubmit = false;
-      state.pendingLeave = false;
-      state.notice = '';
-      render();
-    } else {
-      submitSession();
-    }
+    if (state.position < state.session.length - 1) goToQuestion(state.position + 1);
+    else submitSession();
     return;
   }
 
   if (event.key === 'ArrowLeft') {
     event.preventDefault();
-    if (state.position > 0) {
-      state.position -= 1;
-      state.pendingSubmit = false;
-      state.pendingLeave = false;
-      state.notice = '';
-      render();
-    }
+    if (state.position > 0) goToQuestion(state.position - 1);
   }
-});
+}));
 
-window.addEventListener('popstate', (event) => {
+window.addEventListener('popstate', safely((event) => {
+  if (!state.index) return; // still booting; boot() renders once the bank is in
   const target = event.state?.view ?? 'home';
-
-  // Forward can land on the entry of a paper that has already been left.
-  if (target === 'quiz' && !state.session) {
-    history.replaceState({ view: 'home' }, '');
-    state.view = 'home';
-    render();
-    return;
-  }
 
   // Back would discard a live exam paper, so it asks once rather than obeying.
   // Pushing the entry back restores the position the browser just left.
@@ -978,9 +1039,11 @@ window.addEventListener('popstate', (event) => {
 
   if (state.view === 'quiz' && target !== 'quiz') abandonSession();
 
+  navEpoch += 1;
+  state.notice = '';
   state.view = target;
   render();
-});
+}));
 
 /* ----------------------------------------------------------------- bootstrap */
 
@@ -998,7 +1061,9 @@ async function boot() {
     return;
   }
 
-  if (!history.state?.view) history.replaceState({ view: 'home' }, '');
+  // history.state survives a reload but the session behind it does not, so the
+  // page always starts as a fresh home entry.
+  history.replaceState({ view: 'home' }, '');
   render();
 }
 
