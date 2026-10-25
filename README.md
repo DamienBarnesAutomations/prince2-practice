@@ -178,3 +178,14 @@ a registered trademark of PeopleCert.
 All questions are original. The manual itself is not published here and no manual text is
 reproduced. Answer source references point at page numbers so every claim can be checked
 against a copy of *Managing Successful Projects with PRINCE2* (7th edition).
+
+## Installing on a phone
+
+The app is an installable web app. Open the published site on the phone, then use
+"Install app" / "Add to Home screen" in the browser menu (on iPhone: Share, then Add to
+Home Screen). Once opened online, it also works offline.
+
+There is only ever one version: the deployed files. The service worker (`sw.js`) fetches
+every file from the network first and revalidates past the browser cache, so a push to
+`main` shows up on the next load. Its stored copy is used only when the phone is offline.
+Regenerate the icons with `python tools/make_icons.py`.
