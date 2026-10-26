@@ -1,0 +1,150 @@
+{
+  "set": "ch18",
+  "title": "Managing a stage boundary",
+  "pages": "pp.270-276",
+  "overview": "Managing a stage boundary gives the board what it needs to review the current stage, approve the next stage plan, check the updated project plan and reconfirm business justification. It also produces an exception plan when the board asks for one. Know the six activities, the end stage report, and that a decision not to proceed is not a failure.",
+  "sections": [
+    {
+      "id": "18.1",
+      "heading": "Purpose",
+      "page": 270,
+      "points": [
+        "Enable the project manager to give the board enough information to review the success of the current stage, prepare the next stage plan, review the updated project plan and confirm continued business justification and acceptable risks. Execute at or close to the end of each stage.",
+        "In response to an exception report (stage or project forecast to exceed tolerance), the board may request replanning of the current stage and possibly the project. The output is an exception plan, submitted for approval in the same way as a stage plan. Exceptions are another trigger for this process."
+      ]
+    },
+    {
+      "id": "18.2",
+      "heading": "Objectives",
+      "page": 270,
+      "points": [
+        "Assure the board that all products in the current stage plan are completed and approved; prepare a stage plan or exception plan for the next stage; review and if necessary update the project initiation documentation, especially the business case, project plan, user's quality expectations, management approaches, team structure and role descriptions; provide information for the board to assess continuing viability; record information or lessons for later stages or other projects; request authorization to start the next stage.",
+        "For exceptions the objectives are similar but include preparing an exception plan and seeking approval to replace the project plan or current stage plan with it."
+      ]
+    },
+    {
+      "id": "18.3",
+      "heading": "Context",
+      "page": 271,
+      "points": [
+        "Figure 18.1: triggered by stage boundary approaching (from controlling a stage or initiating a project) or an exception plan request (from directing a project); activities are prepare the next stage plan, prepare the exception plan (if required), update the project plan, update the business case, evaluate the stage, request the next stage; outputs are the next stage request or the exception plan approval request (to directing a project).",
+        "Based on dividing the project into stages. Business justification is reconfirmed at the end of each stage, and if necessary the project is redirected or stopped to avoid wasting time and money.",
+        "Projects can go wrong or be affected by external factors that invalidate the justification. An early identifier is the project manager's forecast that tolerances are likely to be exceeded, and there must be a mechanism for corrective action. A positive decision not to proceed is not failure. Providing insufficient information, which prevents an informed or timely board decision, is a failure.",
+        "The process provides a means to implement an exception procedure.",
+        "Table 18.1: prepare the next stage plan creates the next stage plan and product descriptions and updates the log and project initiation documentation if needed; prepare the exception plan creates the exception plan and product descriptions for the revised stage, triggering the exception plan approval request; update the project plan; update the business case (and benefits management approach); evaluate the stage creates the end stage report; request the next stage sends the end stage report and the next stage or exception plan, triggering directing a project."
+      ]
+    },
+    {
+      "id": "18.4.1",
+      "heading": "Prepare the next stage plan",
+      "page": 272,
+      "points": [
+        "The next stage plan is produced near the end of the current stage. Closure activities should be planned as part of the stage plan for the final stage.",
+        "Not done in isolation: consult the board, project assurance, team managers and possibly other stakeholders. More people involved makes a more robust plan, provided they are the right people.",
+        "Actions: review and update the components of the project initiation documentation, checking planning requirements from the management approaches (consulting the board if changes are needed); review the lessons log for lessons to apply; review the project plan for relevant milestones; produce the next stage plan and product descriptions for next stage products; create or update product register records; update the project log for new or changed issues and risks; update the quality register for planned quality activities with target review and approval dates."
+      ]
+    },
+    {
+      "id": "18.4.2",
+      "heading": "Prepare the exception plan",
+      "page": 273,
+      "points": [
+        "If a stage or the project is forecast to deviate beyond agreed tolerances it no longer has the board's approval. Exception plans are requested by the board in response to an exception report. Though produced before the planned stage boundary, the board's approval marks a stage boundary for the revised stage.",
+        "Actions: update the project log to record the request for an exception plan; review and update the project initiation documentation, checking planning requirements (consulting the board if needed); review lessons; review the project plan for milestones; produce the exception plan; produce or update product descriptions; create or update product register records; update the project log for new or changed issues and risks; update it for planned quality activities with target review and approval dates."
+      ]
+    },
+    {
+      "id": "18.4.3",
+      "heading": "Update the project plan",
+      "page": 273,
+      "points": [
+        "The board uses the project plan throughout to measure progress. Update it with progress from the stage finishing, the forecast duration and costs from the exception plan, or the plan for the stage about to begin. Revised costs or end dates feed the business case update.",
+        "Actions: check the current stage plan is up to date with actual progress; revise the project plan; update the project log for new or changed issues and risks."
+      ]
+    },
+    {
+      "id": "18.4.4",
+      "heading": "Update the business case",
+      "page": 274,
+      "points": [
+        "Continued business justification is a principle. The board is ordinarily only authorized to continue while the project remains viable and benefits will be realized within the time, cost, quality, scope, risk and sustainability parameters of the current business case. The environment and the product change, so the business case must be reviewed and amended to stay relevant.",
+        "The project executive is accountable for the business case, so the project manager consults them when updating it for board approval.",
+        "Actions: check for changes to the risk appetite and risk capacity of the organizations and whether risk tolerances need redefining; assess risks using the project log to find aggregated exposure and current key risks, checking it stays within risk tolerances; update the benefits management approach with results of benefits actions in the stage; examine the project plan for changes to the final implementation date that might affect projected benefits; check and update the project log; revise the business case and if necessary the benefits management approach for board approval."
+      ]
+    },
+    {
+      "id": "18.4.5",
+      "heading": "Evaluate the stage",
+      "page": 274,
+      "points": [
+        "Report the stage results to the board so progress is visible. The project manager gives a view on the project's continuing ability to meet the project plan and business case and assesses the overall risk situation, as close as possible to the actual end of the stage.",
+        "Actions: prepare the end stage report from stage performance using the updated business case, project plan, logs and management approaches; review lessons logged to date and include them (particularly important for longer projects); review the communication management approach to see whether copies of the end stage report (and a lessons report) must go to external parties."
+      ]
+    },
+    {
+      "id": "18.4.6",
+      "heading": "Request the next stage",
+      "page": 275,
+      "points": [
+        "The project manager asks the board to finish the current stage and proceed. The formal justification is in the end stage report and the next stage plan or exception plan.",
+        "Actions: brief the board on current stage performance, an overview of the next stage and the people and resources needed, confirm readiness, and confirm concessions for any off-specifications during the stage; seek approval for the exception or stage plan and if appropriate the revised project plan, benefits management approach and business case (if the board does not approve an exception plan, the current stage continues per board direction until a revised plan is approved); request authority to deliver the next stage; if appropriate review lessons now, particularly for longer projects."
+      ]
+    },
+    {
+      "id": "18.5.1",
+      "heading": "General considerations",
+      "page": 275,
+      "points": [
+        "Activities may be combined, separated or run concurrently, keeping the integrity of the connections with initiating a project, controlling a stage and directing a project."
+      ]
+    },
+    {
+      "id": "18.5.2",
+      "heading": "Tailoring roles in managing a stage boundary",
+      "page": 275,
+      "points": [
+        "The project manager is responsible for creating all new management products but may delegate to others with the right skills (project support, a team manager) while retaining overall responsibility."
+      ]
+    },
+    {
+      "id": "18.6",
+      "heading": "Responsibilities",
+      "page": 275,
+      "points": [
+        "Table 18.2: for every activity the project executive is accountable and the project manager responsible. Request the next stage: team manager informed and project support informed; others consulted."
+      ]
+    },
+    {
+      "id": "18.7",
+      "heading": "Application of the practices to this process",
+      "page": 276,
+      "points": [
+        "Business case: stage performance is assessed and the business case updated for forecast costs, risks, benefits and external changes; benefits and sustainability approaches reviewed. Organizing: team performance, health and wellbeing reviewed for lessons and the end stage report; communication, change and commercial approaches reviewed; team structure and role descriptions reviewed and new role descriptions created for the next stage.",
+        "Plans: the product register checked that required products were delivered; the project plan updated for scope and timing changes; the next stage plan or exception plan created. Quality: the quality register checked; product descriptions for the next stage created; project product description and quality approach reviewed.",
+        "Risk: the risk register reviewed to eliminate current stage risks and add or update risks for the next; risk approach reviewed. Issues: the issue register reviewed to eliminate current stage issues or identify follow-on actions; issue approach reviewed. Progress: the daily log and lessons log reviewed; the digital and data management approach reviewed; the end stage report created and issued."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch18-c01", "front": "Purpose of managing a stage boundary?", "back": "To give the board enough information to review the current stage, prepare the next stage plan, review the updated project plan and confirm continued business justification and acceptable risks.", "page": 270 },
+    { "id": "ch18-c02", "front": "What triggers managing a stage boundary?", "back": "Stage boundary approaching, or an exception plan request from directing a project.", "page": 272 },
+    { "id": "ch18-c03", "front": "When is it executed?", "back": "At, or close to, the end of each stage (except the final stage), and for exceptions at any time.", "page": 270 },
+    { "id": "ch18-c04", "front": "Six activities of managing a stage boundary?", "back": "Prepare the next stage plan; prepare the exception plan (if required); update the project plan; update the business case; evaluate the stage; request the next stage.", "page": 271 },
+    { "id": "ch18-c05", "front": "Is a decision not to proceed a failure?", "back": "No. Insufficient information that stops the board making an informed or timely decision is the failure.", "page": 272 },
+    { "id": "ch18-c06", "front": "Which output do you give the board to evaluate a stage?", "back": "The end stage report.", "page": 272 },
+    { "id": "ch18-c07", "front": "When is the next stage plan produced?", "back": "Near the end of the current stage. Closure activities are planned in the final stage's plan.", "page": 272 },
+    { "id": "ch18-c08", "front": "Who is consulted when creating the next stage plan?", "back": "The board, project assurance, team managers and possibly other stakeholders.", "page": 272 },
+    { "id": "ch18-c09", "front": "What do you create or update for products in the next stage?", "back": "Product descriptions, product register records and the quality register entries with target review and approval dates.", "page": 273 },
+    { "id": "ch18-c10", "front": "Why does an exception plan mark a stage boundary?", "back": "Although produced before the planned boundary, its approval by the board marks a stage boundary for the revised stage.", "page": 273 },
+    { "id": "ch18-c11", "front": "Who requests an exception plan?", "back": "The project board, in response to an exception report.", "page": 273 },
+    { "id": "ch18-c12", "front": "What is the project plan updated with at a stage boundary?", "back": "Progress from the finishing stage, forecast duration and costs from an exception plan, or the plan for the stage about to begin.", "page": 273 },
+    { "id": "ch18-c13", "front": "Who does the project manager consult when updating the business case?", "back": "The project executive, who is accountable for it.", "page": 274 },
+    { "id": "ch18-c14", "front": "What risk checks happen when updating the business case?", "back": "Changes to risk appetite and capacity, and aggregated risk exposure against tolerances.", "page": 274 },
+    { "id": "ch18-c15", "front": "What does the project manager give a view on in the end stage report?", "back": "The project's continuing ability to meet the project plan and business case, and the overall risk situation.", "page": 274 },
+    { "id": "ch18-c16", "front": "What if the board does not approve an exception plan?", "back": "The current stage continues per board direction until a revised exception plan is approved.", "page": 275 },
+    { "id": "ch18-c17", "front": "What does the project manager confirm to the board when requesting the next stage?", "back": "Stage performance, an overview of the next stage and resources needed, readiness, and concessions for off-specifications.", "page": 275 },
+    { "id": "ch18-c18", "front": "Who is accountable and who responsible for activities in this process?", "back": "The project executive is accountable and the project manager responsible.", "page": 275 },
+    { "id": "ch18-c19", "front": "What happens to the registers at a stage boundary?", "back": "They are reviewed to eliminate current stage items, add or update items for the next stage and provide input to the end stage report.", "page": 276 }
+  ]
+}

@@ -46,6 +46,15 @@ control, both return to the previous screen. Practice answers already marked are
 unasked questions are dropped. Abandoning an exam needs a second press and does not save a
 paper, because a half-finished paper is not a score.
 
+## Study notes and flashcards
+
+Chapters listed in `study/index.json` get a study side: paraphrased notes with the manual's
+printed page numbers, definitions, and spaced-repetition flashcards. A wrong answer in
+practice offers a "Reread this in the notes" link that opens the matching section and returns
+to the same session. Reading status and card reviews are stored beside the attempts and
+derived the same way (a card is known after two correct reviews in a row; intervals are
+0, 1, 3, 7, 14 and 30 days). Every chapter and both appendices have notes and cards, written from the manual; page numbers are printed page numbers (PDF page = printed + 19).
+
 ## Progress
 
 One append-only attempts array is the only stored truth. Everything on the home screen is

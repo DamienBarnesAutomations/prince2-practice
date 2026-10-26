@@ -1,0 +1,118 @@
+{
+  "set": "ch04",
+  "title": "Introduction to practices",
+  "pages": "pp.50-54",
+  "overview": "A short chapter that sets up the seven practices, the question each one answers, and the two management products shared by most of them: the project initiation documentation and the project log. The seven practice names, their questions and the project initiation documentation contents are the most testable parts.",
+  "sections": [
+    {
+      "id": "4.1",
+      "heading": "The PRINCE2 practices",
+      "page": 50,
+      "points": [
+        "A practice is an aspect of project management that must be applied consistently and throughout the project lifecycle. Each needs specific treatment for the PRINCE2 processes to be effective.",
+        "Example: the business case must be updated and revalidated throughout the lifecycle because issues occur and risks need managing.",
+        "The strength of PRINCE2 is how the seven practices are integrated, in how they link together and in their use across all the processes.",
+        "The processes (Chapters 12 to 19) address the progressive flow of the project and say when each practice's actions are needed. The practice chapters (5 to 11) give the detail.",
+        "Business case answers Why? (Chapter 5). It develops the idea into a viable investment proposition and defines and verifies success, keeping focus on benefits, purpose and alignment.",
+        "Organizing answers Who? (Chapter 6). Normal line management is unsuitable for cross-functional projects, so it defines the roles, responsibilities and relationships of the temporary team and how business, user and supplier interests are represented.",
+        "Plans answers How? How much? When? (Chapter 7). Projects are delivered in stages from approved plans; plans suit each management layer and are the focus for communication and control. It complements the quality practice.",
+        "Quality answers What? (Chapter 8). It develops the outline idea so stakeholders understand the quality attributes of the products, and ensures they are delivered.",
+        "Risk answers What if? (Chapter 9). Projects use new products, suppliers or procedures, so there is more uncertainty and risk; the practice covers how the team manages it.",
+        "Issues answers What now? (Chapter 10). It covers assessing and responding to issues affecting objectives, plans or products: unanticipated problems, requests for change, or a product not meeting its specification.",
+        "Progress answers Where are we now? Where are we going? Should we carry on? (Chapter 11). It covers the ongoing achievability of the plans, monitoring performance, escalation using event- and time-based controls, and whether and how the project should proceed."
+      ]
+    },
+    {
+      "id": "4.2",
+      "heading": "Applying the practices",
+      "page": 51,
+      "points": [
+        "The method is applied and tailored to fit the project's context, including how the practices are applied. This can range from prescriptive business standards to a large degree of freedom for the team.",
+        "Practices are applied mainly through a suite of management approaches (for example the benefits management approach). Each defines the procedures, techniques and standards and the responsibilities for that aspect.",
+        "PRINCE2 does not prescribe how procedures, techniques and standards are documented, how detailed they are, or how they are shared. They may run from a few paragraphs to a full manual. The project board sets the level and type of documentation, within agreed business policies.",
+        "Importance, risk and urgency affect the level of control, and so the formality and frequency of monitoring, reviewing, reporting and decisions. The organizations involved and their relationship (customer and supplier) also shape controls, as does being part of a programme or portfolio.",
+        "Reflect any tailoring of roles, processes and terminology when applying the practices.",
+        "All seven practices should be applied in every project, but how varies with scale, risk, the people and organizations involved and complexity, always staying consistent with the seven principles.",
+        "The chapters suggest how to apply each practice to common contexts, such as a project in a programme or one using an agile delivery method."
+      ]
+    },
+    {
+      "id": "4.3",
+      "heading": "Management products",
+      "page": 52,
+      "points": [
+        "Management products describe the information needed to manage the project. They can be documents or part of a management information system. Appendix A has suggested outlines and tailoring notes.",
+        "Two management products are relevant to most practices: the project initiation documentation and the project log."
+      ]
+    },
+    {
+      "id": "4.3.1",
+      "heading": "Project initiation documentation",
+      "page": 52,
+      "points": [
+        "It is the package of information developed and compiled during initiation to gain authorization to proceed, and it is the basis for ongoing management. It can be separate documents or systems, or a single reference document.",
+        "Purpose: it gives the direction and scope of the project and, with the stage plan, forms the contract between the project manager and the project board.",
+        "Three primary uses: ensure a sound basis before the board makes any major commitment; act as the base against which the board and project manager assess progress, issues and viability; provide a single reference so people joining the temporary organization can quickly learn what the project is and how it is managed.",
+        "Content: project definition (background, objectives and desired outcomes, scope inclusions and exclusions, constraints and assumptions, users and other interested parties, interfaces); project approach (choice of solution and delivery method); business case; project management team structure; role descriptions; management approaches; project plan; tailoring of PRINCE2.",
+        "The management approaches are for change, benefits, commercial, communication, data, issue, quality, risk and sustainability management.",
+        "The project plan describes how and when objectives will be achieved and is the baseline for monitoring progress. Tailoring summarizes how PRINCE2 is tailored, for example terminology changes.",
+        "It is a living product reflecting the current status, plans and controls. Components are updated and re-baselined as needed at each stage end.",
+        "The version used to gain authorization for the project is preserved as the baseline against which performance is assessed at closure. At each stage end every component is reviewed for currency and changed in a structured way if needed; the baseline version is always kept."
+      ]
+    },
+    {
+      "id": "4.3.2",
+      "heading": "Project log",
+      "page": 53,
+      "points": [
+        "The project log keeps a live record of project activities and progress, such as issues and risks.",
+        "Purpose: capture the continually changing records of issues, lessons, products, quality, risk and other formal or informal actions or events. It is dynamic and holds the current and historic record.",
+        "Logs and registers: issue register, lessons log, product register, quality register, risk register and a daily log of other information, actions and events.",
+        "Common data for each entry: unique identifier, date logged, logged by, date updated, status, classification (where needed) and details.",
+        "It may be a single document but is more commonly a collection of separate logs."
+      ]
+    },
+    {
+      "id": "4.4",
+      "heading": "Format of the practice chapters",
+      "page": 54,
+      "points": [
+        "Each practice chapter covers: purpose, guidance for effective use, supporting techniques, applying the practice, management products, focus of key roles, and key relationships with the principles.",
+        "Two types of technique: those specific to PRINCE2 (such as product-based planning) and additional techniques useful in some contexts.",
+        "Additional techniques can be omitted or substituted without changing how PRINCE2 is applied. Omitting or substituting a PRINCE2 technique means the method has been tailored."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Practice", "definition": "An aspect of project management that must be applied consistently and throughout the project lifecycle. The practices require specific treatment of that aspect for the PRINCE2 processes to be effective.", "page": 50 }
+  ],
+  "cards": [
+    { "id": "ch04-c01", "front": "Define a practice.", "back": "An aspect of project management that must be applied consistently and throughout the project lifecycle, requiring specific treatment for the processes to be effective.", "page": 50 },
+    { "id": "ch04-c02", "front": "Name the seven practices in chapter order.", "back": "Business case, organizing, plans, quality, risk, issues, progress.", "page": 50 },
+    { "id": "ch04-c03", "front": "Which question does the business case practice answer?", "back": "Why?", "page": 50 },
+    { "id": "ch04-c04", "front": "Which question does the organizing practice answer?", "back": "Who?", "page": 50 },
+    { "id": "ch04-c05", "front": "Which questions does the plans practice answer?", "back": "How? How much? When?", "page": 51 },
+    { "id": "ch04-c06", "front": "Which question does the quality practice answer?", "back": "What?", "page": 51 },
+    { "id": "ch04-c07", "front": "Which question does the risk practice answer?", "back": "What if?", "page": 51 },
+    { "id": "ch04-c08", "front": "Which question does the issues practice answer?", "back": "What now?", "page": 51 },
+    { "id": "ch04-c09", "front": "Which questions does the progress practice answer?", "back": "Where are we now? Where are we going? Should we carry on?", "page": 51 },
+    { "id": "ch04-c10", "front": "Which chapters cover the practices and which the processes?", "back": "Practices are Chapters 5 to 11. Processes are Chapters 12 to 19.", "page": 50 },
+    { "id": "ch04-c11", "front": "What is the strength of PRINCE2's practices?", "back": "How the seven are integrated: how they link together and how they are used across all the processes.", "page": 50 },
+    { "id": "ch04-c12", "front": "How are the practices mainly applied and tailored?", "back": "Through a suite of management approaches defining procedures, techniques, standards and responsibilities.", "page": 51 },
+    { "id": "ch04-c13", "front": "Who sets the level and type of documentation of the procedures, techniques and standards?", "back": "The project board, within agreed business policies. PRINCE2 does not prescribe it.", "page": 51 },
+    { "id": "ch04-c14", "front": "Must all seven practices be applied on every project?", "back": "Yes, but how they are applied varies with scale, risk, people and organizations involved and complexity, consistent with the principles.", "page": 52 },
+    { "id": "ch04-c15", "front": "Which two management products are relevant to most practices?", "back": "The project initiation documentation and the project log.", "page": 52 },
+    { "id": "ch04-c16", "front": "What is the project initiation documentation for?", "back": "It gives the direction and scope of the project and, with the stage plan, forms the contract between the project manager and project board.", "page": 52 },
+    { "id": "ch04-c17", "front": "Three primary uses of the project initiation documentation?", "back": "Ensure a sound basis before major commitment; a base to assess progress, issues and viability; a single reference for people joining the project.", "page": 52 },
+    { "id": "ch04-c18", "front": "Contents of the project initiation documentation?", "back": "Project definition; project approach; business case; project management team structure; role descriptions; management approaches; project plan; tailoring of PRINCE2.", "page": 52 },
+    { "id": "ch04-c19", "front": "Which nine management approaches sit in the project initiation documentation?", "back": "Change, benefits, commercial, communication, data, issue, quality, risk and sustainability management.", "page": 53 },
+    { "id": "ch04-c20", "front": "What does the project approach define?", "back": "The choice of solution and delivery method used to deliver the business option selected from the business case, considering the operational environment.", "page": 53 },
+    { "id": "ch04-c21", "front": "What happens to the project initiation documentation at each stage end?", "back": "Each component is reviewed for currency and changed in a structured way if needed. The authorized baseline version is always preserved.", "page": 53 },
+    { "id": "ch04-c22", "front": "Why is the authorized version of the project initiation documentation preserved?", "back": "It is the basis against which performance is assessed when closing the project.", "page": 53 },
+    { "id": "ch04-c23", "front": "Purpose of the project log?", "back": "To capture the continually changing records of issues, lessons, products, quality, risk and other actions or events, with current and historic records.", "page": 53 },
+    { "id": "ch04-c24", "front": "Which logs and registers make up the project log?", "back": "Issue register, lessons log, product register, quality register, risk register and a daily log.", "page": 53 },
+    { "id": "ch04-c25", "front": "Common data held for each log entry?", "back": "Unique identifier, date logged, logged by, date updated, status, classification where needed, and details.", "page": 54 },
+    { "id": "ch04-c26", "front": "Two types of technique in each practice chapter?", "back": "Techniques specific to PRINCE2, and additional techniques useful in some contexts.", "page": 54 },
+    { "id": "ch04-c27", "front": "What is the effect of omitting or substituting an additional technique versus a PRINCE2 technique?", "back": "Additional techniques can be omitted or substituted with no change to how PRINCE2 is applied. Doing so with a PRINCE2 technique means the method has been tailored.", "page": 54 }
+  ]
+}

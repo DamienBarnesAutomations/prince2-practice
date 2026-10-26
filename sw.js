@@ -15,6 +15,8 @@ const SHELL = [
   './icons/icon-512.png',
   './icons/apple-touch-icon.png',
   './bank/index.json',
+  './study-logic.js',
+  './study/index.json',
 ];
 
 const fresh = (url) => new Request(url, { cache: 'no-cache' });
@@ -36,6 +38,15 @@ async function precache() {
       } catch { /* same */ }
     }));
   } catch { /* index unreadable: the bank is cached as it is used */ }
+  try {
+    const study = await (await cache.match('./study/index.json'))?.json();
+    await Promise.all((study?.chapters ?? []).map(async (entry) => {
+      try {
+        const response = await fetch(fresh(`./${entry.file}`));
+        if (response.ok) await cache.put(`./${entry.file}`, response);
+      } catch { /* same */ }
+    }));
+  } catch { /* no study notes yet */ }
 }
 
 self.addEventListener('install', (event) => {

@@ -1,5 +1,6 @@
 import { buildSession, scoreSession } from './bank-logic.js';
 import { chapterProgress, missedIds, passMark } from './progress.js';
+import { cardStats, dueCards, findSectionIndex } from './study-logic.js';
 
 const STORAGE_KEY = 'prince2Practice.v1';
 const CORRUPT_BACKUP_KEY = `${STORAGE_KEY}.corrupt`;
@@ -29,6 +30,13 @@ const state = {
   paletteOpen: true,
   loadError: '',
   knownIds: null,
+  studyIndex: new Map(),
+  studyCache: new Map(),
+  studySet: null,
+  studyFocus: null,
+  studyData: null,
+  studyReturn: null,
+  deck: null,
   busy: false,
   storageOk: true,
   exam: { totalMs: EXAM_MINUTES * 60 * 1000, deadline: 0, remainingMs: 0 },
@@ -40,7 +48,7 @@ const store = loadStore();
 /* ------------------------------------------------------------------ storage */
 
 function loadStore() {
-  const empty = { version: 2, attempts: [], exams: [] };
+  const empty = { version: 2, attempts: [], exams: [], read: {}, reviews: [] };
 
   let raw;
   try {
@@ -70,7 +78,15 @@ function loadStore() {
     ? parsed.exams.filter((entry) => entry && typeof entry.total === 'number')
     : [];
 
-  return { version: 2, attempts, exams };
+  // Study state is optional: stores written before the study side existed lack it.
+  const read = parsed.read && typeof parsed.read === 'object' && !Array.isArray(parsed.read)
+    ? Object.fromEntries(Object.entries(parsed.read).filter(([, ts]) => typeof ts === 'number'))
+    : {};
+  const reviews = Array.isArray(parsed.reviews)
+    ? parsed.reviews.filter((entry) => entry && typeof entry.id === 'string')
+    : [];
+
+  return { version: 2, attempts, exams, read, reviews };
 }
 
 // Unreadable data must not be trusted, must not take the app down, and must not
@@ -92,7 +108,13 @@ function saveStore() {
   try {
     localStorage.setItem(
       STORAGE_KEY,
-      JSON.stringify({ version: 2, attempts: store.attempts, exams: store.exams }),
+      JSON.stringify({
+        version: 2,
+        attempts: store.attempts,
+        exams: store.exams,
+        read: store.read,
+        reviews: store.reviews,
+      }),
     );
     return true;
   } catch {
@@ -150,6 +172,40 @@ function learnKnownIds() {
       if (state.view === 'home') render();
     })
     .catch(() => {}); // offline or a bad file: the screens that need a set report it themselves
+}
+
+// The study notes are optional: a chapter without an entry in study/index.json simply
+// has none, and a failed fetch of one chapter leaves the rest of the app working.
+function loadStudy(setId) {
+  const file = state.studyIndex.get(setId);
+  if (!file) return Promise.reject(new Error(`No study notes for "${setId}"`));
+  if (!state.studyCache.has(setId)) {
+    state.studyCache.set(setId, fetch(`./${file}`, { cache: 'no-cache' })
+      .then((response) => {
+        if (!response.ok) throw new Error(`Could not load ${file} (HTTP ${response.status})`);
+        return response.json();
+      })
+      .catch((error) => {
+        state.studyCache.delete(setId);
+        throw error;
+      }));
+  }
+  return state.studyCache.get(setId);
+}
+
+async function loadStudyIndex() {
+  try {
+    const response = await fetch('./study/index.json', { cache: 'no-cache' });
+    if (!response.ok) return;
+    const index = await response.json();
+    for (const entry of index.chapters ?? []) state.studyIndex.set(entry.set, entry.file);
+    if (state.view === 'home') render();
+  } catch { /* no study notes available: the practice side is unaffected */ }
+}
+
+function recordReview(card, known) {
+  store.reviews.push({ id: card.id, known, ts: Date.now() });
+  saveStore();
 }
 
 async function gatherPool() {
@@ -210,6 +266,7 @@ function modeLabel(mode) {
     mixed: 'Mixed chapters',
     missed: 'Missed questions',
     exam: 'Exam',
+    study: 'Study notes',
   }[mode] ?? 'Practice';
 }
 
@@ -306,6 +363,8 @@ function render() {
     examIntro: viewExamIntro,
     quiz: viewQuiz,
     results: viewResults,
+    study: viewStudy,
+    cards: viewCards,
   };
 
   // History entries outlive the page (reload, restart, abandoned paper), so a
@@ -322,12 +381,19 @@ function render() {
 
   appEl.innerHTML = banner + (views[state.view] ?? viewHome)();
   appEl.focus({ preventScroll: true });
+
+  if (state.view === 'study' && state.studyFocus !== null) {
+    document.getElementById(`sec-${state.studyFocus}`)?.scrollIntoView?.();
+    state.studyFocus = null;
+  }
 }
 
 function viewHasState(view) {
   if (view === 'setup') return state.pool.length > 0;
   if (view === 'quiz') return state.session !== null;
   if (view === 'results') return state.results !== null && state.session !== null;
+  if (view === 'study') return state.studySet !== null;
+  if (view === 'cards') return state.deck !== null && state.studySet !== null;
   return true;
 }
 
@@ -413,6 +479,7 @@ function viewHome() {
           <span class="ok">${row.right} right</span>
           <span class="bad">${row.wrong} wrong</span>
           <span class="muted">${row.mastered} mastered</span>
+          ${store.read[row.setId] ? '<span class="ok">notes read</span>' : ''}
         </span>
       </button>`)
     .join('');
@@ -436,6 +503,10 @@ function viewHome() {
     </div>
 
     <div class="modegrid">
+      ${state.studyIndex.size ? `<button class="modecard" data-action="mode" data-mode="study">
+        <span class="modetitle">Study notes</span>
+        <span class="modedesc">Read a chapter, then recall it with flashcards.</span>
+      </button>` : ''}
       <button class="modecard" data-action="mode" data-mode="chapter">
         <span class="modetitle">Practice by chapter</span>
         <span class="modedesc">One chapter, marked as you go.</span>
@@ -465,22 +536,126 @@ function viewHome() {
   `;
 }
 
+/* --------------------------------------------------------------------- study */
+
+function viewStudy() {
+  const chapter = state.studyData;
+  const meta = state.index.sets.find((entry) => entry.id === state.studySet);
+  const stats = cardStats(chapter.cards, store.reviews);
+  const isRead = Boolean(store.read[state.studySet]);
+
+  const sections = chapter.sections
+    .map((section, index) => `
+      <section class="card studysec" id="sec-${index}">
+        <div class="metaline">
+          <span class="tag">${escapeHtml(section.id)}</span>
+          <span class="tag">book p.${section.page}</span>
+        </div>
+        <h2 class="studyhead">${escapeHtml(section.heading)}</h2>
+        ${section.keyMessage ? `<p class="keymsg">${escapeHtml(section.keyMessage)}</p>` : ''}
+        <ul class="points">${section.points.map((point) => `<li>${escapeHtml(point)}</li>`).join('')}</ul>
+      </section>`)
+    .join('');
+
+  const terms = chapter.terms?.length
+    ? `<section class="card studysec">
+        <h2 class="studyhead">Definitions to know</h2>
+        <dl class="terms">${chapter.terms
+          .map((entry) => `<dt>${escapeHtml(entry.term)} <span class="footnote">p.${entry.page}</span></dt><dd>${escapeHtml(entry.definition)}</dd>`)
+          .join('')}</dl>
+      </section>`
+    : '';
+
+  return `
+    ${state.studyReturn === 'quiz' ? backButton('back-to-quiz', 'Back to questions') : backButton('study-pick', 'Study notes')}
+    <p class="eyebrow">${escapeHtml(setLabel(meta))} · ${escapeHtml(chapter.pages)}</p>
+    <h1>${escapeHtml(chapter.title)}</h1>
+    <p class="lede">${escapeHtml(chapter.overview)}</p>
+
+    <div class="btnrow">
+      <button class="btn" data-action="start-cards">Flashcards${stats.due ? ` (${stats.due} due)` : ''}</button>
+      <button class="btn ghost" data-action="practice-from-study">Practice questions</button>
+      <button class="btn ghost" data-action="mark-read">${isRead ? 'Marked as read ✓' : 'Mark as read'}</button>
+    </div>
+    <p class="footnote">${stats.known} of ${stats.total} cards known · ${stats.seen} seen. Page numbers are as printed in the manual.</p>
+
+    ${sections}
+    ${terms}
+
+    <div class="btnrow">
+      <button class="btn" data-action="start-cards">Flashcards${stats.due ? ` (${stats.due} due)` : ''}</button>
+      <button class="btn ghost" data-action="mark-read">${isRead ? 'Marked as read ✓' : 'Mark as read'}</button>
+    </div>
+  `;
+}
+
+function viewCards() {
+  const deck = state.deck;
+  const chapter = state.studyData;
+  const total = deck.queue.length;
+  const back = backButton('back-to-notes', 'Notes');
+
+  if (deck.position >= total) {
+    const stats = cardStats(chapter.cards, store.reviews);
+    return `
+      ${back}
+      <h1>Round complete</h1>
+      <p class="lede">${deck.known} known, ${deck.again} to see again. ${stats.known} of ${stats.total} cards in this chapter are known (two in a row).</p>
+      <div class="btnrow">
+        ${stats.due ? '<button class="btn" data-action="start-cards">Review what is due now</button>' : ''}
+        <button class="btn ghost" data-action="practice-from-study">Practice questions</button>
+        <button class="btn ghost" data-action="back-to-notes">Back to notes</button>
+      </div>`;
+  }
+
+  const card = deck.queue[deck.position];
+  return `
+    ${back}
+    <div class="quizbar">
+      <span>Card ${deck.position + 1} of ${total}</span>
+      <div class="progress"><span style="width:${((deck.position + 1) / total) * 100}%"></span></div>
+      <span>${deck.known} known</span>
+    </div>
+
+    <div class="card flashcard">
+      <p class="eyebrow">Question</p>
+      <h2 class="stem">${escapeHtml(card.front)}</h2>
+      ${deck.revealed
+        ? `<div class="feedback good">
+             <p class="fbhead">Answer</p>
+             <p>${escapeHtml(card.back)}</p>
+             <p class="footnote">Book p.${card.page}</p>
+           </div>
+           <div class="btnrow">
+             <button class="btn ghost" data-action="card-again">Again <span class="footnote">(1)</span></button>
+             <button class="btn" data-action="card-known">Got it <span class="footnote">(2)</span></button>
+           </div>`
+        : `<div class="btnrow"><button class="btn" data-action="reveal">Show answer</button></div>`}
+    </div>
+    <p class="footnote" style="margin-top:12px">Say the answer first, then check. Space to show · 1 again · 2 got it</p>
+  `;
+}
+
 /* ---------------------------------------------------------------------- pick */
 
 function viewPick() {
   const mixed = state.mode === 'mixed';
+  const study = state.mode === 'study';
   const progress = chapterProgress(store.attempts, state.index.sets, state.knownIds);
 
   const rows = progress.rows
+    .filter((row) => !study || state.studyIndex.has(row.setId))
     .map((row) => {
       const meta = state.index.sets.find((entry) => entry.id === row.setId);
       const checked = state.selection.includes(row.setId);
       return `
-        <button class="pickrow${checked ? ' checked' : ''}" data-action="${mixed ? 'toggle-set' : 'pick-set'}" data-set="${escapeHtml(row.setId)}">
+        <button class="pickrow${checked ? ' checked' : ''}" data-action="${mixed ? 'toggle-set' : study ? 'study-set' : 'pick-set'}" data-set="${escapeHtml(row.setId)}">
           <span class="pickbox" aria-hidden="true">${checked ? '✓' : ''}</span>
           <span class="pickbody">
             <span class="picktitle">${escapeHtml(setTitle(meta))}</span>
-            <span class="pickmeta">${escapeHtml(setLabel(meta))} · ${row.total} questions · ${row.exposed} seen</span>
+            <span class="pickmeta">${escapeHtml(setLabel(meta))} · ${study
+              ? (store.read[row.setId] ? 'notes read' : 'not read yet')
+              : `${row.total} questions · ${row.exposed} seen`}</span>
           </span>
         </button>`;
     })
@@ -488,10 +663,10 @@ function viewPick() {
 
   return `
     ${backButton('home', 'Practice')}
-    <h1>${mixed ? 'Mixed chapters' : 'Practice by chapter'}</h1>
+    <h1>${mixed ? 'Mixed chapters' : study ? 'Study notes' : 'Practice by chapter'}</h1>
     <p class="lede">${mixed
       ? 'Tick the chapters you want. Questions are drawn across all of them.'
-      : 'Pick a chapter to drill.'}</p>
+      : study ? 'Pick a chapter to read. Page numbers are the ones printed in the manual.' : 'Pick a chapter to drill.'}</p>
 
     <div class="chaplist">${rows}</div>
 
@@ -619,6 +794,10 @@ function viewQuiz() {
          <p class="fbhead">${isRight ? 'Correct' : 'Not quite'}</p>
          <p>${escapeHtml(question.explanation)}</p>
          <p class="footnote">Source: ${escapeHtml(question.source)}</p>
+         ${!isRight && state.studyIndex.has(question.set)
+           ? `<p><button class="btn ghost tiny" data-action="open-study" data-set="${escapeHtml(question.set)}"
+                data-section="${escapeHtml(question.section)}" data-source="${escapeHtml(question.source)}">Reread this in the notes (${escapeHtml(question.source)})</button></p>`
+           : ''}
        </div>`
     : '';
 
@@ -812,6 +991,18 @@ function startSession(pool, count) {
   navigate('quiz');
 }
 
+function gradeCard(known) {
+  const deck = state.deck;
+  if (!deck.revealed || deck.position >= deck.queue.length) return;
+
+  recordReview(deck.queue[deck.position], known);
+  if (known) deck.known += 1;
+  else deck.again += 1;
+  deck.position += 1;
+  deck.revealed = false;
+  render();
+}
+
 function submitSession({ auto = false } = {}) {
   const unanswered = state.session.filter((entry) => entry.selected === null).length;
 
@@ -878,12 +1069,91 @@ appEl.addEventListener('click', safely(async (event) => {
       navigate('home', { replace: true });
       break;
 
+    case 'study-set':
+    case 'open-study':
+      await exclusive(async (epoch) => {
+        const setId = trigger.dataset.set;
+        const chapter = await loadStudy(setId);
+        if (epoch !== navEpoch) return;
+
+        state.studySet = setId;
+        state.studyData = chapter;
+        state.deck = null;
+        state.notice = '';
+
+        if (action === 'open-study') {
+          state.studyReturn = 'quiz';
+          const focus = findSectionIndex(chapter, {
+            section: trigger.dataset.section,
+            source: trigger.dataset.source,
+          });
+          state.studyFocus = focus < 0 ? null : focus;
+        } else {
+          state.studyReturn = null;
+          state.studyFocus = null;
+        }
+        navigate('study');
+      });
+      break;
+
+    case 'study-pick':
+      navigate('pick');
+      break;
+
+    case 'back-to-quiz':
+      state.studyReturn = null;
+      navigate('quiz');
+      break;
+
+    case 'back-to-notes':
+      navigate('study');
+      break;
+
+    case 'mark-read':
+      if (store.read[state.studySet]) delete store.read[state.studySet];
+      else store.read[state.studySet] = Date.now();
+      saveStore();
+      render();
+      break;
+
+    case 'practice-from-study':
+      await exclusive((epoch) => {
+        state.mode = 'chapter';
+        state.studyReturn = null;
+        state.selection = [state.studySet];
+        return openPool(setTitle(state.index.sets.find((entry) => entry.id === state.studySet)), epoch);
+      });
+      break;
+
+    case 'start-cards': {
+      const queue = dueCards(state.studyData.cards, store.reviews);
+      if (queue.length === 0) {
+        state.notice = 'No cards are due right now. They come back as their review intervals pass.';
+        render();
+        break;
+      }
+      state.deck = { queue, position: 0, revealed: false, known: 0, again: 0 };
+      state.notice = '';
+      navigate('cards');
+      break;
+    }
+
+    case 'reveal':
+      state.deck.revealed = true;
+      render();
+      break;
+
+    case 'card-known':
+    case 'card-again':
+      gradeCard(action === 'card-known');
+      break;
+
     case 'mode':
       state.mode = trigger.dataset.mode;
       state.selection = [];
       state.notice = '';
 
-      if (state.mode === 'chapter' || state.mode === 'mixed') {
+      if (state.mode === 'chapter' || state.mode === 'mixed' || state.mode === 'study') {
         navigate('pick');
       } else if (state.mode === 'exam') {
         navigate('examIntro');
@@ -1002,9 +1272,26 @@ appEl.addEventListener('click', safely(async (event) => {
 }));
 
 document.addEventListener('keydown', safely((event) => {
-  if (state.view !== 'quiz') return;
+  if (state.view !== 'quiz' && state.view !== 'cards') return;
   if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) return;
   if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+  if (state.view === 'cards') {
+    const deck = state.deck;
+    if (!deck || deck.position >= deck.queue.length) return;
+    if (event.key === ' ' || event.key === 'Enter') {
+      if (event.target.closest?.('button, a, summary, select')) return;
+      event.preventDefault();
+      if (!deck.revealed) {
+        deck.revealed = true;
+        render();
+      }
+    } else if (deck.revealed && (event.key === '1' || event.key === '2')) {
+      event.preventDefault();
+      gradeCard(event.key === '2');
+    }
+    return;
+  }
 
   // Enter on a focused control activates that control; it is not 'next question'.
   if (event.key === 'Enter' && event.target.closest?.('button, a, summary, select')) return;
@@ -1081,6 +1368,7 @@ async function boot() {
   history.replaceState({ view: 'home' }, '');
   render();
   learnKnownIds();
+  loadStudyIndex();
 }
 
 boot();

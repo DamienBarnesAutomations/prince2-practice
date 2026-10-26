@@ -1,0 +1,196 @@
+{
+  "set": "ch01",
+  "title": "Introduction",
+  "pages": "pp.2-18",
+  "overview": "Chapter 1 sets the scene: what PRINCE2 is, its five integrated elements, what a project is, the seven performance targets, and the project contexts the method adapts to (organizational, commercial, delivery method, sustainability, scale). Know the definitions and the five characteristics of a project.",
+  "sections": [
+    {
+      "id": "1.1",
+      "heading": "Introduction",
+      "page": 2,
+      "points": [
+        "PRINCE2 is one of the most widely used methods for managing projects. It is a structured method drawing on the experience of thousands of projects.",
+        "It is designed to be adaptable to any project, whatever its purpose, scale, type, organization, geography or culture. It achieves this by: separating the management of the project from specialist development activities such as design or construction, so specialist work is integrated into a controlled environment; focusing on what needs to be done to manage the project, rather than prescribing how work is done; and requiring the method to be established for the project's needs and context through the way it is applied and tailored."
+      ]
+    },
+    {
+      "id": "1.1.1",
+      "heading": "Purpose of this book",
+      "page": 2,
+      "points": [
+        "Intended for anyone involved in a PRINCE2 project, considering it, or developing project management skills: entry-level personnel; experienced professionals; anyone in a PRINCE2 role such as project executive; project managers needing a detailed reference; project office managers adopting the method; agile practitioners wanting appropriate project controls; anyone developing essential project management skills.",
+        "It addresses questions such as: what is expected of me and what should I expect from others? What decisions am I expected to make? What information do I supply and receive? What should I do if things do not go to plan? Who do I look to for support or direction? How can we apply and tailor PRINCE2?",
+        "Two broad topics are deliberately outside PRINCE2's scope: specialist aspects of project work and detailed project management techniques."
+      ]
+    },
+    {
+      "id": "1.1.1.1",
+      "heading": "Specialist aspects of project work",
+      "page": 3,
+      "points": [
+        "PRINCE2 is not specific to any industry, project type, commercial model, lifecycle, delivery method, product development or engineering practice. It treats these as specialist aspects of the work and provides a means to integrate them fully into the project's management approaches."
+      ]
+    },
+    {
+      "id": "1.1.1.2",
+      "heading": "Detailed project management techniques",
+      "page": 3,
+      "points": [
+        "Many proven techniques support PRINCE2 (release planning, user stories, Kanban, timeboxing, retrospectives, critical path analysis, earned value management). The book highlights techniques that support the practices but does not document them in detail because they are described elsewhere.",
+        "Techniques are only described in detail if PRINCE2 specifically recommends the approach or it is unique to PRINCE2, such as PRINCE2's planning technique. Alternative (equivalent) techniques can be substituted, or extra ones included, if explained in the project initiation documentation."
+      ]
+    },
+    {
+      "id": "1.2",
+      "heading": "Structure of the official book",
+      "page": 3,
+      "points": [
+        "PRINCE2 is composed of five integrated elements: principles, people, practices, processes and the project context (Figure 1.1).",
+        "Principles: the guiding obligations that determine whether a project is genuinely managed using PRINCE2. There are seven, and unless all are applied it is not a PRINCE2 project (Chapter 2).",
+        "People: those working on and affected by the project; understanding their needs, capabilities, motivations and relationships is crucial (Chapter 3).",
+        "Practices: essential aspects of project management applied consistently throughout the lifecycle. Seven, in Chapters 4 to 11.",
+        "Processes: seven processes describing the whole lifecycle, from before starting through delivery to closure, each with checklists of recommended activities and responsibilities (Chapters 12 to 19).",
+        "The project context: the principles, practices and processes are applied by the people to fit the project context (section 1.4 in the book's structure).",
+        "Appendix A summarizes the management products, Appendix B the roles, and the glossary the defined terms. The organization that commissions the project is called the business.",
+        "Key message: the five elements are designed to work together. The practices ensure the principles are continually applied during the processes in a way specific to the project context, considering the relationships and requirements of people inside and outside the team."
+      ]
+    },
+    {
+      "id": "1.3",
+      "heading": "What is a project?",
+      "page": 5,
+      "points": [
+        "Organizations balance two competing needs: maintaining current operations (business as usual) and improving or transforming operations to survive and compete (business change). Projects are a means of introducing change; the skills overlap but managing a project differs from managing business as usual.",
+        "Project: a temporary organization created for the purpose of delivering one or more business products according to an agreed business case.",
+        "Five characteristics distinguish a project from business as usual: change; temporary; cross-functional; unique; uncertainty.",
+        "Change: projects are the means of introducing change. Temporary: when the change is implemented, business as usual resumes (in its new form) and the project is no longer needed, so it has a defined start and end.",
+        "Cross-functional: a team with different skills works together temporarily to introduce a change affecting others, often across functional divisions and sometimes organizations, creating strains between them (for example customers and suppliers).",
+        "Unique: every project differs in some way (team, customer, supplier, product, location or timeframe) even where an organization has a familiar pattern. Uncertainty: the other characteristics introduce threats and opportunities beyond those in business as usual, so projects are riskier than operational work.",
+        "Projects vary greatly (IT, clinical research, building a facility). Factors outside the project affect how it is started, delivered, assured and closed (organizational standards, maturity, regulation) as do project-specific factors (sector, location). PRINCE2 is designed for all types of project in any environment."
+      ]
+    },
+    {
+      "id": "1.4",
+      "heading": "What is project management?",
+      "page": 6,
+      "points": [
+        "Project management: the application of methods, tools, techniques and competencies to enable the project to meet its objectives.",
+        "Typical challenges from the five characteristics: ambiguity over who is responsible for what; ambiguity or conflict over what will be delivered, costs and timing; unrealistic expectations; unavailable resources or reassignment to business as usual; difficulty estimating effort, duration and cost; uncontrolled change (scope creep); difficulty keeping the team and stakeholders informed, engaged and motivated.",
+        "The purpose of project management is to address these by reducing and managing ambiguity, uniting the parties to clarify objectives and working practices, and controlling the specialist work needed to create the products. It involves planning, delegating, monitoring and control of all aspects and motivating those involved to meet the objectives within expected performance targets.",
+        "Performance target: the expected success level against which the management of the project is judged. PRINCE2 has performance targets for benefits, cost, time, quality, scope, sustainability and risk.",
+        "Benefits: why are we doing this and who for; a clear understanding of the purpose and what is needed to justify the investment. Costs: the project must be affordable; many factors affect the budget. Time: when it starts, when key products are delivered, when it finishes. Quality: finishing on time and in budget is no consolation if the result is not as specified or does not work; it must be fit for purpose.",
+        "Scope: what the project will deliver; parties must agree it or they may assume different inclusions. Delivering beyond scope is a common source of delay, overspend and scope creep. Sustainability: all projects affect their environment; the team must know sustainability targets for the work and the products. Risk: how much risk the business will take; without a shared understanding of risk appetite the team may be too risk-averse or take too many risks.",
+        "Priorities are set by agreeing performance targets (an urgent project may weight time above cost). PRINCE2 allows a range for each target as a tolerance (section 2.4); some are narrow, some broad. Agreeing targets and tolerances is a prerequisite for exploring options and the project approach. All seven and their tolerances are the basis for control throughout the method."
+      ]
+    },
+    {
+      "id": "1.5",
+      "heading": "The project context",
+      "page": 7,
+      "points": [
+        "PRINCE2 works within any context, including organizational and commercial context, delivery method, sustainability requirements and project scale. These contexts are illustrated throughout the book."
+      ]
+    },
+    {
+      "id": "1.5.1",
+      "heading": "Organizational context",
+      "page": 8,
+      "points": [
+        "PRINCE2 assumes no specific organizational context. Users specify desired outputs (products), suppliers provide resources and expertise, and business decision-makers ensure the investment is and remains justified. Users, suppliers and business decision-makers may all be in one organization or separate organizations with commercial agreements.",
+        "Business decision-makers come from the commissioning organization and decide within its strategy, objectives and policies.",
+        "Business: the organization that provides the project mandate and the structure within which the project is governed. User: the organization that will use the project products to gain the expected benefits; internal or external to the business. Supplier: the organization that provides the expertise, people and resources to deliver the products; internal or external. Customer: where there is a commercial relationship between the business and the supplier, the business is the customer.",
+        "A project may be part of a programme or portfolio, or standalone reporting to a business unit's management (Figure 1.2). Guidance is in Managing Successful Programmes and Management of Portfolios. The business is also responsible for realizing benefits after the project completes."
+      ]
+    },
+    {
+      "id": "1.5.2",
+      "heading": "Commercial context",
+      "page": 9,
+      "points": [
+        "The business may enter a commercial relationship with a supplier to deliver products meeting the users' needs defined in the business case. The supplier delivers to satisfy a need identified by the business (the customer).",
+        "The business may split the work: some elements by suppliers, others by itself (an internal department such as IT or facilities). A supplier's work may be a legally binding contract from procurement, and the supplier may procure subcontractors.",
+        "There may be hierarchies of commercial relationships: a single customer with a prime contractor, or several customers and suppliers, each with its own business reasons. The contract describes how they collaborate, and its rights and duties must be reflected in how the project is managed.",
+        "The term customer is only used where there is a commercial relationship between the business and the supplier."
+      ]
+    },
+    {
+      "id": "1.5.3",
+      "heading": "Delivery method",
+      "page": 10,
+      "points": [
+        "The delivery method is the way the work of the project is delivered. A project may use one or more.",
+        "Linear-sequential: each delivery step happens in sequence and the product is available during or at the end (construction: requirements and design before building).",
+        "Iterative-incremental: often for product development; requirements, design, development or coding and testing recur throughout the lifecycle. Often called agile.",
+        "Hybrid: some elements linear-sequential and others iterative-incremental (infrastructure built linearly, the customer service portal iteratively).",
+        "PRINCE2 provides the controlled environment for specialist delivery methods and does not assume or require any. Any approach can be used through the separation of project management from the specialist work. Complementary guidance is in the PRINCE2 Agile official book."
+      ]
+    },
+    {
+      "id": "1.5.4",
+      "heading": "Sustainability context",
+      "page": 10,
+      "points": [
+        "The business likely has sustainability objectives and commitments that inform the project's objectives and how it is managed. PRINCE2 treats sustainability as one of the seven performance targets, and also through roles (sustainability responsibilities), documentation (plans and reports), practices (such as business case) and processes (activities confirming sustainability requirements).",
+        "Sustainability often means the environment, but it can differ by organization: environmental impact of the work, or whole-life cost and resilience of the products in operation. Some projects have sustainability as their purpose (installing solar panels).",
+        "Unless specified otherwise, the book uses sustainability to mean one, some or all of the 17 sustainable development goals defined by the United Nations (Figure 1.3)."
+      ]
+    },
+    {
+      "id": "1.5.5",
+      "heading": "Scale",
+      "page": 11,
+      "points": [
+        "The method is flexible, so it can be simplified for small or simple projects or expanded for large or complex ones.",
+        "Scale is relative to the organization. A small project in a large multinational may exceed a large project in a small organization. It helps to think simple versus complex rather than small versus large; it is generally how the business perceives risk and importance relative to its business as usual.",
+        "PRINCE2 is tailored to scale through: governance arrangements between the business layer, board, project manager and teams; which roles are appointed to individuals (combining in simple projects, dividing in complex ones); formality and detail of management products; formality of project controls (frequency of reporting and review); selection and integration of management approaches; number of stages and work packages; and setting performance targets and tolerances."
+      ]
+    },
+    {
+      "id": "1.6",
+      "heading": "Features and benefits of PRINCE2",
+      "page": 12,
+      "points": [
+        "Because PRINCE2 is flexible and based on proven principles, organizations adopting it as a standard can substantially improve their capability and maturity across business change, construction, IT, mergers and acquisitions, research and product development.",
+        "Benefits: proven (established practice and governance); universal (any project and scale, alongside specialist models); flexible (tailored to the organizations); common language and concepts (consistency, reuse of project assets, staff mobility, reduced impact of personnel change); outcome-focused (focus on viability against business case objectives, with stakeholders represented in planning and decisions); increased organizational maturity (learning and continual improvement); part of an integrated suite designed to work with PeopleCert guides on programme, portfolio and risk management.",
+        "Four example scenarios run through the book: Data Knowledge (a simple, iterative-incremental time-recording solution, three months, led by the head of data science), Louistown City Council (the complex, linear LouisShopping construction project within a portfolio, contractor BuildyBrick), Findef (a hybrid product development project within the FindefTwo programme) and NowByou (a six-month discrimination campaign by a not-for-profit with low project management maturity)."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Project", "definition": "A temporary organization that is created for the purpose of delivering one or more business products according to an agreed business case.", "page": 5 },
+    { "term": "Project management", "definition": "The application of methods, tools, techniques and competencies to enable the project to meet its objectives.", "page": 6 },
+    { "term": "Performance target", "definition": "The project's performance target sets the expected success level against which the management of the project will be judged. PRINCE2 includes performance targets for benefits, cost, time, quality, scope, sustainability and risk.", "page": 7 },
+    { "term": "Business", "definition": "The organization that provides the project mandate and the structure within which the project is governed.", "page": 8 },
+    { "term": "User", "definition": "The organization that will use the project products to enable it to gain the expected benefits. They may be internal or external to the business.", "page": 8 },
+    { "term": "Supplier", "definition": "The organization that provides the expertise, people and resources required to deliver the products required by the project. They may be internal or external to the business.", "page": 8 },
+    { "term": "Customer", "definition": "Where there is a commercial relationship between the business and the supplier, the business is regarded as the customer.", "page": 8 }
+  ],
+  "cards": [
+    { "id": "ch01-c01", "front": "How does PRINCE2 stay adaptable to any project?", "back": "It separates project management from specialist work, focuses on what to manage rather than prescribing how work is done, and requires the method to be applied and tailored to the project's context.", "page": 2 },
+    { "id": "ch01-c02", "front": "Two topics outside PRINCE2's scope?", "back": "Specialist aspects of project work and detailed project management techniques.", "page": 3 },
+    { "id": "ch01-c03", "front": "When are techniques described in detail in PRINCE2?", "back": "Only if PRINCE2 specifically recommends the approach or it is unique to PRINCE2, such as its planning technique.", "page": 3 },
+    { "id": "ch01-c04", "front": "The five integrated elements of PRINCE2?", "back": "Principles, people, practices, processes and the project context.", "page": 3 },
+    { "id": "ch01-c05", "front": "How many principles must be applied for a PRINCE2 project?", "back": "All seven; unless all are applied it is not a PRINCE2 project.", "page": 4 },
+    { "id": "ch01-c06", "front": "Which chapters cover practices and which cover processes?", "back": "Practices: Chapters 4 to 11. Processes: Chapters 12 to 19.", "page": 4 },
+    { "id": "ch01-c07", "front": "What do the practices ensure?", "back": "That the principles are continually applied during the processes in a way specific to the project context.", "page": 5 },
+    { "id": "ch01-c08", "front": "Define project.", "back": "A temporary organization created for the purpose of delivering one or more business products according to an agreed business case.", "page": 5 },
+    { "id": "ch01-c09", "front": "Five characteristics of a project?", "back": "Change, temporary, cross-functional, unique, uncertainty.", "page": 5 },
+    { "id": "ch01-c10", "front": "Business as usual versus business change?", "back": "Business as usual maintains current operations; business change improves or transforms them. Projects are the means of introducing change.", "page": 5 },
+    { "id": "ch01-c11", "front": "Are projects riskier than operational work?", "back": "Yes. The characteristics of projects introduce threats and opportunities beyond business as usual.", "page": 6 },
+    { "id": "ch01-c12", "front": "Define project management.", "back": "The application of methods, tools, techniques and competencies to enable the project to meet its objectives.", "page": 6 },
+    { "id": "ch01-c13", "front": "What is the purpose of project management?", "back": "To address typical project challenges by reducing and managing ambiguity, uniting the parties to clarify objectives and working practices.", "page": 6 },
+    { "id": "ch01-c14", "front": "The seven performance targets?", "back": "Benefits, cost, time, quality, scope, sustainability and risk.", "page": 7 },
+    { "id": "ch01-c15", "front": "Why is delivering beyond scope a problem?", "back": "It is a common source of delays, overspend and uncontrolled change (scope creep).", "page": 7 },
+    { "id": "ch01-c16", "front": "How does PRINCE2 let you set priorities between targets?", "back": "By specifying a range for each performance target as a tolerance; some narrow, some broad.", "page": 7 },
+    { "id": "ch01-c17", "front": "Define business, user, supplier and customer.", "back": "Business: provides the mandate and governance structure. User: uses the products for benefits. Supplier: provides expertise, people and resources. Customer: the business, where there is a commercial relationship with the supplier.", "page": 8 },
+    { "id": "ch01-c18", "front": "Can users and suppliers be internal to the business?", "back": "Yes. Both may be internal or external to the business organization.", "page": 8 },
+    { "id": "ch01-c19", "front": "Who is responsible for realizing benefits after the project completes?", "back": "The business.", "page": 9 },
+    { "id": "ch01-c20", "front": "When is the term customer used?", "back": "Only where there is a commercial relationship between the business and the supplier.", "page": 9 },
+    { "id": "ch01-c21", "front": "Three delivery methods?", "back": "Linear-sequential, iterative-incremental (agile) and hybrid.", "page": 10 },
+    { "id": "ch01-c22", "front": "Does PRINCE2 require a particular delivery method?", "back": "No. It provides a controlled environment for any delivery method by separating project management from specialist work.", "page": 10 },
+    { "id": "ch01-c23", "front": "How does PRINCE2 address sustainability?", "back": "It is one of the seven performance targets, and appears in roles, documentation, practices and processes. Sustainability means the 17 UN sustainable development goals unless specified otherwise.", "page": 10 },
+    { "id": "ch01-c24", "front": "Is scale best described as small versus large?", "back": "It is more helpful to think simple versus complex, depending on how the business perceives risk and importance relative to business as usual.", "page": 11 },
+    { "id": "ch01-c25", "front": "Ways PRINCE2 is tailored to scale?", "back": "Governance, role allocation, formality of management products and controls, management approaches, number of stages and work packages, and performance targets and tolerances.", "page": 11 },
+    { "id": "ch01-c26", "front": "Benefits of PRINCE2?", "back": "Proven, universal, flexible, common language, outcome-focused, increased organizational maturity, and part of an integrated suite of methods.", "page": 12 }
+  ]
+}

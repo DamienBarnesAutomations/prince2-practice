@@ -636,3 +636,22 @@ h1.fail { color: var(--bad); }
   .chapnums { gap: 12px; }
 }
 
+
+/* ------------------------------------------------------------------ study */
+
+.studysec { margin-top: 14px; scroll-margin-top: 12px; }
+.studyhead { margin: 6px 0 8px; font-size: 1.15rem; }
+.keymsg {
+  margin: 0 0 10px;
+  padding: 8px 12px;
+  border-left: 3px solid var(--accent-dim);
+  background: var(--bg-sunken);
+  color: var(--text-dim);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.points { margin: 0; padding-left: 1.2em; }
+.points li { margin-bottom: 8px; }
+.terms { margin: 0; }
+.terms dt { font-weight: 600; margin-top: 10px; }
+.terms dd { margin: 2px 0 0; color: var(--text-dim); }
+.flashcard { min-height: 220px; }

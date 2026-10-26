@@ -1,0 +1,169 @@
+{
+  "set": "ch15",
+  "title": "Initiating a project",
+  "pages": "pp.240-249",
+  "overview": "Initiating a project lays the foundations before major spending: a common understanding of why, what, how, who and when. Know the ten objectives, the seven activities and their order (agree tailoring, agree the management approaches, establish controls, prepare the project plan, prepare the full business case, assemble the project initiation documentation, request authorization), and that the project manager is responsible throughout.",
+  "sections": [
+    {
+      "id": "15.1",
+      "heading": "Purpose",
+      "page": 240,
+      "points": [
+        "Establish solid foundations for the project, letting the business understand the work needed to deliver the project product before committing to significant expenditure or resources."
+      ]
+    },
+    {
+      "id": "15.2",
+      "heading": "Objectives",
+      "page": 240,
+      "points": [
+        "A common understanding of: the reasons, expected benefits and risks (the full business case); scope and products; how, when and at what cost products are delivered; who is involved in decision-making; how required quality is achieved; how baselines are established and controlled; how risks and issues are identified, assessed and controlled; how progress is monitored and controlled; who needs information, in what format and when; how the project applies business policies, methods and guidance."
+      ]
+    },
+    {
+      "id": "15.3",
+      "heading": "Context",
+      "page": 241,
+      "points": [
+        "Figure 15.1: triggered by project initiation authorized (from directing a project); activities are agree tailoring requirements, agree the management approaches, establish project controls, prepare the project plan, prepare the full business case, assemble the project initiation documentation, request project authorization (triggering directing a project). Stage boundary approaching triggers managing a stage boundary.",
+        "It prepares the foundations: all parties must be clear what the project achieves, why, how, and what their responsibilities are, so there is genuine commitment.",
+        "It lets the board, via directing a project, decide whether the project is sufficiently aligned with business objectives to justify continuing.",
+        "The project manager creates the suite of management products for the level of control the board specifies, and should agree with the board how it will review and approve them (each as it is ready, or as a set).",
+        "If the relationship between user and supplier is commercial, every activity needs further consideration because risks, rewards and reasons differ for customer and supplier.",
+        "Table 15.1: input project initiation authorized (triggers); reviews of project brief, project log (check), project product description, initiation stage plan. Outputs: management approaches (create), project plan (create), business case (create from the outline business case), project initiation documentation (create), project log (update), and the project authorization request (triggers directing a project)."
+      ]
+    },
+    {
+      "id": "15.4.1",
+      "heading": "Agree tailoring requirements",
+      "page": 242,
+      "points": [
+        "The project manager may need to tailor PRINCE2 for internal and external factors. The business may already have a standard framework based on tailored PRINCE2. How PRINCE2 or that framework applies or is tailored must be documented and agreed.",
+        "Actions: review the project brief's outlined tailoring approach; seek lessons on tailoring; define tailoring requirements in the project initiation documentation including related controls; consult project assurance that tailoring meets board or business needs; seek the board's approval (it may prefer to review it later as part of the project initiation documentation)."
+      ]
+    },
+    {
+      "id": "15.4.2",
+      "heading": "Agree the management approaches",
+      "page": 243,
+      "points": [
+        "Activities may run in parallel, but the communication management approach should be completed last because it must include the communications required by the others.",
+        "Approaches derive from business strategies, standards or practices and the users' quality and sustainability expectations in the project product description. Once defined, controls can be established and the project plan created.",
+        "The nine approaches: change management (Chapter 3), communication management (3), sustainability management (5), benefits management (5), commercial management (6), quality management (8), risk management (9), issue management (10), digital and data management (11).",
+        "Actions: review how PRINCE2 is tailored and its implications; review the brief for business strategies, standards or contractual requirements; seek lessons; review the project log for related issues and risks and update it; consult project assurance; seek the board's approval (or review later with the project initiation documentation)."
+      ]
+    },
+    {
+      "id": "15.4.3",
+      "heading": "Establish project controls",
+      "page": 243,
+      "points": [
+        "Agree the level of control the board needs after initiation and the project manager needs over team managers' work, and establish the mechanisms. Controls make the project manageable effectively and efficiently, consistent with scale, risk, complexity and importance. Effective controls are a prerequisite for manage by exception.",
+        "Controls include: frequency and format of communication between and within management layers; the number of stages; mechanisms to capture and analyse issues; tolerances for delegated authority; how delegated authority is monitored; mechanisms to escalate exceptions. Many were defined in the management approaches; the focus here is to establish them and make sure they form a coherent set.",
+        "Actions for the project manager and project support: confirm the delivery method and its implications; review tailoring and the approaches for controls to establish; seek lessons; review risks and issues about controls (aggregated risks affect the scale and rigour of control); confirm and document the stage boundaries; allocate decision-making levels; establish decision-making procedures (possibly tailoring existing quality system procedures); build decision-making authority into the team structure and role descriptions (possibly finalizing or redesigning roles); confirm tolerances and escalation procedures (team manager to project manager, project manager to board, board to business); summarize controls in the project initiation documentation; consult assurance; update the project log; seek board approval."
+      ]
+    },
+    {
+      "id": "15.4.4",
+      "heading": "Prepare the project plan",
+      "page": 245,
+      "points": [
+        "Before major expenditure, the timescale, resource and people requirements must be established. They are held in the project plan and are needed to prepare the benefits management approach and let the board control the project.",
+        "Planning is not done in isolation: involve users and suppliers to co-create the plan, with planning workshops to identify products, details and dependencies.",
+        "Actions for the project manager: confirm the delivery method and its implications; review the brief for scope and planning requirements; review tailoring; seek lessons; review risks and issues for planning; identify and document planning and control tools; choose estimating methods; review the approaches for resources, standards, methods and costs; create a product breakdown structure, product descriptions and a product flow diagram and include them in the plan; identify arrangements for transition into operational use (including a service agreement between the support group and user, which then becomes a product in the plan); consider updating the project product description if the understanding of acceptance criteria has changed; create or update product register records; identify and confirm people and resources, their availability, acceptance and commitment; include activities, resources, people and timings for project controls; decide the plan's format and presentation for its audience (a product checklist may suffice for the board; see Appendix A section A10); consult project assurance; update the project log; seek board approval."
+      ]
+    },
+    {
+      "id": "15.4.5",
+      "heading": "Prepare the full business case",
+      "page": 246,
+      "points": [
+        "Update the outline business case with the time and costs from the project plan and the aggregated risks from the updated project log.",
+        "Not done by the project manager alone: co-create it with the project executive. The board uses it to authorize the project and it is the basis of the ongoing check that the project remains viable.",
+        "Actions: check the brief for business requirements on format and content; seek lessons on business case development; create a more detailed business case; update the project log; consult assurance; seek board approval."
+      ]
+    },
+    {
+      "id": "15.4.6",
+      "heading": "Assemble the project initiation documentation",
+      "page": 246,
+      "points": [
+        "There needs to be a focal point where all information on the what, why, who, how, where, when and how much is gathered for agreement by key stakeholders and available as guidance.",
+        "The project initiation documentation aggregates many management products created or updated during initiation. It is not necessarily one document but a collection (workbook, project management tool contents).",
+        "The version used to gain authorization must be baselined and placed under change control. It is later used to compare actual performance with the original forecasts.",
+        "Actions: extract and revise information from the brief; include or reference the team structure and role descriptions, business case, management approaches and project plan; include or reference the project controls and summarize the tailoring; assemble it; cross-check the elements are compatible; consult project assurance; prepare for the next stage (which triggers managing a stage boundary)."
+      ]
+    },
+    {
+      "id": "15.4.7",
+      "heading": "Request project authorization",
+      "page": 247,
+      "points": [
+        "To finish initiating a project, and so the initiation stage, the project manager contacts the board to request project authorization. The formal justification is in the business case and project initiation documentation.",
+        "Actions: share the final business case, project initiation documentation and project plan with the board; formally request authority to deliver the project and secure the people and resources required."
+      ]
+    },
+    {
+      "id": "15.5.1",
+      "heading": "General considerations",
+      "page": 247,
+      "points": [
+        "Activities may be combined, split or run concurrently.",
+        "The number of management products can look daunting and imply more detail than needed. This process lays the foundation and tailoring is primarily decided here, but relevant factors may not be obvious at the start. Start simple and elaborate if needed rather than building an environment for a hypothetical major project.",
+        "Some projects are too complex to fully define the output by the end of this process. Then the lifecycle may have investigative stages to look at options and choose a solution, and initiating a project is used only at the start of the first stage to establish the management and control environment."
+      ]
+    },
+    {
+      "id": "15.5.2",
+      "heading": "Tailoring roles in initiating a project",
+      "page": 248,
+      "points": [
+        "The project manager is responsible for creating the management products. Project support may be responsible for some supporting products, but the project manager is always responsible to the executive for how the project is run, and may assign roles to whoever is appropriate. Support may come from a higher-level programme office."
+      ]
+    },
+    {
+      "id": "15.6",
+      "heading": "Responsibilities",
+      "page": 248,
+      "points": [
+        "Table 15.2: for agree tailoring, agree management approaches, establish project controls, prepare the project plan and prepare the full business case, the project executive is accountable and the project manager responsible, with senior user and senior supplier consulted and project assurance consulted.",
+        "Assemble the project initiation documentation: project manager accountable, project support responsible, executive and senior roles consulted. Request project authorization: executive accountable, project manager responsible, business informed."
+      ]
+    },
+    {
+      "id": "15.7",
+      "heading": "Application of the practices to this process",
+      "page": 249,
+      "points": [
+        "Business case: the outline business case becomes the full business case; the benefits and sustainability management approaches are developed. Organizing: the team structure is updated with delegated authority levels, the rest of the team appointed and onboarded, a work breakdown structure considered, and the communication, change and commercial management approaches created.",
+        "Plans: the project product description produces the product breakdown structure and product flow diagram, which create the project plan (defining the stages); the product register is created. Quality: product descriptions are created (and the project product description updated if needed); the quality management approach and quality register are created.",
+        "Risk: the risk management approach and risk register are created, risks logged and assessed, and a risk budget considered. Issues: the issue management approach and issue register are created, issues logged and assessed, and a change budget considered. Progress: the digital and data management approach is created, controls for all approaches established, and highlight reports show progress for the initiation stage."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch15-c01", "front": "Purpose of initiating a project?", "back": "To establish solid foundations, letting the business understand the work needed to deliver the project product before committing to significant expenditure or resources.", "page": 240 },
+    { "id": "ch15-c02", "front": "What triggers initiating a project?", "back": "Project initiation authorized, from directing a project.", "page": 242 },
+    { "id": "ch15-c03", "front": "Seven activities of initiating a project?", "back": "Agree tailoring requirements; agree the management approaches; establish project controls; prepare the project plan; prepare the full business case; assemble the project initiation documentation; request project authorization.", "page": 241 },
+    { "id": "ch15-c04", "front": "Where is the full business case documented?", "back": "In the business case, created from the outline business case using time and cost from the project plan and the aggregated risks.", "page": 246 },
+    { "id": "ch15-c05", "front": "Who creates the management products in initiating a project?", "back": "The project manager is responsible; project support may help; the executive is accountable for most activities.", "page": 248 },
+    { "id": "ch15-c06", "front": "Where must the tailoring be documented?", "back": "In the project initiation documentation.", "page": 242 },
+    { "id": "ch15-c07", "front": "Which management approach should be completed last, and why?", "back": "The communication management approach, because it must include the communications required by the other approaches.", "page": 243 },
+    { "id": "ch15-c08", "front": "Name the nine management approaches.", "back": "Change, communication, sustainability, benefits, commercial, quality, risk, issue, and digital and data management.", "page": 243 },
+    { "id": "ch15-c09", "front": "Why establish project controls?", "back": "They enable effective, efficient management consistent with scale, risk, complexity and importance, and are a prerequisite for managing by exception.", "page": 243 },
+    { "id": "ch15-c10", "front": "Examples of project controls?", "back": "Communication frequency and format; number of stages; issue capture and analysis; tolerances for delegated authority; monitoring of delegated authority; mechanisms to escalate exceptions.", "page": 244 },
+    { "id": "ch15-c11", "front": "Escalation lines when confirming tolerances?", "back": "Team managers to project manager, project manager to project board, project board to business.", "page": 244 },
+    { "id": "ch15-c12", "front": "How should the project plan be prepared?", "back": "Not in isolation: co-created with users and suppliers, often in planning workshops.", "page": 245 },
+    { "id": "ch15-c13", "front": "What goes into the project plan about transition into operational use?", "back": "Arrangements for transition, including any service agreement between the support group and user as a product in the plan.", "page": 245 },
+    { "id": "ch15-c14", "front": "Who co-creates the full business case with the project manager?", "back": "The project executive.", "page": 246 },
+    { "id": "ch15-c15", "front": "Is the project initiation documentation a single document?", "back": "Not necessarily. It is an aggregation of management products, which may be a collection of documents or a tool's contents.", "page": 246 },
+    { "id": "ch15-c16", "front": "What must happen to the authorized project initiation documentation?", "back": "It must be baselined and placed under change control, to compare actual performance against the original forecasts.", "page": 246 },
+    { "id": "ch15-c17", "front": "What does the project manager do to finish initiating a project?", "back": "Shares the final business case, project initiation documentation and project plan with the board and formally requests authority to deliver, securing people and resources.", "page": 247 },
+    { "id": "ch15-c18", "front": "Which process does preparing for the next stage trigger?", "back": "Managing a stage boundary.", "page": 247 },
+    { "id": "ch15-c19", "front": "Why start simple when tailoring?", "back": "Relevant factors may not be obvious at the start, so build simple and elaborate if needed rather than creating an environment for a hypothetical major project.", "page": 247 },
+    { "id": "ch15-c20", "front": "What if the output is too complex to define fully by the end of initiation?", "back": "The lifecycle may have investigative stages, and initiating a project is used only at the start of the first stage to set up management and control.", "page": 248 },
+    { "id": "ch15-c21", "front": "Who is accountable and who responsible for assembling the project initiation documentation?", "back": "Project manager accountable; project support responsible.", "page": 248 },
+    { "id": "ch15-c22", "front": "Which registers are created in this process?", "back": "Product register, quality register, risk register and issue register.", "page": 249 }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "set": "ch19",
+  "title": "Closing a project",
+  "pages": "pp.278-284",
+  "overview": "Closing a project provides a fixed point at which acceptance of the project product is confirmed and a controlled end, planned or premature. Know the five activities, the difference between planned and premature closure, what the end project report and follow-on action recommendations are for, and that post-project benefits reviews are planned here but not performed by the project.",
+  "sections": [
+    {
+      "id": "19.1",
+      "heading": "Purpose",
+      "page": 278,
+      "points": [
+        "Provide a fixed point at which acceptance of the project product is confirmed, and a point to recognize that the objectives (or approved changes to them) in the project initiation documentation have been achieved.",
+        "Where there is a cause for premature closure, the process ensures the project is closed in an orderly way."
+      ]
+    },
+    {
+      "id": "19.2",
+      "heading": "Objectives",
+      "page": 278,
+      "points": [
+        "Check user acceptance of the project product; ensure the business can support the products when the project closes; review performance against baselines; assess benefits already realized and update the benefits management approach to include post-project benefits reviews; ensure provision for all open issues and risks with follow-on action recommendations; ensure the project is closed in an orderly way and not simply abandoned (in a premature close)."
+      ]
+    },
+    {
+      "id": "19.3",
+      "heading": "Context",
+      "page": 279,
+      "points": [
+        "Figure 19.1: triggered by project end approaching (from controlling a stage) for planned closure, or a premature close request (from directing a project). Activities: prepare planned closure or prepare premature closure, then confirm project acceptance, evaluate the project, request project closure (the project closure request to directing a project).",
+        "A defining feature of a project is that it is finite. A clear end is always more successful than a slow drift into use: all concerned recognize that the original objectives have been met (subject to approved changes), the project has run its course, responsibility for ongoing operation and maintenance is confirmed by the agreed owners, the temporary project organization can be disbanded and project costs should stop. It also identifies unachieved goals so they can be addressed later, and transfers ownership of products to the agreed owners, ending the project management team's responsibility.",
+        "Closure activities are planned in the stage plan for the final stage. The project manager prepares information so the board can authorize closure, and the project executive then notifies the business layer that the project has closed.",
+        "The board may trigger premature closure (for example if the business case is no longer valid); the process is still executed.",
+        "Actions specific to the project product that are needed after the project are documented and planned as follow-on action recommendations. They may have different audiences and need individual issue; the recipient's needs set format and content (a formal report, a system log entry or a meeting).",
+        "Table 19.1: both closure paths create a lessons report and an end project report and update the project log, project plan and benefits management approach where needed; premature closure is triggered by the premature close request."
+      ]
+    },
+    {
+      "id": "19.4.1",
+      "heading": "Prepare planned closure",
+      "page": 280,
+      "points": [
+        "A closure recommendation can be raised to the board once the project manager has confirmed the project can be closed.",
+        "Actions: use the communication management approach to identify organizations or interested parties who must know the project is closing (consider public relations and marketing opportunities); close the project log; secure and archive all project information (per the issue management approach) to permit future audit of the team's decisions, actions and performance; prepare a draft project closure notification for the board to review."
+      ]
+    },
+    {
+      "id": "19.4.2",
+      "heading": "Prepare premature closure",
+      "page": 281,
+      "points": [
+        "When the board instructs premature closure, work in progress must not simply be abandoned: salvage anything of value and make sure gaps left by cancellation are raised with the business.",
+        "Actions: update the project log (and if necessary the issue report) to record the request; update the project plan with actuals from the final stage; request product status from project support and determine which components have been approved by their authorities, are in development (and need completing), are covered by approved concessions, are yet to be started, need to be made safe, or may be useful to other projects; if appropriate agree how to recover completed or in-progress products, with board consultation, possibly extra work to create, make safe or complete products (such as making an unfinished building safe and weatherproof), which may need an exception plan; seek approval to notify the business that resources and people can be or are about to be released early."
+      ]
+    },
+    {
+      "id": "19.4.3",
+      "heading": "Confirm project acceptance",
+      "page": 281,
+      "points": [
+        "Products must pass to an operational and maintenance environment before closure. This may be one release at the end or phased releases. In a premature closure some products may be approved but not yet delivered; depending on board guidance, ownership of some or all may need to transfer to users.",
+        "When delivering products, the benefits management approach may need updating to include post-project reviews of the project product's performance in operational use, which may reveal side effects (beneficial or adverse) giving lessons for other projects.",
+        "There may be multiple handovers through the lifecycle. It is not a project activity to carry out the benefits review after completion, only to plan for it. In a programme, post-project benefits reviews are covered by the programme's benefits management activities.",
+        "Actions: prepare follow-on action recommendations for the project product covering uncompleted work, issues and risks, in consultation with the management team (separate ones for the product or components, or for each distinct user group such as human resources, finance and operations); check the benefits management approach includes post-project activities to confirm benefits measurable only after operational use (such as reliability); examine the project initiation documentation to confirm how products are delivered to those who will maintain them."
+      ]
+    },
+    {
+      "id": "19.4.4",
+      "heading": "Evaluate the project",
+      "page": 282,
+      "points": [
+        "Successful organizations learn from projects. The objective is to assess how successful the project was, or in a premature close, to evaluate the project and the reasons for early closure. Analysing estimates against actual metrics may improve future estimating.",
+        "Actions: review the project's original intent as agreed in initiation and baselined in the project initiation documentation; review approved changes in the current version of its components; prepare an end project report in consultation with the management team; review the project log for lessons for future projects and include them in the lessons report in consultation with the team."
+      ]
+    },
+    {
+      "id": "19.4.5",
+      "heading": "Request project closure",
+      "page": 282,
+      "points": [
+        "To finish the final stage and close the project, the project manager asks the board for closure, emphasizing the importance of celebrating success and suggesting some form of appreciation by the board to all involved. The formal justification is in the end project report.",
+        "Actions: brief the board on project performance, confirm readiness to close, highlighting any concessions for off-specifications; request project closure from the board."
+      ]
+    },
+    {
+      "id": "19.5.1",
+      "heading": "General considerations",
+      "page": 283,
+      "points": [
+        "Activities may be combined, separated or run concurrently, keeping the integrity of the connections with directing a project and controlling a stage.",
+        "Product handover may have happened in earlier stages rather than the final stage; closing then only needs confirmation that all handovers are complete."
+      ]
+    },
+    {
+      "id": "19.5.2",
+      "heading": "Tailoring roles in closing a project",
+      "page": 283,
+      "points": [
+        "The project manager is responsible for creating all new management products but may delegate while retaining overall responsibility. Checking that post-project benefits reviews are planned may be done by the senior user in the confirm project acceptance activity."
+      ]
+    },
+    {
+      "id": "19.6",
+      "heading": "Responsibilities",
+      "page": 283,
+      "points": [
+        "Table 19.2: for all activities the project executive is accountable and the project manager responsible. Request project closure: business layer informed, executive accountable, project manager responsible."
+      ]
+    },
+    {
+      "id": "19.7",
+      "heading": "Application of the practices to this process",
+      "page": 284,
+      "points": [
+        "Business case: performance at the end is assessed and the business case updated with actual costs and benefits and a forecast of benefits yet to be realized; benefits and sustainability approaches updated for post-project responsibilities. Organizing: team performance, health and wellbeing reviewed for lessons and the end project report; communication, change and commercial approaches reviewed for closure needs (such as who to notify); the team is disbanded and off-boarding completed.",
+        "Plans, quality, risk, issues, progress: the product, quality, risk and issue registers, the daily log and lessons log are reviewed for input to lessons and the end project report and then closed. Residual risks are transferred to the business; follow-on actions for the business are captured from the issue register; the digital and data management approach is reviewed for how project data is archived or used; the end project report is created and issued."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch19-c01", "front": "Purpose of closing a project?", "back": "To provide a fixed point at which acceptance of the project product is confirmed and to recognize objectives (or approved changes) have been achieved. It also ensures an orderly premature close.", "page": 278 },
+    { "id": "ch19-c02", "front": "What triggers closing a project?", "back": "Project end approaching (planned closure) from controlling a stage, or a premature close request from directing a project.", "page": 280 },
+    { "id": "ch19-c03", "front": "Five activities of closing a project?", "back": "Prepare planned closure (or premature closure); confirm project acceptance; evaluate the project; request project closure.", "page": 279 },
+    { "id": "ch19-c04", "front": "Why is a clear end better than a slow drift into use?", "back": "It confirms objectives are met, ownership of ongoing operation is agreed, the temporary team can be disbanded and costs stop, and unachieved goals are identified.", "page": 279 },
+    { "id": "ch19-c05", "front": "Where are closure activities planned?", "back": "In the stage plan for the final stage.", "page": 280 },
+    { "id": "ch19-c06", "front": "Who notifies the business layer that the project has closed?", "back": "The project executive.", "page": 280 },
+    { "id": "ch19-c07", "front": "What are follow-on action recommendations?", "back": "Documented, planned actions needed after the project for the project product, including uncompleted work, issues and risks, possibly issued separately to different audiences.", "page": 280 },
+    { "id": "ch19-c08", "front": "What happens to the project log and information in planned closure?", "back": "The log is closed and all project information is secured and archived to permit future audit.", "page": 280 },
+    { "id": "ch19-c09", "front": "What must not happen to work in progress in a premature close?", "back": "It must not simply be abandoned: salvage anything of value and raise gaps with the business.", "page": 281 },
+    { "id": "ch19-c10", "front": "What does the project manager determine about components in a premature closure?", "back": "Which are approved, in development, covered by concessions, yet to start, need making safe, or may be useful to other projects.", "page": 281 },
+    { "id": "ch19-c11", "front": "Might products be handed over before closure?", "back": "Yes. Products must reach operations and maintenance before closure, in one release or phased releases. Closing then only confirms all handovers are complete.", "page": 281 },
+    { "id": "ch19-c12", "front": "Does the project carry out the post-project benefits review?", "back": "No. It only plans for it. In a programme, the programme's benefits management covers it.", "page": 281 },
+    { "id": "ch19-c13", "front": "Why might post-project benefits reviews look at the product in use?", "back": "To identify side effects, beneficial or adverse, that give lessons for other projects.", "page": 281 },
+    { "id": "ch19-c14", "front": "Which management products are created in closing a project?", "back": "The lessons report and the end project report.", "page": 280 },
+    { "id": "ch19-c15", "front": "What does evaluating the project compare?", "back": "The original intent baselined in the project initiation documentation against approved changes and actual performance; also estimates against actuals.", "page": 282 },
+    { "id": "ch19-c16", "front": "Where is the formal justification for closure?", "back": "In the end project report.", "page": 282 },
+    { "id": "ch19-c17", "front": "What should the project manager encourage when requesting closure?", "back": "Celebrating the success and some form of appreciation from the board to all involved.", "page": 282 },
+    { "id": "ch19-c18", "front": "Who may check that post-project benefits reviews are planned?", "back": "The senior user, in the confirm project acceptance activity, if tailored.", "page": 283 },
+    { "id": "ch19-c19", "front": "What happens to residual risks and follow-on actions at closure?", "back": "Residual risks are transferred to the business and follow-on actions for the business are captured from the issue register.", "page": 284 },
+    { "id": "ch19-c20", "front": "What happens to the registers and logs at closure?", "back": "They are reviewed for input to lessons and the end project report, then closed.", "page": 284 }
+  ]
+}

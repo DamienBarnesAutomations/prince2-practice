@@ -1,0 +1,135 @@
+{
+  "set": "ch17",
+  "title": "Managing product delivery",
+  "pages": "pp.262-268",
+  "overview": "Managing product delivery is the team manager's view of work: accept a work package, execute it, evaluate and report on it, and notify its completion. It controls the link between project manager and team manager. Know the four activities, what the team manager produces (team plan, checkpoint reports, specialist products) and the freedom team managers should have.",
+  "sections": [
+    {
+      "id": "17.1",
+      "heading": "Purpose",
+      "page": 262,
+      "points": [
+        "Control the link between the project manager and the team manager by agreeing the requirements for acceptance, execution, reporting and delivery of specialist products.",
+        "The team manager coordinates an area of work that delivers one or more specialist products forming the project product. Team managers can be internal or external to the organization running the project."
+      ]
+    },
+    {
+      "id": "17.2",
+      "heading": "Objectives",
+      "page": 262,
+      "points": [
+        "Ensure: work on products allocated to the team is authorized and agreed; team managers and teams are clear what is to be produced and the expected effort, cost and timescales; planned products are delivered to quality expectations within tolerances; accurate progress information goes to the project manager at an agreed frequency.",
+        "Team managers should have enough freedom to do their work, formalized by the tolerances in the work package description and the project manager's trust. Micromanagement does not improve the project; it is more likely to create frustration and delay."
+      ]
+    },
+    {
+      "id": "17.3",
+      "heading": "Context",
+      "page": 263,
+      "points": [
+        "Figure 17.1: triggered by work package authorized (from controlling a stage); activities are accept a work package, execute a work package, evaluate a work package, notify work package completion, ending with the completed work package notice (back to controlling a stage). It views the project from the team manager's perspective; controlling a stage views it from the project manager's.",
+        "The team manager makes sure the team creates and delivers products by: accepting authorized work packages; keeping the development, operations and maintenance relationships in the work package description; creating a team plan (possibly in parallel with the project manager creating the stage plan); developing products per specified development methods; demonstrating each product meets quality criteria through methods in the product description; obtaining approval from the authorities named in the product description; delivering per the work package description's procedures.",
+        "External suppliers may not use PRINCE2. This process states the working relationship the project manager requires. The work package may be part of a contract, so the formality of a team plan can range from a schedule appended to the work package description to a fully formed plan in the style of a stage plan.",
+        "Table 17.1: accept a work package creates or updates the team plan; execute a work package creates specialist products and updates the project log; evaluate a work package creates checkpoint reports for each period; notify work package completion updates the team plan, completes the work package and creates the completed work package notice, which triggers controlling a stage."
+      ]
+    },
+    {
+      "id": "17.4.1",
+      "heading": "Accept a work package",
+      "page": 264,
+      "points": [
+        "Before a work package is allocated, the project manager and team manager should agree what is to be delivered, covering reporting requirements, constraints, procedures to apply, and whether the requirements are reasonable and achievable.",
+        "Actions for each team manager: review the work package description for what and when; produce a team plan showing which products can be completed within constraints (for example within the timebox in agile); check the description for the procedure to update the project log; consult project assurance on extra reviewers and update the log; consult supplier project assurance that the team plan is viable and meets supplier standards; seek approval for the team plan (in a commercial relationship it may be inappropriate for the project manager to review it, so the senior supplier may approve); review risks against the team plan, advise the project manager of additional or modified risks and, if allowed, update the project log directly; agree to deliver the work package."
+      ]
+    },
+    {
+      "id": "17.4.2",
+      "heading": "Execute a work package",
+      "page": 265,
+      "points": [
+        "Execute and monitor the work as defined in the authorized work package. The team manager can only proceed or take corrective action while the work package is forecast to complete within tolerances set by the project manager. When tolerances are expected to be exceeded, raise an issue with the project manager, who chooses a course of action.",
+        "Ensure psychological safety within the team and address related issues and risks immediately and adequately.",
+        "Actions: manage development of products per the work package description and team plan; notify the project manager of new issues, risks or lessons and act as requested; notify the project manager of completed quality activities and update the quality register; obtain approvals for completed products and update the product register."
+      ]
+    },
+    {
+      "id": "17.4.3",
+      "heading": "Evaluate a work package",
+      "page": 265,
+      "points": [
+        "Review and report progress to the project manager for each period defined in the work package description.",
+        "Actions: review the work package description and team plan for expected progress; review the issue register, risk register, quality register, product register (including approval records) and lessons log for items related to the work package; report status to the project manager via a checkpoint report. In iterative-incremental projects the checkpoint report may be a pull system where the project manager looks at progress charts such as Kanban boards or burn-down charts kept by the team.",
+        "In a commercial context the team manager from a supplier may have their own logs and registers. Project support may help by providing information in the project log about the work package."
+      ]
+    },
+    {
+      "id": "17.4.4",
+      "heading": "Notify work package completion",
+      "page": 265,
+      "points": [
+        "As the project manager's authorization was accepted, completion must be communicated back.",
+        "Actions: check the work package description and follow its procedure to deliver the products; review approval records to confirm all products are approved; update the team plan to show completion; review the project log for lessons and outstanding issues or risks; brief the project manager on delivered product status and performance against the work package agreement, highlighting outstanding issues (such as off-specifications) or risks; notify the project manager that the work package is complete."
+      ]
+    },
+    {
+      "id": "17.5.1",
+      "heading": "General considerations",
+      "page": 266,
+      "points": [
+        "Activities may be combined, separated or run concurrently, keeping the integrity of the connection to controlling a stage.",
+        "Specialist work uses delivery methods and techniques suited to it, so monitoring and control must fit those methods. The project manager and team manager agree such controls, include them in the work package description and make them compatible with the project's management approaches.",
+        "Work packages are not necessarily small. All the principles apply to a work package as to a project, needing appropriate governance and often a team manager skilled in project management. For large ones, a team manager may create a hierarchy of smaller work packages and the process should be tailored to control the lower-level work.",
+        "The relationship between team manager and team members should be collaborative: the team manager facilitates rather than assigns tasks, to improve ownership."
+      ]
+    },
+    {
+      "id": "17.5.2",
+      "heading": "Tailoring roles in managing product delivery",
+      "page": 266,
+      "points": [
+        "The team manager is responsible for all activities but may be supported by team members. A project manager may undertake a team manager role.",
+        "Work packages may be broken into further work packages, creating a hierarchy of team managers with its own reporting. The top-level team manager is responsible for all work in the top-level work package and reports overall progress to the project manager.",
+        "Who creates, updates and approves a work package description may be changed provided both the team manager and project manager agree on what it comprises."
+      ]
+    },
+    {
+      "id": "17.6",
+      "heading": "Responsibilities",
+      "page": 267,
+      "points": [
+        "Table 17.2: for all four activities the team manager is responsible and the project manager accountable, with project assurance and project support consulted or informed as appropriate."
+      ]
+    },
+    {
+      "id": "17.7",
+      "heading": "Application of the practices to this process",
+      "page": 267,
+      "points": [
+        "Business case, organizing, quality, risk, issues and progress: the requirements for benefits and sustainability, communication, change and commercial, quality, risk, issue and data management defined in the work package description are fulfilled when executing it.",
+        "Organizing: a team plan with team structure, appointments and working arrangements; team health and wellbeing monitored. Plans: the team manager develops a team plan; the product register for products in scope is updated.",
+        "Quality: specialist products are developed and delivered; the quality register is updated. Risk and issues: team-level risk and issue registers are updated and escalated to the project manager where applicable. Progress: checkpoint reports at the agreed frequency; the lessons log updated for team-level lessons."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch17-c01", "front": "Purpose of managing product delivery?", "back": "To control the link between project manager and team manager by agreeing requirements for acceptance, execution, reporting and delivery of specialist products.", "page": 262 },
+    { "id": "ch17-c02", "front": "Whose perspective does this process take?", "back": "The team manager's (controlling a stage takes the project manager's).", "page": 263 },
+    { "id": "ch17-c03", "front": "Four activities of managing product delivery?", "back": "Accept a work package; execute a work package; evaluate a work package; notify work package completion.", "page": 263 },
+    { "id": "ch17-c04", "front": "What triggers managing product delivery?", "back": "Work package authorized, from controlling a stage.", "page": 263 },
+    { "id": "ch17-c05", "front": "What does completing the process trigger?", "back": "The completed work package notice triggers controlling a stage.", "page": 264 },
+    { "id": "ch17-c06", "front": "Can team managers be external to the organization?", "back": "Yes, they can be internal or external.", "page": 262 },
+    { "id": "ch17-c07", "front": "What does the team manager produce when accepting a work package?", "back": "A team plan showing which products can be completed within the constraints.", "page": 264 },
+    { "id": "ch17-c08", "front": "Who may approve a team plan in a commercial customer-supplier relationship?", "back": "The senior supplier, if it is inappropriate for the project manager to review it.", "page": 264 },
+    { "id": "ch17-c09", "front": "What should be agreed before a work package is allocated?", "back": "What is to be delivered, reporting requirements, constraints, procedures, and whether the requirements are reasonable and achievable.", "page": 264 },
+    { "id": "ch17-c10", "front": "What should the team manager do when work package tolerances are forecast to be exceeded?", "back": "Raise an issue with the project manager, who chooses a course of action.", "page": 265 },
+    { "id": "ch17-c11", "front": "How often does the team manager report on a work package?", "back": "For each period defined in the work package description, via a checkpoint report.", "page": 265 },
+    { "id": "ch17-c12", "front": "What does the team manager review before writing a checkpoint report?", "back": "The work package description, team plan, and the issue, risk, quality, product and lessons records for the work package.", "page": 265 },
+    { "id": "ch17-c13", "front": "What does the team manager do to notify completion?", "back": "Follow the delivery procedure, confirm product approvals, update the team plan, brief the project manager on product status and any outstanding issues, and notify completion.", "page": 266 },
+    { "id": "ch17-c14", "front": "Should the project manager micromanage team managers?", "back": "No. Micromanagement creates frustration and delay; give freedom through tolerances in the work package description and trust.", "page": 262 },
+    { "id": "ch17-c15", "front": "How does PRINCE2 handle external suppliers that do not use PRINCE2?", "back": "The process states the working relationship required; the work package may be contractual and the team plan formality can vary.", "page": 263 },
+    { "id": "ch17-c16", "front": "Are work packages always small?", "back": "No. All principles apply to a work package; a team manager may create a hierarchy of smaller ones.", "page": 266 },
+    { "id": "ch17-c17", "front": "Who reports overall progress in a hierarchy of work packages?", "back": "The top-level team manager reports to the project manager.", "page": 267 },
+    { "id": "ch17-c18", "front": "Who is responsible for all activities in managing product delivery?", "back": "The team manager, who may be supported by team members.", "page": 266 }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "set": "ch08",
+  "title": "Quality",
+  "pages": "pp.128-146",
+  "overview": "The quality practice answers What? It documents the user's requirements of the products and sets up how they will be met. Be precise on the quality vocabulary (user's quality expectations, requirement, acceptance criteria, quality specification), the split between quality planning, control and assurance, the three-step technique, the producer-reviewer-acceptance authority responsibilities, and the five management products.",
+  "sections": [
+    {
+      "id": "8.1",
+      "heading": "Purpose",
+      "page": 128,
+      "keyMessage": "Document the user's requirements of the project products and establish the means by which they will be met.",
+      "points": [
+        "Quality ensures products meet the user's requirements and expectations and enable the benefits. The practice covers concepts, guidance, techniques, management products and responsibilities.",
+        "Quality: the degree to which a set of inherent characteristics of a product, service, process, person, organization, system or resource fulfils its requirements.",
+        "PRINCE2 systematically: confirms the user's quality expectations and acceptance criteria in the project product description; identifies products to the level at which the project can exert control; defines products in product descriptions with quality specifications, techniques and responsibilities; implements and tracks the quality techniques.",
+        "Quality should be built into everything, not just tested at the end."
+      ]
+    },
+    {
+      "id": "8.1.1",
+      "heading": "Key quality terminology",
+      "page": 129,
+      "points": [
+        "Four terms: user's quality expectations, requirements, acceptance criteria, quality specifications.",
+        "User's quality expectations: a statement about the quality expected from the project product, captured in the project product description. Only statements in the project product description are called this, although all stakeholders have expectations.",
+        "Requirement: a need or expectation documented in an approved management product (such as a product description). Documented ones form part of project scope; those not captured in an approved management product are not in scope. This is essential for monitoring and control.",
+        "Acceptance criteria: a prioritized list of criteria the project product must meet before the user will accept it (for example measurable attributes acceptable to key stakeholders). Stated in the project product description, owned by the business and approved by the board on its behalf, typically described as the functional capabilities the business expects on acceptance.",
+        "Quality specifications: a description of the quality measures applied by those performing quality control and the levels a finished product must meet. Stated in product descriptions, derived from user quality expectations and the business or operational context (regulation, policies, practices)."
+      ]
+    },
+    {
+      "id": "8.1.2",
+      "heading": "Product-based quality",
+      "page": 130,
+      "points": [
+        "Focus on products is central to PRINCE2's approach to quality. Requirements are the expectations, needs and desires of stakeholders for products, outcomes and benefits. No project can satisfy all, so they must be prioritized and agreed in a controlled way.",
+        "The product-based approach translates requirements into acceptance criteria and quality specifications for products and the activities to deliver them, avoiding work not traceable to the business justification, and gives clear traceability of quality specifications and controls to products.",
+        "The larger the scope and duration, the larger and more dynamic the requirements. Expect changes however thoroughly they were captured. Requirements management is ongoing and is the first part of the product-based quality management approach.",
+        "It is easier and cheaper to correct flaws early than during testing or in operational use. Prevention through quality planning also reduces the resources and risks of quality control."
+      ]
+    },
+    {
+      "id": "8.2",
+      "heading": "Guidance for effective quality management",
+      "page": 130,
+      "points": [
+        "Three elements: quality planning, quality control and quality assurance.",
+        "Quality planning: identify major products and document them as user quality expectations and acceptance criteria in the project product description; elicit requirements and detail them as quality specifications in product descriptions; develop the quality management approach so specifications and criteria are met; obtain the board's approval as a baseline.",
+        "Quality control: implement the quality management approach during delivery; assess quality issues and raise quality exceptions when necessary; obtain acceptance of delivered products.",
+        "Quality assurance: ensure that the planning and control techniques are sufficient to confirm the quality requirements can be met."
+      ]
+    },
+    {
+      "id": "8.2.1",
+      "heading": "Quality planning",
+      "page": 131,
+      "points": [
+        "Quality planning: the capturing of quality specifications for the project products and generating the associated product descriptions and quality management approach."
+      ]
+    },
+    {
+      "id": "8.2.1.1",
+      "heading": "User's quality expectations",
+      "page": 131,
+      "points": [
+        "Quality planning begins in starting up a project, with the user's quality expectations in the project product description, part of the project brief.",
+        "Though often high level, the project product description identifies: all major products; user quality expectations and acceptance criteria; standards and procedures to apply, including how far the business's, user's and supplier's quality management systems are used; measurements useful for judging acceptability; and quality tolerances for the acceptance criteria.",
+        "This coverage stops requirements outside approved scope creeping in while developing product descriptions."
+      ]
+    },
+    {
+      "id": "8.2.1.2",
+      "heading": "Quality tolerances",
+      "page": 132,
+      "points": [
+        "Quality tolerance: the permissible deviation in a product's quality allowed before it is escalated to the next level of management.",
+        "Projects rarely have resources for every specification and criterion, so the project manager, stakeholders and board prioritize them. The prioritized criteria set quality tolerances for management and direction under manage by exception."
+      ]
+    },
+    {
+      "id": "8.2.1.3",
+      "heading": "Describing products",
+      "page": 132,
+      "points": [
+        "High-level requirements in the project product description suit management and direction, but delivery needs more detail for planning, estimating, scheduling and quality control.",
+        "Product description: a description of a product's purpose, format, composition, derivation, quality specifications and development responsibilities. Produced when the need for the product is identified.",
+        "Linear-sequential: often during the initiation stage and then at stage boundaries for each later stage. Iterative-incremental: descriptions evolve alongside development, refining specifications from feedback on prototypes or early versions.",
+        "After acceptance products become business as usual, so the needs of those who operate and maintain them should be captured as quality specifications in the product descriptions.",
+        "Product register: a component of the project log identifying the products to be delivered and recording their acceptance. When the board approves a product description it is recorded in the product register and becomes part of the baseline. Changes are controlled; an efficient time is when approaching the next stage, assessing changes in context."
+      ]
+    },
+    {
+      "id": "8.2.1.4",
+      "heading": "Product sustainability",
+      "page": 133,
+      "points": [
+        "Product descriptions should include product sustainability requirements as quality specifications or acceptance criteria. This covers environmental impact and the characteristics that let the product sustain benefits over its life.",
+        "Consider decommissioning if it is a significant part of environmental impact."
+      ]
+    },
+    {
+      "id": "8.2.1.5",
+      "heading": "Quality responsibilities",
+      "page": 133,
+      "points": [
+        "Specify quality responsibilities in the product description: producer (develops the product), reviewer (assesses whether it meets quality or acceptance criteria) and acceptance authority (decides if it is acceptable).",
+        "Reviewers should always be independent of producers, to avoid conflict of interest.",
+        "The acceptance authority can be the project board, which may delegate for some products. Any delegation is stated in the quality management approach."
+      ]
+    },
+    {
+      "id": "8.2.1.6",
+      "heading": "Quality in subordinate plans",
+      "page": 133,
+      "points": [
+        "Individual quality control events such as testing may be detailed in stage and team plans for better estimating and scheduling. Do not introduce new requirements that cannot be traced to the product descriptions and project product description.",
+        "Changes to the baseline project initiation documentation from lower-level planning go through the issue management approach."
+      ]
+    },
+    {
+      "id": "8.2.2",
+      "heading": "Quality control",
+      "page": 133,
+      "points": [
+        "Quality control: the procedures to monitor the specific products and their development or delivery activities to determine whether they comply with relevant standards, and to identify ways to minimize causes of unsatisfactory performance.",
+        "It is a series of activities per product, usually with several techniques, and begins when a product description is approved and recorded in the product register.",
+        "New products or methods may need evaluation of a prototype and the initial production method before full-scale production. Mature or commercial off-the-shelf products may need only inspection at delivery.",
+        "The techniques are described in the quality management approach.",
+        "Quality register: a component of the project log identifying all quality control activities planned or done, and providing information for end stage reports and the end project report. It starts with approval of each product description and is updated with summary results. It gives audit and assurance information comparing what was planned and agreed with what was done.",
+        "Control usually involves the project manager, assurance roles and subject matter experts. Activities needing specialist support go into the work breakdown structure, schedule and budget.",
+        "Table 8.1 (LouisShopping): the quality register lists activity ID, product, method, producer, reviewer, approver, target and actual review and approval dates and result (pass or fail)."
+      ]
+    },
+    {
+      "id": "8.2.3",
+      "heading": "Quality assurance",
+      "page": 135,
+      "points": [
+        "Quality assurance: a planned and systematic activity that provides confidence products will meet their defined quality specifications when tested under quality control. Typically performed by the business, independent of the project team.",
+        "It checks that quality control measures are appropriate to assess products against their specifications, throughout the lifecycle from start-up to closing.",
+        "Do not confuse it with project assurance. Quality assurance focuses on products, is independent of the project management team and is typically done by a business function. Project assurance is the board's responsibility, confirms the project is conducted correctly and is independent of the project manager but not the project."
+      ]
+    },
+    {
+      "id": "8.3.1",
+      "heading": "The quality management technique",
+      "page": 135,
+      "points": [
+        "Three steps: planning quality, controlling quality and accepting products, integrated around focus on products (Figure 8.1). Driven by the requirements in the project product description, it aligns the products and quality management approach in a cycle of planning, control and acceptance.",
+        "An alternative procedure may be used (for example the business's own design, development and testing procedures) and documented as tailoring in the project initiation documentation."
+      ]
+    },
+    {
+      "id": "8.3.1.1",
+      "heading": "Planning quality: gathering user inputs",
+      "page": 136,
+      "points": [
+        "The project product description (user's quality expectations and acceptance criteria), produced in starting up a project, is a primary input to the planning technique and to quality planning.",
+        "Quality planning creates two management products: product descriptions (quality specifications and tolerances per product) and the quality management approach (supporting techniques, standards, roles and responsibilities)."
+      ]
+    },
+    {
+      "id": "8.3.1.1.2",
+      "heading": "Creating product descriptions",
+      "page": 136,
+      "points": [
+        "A few user quality expectations in the project product description may become dozens of quality specifications in one product description. The biggest challenge is consensus on effective measures (a building big enough for 100 staff must be translated into usage, work nature and equipment needs).",
+        "Capture them as objective measures. Quantitative: numeric terms (100 staff). Qualitative: descriptive terms (easy to use), which can be too vague unless clarified (for example the intended user's knowledge and training).",
+        "Functional requirements describe how a product must perform and be used (fitness for purpose). Non-functional requirements describe inherent characteristics such as security or reliability (fitness for use). Scenario: authenticating users is functional; processing each time record in 10 seconds is non-functional.",
+        "Constraints on how a product is developed, produced or delivered may also need to appear in the work package description.",
+        "Depending on complexity and maturity, descriptions may stay high level in initiation, enough to give confidence in time and cost estimates and acceptable risk. The description names the producer, reviewer and acceptance authority."
+      ]
+    },
+    {
+      "id": "8.3.1.1.3",
+      "heading": "Describing the quality management approach",
+      "page": 137,
+      "points": [
+        "Often developed in parallel with the initial product descriptions. It aims at delivering products that meet user expectations and acceptance criteria: how quality control will be organized, performed, monitored and reported, with a concise account of how planning occurred.",
+        "It describes quality standards and procedures, tools and techniques, reporting and record keeping, and roles and responsibilities.",
+        "Scenario (LouisShopping): regulatory and industry standards (fire, safety, security, heritage; Mall Federation construction standards) are referred to in the quality management approach and product descriptions, and experts support planning and control.",
+        "When approved, the initial product descriptions and quality management approach become part of the baseline. Product descriptions are recorded in the quality register (to monitor quality control) and in the product register (to monitor delivery and acceptance)."
+      ]
+    },
+    {
+      "id": "8.3.1.2",
+      "heading": "Controlling quality",
+      "page": 138,
+      "points": [
+        "Once the quality management approach and initial product descriptions are approved, focus shifts to quality control. Activities are recorded in the quality register, which informs end stage reports and the end project report.",
+        "The register merely records the activity and result (usually pass or fail). If a product fails but is expected to pass, repeating the activity may be reasonable.",
+        "If a product cannot pass, review the failure against quality tolerances and specifications. Exceptions to quality tolerances and off-specifications are handled with the issue management technique (Chapter 10).",
+        "Lessons identified go in the lessons log."
+      ]
+    },
+    {
+      "id": "8.3.1.3",
+      "heading": "Accepting products",
+      "page": 138,
+      "points": [
+        "The individuals or roles responsible for acceptance are identified in the product description. Acceptance usually involves reviewing the project's quality control information and an independent review against user quality expectations and acceptance criteria.",
+        "Acceptance of a project product typically transfers ownership or responsibility from the project or supplier to the project board on behalf of the user."
+      ]
+    },
+    {
+      "id": "8.3.2",
+      "heading": "Supporting techniques",
+      "page": 139,
+      "points": [
+        "Verification: confirms interim products (such as the design) reflect the quality specifications and acceptance criteria and that delivery follows good practice. Occurs during design and development, before the actual product exists; usually needs specialists.",
+        "Validation: confirms the product meets the quality specifications and acceptance criteria. Occurs during testing or after the product exists; may need independent testing.",
+        "Prototyping: produces an interim product for early feedback on functionality or full-scale production concerns. Integral to iterative-incremental delivery such as agile (sometimes called beta testing); may involve alternative versions as in A/B testing.",
+        "Testing: using the product, components or part of its functionality under conditions representative of intended use, at multiple times and places (testing at a supplier's facility cuts risk; live testing may be needed to confirm fitness for operational use).",
+        "Inspection: confirms compliance with specifications and acceptance criteria, usually at delivery; most applicable to commodities and commercial off-the-shelf products.",
+        "Certification: presenting proof that the product or supplier complies with industry or regulatory requirements; usually at delivery, lowest effort, only for commercial off-the-shelf products."
+      ]
+    },
+    {
+      "id": "8.4.1",
+      "heading": "Organizational context",
+      "page": 140,
+      "points": [
+        "Start by finding out whether the business or programme has a mandated quality management system and quality assurance expertise. Where several organizations are involved each may have its own; reflect their roles, responsibilities and capabilities in the quality management approach.",
+        "In a programme or portfolio, its quality management approach usually determines the project's, so only project-specific approaches need documenting.",
+        "External standards in a regulated environment may apply to products and delivery activities and go in product and work package descriptions."
+      ]
+    },
+    {
+      "id": "8.4.2",
+      "heading": "Commercial context",
+      "page": 140,
+      "points": [
+        "Product descriptions and the quality management approach must consider the contract: access to the supplier's facility, the customer's quality assurance staff inspecting or testing independently, and supplier transparency in quality control and reporting should be in the contract terms.",
+        "Acceptance applies in a contractual and project sense. Acceptance from a supplier may be a prerequisite to customer acceptance, but terms are in the contract, not the project initiation documentation. Avoid conflicts between contractual and project quality and acceptance criteria.",
+        "Scenario (LouisShopping): distinguish contractual acceptance of construction from acceptance of the project as a whole."
+      ]
+    },
+    {
+      "id": "8.4.3",
+      "heading": "Delivery method",
+      "page": 141,
+      "points": [
+        "Linear-sequential: more information up front, so product descriptions and specifications are detailed enough to schedule and estimate with higher confidence. Requirements still change; delivery is sequenced to address uncertain aspects early. External changes (new regulation) are handled through change control.",
+        "Scenario (Findef): demand for push notifications was assessed as a change request to scope, and a new reporting requirement as a change request to quality standards, ahead of planning the next stage.",
+        "Iterative-incremental: specifications and acceptance criteria are not fixed at approval of the project initiation documentation; they are goals reached through iterations (sprints). Product descriptions may be user stories with acceptance criteria, or requirements may be in a product backlog, a prioritized list reviewed each iteration. Acceptance criteria are commonly used to judge whether a user story is complete.",
+        "Early delivery of a minimum viable product (just enough features to be usable for feedback) is a good way to demonstrate the principles with agile. The quality management approach may include a standard definition of done and definition of ready.",
+        "Scenario (Data Knowledge): must-haves in timebox three, refinements (should- and could-haves) in timebox four after a pilot."
+      ]
+    },
+    {
+      "id": "8.4.4",
+      "heading": "Sustainability",
+      "page": 142,
+      "points": [
+        "Sustainability requirements cover the organization's ability to sustain expected benefits after delivery (product sustainability) and its expectations for environmental impact (environmental sustainability).",
+        "Both can be addressed at high level in the project product description. Product sustainability specifications can usually be derived from the supply chain and how the business will use and support the product; environmental ones may reference regulatory or advisory standards."
+      ]
+    },
+    {
+      "id": "8.4.5",
+      "heading": "Scale",
+      "page": 142,
+      "points": [
+        "Quality management always has a cost. The goal is to offset the cost of product failures with adequate planning and control. Overly stringent specifications and criteria can dramatically raise project cost.",
+        "Few well-understood products may rely on existing standards and inspection at delivery. A new product with many components and multi-stage delivery needs significant quality control and many quality reviews, which assess whether a product is complete, adheres to standards and meets its specifications.",
+        "Scenario: Data Knowledge's simple project used a project workbook and a single round of user acceptance testing; Findef's novel project needed a standalone quality management approach with design inspections, unit, integration, performance, functional and user acceptance tests, all in the quality register."
+      ]
+    },
+    {
+      "id": "8.5",
+      "heading": "Management products",
+      "page": 143,
+      "points": [
+        "Product description: describes a product's purpose, composition, derivation and quality specifications, produced in planning as soon as possible after the need is identified. Content: identifier; version; purpose; composition; format; derived from; quality specifications (functional and non-functional with measures); development or production approach and skills; allocated to; quality tolerance; quality methods and skills required; responsibilities (producer, reviewer, acceptance authority).",
+        "Quality management approach (part of the project initiation documentation): describes the quality techniques and standards and the roles and responsibilities for achieving the quality specifications and acceptance criteria. Content: scope; quality management procedures (highlight variances from business standards with justification); responsibilities (including project assurance between user, business and support organizations); resources; supporting tools and techniques; standards (including format of the quality register); references.",
+        "Quality register (part of the project log): summarizes all quality management activities planned or done; used by the project manager and project assurance to review progress. Content: quality identifier; product identifier; quality method; dates (planned and actual); responsibilities; result (pass or fail and response if failed); records.",
+        "Product register (part of the project log): lists all products required of a plan and their status. Content: product identifier; dates (description approval and product acceptance); status (such as in development or accepted) and version; references to the product description."
+      ]
+    },
+    {
+      "id": "8.6",
+      "heading": "Focus of key roles",
+      "page": 145,
+      "points": [
+        "Business layer: provides its quality management system and standards; sets the project-level quality tolerance; provides quality assurance expertise.",
+        "Project executive: approves the project product description and quality management approach; sets stage-level quality tolerance; confirms acceptance of the project product.",
+        "Senior user: provides the user's quality expectations and acceptance criteria; approves the project product description; agrees the quality management approach; approves specialist product descriptions; provides people and resources for user quality activities and acceptance; accepts the project product and is accountable for its acceptance.",
+        "Senior supplier: approves the project product description (if appropriate); agrees the quality management approach and key specialist product descriptions; agrees the quality techniques and tools in product and work package descriptions; provides supplier people and resources.",
+        "Project manager: consults stakeholders to capture quality expectations and acceptance criteria in the project product description and to prepare the quality management approach and product descriptions; ensures team managers implement agreed quality controls; develops product descriptions for key products.",
+        "Team manager: assists with product and work package descriptions; produces products consistent with their descriptions; implements the quality procedures in the work package description, managing quality controls, assembling quality records and advising the project manager of quality status. Project assurance: advises on and confirms compliance of the quality management approach, reviews product descriptions, advises on quality experts and assures board members. Project support: administrative support for quality controls; prepares and maintains the product register and quality register; helps teams apply quality procedures."
+      ]
+    },
+    {
+      "id": "8.7",
+      "heading": "Key relationships with principles",
+      "page": 146,
+      "points": [
+        "Continued business justification: a quality management approach delivering products to the specifications the business case needs. Learn from experience: lessons from quality control feed quality planning for later stages. Define roles: clear accountability for quality planning, control and assurance.",
+        "Manage by stages: quality controls aligned with stages and boundary controls, finding issues early and avoiding rework. Manage by exception: quality tolerances approved by the board in the project initiation documentation. Focus on products: all quality planning and control based on products. Tailor: only quality activities appropriate to the delivery method and product characteristics."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Quality", "definition": "The degree to which a set of inherent characteristics of a product, service, process, person, organization, system or resource fulfils its requirements.", "page": 128 },
+    { "term": "User's quality expectations", "definition": "A statement about the quality expected from the project product, captured in the project product description.", "page": 129 },
+    { "term": "Requirement", "definition": "A need or expectation that is documented in an approved management product.", "page": 129 },
+    { "term": "Acceptance criteria", "definition": "A prioritized list of criteria that the project product must meet before the user will accept it.", "page": 129 },
+    { "term": "Quality specifications", "definition": "A description of the quality measures that will be applied by those performing quality control and the levels that a finished product must meet.", "page": 130 },
+    { "term": "Quality planning", "definition": "The capturing of quality specifications for the project products and generating the associated product descriptions and quality management approach.", "page": 131 },
+    { "term": "Quality tolerance", "definition": "The permissible deviation in a product's quality that is allowed before the deviation needs to be escalated to the next level of management.", "page": 132 },
+    { "term": "Product description", "definition": "A description of a product's purpose, format, composition, where it is derived from, quality specifications and development responsibilities.", "page": 132 },
+    { "term": "Product register", "definition": "A component of the project log that identifies the products to be delivered by the project and records their acceptance.", "page": 132 },
+    { "term": "Quality control", "definition": "The procedures to monitor the specific products of a project and their development or delivery activities to determine whether they comply with relevant standards and of identifying ways to minimize causes of unsatisfactory performance.", "page": 133 },
+    { "term": "Quality register", "definition": "A component of the project log that identifies all quality control activities that are planned or have occurred and provides information for end stage reports and the end project report.", "page": 134 },
+    { "term": "Quality assurance", "definition": "A planned and systematic activity that provides confidence that products will meet their defined quality specifications when tested under quality control.", "page": 135 }
+  ],
+  "cards": [
+    { "id": "ch08-c01", "front": "Purpose of the quality practice, and which question does it answer?", "back": "To document the user's requirements of the project products and establish the means by which they will be met. It answers What?", "page": 128 },
+    { "id": "ch08-c02", "front": "Define quality.", "back": "The degree to which a set of inherent characteristics of a product, service, process, person, organization, system or resource fulfils its requirements.", "page": 128 },
+    { "id": "ch08-c03", "front": "The four key quality terms?", "back": "User's quality expectations, requirements, acceptance criteria, quality specifications.", "page": 129 },
+    { "id": "ch08-c04", "front": "Where are the user's quality expectations captured?", "back": "In the project product description. Only statements there are called user's quality expectations.", "page": 129 },
+    { "id": "ch08-c05", "front": "What is a requirement in PRINCE2?", "back": "A need or expectation documented in an approved management product. Those not documented are not part of scope.", "page": 129 },
+    { "id": "ch08-c06", "front": "Define acceptance criteria and who owns them.", "back": "A prioritized list of criteria the project product must meet before the user accepts it. Owned by the business; the board approves them on its behalf.", "page": 129 },
+    { "id": "ch08-c07", "front": "Where are quality specifications stated?", "back": "In product descriptions, derived from the user's quality expectations and the business or operational context.", "page": 130 },
+    { "id": "ch08-c08", "front": "Why is it easier to fix quality problems early?", "back": "It is easier and cheaper than when testing the finished product or in operational use. Prevention comes from quality planning.", "page": 130 },
+    { "id": "ch08-c09", "front": "The three elements of quality management?", "back": "Quality planning, quality control and quality assurance.", "page": 130 },
+    { "id": "ch08-c10", "front": "Define quality planning.", "back": "Capturing quality specifications for the project products and generating the associated product descriptions and quality management approach.", "page": 131 },
+    { "id": "ch08-c11", "front": "Where does quality planning begin?", "back": "In starting up a project, with the user's quality expectations in the project product description, part of the project brief.", "page": 131 },
+    { "id": "ch08-c12", "front": "Define quality tolerance.", "back": "The permissible deviation in a product's quality allowed before escalation to the next level of management.", "page": 132 },
+    { "id": "ch08-c13", "front": "Define product description.", "back": "A description of a product's purpose, format, composition, derivation, quality specifications and development responsibilities.", "page": 132 },
+    { "id": "ch08-c14", "front": "Define product register.", "back": "A component of the project log identifying the products to be delivered and recording their acceptance.", "page": 132 },
+    { "id": "ch08-c15", "front": "Producer, reviewer and acceptance authority?", "back": "Producer develops the product; reviewer assesses it against quality or acceptance criteria and must be independent of the producer; acceptance authority decides if it is acceptable (the board or a delegate).", "page": 133 },
+    { "id": "ch08-c16", "front": "Where is delegation of acceptance authority stated?", "back": "In the quality management approach.", "page": 133 },
+    { "id": "ch08-c17", "front": "Define quality control.", "back": "Procedures to monitor specific products and their development or delivery to determine whether they comply with relevant standards, and to identify ways to minimize causes of unsatisfactory performance.", "page": 133 },
+    { "id": "ch08-c18", "front": "Define quality register.", "back": "A component of the project log identifying all quality control activities planned or done, giving information for end stage reports and the end project report.", "page": 134 },
+    { "id": "ch08-c19", "front": "When does quality control begin?", "back": "When a product description is approved and recorded in the product register.", "page": 134 },
+    { "id": "ch08-c20", "front": "Define quality assurance.", "back": "A planned, systematic activity that provides confidence products will meet their defined quality specifications when tested under quality control; typically performed by the business, independent of the project team.", "page": 135 },
+    { "id": "ch08-c21", "front": "Quality assurance versus project assurance?", "back": "Quality assurance focuses on products and is independent of the project management team. Project assurance is the board's responsibility, independent of the project manager but not the project.", "page": 135 },
+    { "id": "ch08-c22", "front": "The three steps of the quality management technique?", "back": "Planning quality, controlling quality, accepting products.", "page": 135 },
+    { "id": "ch08-c23", "front": "Which two management products does quality planning create?", "back": "Product descriptions and the quality management approach.", "page": 136 },
+    { "id": "ch08-c24", "front": "Quantitative versus qualitative measures?", "back": "Quantitative: numeric terms. Qualitative: descriptive terms, which can be too vague unless clarified.", "page": 137 },
+    { "id": "ch08-c25", "front": "Functional versus non-functional requirements?", "back": "Functional: how a product must perform and be used (fitness for purpose). Non-functional: inherent characteristics such as security and reliability (fitness for use).", "page": 137 },
+    { "id": "ch08-c26", "front": "What does the quality management approach describe?", "back": "Quality standards and procedures, tools and techniques, reporting and record keeping, and roles and responsibilities.", "page": 137 },
+    { "id": "ch08-c27", "front": "What does the quality register record about each activity?", "back": "The activity and its result, typically pass or fail.", "page": 138 },
+    { "id": "ch08-c28", "front": "How are quality tolerance exceptions and off-specifications handled?", "back": "Using the issue management technique (Chapter 10).", "page": 138 },
+    { "id": "ch08-c29", "front": "What does acceptance of a project product typically transfer?", "back": "Ownership or responsibility from the project or supplier to the project board on behalf of the user.", "page": 138 },
+    { "id": "ch08-c30", "front": "Verification versus validation?", "back": "Verification checks interim products and delivery method during design and development, before the product exists. Validation confirms the product meets specifications, during testing or after it exists.", "page": 139 },
+    { "id": "ch08-c31", "front": "Name the supporting quality techniques.", "back": "Verification, validation, prototyping, testing, inspection, certification.", "page": 139 },
+    { "id": "ch08-c32", "front": "Inspection versus certification?", "back": "Inspection confirms compliance, usually at delivery, mostly for commodities and off-the-shelf products. Certification presents proof of compliance, lowest effort, only for off-the-shelf products.", "page": 139 },
+    { "id": "ch08-c33", "front": "Where do contractual quality and acceptance terms belong?", "back": "In the contract, not the project initiation documentation, with care that they do not conflict with project product descriptions.", "page": 140 },
+    { "id": "ch08-c34", "front": "How are quality specifications handled in iterative-incremental delivery?", "back": "They are goals achieved through iterations, as user stories with acceptance criteria or in a product backlog, with a definition of done and definition of ready.", "page": 141 },
+    { "id": "ch08-c35", "front": "What is a minimum viable product?", "back": "A version with just enough features to be usable for feedback and refining requirements.", "page": 141 },
+    { "id": "ch08-c36", "front": "Management products specific to the quality practice?", "back": "Product description, quality management approach, quality register, product register.", "page": 143 },
+    { "id": "ch08-c37", "front": "Contents of a product description?", "back": "Identifier; version; purpose; composition; format; derived from; quality specifications; development approach and skills; allocated to; quality tolerance; quality methods and skills; responsibilities.", "page": 143 },
+    { "id": "ch08-c38", "front": "Which quality products are part of the project log?", "back": "The quality register and the product register.", "page": 144 },
+    { "id": "ch08-c39", "front": "Who sets project-level and stage-level quality tolerance?", "back": "Project level: business layer. Stage level: project executive.", "page": 145 },
+    { "id": "ch08-c40", "front": "Who accepts the project product and is accountable for its acceptance?", "back": "The senior user. The project executive confirms acceptance.", "page": 145 },
+    { "id": "ch08-c41", "front": "Who prepares and maintains the product register and quality register?", "back": "Project support.", "page": 146 }
+  ]
+}

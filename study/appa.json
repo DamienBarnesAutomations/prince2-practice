@@ -1,0 +1,203 @@
+{
+  "set": "appa",
+  "title": "Management products",
+  "pages": "pp.286-306",
+  "overview": "Appendix A holds outlines for the 16 management products, A1 to A15 (the project log, A13, covers six records). The practice chapters already give their content; this appendix adds the three product types (baselines, reports, records), who creates, reviews and approves each product and in which process, and the formats allowed. Know which products are baselines, which are reports and which are records.",
+  "sections": [
+    {
+      "id": "A",
+      "heading": "Using and tailoring the management products",
+      "page": 286,
+      "points": [
+        "The appendix gives outlines, not full product descriptions as defined in A10, because elements such as quality method vary by project. Format examples are not exhaustive.",
+        "Apply and tailor to the project's requirements and environment (composition, format, quality criteria, naming). Products can be slides, spreadsheets or data in systems brought together on screen. Reports may be emails, meeting notes, wall charts or a daily log entry; verbal reports are folded into other reports. Products can be combined for simple projects or split to be easier to use. Parts not relevant can be added or removed; the composition is not a table of contents and the order may change. Organizations may tailor the outlines into their own set.",
+        "Three types of management product: baselines, reports and records.",
+        "Baseline products define aspects of the project and, once approved, are subject to change control: A1 business case; A9 plan (project plan, stage plans, exception plans and optionally team plans); A10 product description; A11 project brief; A12 project initiation documentation; A14 project product description; A15 work package description.",
+        "Most baseline products evolve during pre-project and initiation activities (Figure A.1): the project mandate triggers starting up; the project brief is created there and includes the outline business case and project product description; the project initiation documentation is compiled in initiating a project, builds on the brief and includes the management approaches, full business case and project plan. They are reviewed and possibly updated at each stage end or when an exception occurs.",
+        "Reports are snapshots of the status of aspects of the project: A2 checkpoint report; A3 end project report; A4 end stage report; A5 exception report; A6 highlight report; A7 issue report; A8 lessons report.",
+        "Records are dynamic products that maintain information on progress. Collectively the project log (A13): daily log, issue register, lessons log, product register, quality register and risk register."
+      ]
+    },
+    {
+      "id": "A1",
+      "heading": "A1 Business case",
+      "page": 287,
+      "points": [
+        "Purpose: document the business justification, based on estimated costs against expected benefits offset by risks, and outline how and when benefits can be measured.",
+        "Content: executive summary; reasons; business options; expected benefits and dis-benefits (with benefits tolerances); sustainability targets (with tolerances); time; costs; investment appraisal; major risks.",
+        "Usage: produced in starting up a project (outline) by the project manager and project executive, with project assurance advising; the board approves the initial version and updates, checks progress and forecasts during the project and confirms actual costs and benefits at close; updated in initiating a project (full business case created); referred to in controlling a stage and managing product delivery; evaluated and updated at stage boundaries; at closing, compared against the baseline (final version), with project assurance confirming.",
+        "Format: the outline business case is part of the project brief; the full business case is part of the project initiation documentation, an individual document or a section."
+      ]
+    },
+    {
+      "id": "A2",
+      "heading": "A2 Checkpoint report",
+      "page": 289,
+      "points": [
+        "Purpose: report the work package status to the project manager at a frequency defined in the work package. Content: executive summary (team manager's report); period; follow-ups; this reporting period; next reporting period; work package tolerance status; issues and risks.",
+        "Usage: created by the team manager in managing product delivery; reviewed by the project manager in controlling a stage.",
+        "Formats: an oral report (or the project manager attending a daily stand-up), a presentation at a progress review, a document, email or in-app message, a dashboard or tool entry, a wall chart or Kanban board."
+      ]
+    },
+    {
+      "id": "A3",
+      "heading": "A3 End project report",
+      "page": 290,
+      "points": [
+        "Purpose: review how the project performed against the version of the project initiation documentation used to authorize it. Content: executive summary; performance review (business case, objectives, team performance); product review (products, concessions, off-specifications, handover, lessons); summary of follow-on action recommendations (post-project actions for the business or suppliers).",
+        "Usage: created by the project manager in closing a project and confirmed by project assurance; reviewed by the board in directing a project. Formats: a presentation to the board, a document or email, or a dashboard or tool entry."
+      ]
+    },
+    {
+      "id": "A4",
+      "heading": "A4 End stage report",
+      "page": 290,
+      "points": [
+        "Purpose: summarize progress to date, the overall project situation and give enough information to ask the board for a decision on what to do next. Content: executive summary; performance review; summary of follow-on action recommendations (after phased handover); key issues and risks; forecast for the next stage and project against targets and tolerances.",
+        "Usage: created by the project manager in managing a stage boundary, confirmed by project assurance, reviewed by the board in directing a project. Formats as for the end project report."
+      ]
+    },
+    {
+      "id": "A5",
+      "heading": "A5 Exception report",
+      "page": 291,
+      "points": [
+        "Purpose: inform the board when a stage plan or project plan is forecast to exceed tolerance, with options and recommendations. Content: identifier; date; description; cause; consequences; options; recommendation; lessons.",
+        "Usage: created by the project manager in controlling a stage, with project assurance advising; the board responds in directing a project by making a decision or escalating to the business. Formats: a board presentation, document or email, or dashboard. For urgent exceptions, an oral report first, followed by the agreed format."
+      ]
+    },
+    {
+      "id": "A6",
+      "heading": "A6 Highlight report",
+      "page": 292,
+      "points": [
+        "Purpose: give the board (and possibly others) a summary of stage status at intervals they define. Content: executive summary; period; follow-ups; this reporting period; next reporting period; stage and project tolerance status; key issues and risks; lessons if appropriate.",
+        "Usage: created by the project manager in controlling a stage, confirmed by project assurance, reviewed by the board in directing a project. Formats: a board presentation, document or email, dashboard or tool entry, wall chart or Kanban board."
+      ]
+    },
+    {
+      "id": "A7",
+      "heading": "A7 Issue report",
+      "page": 294,
+      "points": [
+        "Purpose: describe the issue's impacts on the baseline, identify ways to resolve it or address off-specification and recommend a decision. Content: unique identifier; product identifier(s); date raised; type; grading; description; impact analysis; options; recommendation; decision.",
+        "Usage: created in controlling a stage by the project manager or team manager (who make a decision or escalate to the board), with project assurance advising; the board responds in directing a project by deciding or escalating to the business.",
+        "Format is defined in the issue management approach: a document, spreadsheet or database, dashboard or tool entry. Not all issue register entries need a separate issue report."
+      ]
+    },
+    {
+      "id": "A8",
+      "heading": "A8 Lessons report",
+      "page": 295,
+      "points": [
+        "Purpose: share lessons and trigger action so they become embedded in the organization's way of working. It can be created at any time, typically as part of the end stage or end project report, and there may be several for specific organizations (user, supplier, business).",
+        "Content: executive summary; description for work package, stage or project lessons (went well, badly, recommendations); description for a specific lesson (effect, cause or trigger, early warnings, previously a risk, recommendations).",
+        "Usage: reviewed in starting up a project by the project manager and executive (lessons reports from other projects and perhaps organizations); the board reviews and communicates in directing a project; created by the project manager in managing a stage boundary and closing a project, with project assurance advising or confirming that lessons and follow-on actions are assigned."
+      ]
+    },
+    {
+      "id": "A9",
+      "heading": "A9 Plan",
+      "page": 296,
+      "points": [
+        "Purpose: a proposal outlining the what, where, when, how and by whom; when approved, a baseline for measuring progress and assessing issues. Content: scope; dependencies; planning assumptions and prerequisites; lessons incorporated; products to be delivered; work to be performed; budget (including risk and change budgets); schedule; targets and tolerances (scope, cost, time; stage and team plans may add sustainability and risk); monitoring, control and reporting arrangements.",
+        "Usage: the project manager creates the initiation stage plan in starting up a project and the project plan in initiating a project; the board approves, reviews and checks the project plan and stage plans in directing a project; in controlling a stage the project manager approves and checks team plans; team managers create, review and update team plans in managing product delivery; the project manager updates the project plan and creates or updates stage plans at stage boundaries, with project assurance advising; reviewed at closing.",
+        "Formats: a document, spreadsheet, slides or mind map (stand-alone or part of the project initiation documentation), or a planning tool entry. The schedule may be a product list with key status dates."
+      ]
+    },
+    {
+      "id": "A10",
+      "heading": "A10 Product description",
+      "page": 297,
+      "points": [
+        "Purpose: describe a product's purpose, composition, derivation and quality specifications, produced as soon as possible after the need is identified. Content: identifier; version; purpose; composition; derived from; quality specifications; development or production approach and skills; quality tolerance; quality methods and skills required; responsibilities (producer, reviewer, acceptance authority).",
+        "Usage: created by the project manager in initiating a project, created or updated at stage boundaries, with project assurance advising; the board approves in directing a project.",
+        "Formats: a document, slides, workbook or mind map; a tool entry; or a user story if agile is used for product development."
+      ]
+    },
+    {
+      "id": "A11",
+      "heading": "A11 Project brief",
+      "page": 298,
+      "points": [
+        "Purpose: a full and firm foundation for initiating the project. Content: project definition (background, objectives, desired outcomes, scope and exclusions, constraints and assumptions, project tolerances, users and interested parties); outline business case; project product description; project approach; project management team structure and role descriptions; references.",
+        "Usage: produced in starting up a project by the project manager and executive; approved by the board in directing a project; reviewed by the project manager in initiating a project, after which the brief becomes part of the project initiation documentation. Formats: a document, slides, workbook or mind map, or a collection of information sources in a tool."
+      ]
+    },
+    {
+      "id": "A12",
+      "heading": "A12 Project initiation documentation",
+      "page": 299,
+      "points": [
+        "Purpose: gives the direction and scope and, with the stage plan, forms the contract between project manager and board. Three uses: a sound basis before major commitment; a base to assess progress, issues and viability; a single reference for people joining.",
+        "Content: project definition; project approach; business case; project management team structure; role descriptions; management approaches (benefits, change, commercial, communication, digital and data, issue, quality, risk, sustainability); project plan; tailoring of PRINCE2.",
+        "Usage: the board approves it in directing a project; the project manager assembles it in initiating a project with project assurance advising; reviewed in controlling a stage, by team managers in managing product delivery (management approaches may be referenced in a work package description), reviewed and updated at stage boundaries and reviewed at closing.",
+        "Formats: a single document, an index to a collection of documents, a document cross-referencing others, or a collection of sources in a tool."
+      ]
+    },
+    {
+      "id": "A13",
+      "heading": "A13 Project log",
+      "page": 301,
+      "points": [
+        "Purpose: capture the continually changing records of issues, lessons, products, quality, risk and informal actions or events, keeping current and historic records. It comprises the issue register, lessons log, product register, quality register, risk register and daily log, with the contents shown in Chapters 4, 5 to 11.",
+        "Issue register: logs all issue reports, status and closure date. Lessons log: lessons for this and future projects, some from other projects. Product register: list of products for a plan and their status. Quality register: summary of quality management activities planned or done, used by the project manager and project assurance to review progress. Risk register: record of identified threats and opportunities with status and history. Daily log: informal issues, actions or significant events; the project manager's diary; can hold issues and risks in starting up before the registers exist; there may be several.",
+        "Usage: the project manager creates the daily log and lessons log (if appropriate) in starting up a project; the project manager and project support create and update all remaining logs and registers in initiating a project; the project manager and project support review and update all in controlling a stage, managing a stage boundary and closing a project; the team manager and project support review and update them in managing product delivery.",
+        "Format derives from the management approaches: a document, spreadsheet, workbook or database, sticky notes on a wall chart, minutes of progress meetings, or a tool entry. It may be one integrated log for risks, actions, decisions, assumptions, issues and lessons, or standalone logs in different formats."
+      ]
+    },
+    {
+      "id": "A14",
+      "heading": "A14 Project product description",
+      "page": 304,
+      "points": [
+        "Purpose: describe the project's major products and intended purpose, including user quality expectations, acceptance criteria and acceptance methods. Created in starting up a project and refined in initiating a project.",
+        "Content: purpose; major products; derived from; user's quality expectations; acceptance criteria (prioritized); acceptance methods and responsibilities; project-level quality tolerances.",
+        "Usage: created by the project manager in starting up a project; approved by the board in directing a project; updated by the project manager in initiating a project and reviewed and updated at stage boundaries, with project assurance advising or reviewing; reviewed and confirmed at closing."
+      ]
+    },
+    {
+      "id": "A15",
+      "heading": "A15 Work package description",
+      "page": 305,
+      "points": [
+        "Purpose: describe how one or more products will be produced and delivered, and formally pass responsibility for work to a team manager or team member.",
+        "Content: description of work; team manager or person authorized; product descriptions; techniques and procedures; change control requirements; constraints; monitoring, control and reporting; targets and tolerances (scope, cost, time); references; approval; agreement (a record of initial authorization and completion between project manager and team manager).",
+        "Usage: created, reviewed and updated by the project manager in controlling a stage; accepted, reviewed and checked by the team manager in managing product delivery.",
+        "Formats: a document, slides, workbook or mind map; a conversation, meeting or workshop; an email or in-app message; a tool entry. It varies in formality. For a team working directly under the project manager it may be oral, but putting it in writing avoids misunderstanding and links to performance assessment. Where a supplier works under contract and the project manager is from the customer, a formal written instruction in line with the contract is needed."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "appa-c01", "front": "Three types of management product?", "back": "Baselines, reports and records.", "page": 286 },
+    { "id": "appa-c02", "front": "Which management products are baselines?", "back": "Business case, plan, product description, project brief, project initiation documentation, project product description, work package description.", "page": 286 },
+    { "id": "appa-c03", "front": "What is a baseline management product?", "back": "A product that defines aspects of the project and, when approved, is subject to change control.", "page": 286 },
+    { "id": "appa-c04", "front": "Which management products are reports?", "back": "Checkpoint report, end project report, end stage report, exception report, highlight report, issue report, lessons report.", "page": 287 },
+    { "id": "appa-c05", "front": "Which management products are records?", "back": "The project log: daily log, issue register, lessons log, product register, quality register, risk register.", "page": 287 },
+    { "id": "appa-c06", "front": "How many management products does PRINCE2 define?", "back": "16 (A1 to A15, with the project log A13 covering six records).", "page": 286 },
+    { "id": "appa-c07", "front": "Does a management product have to be a document?", "back": "No. It may be slides, spreadsheets, data in systems, emails, meeting notes or a daily log entry; products can be combined or split.", "page": 286 },
+    { "id": "appa-c08", "front": "What does the project brief include and where does it end up?", "back": "It includes the outline business case and project product description; from initiating a project onward it becomes part of the project initiation documentation.", "page": 287 },
+    { "id": "appa-c09", "front": "Which baseline products are in the project brief versus the project initiation documentation?", "back": "Brief: outline business case, project product description. Project initiation documentation: management approaches, full business case, project plan.", "page": 287 },
+    { "id": "appa-c10", "front": "Who produces the outline business case?", "back": "The project manager and project executive in starting up a project, with project assurance advising.", "page": 288 },
+    { "id": "appa-c11", "front": "Who confirms actual costs and benefits at project close?", "back": "The project board in directing a project (with the project manager comparing actual against baseline at closing).", "page": 288 },
+    { "id": "appa-c12", "front": "Who creates a checkpoint report and who reviews it?", "back": "The team manager creates it in managing product delivery; the project manager reviews it in controlling a stage.", "page": 289 },
+    { "id": "appa-c13", "front": "Who creates the end project report and the end stage report?", "back": "The project manager (end project report in closing a project; end stage report in managing a stage boundary), confirmed by project assurance and reviewed by the board.", "page": 290 },
+    { "id": "appa-c14", "front": "How are urgent exceptions reported?", "back": "Orally first, then followed up in the agreed format.", "page": 292 },
+    { "id": "appa-c15", "front": "Who creates an exception report?", "back": "The project manager in controlling a stage; the board responds by deciding or escalating to the business.", "page": 291 },
+    { "id": "appa-c16", "front": "Who creates an issue report?", "back": "The project manager or team manager in controlling a stage; the board responds in directing a project.", "page": 294 },
+    { "id": "appa-c17", "front": "Do all issue register entries need an issue report?", "back": "No. Not all entries need a separately documented issue report.", "page": 294 },
+    { "id": "appa-c18", "front": "When can a lessons report be created?", "back": "At any time in a project; it typically forms part of the end stage or end project report. There may be several for different organizations.", "page": 295 },
+    { "id": "appa-c19", "front": "Who creates the project plan and who approves it?", "back": "The project manager creates it in initiating a project; the board approves it in directing a project.", "page": 296 },
+    { "id": "appa-c20", "front": "Who creates the initiation stage plan?", "back": "The project manager, in starting up a project.", "page": 296 },
+    { "id": "appa-c21", "front": "What can a product description take the form of in agile?", "back": "A user story.", "page": 297 },
+    { "id": "appa-c22", "front": "Who creates and who approves product descriptions?", "back": "The project manager creates them (initiating a project, stage boundaries); the board approves them in directing a project.", "page": 298 },
+    { "id": "appa-c23", "front": "Who assembles the project initiation documentation?", "back": "The project manager, in initiating a project; the board approves it.", "page": 301 },
+    { "id": "appa-c24", "front": "Who creates the daily log and lessons log?", "back": "The project manager, in starting up a project (lessons log if appropriate).", "page": 303 },
+    { "id": "appa-c25", "front": "Who creates and updates the remaining logs and registers in initiating a project?", "back": "The project manager and project support.", "page": 303 },
+    { "id": "appa-c26", "front": "What may the project log look like?", "back": "A single integrated log or a collection of standalone logs and registers in different formats, derived from the management approaches.", "page": 303 },
+    { "id": "appa-c27", "front": "Who creates, and who approves, the project product description?", "back": "The project manager creates it in starting up a project; the board approves it in directing a project.", "page": 304 },
+    { "id": "appa-c28", "front": "Who creates a work package description and who accepts it?", "back": "The project manager creates, reviews and updates it in controlling a stage; the team manager accepts it in managing product delivery.", "page": 306 },
+    { "id": "appa-c29", "front": "May a work package description be oral?", "back": "Yes, if the team works directly under the project manager, but writing it avoids misunderstanding. A supplier under contract needs a formal written instruction in line with the contract.", "page": 306 }
+  ]
+}

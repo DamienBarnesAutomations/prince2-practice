@@ -1,0 +1,113 @@
+{
+  "set": "ch12",
+  "title": "Introduction to processes",
+  "pages": "pp.214-218",
+  "overview": "A short orientation to the seven processes, how they map to the project's journey from mandate to post-project benefits reviews, and the four management layers. Know which process runs when, the minimum of two stages, and which activities happen before, during and after the project.",
+  "sections": [
+    {
+      "id": "12",
+      "heading": "What a process is",
+      "page": 214,
+      "points": [
+        "Process: a structured set of activities that define the sequence of actions and their inputs and outputs to achieve a specific objective.",
+        "PRINCE2 is process-based. Seven processes provide the activities needed to direct, manage and deliver a project.",
+        "Figure 12.1: the lifecycle has an initiation stage, subsequent stages and a final stage. There is always a minimum of two stages (an initiation stage and a final stage) with any number between.",
+        "Notes to the figure: starting up a project is used by both the directing and managing levels; there should be at least two stages, the first being the initiation stage; managing a stage boundary is first used at the end of the initiation stage and repeated at the end of each subsequent stage except the final one, and is also used to prepare exception plans at any time, including in the final stage.",
+        "Layers in the figure: directing (directing a project), managing (starting up, initiating, controlling a stage, managing a stage boundary, closing a project) and delivering (managing product delivery)."
+      ]
+    },
+    {
+      "id": "12.1.1",
+      "heading": "Pre-project",
+      "page": 215,
+      "points": [
+        "Before a project there is an idea or need. The trigger is the project mandate, provided by the business (the organization commissioning the project). It can range from a verbal instruction to a well-defined and justified project definition.",
+        "Before formally starting, confirm the project is worthwhile and viable. This is done in starting up a project (Chapter 13), where the project manager and board are appointed and a project brief and initiation stage plan are created.",
+        "The decision to proceed with initiation is taken by the board using directing a project (Chapter 14). The board reviews the brief and stage plan and decides whether and how to initiate and allocate people and resources."
+      ]
+    },
+    {
+      "id": "12.1.2",
+      "heading": "Initiation stage",
+      "page": 215,
+      "points": [
+        "Once the decision is made, the project is planned at an appropriate level of detail. Planning, establishing management approaches and controls, developing a robust business case and a means of reviewing benefits are covered by initiating a project (Chapter 15).",
+        "During the initiation stage, managing a stage boundary (Chapter 18) is used to plan the next stage in detail.",
+        "The initiation stage ends with the board reviewing the project initiation documentation, using directing a project, to decide whether to authorize the project and the next stage. The contents will change under change control, so this version is preserved as the original baseline for later reviews."
+      ]
+    },
+    {
+      "id": "12.1.3",
+      "heading": "Subsequent stages",
+      "page": 215,
+      "points": [
+        "The board delegates day-to-day control to the project manager stage by stage. The project manager ensures progress matches the approved plan and forecasts stay within tolerance, informing the board through regular highlight reports. This is controlling a stage (Chapter 16).",
+        "The project manager assigns work to team managers or members, who execute work packages and report progress by checkpoint reports. This is managing product delivery (Chapter 17).",
+        "Towards the end of each stage, the project manager requests permission to proceed by reporting how the stage performed, updating the business case and planning the next stage in detail, giving the board what it needs to judge continuing viability. This is managing a stage boundary (Chapter 18). The board must always make sure the project remains aligned with business strategy."
+      ]
+    },
+    {
+      "id": "12.1.4",
+      "heading": "Final stage",
+      "page": 216,
+      "points": [
+        "Near the end of the final stage, start closing a project (Chapter 19).",
+        "Products may have been transferred into operational use throughout. The board must be satisfied the recipients can own and use each product and that the business can take overall ownership of the project product. Then the project can close.",
+        "Closure: archive the documentation, assess performance against the original plan, release people and resources, and confirm or revise plans for post-project benefits reviews for benefits only assessable after the product has been in use."
+      ]
+    },
+    {
+      "id": "12.1.5",
+      "heading": "Post-project",
+      "page": 216,
+      "points": [
+        "Some benefits may be realized during the project, but many or all arrive afterwards, so one or more post-project benefits reviews are likely.",
+        "The benefits management approach documents how and when the reviews occur and who is responsible and accountable."
+      ]
+    },
+    {
+      "id": "12.2",
+      "heading": "The PRINCE2 process model",
+      "page": 216,
+      "points": [
+        "Figure 12.2: the processes align with the management levels of business layer, directing, managing and delivering, with the triggers between processes shown.",
+        "Triggers include: project mandate (into starting up); project initiation request (to directing); initiation notice (from directing to initiating); project authorization request and notice; stage boundary approaching and next stage request; stage authorized; work package authorized and completed work package notice; new issue or risk; exception raised, exception plan request, approval request and authorized; project end approaching; project closure request and closure notice; premature close notice; project board's advice request and advice and decisions from the business.",
+        "Key message: the five integrated elements work together. The practices ensure the principles are continually applied during the processes in a way specific to the project context and the needs of people and groups in the project and organizational ecosystems."
+      ]
+    },
+    {
+      "id": "12.3",
+      "heading": "Format of the process chapters",
+      "page": 218,
+      "points": [
+        "Each process chapter has: purpose; objectives; context (including a table of inputs and outputs of management products per activity); activities (performed in sequence or parallel, each a set of recommended actions); responsibilities (a RACI table); and application of the practices within the process.",
+        "Diagram key (Figure 12.3): a process contains activities; an activity contains actions; an event or decision triggers a process, with the arrow showing which process is triggered; an arrow to the business layer notifies the business of an update or request; double triggers indicate alternative triggers."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Process", "definition": "A structured set of activities that define the sequence of actions and their inputs and outputs to achieve a specific objective.", "page": 214 }
+  ],
+  "cards": [
+    { "id": "ch12-c01", "front": "Define process.", "back": "A structured set of activities that define the sequence of actions and their inputs and outputs to achieve a specific objective.", "page": 214 },
+    { "id": "ch12-c02", "front": "How many processes does PRINCE2 have?", "back": "Seven.", "page": 214 },
+    { "id": "ch12-c03", "front": "Name the seven processes.", "back": "Starting up a project; directing a project; initiating a project; controlling a stage; managing product delivery; managing a stage boundary; closing a project.", "page": 214 },
+    { "id": "ch12-c04", "front": "Minimum number of stages, and what are they?", "back": "Two: an initiation stage and a final stage, with any number between.", "page": 214 },
+    { "id": "ch12-c05", "front": "Which process is used by both directing and managing levels?", "back": "Starting up a project.", "page": 214 },
+    { "id": "ch12-c06", "front": "When is managing a stage boundary first used and when repeated?", "back": "First at the end of the initiation stage, then at the end of each subsequent stage except the final one. Also used to prepare exception plans at any time.", "page": 214 },
+    { "id": "ch12-c07", "front": "What triggers a PRINCE2 project?", "back": "The project mandate, provided by the business. It can range from a verbal instruction to a well-defined project definition.", "page": 215 },
+    { "id": "ch12-c08", "front": "In which process are the project brief and initiation stage plan created?", "back": "Starting up a project, where the project manager and board are also appointed.", "page": 215 },
+    { "id": "ch12-c09", "front": "Which process takes the decision to proceed with initiation?", "back": "Directing a project, by the project board.", "page": 215 },
+    { "id": "ch12-c10", "front": "Which process plans, sets up approaches and builds the business case in the initiation stage?", "back": "Initiating a project.", "page": 215 },
+    { "id": "ch12-c11", "front": "Why is the project initiation documentation version authorizing the project preserved?", "back": "It is the original baseline for later reviews, since contents change under change control.", "page": 215 },
+    { "id": "ch12-c12", "front": "Which process covers day-to-day control within a stage?", "back": "Controlling a stage; the project manager informs the board by highlight reports.", "page": 215 },
+    { "id": "ch12-c13", "front": "Which process do team managers use, and what do they send?", "back": "Managing product delivery, executing work packages and sending checkpoint reports to the project manager.", "page": 215 },
+    { "id": "ch12-c14", "front": "What does the project manager do towards the end of each stage?", "back": "Requests permission to proceed: reports stage performance, updates the business case, plans the next stage in detail (managing a stage boundary).", "page": 215 },
+    { "id": "ch12-c15", "front": "What must the board be satisfied of before the project closes?", "back": "That recipients can own and use each product and the business can take overall ownership of the project product.", "page": 216 },
+    { "id": "ch12-c16", "front": "Closure activities?", "back": "Archive documentation, assess performance against the original plan, release people and resources, and confirm or revise plans for post-project benefits reviews.", "page": 216 },
+    { "id": "ch12-c17", "front": "Where is it documented how and when post-project benefits reviews occur?", "back": "In the benefits management approach.", "page": 216 },
+    { "id": "ch12-c18", "front": "The four management layers the processes align with?", "back": "Business layer, directing, managing and delivering.", "page": 216 },
+    { "id": "ch12-c19", "front": "Structure of each process chapter?", "back": "Purpose, objectives, context, activities, responsibilities (RACI), and application of the practices.", "page": 218 },
+    { "id": "ch12-c20", "front": "In the process diagram key, what does an arrow to the business layer mean?", "back": "It notifies the business of an update or request.", "page": 218 }
+  ]
+}

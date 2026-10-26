@@ -1,0 +1,180 @@
+{
+  "set": "ch02",
+  "title": "Principles",
+  "pages": "pp.20-30",
+  "overview": "The seven principles are the obligations that decide whether a project is genuinely run with PRINCE2. They do not prescribe activities; they guide how the rest of the method is applied and tailored. Most exam questions here ask which principle a situation illustrates, or what a principle requires.",
+  "sections": [
+    {
+      "id": "2",
+      "heading": "What the principles are",
+      "page": 20,
+      "points": [
+        "Principles are guiding obligations. If they are not being followed, the project is not genuinely being managed with PRINCE2.",
+        "PRINCE2 suits any project: any type, size, complexity, importance, level of risk or delivery method (linear-sequential, iterative-incremental or hybrid), in any sector or country.",
+        "Because the method is flexible, it gives guidance through principles instead of prescribing what to do. The project team uses them to decide how PRINCE2 is used.",
+        "The seven: ensure continued business justification, learn from experience, define roles, responsibilities and relationships, manage by exception, manage by stages, focus on products, tailor to suit the project."
+      ]
+    },
+    {
+      "id": "2",
+      "heading": "Applying versus tailoring (Figure 2.1)",
+      "page": 21,
+      "points": [
+        "Applying means using the method as it stands: assigning roles, choosing the number of stages and teams or work packages, setting tolerances, choosing supporting techniques.",
+        "Tailoring means changing the method: for example using different terminology or replacing a PRINCE2 technique with another.",
+        "What is chosen is shaped by context. Internal: organization, delivery method, project scale. External: sustainability and commercial context.",
+        "The project-specific arrangements are documented in the project initiation documentation, the project plan, stage plans and team plans."
+      ]
+    },
+    {
+      "id": "2.1",
+      "heading": "Ensure continued business justification",
+      "page": 21,
+      "keyMessage": "There is a justifiable reason to start, and it stays valid and is revalidated through to completion. If it does not, stop the project.",
+      "points": [
+        "Justification must exist at the start and be revalidated throughout the lifecycle. It drives decisions so the project stays aligned with the benefits sought.",
+        "Without it, projects continue with few real benefits or only a weak link to strategy, and the organization ends up with inconsistent or duplicated objectives across its portfolio.",
+        "Compulsory projects (legislation, regulation) still need justification for the chosen approach, to show it is the best value for money.",
+        "If continuing can no longer be justified, stop in a controlled way. Cancelling is a positive contribution, because funds and resources can be reinvested elsewhere.",
+        "After the project, review whether the benefits have materialized enough to warrant the final investment, and what lessons follow.",
+        "Commercial project: customer and supplier each need their own justification (a supplier's may be non-financial, such as a reference customer or experience with new technology).",
+        "Co-owned project: each investing party keeps monitoring its own justification and should consider withdrawing if it is lost, weighing the consequences such as contractual obligations."
+      ]
+    },
+    {
+      "id": "2.2",
+      "heading": "Learn from experience",
+      "page": 22,
+      "keyMessage": "The team actively seeks, records and implements lessons, from earlier projects and during this one, and shares them for others to apply.",
+      "points": [
+        "Projects are unique and the team is temporary, so the team may never have done anything like it before. Learn from others and from the project itself as it develops.",
+        "When starting: review previous or similar projects, including external ones. The more novel the project, the more important this is.",
+        "As it progresses: keep learning, include lessons in reports and reviews, and record them at the end of each stage. Retrospectives are an agile example.",
+        "As it closes: share the insights gained.",
+        "Learning rests on data and the ability to gain insight from it. Be clear what data is needed, how it will be analysed and what happens to it at closure.",
+        "Everyone is responsible for identifying lessons rather than waiting for someone else. Learn from successes as well as mistakes.",
+        "A lesson that is not used to improve this or a future project is only a lesson identified, not a lesson learned.",
+        "Small co-located team: lessons discussed in regular team meetings, learning on the job. Large complex project: harder to give everyone the same access, so use videos, presentation kits, tailored workshops, field trips, pilots, simulations or go-live rehearsals."
+      ]
+    },
+    {
+      "id": "2.3",
+      "heading": "Define roles, responsibilities and relationships",
+      "page": 24,
+      "keyMessage": "Roles and responsibilities are defined and agreed within a structure that engages the business, user and supplier interests, and the team builds relationships with internal and external stakeholders.",
+      "points": [
+        "People is one of the five integrated elements, which is why this principle exists. Projects need the right people who know what is expected of them and of others.",
+        "Stakeholders can be internal (work council, owners, department leaders, other project teams) or external (trade unions, customers, suppliers, communities, banks, media).",
+        "All projects have three primary stakeholder interests: business, user and supplier. All three must be represented in the project management team, which is reflected in the design of the project board.",
+        "Defining roles is hard because projects are cross-functional, may span organizations and locations, mix full- and part-time people, and sit outside normal line management.",
+        "Role assignments and responsibilities must be clear, unambiguous and accepted, and there must be effective communication between people.",
+        "In a programme, programme people may hold project roles: the business change manager may be project executive or senior user, the programme management office may provide project support, and the design authority may decide changes at project level.",
+        "Few stakeholders with high impact: focused, personal engagement. Many stakeholders with varied impact: a mix of personal and general engagement such as surveys and broadcast email.",
+        "With agile development teams, the team manager role may be held collectively by the development team."
+      ]
+    },
+    {
+      "id": "2.4",
+      "heading": "Manage by exception",
+      "page": 25,
+      "keyMessage": "Limits of delegated authority are set by defining tolerances against the plan. Beyond them, the matter is escalated.",
+      "points": [
+        "Tolerance is the permissible deviation above and below the plan's target without escalating to the next management level. It is set at project, stage and team levels.",
+        "Accountability rests on three things: delegating authority by setting tolerances for each level; controls so that a forecast breach is flagged as an exception and escalated at once; and assurance that those controls work.",
+        "Seven aspects need tolerances: benefits, cost, time, quality, scope, sustainability and risk.",
+        "Benefits: how far benefits may be under- or over-delivered. Cost: overspend or underspend (money and person-hours). Time: earlier or later than the target date. Quality: variation from acceptance criteria. Scope: permitted variation in the plan's products. Sustainability: variation from sustainability targets. Risk: limits on aggregated risk, and on any single risk.",
+        "Worked examples in the manual: benefits plus or minus two per cent; a watch rated to 50 metres plus or minus five; at least 60 per cent of should-have and could-have requirements; risk exposure under 10 per cent of budget in total and under five per cent for any single threat.",
+        "The aim is to alert the next level as early as possible that work will move outside tolerance, so a decision is made on whether and how to proceed. The decision-maker may accept the deviation or act to remove or reduce it.",
+        "Benefit: senior managers spend less time but keep control, and decisions are made at the right level.",
+        "Iterative-incremental delivery with timeboxes typically fixes time and cost and varies scope, so time and cost get tighter tolerances than scope.",
+        "Tolerances are reviewed at the end of every stage, so the next stage can adapt to a changing environment."
+      ]
+    },
+    {
+      "id": "2.5",
+      "heading": "Manage by stages",
+      "page": 27,
+      "keyMessage": "The project is planned, monitored and controlled stage by stage.",
+      "points": [
+        "A stage is the section of the project the project manager is managing on behalf of the project board at any one time.",
+        "Every project has at least two stages: an initiation stage and at least one further stage. Many benefit from more.",
+        "Staging ensures the project is properly initiated before delivery work starts.",
+        "Advantages: adaptability to change; review and decision points where the board can assess viability; key decisions made before the detailed work that depends on them; clarity on the impact of an external influence (such as budget setting or legislation being finalized); and it supports manage by exception by delegating authority to the project manager for each stage.",
+        "Choosing stages depends on: minimizing risk exposure, project size and complexity (shorter stages mean more control, longer stages mean less senior management effort), key decision and control points, and sector or business policies.",
+        "The board authorizes one stage at a time and delegates day-to-day control to the project manager within tolerance. It authorizes the next stage only if there is sufficient business justification and funds.",
+        "If the business case is no longer valid, the board decides whether and how to recover the project or end it early.",
+        "Agile: sprints or timeboxes sit within stages. The project manager defines how many sprints each stage needs."
+      ]
+    },
+    {
+      "id": "2.6",
+      "heading": "Focus on products",
+      "page": 28,
+      "keyMessage": "The project concentrates on defining and delivering products, particularly their user quality expectations and requirements.",
+      "points": [
+        "A product is an input or output, tangible or intangible, that can be described in advance, created and tested.",
+        "Four types: management products (such as a business case or plan), specialist products (what users need to realize the benefits), the project product (the total output, defined in the project product description) and external products (outside the project's control but depended on, such as a new standard being published).",
+        "Output-oriented rather than work-oriented. The set of agreed products defines the scope and is the basis for planning and control.",
+        "Benefits: only work that contributes to a product is done; scope creep is managed because every change is assessed for its impact on products and the business case; fewer acceptance disputes because what will be produced is agreed up front; easier to pause or close and later resume.",
+        "Product descriptions give the basis for effort estimates, resource needs, dependencies and schedules. The focus supports planning, responsibilities, progress reporting, quality, change control, acceptance and risk.",
+        "Small project: one project product description may be enough. Agile: requirements, features, epics and user stories can serve as product descriptions.",
+        "Large project: the description is divided into sub-products. The deeper the division, the more technical it gets, so the supplier needs the expertise to define products and the business needs project assurance with enough knowledge to check them."
+      ]
+    },
+    {
+      "id": "2.7",
+      "heading": "Tailor to suit the project",
+      "page": 29,
+      "keyMessage": "PRINCE2 is applied and tailored to the project's environment, size, complexity, importance, delivery method, team capability and risk.",
+      "points": [
+        "Purpose of tailoring: the method fits the project (for example aligned with HR, finance and procurement processes) and the controls fit its scale, complexity, importance, delivery method, capability and risk (for example how often and how formally reports and reviews happen).",
+        "The project board and project manager make proactive choices. Tailoring may adjust terminology or replace a technique (such as the risk technique) with one the business or supplier already uses.",
+        "Effective management needs information, not necessarily documents, and decisions, not necessarily meetings.",
+        "Untailored PRINCE2 is inattentive project management (followed without question) at one extreme; ignoring it is heroic project management at the other.",
+        "The project manager is responsible for tailoring and recommends it after consulting relevant lessons and standards. The project board is accountable and approves the recommendations at the end of the initiation stage and whenever the management approaches change.",
+        "Tailoring is captured in the project initiation documentation. It must stay consistent with the seven principles so the method keeps its integrity.",
+        "Commercial example (PRINCE2 with a supplier's agile method): map terminology, add customer and supplier subject matter experts to the agile team, add a coach, use agile ways of working such as daily stand-ups and information radiators, and define how sprints or work packages and product descriptions or user stories are used."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Principles", "definition": "The guiding obligations that determine whether a project is genuinely managed using PRINCE2 and that ensure effective application and tailoring.", "page": 20 },
+    { "term": "Tolerance", "definition": "The permissible deviation above and below a plan's target for benefits, cost, time, quality, scope, sustainability and risk without escalating to the next management level. Applied at project, stage and team levels.", "page": 25 },
+    { "term": "Stage", "definition": "The section of a project the project manager is managing on behalf of the project board at any one time.", "page": 27 },
+    { "term": "Product", "definition": "An input or output, tangible or intangible, that can be described in advance, created and tested.", "page": 28 }
+  ],
+  "cards": [
+    { "id": "ch02-c01", "front": "What are the PRINCE2 principles?", "back": "Guiding obligations that determine whether a project is genuinely managed with PRINCE2, and that guide how it is applied and tailored.", "page": 20 },
+    { "id": "ch02-c02", "front": "Name the seven principles.", "back": "Ensure continued business justification; learn from experience; define roles, responsibilities and relationships; manage by exception; manage by stages; focus on products; tailor to suit the project.", "page": 20 },
+    { "id": "ch02-c03", "front": "Applying versus tailoring PRINCE2?", "back": "Applying is using the method (roles, stages, tolerances, techniques). Tailoring is changing it (terminology, replacing a technique).", "page": 21 },
+    { "id": "ch02-c04", "front": "Where are the project's applying and tailoring arrangements documented?", "back": "In the project initiation documentation, project plan, stage plans and team plans.", "page": 21 },
+    { "id": "ch02-c05", "front": "Key message of ensure continued business justification?", "back": "A reason to start that stays valid and is revalidated to completion. If it is lost, stop the project.", "page": 21 },
+    { "id": "ch02-c06", "front": "Is cancelling a project that is no longer justified a failure?", "back": "No. It is a positive contribution: funds and resources can be reinvested in more worthwhile projects. Close it in a controlled way.", "page": 22 },
+    { "id": "ch02-c07", "front": "Does a compulsory (legal or regulatory) project need business justification?", "back": "Yes, for the chosen approach, to show it is the best value for money.", "page": 21 },
+    { "id": "ch02-c08", "front": "When in the lifecycle does learning from experience happen?", "back": "When starting (review earlier projects), as it progresses (lessons in reports and at the end of each stage) and as it closes (share insights).", "page": 22 },
+    { "id": "ch02-c09", "front": "Lesson identified versus lesson learned?", "back": "A lesson not used to improve this or a future project is only identified. It is learned once it is acted on.", "page": 23 },
+    { "id": "ch02-c10", "front": "Who is responsible for identifying lessons?", "back": "Everyone involved in the project, not just one person.", "page": 23 },
+    { "id": "ch02-c11", "front": "The three primary stakeholder interests?", "back": "Business, user and supplier. All three must be represented in the project management team, reflected in the project board design.", "page": 24 },
+    { "id": "ch02-c12", "front": "Which integrated element underlies the roles principle?", "back": "People.", "page": 24 },
+    { "id": "ch02-c13", "front": "In a programme, which project roles might programme people take?", "back": "Business change manager as project executive or senior user; programme management office as project support; design authority deciding changes.", "page": 24 },
+    { "id": "ch02-c14", "front": "Define tolerance.", "back": "The permissible deviation above and below a plan's target without escalating to the next management level.", "page": 25 },
+    { "id": "ch02-c15", "front": "Three levels at which tolerance is applied?", "back": "Project, stage and team.", "page": 25 },
+    { "id": "ch02-c16", "front": "The seven aspects that need tolerances?", "back": "Benefits, cost, time, quality, scope, sustainability and risk.", "page": 25 },
+    { "id": "ch02-c17", "front": "Three things that establish accountability in manage by exception?", "back": "Delegated authority through tolerances; controls that flag and escalate forecast breaches; assurance that the controls are effective.", "page": 25 },
+    { "id": "ch02-c18", "front": "What happens when a tolerance is forecast to be exceeded?", "back": "It is an exception: escalate immediately to the next management level, which decides whether to accept the deviation or act on it.", "page": 25 },
+    { "id": "ch02-c19", "front": "Iterative-incremental with timeboxes: which tolerances are tight?", "back": "Time and cost are fixed with tight tolerances; scope varies and gets the looser tolerance.", "page": 26 },
+    { "id": "ch02-c20", "front": "Minimum number of stages?", "back": "Two: an initiation stage and at least one further stage.", "page": 27 },
+    { "id": "ch02-c21", "front": "How many stages does the project board authorize at a time?", "back": "One. It delegates day-to-day control to the project manager within tolerance.", "page": 27 },
+    { "id": "ch02-c22", "front": "On what condition does the board authorize the next stage?", "back": "Only if there is sufficient business justification and funds to continue.", "page": 27 },
+    { "id": "ch02-c23", "front": "Factors in choosing stages?", "back": "Minimizing risk exposure, size and complexity, key decision and control points, and sector or business policies.", "page": 27 },
+    { "id": "ch02-c24", "front": "Define a product.", "back": "An input or output, tangible or intangible, that can be described in advance, created and tested.", "page": 28 },
+    { "id": "ch02-c25", "front": "Four types of product?", "back": "Management, specialist, the project product and external products.", "page": 28 },
+    { "id": "ch02-c26", "front": "What is an external product?", "back": "Developed or provided outside the project's control but depended on, such as a new standard being published.", "page": 28 },
+    { "id": "ch02-c27", "front": "Output-oriented rather than what?", "back": "Work-oriented. The agreed products define scope and are the basis for planning and control.", "page": 29 },
+    { "id": "ch02-c28", "front": "How does focus on products help with scope creep?", "back": "Every change is assessed for its impact on products and the business case before it is agreed.", "page": 29 },
+    { "id": "ch02-c29", "front": "Purpose of tailoring?", "back": "The method fits the project and its business processes, and the controls fit its scale, complexity, importance, delivery method, capability and risk.", "page": 29 },
+    { "id": "ch02-c30", "front": "Who is responsible and who is accountable for tailoring?", "back": "The project manager is responsible and recommends it. The project board is accountable and approves it at the end of initiation and on any change.", "page": 30 },
+    { "id": "ch02-c31", "front": "Where is the tailoring captured?", "back": "In the project initiation documentation.", "page": 30 },
+    { "id": "ch02-c32", "front": "Failing to tailor leads to which two extremes?", "back": "Inattentive project management (followed without question) or heroic project management (not really followed).", "page": 30 }
+  ]
+}

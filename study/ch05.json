@@ -1,0 +1,285 @@
+{
+  "set": "ch05",
+  "title": "Business case",
+  "pages": "pp.56-72",
+  "overview": "The business case practice answers Why? It decides whether the project is, and stays, desirable, viable and achievable. Learn the output-outcome-benefit chain, the four-step technique (develop, check, maintain, confirm), the three business options, the investment appraisal terms, and who owns what: the executive is accountable for the business case, the senior user for benefits.",
+  "sections": [
+    {
+      "id": "5.1",
+      "heading": "Purpose",
+      "page": 56,
+      "keyMessage": "Establish mechanisms to judge whether the project is, and remains, desirable, viable and achievable, to support decisions about continued investment.",
+      "points": [
+        "Organizations undertake projects to make measurable improvements, called benefits. In compliance or regulatory projects, benefits may be compared with the consequences of inaction.",
+        "Chain (Figure 5.1): outputs (specialist products) deliver capabilities; capabilities embed into outcomes; outcomes lead to benefits (or dis-benefits), measured against business objectives.",
+        "Output: the tangible or intangible deliverable of an activity; in PRINCE2, the specialist products used to enable change. Capability: the completed set of outputs required to deliver an outcome. Outcome: the result of change, normally affecting real-world behaviour and circumstances.",
+        "Benefit: a measurable improvement from an outcome, seen as an advantage by the investing organization, contributing to one or more business objectives. Dis-benefit: a measurable decline from an outcome seen as negative, detracting from objectives. Business objective: the measurable outcomes that show progress against organizational strategy.",
+        "All projects need business justification, usually documented in a business case. It confirms the reason for the project and whether it is desirable (balance of costs, benefits and risks), viable (able to deliver the products) and achievable (use of the products likely to produce the outcomes and benefits).",
+        "Justification is about value, not only cost: perceived benefits in proportion to the resources used, and choosing the approach with the best overall value.",
+        "Established at the start through the business case, then kept under regular review and updated for events that affect desirability, viability or achievability. If it stops being valid, stop or change the project.",
+        "Scenario (NowByou): desirable and viable (on time, affordable) but not achievable because the proposed communication vehicles were unlikely to reach the audience, so the board asked for scope to be redefined."
+      ]
+    },
+    {
+      "id": "5.2.1",
+      "heading": "Business case lifecycle",
+      "page": 58,
+      "points": [
+        "At the start the business case is an outline, based on the project mandate, with enough information for the board to confirm justification and authorize initiation. PRINCE2 calls it the outline business case (others say strategic outline case) and it is documented in the project brief.",
+        "Costs, timescales, products, risks and targets are not yet well understood, so as planning proceeds it is developed into the full business case (others say detailed or final business case).",
+        "Figure 5.2: the project mandate is provided by the business and sets expectations and constraints; the project brief contains the outline business case in response to the mandate; the business case (full) is provided in response to the project brief.",
+        "It is refined further across stages as actual costs arise, forecast benefits are achieved and understanding grows.",
+        "Scenario (Findef): market testing in stage 3 showed original cost estimates were far from what the feedback would need, so the project board had to return to the investment committee for more funding."
+      ]
+    },
+    {
+      "id": "5.2.2",
+      "heading": "Aligning products to business objectives and tolerances",
+      "page": 59,
+      "points": [
+        "For benefits to be realized the outcomes must be achieved: outputs used as intended, new capability defined and barriers to its use identified. Many projects deliver products never fully used or changes never embedded.",
+        "Projects often succeed on delivery but fail on investment, because benefits come after closure and the team focuses on outputs. The link from outputs to outcomes and benefits must be clear and visible, or the purpose can be lost. Some products only enable others to generate benefits.",
+        "Outcomes and benefits must contribute to business objectives, which may include environmental, social and governance (ESG) goals. Sustainability targets and tolerances in the business case should reference those goals.",
+        "The benefits management approach holds the amount and timing of forecast benefits and guidance on tolerance (for example a 10 to 15 per cent increase in sales). Forecast benefits are checked at least at the end of every stage and escalated if outside tolerance.",
+        "Benefits must be measurable so they can be demonstrated. Unmeasurable benefits make it impossible to judge success or value for money.",
+        "Benefits tolerance: permissible deviation in benefit performance targets before escalation to the next management level; documented in the business case. Sustainability tolerance: the same for sustainability performance targets; also documented in the business case."
+      ]
+    },
+    {
+      "id": "5.2.3",
+      "heading": "Establishing business justification",
+      "page": 60,
+      "points": [
+        "Consider all seven performance aspects and their relationships, accepting trade-offs (higher quality targets are likely to affect cost, time or sustainability).",
+        "The business case considers options for the required outcomes (the business options) and picks the one with the best balance across the aspects. If a business case cannot be built within tolerances for all seven aspects, the justification may be questionable.",
+        "Include not only the cost of developing the product but also changes to operational costs after the project.",
+        "Dis-benefits are expected consequences; a risk is uncertain and may never happen. Dis-benefits must be valued and included in the investment appraisal (for example a site merger gives better joint working, costs for expanding a site, and the dis-benefit of poor public transport)."
+      ]
+    },
+    {
+      "id": "5.3.1",
+      "heading": "The business case technique: develop, check, maintain, confirm",
+      "page": 60,
+      "points": [
+        "PRINCE2's technique has four steps: develop, check, maintain, confirm (Figure 5.3). An alternative procedure may be used, for example one the business already has, and documented as tailoring in the project initiation documentation.",
+        "The business case is developed in outline then in detail at the beginning, reviewed and updated as it evolves, checked by the board at each key decision point (such as stage boundaries) and confirmed throughout the period benefits accrue.",
+        "Develop: explore options and get the right information for investment appraisal decisions. Check: assess whether the project is (still) worthwhile. Maintain: keep the business case updated with actual progress and current forecasts, including forecast benefits. Confirm: assess whether intended benefits have been or will be realized; mostly after closure, though benefits may appear during the project with iterative release."
+      ]
+    },
+    {
+      "id": "5.3.1.1",
+      "heading": "Develop",
+      "page": 61,
+      "points": [
+        "The project mandate triggers starting up a project and is the input for the initial justification in the outline business case, part of the project brief. The board approves the brief when authorizing initiation. The outline is refined into the full business case in initiating a project, and the board approves it when authorizing the project.",
+        "Three basic business options: do nothing differently, do the minimum, do more than the minimum.",
+        "Do nothing differently is always the first option and is the baseline for quantifying the others. The differences between the options are the benefit the investment buys.",
+        "Option analysis answers: for this level of investment, are the expected benefits more desirable, viable and achievable than the alternatives?",
+        "Many options early, narrowed later for detailed examination. Even must-do (regulatory) projects should explore options, because different approaches differ in viability, desirability and achievability.",
+        "Scenario (NowByou): do nothing has no advantages or disadvantages; do the minimum uses existing vehicles (limited reach); do more creates a multi-vehicle campaign (extra funding), preferred for value for money."
+      ]
+    },
+    {
+      "id": "5.3.1.2",
+      "heading": "Check",
+      "page": 62,
+      "points": [
+        "Continually assess the chosen option for desirability, viability and achievability, since new risks or changes may justify switching option. Continued business justification drives all decisions.",
+        "The project board checks the business case as a minimum: at the end of starting up (to authorize initiation); at the end of initiating (to authorize the project); at the end of each stage (to authorize the next stage and continuation); and when assessing an exception plan (to authorize the revised stage and continuation).",
+        "The project manager checks it: when assessing progress, risks and issues for their impact on justification; in the final stage as part of closing, to assess performance against requirements and the probability of outcomes giving the benefits; and when consulting stakeholders about changed goals (such as new sustainability objectives).",
+        "Sensitivity analysis can show whether the business case depends heavily on one benefit, which affects planning, monitoring, control and risk management so that benefit is protected."
+      ]
+    },
+    {
+      "id": "5.3.1.3",
+      "heading": "Maintain",
+      "page": 63,
+      "points": [
+        "At the end of each stage the project manager updates the business case with progress data (products delivered, costs, benefits realized) and the latest forecast benefits and performance targets.",
+        "Keep version control so earlier versions can be accessed for reference and comparison."
+      ]
+    },
+    {
+      "id": "5.3.1.4",
+      "heading": "Confirm",
+      "page": 63,
+      "points": [
+        "The business reviews the business case in a post-project benefits review to see whether intended benefits were realized. During the project, benefits reviews at stage boundaries confirm that benefits forecast for delivery during the project are on track.",
+        "The project management team must understand the benefits and outcomes to develop the right outputs and sustain commitment to the change.",
+        "The senior user specifies the benefits and is accountable for confirming forecast benefits are realized, possibly beyond the project's life. The senior user should usually come from an area impacted by the change. The dilemma: the temporary organization, with its funding and resources, is disbanded at closure.",
+        "The benefits management approach defines actions to ensure outcomes are achieved and benefits confirmed. The project manager first creates it in initiating a project and submits it to the board for approval when seeking authorization. It may be managed by the project or the business and is likely to run beyond the project.",
+        "Benefits measurable during the project are confirmed by the senior user and reported by the project manager in end stage reports and the end project report. Unrealized forecast benefits are re-examined and forecasts updated in managing a stage boundary.",
+        "Post-project reviews: the business holds the senior user accountable with evidence of benefits realized, takes corrective action, reviews the project product's performance in use and looks for side effects, beneficial or adverse, for lessons.",
+        "The project executive is responsible for making sure benefits reviews are planned and executed. For post-project measurement, responsibility transfers from the executive to the business (specifically the senior user) at closure because reviews need funding and resources."
+      ]
+    },
+    {
+      "id": "5.3.2.1",
+      "heading": "Investment appraisal",
+      "page": 64,
+      "points": [
+        "An investment appraisal compares the costs of developing, operating and maintaining the product with the value of benefits over time, looking at benefits, costs and risks. It covers project costs (producing products and managing the project) and ongoing operation and maintenance. Organizations often prefer particular techniques, influenced by type of business (for example public sector accounting rules).",
+        "Whole life costs: total cost of implementation plus incremental transition, operation and maintenance costs. Net benefits: total value of benefits minus cost of implementation, transition and operation over a defined period.",
+        "Return on investment (ROI): profit or savings as a percentage of the initial investment. Payback: time taken to recover the investment. Net present value (NPV): the amount the investment will have earned by a point in time, using a discount rate for the time value of money (at six per cent the value of money roughly halves every 12 years, so 500,000 in year 12 is worth about 250,000 today).",
+        "Internal rate of return: the percentage rate of return when the NPV is zero. Options analysis: score each option against weighted assessment criteria to identify the preferred option (pairwise comparison can help shortlist).",
+        "Sensitivity analysis: adjust input factors to model the point where the outputs no longer justify the investment (worthwhile at four months, not at six). Business cases rest on uncertain forecasts, so understand how inputs (costs, timescale, quality, scope, risks) relate to outputs (operating and maintenance costs, benefits, business risks)."
+      ]
+    },
+    {
+      "id": "5.3.2.2",
+      "heading": "Multi-case model",
+      "page": 65,
+      "points": [
+        "Evaluate an investment from several perspectives, not only financial return, for a rounded view of whether it is desirable, viable and achievable.",
+        "Strategic perspective: the drivers for change and strategic fit. Economic: the option with best value, including wider social, environmental and sustainability considerations. Financial: affordability, funding, budgeting and cashflow over the life of the project and product. Implementation and commercial: the preferred option can be delivered by service providers with robust arrangements.",
+        "A robust investment satisfies all perspectives. The business may have its own cases, such as an environmental case."
+      ]
+    },
+    {
+      "id": "5.3.2.3",
+      "heading": "Best, expected and worst-case scenarios for benefits",
+      "page": 65,
+      "points": [
+        "With iterative-incremental delivery, scope is flexible so the project finishes within fixed time and budget. Express benefits as a range tied to the scope delivered, not a single estimate.",
+        "Best case: benefits when all must-, should- and could-have requirements are delivered. Expected case: must- and should-haves. Worst case: only must-haves.",
+        "The worst case, the lowest expectation of scope delivered, should still show the project is viable."
+      ]
+    },
+    {
+      "id": "5.4.1",
+      "heading": "Organizational context",
+      "page": 65,
+      "points": [
+        "Align with wider business policies, standards and approaches, which differ between types of organization (public versus private sector).",
+        "In a programme, the programme usually defines how the business case is developed and provides the outline business case. The project's business case is usually aggregated into the programme's and its content reduced: scope, budget and timescales, a list of benefits and benefits tolerance, sustainability targets and tolerance, the project's contribution to programme outcomes, and reasons for the chosen option. Other justification sits in the programme business case.",
+        "Programme management usually defines, tracks and manages benefits, and the project's benefits management approach may be part of the programme's benefits realization plan."
+      ]
+    },
+    {
+      "id": "5.4.2",
+      "heading": "Commercial context",
+      "page": 66,
+      "points": [
+        "Customer and supplier each have their own justification and may need their own business cases. The customer ensures the project is viable and risks are acceptable given the chosen suppliers; the supplier ensures the work is worthwhile for it.",
+        "Successful projects align the cases and make them compatible, recognizing some elements remain private to each organization.",
+        "The project executive is responsible for ensuring compatibility, by aligning the user, business and supplier interests on the project board."
+      ]
+    },
+    {
+      "id": "5.4.3",
+      "heading": "Delivery method",
+      "page": 66,
+      "points": [
+        "Iterative-incremental delivery may need more information on benefit tolerances, priorities and timescales, and on the extent and sequence of scope. With cost and time fixed, present best, expected and worst cases of the scope that can be used.",
+        "Understand how incremental delivery and its value affect viability and early benefit realization. If uncertainty is high, develop the business case and test assumptions quickly.",
+        "With agile, understanding of both the deliverables and the benefits grows, so the business case evolves much more than in a linear-sequential project."
+      ]
+    },
+    {
+      "id": "5.4.4",
+      "heading": "Sustainability",
+      "page": 66,
+      "points": [
+        "The United Nations defines 17 sustainable development goals. Organizations may set sustainability objectives and ESG targets, and the project's sustainability targets must align with them.",
+        "If a project's main purpose is a sustainability objective, traditional appraisal may not work. A flood barrier whose benefits arrive in 20 to 30 years is hard to justify with discounted cash flow, so the approach to justification may need adapting.",
+        "Scenario (LouisShopping): a 2.3 tonne CO2e allowance forced trade-offs. The board chose balanced ventilation over enhanced mechanical ventilation, and proven double-glazed windows over innovative water-filled windows that were untested in a retail building and carried high risk."
+      ]
+    },
+    {
+      "id": "5.4.5",
+      "heading": "Scale",
+      "page": 67,
+      "points": [
+        "Adapt the format and detail to the project's size and complexity. Small, low-value projects may merge the project brief and business case into one simple document; large or complex ones may need more, such as a detailed environmental impact study."
+      ]
+    },
+    {
+      "id": "5.5",
+      "heading": "Management products",
+      "page": 68,
+      "points": [
+        "PRINCE2 includes 16 management products. Four belong to this practice.",
+        "Project brief: purpose is a full and firm foundation for initiating the project. Content: project definition (background, objectives, desired outcomes, scope and exclusions, constraints and assumptions, project tolerances, users and interested parties); outline business case; project product description (user quality expectations and acceptance criteria); project approach; project management team structure and role descriptions; references.",
+        "Business case: purpose is to document the justification, based on estimated costs against expected benefits offset by risks, and outline how and when benefits can be measured. Content: executive summary; reasons; business options; expected benefits and dis-benefits (with benefits tolerances); sustainability targets (with sustainability tolerances); time; costs; investment appraisal; major risks; references.",
+        "Benefits management approach (part of the project initiation documentation): defines benefits management actions and reviews to ensure outcomes are achieved and benefits realized. Content: scope; benefits realization procedures (including handover of a benefits realization plan to the business); benefits measurement (how, when, baselines); benefits tolerance guidance; product performance; responsibilities; resources; tools and techniques; standards; references.",
+        "Sustainability management approach (part of the project initiation documentation): defines actions, reviews and controls so sustainability performance targets are achieved. Content: scope; measurement; responsibilities; resources; tools and techniques; standards; references."
+      ]
+    },
+    {
+      "id": "5.6",
+      "heading": "Focus of key roles",
+      "page": 71,
+      "points": [
+        "Business layer: provides the project mandate and standards for the business case; holds the senior user accountable for post-project benefits; is accountable for the benefits management approach after the project; sets project-level benefits tolerance.",
+        "Project executive: accountable for the business case during the project; approves the benefits and sustainability management approaches and is accountable for them during the project (unless the business manages them); sets stage-level benefits tolerance; oversees a viable business case aligned to objectives; keeps the project desirable, viable and achievable; secures funding; ensures the senior user's benefits and the senior supplier's delivery method and costs represent value for money.",
+        "Senior user: accountable for specifying the desired outcome and benefits on which the business case is approved; agrees the benefits and sustainability approaches; accountable for realizing benefits and ensuring products deliver outcomes; confirms expected benefits are or can be realized; gives actual versus forecast benefits at reviews.",
+        "Senior supplier: accountable for the supplier business case (if applicable); confirms the products can be delivered within expected costs and are viable.",
+        "Project manager: responsible, as delegated by the executive, for developing the business case and the two approaches; reviews the impact of issues and risks; assesses and updates them at each stage end; reports performance at closure; consults stakeholders for changed goals.",
+        "Team manager: implements benefits management procedures in the work package description. Project assurance: checks fit with business objectives; advises on and confirms compliance of the approaches; monitors the business case against events and progress, project finance and changes. Project support: maintains baseline and change control for the business case and approaches and advises of product changes that affect the business case."
+      ]
+    },
+    {
+      "id": "5.7",
+      "heading": "Key relationships with principles",
+      "page": 72,
+      "points": [
+        "Continued business justification: creating and maintaining the business case, giving confidence the investment is worthwhile. Learn from experience: lessons inform justification. Define roles: clear responsibilities for the business case and benefits management.",
+        "Manage by stages: decisions at stage boundaries are checked for justification. Manage by exception: impact of issues and risks on the business case is measured and escalated when forecast to exceed tolerances. Focus on products: products can lead to the required outcomes and benefits.",
+        "Tailor: formality and control of business case development, approval and review fit the type, size and complexity of the project."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Output", "definition": "The tangible or intangible deliverable of an activity. In PRINCE2, the specialist products used to enable change.", "page": 57 },
+    { "term": "Capability", "definition": "The completed set of project outputs required to deliver an outcome.", "page": 57 },
+    { "term": "Outcome", "definition": "The result of change, normally affecting real-world behaviour and circumstances.", "page": 57 },
+    { "term": "Benefit", "definition": "The measurable improvement resulting from an outcome that is perceived as an advantage by the investing organization and contributes towards one or more business objectives.", "page": 57 },
+    { "term": "Dis-benefit", "definition": "The measurable decline resulting from an outcome perceived as negative by the investing organization and which detracts from one or more business objectives.", "page": 57 },
+    { "term": "Business objective", "definition": "The measurable outcomes that demonstrate progress in relation to the organization's strategy and to which the project should contribute.", "page": 57 },
+    { "term": "Benefits tolerance", "definition": "The permissible deviation in the benefit performance targets allowed before the deviation needs to be escalated to the next level of management. Documented in the business case.", "page": 60 },
+    { "term": "Sustainability tolerance", "definition": "The permissible deviation in the sustainability performance targets allowed before escalation to the next level of management. Documented in the business case.", "page": 60 }
+  ],
+  "cards": [
+    { "id": "ch05-c01", "front": "Purpose of the business case practice?", "back": "Establish mechanisms to judge whether the project is, and remains, desirable, viable and achievable, to support decisions on continued investment.", "page": 56 },
+    { "id": "ch05-c02", "front": "Which question does the business case practice answer?", "back": "Why?", "page": 50 },
+    { "id": "ch05-c03", "front": "The chain from outputs to benefits?", "back": "Outputs deliver capabilities; capabilities embed into outcomes; outcomes lead to benefits (or dis-benefits), measured against business objectives.", "page": 56 },
+    { "id": "ch05-c04", "front": "Output versus outcome?", "back": "An output is a deliverable (a specialist product). An outcome is the result of change, normally affecting real-world behaviour and circumstances.", "page": 57 },
+    { "id": "ch05-c05", "front": "Define capability.", "back": "The completed set of project outputs required to deliver an outcome.", "page": 57 },
+    { "id": "ch05-c06", "front": "Benefit versus dis-benefit?", "back": "Benefit: a measurable improvement from an outcome seen as an advantage. Dis-benefit: a measurable decline from an outcome seen as negative.", "page": 57 },
+    { "id": "ch05-c07", "front": "What do desirable, viable and achievable mean?", "back": "Desirable: costs, benefits and risks balance. Viable: able to deliver the products. Achievable: using the products is likely to produce the outcomes and benefits.", "page": 57 },
+    { "id": "ch05-c08", "front": "What if the business justification ceases to be valid?", "back": "The project should be stopped or changed.", "page": 57 },
+    { "id": "ch05-c09", "front": "Where is the outline business case documented?", "back": "In the project brief, in response to the project mandate.", "page": 58 },
+    { "id": "ch05-c10", "front": "Evolution from mandate to full business case?", "back": "Project mandate (from the business) leads to the project brief (with the outline business case), which leads to the full business case.", "page": 58 },
+    { "id": "ch05-c11", "front": "Why do projects often succeed on delivery but fail on investment?", "back": "Benefits are realized after closure, so teams focus on outputs and lose sight of the link to outcomes and benefits.", "page": 59 },
+    { "id": "ch05-c12", "front": "Define benefits tolerance and where it is documented.", "back": "The permissible deviation in benefit performance targets before escalation. It is documented in the business case.", "page": 60 },
+    { "id": "ch05-c13", "front": "How often are forecast benefits checked against tolerance?", "back": "Through the project, at a minimum at the end of every stage.", "page": 59 },
+    { "id": "ch05-c14", "front": "Dis-benefit versus risk?", "back": "A dis-benefit is an expected consequence; a risk is uncertain and may never materialize. Dis-benefits are valued in the investment appraisal.", "page": 60 },
+    { "id": "ch05-c15", "front": "Four steps of the business case technique?", "back": "Develop, check, maintain, confirm.", "page": 60 },
+    { "id": "ch05-c16", "front": "Meaning of develop, check, maintain, confirm?", "back": "Develop: explore options and get information. Check: is it still worthwhile. Maintain: update with actuals and forecasts. Confirm: have benefits been or will they be realized.", "page": 61 },
+    { "id": "ch05-c17", "front": "The three basic business options?", "back": "Do nothing differently, do the minimum, do more than the minimum.", "page": 61 },
+    { "id": "ch05-c18", "front": "Which option is always first and why?", "back": "Do nothing differently. It is the baseline for quantifying the others.", "page": 61 },
+    { "id": "ch05-c19", "front": "When does the project board check the business case, at minimum?", "back": "End of starting up; end of initiating; end of each stage; when assessing an exception plan.", "page": 62 },
+    { "id": "ch05-c20", "front": "When does the project manager check the business case?", "back": "When assessing progress, risks and issues; in the final stage as part of closing; and when consulting stakeholders about changed goals.", "page": 62 },
+    { "id": "ch05-c21", "front": "Why use sensitivity analysis on the business case?", "back": "To see whether it depends heavily on a specific benefit, so that benefit can be protected in planning, control and risk management.", "page": 62 },
+    { "id": "ch05-c22", "front": "Who updates the business case at stage end?", "back": "The project manager, with progress data and latest forecasts, keeping version control.", "page": 63 },
+    { "id": "ch05-c23", "front": "Who is accountable for confirming forecast benefits are realized?", "back": "The senior user.", "page": 63 },
+    { "id": "ch05-c24", "front": "Who is responsible for ensuring benefits reviews are planned and executed?", "back": "The project executive. After closure, responsibility for post-project reviews transfers to the business, specifically the senior user.", "page": 63 },
+    { "id": "ch05-c25", "front": "Who creates the benefits management approach and when?", "back": "The project manager, first in initiating a project, then submitted to the board for approval when seeking authorization.", "page": 63 },
+    { "id": "ch05-c26", "front": "Name the investment appraisal techniques.", "back": "Whole life costs, net benefits, return on investment, payback, net present value, internal rate of return, options analysis, sensitivity analysis.", "page": 64 },
+    { "id": "ch05-c27", "front": "Define net present value.", "back": "The amount the investment will have earned by a point in time, allowing for the time value of money using a discount rate.", "page": 64 },
+    { "id": "ch05-c28", "front": "Define internal rate of return.", "back": "The percentage rate of return on investment when the net present value is zero.", "page": 64 },
+    { "id": "ch05-c29", "front": "The four perspectives of the multi-case model?", "back": "Strategic, economic, financial, and implementation and commercial.", "page": 65 },
+    { "id": "ch05-c30", "front": "Best, expected and worst-case benefit scenarios?", "back": "Best: all must-, should- and could-haves. Expected: must- and should-haves. Worst: only must-haves, which should still be viable.", "page": 65 },
+    { "id": "ch05-c31", "front": "Who ensures customer and supplier business cases are compatible?", "back": "The project executive, by aligning user, business and supplier interests on the project board.", "page": 66 },
+    { "id": "ch05-c32", "front": "How does a programme affect the project's business case?", "back": "The programme typically defines the approach and provides the outline business case; the project's is aggregated into the programme's and reduced in content.", "page": 65 },
+    { "id": "ch05-c33", "front": "How many UN sustainable development goals?", "back": "17. Project sustainability targets must align with organizational ESG targets.", "page": 66 },
+    { "id": "ch05-c34", "front": "Management products specific to the business case practice?", "back": "Project brief, business case, benefits management approach, sustainability management approach.", "page": 68 },
+    { "id": "ch05-c35", "front": "Purpose of the project brief?", "back": "To provide a full and firm foundation for the initiation of the project.", "page": 68 },
+    { "id": "ch05-c36", "front": "Contents of the business case?", "back": "Executive summary; reasons; business options; expected benefits and dis-benefits; sustainability targets; time; costs; investment appraisal; major risks; references.", "page": 69 },
+    { "id": "ch05-c37", "front": "Which management products form part of the project initiation documentation here?", "back": "The benefits management approach and the sustainability management approach.", "page": 69 },
+    { "id": "ch05-c38", "front": "Who is accountable for the business case during the project?", "back": "The project executive.", "page": 71 },
+    { "id": "ch05-c39", "front": "Who is accountable for specifying the desired outcome and benefits?", "back": "The senior user.", "page": 71 },
+    { "id": "ch05-c40", "front": "Who sets project-level and stage-level benefits tolerance?", "back": "Project level: the business layer. Stage level: the project executive.", "page": 71 },
+    { "id": "ch05-c41", "front": "Who is responsible for developing the business case, as delegated?", "back": "The project manager, as delegated by the project executive.", "page": 71 }
+  ]
+}

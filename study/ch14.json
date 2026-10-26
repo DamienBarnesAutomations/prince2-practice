@@ -1,0 +1,157 @@
+{
+  "set": "ch14",
+  "title": "Directing a project",
+  "pages": "pp.230-237",
+  "overview": "Directing a project is the project board's process. It runs from the request to initiate through to closure, with a few decision points: authorize initiation, authorize the project, give ongoing direction, authorize a stage or exception plan, authorize closure. The project executive is accountable for all of them. Know which inputs trigger it and what each decision approves.",
+  "sections": [
+    {
+      "id": "14.1",
+      "heading": "Purpose",
+      "page": 230,
+      "points": [
+        "Enable the project board to be accountable for the project's success by making key decisions and exercising overall control while delegating day-to-day management to the project manager."
+      ]
+    },
+    {
+      "id": "14.2",
+      "heading": "Objectives",
+      "page": 230,
+      "points": [
+        "Ensure: authority to initiate the project; authority to deliver the project product; appropriate management direction and control throughout the life; the project remains viable; the business layer has a connection to the project; authority to close the project; plans for realizing post-project benefits are managed and reviewed."
+      ]
+    },
+    {
+      "id": "14.3",
+      "heading": "Context",
+      "page": 230,
+      "points": [
+        "The process starts on completion of starting up a project and is triggered by the request to initiate a project (Figure 14.1).",
+        "It covers the activities of the project board, not the project manager's day-to-day work. The board manages by exception: it monitors through reports and controls through a small number of decision points. It should need no other progress meetings because the project manager informs it of any exception.",
+        "Levels of authority and decision-making must be clearly defined so the project manager and team managers are empowered.",
+        "There must be a two-way flow of information between the board and the business layer, and the board ensures the project stays aligned with the business layer's strategy. A key board role is to engage the business layer and act as a communication channel, documented in the communication management approach.",
+        "The board should give unified direction. If it cannot provide a single view, the risk of failure rises as the project manager may act on contradictory requirements; then the project executive decides.",
+        "The process lets the board meet its responsibility for continued business justification without being overburdened by hands-on management and avoids micromanaging the project manager. The board also gives informal advice and guidance as well as formal direction, two-way: it updates the project manager on external matters and the project manager seeks advice whenever necessary.",
+        "Table 14.1: authorize initiation (triggered by the project initiation request; reviews the outline business case, project brief, project product description and initiation stage plan; approves them; outputs initiation notice and project initiation authorized, triggering initiating a project). Authorize the project (project authorization request; reviews the project initiation documentation and business case; approves them; outputs project authorization notice).",
+        "Authorize a stage or exception plan (triggered by next stage request or exception plan approval request; reviews the end stage report and stage plan, checks the project plan and business case; approves the end stage report, next stage plan and any updated project plan, business case and project initiation documentation; output stage or exception authorized, triggering controlling a stage).",
+        "Give ongoing direction (triggered by advice request or exception raised; reviews lessons, highlight, issue and exception reports and checks the business case; outputs exception plan request (triggers managing a stage boundary), the board's advice and decisions (triggers controlling a stage) and premature close notice (triggers closing a project)). Authorize project closure (project closure request; reviews the end project report, confirms the business case; output project closure notice)."
+      ]
+    },
+    {
+      "id": "14.4.1",
+      "heading": "Authorize initiation",
+      "page": 232,
+      "points": [
+        "Initiation takes time and money, so it is planned, monitored and controlled; this activity ensures the investment is worthwhile. When the project manager's request arrives, the board decides whether the project may proceed to the initiation stage.",
+        "It may be done with or without a formal meeting, as long as all members agree and the project manager gets documented instruction from the executive to proceed.",
+        "The board may delegate project assurance (such as inspecting the initiation stage plan for viability) but remains accountable.",
+        "Actions: check the project approach aligns with business policies; review and approve the project brief and project product description; check the outline business case shows a viable project aligned to strategy; review and approve the initiation stage plan and set its tolerances; inform stakeholders and impacted sites that the project is being initiated and request logistical support; authorize the project manager to proceed with the initiation stage."
+      ]
+    },
+    {
+      "id": "14.4.2",
+      "heading": "Authorize the project",
+      "page": 233,
+      "points": [
+        "Triggered by the project manager's request for authorization to deliver; may run in parallel with authorizing a stage or exception plan.",
+        "The objective is to decide whether to proceed with the rest of the project. The board confirms: a robust business case exists and shows a viable project; the project plan and benefits management approach show the project can deliver the business case; the management approaches and controls support delivery of the project plan.",
+        "If the board does not authorize the project, it should be prematurely closed (Chapter 19). The board may delegate assurance (for example checking the communication management approach covers all stakeholders) but remains accountable.",
+        "Actions: review and approve the project initiation documentation; confirm tolerances; confirm lessons from similar projects were reviewed and addressed; confirm risks were reviewed and responses to threats and opportunities are appropriate and planned; obtain or commit the people and resources (provided stage by stage); notify the business and interested parties; authorize the project manager to deliver, or instruct premature closure if not proceeding."
+      ]
+    },
+    {
+      "id": "14.4.3",
+      "heading": "Give ongoing direction",
+      "page": 234,
+      "points": [
+        "Board members must give informal guidance or respond to advice requests at any time. Consultation is especially frequent during initiation and when approaching stage boundaries. Direction may be given collectively or by individual members.",
+        "Triggers: general advice (explaining the business's sustainability objectives and ESG reporting); responding to requests (clarifying options, resolving conflict); responding to reports (highlight, exception, issue); external influences (changes in business priorities); members' individual concerns; changes in board composition (which may need business approval).",
+        "If a stage exception occurs, the board may ask the project manager for an exception plan. Only exceptions to stage plans need board approval; deviations from the project plan need business approval. Work package exceptions are managed by the project manager in controlling a stage. An approved exception plan replaces the plan in exception and becomes the new baselined plan.",
+        "If the business revises the project mandate (in response to external events) or tells the board to close the project, the board has two primary options: treat a changed mandate as a request for change and ask the project manager to replan the stage or project; or stop, trigger a premature close and start a new project for the changed mandate (possibly costlier).",
+        "Assurance may be delegated but the board remains accountable. Consider the impact on all stakeholders identified in the communication management approach.",
+        "Actions: respond to informal requests for advice; for an escalated issue, seek advice and decide (if off-specification, reject it, meaning the team or supplier must complete the product, or grant a concession, accepting the incomplete product); for an exception report, seek advice and decide; for a highlight report, review and act as necessary; for advice and decisions from the business, notify the project manager of changes."
+      ]
+    },
+    {
+      "id": "14.4.4",
+      "heading": "Authorize a stage or exception plan",
+      "page": 235,
+      "points": [
+        "A stage starts only when the board says so. It authorizes a stage by reviewing the performance of the current stage and approving the stage plan for the next one. Stage plans are approved before every stage.",
+        "Assurance may be delegated (such as inspecting the stage plan for viability) but the board remains accountable.",
+        "Actions: review and approve the end stage report; review the stage plan or exception plan seeking approval; decide to approve it, ask the project manager to revise a rejected plan, or instruct premature closure; communicate project status to the business and keep interested parties informed per the communication management approach."
+      ]
+    },
+    {
+      "id": "14.4.5",
+      "heading": "Authorize project closure",
+      "page": 235,
+      "points": [
+        "A controlled close is as important as a controlled start. The objectives in the original and current project initiation documentation and project plan are assessed to understand: whether objectives were achieved; how the project deviated from its initial basis; and that the project has nothing more to contribute. Without it, the project may fail to close in a controlled way, handover may be incomplete, the focus on benefits may be lost, and the team may not be released.",
+        "It is the last activity of the board before its own disbandment and may need business endorsement. The board may ask project assurance to inspect the end project report.",
+        "Actions: review the original and current project initiation documentation; review and approve the end project report; ensure post-project benefits reviews in the updated benefits management approach cover the project product's performance in operational use and any side effects, beneficial or adverse; review and gain approval for the updated benefits management approach, addressing expected benefits that cannot yet be confirmed, transferring responsibility to the business as it extends beyond the project; confirm the updated business case by comparing actual and forecast benefits, costs and risks with the outline business case used to justify the project; issue a project closure notification per the communication management approach, telling those who supplied infrastructure and resources they can be withdrawn and giving a closing date for charging costs; ensure correct off-boarding of remaining team members."
+      ]
+    },
+    {
+      "id": "14.5",
+      "heading": "Applying the process",
+      "page": 236,
+      "points": [
+        "The project executive is responsible for all the activities, though the work may be done by others. The project manager must not decide or give approval or direction on matters that are the executive's responsibility; the two roles must be kept separate.",
+        "In some contexts (programme, portfolio, business layer), the decision at stage boundaries, particularly releasing funds for the next stage, may be taken by a role above the executive. For that reason authorize a stage or exception plan may be treated as a separate process in a tailored process model."
+      ]
+    },
+    {
+      "id": "14.6",
+      "heading": "Responsibilities",
+      "page": 236,
+      "points": [
+        "Table 14.2: the project executive is accountable and responsible (A/R) for every activity. The business layer is informed for all except give ongoing direction (consulted).",
+        "Authorize the project, authorize a stage or exception plan, authorize closure: senior user and senior supplier consulted; project manager informed; team manager informed; project assurance consulted; project support informed. Authorize initiation: executive A/R, business informed.",
+        "Give ongoing direction: executive A/R for business-related matters, senior user responsible for user-related, senior supplier for supplier-related; project manager consulted or informed; project assurance consulted."
+      ]
+    },
+    {
+      "id": "14.7",
+      "heading": "Application of the practices to this process",
+      "page": 237,
+      "points": [
+        "Business case: the board provides input so the case is desirable, viable and achievable and aligned with strategy; reviews the outline business case (initiate), the full business case (authorize project and each stage) and confirms performance at closure; approves benefits and sustainability management approaches; agrees project-level benefits and sustainability tolerance with the business and sets stage-level tolerance.",
+        "Organizing: three interests represented by senior leaders with suitable authority and credibility; approves the team structure, role descriptions, and the commercial, communication and change management approaches; confirms the delivery model.",
+        "Plans: reviews plans and delivery method for alignment; approves the project approach, project plan, each stage plan and exception plans; commits funding, people and resources.",
+        "Quality: the senior user provides quality expectations and acceptance criteria; the board is responsible for project assurance from user, business and supplier perspectives; approves the project product description, product descriptions and quality management approach; agrees project-level quality tolerance with the business and sets product-level quality tolerance.",
+        "Risk: considers high-level risks in the brief before initiation and in the business case before authorizing the project and each stage; agrees project-level risk tolerance and sets stage-level; approves the risk management approach.",
+        "Issues: approves the issue management approach, responds to issue reports in good time, considers delegated change authority and a change budget. Progress: approves the digital and data management approach; agrees project-level time, cost and scope tolerance with the business and sets stage-level; reviews highlight reports; responds to exception reports and considers exception plans; approves the end project report and informs the business of closure."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch14-c01", "front": "Purpose of directing a project?", "back": "To enable the project board to be accountable for the project's success by making key decisions and exercising overall control while delegating day-to-day management to the project manager.", "page": 230 },
+    { "id": "ch14-c02", "front": "What triggers directing a project?", "back": "The request to initiate a project, on completion of starting up a project.", "page": 230 },
+    { "id": "ch14-c03", "front": "Does directing a project cover the project manager's day-to-day work?", "back": "No. It covers the board's activities; the board manages by exception, monitors through reports and controls through a few decision points.", "page": 231 },
+    { "id": "ch14-c04", "front": "What if the board cannot provide a single view?", "back": "The risk of failure rises because the project manager may act on contradictory requirements; the project executive makes the decision.", "page": 231 },
+    { "id": "ch14-c05", "front": "Where is the board's role as a communication channel documented?", "back": "In the communication management approach.", "page": 231 },
+    { "id": "ch14-c06", "front": "Five activities of directing a project?", "back": "Authorize initiation; authorize the project; give ongoing direction; authorize a stage or exception plan; authorize project closure.", "page": 232 },
+    { "id": "ch14-c07", "front": "What is approved when initiation is authorized?", "back": "The outline business case, project brief, project product description and initiation stage plan.", "page": 232 },
+    { "id": "ch14-c08", "front": "What does authorizing initiation output?", "back": "The initiation notice and project initiation authorized, which triggers initiating a project.", "page": 232 },
+    { "id": "ch14-c09", "front": "Can initiation be authorized without a formal board meeting?", "back": "Yes, as long as all members agree and the project manager gets documented instruction from the executive.", "page": 232 },
+    { "id": "ch14-c10", "front": "Can the board delegate project assurance, and who stays accountable?", "back": "Yes, but the project board remains accountable.", "page": 232 },
+    { "id": "ch14-c11", "front": "What must the board confirm when authorizing the project?", "back": "A robust, viable business case; the project plan and benefits management approach can deliver it; management approaches and controls support delivery of the plan.", "page": 233 },
+    { "id": "ch14-c12", "front": "What happens if the board does not authorize the project?", "back": "It should be prematurely closed.", "page": 233 },
+    { "id": "ch14-c13", "front": "Which exceptions need board approval and which need business approval?", "back": "Stage plan exceptions need the board; deviations from the project plan need business approval. Work package exceptions are handled by the project manager.", "page": 234 },
+    { "id": "ch14-c14", "front": "What happens to an approved exception plan?", "back": "It replaces the plan in exception and becomes the new baselined plan.", "page": 234 },
+    { "id": "ch14-c15", "front": "Two options if the business changes the project mandate?", "back": "Treat it as a request for change and replan; or stop with a premature close and start a new project (possibly costlier).", "page": 234 },
+    { "id": "ch14-c16", "front": "Board options on an escalated off-specification?", "back": "Reject it (the team or supplier must complete the product) or grant a concession (the incomplete product is accepted).", "page": 234 },
+    { "id": "ch14-c17", "front": "When does a stage start?", "back": "Only when the board authorizes it, by reviewing the current stage and approving the next stage plan. Approval occurs before every stage.", "page": 235 },
+    { "id": "ch14-c18", "front": "Board options on a stage or exception plan?", "back": "Approve it, ask the project manager to revise a rejected plan, or instruct premature closure.", "page": 235 },
+    { "id": "ch14-c19", "front": "What does authorizing a stage output?", "back": "Stage or exception authorized, which triggers controlling a stage.", "page": 232 },
+    { "id": "ch14-c20", "front": "What does project closure assess?", "back": "Whether objectives were achieved, how the project deviated from its initial basis, and that it has nothing more to contribute.", "page": 235 },
+    { "id": "ch14-c21", "front": "Is authorizing closure the last board activity?", "back": "Yes, prior to its own disbandment; it may need business endorsement.", "page": 235 },
+    { "id": "ch14-c22", "front": "What happens to responsibility for the benefits management approach at closure?", "back": "It is transferred to the business, since the approach includes resources beyond the life of the project.", "page": 235 },
+    { "id": "ch14-c23", "front": "What does the board confirm about the business case at closure?", "back": "It compares actual and forecast benefits, costs and risks against the outline business case used to justify the project.", "page": 236 },
+    { "id": "ch14-c24", "front": "What does the project closure notification say?", "back": "That support infrastructure and resources can be withdrawn, with a closing date for costs being charged to the project.", "page": 236 },
+    { "id": "ch14-c25", "front": "Who is responsible for all activities in directing a project?", "back": "The project executive (A/R in every activity). The roles of executive and project manager must stay separate.", "page": 236 },
+    { "id": "ch14-c26", "front": "Why may authorize a stage or exception plan be a separate process in a tailored model?", "back": "In a programme, portfolio or business layer, stage boundary decisions, especially releasing funds, may be taken above the executive.", "page": 236 },
+    { "id": "ch14-c27", "front": "Which tolerances does the board agree with the business and which does it set?", "back": "It agrees project-level tolerances with the business and sets stage-level (and product-level quality) tolerances.", "page": 237 }
+  ]
+}

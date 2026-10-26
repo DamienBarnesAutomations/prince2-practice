@@ -1,0 +1,123 @@
+{
+  "set": "appb",
+  "title": "Role descriptions",
+  "pages": "pp.308-314",
+  "overview": "Appendix B gathers the responsibilities of each PRINCE2 role. Roles are not jobs allocated one-to-one: some are part-time, and many can be shared or combined. Questions test who is accountable for what, which roles are always single-holder, and what separates project assurance from project support.",
+  "sections": [
+    {
+      "id": "B",
+      "heading": "About the roles",
+      "page": 308,
+      "points": [
+        "The appendix lists responsibilities of the PRINCE2 roles. They can be tailored (Chapter 2 generally, Chapter 6 in particular). Roles do not necessarily equate to jobs allocated one-to-one to people; some may be undertaken part-time and many shared or combined according to the project's needs."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Project assurance",
+      "page": 308,
+      "points": [
+        "Board members are responsible for assurance of their areas of concern (business, user, supplier). The board decides how assurance is done and how assurance roles interact. Tasks can be done by the board members themselves, appointed from the wider business, or selected from an external party, depending on knowledge, skills and capacity.",
+        "Advise the board and project manager on assessing and resolving issues, risks and exception reports and checking impacts against the business case; advise the project manager on selection of team members and on the management approaches; help by reviewing product descriptions.",
+        "Assure board members that data, issues and risk are managed appropriately by reviewing practices against the digital and data, issue management and risk management approaches; assure the feasibility of stage and project plans against targets and tolerances; assure the impact assessment of potential changes on the business case and project plan.",
+        "Check and monitor the business case against external events and project progress; check changes to the project plan for impact on the business's needs or the business case; check project finance on behalf of the business; check the project fits overall business objectives; confirm stage and project progress against tolerances; confirm the management approaches comply with business policies and assure the board on their implementation."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Project executive",
+      "page": 309,
+      "points": [
+        "Appointed by the business as the single point of accountability, ultimately accountable for the project's success; this cannot be delegated. Secures funding, is responsible for the business case and continued business justification, and governs in line with business strategy including long-term environmental, social and economic impacts.",
+        "Accountable for benefits for the duration of the project (unless the business manages them) and for the business case for the project's duration, overseeing a viable business case aligned to business objectives. Accountable to the business for sustainability reporting and ensures sustainability risks are identified, assessed and controlled. Accountable for sharing lessons learned with the business.",
+        "Reviews and confirms the project approach and delivery model, compatible with the business's ESG objectives. Approves the project brief, management approaches, team structure, project product description, project initiation documentation, project plan, stage plans and any exception plans (when stage-level tolerances are forecast to be exceeded).",
+        "Ensures the senior user's benefits represent value for money, align with objectives and can be realized, and that the senior supplier's delivery method and costs represent value for money.",
+        "Confirms the organizational design, appoints the project manager (if the business has not), confirms team appointments and commits people and business resources. Decides if a project-level change budget is needed and its amount, whether delegated change authority is needed, and sets tolerances and change budget for each stage. Determines the risk budget and secures funding.",
+        "Ensures business case risks are identified, assessed and controlled; decides on escalated risks focusing on continued justification; escalates risks and exceptions to the business as necessary; implements risk responses as risk action owner for assigned risks. Ensures progress towards the outcome stays consistent from the business perspective; responds to advice requests and decides on escalated issues; decides on exception reports when stage tolerances are forecast to be exceeded; ensures the project remains desirable, viable and achievable; confirms project closure and acceptance of the project product and notifies the business."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Project manager",
+      "page": 310,
+      "points": [
+        "Has authority to run the project for the board within agreed tolerances and constraints; responsible for day-to-day management.",
+        "Consults stakeholders to prepare and maintain product descriptions and management approaches, and through the project to check whether goals have changed. Designs the plans and decides how stages and delivery steps apply. Designs, reviews and updates the team structure and work breakdown structure and prepares role descriptions.",
+        "Prepares the business case and management approaches and assesses and updates them at each stage end. Prepares the project plan, stage plans and work package descriptions. Authorizes work packages and sets work package tolerances.",
+        "Ensures project risks are identified, assessed and controlled; ensures team managers implement the approaches agreed in team plans; establishes and maintains a healthy ecosystem and the team's wellbeing; establishes and maintains the project log, assisted by project support; implements corrective actions and risk responses as risk action owner; instructs corrective action when work package tolerances are forecast to be exceeded; manages the procedures required by the approaches.",
+        "Monitors progress against stage plans and reviews the impact of issues and risks on business case viability; produces exception reports when stage or project tolerances are forecast to be exceeded; prepares an exception plan to implement decisions on exception reports; produces lessons, highlight, exception, end stage and end project reports; remains responsible for sustainability reporting from the project perspective; assesses and reports on project performance at closure."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Project support",
+      "page": 311,
+      "points": [
+        "Provides services such as administrative support, advice on project tools, planning support, risk management and change management. The role is the project manager's responsibility but can be delegated to suppliers, individuals or groups in the business, or team members, depending on scale, complexity and the project manager's skills and capacity. A project office (P3O) may fulfil it. Support can help integration across the ecosystem including feedback and social cohesion.",
+        "Administers specialist tools for the digital and data management approach (planning, control, reporting); administers change control and issue procedures and advises the project manager of proposed or actual product changes affecting the business case; helps team managers and members apply procedures; helps maintain the project log; helps compile project plans, stage plans, work package descriptions and team plans; helps compile, disseminate and store reports (checkpoint, exception, lessons, end stage, end project); helps prepare issue reports.",
+        "Provides a baseline for plans, work package descriptions, the business case, project brief, management approaches and project initiation documentation and decides how to store and distribute them; maintains the project baseline; contributes specialist expertise; implements risk responses as risk action owner; provides administrative support for quality controls, risk controls, change management, commercial management and communication management activities; helps with onboarding and offboarding and stakeholder analysis."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Senior supplier",
+      "page": 312,
+      "points": [
+        "Represents the supplier community in all aspects of delivering the products. Accountable for the quality of products delivered by suppliers and for the technical integrity of the project.",
+        "Advises on the people aspects of supplier teams (health, safety, wellbeing); agrees product descriptions for key specialist products and the management approaches (where appropriate); agrees quality techniques and tools in product and work package descriptions and provides people and resources for supplier quality activities; approves the project product description (if appropriate); assists the project manager with project and stage plans and work package descriptions.",
+        "Accountable for the supplier business case (if applicable); commits people and supplier resources; confirms the products can be delivered within expected costs and are viable; ensures appropriate involvement of the supplier community; ensures supplier risks are identified, assessed and controlled; ensures progress towards the outcome and the plans remain consistent from the supplier perspective; implements risk responses as risk action owner; decides on escalated risks and issues focusing on the integrity of the complete solution; remains responsible for sustainability reporting from the supplier perspective."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Senior user",
+      "page": 313,
+      "points": [
+        "Represents the user community. Accountable for the approach to capturing user requirements and specifying benefits aligned to the business case. Responsible for: user buy-in; monitoring products against requirements; showing the business that forecast benefits are on track; controlling change to requirements and benefits; and successful handover and adoption of products and continued benefit realization after the project closes. Must ensure sufficient ongoing commitment from users, especially beyond the project's life.",
+        "Agrees the management approaches (where appropriate); approves the project product description and specialist product descriptions; provides user quality expectations and acceptance criteria; allocates people and resources for user quality activities and product acceptance; assists the project manager with project and stage plans and keeps them consistent with the user perspective; commits user people and resources.",
+        "Accountable for specifying the desired outcome and benefits on which the business case is approved; defines sustainability reporting requirements from the user perspective; contributes to stakeholder analysis and advises on user people aspects such as key influencers; ensures appropriate involvement of the user community; ensures progress towards the outcome is consistent from the user perspective.",
+        "Ensures user risks are identified, assessed and controlled (impact on benefits, operational use, maintenance); decides on escalated risks and issues focusing on safeguarding expected benefits; implements risk responses as risk action owner. Provides statements of actual versus forecast benefits at benefits reviews; accountable for realizing benefits and for products delivering the desired outcomes; confirms expected benefits are or can be realized; accepts the project product and is accountable for its performance."
+      ]
+    },
+    {
+      "id": "B",
+      "heading": "Team manager",
+      "page": 314,
+      "points": [
+        "Responsible for delivering the work allocated within tolerances and constraints agreed with the project manager. The project manager allocates work as work packages, in line with the commercial management approach.",
+        "Assists the project manager with product descriptions and work package descriptions and agrees work package descriptions with the project manager; advises on choice of team members, manages team members and ensures their wellbeing.",
+        "Assembles quality records for products in scope of the team plan and, where requested, advises the project manager on product quality status; manages quality controls for those products; produces products consistent with their product descriptions; prepares team plans and a schedule for each work package.",
+        "Participates in identifying, assessing and controlling risks and implements risk responses as risk action owner; implements corrective actions and the management procedures agreed in team plans; informs project support of issues, risks, lessons, completed quality activities and completed products; notifies the project manager of any forecast deviation from work package tolerances; produces checkpoint reports and remains responsible for sustainability reporting to the team."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "appb-c01", "front": "Do PRINCE2 roles equate to jobs allocated one-to-one?", "back": "No. Some roles are part-time and many can be shared or combined according to the project's needs.", "page": 308 },
+    { "id": "appb-c02", "front": "Who is accountable for the assurance of their own area of concern?", "back": "Project board members: business, user and supplier assurance.", "page": 308 },
+    { "id": "appb-c03", "front": "Who can undertake assurance tasks?", "back": "The board member themselves, someone appointed from the wider business, or an external party, depending on knowledge, skills and capacity.", "page": 308 },
+    { "id": "appb-c04", "front": "What does project assurance assure the board about?", "back": "That data, issues and risk are managed per their approaches, plan feasibility against tolerances, and impact assessment of changes on the business case and project plan.", "page": 308 },
+    { "id": "appb-c05", "front": "Which assurance duty concerns project finance?", "back": "Checking project finance on behalf of the business.", "page": 309 },
+    { "id": "appb-c06", "front": "What does the project executive's accountability include that cannot be delegated?", "back": "Ultimate accountability for the project's success; they are the single point of accountability.", "page": 309 },
+    { "id": "appb-c07", "front": "Which plans and products does the project executive approve?", "back": "Project brief, management approaches, team structure, project product description, project initiation documentation, project plan, stage plans, and exception plans when stage tolerances are forecast to be exceeded.", "page": 309 },
+    { "id": "appb-c08", "front": "What does the project executive decide about change?", "back": "Whether a project-level change budget is needed and how much, whether delegated change authority is needed, and the tolerances and change budget for each stage.", "page": 309 },
+    { "id": "appb-c09", "front": "What does the project executive secure and confirm?", "back": "Secures funding and commits people and business resources; confirms the organizational design, appointments, and project closure and acceptance of the project product.", "page": 309 },
+    { "id": "appb-c10", "front": "Which reports does the project manager produce?", "back": "Lessons, highlight, exception, end stage and end project reports.", "page": 311 },
+    { "id": "appb-c11", "front": "What does the project manager prepare?", "back": "The business case and management approaches, project plan, stage plans, work package descriptions, role descriptions, and exception plans.", "page": 310 },
+    { "id": "appb-c12", "front": "What does the project manager authorize and set?", "back": "Authorizes work packages and sets work package tolerances.", "page": 310 },
+    { "id": "appb-c13", "front": "What must the project manager produce when a stage or project tolerance is forecast to be exceeded?", "back": "An exception report for the board; then an exception plan to implement the board's decision.", "page": 311 },
+    { "id": "appb-c14", "front": "Who is responsible for project support, and who may perform it?", "back": "The project manager is responsible; it can be delegated to suppliers, individuals or groups in the business, other team members, or a project office.", "page": 311 },
+    { "id": "appb-c15", "front": "What baselines does project support maintain?", "back": "Plans, work package descriptions, business case, project brief, management approaches and project initiation documentation, and the project baseline.", "page": 311 },
+    { "id": "appb-c16", "front": "What administrative support does project support give?", "back": "Quality controls, risk controls, change management, commercial management and communication management activities, plus onboarding and offboarding.", "page": 312 },
+    { "id": "appb-c17", "front": "What is the senior supplier accountable for?", "back": "The quality of products delivered by suppliers and the technical integrity of the project.", "page": 312 },
+    { "id": "appb-c18", "front": "Which business case is the senior supplier accountable for?", "back": "The supplier business case, if applicable.", "page": 312 },
+    { "id": "appb-c19", "front": "What does the senior supplier focus on when deciding escalated issues and risks?", "back": "Safeguarding the integrity of the complete solution.", "page": 312 },
+    { "id": "appb-c20", "front": "What is the senior user accountable for?", "back": "The approach to capturing user requirements and specifying benefits aligned to the business case; specifying the desired outcome and benefits; realizing benefits; and accepting the project product.", "page": 313 },
+    { "id": "appb-c21", "front": "What does the senior user focus on when deciding escalated issues and risks?", "back": "Safeguarding the expected benefits.", "page": 313 },
+    { "id": "appb-c22", "front": "What benefits statements does the senior user provide?", "back": "Actual benefit achievements versus forecast benefits at benefits reviews.", "page": 313 },
+    { "id": "appb-c23", "front": "Who is responsible for delivering work allocated through work packages?", "back": "The team manager, within tolerances and constraints agreed with the project manager.", "page": 314 },
+    { "id": "appb-c24", "front": "What reports does the team manager produce?", "back": "Checkpoint reports; they also prepare team plans and a schedule for each work package.", "page": 314 },
+    { "id": "appb-c25", "front": "When must the team manager notify the project manager?", "back": "Of any forecast deviation from work package tolerances.", "page": 314 },
+    { "id": "appb-c26", "front": "Which roles implement risk responses as a risk action owner?", "back": "All roles, for risks assigned to them.", "page": 309 }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "set": "ch13",
+  "title": "Starting up a project",
+  "pages": "pp.220-227",
+  "overview": "Starting up a project asks: do we have a viable and worthwhile project? It is a light process that happens before the decision to initiate. Know its seven objectives, the eight activities and their order, who does what in each, and the inputs and outputs (project mandate in; project brief, outline business case, initiation stage plan and project initiation request out).",
+  "sections": [
+    {
+      "id": "13.1",
+      "heading": "Purpose",
+      "page": 220,
+      "points": [
+        "Ensure the prerequisites for initiating a project are established by answering: do we have a viable and worthwhile project?",
+        "The decision to start must be explicit because the activities happen before it. Nothing should be done until the fundamental information for rational commissioning decisions is defined, key roles are resourced and allocated, and a foundation for detailed planning exists.",
+        "It is as much about preventing poorly conceived ideas from being initiated as progressing viable ones. It is a lighter process than initiating a project: do the minimum necessary to decide whether it is worthwhile even to initiate."
+      ]
+    },
+    {
+      "id": "13.2",
+      "heading": "Objectives",
+      "page": 220,
+      "points": [
+        "Business justification for initiating exists (an outline business case).",
+        "All necessary authorities exist for initiating (for example to assign people and secure resources).",
+        "Enough information exists to define and confirm the scope (the project brief).",
+        "Alternative approaches have been evaluated and the chosen project approach agreed.",
+        "Individuals are appointed for the initiation stage work or significant project management roles.",
+        "The initiation stage work is planned (a stage plan).",
+        "Time is not wasted initiating a project built on unsound assumptions about scope, timescales, acceptance criteria or constraints."
+      ]
+    },
+    {
+      "id": "13.3",
+      "heading": "Context",
+      "page": 221,
+      "points": [
+        "Figure 13.1 flow: the project mandate triggers the process; activities are appoint the executive and project manager, assess previous lessons, prepare the outline business case, appoint the project management team, select the project approach, assemble the project brief, plan the initiation stage and request project initiation, which is the project initiation request to directing a project.",
+        "The trigger is the project mandate, from the responsible authority in the business that is commissioning the project (for example an executive group, a functional or operational unit, a programme, a portfolio or a customer). The responsible authority sits outside the project, in the business layer.",
+        "Project mandate applies to whatever information triggers the project (a feasibility study, a request for proposal for a supplier). It should provide the terms of reference and enough information to identify at least the prospective project executive. It is refined into the project brief.",
+        "The board needs enough information to decide to initiate, which is why the brief is prepared.",
+        "Effort varies. If the project is part of a programme, the programme team should provide the brief and appoint some or all board members, removing much of the work; the project manager validates what is provided and recommends changes.",
+        "Preparing the outline business case and assembling the project brief are parallel, iterative activities needing frequent consultation among the project manager, board members and stakeholders. The more time spent capturing requirements now, the more is saved in initiation and delivery by avoiding issues, exceptions and replanning.",
+        "Table 13.1: inputs are the project mandate (triggers the process) and previous lessons reports (review). Outputs: daily log (create), lessons log (create), project product description (create), outline business case (create), project brief (create), stage plan for the initiation stage (create) and the project initiation request, which triggers directing a project."
+      ]
+    },
+    {
+      "id": "13.4.1",
+      "heading": "Appoint the project executive and project manager",
+      "page": 222,
+      "points": [
+        "A decision-maker with authority (the project executive), representing the business, is needed and is a prerequisite to ensuring the project is justified. A project manager manages day to day on behalf of the executive; the executive may need to consult and gain agreement from the business.",
+        "Actions: the business reviews the project mandate, checks understanding and clarifies ambiguities; the business identifies, selects and appoints the project executive; the project executive identifies, selects and appoints the project manager; the project manager creates the daily log as a repository for project information."
+      ]
+    },
+    {
+      "id": "13.4.2",
+      "heading": "Assess previous lessons",
+      "page": 223,
+      "points": [
+        "Lessons may come from other projects in the business and external organizations, covering processes, procedures, techniques and tools. They can influence the team design, outline business case, brief contents and initiation stage plan.",
+        "A workshop can capture them, including interested parties and people from similar projects; if the business has not done this type of project, include external people with the experience.",
+        "Actions for the project manager: review lessons of similar projects (including audits and project reviews); consult those with experience; if appropriate create the lessons log and record lessons and actions."
+      ]
+    },
+    {
+      "id": "13.4.3",
+      "heading": "Prepare the outline business case",
+      "page": 223,
+      "points": [
+        "Likely only a high-level view at this time. It is the agreed foundation for the detailed business case developed in initiating a project.",
+        "Actions: the project executive develops the outline business case per the project mandate and current knowledge, in consultation with the senior user if appointed, understanding the contribution to business objectives; the project manager consults the senior user, senior supplier and executive to define what the project delivers and creates the project product description; review risks captured in the daily log and summarize the key risks affecting viability in the outline business case."
+      ]
+    },
+    {
+      "id": "13.4.4",
+      "heading": "Appoint the project management team",
+      "page": 223,
+      "points": [
+        "The team needs authority, responsibility and knowledge to decide promptly, reflecting business, user and supplier interests, and able to work together as a high-performing team. Everyone must understand and agree who is accountable to whom for what, who is responsible for what, and the reporting and communication lines.",
+        "Actions: the project manager reviews the lessons log, designs the team structure and prepares role descriptions; the project executive, in consultation with the senior user and project manager, identifies, selects and appoints the team; the project manager agrees working practices and communication for the initiation stage and adds any identified risks to the project log."
+      ]
+    },
+    {
+      "id": "13.4.5",
+      "heading": "Select the project approach",
+      "page": 224,
+      "points": [
+        "Before planning, ask: in-house or contracted to third parties (the delivery model)? A modification of an existing product or built from scratch? Commercial off-the-shelf (COTS) or custom designed? Which delivery method (incremental with agile, or linear-sequential)? How will the approach support sustainability expectations?",
+        "The approach depends on user or supplier standards, practices and guidelines. Capture them in the project brief as part of the project approach, since they influence the management approaches created in initiating a project and ensure the user and supplier understand the approach.",
+        "Actions for the project manager: evaluate possible delivery solutions and decide the approach for delivering the project product and achieving the outline business case; define any tailoring requirements if known; record new issues or risks in the project log."
+      ]
+    },
+    {
+      "id": "13.4.6",
+      "heading": "Assemble the project brief",
+      "page": 224,
+      "points": [
+        "An agreed project brief gives a commonly understood, well-defined starting point.",
+        "Actions for the project manager: confirm current status (background and preparation work); confirm objectives and desired outcomes; confirm scope, exclusions and project tolerances; identify constraints and assumptions; identify the user and other known interested parties; review the team structure and role descriptions for extra roles or skills and prepare additional role descriptions; identify dependencies with other projects or activities; document it all in the project brief; record new issues or risks in the project log."
+      ]
+    },
+    {
+      "id": "13.4.7",
+      "heading": "Plan the initiation stage",
+      "page": 225,
+      "points": [
+        "Initiation takes time and resources, so plan and approve it so it is not aimless. In a programme, check the initiation stage end date against the programme plans; the stage plan also warns the programme team of requirements from it.",
+        "Consider how PRINCE2 processes apply during initiation; for example controlling a stage and managing product delivery may be used during initiating a project.",
+        "Actions for the project manager: decide suitable management controls for initiation activities based on the approach; identify time and cost constraints and produce the initiation stage plan (per Chapter 7); review risks in the project log, assess their impact on the stage plan and update the log."
+      ]
+    },
+    {
+      "id": "13.4.8",
+      "heading": "Request project initiation",
+      "page": 225,
+      "points": [
+        "To finish, the project manager contacts the board to request project initiation, presenting the formal justification in the outline business case and project brief.",
+        "Actions: brief the board on the outline business case, project product, project approach, team appointments, and initiation stage activities and controls; formally request authority to initiate the project to secure the people and resources required."
+      ]
+    },
+    {
+      "id": "13.5.1",
+      "heading": "General considerations",
+      "page": 225,
+      "points": [
+        "Activities may be combined, split or run concurrently, but keep the integrity of the connection with directing a project when the request to initiate is submitted.",
+        "At this point it may not be clear what output will be created; it should at least be clear what business problem is to be solved or what outcome is required.",
+        "Consider co-creating the outline business case, project brief and initiation stage plan with prospective users and stakeholders to increase understanding and buy-in."
+      ]
+    },
+    {
+      "id": "13.5.2",
+      "heading": "Tailoring roles in starting up a project",
+      "page": 226,
+      "points": [
+        "Appoint the project manager as early as possible. If appointed later, the management products may be created by the project executive or anyone they appoint.",
+        "The executive does not have to create the outline business case personally but may have another person do it. The single point of accountability for each role's duty should be maintained."
+      ]
+    },
+    {
+      "id": "13.6",
+      "heading": "Responsibilities",
+      "page": 226,
+      "points": [
+        "Table 13.2 RACI: the business layer is accountable for appointing the project executive and project manager and responsible for appointing the executive; the project executive is responsible for appointing the project manager.",
+        "Assess previous lessons: executive accountable, project manager responsible. Prepare the outline business case: executive accountable and responsible, senior user and senior supplier consulted (if/when appointed), project manager responsible per the table. Appoint the project management team: executive accountable, project manager responsible.",
+        "Select the project approach, assemble the project brief, plan the initiation stage and request project initiation: the executive is accountable and the project manager responsible, with senior user and senior supplier consulted; team managers, if identified, are consulted on the approach and informed of the initiation stage plan; project assurance is consulted."
+      ]
+    },
+    {
+      "id": "13.7",
+      "heading": "Application of the practices to this process",
+      "page": 227,
+      "points": [
+        "Business case: developed in outline and forms part of the project brief, from the project mandate, lessons and consulting the business and prospective users.",
+        "Organizing: the business appoints the executive and project manager, who decide the team structure needed and appoint people to the roles needed to initiate.",
+        "Plans: known key milestones go in the project brief; the executive and project manager develop the project approach, which later informs the delivery method and project plan, and may record the number of stages; the project manager prepares the initiation stage plan with products, work, timescales and costs.",
+        "Quality: user's quality expectations and known standards go in the project product description and are refined after this process through individual product descriptions.",
+        "Risk and issues: high-level risks and issues are captured in the brief. Progress: any known project tolerances go in the brief and are refined and approved later; initiation stage tolerances go in the stage plan for approval."
+      ]
+    }
+  ],
+  "terms": [],
+  "cards": [
+    { "id": "ch13-c01", "front": "What question does starting up a project answer?", "back": "Do we have a viable and worthwhile project?", "page": 220 },
+    { "id": "ch13-c02", "front": "Is starting up a project a heavy or light process, and why?", "back": "Light. It does the minimum necessary to decide whether it is worthwhile to initiate, preventing poorly conceived ideas from being initiated.", "page": 220 },
+    { "id": "ch13-c03", "front": "Does the decision to start happen before or after this process?", "back": "After. The activities happen before the explicit decision to initiate.", "page": 220 },
+    { "id": "ch13-c04", "front": "Where is the business justification documented in this process?", "back": "In the outline business case.", "page": 220 },
+    { "id": "ch13-c05", "front": "Which product defines and confirms the scope here?", "back": "The project brief.", "page": 220 },
+    { "id": "ch13-c06", "front": "Which product plans the initiation stage?", "back": "The stage plan for the initiation stage.", "page": 220 },
+    { "id": "ch13-c07", "front": "What triggers starting up a project?", "back": "The project mandate, from the responsible authority in the business layer.", "page": 221 },
+    { "id": "ch13-c08", "front": "What should the project mandate contain at least?", "back": "Terms of reference and enough information to identify at least the prospective project executive.", "page": 221 },
+    { "id": "ch13-c09", "front": "How does being in a programme affect starting up?", "back": "The programme team should provide the brief and appoint some or all board members; the project manager validates it and recommends changes.", "page": 222 },
+    { "id": "ch13-c10", "front": "Eight activities of starting up a project?", "back": "Appoint executive and project manager; assess previous lessons; prepare outline business case; appoint project management team; select project approach; assemble project brief; plan initiation stage; request project initiation.", "page": 221 },
+    { "id": "ch13-c11", "front": "Outputs created in starting up a project?", "back": "Daily log, lessons log, project product description, outline business case, project brief, initiation stage plan, and the project initiation request.", "page": 222 },
+    { "id": "ch13-c12", "front": "Who appoints the project executive, and who appoints the project manager?", "back": "The business appoints the project executive; the project executive appoints the project manager.", "page": 222 },
+    { "id": "ch13-c13", "front": "Which management product does the project manager create first, as a repository?", "back": "The daily log.", "page": 222 },
+    { "id": "ch13-c14", "front": "Who develops the outline business case?", "back": "The project executive, in consultation with the senior user if appointed.", "page": 223 },
+    { "id": "ch13-c15", "front": "Who creates the project product description in this process?", "back": "The project manager, consulting the senior user, senior supplier and executive.", "page": 223 },
+    { "id": "ch13-c16", "front": "Who appoints the project management team?", "back": "The project executive, in consultation with the senior user and project manager. The project manager designs the structure and prepares role descriptions.", "page": 224 },
+    { "id": "ch13-c17", "front": "Questions raised when selecting the project approach?", "back": "In-house or contracted (delivery model); modify or build from scratch; COTS or custom; delivery method; how to support sustainability.", "page": 224 },
+    { "id": "ch13-c18", "front": "Where are user and supplier standards for the approach captured?", "back": "In the project brief, as part of the project approach.", "page": 224 },
+    { "id": "ch13-c19", "front": "What does the project brief confirm?", "back": "Status and background, objectives and outcomes, scope, exclusions and tolerances, constraints and assumptions, users and interested parties, team structure and dependencies.", "page": 224 },
+    { "id": "ch13-c20", "front": "What is checked when planning the initiation stage in a programme?", "back": "The end date for the initiation stage against the date in the programme's plans.", "page": 225 },
+    { "id": "ch13-c21", "front": "What does the project manager do to finish starting up?", "back": "Briefs the board and formally requests authority to initiate the project, securing people and resources.", "page": 225 },
+    { "id": "ch13-c22", "front": "Which output triggers directing a project?", "back": "The project initiation request.", "page": 222 },
+    { "id": "ch13-c23", "front": "Who is accountable for appointing the executive and project manager in the RACI?", "back": "The business layer.", "page": 226 },
+    { "id": "ch13-c24", "front": "What if the project manager is appointed late?", "back": "The management products may be created by the project executive or anyone appointed by them. Keep the single point of accountability.", "page": 226 },
+    { "id": "ch13-c25", "front": "What goes into the project brief about risks, issues and tolerances?", "back": "High-level risks and issues, and any known project tolerances.", "page": 227 }
+  ]
+}

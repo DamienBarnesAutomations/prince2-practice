@@ -1,0 +1,291 @@
+{
+  "set": "ch10",
+  "title": "Issues",
+  "pages": "pp.168-183",
+  "overview": "The issues practice answers What now? It collects and assesses issues and controls changes to the project baseline. Know the five issue types, request for change versus off-specification (and concession), who may approve changes, the change budget, the five-step technique (capture, assess, recommend, decide, implement) and the three management products.",
+  "sections": [
+    {
+      "id": "10.1",
+      "heading": "Purpose",
+      "page": 168,
+      "keyMessage": "Collect and assess issues and control changes to the project's baseline.",
+      "points": [
+        "Projects sit in constant organizational and environmental change; the larger and longer the project, the more likely it must respond to issues and changes.",
+        "Issue management is at the heart of monitoring. A project cannot respond to its context if any team member filters or censors issues.",
+        "Issue: an event relevant to the project that requires project management consideration. Anyone, team member or stakeholder, can raise one at any time and it is captured in the project log.",
+        "Issue management includes change control. Change: a modification to any of the approved products that make up the project baseline.",
+        "Changes are not incorporated into the baseline until approved by the individual or role with the appropriate delegated authority. Project baseline: the current approved versions of the management products and project products subject to change control.",
+        "Do not judge issues before they are assessed. Change is not something to avoid: all projects meet change and must handle it in a responsive but controlled way."
+      ]
+    },
+    {
+      "id": "10.2",
+      "heading": "Guidance for effective issue management",
+      "page": 169,
+      "points": [
+        "The issue management approach comprises: baselines (what is subject to change control); issue resolution (how issues are identified, captured, assessed and recommended for resolution); change control (how changes to the baseline are controlled); delegating authority for changes (from the board down, for a responsive but controlled approach); change budget (money set aside in a plan to cover changes)."
+      ]
+    },
+    {
+      "id": "10.2.1",
+      "heading": "Baselines",
+      "page": 169,
+      "points": [
+        "Change can only be assessed against the project as understood and approved by the board. At any time each product is in preparation, in development or approved, and always under change control.",
+        "A prerequisite is a way to baseline products so changes can be analysed and controlled. A new version is created each time a change is approved and implemented, so changes can be traced to a decision by the appropriate authority.",
+        "The approach is driven by the products to deliver (the what) and the delivery activities (the how), so it usually follows the product descriptions and work package descriptions.",
+        "The team must decide: the level at which products are baselined (generally by dividing products until a component can be independently released, installed, replaced or modified; control level reflects importance and complexity); how products and versions are identified (usually a unique identifier system); what product information is kept in the project log (versions, status, relationships); the authorities needed to approve and baseline; and the procedure for capturing and managing issues and changes.",
+        "Good practice: periodically verify that the actual status of products matches their authorized state, through reviews or audits, typically at the end of each stage and of the project.",
+        "Baselines may be managed in varied systems (documents with version and approval date; dedicated systems for specialist products). Each must prevent unapproved changes and give an audit trail. The product register in the project log records approval and implementation of all baseline changes."
+      ]
+    },
+    {
+      "id": "10.2.2",
+      "heading": "Issue resolution",
+      "page": 170,
+      "points": [
+        "Categorize every issue as one of five types: a problem or concern; an event external to the project; a business opportunity; a request for change; off-specification. This helps assessment and shows repeated types that may signal another aspect of management is failing.",
+        "When categorizing, check whether the issue is really a risk. Risks are uncertain; if so, move it to the risk register and follow the risk procedure. Likewise check whether the risk register holds entries that are not uncertain and should be managed as issues.",
+        "Problem: an issue with an immediate and negative impact. Concern: an issue whose timeliness and impact need to be assessed. Issues are often first raised informally.",
+        "Handling problems and concerns is a matter of judgement. Recording too many floods the team with trivia; but do not filter or prejudge. Identify issues early, when they can generally be resolved within tolerance.",
+        "An external event (a supplier going out of business) is outside project control but may force analysis of impacts and a new supplier; monitor the external environment regularly.",
+        "Business opportunity: an issue representing unanticipated positive consequences for the project or user organization (savings, new equipment). Consequences may extend beyond the project, so seek the board's advice when assessing.",
+        "Record issues in the issue register. Some need only the register entry; others need more analysis and an issue report, which identifies the type, assesses impact on the baseline and recommends resolution. Decisions and actions are recorded in the register. If the issue or its resolution changes the baseline, use change control.",
+        "Scenario (LouisShopping): an incomplete water tank installation was off-specification, so handled formally in the issue register; a broken project printer was an informal issue added to the daily log."
+      ]
+    },
+    {
+      "id": "10.2.3",
+      "heading": "Change control",
+      "page": 172,
+      "points": [
+        "Change control: the process by which changes that may affect the project baseline are identified, assessed and then approved, rejected or deferred.",
+        "Request for change: a proposal for a change to a baseline. Off-specification: a product that will not meet its quality specifications. Concession: an off-specification accepted by the board without corrective action.",
+        "The issue management approach describes the change control procedure, including how proposals are recorded and decided. Proposals to change the baseline are a request for change or an off-specification.",
+        "A request for change must identify the management products proposed for change and justify the change. If it costs money, the funding source must be identified: the approved change budget or additional funding.",
+        "Off-specifications most often arise when a supplier fails to deliver a product fully complying with its specification, or when a specification proves unachievable. Either way there is a discrepancy between the approved baseline and the delivered products that goes through change control.",
+        "If accepted, the baseline is changed to reflect the affected product description. Accepted off-specifications are concessions and need board approval or approval by those with delegated change authority. If rejected, the team manager, with the project manager, works out how to correct it, possibly using the change budget or raising an exception report.",
+        "If an issue needs a request for change or off-specification, the issue report includes the proposed change details."
+      ]
+    },
+    {
+      "id": "10.2.4",
+      "heading": "Delegating authority for changes",
+      "page": 173,
+      "points": [
+        "The board is the ultimate authority for approving requests for change and off-specifications but may delegate. It is a balance of efficiency and control: too little delegation slows progress and burdens the board; too much, spread over too many roles, dilutes alignment with business justification and risks the benefits.",
+        "With few changes expected the board may keep the authority; with many, it may delegate some decisions.",
+        "Most changes arise at work package level, so delegated authority must be enough for those. Larger projects may delegate change authority to several levels of the team, based on parameters in the issue management approach."
+      ]
+    },
+    {
+      "id": "10.2.5",
+      "heading": "Change budget",
+      "page": 173,
+      "points": [
+        "Change budget: the money or authorized constraints set aside in a plan to cover changes, allocated by those with delegated authority to deliver authorized changes.",
+        "The project manager ensures delegated authority comes with an appropriate change budget. It is usually money earmarked for changes but can be a set of authorized constraints for trade-offs (for example in-person training may be replaced by virtual training if the same number of people are trained in time)."
+      ]
+    },
+    {
+      "id": "10.3.1",
+      "heading": "The issue management technique",
+      "page": 173,
+      "points": [
+        "Five steps: capturing issues, assessing issues, recommending changes, deciding on changes, implementing changes (Figure 10.1). An alternative procedure (for example a programme-wide one) may be used and documented as tailoring.",
+        "Figure 10.1: Capture (determine issue type, determine severity and priority, register the issue, escalate if beyond delegated authority); Assess (check severity and priority, assess impact on the business case and risk profile); Recommend (identify, evaluate and recommend options); Decide (project board or change approval authority approves, rejects, asks for an exception plan, requests more information); Implement (take corrective action, update records and baseline if necessary). The issue register in the project log supports it, with requests for advice and exception reports to the board."
+      ]
+    },
+    {
+      "id": "10.3.1.1",
+      "heading": "Capturing issues",
+      "page": 174,
+      "points": [
+        "Issues can come through any formal or informal channel. The project manager makes translating them into issue reports efficient with minimal administration. Review new and open issues at all reviews, from status meetings to stage boundary reviews.",
+        "Scenario (Findef): a broken backup disk was a problem handled immediately and recorded in the daily log; a board request to change the logotype was a simple change request within the project manager's tolerance but still handled formally in the issue register."
+      ]
+    },
+    {
+      "id": "10.3.1.2",
+      "heading": "Assessing issues",
+      "page": 175,
+      "points": [
+        "Three questions: what type of issue is it? Does it affect the project? If so, how?",
+        "Many issues need no extensive assessment. The first question may need answering in the context of tolerances and priorities: a project with tight tolerances may restrict the issues it considers; some are only informational (a working hours change with no effect on delivery).",
+        "Major issues or potential baseline changes need integrated assessment against the overall project plan, since the seven tolerance types are interrelated. Consider the impact on approved targets and tolerances, the business case and other products or work packages.",
+        "Where possible offer the board more than one way to respond, with trade-offs (better performance for later delivery). Not every issue needs a change; rejecting it and doing nothing can be valid.",
+        "Assess cooperatively, gathering ideas from team members and stakeholders, especially when impacts and options lie outside the project. It may help to ask the board's advice on priority or severity before completing the assessment."
+      ]
+    },
+    {
+      "id": "10.3.1.3",
+      "heading": "Recommending resolution",
+      "page": 175,
+      "points": [
+        "Recommend to the person or group with authority. Whether recommending approval or rejection, make the consequences of both choices clear.",
+        "Figure 10.2: consequences of the recommended option, weighing the advantage gained (reduced cost, time or risk; more benefits; improved quality or scope) against the impact of implementation (cost and duration of the option, and its risk)."
+      ]
+    },
+    {
+      "id": "10.3.1.4",
+      "heading": "Deciding on changes",
+      "page": 176,
+      "points": [
+        "Request for change, approve: cost can be funded from the change budget, by reducing scope elsewhere or by requesting additional funds. Reject: consider whether justification and expected benefits are still met without the change. Ask for an exception plan: may be appropriate if the problem comes from overly stringent quality specifications or acceptance criteria and could be solved by changing approved tolerances. Request more information: effectively defers the decision, suitable when impacts are complex.",
+        "Off-specification, accept: consider the impact on business justification and expected benefits; update the baseline and note it as a concession. Reject: resolve via the change budget, an exception plan, or a contractual remedy if a supplier is responsible."
+      ]
+    },
+    {
+      "id": "10.3.1.5",
+      "heading": "Implementing changes",
+      "page": 176,
+      "points": [
+        "Record approved requests for change and off-specifications in the project log and reflect them in the affected management products.",
+        "Baselines may use different systems, but each should support configuration control: a record of changes and an archive of superseded versions."
+      ]
+    },
+    {
+      "id": "10.3.2",
+      "heading": "Supporting techniques",
+      "page": 177,
+      "points": [
+        "Root cause analysis: deconstructs a problem into contributing causes to separate primary causes from secondary or derivative ones.",
+        "Pareto analysis: collects possible causes and identifies the most likely using the 80/20 rule (80 per cent of outcomes result from 20 per cent of causes). Useful when there are many causes and no obvious source.",
+        "Cause and effect analysis: sorts possible causes into categories diverging from the problem to find the most significant factors, sometimes done with a fishbone or Ishikawa diagram.",
+        "Failure mode analysis: step-by-step identification of all possible failures in a product or process and their consequences; usually needs an interim (prototype) or final product to exist.",
+        "Five whys: a series of questions, each answer becoming the basis of the next why, to investigate layers of a problem; simple, useful when detailed statistics are unavailable.",
+        "Apply systematically, typically as a team effort."
+      ]
+    },
+    {
+      "id": "10.4.1",
+      "heading": "Organizational context",
+      "page": 177,
+      "points": [
+        "Find organizational or external policies, standards and procedures to build into the project's issue management approach.",
+        "In a programme or portfolio, the project may have to use its policies, a common issue management capability and change control systems, and follow its rules on how issues are assessed and which are raised to its level."
+      ]
+    },
+    {
+      "id": "10.4.2",
+      "heading": "Commercial context",
+      "page": 177,
+      "points": [
+        "The project may have to adopt change control procedures defined in the contract. Suppliers often have their own issue approach and change control system. If a supplier must take part in the project's approach, use its issue register or tools, and say so in the contract or agreement.",
+        "Scenario (LouisShopping): the contractor completed the water tank installation and absorbed the cost, and the board agreed the extra time without penalties, a collaborative resolution of the off-specification."
+      ]
+    },
+    {
+      "id": "10.4.3",
+      "heading": "Delivery method",
+      "page": 178,
+      "points": [
+        "Linear-sequential: assumes the number and size of changes fall as the lifecycle progresses, because changes are easier and cheaper early. The approach may tailor tolerances to allow flexibility in early stages (design) and tighten them later (construction), with a larger share of the change budget available later given the cost of even minor changes.",
+        "Scenario: assessing the incomplete tank quickly showed a two-week-plus delay to the overall project, and prompt escalation let the board release funding; slow assessment would have caused a domino effect of delay and cost.",
+        "Iterative-incremental: issue management and change control are intrinsic; frequent review and short cycles raise and resolve issues quickly so the scope baseline (the product backlog) evolves in line with requirements. If the whole project is iterative, the project manager may only need to ensure issues are consistently captured, assessed and decided with traceability to the project product description.",
+        "Otherwise the board may keep change authority over management products while delegating authority over features and functionality of specialist products to teams working in a framework such as PRINCE2 Agile. The approach may include trading or swapping features to stay within tolerance. Agile allows change late in development to match user expectations with the most value."
+      ]
+    },
+    {
+      "id": "10.4.4",
+      "heading": "Sustainability",
+      "page": 179,
+      "points": [
+        "Sustainability can be a source of significant issues and changes from outside the project, particularly regulation and supplier capabilities. If environmental impact is a major aspect, someone on the team should be tasked with monitoring external sources of potential issues and changes."
+      ]
+    },
+    {
+      "id": "10.4.5",
+      "heading": "Scale",
+      "page": 179,
+      "points": [
+        "Consider: scale and number or diversity of stakeholders (small: manage alone; large: dedicated support); the products and the uncertainty or volatility in their specifications (mature, well-understood: fewer issues; novel or complex: significant effort); the characteristics of the change control tools and data (software projects may have one integrated tool); and the sensitivity of issues and the baseline (strong control over access to the issue register where dis-benefits may be perceived as negative).",
+        "Scenario: NowByou captured issues on a slide discussed weekly; Findef used a change control approach document, an issue register in its project system, automatic notifications to the board, expert-assessed change requests and updates to the product register."
+      ]
+    },
+    {
+      "id": "10.5",
+      "heading": "Management products",
+      "page": 180,
+      "points": [
+        "Issue management approach (part of the project initiation documentation): describes how issues are captured and reported and how baseline changes are assessed and controlled. Content: scope; project baseline elements; issue reporting and resolution procedure; change control procedure; change budget; timing of formal issue management activities; responsibilities (including delegation of change authority); supporting tools or systems; standards (such as grading for priority and severity, and the format of the issue register); references.",
+        "Issue register (part of the project log): logs all issue reports raised, their current status and closure date. Content: issue identifier; issue description; issue type (problem, concern, external event, business opportunity, request for change, off-specification); grading (priority and severity); issue owner; decision; status (such as logged, reviewed, actioned, escalated, resolved); relevant dates; records.",
+        "Issue report: describes the issue's impacts on the baseline, identifies ways to resolve it or address off-specification and recommends a decision. Content: unique identifier; product identifier(s); date raised; type; grading; description (source, cause, impact); impact analysis; options; recommendation (by project or team manager); decision."
+      ]
+    },
+    {
+      "id": "10.6",
+      "heading": "Focus of key roles",
+      "page": 182,
+      "points": [
+        "Business layer: provides policies, standards and procedures for issue management and change control; approves the project-level change budget (if used); responds to requests for advice and escalated issues from the executive.",
+        "Project executive: decides if a project-level change budget is needed and its size; sets the stage-level change budget; decides if and where delegated authority to approve changes is needed; approves the issue management approach and sets the scale for severity and priority; responds to requests for advice and decides on escalated issues, focusing on continued justification.",
+        "Senior user: responds to advice requests and decides on escalated issues, focusing on safeguarding benefits; agrees the approach. Senior supplier: the same, focusing on the integrity of the complete solution.",
+        "Project manager: consults stakeholders to prepare the approach, agreeing the level to which products are baselined; manages issue and change procedures, assisted by project support; ensures team managers follow them; maintains the issue register; implements corrective actions. Team manager: implements the procedures in the work package description and corrective actions.",
+        "Project assurance: advises on and confirms compliance of the approach, advises on assessing and resolving issues, reviews issue and exception reports when asked, and assures board members. Project support: administers change control and issue procedures by maintaining the issue register and project baseline and helping prepare issue reports."
+      ]
+    },
+    {
+      "id": "10.7",
+      "heading": "Key relationships with principles",
+      "page": 183,
+      "points": [
+        "Continued business justification: issues and changes assessed for impact on the business case. Learn from experience: issue management captures lessons and uses them to inform responses. Define roles: clear accountability for issue management and baseline changes.",
+        "Manage by stages: issues and changes identified and reviewed within stages and at boundaries. Manage by exception: authority and procedure for issue management so the project manager manages within delegated authority. Focus on products: issues and changes linked to the baseline for traceability. Tailor: only the change control appropriate to importance, complexity, delivery method and product characteristics."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Issue", "definition": "An event relevant to the project that requires project management consideration.", "page": 168 },
+    { "term": "Change", "definition": "A modification to any of the approved products that constitute the project baseline.", "page": 168 },
+    { "term": "Project baseline", "definition": "The current approved versions of the management products and project products that are subject to change control.", "page": 169 },
+    { "term": "Problem", "definition": "An issue with an immediate and negative impact.", "page": 170 },
+    { "term": "Concern", "definition": "An issue whose timeliness and impact need to be assessed.", "page": 170 },
+    { "term": "Business opportunity", "definition": "An issue that represents unanticipated positive consequences for the project or user organization.", "page": 171 },
+    { "term": "Change control", "definition": "The process by which changes that may affect the project baseline are identified, assessed, and then approved, rejected or deferred.", "page": 172 },
+    { "term": "Request for change", "definition": "A proposal for a change to a baseline.", "page": 172 },
+    { "term": "Off-specification", "definition": "A product that will not meet its quality specifications.", "page": 172 },
+    { "term": "Concession", "definition": "An off-specification that is accepted by the project board without corrective action.", "page": 172 },
+    { "term": "Change budget", "definition": "The money or authorized constraints set aside in a plan to cover changes. Allocated by those with delegated authority to deliver authorized changes.", "page": 173 }
+  ],
+  "cards": [
+    { "id": "ch10-c01", "front": "Purpose of the issues practice, and which question does it answer?", "back": "To collect and assess issues and control changes to the project's baseline. It answers What now?", "page": 168 },
+    { "id": "ch10-c02", "front": "Define issue.", "back": "An event relevant to the project that requires project management consideration.", "page": 168 },
+    { "id": "ch10-c03", "front": "Define change and project baseline.", "back": "Change: a modification to any approved product in the baseline. Baseline: the current approved versions of management and project products under change control.", "page": 168 },
+    { "id": "ch10-c04", "front": "Who can raise an issue?", "back": "Any team member or stakeholder, at any time.", "page": 168 },
+    { "id": "ch10-c05", "front": "When is a change incorporated into the baseline?", "back": "Only once approved by the individual or role delegated with the appropriate authority.", "page": 169 },
+    { "id": "ch10-c06", "front": "Elements of the issue management approach?", "back": "Baselines, issue resolution, change control, delegating authority for changes, change budget.", "page": 169 },
+    { "id": "ch10-c07", "front": "At what level are products baselined?", "back": "The level at which a component can be independently released, installed, replaced or modified.", "page": 169 },
+    { "id": "ch10-c08", "front": "When should the actual status of products be verified against authorized state?", "back": "Periodically through reviews or audits, typically at the end of each stage and at the end of the project.", "page": 170 },
+    { "id": "ch10-c09", "front": "The five types of issue?", "back": "A problem or concern; an event external to the project; a business opportunity; a request for change; off-specification.", "page": 170 },
+    { "id": "ch10-c10", "front": "Problem versus concern?", "back": "A problem has an immediate, negative impact. A concern's timeliness and impact need to be assessed.", "page": 170 },
+    { "id": "ch10-c11", "front": "Issue versus risk?", "back": "Risks are uncertain. If a supposed issue is uncertain it belongs in the risk register; if a risk is not uncertain it should be managed as an issue.", "page": 170 },
+    { "id": "ch10-c12", "front": "Define business opportunity as an issue type.", "back": "An issue representing unanticipated positive consequences for the project or user organization.", "page": 171 },
+    { "id": "ch10-c13", "front": "Where are issues recorded, and what is an issue report for?", "back": "In the issue register. An issue report is created for issues needing more analysis: it identifies the type, assesses impact on the baseline and recommends resolution.", "page": 171 },
+    { "id": "ch10-c14", "front": "Define change control.", "back": "The process by which changes that may affect the baseline are identified, assessed and then approved, rejected or deferred.", "page": 172 },
+    { "id": "ch10-c15", "front": "Request for change versus off-specification?", "back": "A request for change is a proposal to change a baseline. An off-specification is a product that will not meet its quality specifications.", "page": 172 },
+    { "id": "ch10-c16", "front": "Define concession.", "back": "An off-specification accepted by the project board without corrective action. It requires board approval or delegated change authority approval.", "page": 172 },
+    { "id": "ch10-c17", "front": "What must a request for change state?", "back": "The management products proposed to change, the justification, and if costed, the funding source (change budget or additional funding).", "page": 172 },
+    { "id": "ch10-c18", "front": "What if an off-specification is rejected?", "back": "The team manager and project manager explore correction, possibly using the change budget or raising an exception report.", "page": 172 },
+    { "id": "ch10-c19", "front": "Who is the ultimate authority for approving changes?", "back": "The project board, which may delegate.", "page": 173 },
+    { "id": "ch10-c20", "front": "Risks of too little and too much delegation of change authority?", "back": "Too little slows progress and burdens the board. Too much, across many roles, dilutes alignment with business justification and risks the benefits.", "page": 173 },
+    { "id": "ch10-c21", "front": "Define change budget.", "back": "The money or authorized constraints set aside in a plan to cover changes, allocated by those with delegated authority.", "page": 173 },
+    { "id": "ch10-c22", "front": "Five steps of the issue management technique?", "back": "Capture, assess, recommend, decide, implement.", "page": 173 },
+    { "id": "ch10-c23", "front": "Three questions when assessing an issue?", "back": "What type is it? Does it affect the project? If so, how?", "page": 175 },
+    { "id": "ch10-c24", "front": "What should an integrated assessment of a major issue consider?", "back": "Impact on approved targets and tolerances, the business case, and other products or work packages.", "page": 175 },
+    { "id": "ch10-c25", "front": "Is rejecting a change and doing nothing a valid response?", "back": "Yes. All issues must be assessed but not all need a change.", "page": 175 },
+    { "id": "ch10-c26", "front": "Responses to a request for change?", "back": "Approve (funded by change budget, reduced scope elsewhere, or additional funds); reject; ask for an exception plan; request more information.", "page": 176 },
+    { "id": "ch10-c27", "front": "Responses to an off-specification?", "back": "Accept (update baseline, record as concession) or reject (resolve via change budget, exception plan, or contractual remedy).", "page": 176 },
+    { "id": "ch10-c28", "front": "What is configuration control in implementing changes?", "back": "Each baseline system keeps a record of changes and an archive of superseded versions.", "page": 176 },
+    { "id": "ch10-c29", "front": "What is Pareto analysis?", "back": "Identifies the most likely causes using the 80/20 rule: 80 per cent of outcomes result from 20 per cent of causes.", "page": 177 },
+    { "id": "ch10-c30", "front": "Name problem-solving techniques for issues.", "back": "Root cause analysis, Pareto analysis, cause and effect analysis, failure mode analysis, five whys.", "page": 177 },
+    { "id": "ch10-c31", "front": "What is the five whys technique?", "back": "A series of questions, each answer the basis of the next why, to investigate successive layers of a problem.", "page": 177 },
+    { "id": "ch10-c32", "front": "Why may tolerances be looser early and tighter later in linear-sequential projects?", "back": "Changes are cheaper early (design) and costlier late (construction), so later stages tighten tolerances and make more change budget available.", "page": 178 },
+    { "id": "ch10-c33", "front": "How does iterative-incremental delivery treat change?", "back": "Issue management and change control are intrinsic. Frequent review lets the scope baseline (product backlog) evolve; features may be traded to stay within tolerance.", "page": 179 },
+    { "id": "ch10-c34", "front": "Management products of the issues practice?", "back": "Issue management approach, issue register, issue report.", "page": 180 },
+    { "id": "ch10-c35", "front": "Purpose of the issue register?", "back": "To log all issue reports raised during the lifecycle, their status and date of closure.", "page": 181 },
+    { "id": "ch10-c36", "front": "Contents of an issue report?", "back": "Unique identifier; product identifier(s); date raised; type; grading; description; impact analysis; options; recommendation; decision.", "page": 182 },
+    { "id": "ch10-c37", "front": "Who approves the project-level change budget and who sets the stage-level one?", "back": "Project level: business layer. Stage level: project executive.", "page": 182 },
+    { "id": "ch10-c38", "front": "Who maintains the issue register?", "back": "The project manager, assisted by project support, which maintains the register and project baseline.", "page": 183 }
+  ]
+}

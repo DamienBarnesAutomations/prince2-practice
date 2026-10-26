@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "note": "Page numbers are the numbers printed on the pages of the manual, not PDF page numbers (PDF page = printed page + 19).",
+  "chapters": [
+    {
+      "set": "ch01",
+      "file": "study/ch01.json"
+    },
+    {
+      "set": "ch02",
+      "file": "study/ch02.json"
+    },
+    {
+      "set": "ch03",
+      "file": "study/ch03.json"
+    },
+    {
+      "set": "ch04",
+      "file": "study/ch04.json"
+    },
+    {
+      "set": "ch05",
+      "file": "study/ch05.json"
+    },
+    {
+      "set": "ch06",
+      "file": "study/ch06.json"
+    },
+    {
+      "set": "ch07",
+      "file": "study/ch07.json"
+    },
+    {
+      "set": "ch08",
+      "file": "study/ch08.json"
+    },
+    {
+      "set": "ch09",
+      "file": "study/ch09.json"
+    },
+    {
+      "set": "ch10",
+      "file": "study/ch10.json"
+    },
+    {
+      "set": "ch11",
+      "file": "study/ch11.json"
+    },
+    {
+      "set": "ch12",
+      "file": "study/ch12.json"
+    },
+    {
+      "set": "ch13",
+      "file": "study/ch13.json"
+    },
+    {
+      "set": "ch14",
+      "file": "study/ch14.json"
+    },
+    {
+      "set": "ch15",
+      "file": "study/ch15.json"
+    },
+    {
+      "set": "ch16",
+      "file": "study/ch16.json"
+    },
+    {
+      "set": "ch17",
+      "file": "study/ch17.json"
+    },
+    {
+      "set": "ch18",
+      "file": "study/ch18.json"
+    },
+    {
+      "set": "ch19",
+      "file": "study/ch19.json"
+    },
+    {
+      "set": "appa",
+      "file": "study/appa.json"
+    },
+    {
+      "set": "appb",
+      "file": "study/appb.json"
+    }
+  ]
+}

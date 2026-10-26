@@ -1,0 +1,457 @@
+{
+  "set": "ch07",
+  "title": "Plans",
+  "pages": "pp.98-125",
+  "overview": "The plans practice answers How? How much? When? Plans give communication and control. Know the four plan types, the planning horizon, rules for stages, the product-based planning technique (nine steps ending in documenting the plan), the supporting prioritizing, scheduling and estimating techniques, and the three management products: plan, project product description and work package description.",
+  "sections": [
+    {
+      "id": "7.1",
+      "heading": "Purpose",
+      "page": 98,
+      "keyMessage": "Facilitate communication and control by defining the products to deliver (the what) and the means to deliver them (who, how, where, and estimates of when and how much) to satisfy the business case (the why).",
+      "points": [
+        "Plans integrate three perspectives: the user's expectations of products and benefits; the project management team's assessment of the most effective approach; and the business support, including funding, people and resources.",
+        "Plan: a proposal that outlines the what, where, when, how and who of the project as a whole or a subset of its activities. Types: project plan, stage plan, team plan, exception plan."
+      ]
+    },
+    {
+      "id": "7.1.1",
+      "heading": "Plans enable understanding and communication",
+      "page": 98,
+      "points": [
+        "Developing a plan lets the team understand: the why (driving requirements and expected benefits); the what (products, acceptance criteria, quality specifications); the how (delivery method and constraints); the when (sequence and estimated duration); the where (locations and facilities); the who (skills, responsibilities and organization); the how much (estimated cost of products and delivery and management activities).",
+        "It also shows risks that may arise in delivery and issues that affect the accuracy or realism of the plan.",
+        "An approved, baselined plan enables communication between the management team and stakeholders and within the team."
+      ]
+    },
+    {
+      "id": "7.1.2",
+      "heading": "Plans enable control",
+      "page": 99,
+      "points": [
+        "Plans are the backbone of the information needed to manage a project. Approved, a plan is a baseline for measuring progress and assessing issues. Without one there is no reference for scope, benefits, quality, risks, issues and progress.",
+        "The approved project plan is the agreed scope of the project; a stage plan is the scope of a stage; a team plan is the scope of a team's work. A clear view of what is and is not in scope avoids scope creep.",
+        "Scope: the sum of the product, delivery and management activities represented by an approved plan and its product descriptions and work package descriptions."
+      ]
+    },
+    {
+      "id": "7.2.1",
+      "heading": "Planning horizon",
+      "page": 99,
+      "points": [
+        "Planning is continuous because every issue must be considered for its impact on the plan. Plans always rest on estimates, which grow less certain with project length, type of products or delivery model, or a complex or dynamic environment.",
+        "Plans should cover only the period that can be planned with reasonable confidence: the planning horizon. A long horizon gives a high-level plan; a shorter one allows more detail. Beyond the horizon, uncertainty introduces risk.",
+        "Manage by stages keeps plans within reasonable horizons. A project has a high-level project plan (baseline for monitoring across the project) and a detailed stage plan for the current stage, based on more precise estimates.",
+        "Scenario (LouisShopping): an outline plan for the next two years plus a detailed plan for the current design stage. Scenario (Findef): high scope uncertainty and iterative-incremental delivery led to stages of no more than a month, giving a chance to redefine scope each time."
+      ]
+    },
+    {
+      "id": "7.2.2",
+      "heading": "Levels of plans",
+      "page": 101,
+      "points": [
+        "All PRINCE2 plans share a fundamental structure; purpose, scope and detail differ. Each should give the team confidence it is a realistic assessment of the products and work.",
+        "Figure 7.1: the project mandate and business plan or programme plan lead to the project plan; the initiation stage plan and subsequent stage plans sit below it; team plans below stage plans; exception plans are produced as necessary."
+      ]
+    },
+    {
+      "id": "7.2.2.1",
+      "heading": "Project plan",
+      "page": 101,
+      "points": [
+        "Project plan: a high-level plan showing the major products and when, how and at what cost they will be delivered.",
+        "Purpose: give the board confidence the project will fulfil its business case, and tell the team they have a viable approach within approved resources and tolerances.",
+        "It identifies the number of stages and details of stage boundaries, and proposed work packages (typically the top level of the work breakdown structure). It states whether each work package is delivered sequentially or iteratively; in iterative projects some are detailed in a later stage plan but their purpose and scope are stated in the project plan.",
+        "Created in initiating a project and baselined on board approval. Necessary changes are approved by the board in managing a stage boundary and baselined again."
+      ]
+    },
+    {
+      "id": "7.2.2.2",
+      "heading": "Stage plan",
+      "page": 102,
+      "points": [
+        "Stage plan: a detailed plan used as the basis for project management control throughout a stage. One is prepared for each stage, similar in structure to the project plan but detailed enough for day-to-day control by the project manager.",
+        "Information must trace back to the project plan. Activities or products in a stage plan that cannot be linked to a high-level project plan element are a sign of scope creep.",
+        "Each includes a product breakdown structure for the stage and a work breakdown structure showing major activities, people and resources.",
+        "The initiation stage plan is created in starting up a project. Later stage plans are prepared near the end of the current stage, so they are produced close to when work happens, cover a shorter duration (the planning horizon) and use knowledge of earlier stages' performance.",
+        "Scenario (Findef): specialists from a marketing agency joined each stage plan's development so estimates and risks were realistic."
+      ]
+    },
+    {
+      "id": "7.2.2.3",
+      "heading": "Team plan",
+      "page": 103,
+      "points": [
+        "Team plan: a plan used as the basis for organizing and controlling a team's work when executing a work package. Team plans are optional in PRINCE2.",
+        "Produced by a team manager for one or more work packages. The need depends on project size and complexity and the nature of resources; useful when the team is temporary with staff from different parts of an organization."
+      ]
+    },
+    {
+      "id": "7.2.2.4",
+      "heading": "Exception plan",
+      "page": 103,
+      "points": [
+        "Exception plan: a plan that follows an exception report and explains how the project will respond to the exception within the stage.",
+        "When a project or stage exceeds, or is forecast to exceed, tolerance the project manager raises an exception report. If the board decides to address it within the stage, the team prepares an exception plan for the directed actions.",
+        "It may be limited to remediation (such as more frequent inspections after a quality exception). If resolution requires action beyond the current stage, it must be handled by changing the project plan.",
+        "Exception plans are not required for team plans managing work package delivery."
+      ]
+    },
+    {
+      "id": "7.2.3",
+      "heading": "Stages",
+      "page": 103,
+      "points": [
+        "The project plan's goal is confidence to proceed with delivery. Managing by stages together with focus on products helps plan and deliver what is needed when it is needed.",
+        "Dividing into stages balances: the delivery method; the sequence of delivery activities; the type of people and resources; number and timing of key decision points; how much risk the project can manage; and how far ahead it is sensible to plan."
+      ]
+    },
+    {
+      "id": "7.2.3.1",
+      "heading": "The number of stages",
+      "page": 104,
+      "points": [
+        "More stages mean more control but each stage boundary costs effort, so there is a trade-off between control and management overhead.",
+        "A simple project with few well-understood products and a mature delivery method may need only two stages: an initiation stage to prepare the project initiation documentation and one delivery stage.",
+        "A larger project with complex products and mixed delivery methods needs multiple delivery stages, letting the team refine estimates in each stage plan and the board confirm justification.",
+        "In iterative-incremental projects the project plan may provide several delivery stages where quality and acceptance criteria are refined alongside development using a product backlog.",
+        "Stage boundaries may need to align with external events, such as the end of a budget year."
+      ]
+    },
+    {
+      "id": "7.2.3.2",
+      "heading": "The length of stages",
+      "page": 104,
+      "points": [
+        "Assess: the level of complexity (many dependencies suggest shorter stages); the level of risk (stage breaks let risks be reviewed before major commitment); the planning horizon (high uncertainty suggests shorter stages); appropriate decision points (critical board or business layer decisions or events); alignment with programme activities (such as the end of a tranche).",
+        "Stage length need not be uniform: design or prototyping stages may be much shorter than a build stage."
+      ]
+    },
+    {
+      "id": "7.2.3.3",
+      "heading": "Stages and work packages",
+      "page": 105,
+      "points": [
+        "PRINCE2 stages do not overlap. They partition the project with stop-go decision points, letting the team and board review progress and justification before the next stage and stay aligned with the business case.",
+        "Work packages may be grouped logically (by delivery method, specialist skills or organizational relationships), and groups may run in parallel and overlap (Figure 7.2).",
+        "Good practice is to avoid work packages that span a stage boundary, since decisions at a boundary could cause repeated work or waste in work in progress. If one does (for example long-lead procurement), review its status in managing a stage boundary."
+      ]
+    },
+    {
+      "id": "7.2.4",
+      "heading": "Tolerances in planning",
+      "page": 105,
+      "points": [
+        "Constraints drive projects: a schedule-driven project must finish by a date; a resource-driven project must stay within authorized resources. Understand which constraints take precedence to choose approaches and tolerances.",
+        "PRINCE2 uses tolerances for benefits, time, cost, quality, scope, risks and sustainability at each plan level. The planning technique helps set tolerances that balance board control with efficient delivery by project or team managers.",
+        "Time tolerance: permissible deviation in a plan's time before escalation to the next management level. A schedule-driven project has a narrow time tolerance, possibly zero.",
+        "Cost tolerance: the same for cost. A fixed-budget project has a narrow cost tolerance, possibly zero.",
+        "Scope tolerance: the same for scope. A project new to the organization might allow some tolerance for initial support and training after acceptance.",
+        "Scenario (LouisShopping): plus or minus 40 per cent on time and cost estimates in the initiation stage, narrowed to plus or minus 20 per cent for the design stage as certainty grew."
+      ]
+    },
+    {
+      "id": "7.2.5",
+      "heading": "Product-based planning",
+      "page": 107,
+      "points": [
+        "Product-based planning: the PRINCE2 technique leading to a plan based on creating and delivering the required products.",
+        "Identify the required products first, then the most effective way to deliver them. It stops activities that do not contribute to required outputs and shows where to start. Once the products are understood it is easier to determine approach, people, resources, timelines and likely risks and issues.",
+        "Documenting products and their interdependencies reduces the risk that scope is overlooked and agrees what is and is not in scope. It simplifies identifying and sequencing work packages, and carries into stage and team plans. In an exception, it helps exception plans resolve the issue with minimal cost and schedule impact."
+      ]
+    },
+    {
+      "id": "7.3.1",
+      "heading": "The planning technique",
+      "page": 107,
+      "points": [
+        "Based on product-based planning (Figure 7.3). An alternative procedure may be used and documented as tailoring in the project initiation documentation.",
+        "Start with definition and analysis of the products, then derive supporting elements: work breakdown structure, estimates and schedule. It is not strictly sequential: scheduling and estimating are often interdependent; the budget is usually more efficient once product descriptions, work package descriptions and schedule are fairly mature.",
+        "Steps in the figure: defining and analysing products; organizing work packages; preparing estimates; preparing schedule; preparing the budget; analysing risks (throughout); documenting the plan. It is repeated for the project plan, stage plan and team plan, and covers exception plans too.",
+        "Stage and team plans are narrower but may be more detailed (a project plan schedule by month or week, a stage plan by day; skillsets in the project plan, names in a team plan).",
+        "Subordinate plans must not introduce requirements or activities that cannot be traced to the approved project plan; that is a common route to scope creep."
+      ]
+    },
+    {
+      "id": "7.3.2.1",
+      "heading": "Writing the project product description",
+      "page": 109,
+      "points": [
+        "Defining and analysing products has four steps (Figure 7.4): write the project product description (project plan only); create a product breakdown structure; write product descriptions; create a product flow diagram (the last three for all levels of plan).",
+        "Requirements are analysed in two progressive levels. In starting up a project, the major products or outcomes and key quality requirements go in the project product description, to confirm that all major products needed for the user's outcomes are identified and none unnecessary are included.",
+        "Project product description: a description of the project's major products or outcomes, including the user's quality expectations, with acceptance criteria and acceptance methods for the project.",
+        "High-level acceptance criteria should be objectively measurable where feasible. Descriptive statements are allowed if the project brief says they will be turned into precise criteria while developing product descriptions, which also enables effective quality tolerances.",
+        "Alternative solutions and approaches may be considered, at high level only."
+      ]
+    },
+    {
+      "id": "7.3.2.2",
+      "heading": "Creating a product breakdown structure",
+      "page": 110,
+      "points": [
+        "Product breakdown structure: a hierarchy of all the products to be produced during a plan. Each product is divided into components and requirements for them collected.",
+        "It can show external products the project depends on (Figure 7.5: revised bus routes and timetable, rail timetable and park and ride for the shopping mall).",
+        "It groups requirements that belong together (plumbing requirements are interrelated; wall finishes largely independent) and requirements related to the same procurement or delivery method (buying the land versus building the house).",
+        "Consider different states of a product (design, construction, interior finishing), since each may have quality specifications."
+      ]
+    },
+    {
+      "id": "7.3.2.3",
+      "heading": "Writing product descriptions",
+      "page": 111,
+      "points": [
+        "In initiating a project, products are described in more detail. The project manager elicits the user's requirements and consults experts on how products are procured, developed, tested, used and supported after acceptance, in one or more product descriptions. The aim is enough detail for realistic scheduling and estimating.",
+        "It may be iterative. Linear-sequential: detailed enough to estimate cost and time with confidence. Iterative-incremental: detailed requirements may develop alongside the products, so a high-level set may suffice to start the stage.",
+        "Constraints mean not every user expectation can be met (a high-energy option may conflict with sustainability limits), so prioritize quality specifications for each product."
+      ]
+    },
+    {
+      "id": "7.3.2.4",
+      "heading": "Creating a product flow diagram",
+      "page": 111,
+      "points": [
+        "Product flow diagram: a diagram showing the sequence of production and interdependencies of the products in the product breakdown structure.",
+        "Intermediate products are essential inputs to another product but not for use by the user (a prototype). Both intermediate and final products, and dependencies on external products, belong in the flow diagram and breakdown structure.",
+        "It leads to the activities needed and provides information for estimating and scheduling. It needs a clear starting point and end point and a level of detail suited to cost, duration and scale, usually with subject matter experts.",
+        "The project manager and senior user may use it to see when outputs begin to affect outcomes so benefit realization can start to be measured. Products can be coloured by completion stage."
+      ]
+    },
+    {
+      "id": "7.3.2.5",
+      "heading": "Organizing work packages",
+      "page": 113,
+      "points": [
+        "The flow diagram helps decide whether to deliver linearly or iteratively. Then delivery activities for each product are organized into work packages. Each should combine closely related people, resources and activities and create at least one end product or an intermediate product that is an input to a later work package.",
+        "Dependency: one product depends on another. Internal dependency: between two project products, which the team controls. External dependency: between a project product and a product or activity outside scope; the team does not fully control it.",
+        "All dependencies in the flow diagram must be documented in the work package description. A work package description is an agreement between the project manager and team manager even with no contract.",
+        "No overlap in the scope of any two work packages. Together they should cover the full delivery scope, with no gaps between the flow diagram, breakdown structure and set of work packages.",
+        "It can help to put project management activities into a single work package per stage, even if not in the project budget.",
+        "The work breakdown structure maps work packages to the teams or suppliers responsible, helps with mixed internal and external delivery, describes labour costs by skills, effort and duration, and supports team plans. Optional for simple projects with one or two products or work packages and small teams."
+      ]
+    },
+    {
+      "id": "7.3.2.6",
+      "heading": "Preparing estimates",
+      "page": 114,
+      "points": [
+        "Plan using estimates of: people (skills, effort, when and where); resources (materials, equipment, facilities, access, natural resources, money); duration of activities; cost of people and resources; benefits (value of enabled outcomes); risk (proximity, probability, velocity, impact and responses).",
+        "Include a level of confidence with every estimate. Higher confidence means fewer unexpected variations and helps the manager and board agree realistic tolerances."
+      ]
+    },
+    {
+      "id": "7.3.2.7",
+      "heading": "Preparing a schedule",
+      "page": 114,
+      "points": [
+        "Schedule: a graphical representation of a plan (such as a Gantt chart), typically showing a sequence of tasks with resource allocations that together deliver the plan.",
+        "It captures the sequencing, interrelationships and duration of work packages and tasks. All work packages for a stage must be in the stage's schedule.",
+        "A work package has one or more delivery activities, which break down into tasks with people, resources, effort and duration. Use the planning horizon and stage plans to elaborate the schedule as effort and duration become better understood."
+      ]
+    },
+    {
+      "id": "7.3.2.8",
+      "heading": "Preparing the budget",
+      "page": 115,
+      "points": [
+        "The budget is built from people and resource requirements and their costs. It should include: costs of activities to produce and deliver the products and of project management; the risk budget; the change budget; cost tolerances.",
+        "Resource: the goods, services, equipment, materials, facilities and funding required to complete a plan.",
+        "Different components may document the budget (test facility time in the schedule, capital funding in the project budget). Separate risk and change budgets are optional, depending on whether the extra control is worth the cost and time."
+      ]
+    },
+    {
+      "id": "7.3.2.9",
+      "heading": "Analysing risks",
+      "page": 115,
+      "points": [
+        "Analyse the plan for risks throughout planning as detail evolves. Enter all identified risks in the risk register in the project log.",
+        "A finished plan remains a draft until decisions are made on whether and how to treat its inherent risks; the plan may then need modifying."
+      ]
+    },
+    {
+      "id": "7.3.2.10",
+      "heading": "Documenting the plan",
+      "page": 115,
+      "points": [
+        "The technique produces several management products that together make up the plan. Schedule and budget may sit in separate systems; the product breakdown structure, product flow diagram and work breakdown structure may be in documents, spreadsheets or planning tools.",
+        "A narrative document should explain the plan at high level: internal and external dependencies; proposed tolerances; monitoring and control requirements; budgets; key risks; and the assumptions behind them. A project plan also describes the stages and planned board decisions."
+      ]
+    },
+    {
+      "id": "7.3.3.1",
+      "heading": "Prioritizing",
+      "page": 116,
+      "points": [
+        "Projects rarely have the money, time or resources to deliver everything, even if it is all justified, so scope (including acceptance criteria and quality specifications) must be prioritized.",
+        "Ways: must-have, should-have, could-have, won't-have; a product backlog; pairwise comparison; the Kano model (delighters, performance features, essentials); Eisenhower matrices (importance versus urgency, or value versus ease).",
+        "Prioritization helps define scope tolerances, supporting manage by exception."
+      ]
+    },
+    {
+      "id": "7.3.3.2",
+      "heading": "Scheduling",
+      "page": 116,
+      "points": [
+        "Techniques: Gantt chart (duration of tasks against time; good for many activities and milestones); spreadsheet (simple projects, hard to maintain for large or changing ones); product checklist (major products with key dates; planned versus actual summarizes delivery performance); activity flow board (how each product progresses through work, used in Kanban boards and iterative-incremental projects).",
+        "Float (slack): the time an activity can be delayed without affecting the plan's completion. A schedule with zero float everywhere is high risk of delay and time tolerance exception.",
+        "Critical path: the sequence of activities from start to end with the least total float; any delay beyond float on it overruns the schedule. It ignores resource limits, so also identify the critical chain: the sequence of tasks that, given available resources, prevents completion in a shorter time (for example no outdoor work at weekends).",
+        "Knowing the constraints lets the project manager spot potential exceptions and avoid them by using float or resource flexibility."
+      ]
+    },
+    {
+      "id": "7.3.4",
+      "heading": "Estimating",
+      "page": 117,
+      "points": [
+        "Top-down: estimate major products and work packages with high confidence, then allocate to subordinate elements. Suits iterative-incremental projects with fixed timeframes and resources.",
+        "Bottom-up: estimate individual products, components, activities or tasks at the lowest level and aggregate. Useful when lower-level elements are understood but combined in a way unique to the project.",
+        "Comparative: based on similar projects or open market information when work is well understood and common. Parametric: uses empirical data and models (such as construction) with values like the number, units or size of a structure.",
+        "Data analytics: descriptive and predictive analytics to improve estimates, needing project, business or data trust data. Subject matter expertise: consensus techniques such as Delphi and planning poker.",
+        "Large complex projects often use several techniques and may seek specialist cost estimators."
+      ]
+    },
+    {
+      "id": "7.4.1",
+      "heading": "Organizational context",
+      "page": 118,
+      "points": [
+        "Planning is shaped by policies, procedures and support (for example capital investment procedures; public bodies may need regulatory compliance and transparent records).",
+        "Scenario (Findef): moving to sell direct to consumers brought consumer protection regulation; a study fed requirements into product descriptions and extra compliance reviews into stage plans.",
+        "In a programme, the programme team may support or lead planning, provide planners and templates, influence number and length of stages (align reviews to milestones such as tranche ends, or set standard stages), and the programme delivery plan shows dependencies between projects' products that must be in the project's plans."
+      ]
+    },
+    {
+      "id": "7.4.2",
+      "heading": "Commercial context",
+      "page": 118,
+      "points": [
+        "Align work packages with their responsible suppliers, internal or external. A formal agreement may reflect the arrangement.",
+        "A back-to-back agreement requires the supplier's plans to trace to the user's project plan and align with the acceptance criteria and quality specifications approved by the board. It states how plans are produced, the user's inspection and audit rights, and that the supplier's plan has enough activities or milestones for the user's project manager to maintain their plans.",
+        "Plans may be confidential to the other party (dependencies on other clients' projects, subcontractor costs), so prepare shareable non-confidential versions. Include procurement milestones such as purchase orders and milestone payments aligned with each stage.",
+        "Scenario (Findef): hybrid approach; procurement of services completed in stage 2 through a request for proposals, supplier presentations and weighted criteria assessment."
+      ]
+    },
+    {
+      "id": "7.4.3",
+      "heading": "Delivery method",
+      "page": 119,
+      "points": [
+        "Linear-sequential: most planning up front in starting up and initiating, as products are well understood and delivery mature; estimates have high confidence; stage and team plans refine them, and the project plan usually changes only on a project-level exception.",
+        "Iterative-incremental: focuses on how much can be produced in a fixed period (sprint or timebox) to deliver an initial product quickly and improve it.",
+        "Common agile planning: set tolerances for each iteration that fix time and cost and flex scope; write the project product description as outcomes and benefits; use user stories, epics and product backlogs instead of product descriptions; set the length of releases or timeboxes and define them as stages; estimate resources per stage and prepare the budget; combine backlog and workflow in a collaborative tool such as a Kanban board, which may replace a team plan.",
+        "Plans are reviewed and updated each cycle, in a collaborative tool.",
+        "Scenario (Data Knowledge): fixed three-month time and budget split into two-week timeboxes; performance reviewed and backlog refined after each."
+      ]
+    },
+    {
+      "id": "7.4.4",
+      "heading": "Sustainability",
+      "page": 120,
+      "points": [
+        "Three ways plans address sustainability: product sustainability (environmental impact over the full lifecycle, including disposal); delivery sustainability (choices in work packages and stages affecting climate impact; agree sustainability tolerances to keep fuel use and waste aligned with strategy); benefits sustainability (benefits outlast the project, and may fail without means to sustain them such as ongoing training and support; identify requirements for it)."
+      ]
+    },
+    {
+      "id": "7.4.5",
+      "heading": "Scale",
+      "page": 120,
+      "points": [
+        "Product-based planning always applies, but effort scales with the project. Factors: duration (longer projects change more, key people turn over, so plans should aid orientation and continuity and the change budget); team size (large dispersed teams need more support and accessible tools); complexity (simple projects can use a milestone list or slide, complex ones need scheduling applications); novelty (more uncertainty, so use prototyping or iterative-incremental delivery); cost (planning effort should match project cost and can be ten per cent or more of overall cost).",
+        "Scenario: LouisShopping (three financial years) needs high-level overall plus detailed stage planning; NowByou's six-month campaign can use a single project plan timeframe."
+      ]
+    },
+    {
+      "id": "7.5",
+      "heading": "Management products",
+      "page": 121,
+      "points": [
+        "Plan: provides a proposal outlining the what, where, when, how and by whom; when approved it is a baseline to measure progress and assess issues. Content: scope; dependencies; planning assumptions and prerequisites; lessons incorporated; products to be delivered; work to be performed; budget (including risk and change budgets); schedule; targets and tolerances (scope, cost, time; stage and team plans may also have sustainability and risk tolerances); monitoring, control and reporting arrangements.",
+        "Project product description: describes the major products and their purpose, including user quality expectations and the acceptance criteria and methods. Created in starting up a project and refined in initiating a project. Content: purpose; major products; derivation; user's quality expectations; acceptance criteria (prioritized); acceptance methods and responsibilities; project-level quality tolerances.",
+        "Work package description: describes how one or more products will be produced and delivered, and formally passes responsibility for work to a team manager or member. Content: description of work; team manager or person authorized; product descriptions; techniques and procedures; change control requirements; constraints; monitoring, control and reporting; targets and tolerances (scope, cost, time); references; approval; agreement (a record of initial authorization and final completion between project manager and team manager)."
+      ]
+    },
+    {
+      "id": "7.6",
+      "heading": "Focus of key roles",
+      "page": 124,
+      "points": [
+        "Business layer: sets project tolerances (in the project mandate or confirmed for the project brief); approves exception plans when project-level tolerances are forecast to be exceeded; provides planning standards.",
+        "Project executive: approves the project plan; sets stage tolerances and approves stage plans; approves exception plans when stage-level tolerances are forecast to be exceeded; commits business people and resources to stage plans.",
+        "Senior user: advises on project and stage plans, keeps them consistent with the user perspective, commits user people and resources (operational staff, test environment). Senior supplier: advises on project and stage plans and work package descriptions, keeps them consistent with the supplier perspective, commits supplier people and resources.",
+        "Project manager: designs the plans; prepares the project plan, stage plans and work package descriptions; decides how stages and delivery steps apply; instructs corrective action when work package tolerances are forecast to be exceeded; prepares an exception plan after the board's decision on an exception report.",
+        "Team manager: assists with work package descriptions, prepares team plans and schedules for each work package. Project assurance: reviews feasibility of stage and project plans against targets and tolerances and reviews changes for impact on business needs or the business case. Project support: helps compile plans, contributes specialist expertise (planning tools), baselines, stores and distributes plans."
+      ]
+    },
+    {
+      "id": "7.7",
+      "heading": "Key relationships with principles",
+      "page": 125,
+      "points": [
+        "Continued business justification: plan targets aligned to business case objectives and estimates the board can use to confirm viability. Learn from experience: lessons inform planning, and planning lessons are shared. Define roles: roles specific to a plan, work packages and teams organized by context and delivery method.",
+        "Manage by stages: stages accommodate planning horizons and align to decision points. Manage by exception: plan levels (project, stage, team) with targets and tolerances. Focus on products: all plans based on required products and the best way to deliver them, avoiding unnecessary work. Tailor: only planning activities and plans appropriate to the project."
+      ]
+    }
+  ],
+  "terms": [
+    { "term": "Plan", "definition": "A proposal that outlines the what, where, when, how and who of the project as a whole or a subset of its activities. Types: project plan, stage plan, team plan, exception plan.", "page": 98 },
+    { "term": "Scope", "definition": "The sum of the product, delivery and management activities represented by an approved plan and its product descriptions and work package descriptions.", "page": 99 },
+    { "term": "Project plan", "definition": "A high-level plan showing the major products of the project and when, how and at what cost they will be delivered.", "page": 101 },
+    { "term": "Stage plan", "definition": "A detailed plan used as the basis for project management control throughout a stage.", "page": 102 },
+    { "term": "Team plan", "definition": "A plan used as the basis for organizing and controlling the work of a team when executing a work package. Optional in PRINCE2.", "page": 103 },
+    { "term": "Exception plan", "definition": "A plan that follows an exception report and explains how the project will respond to the exception within the stage.", "page": 103 },
+    { "term": "Product-based planning", "definition": "The PRINCE2 technique that leads to a plan based on the creation and delivery of the required products.", "page": 107 },
+    { "term": "Project product description", "definition": "A description of the project's major products or outcomes, including the user's quality expectations, together with the acceptance criteria and acceptance methods for the project.", "page": 109 },
+    { "term": "Product breakdown structure", "definition": "A hierarchy of all the products to be produced during a plan.", "page": 110 },
+    { "term": "Product flow diagram", "definition": "A diagram showing the sequence of production and interdependencies of the products listed in a product breakdown structure.", "page": 111 },
+    { "term": "Dependency", "definition": "One product depends on another. Internal: between two products of a project. External: between a project product and a product or activity outside the project's scope.", "page": 113 },
+    { "term": "Schedule", "definition": "A graphical representation of a plan (such as a Gantt chart), typically describing a sequence of tasks together with resource allocations that collectively deliver the plan.", "page": 114 },
+    { "term": "Resource", "definition": "The goods, services, equipment, materials, facilities and funding required to complete a plan.", "page": 115 }
+  ],
+  "cards": [
+    { "id": "ch07-c01", "front": "Purpose of the plans practice?", "back": "To facilitate communication and control by defining the products to deliver (what) and the means to deliver them (who, how, where, when, how much) to satisfy the business case (why).", "page": 98 },
+    { "id": "ch07-c02", "front": "The four types of PRINCE2 plan?", "back": "Project plan, stage plan, team plan and exception plan.", "page": 98 },
+    { "id": "ch07-c03", "front": "The three perspectives a plan integrates?", "back": "User expectations; the management team's assessment of the best approach; business support (funding, people, resources).", "page": 98 },
+    { "id": "ch07-c04", "front": "Define scope.", "back": "The sum of the product, delivery and management activities represented by an approved plan and its product and work package descriptions.", "page": 99 },
+    { "id": "ch07-c05", "front": "What is the planning horizon?", "back": "The period for which it is possible to plan with reasonable confidence. Plans beyond it add uncertainty and risk.", "page": 99 },
+    { "id": "ch07-c06", "front": "Which principle keeps plans within reasonable planning horizons?", "back": "Manage by stages.", "page": 100 },
+    { "id": "ch07-c07", "front": "Define the project plan.", "back": "A high-level plan showing the major products and when, how and at what cost they will be delivered.", "page": 101 },
+    { "id": "ch07-c08", "front": "When is the project plan created and baselined?", "back": "Created in initiating a project; baselined when the project board approves it.", "page": 102 },
+    { "id": "ch07-c09", "front": "Define the stage plan.", "back": "A detailed plan used as the basis for project management control throughout a stage.", "page": 102 },
+    { "id": "ch07-c10", "front": "Sign that a project is at risk of scope creep in planning?", "back": "Activities or products in a stage plan that cannot be linked back to a high-level element of the project plan.", "page": 102 },
+    { "id": "ch07-c11", "front": "When are stage plans prepared?", "back": "The initiation stage plan in starting up a project; later ones near the end of the current stage.", "page": 102 },
+    { "id": "ch07-c12", "front": "Are team plans mandatory?", "back": "No. They are optional, produced by a team manager.", "page": 103 },
+    { "id": "ch07-c13", "front": "Define the exception plan and when it is used.", "back": "A plan following an exception report explaining how the project will respond within the stage, if the board decides to address it within the stage.", "page": 103 },
+    { "id": "ch07-c14", "front": "What if resolving an exception needs action beyond the current stage?", "back": "It must be handled through a change to the project plan.", "page": 103 },
+    { "id": "ch07-c15", "front": "Minimum stages for a simple project?", "back": "Two: an initiation stage and a single delivery stage.", "page": 104 },
+    { "id": "ch07-c16", "front": "Trade-off in the number of stages?", "back": "More stages give more control but every stage boundary takes management effort.", "page": 104 },
+    { "id": "ch07-c17", "front": "Factors in the length of stages?", "back": "Complexity, risk, planning horizon, decision points, and alignment with programme activities.", "page": 104 },
+    { "id": "ch07-c18", "front": "Do PRINCE2 stages overlap?", "back": "No. They partition the project with stop-go decision points.", "page": 105 },
+    { "id": "ch07-c19", "front": "Why avoid work packages spanning a stage boundary?", "back": "Decisions at boundaries could cause repeated work or waste on work in progress. If one does, review its status in managing a stage boundary.", "page": 105 },
+    { "id": "ch07-c20", "front": "Schedule-driven versus resource-driven project?", "back": "Schedule-driven must complete by a date; resource-driven must stay within authorized resources. Each gives narrow tolerances on its constraint.", "page": 105 },
+    { "id": "ch07-c21", "front": "Define time, cost and scope tolerance.", "back": "The permissible deviation in a plan's time, cost or scope before it must be escalated to the next management level.", "page": 106 },
+    { "id": "ch07-c22", "front": "Define product-based planning.", "back": "The PRINCE2 technique leading to a plan based on creation and delivery of the required products.", "page": 107 },
+    { "id": "ch07-c23", "front": "Steps of the PRINCE2 planning technique?", "back": "Defining and analysing products; organizing work packages; preparing estimates; schedule; budget; documenting the plan, with analysing risks throughout.", "page": 108 },
+    { "id": "ch07-c24", "front": "Four steps of defining and analysing products?", "back": "Write the project product description (project plan only); create a product breakdown structure; write product descriptions; create a product flow diagram.", "page": 109 },
+    { "id": "ch07-c25", "front": "Define project product description.", "back": "A description of the project's major products or outcomes with user quality expectations, acceptance criteria and acceptance methods.", "page": 109 },
+    { "id": "ch07-c26", "front": "Define product breakdown structure.", "back": "A hierarchy of all the products to be produced during a plan.", "page": 110 },
+    { "id": "ch07-c27", "front": "Define product flow diagram.", "back": "A diagram showing the sequence of production and interdependencies of the products in the product breakdown structure.", "page": 111 },
+    { "id": "ch07-c28", "front": "What is an intermediate product?", "back": "A product essential as input to another product but not intended for the user, such as a prototype.", "page": 111 },
+    { "id": "ch07-c29", "front": "Internal versus external dependency?", "back": "Internal: between two project products, under the team's control. External: between a project product and something outside scope, not fully controlled.", "page": 113 },
+    { "id": "ch07-c30", "front": "What must each work package do?", "back": "Combine closely related people, resources and activities and create at least one end product or an intermediate product for a later work package. No overlap between work packages.", "page": 113 },
+    { "id": "ch07-c31", "front": "Six things estimated in planning?", "back": "People, resources, duration of activities, cost of people and resources, benefits, and risk.", "page": 114 },
+    { "id": "ch07-c32", "front": "Why include a level of confidence with an estimate?", "back": "Higher confidence means fewer unexpected variations and helps agree realistic tolerances.", "page": 114 },
+    { "id": "ch07-c33", "front": "Define schedule.", "back": "A graphical representation of a plan (such as a Gantt chart) showing a sequence of tasks with resource allocations.", "page": 114 },
+    { "id": "ch07-c34", "front": "What should a plan's budget include?", "back": "Activity costs including project management, the risk budget, the change budget and cost tolerances. Separate risk and change budgets are optional.", "page": 115 },
+    { "id": "ch07-c35", "front": "Where are risks identified during planning recorded?", "back": "In the risk register in the project log.", "page": 115 },
+    { "id": "ch07-c36", "front": "Prioritization techniques?", "back": "Must/should/could/won't have; product backlog; pairwise comparison; the Kano model; Eisenhower matrices.", "page": 116 },
+    { "id": "ch07-c37", "front": "Scheduling techniques?", "back": "Gantt chart, spreadsheet, product checklist, activity flow board.", "page": 116 },
+    { "id": "ch07-c38", "front": "Float versus critical path versus critical chain?", "back": "Float: delay possible without affecting completion. Critical path: activities with least total float. Critical chain: task sequence that, given available resources, prevents a shorter completion.", "page": 117 },
+    { "id": "ch07-c39", "front": "Estimating techniques?", "back": "Top-down, bottom-up, comparative, parametric, data analytics, subject matter expertise (such as Delphi, planning poker).", "page": 117 },
+    { "id": "ch07-c40", "front": "What is a back-to-back agreement?", "back": "A supplier agreement requiring supplier plans to trace to the user's project plan and align with approved acceptance criteria and quality specifications.", "page": 119 },
+    { "id": "ch07-c41", "front": "Typical agile planning approach in PRINCE2?", "back": "Set tolerances fixing time and cost with flexible scope; outcomes-based project product description; user stories, epics and backlogs; timeboxes defined as stages; Kanban board possibly in place of a team plan.", "page": 119 },
+    { "id": "ch07-c42", "front": "Three ways plans address sustainability?", "back": "Product sustainability, delivery sustainability and benefits sustainability.", "page": 120 },
+    { "id": "ch07-c43", "front": "Management products of the plans practice?", "back": "Plan, project product description, work package description.", "page": 121 },
+    { "id": "ch07-c44", "front": "Purpose of a work package description?", "back": "To describe how one or more products will be produced and delivered, and to pass responsibility formally to a team manager or member.", "page": 122 },
+    { "id": "ch07-c45", "front": "Who approves the project plan, and who sets stage tolerances?", "back": "The project executive does both and also approves stage plans. The business layer sets project tolerances.", "page": 124 },
+    { "id": "ch07-c46", "front": "Who prepares the project plan, stage plans and work package descriptions?", "back": "The project manager. Team managers prepare team plans and work package schedules.", "page": 124 }
+  ]
+}
